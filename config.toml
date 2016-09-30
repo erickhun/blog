@@ -1,5 +1,5 @@
 baseurl = "https://erickhun.github.io/blog"
-title = "I'm Eric, Software Engineer at Buffer"
+title = "Hi, I'm Eric :)"
 languageCode = "en-us"
 theme = "startbootstrap-clean-blog"
 paginate = 10
