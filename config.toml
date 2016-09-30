@@ -1,3 +1,6 @@
 baseurl = "http://erickhun.github.io/"
-languageCode = "en-us"
 title = "My New Hugo Site"
+languageCode = "en-us"
+theme = "startbootstrap-clean-blog"
+paginate = 10
+copyright = "Code released under the Apache 2.0 license."
