@@ -1,5 +1,5 @@
 baseurl = "https://erickhun.github.io/blog"
-title = "My New Hugo Site"
+title = "Eric's New Blog"
 languageCode = "en-us"
 theme = "startbootstrap-clean-blog"
 paginate = 10
@@ -10,7 +10,17 @@ copyright = "Code released under the Apache 2.0 license."
 
 [params]
   DateForm = "Mon, Jan 2, 2006"
-  Description = "Your site description"
+  Description = "My thougts"
   Author = "Eric Khun"
   email = "hello [ at ] erickhun.com"
   Ganalytics = "XX-00000000-0"
+
+[[params.social]]
+  title = "twitter"
+  url = "https://twitter.com/erickhun"
+[[params.social]]
+  title = "github"
+  url = "https://github.com/erickhun"
+[[params.social]]
+  title = "facebook"
+  url = "https://www.facebook.com/eric.khun"
