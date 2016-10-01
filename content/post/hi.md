@@ -2,7 +2,7 @@
 categories = ["fluff"]
 date = "2016-10-01T02:00:06+02:00"
 description = ""
-draft = true
+draft = false
 image = "/img/about-bg.jpg"
 tags = [""]
 title = "hi"
