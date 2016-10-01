@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fluff on Hi, I&#39;m Eric :)</title>
+    <link>https://erickhun.github.io/blog/categories/fluff/</link>
+    <description>Recent content in Fluff on Hi, I&#39;m Eric :)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Code released under the Apache 2.0 license.</copyright>
+    <lastBuildDate>Sat, 01 Oct 2016 02:00:06 +0200</lastBuildDate>
+    <atom:link href="https://erickhun.github.io/blog/categories/fluff/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hi, I&#39;m Eric :)</title>
+      <link>https://erickhun.github.io/blog/post/hi/</link>
+      <pubDate>Sat, 01 Oct 2016 02:00:06 +0200</pubDate>
+      
+      <guid>https://erickhun.github.io/blog/post/hi/</guid>
+      <description>&lt;p&gt;Hi there, thanks for passing by! I&amp;rsquo;m Eric, engineer at &lt;a href=&#34;https://buffer.com&#34;&gt;Buffer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I remember writting a blog in French few years ago in high school. I&amp;rsquo;m not really sure what it was about, certainly about technology and me being intrigued about internet. For some reasons, I stopped writting, but always wanted to get back at it&lt;/p&gt;
+
+&lt;p&gt;So Why?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I have the chance to work at &lt;a href=&#34;https://buffer.com&#34;&gt;Buffer&lt;/a&gt;. I&amp;rsquo;d love to share some of my thoughts, challenges, or even fun I or we have. I&amp;rsquo;m sure there is a lot to say!&lt;/li&gt;
+&lt;li&gt;I&amp;rsquo;m travelling quite a bit, I&amp;rsquo;d like share a little bit of the place I&amp;rsquo;m visiting&lt;/li&gt;
+&lt;li&gt;The period we&amp;rsquo;re living in is just mind blowing. So many new technolgies are invented everyday, IA, space travel, education, biotech etc&amp;hellip; and so many to say about it&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Let&amp;rsquo;s see where it goes!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
