@@ -51,9 +51,6 @@ How to stop making excuses? here some actions that works for me:
 * Find  a gym really near your home. I took the subscribtion that were 10 minutes walking from my home.  It's a bit more expensive, and not as good as the one 20 minutes by subway. But I wouldn't make the "it's too far", or "I don't have time" excuses.
 * Try to get into the habits to got to the gym. For me it's Monday/Wednesday/Friday at 4pm. When it become an habits, you don't even think about it. 
 
-
-
-
 ##Benefits of working out
 Overall, I can see and feel many benefits of my regular work out:
 
