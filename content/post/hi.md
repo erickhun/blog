@@ -1,10 +1,10 @@
 +++
-categories = ["fluff"]
+categories = ["Thoughts"]
 date = "2016-10-01T02:00:06+02:00"
 description = ""
 draft = false
 image = "/img/about-bg.jpg"
-tags = [""]
+tags =  ["thoughts", "fluff", "life"]
 title = "Hi, I'm Eric :)"
 
 +++
