@@ -37,14 +37,14 @@ I'm also using their app that guide me though each exercice. I use it everytime 
 
 So each time you I go to the gym I have the feeling that I am  <b>doubled satisfied</b>:
 
-* I progressed since the previous session. I lift heavier, so have a great feeling at about that. That's some small wins .
+* I progressed since the previous session. I lift heavier, so have a great feeling at about that
 * Each session helps me reach my final goal I'm working toward 
 
 
 ## Remove all the barriers 
 We often make excuses. I did, and still do lot of excuses to not go to the gym: "It's too far", "I'm tired", "I ate too much", "It's too late". 
 
-How to stop making excuses? here some actions that works for me:
+How to stop making excuses? Here some actions that works for me:
 
 * Set goals, challenge yourself, your motivation will get higher. 
 * Seeing your progress (with the growing graph form) also helps me a lot. Having those daily small wins keep me going and build momentum toward my final goal
