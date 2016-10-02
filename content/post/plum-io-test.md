@@ -3,7 +3,7 @@ categories = ["career", "self-improvement"]
 date = "2016-10-02T17:35:00+02:00"
 description = ""
 draft = false
-image = "/img/plum_io.jpg"
+image = "/img/plum-io.jpg"
 tags = ["career", "self-improvement"]
 title = "I did a Plum.io test"
 
