@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Thoughts on Hi, I&#39;m Eric :)</title>
-    <link>https://erickhun.github.io/blog/tags/thoughts/</link>
-    <description>Recent content in Thoughts on Hi, I&#39;m Eric :)</description>
+    <title>Thoughts on Eric Khun</title>
+    <link>http://erickhun.com/tags/thoughts/</link>
+    <description>Recent content in Thoughts on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Code released under the Apache 2.0 license.</copyright>
     <lastBuildDate>Sat, 01 Oct 2016 02:00:06 +0200</lastBuildDate>
-    <atom:link href="https://erickhun.github.io/blog/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://erickhun.com/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hi, I&#39;m Eric :)</title>
-      <link>https://erickhun.github.io/blog/post/hi/</link>
+      <link>http://erickhun.com/post/hi/</link>
       <pubDate>Sat, 01 Oct 2016 02:00:06 +0200</pubDate>
       
-      <guid>https://erickhun.github.io/blog/post/hi/</guid>
+      <guid>http://erickhun.com/post/hi/</guid>
       <description>&lt;p&gt;Hi there, thanks for passing by! I&amp;rsquo;m Eric, engineer at &lt;a href=&#34;https://buffer.com&#34;&gt;Buffer&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I remember writting a blog in French few years ago in high school. I&amp;rsquo;m not really sure what it was about, certainly about technology and me being intrigued about internet. For some reasons, I stopped writting, but always wanted to get back at it&lt;/p&gt;

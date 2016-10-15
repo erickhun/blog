@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sport on Hi, I&#39;m Eric :)</title>
-    <link>https://erickhun.github.io/blog/tags/sport/</link>
-    <description>Recent content in Sport on Hi, I&#39;m Eric :)</description>
+    <title>Sport on Eric Khun</title>
+    <link>http://erickhun.com/tags/sport/</link>
+    <description>Recent content in Sport on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Code released under the Apache 2.0 license.</copyright>
     <lastBuildDate>Sat, 01 Oct 2016 11:51:22 +0200</lastBuildDate>
-    <atom:link href="https://erickhun.github.io/blog/tags/sport/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://erickhun.com/tags/sport/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>fitness is the first step to greatness</title>
-      <link>https://erickhun.github.io/blog/post/fitness-is-the-first-step-to-greatness/</link>
+      <link>http://erickhun.com/post/fitness-is-the-first-step-to-greatness/</link>
       <pubDate>Sat, 01 Oct 2016 11:51:22 +0200</pubDate>
       
-      <guid>https://erickhun.github.io/blog/post/fitness-is-the-first-step-to-greatness/</guid>
+      <guid>http://erickhun.com/post/fitness-is-the-first-step-to-greatness/</guid>
       <description>
 
 &lt;blockquote&gt;
@@ -35,7 +34,7 @@ What is wrong with that? My motivation kept lowering week after week. I went to 
 
 &lt;p&gt;At &lt;a href=&#34;https://buffer.com&#34;&gt;Buffer&lt;/a&gt;, we&amp;rsquo;re lucky to have a slack channel called #improvements-fitness where bufferoos talk about their improvements and everything fitness related. I started to dig into the channel history and found a program that was quoted many times: &lt;a href=&#34;http://stronglifts.com&#34;&gt;Stronglift 5x5&lt;/a&gt; . After a quick look, it looked quite simple, and it allows you to progress quickly without having much knowledge!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://erickhun.github.io/blog/blog/img/buffer-stronglift.jpg&#34; alt=&#34;Buffer and Stronglift 5x5&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://erickhun.com/blog/img/buffer-stronglift.jpg&#34; alt=&#34;Buffer and Stronglift 5x5&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I decided to go for it and started to setup mesurable goals: &lt;b&gt;In 1 year, I want to Squat 105KG, Bench Press 80kg and Deadlift 125KG&lt;/b&gt;. If you&amp;rsquo;re curious about what you&amp;rsquo;d be able to lift &lt;a href=&#34;http://www.exrx.net/Testing/WeightLifting/StrengthStandards.html&#34;&gt;here the table that helped me to chose those metrics&lt;/a&gt;.&lt;/p&gt;
 
@@ -43,7 +42,7 @@ What is wrong with that? My motivation kept lowering week after week. I went to 
 
 &lt;p&gt;I&amp;rsquo;m also using their app that guide me though each exercice. I use it everytime during my exercice. It keeps me focus, has a timer telling me how long I need to rest, what weight to use to warmup, or many sets left. It&amp;rsquo;s like a personal trainer. The best feature of it is definitely that it shows you your progress over time, that I kind of watch at the end of each week, and makes me more motivated. Here my results:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://erickhun.github.io/blog/blog/img/stronglift-progress-3months.jpg&#34; alt=&#34;Buffer and Stronglift 5x5&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://erickhun.com/blog/img/stronglift-progress-3months.jpg&#34; alt=&#34;Buffer and Stronglift 5x5&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;So each time you I go to the gym I have the feeling that I am  &lt;b&gt;doubled satisfied&lt;/b&gt;:&lt;/p&gt;
 
