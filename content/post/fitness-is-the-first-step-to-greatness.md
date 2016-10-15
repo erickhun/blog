@@ -25,7 +25,7 @@ What is wrong with that? My motivation kept lowering week after week. I went to 
 
 At [Buffer](https://buffer.com), we're lucky to have a slack channel called #improvements-fitness where bufferoos talk about their improvements and everything fitness related. I started to dig into the channel history and found a program that was quoted many times: [Stronglift 5x5](http://stronglifts.com) . After a quick look, it looked quite simple, and it allows you to progress quickly without having much knowledge!
 
-![Buffer and Stronglift 5x5](img/buffer-stronglift.jpg)
+![Buffer and Stronglift 5x5](/img/buffer-stronglift.jpg)
 
 I decided to go for it and started to setup mesurable goals: <b>In 1 year, I want to Squat 105KG, Bench Press 80kg and Deadlift 125KG</b>. If you're curious about what you'd be able to lift [here the table that helped me to chose those metrics](http://www.exrx.net/Testing/WeightLifting/StrengthStandards.html). 
 
@@ -33,7 +33,7 @@ What's awesome with this program is that you can start from any weight and the m
 
 I'm also using their app that guide me though each exercice. I use it everytime during my exercice. It keeps me focus, has a timer telling me how long I need to rest, what weight to use to warmup, or many sets left. It's like a personal trainer. The best feature of it is definitely that it shows you your progress over time, that I kind of watch at the end of each week, and makes me more motivated. Here my results: 
 
-![Buffer and Stronglift 5x5](img/stronglift-progress-3months.jpg)
+![Buffer and Stronglift 5x5](/img/stronglift-progress-3months.jpg)
 
 So each time you I go to the gym I have the feeling that I am  <b>doubled satisfied</b>:
 
