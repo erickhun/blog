@@ -23,12 +23,10 @@ What is wrong with that? My motivation kept lowering week after week. I went to 
 
 ![No idea what I'm doing](http://i2.kym-cdn.com/photos/images/facebook/000/234/765/b7e.jpg)
 
-At [Buffer](https://buffer.com), we're lucky to have a slack channel called #improvements-fitness where bufferoos talk about their improvements and everything fitness related. I started to dig into the channel history and found a program that was quoted many times: [Stronglift 5x5](http://stronglifts.com) . After a quick look, it looked quite simple, and it allows you to progress quickly without having much knowledge!
+At [Buffer](https://buffer.com), we're lucky to have a slack channel called #improvements-fitness where bufferoos talk about their improvements and everything fitness related. I started to dig into the channel history and found a program that was quoted many times: [Stronglift 5x5](http://stronglifts.com) . After a quick look <!--more-->, it looked quite simple, and it allows you to progress quickly without having much knowledge!
 
 
 ![Buffer and Stronglift 5x5](/img/buffer-stronglift.jpg)
-
-<!--more-->
 
 I decided to go for it and started to setup mesurable goals: <b>In 1 year, I want to Squat 105KG, Bench Press 80kg and Deadlift 125KG</b>. If you're curious about what you'd be able to lift [here the table that helped me to chose those metrics](http://www.exrx.net/Testing/WeightLifting/StrengthStandards.html). 
 
