@@ -24,7 +24,7 @@ paginate = 5
     #email = ""
 
     # Sidebar profile picture
-    profilepic = "img/smugmug.jpg"
+    profilepic = "img/eric.jpg"
 
     # Title/subtitle for the sidebar
     title = "Eric KHUN"
