@@ -3,7 +3,7 @@ theme = "hugo-geo"
 relativeURLs = false
 languageCode = "en-us"
 title = "Eric Khun"
-disqusShortname = "Eric"
+disqusShortname = "Eric Khun"
 paginate = 5
 
 [taxonomies]
@@ -27,18 +27,18 @@ paginate = 5
     profilepic = "img/eric.jpg"
 
     # Title/subtitle for the sidebar
-    title = "Eric KHUN"
+    title = "Eric Khun"
     subtitle = "Software Engineer"
 
     # Nav links below the profile picture
     [[params.navlinks]]
-    name = "About"
-    url = "about/"
+    name = "Me"
+    url = "post/hi/"
 
     [[params.navlinks]]
-    name = "Blog"
-    url = "posts/"
+    name = "Posts"
+    url = "post/"
 
-    [[params.navlinks]]
-    name = "Tutorials"
-    url = "tutorial/"
+    #[[params.navlinks]]
+    #name = "Tutorials"
+    #url = "tutorial/"
