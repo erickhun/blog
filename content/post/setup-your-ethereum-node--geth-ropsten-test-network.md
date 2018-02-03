@@ -8,7 +8,7 @@ tags = ["ethereum", "blockchain", "dapp", "infrastructure", "digitalocean", "get
 title = "Setup your Ethereum node with geth on the Ropsten test network"
 +++
 
-![Ethereum logo](/img/ethereum-logo.png)
+![Ethereum logo](/img/ethereum-logo2.png)
 
 
 This is a step by step guide to setup your own Ethereum node on the Ropsten network. At the end of this guide you'll be able to: 
