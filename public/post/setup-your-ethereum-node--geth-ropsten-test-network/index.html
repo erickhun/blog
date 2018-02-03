@@ -114,6 +114,7 @@
 <li>Run your own ethereum node synced with the Ropsten testnet network</li>
 <li>Making sure to keep the node in sync with the blockchain on the network</li>
 <li>Be able to communicate via the JSON-RPC API of your own node</li>
+<li>Using the same method to run your node on the main network</li>
 </ul>
 
 <h3 id="why">Why ?</h3>
@@ -250,6 +251,12 @@ It will return :</p>
 <p>with replacing <code>X.X.X.X</code> the ip of your instance.</p>
 
 <p>Also, please understand the security implications of opening up an HTTP/WS based transport before doing so! Hackers on the internet are actively trying to subvert Ethereum nodes with exposed APIs!</p>
+
+<h3 id="run-on-the-main-ethereum-network">Run on the main Ethereum network:</h3>
+
+<p>As many may have guess, you&rsquo;ll just need to remove the <code>--testet</code> flag to all commands I&rsquo;ve shown you to be able to sync to the main Ethereum network! That&rsquo;s all!</p>
+
+<p>Also, you can change the <code>--testnet</code> flag to <code>--rinkeby</code> to use the Rinkeby network. The main differences with Ropsten are <a href="https://ethereum.stackexchange.com/a/30072">detailed here</a>.</p>
 
 <h3 id="next-blog-post">Next blog post?:</h3>
 
