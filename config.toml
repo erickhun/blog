@@ -3,7 +3,7 @@ theme = "hugo-geo"
 relativeURLs = false
 languageCode = "en-us"
 title = "Eric Khun"
-disqusShortname = "Eric Khun"
+disqusShortname = "erickhun"
 paginate = 5
 
 [taxonomies]
