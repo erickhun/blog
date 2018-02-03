@@ -22,6 +22,8 @@ This is a step by step guide to setup your own Ethereum node on the Ropsten netw
 
 - Once your dAPP and Smart Contract are working locally, you'll want to test it on a real network with (almost) real condition. 
 - There is a service called [Infura](https://infura.io), allowing you to communicate easily with Ropsten via json-rpc without having to setup your own node. However, Infura doesn't allow you to [listen to events](http://solidity.readthedocs.io/en/develop/contracts.html#events) that  your smart contract could trigger. Events are useful when you want start to do some fancy thing like real time data replication on a second database or simply notify your users in your [dApp](https://ethereum.stackexchange.com/tags/dapp-development/info). If you do not need events, you should definitely use Infura :)
+- An other reason would be to mine some new block and earn some money. But I won't cover that topic here
+
 
 ### Prerequisite : 
 - Your own server. I have a [Digital Ocean](https://m.do.co/c/8cd97ac64536) one with Ubuntu ubuntu 16.04. If you're a student, you can have a nice [$50 free credits for testing purpose](https://education.github.com/pack).
