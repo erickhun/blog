@@ -148,10 +148,12 @@ Also, please understand the security implications of opening up an HTTP/WS based
 As many may have guess, you'll just need to remove the `--testet` flag to all commands I've shown you to be able to sync to the main Ethereum network! That's all!
 
 Also, you can change the `--testnet` flag to `--rinkeby` to use the Rinkeby network. The main differences with Ropsten are [detailed here](https://ethereum.stackexchange.com/a/30072).
+ 
+ ### Curious about what I'm building?:
+I'm building a side project based on the ethereum network. Wondering what is it?  [Follow me on Twitter](https://twitter.com/eric_khun) :)
 
 ### Next blog post?:
 I hope this guide was helpful for anyone starting. Please let me know if there is any mistakes. I'm also thinking writing about:
 
  - How to run easily your own ETH blockchain with `truffle` and `ganache` on a remote server. That one is useful if you do not want to sync the full chain, and have the same blockchain available quickly for your teamate.
  - How to have a realtime data replication of your smart contract using events to an other DB. That one could be useful because querying the Ethereum blockchain might not be as fast and easy as we wish :)
- 
