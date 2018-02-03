@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="">
+    <meta property="og:title" content="Setup you own Etheureum Ropsten test node with geth">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2018-02-03">
+    
+    <meta property="og:description" content="">
+    <meta property="og:url" content="http://erickhun.com/post/setup-your-own-ethereum-node-for-ropsten/">
+    <meta property="og:site_name" content="Eric Khun">
+    
+    <meta property="og:tags" content="ethreum">
+    
+    <meta property="og:tags" content="blockchain">
+    
+    <meta property="og:tags" content="dapp">
+    
+    <meta property="og:tags" content="infrastructure">
+    
+    <meta property="og:tags" content="digitalocean">
+    
+    <meta property="og:tags" content="geth">
+    
+    <meta name="generator" content="Hugo 0.35" />
+    <title>Setup you own Etheureum Ropsten test node with geth &middot; Eric Khun</title>
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="http://erickhun.com/css/style.css">
+    <link href="" rel="alternate" type="application/rss+xml" title="Eric Khun" />
+
+    
+    
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top visible-xs">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+				<a class="navbar-brand" href="http://erickhun.com/">Eric Khun</a>
+			
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				
+				
+					<li><a href="http://erickhun.com/post/hi/">Me</a></li>
+				
+					<li><a href="http://erickhun.com/post/">Posts</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="container-fluid">
+	<div class="row">
+		<div id="menu" class="hidden-xs col-sm-4 col-md-3">
+	<div id="menu-content" class="vertical-align">
+		
+			<h1 class="text-center"><a href="http://erickhun.com/">Eric Khun</a></h1>
+		
+		
+		
+			<small class="text-center center-block">Software Engineer</small>
+		
+		
+		
+			<img id="profile-pic" src="http://erickhun.com//img/eric.jpg" alt="My Picture" class="img-circle center-block">
+		
+		<div id="social" class="text-center">
+			<a href="https://twitter.com/eric_khun"><i class="fa fa-twitter fa-2x"></i></a>
+			<a href="https://www.linkedin.com/in/erickhun"><i class="fa fa-linkedin fa-2x"></i></a>
+			<a href="https://github.com/erickhun"><i class="fa fa-github fa-2x"></i></a>
+			
+		</div>
+		<div id="links" class="text-center">
+			
+			
+				<a href="http://erickhun.com/post/hi/">Me</a>
+			
+				<a href="http://erickhun.com/post/">Posts</a>
+			
+		</div>
+	</div>
+</div>
+		<div id="content" class="col-xs-12 col-sm-8 col-md-9">
+			<div class="row">
+				<div id="post" class="col-sm-offset-1 col-sm-10 col-md-10 col-lg-8">
+
+<main>
+	<header>
+		<h1>Setup you own Etheureum Ropsten test node with geth</h1>
+	</header>
+
+	<article>
+		
+
+<p>You&rsquo;re on the right place for a step by step guide to setup your own Ethereum node on the Ropsten. At the end of this guide you&rsquo;ll be able to:</p>
+
+<ul>
+<li>Run your own ethereum node</li>
+<li>Making sure to keep your node in sync with your chosen network</li>
+<li>Be able to communicate via the json rpc API of your node</li>
+</ul>
+
+<h3 id="why">Why ?</h3>
+
+<ul>
+<li>Once your dAPP and Smart Contract are working locally, you&rsquo;ll want to test it on a real network with (almost) real condition.</li>
+<li>There is a service called <a href="https://infura.io">Infura</a>, allowing you to communicate easily with Ropsten via json-rpc without having your own node. However, Infura doesn&rsquo;t allow you to <a href="http://solidity.readthedocs.io/en/develop/contracts.html#events">listen to events</a> that  your smart contract fired. Events are useful when you want start to do some fancy thing like real time data replication on a second database or simply notify your users in your <a href="https://ethereum.stackexchange.com/tags/dapp-development/info">dApp</a>.</li>
+</ul>
+
+<h3 id="prerequis">Prerequis :</h3>
+
+<ul>
+<li>Your own instance. I have a <a href="https://m.do.co/c/8cd97ac64536">Digital Ocean</a> one with Ubuntu. If you&rsquo;re a student, you can have a nice <a href="https://education.github.com/pack">$50 free credits for testing purpose</a>.</li>
+<li>5GB availlable of space disk. The Ropsten chain takes about 1.8GB on my server disk (3rd  February 2018) . The &ldquo;real&rdquo; ethereum blockchain requires <a href="https://etherscan.io/chart2/chaindatasizefast">50GB of diskspace</a>.</li>
+</ul>
+
+<h3 id="step1-setup-geth-go-ethereum">Step1: Setup geth (go ethereum)</h3>
+
+<p><code>geth</code> will allow you to sync the Ethereum blockchain, but also and run a rpc client</p>
+
+<p>To set that up :</p>
+
+<pre><code>sudo apt-get install software-properties-common
+sudo add-apt-repository -y ppa:ethereum/ethereum
+sudo apt-get update
+sudo apt-get install ethereum -y
+</code></pre>
+
+<p>Some people might prefer <code>parity</code>. This guide will focus on <code>geth</code></p>
+
+<h3 id="step2-sync-your-node-with-the-ropsten-network-only-once">Step2: Sync your node with the Ropsten network (only once)</h3>
+
+<p>I&rsquo;m running the sync command in a <code>screen</code> console, in case I lose the ssh connection or want to do something else in the server. You can also use <code>tmux</code> if you prefer:</p>
+
+<p>Optional : before syncing it , make sure to not have any obsolete chain :</p>
+
+<pre><code>geth --testnet removedb
+</code></pre>
+
+<p>And sync the full ropsten blockchain network (only onces)</p>
+
+<pre><code>geth --testnet --fast --bootnodes &quot;enode://20c9ad97c081d63397d7b685a412227a40e23c8bdc6688c6f37e97cfbc22d2b4d1db1510d8f61e6a8866ad7f0e17c02b14182d37ea7c3c8b9c2683aeb6b733a1@52.169.14.227:30303,enode://6ce05930c72abc632c58e2e4324f7c7ea478cec0ed4fa2528982cf34483094e9cbc9216e7aa349691242576d552a2a56aaeae426c5303ded677ce455ba1acd9d@13.84.180.240:30303&quot; console
+</code></pre>
+
+<p>Those flags means are useful for:</p>
+
+<ul>
+<li><code>--testnet</code> : you&rsquo;ll sync with the Ropsten network</li>
+<li><code>--fast</code> : you&rsquo;re enabling <a href="https://ethereum.stackexchange.com/a/11300">fast syncing</a></li>
+<li><code>--bootnodes</code> : Through these bootnodes a node can join the network and find other nodes. The one I&rsquo;ve given are valid for the 3rd Feb 2018, and might change in the future. Check the <a href="https://github.com/ethereum/ropsten">ropsten official repo</a> to get the updated bootnodes.</li>
+<li><code>console</code>: I attached the console to know the current state of the sync . Without that, you&rsquo;ll be a bit blind on the progress of the sync</li>
+</ul>
+
+<p>The Ethereum blockchain will store the data in the default directory (<code>/YOUR_HOME/.ethereum/testnet/geth/chaindata</code>). You can also check the size of the blockchain with <code>du -hs /YOUR_HOME/.ethereum/testnet/geth/chaindata</code></p>
+
+<p>I&rsquo;ve waited about 60 minutes before the sync finished</p>
+
+<h3 id="optional-step2-1-check-the-progress-of-the-sync">(optional) Step2.1: Check the progress of the sync :</h3>
+
+<p>Because you attached the console to the geth command, you&rsquo;ll be able to know the progress of the sync by running  that command inside the console :
+<code>&gt; eth.syncing</code>
+It will return :</p>
+
+<pre><code>{
+  currentBlock: 914011,
+  highestBlock: 2579729,
+  knownStates: 7383,
+  pulledStates: 480,
+  startingBlock: 914001
+}
+</code></pre>
+
+<p>Note: <code>highestBlock: 2579729</code> should match the last block in <a href="https://ropsten.etherscan.io/">Ropsten Etherscan website</a></p>
+
+<h3 id="optional-step2-2-restart-the-sync-when-geth-error-out">(optional) Step2.2: restart the sync when <code>geth</code> error-out :</h3>
+
+<p>It happened to me (several times) that <code>geth</code> errored-out during the sync. I didn&rsquo;t find out why, but simply run the following command, and the sync will continue from where it exited :</p>
+
+<pre><code>geth --testnet console
+</code></pre>
+
+<p>Note: I didn&rsquo;t specify the  <code>--bootnodes</code> and <code>--fast</code> flags since <code>geth</code> kept it in memory.</p>
+
+<h3 id="step3-activate-the-json-rpc-api-and-keep-your-node-in-sync">Step3: Activate the JSON-RPC API (and keep your node in sync):</h3>
+
+<p>As a developer, sooner or later you&rsquo;ll want to start interacting with Geth and the Ethereum network via your own programs and not manually through the console. <code>geth</code> has built in support for a JSON-RPC based APIs (standard APIs and Geth specific APIs). These can be exposed via HTTP, WebSockets and IPC (unix sockets on unix based platforms).</p>
+
+<pre><code>geth --testnet --cache=1048 --rpc --rpcapi &quot;eth,net,web3&quot; --rpccorsdomain '*' --rpcaddr 0.0.0.0 --rpcport 8080
+</code></pre>
+
+<ul>
+<li><code>--rpc</code> Enable the HTTP-RPC server</li>
+<li><code>--rpcaddr</code> HTTP-RPC server listening interface</li>
+<li><code>--rpcport</code> HTTP-RPC server listening port</li>
+<li><code>--rpcapi</code> API&rsquo;s offered over the HTTP-RPC interface</li>
+<li><code>--rpccorsdomain</code> <code>*</code> for allowing everything access to it</li>
+</ul>
+
+<p>When running that command, <code>geth</code> will keep your node in sync with the network. You can let that one run in a <code>screen</code> or <code>tmux</code> terminal to keep it alive. The best thing would be to let the process managed by <code>supervisord</code> or <code>systemd</code></p>
+
+<h3 id="step4-query-the-json-rpc-api">Step4: Query the JSON-RPC API:</h3>
+
+<p>You can test if the api is working with <code>curl</code>:</p>
+
+<pre><code>curl -X POST --data '{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;net_version&quot;,&quot;params&quot;:[],&quot;id&quot;:67}' http://0.0.0.0:8080
+</code></pre>
+
+<p>If all is fine, you should get a response that looks like : <code>{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;id&quot;:67,&quot;result&quot;:&quot;3&quot;}</code></p>
+
+<h3 id="optional-open-the-firewall">(optional) Open the firewall:</h3>
+
+<p>If you want your dApp or Metamask to communicate with your node, you&rsquo;ll need to open the port of your server. On Digital Ocean, it&rsquo;s quite easy via <a href="https://www.digitalocean.com/community/tutorials/how-to-troubleshoot-digitalocean-firewalls">their console</a>. With my example, I&rsquo;ve opened the port <code>8080</code> in the Inbound settings.</p>
+
+<p>Then you can query the api via :</p>
+
+<pre><code>curl -X POST --data '{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;net_version&quot;,&quot;params&quot;:[],&quot;id&quot;:67}' http://X.X.X.X:8080
+</code></pre>
+
+<p>with replacing <code>X.X.X.X</code> the ip of your instance.</p>
+
+<p>Also, please understand the security implications of opening up an HTTP/WS based transport before doing so! Hackers on the internet are actively trying to subvert Ethereum nodes with exposed APIs!</p>
+
+<h3 id="next-blog-post">Next blog post?:</h3>
+
+<p>I hope this guide was helpful. Please let me know if you have any  article request. I could write about:</p>
+
+<ul>
+<li>How to run easily your own ETH blockchain with <code>truffle</code> and <code>ganache</code> on a remote server. That one is useful if you do not want to sync the full chain, and have the same blockchain available quickly for your teamate.</li>
+<li>How to have a realtime data replication on your smart contract using events</li>
+</ul>
+
+	</article>
+</main>
+
+<div id="bottom-nav" class="text-center center-block">
+	<a href=" http://erickhun.com/" class="btn btn-default"><i class="fa fa-home"></i> Home</a>
+</div>
+
+
+  <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "Eric Khun" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-106516-7', 'auto');
+    ga('send', 'pageview');
+    window.baseURL = "http:\/\/erickhun.com\/";
+  </script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+  
+  
+  <script src="http://erickhun.com//js/App.js"></script>
+  
+</body>
+</html>
