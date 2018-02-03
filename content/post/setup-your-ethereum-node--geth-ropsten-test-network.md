@@ -69,7 +69,8 @@ The Ethereum blockchain will store the data in the default directory (`/YOUR_HOM
 
 Note: `geth` will run indefinitely until you exit with ctrl-c. It needs to keep your node in sync with the network with all new data. So once you run the command, `geth` kept the `--fast` and `--bootnodes xxxx`  in memory. So you can safely run geth (with always keeping the network you want to use , `--testnet` in that case)
 
-### (optional) Step2.1: restart the sync when `geth` error-out : 
+### (optional) Step2.1: restart the sync when `geth` error-out 
+
 It happened to me (several times) that `geth` errored-out during the sync. I didn't find out why, but simply run the following command, and the sync will continue from where it exited : 
 ```
 geth --testnet console
@@ -85,7 +86,7 @@ done
 ```
 You can then come back few hours later without worrying if the sync went well :)
 
-### (optional) Step2.2: Check the progress of the sync : 
+### (optional) Step2.2: Check the progress of the sync
 
 Because you attached the console to the geth command with the `console` flag, you'll be able to know the progress of the sync by typing that following command inside the `geth` console : 
 `> eth.syncing`
@@ -103,7 +104,7 @@ It will return :
 Note: `highestBlock: 2579729` should match the last block in [Ropsten Etherscan website](https://ropsten.etherscan.io/)
 
 
-### Step3: Activate the JSON-RPC API (and keep your node in sync):
+### Step3: Activate the JSON-RPC API (and keep your node in sync)
 
 As a developer, sooner or later you'll want to start interacting with Geth and the Ethereum network via your own programs and not manually through the console. `geth` has built in support for a JSON-RPC based APIs (standard APIs and Geth specific APIs). These can be exposed via HTTP, WebSockets and IPC (unix sockets on unix based platforms).
 
@@ -119,7 +120,7 @@ geth --testnet --cache=1048 --rpc --rpcapi "eth,net,web3" --rpccorsdomain '*' --
 
 When running that command, `geth` will keep your node in sync with the network. You can let that one run in a `screen` or `tmux` terminal to keep it alive. The best thing would be to let the process managed by `supervisord` or `systemd` 
 
-### Step4: Query the JSON-RPC API:
+### Step4: Query the JSON-RPC API
 
 You can test if the api is working with `curl`:
 
@@ -132,7 +133,7 @@ If all is fine, you should get a response that looks like :
 {"jsonrpc":"2.0","id":67,"result":"3"}
 ```
 
-### (optional) Open the firewall:
+### (optional) Open the firewall
 If you want your dApp or Metamask to communicate with your node, you'll need to open the port of your server. On Digital Ocean, it's quite easy via [their console](https://www.digitalocean.com/community/tutorials/how-to-troubleshoot-digitalocean-firewalls). With my example, I've opened the port `8080` in the Inbound settings.
 
 Then you can query the api via : 
@@ -144,15 +145,16 @@ with replacing `X.X.X.X` the ip of your instance.
 Also, please understand the security implications of opening up an HTTP/WS based transport before doing so! Hackers on the internet are actively trying to subvert Ethereum nodes with exposed APIs!
 
 
-### Run on the main Ethereum network:
+### Run on the main Ethereum network
 As many may have guess, you'll just need to remove the `--testet` flag to all commands I've shown you to be able to sync to the main Ethereum network! That's all!
 
 Also, you can change the `--testnet` flag to `--rinkeby` to use the Rinkeby network. The main differences with Ropsten are [detailed here](https://ethereum.stackexchange.com/a/30072).
  
- ### Curious about what I'm building?:
+ ### Curious about what I'm building?
+
 I'm building a side project based on the ethereum network. Wondering what is it?  [Follow me on Twitter](https://twitter.com/eric_khun) :)
 
-### Next blog post?:
+### Next blog post?
 I hope this guide was helpful for anyone starting. Please let me know if there is any mistakes. I'm also thinking writing about:
 
  - How to run easily your own ETH blockchain with `truffle` and `ganache` on a remote server. That one is useful if you do not want to sync the full chain, and have the same blockchain available quickly for your teamate.

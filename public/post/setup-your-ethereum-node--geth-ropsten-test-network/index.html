@@ -177,7 +177,7 @@ sudo apt-get install ethereum -y
 
 <p>Note: <code>geth</code> will run indefinitely until you exit with ctrl-c. It needs to keep your node in sync with the network with all new data. So once you run the command, <code>geth</code> kept the <code>--fast</code> and <code>--bootnodes xxxx</code>  in memory. So you can safely run geth (with always keeping the network you want to use , <code>--testnet</code> in that case)</p>
 
-<h3 id="optional-step2-1-restart-the-sync-when-geth-error-out">(optional) Step2.1: restart the sync when <code>geth</code> error-out :</h3>
+<h3 id="optional-step2-1-restart-the-sync-when-geth-error-out">(optional) Step2.1: restart the sync when <code>geth</code> error-out</h3>
 
 <p>It happened to me (several times) that <code>geth</code> errored-out during the sync. I didn&rsquo;t find out why, but simply run the following command, and the sync will continue from where it exited :</p>
 
@@ -196,7 +196,7 @@ done
 
 <p>You can then come back few hours later without worrying if the sync went well :)</p>
 
-<h3 id="optional-step2-2-check-the-progress-of-the-sync">(optional) Step2.2: Check the progress of the sync :</h3>
+<h3 id="optional-step2-2-check-the-progress-of-the-sync">(optional) Step2.2: Check the progress of the sync</h3>
 
 <p>Because you attached the console to the geth command with the <code>console</code> flag, you&rsquo;ll be able to know the progress of the sync by typing that following command inside the <code>geth</code> console :
 <code>&gt; eth.syncing</code>
@@ -213,7 +213,7 @@ It will return :</p>
 
 <p>Note: <code>highestBlock: 2579729</code> should match the last block in <a href="https://ropsten.etherscan.io/">Ropsten Etherscan website</a></p>
 
-<h3 id="step3-activate-the-json-rpc-api-and-keep-your-node-in-sync">Step3: Activate the JSON-RPC API (and keep your node in sync):</h3>
+<h3 id="step3-activate-the-json-rpc-api-and-keep-your-node-in-sync">Step3: Activate the JSON-RPC API (and keep your node in sync)</h3>
 
 <p>As a developer, sooner or later you&rsquo;ll want to start interacting with Geth and the Ethereum network via your own programs and not manually through the console. <code>geth</code> has built in support for a JSON-RPC based APIs (standard APIs and Geth specific APIs). These can be exposed via HTTP, WebSockets and IPC (unix sockets on unix based platforms).</p>
 
@@ -230,7 +230,7 @@ It will return :</p>
 
 <p>When running that command, <code>geth</code> will keep your node in sync with the network. You can let that one run in a <code>screen</code> or <code>tmux</code> terminal to keep it alive. The best thing would be to let the process managed by <code>supervisord</code> or <code>systemd</code></p>
 
-<h3 id="step4-query-the-json-rpc-api">Step4: Query the JSON-RPC API:</h3>
+<h3 id="step4-query-the-json-rpc-api">Step4: Query the JSON-RPC API</h3>
 
 <p>You can test if the api is working with <code>curl</code>:</p>
 
@@ -242,7 +242,7 @@ It will return :</p>
 <pre><code>{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;id&quot;:67,&quot;result&quot;:&quot;3&quot;}
 </code></pre>
 
-<h3 id="optional-open-the-firewall">(optional) Open the firewall:</h3>
+<h3 id="optional-open-the-firewall">(optional) Open the firewall</h3>
 
 <p>If you want your dApp or Metamask to communicate with your node, you&rsquo;ll need to open the port of your server. On Digital Ocean, it&rsquo;s quite easy via <a href="https://www.digitalocean.com/community/tutorials/how-to-troubleshoot-digitalocean-firewalls">their console</a>. With my example, I&rsquo;ve opened the port <code>8080</code> in the Inbound settings.</p>
 
@@ -255,16 +255,17 @@ It will return :</p>
 
 <p>Also, please understand the security implications of opening up an HTTP/WS based transport before doing so! Hackers on the internet are actively trying to subvert Ethereum nodes with exposed APIs!</p>
 
-<h3 id="run-on-the-main-ethereum-network">Run on the main Ethereum network:</h3>
+<h3 id="run-on-the-main-ethereum-network">Run on the main Ethereum network</h3>
 
 <p>As many may have guess, you&rsquo;ll just need to remove the <code>--testet</code> flag to all commands I&rsquo;ve shown you to be able to sync to the main Ethereum network! That&rsquo;s all!</p>
 
 <p>Also, you can change the <code>--testnet</code> flag to <code>--rinkeby</code> to use the Rinkeby network. The main differences with Ropsten are <a href="https://ethereum.stackexchange.com/a/30072">detailed here</a>.</p>
 
-<p>### Curious about what I&rsquo;m building?:
-I&rsquo;m building a side project based on the ethereum network. Wondering what is it?  <a href="https://twitter.com/eric_khun">Follow me on Twitter</a> :)</p>
+<p>### Curious about what I&rsquo;m building?</p>
 
-<h3 id="next-blog-post">Next blog post?:</h3>
+<p>I&rsquo;m building a side project based on the ethereum network. Wondering what is it?  <a href="https://twitter.com/eric_khun">Follow me on Twitter</a> :)</p>
+
+<h3 id="next-blog-post">Next blog post?</h3>
 
 <p>I hope this guide was helpful for anyone starting. Please let me know if there is any mistakes. I&rsquo;m also thinking writing about:</p>
 
