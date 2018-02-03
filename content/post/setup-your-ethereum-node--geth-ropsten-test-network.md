@@ -150,7 +150,7 @@ As many may have guess, you'll just need to remove the `--testet` flag to all co
 
 Also, you can change the `--testnet` flag to `--rinkeby` to use the Rinkeby network. The main differences with Ropsten are [detailed here](https://ethereum.stackexchange.com/a/30072).
  
- ### Curious about what I'm building?
+### Curious about what I'm building?
 
 I'm building a side project based on the ethereum network. Wondering what is it?  [Follow me on Twitter](https://twitter.com/eric_khun) :)
 
