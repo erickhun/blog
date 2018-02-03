@@ -108,19 +108,19 @@
 	<article>
 		
 
-<p>You&rsquo;re on the right place for a step by step guide to setup your own Ethereum node on the Ropsten. At the end of this guide you&rsquo;ll be able to:</p>
+<p>This is a step by step guide to setup your own Ethereum node on the Ropsten network. At the end of this guide you&rsquo;ll be able to:</p>
 
 <ul>
-<li>Run your own ethereum node</li>
-<li>Making sure to keep your node in sync with your chosen network</li>
-<li>Be able to communicate via the json rpc API of your node</li>
+<li>Run your own ethereum node synced with the Ropsten testnet network</li>
+<li>Making sure to keep your node in sync with your the network</li>
+<li>Be able to communicate via the JSON-RPC API of your own node</li>
 </ul>
 
 <h3 id="why">Why ?</h3>
 
 <ul>
 <li>Once your dAPP and Smart Contract are working locally, you&rsquo;ll want to test it on a real network with (almost) real condition.</li>
-<li>There is a service called <a href="https://infura.io">Infura</a>, allowing you to communicate easily with Ropsten via json-rpc without having your own node. However, Infura doesn&rsquo;t allow you to <a href="http://solidity.readthedocs.io/en/develop/contracts.html#events">listen to events</a> that  your smart contract fired. Events are useful when you want start to do some fancy thing like real time data replication on a second database or simply notify your users in your <a href="https://ethereum.stackexchange.com/tags/dapp-development/info">dApp</a>. If you do not need events, you should definitely use Infura :)</li>
+<li>There is a service called <a href="https://infura.io">Infura</a>, allowing you to communicate easily with Ropsten via json-rpc without having to setup your own node. However, Infura doesn&rsquo;t allow you to <a href="http://solidity.readthedocs.io/en/develop/contracts.html#events">listen to events</a> that  your smart contract could trigger. Events are useful when you want start to do some fancy thing like real time data replication on a second database or simply notify your users in your <a href="https://ethereum.stackexchange.com/tags/dapp-development/info">dApp</a>. If you do not need events, you should definitely use Infura :)</li>
 </ul>
 
 <h3 id="prerequisite">Prerequisite :</h3>
