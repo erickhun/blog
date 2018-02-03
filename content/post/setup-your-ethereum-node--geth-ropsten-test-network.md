@@ -5,7 +5,7 @@ description = ""
 draft = false
 image = "/img/ethereum-logo.png"
 tags = ["ethereum", "blockchain", "dapp", "infrastructure", "digitalocean", "geth", "dev"]
-title = "Setup you own Etheureum node with geth on the Ropsten test network"
+title = "Setup your Etheureum node with geth on the Ropsten test network"
 +++
 
 This is a step by step guide to setup your own Ethereum node on the Ropsten network. At the end of this guide you'll be able to: 

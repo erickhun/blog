@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>Setup you own Etheureum node with geth on the Ropsten test network</title>
-      <link>https://erickhun.com/post/setup-your-own-ethereum-node-for-ropsten/</link>
+      <title>Setup your Etheureum node with geth on the Ropsten test network</title>
+      <link>https://erickhun.com/post/setup-your-ethereum-node--geth-ropsten-test-network/</link>
       <pubDate>Sat, 03 Feb 2018 11:16:22 +0100</pubDate>
       
-      <guid>https://erickhun.com/post/setup-your-own-ethereum-node-for-ropsten/</guid>
+      <guid>https://erickhun.com/post/setup-your-ethereum-node--geth-ropsten-test-network/</guid>
       <description>This is a step by step guide to setup your own Ethereum node on the Ropsten network. At the end of this guide you&amp;rsquo;ll be able to:
  Run your own ethereum node synced with the Ropsten testnet network Making sure to keep your node in sync with your the network Be able to communicate via the JSON-RPC API of your own node  Why ?  Once your dAPP and Smart Contract are working locally, you&amp;rsquo;ll want to test it on a real network with (almost) real condition.</description>
     </item>
