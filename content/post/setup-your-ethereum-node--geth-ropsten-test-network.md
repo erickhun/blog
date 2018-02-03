@@ -11,7 +11,7 @@ title = "Setup your Ethereum node with geth on the Ropsten test network"
 This is a step by step guide to setup your own Ethereum node on the Ropsten network. At the end of this guide you'll be able to: 
 
 - Run your own ethereum node synced with the Ropsten testnet network
-- Making sure to keep your node in sync with your the network
+- Making sure to keep the node in sync with the blockchain on the network
 - Be able to communicate via the JSON-RPC API of your own node
 
 ### Why ?
