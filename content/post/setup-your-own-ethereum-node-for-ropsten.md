@@ -35,11 +35,13 @@ sudo apt-get update
 sudo apt-get install ethereum -y
 ```
 
+I'm using `geth version: 1.7.3-stable` for this guide
+
 Some people might prefer `parity`. This guide will focus on `geth`
 
 ### Step2: Sync your node with the Ropsten network (only once)
 
-The sync took about 3 hours totaly. I'm running the command in a `screen` console, just in case I lose the ssh connection or want to do something else in the server. You can also use `tmux` if you prefer. 
+The sync took about 4 hours totaly. I'm running the command in a `screen` console, just in case I lose the ssh connection or want to do something else in the server. You can also use `tmux` if you prefer. 
 
 Optional : Before syncing it , make sure to not have any obsolete chain : 
 ```
@@ -86,6 +88,14 @@ geth --testnet console
 ```
 Note: I didn't specify the  `--bootnodes` and `--fast` flags since `geth` kept it in memory. `--testnet` is needed or `geth` will try to read in the main ethereum database that you don't have (yet).
 
+If like me, `geth` kept erroring out, and you do not have time to monitor the sync, here a command you can run to run that command indefinitely if it errors-out: 
+```
+until geth --testnet  console; do
+  echo geth sync failed, retrying in 10 seconds...
+  sleep 10
+done
+```
+You can then come back few hours later without worrying if the sync went well :)
 
 ### Step3: Activate the JSON-RPC API (and keep your node in sync):
 
