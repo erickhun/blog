@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Eric Khun</title>
-    <link>http://erickhun.com/post/</link>
+    <link>https://erickhun.com/post/</link>
     <description>Recent content in Posts on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 Feb 2018 11:16:22 +0100</lastBuildDate>
     
-	<atom:link href="http://erickhun.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://erickhun.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Setup you own Etheureum node with geth on the Ropsten test network</title>
-      <link>http://erickhun.com/post/setup-your-own-ethereum-node-for-ropsten/</link>
+      <link>https://erickhun.com/post/setup-your-own-ethereum-node-for-ropsten/</link>
       <pubDate>Sat, 03 Feb 2018 11:16:22 +0100</pubDate>
       
-      <guid>http://erickhun.com/post/setup-your-own-ethereum-node-for-ropsten/</guid>
+      <guid>https://erickhun.com/post/setup-your-own-ethereum-node-for-ropsten/</guid>
       <description>You&amp;rsquo;re on the right place for a step by step guide to setup your own Ethereum node on the Ropsten. At the end of this guide you&amp;rsquo;ll be able to:
  Run your own ethereum node Making sure to keep your node in sync with your chosen network Be able to communicate via the json rpc API of your node  Why ?  Once your dAPP and Smart Contract are working locally, you&amp;rsquo;ll want to test it on a real network with (almost) real condition.</description>
     </item>
     
     <item>
       <title>I did a Plum.io test</title>
-      <link>http://erickhun.com/post/plum-io-test/</link>
+      <link>https://erickhun.com/post/plum-io-test/</link>
       <pubDate>Sun, 02 Oct 2016 17:35:00 +0200</pubDate>
       
-      <guid>http://erickhun.com/post/plum-io-test/</guid>
+      <guid>https://erickhun.com/post/plum-io-test/</guid>
       <description>An ex-classmate asked me today to do a Plum.io. I was expecting a coding/algo/logic test. But it was mostly some soft skills questions with a small part of logic.
 My results are available here. I&amp;rsquo;m a the top 5% to Conflict Resolution, Teamwork, and Communication. I&amp;rsquo;m not totally sure what means the top 5%, and really curious about my score on the other categories.
 What&amp;rsquo;s also interesting, is that I did the test a second time, and got a lower score.</description>
@@ -34,10 +34,10 @@ What&amp;rsquo;s also interesting, is that I did the test a second time, and got
     
     <item>
       <title>fitness is the first step to greatness</title>
-      <link>http://erickhun.com/post/fitness-is-the-first-step-to-greatness/</link>
+      <link>https://erickhun.com/post/fitness-is-the-first-step-to-greatness/</link>
       <pubDate>Sat, 01 Oct 2016 11:51:22 +0200</pubDate>
       
-      <guid>http://erickhun.com/post/fitness-is-the-first-step-to-greatness/</guid>
+      <guid>https://erickhun.com/post/fitness-is-the-first-step-to-greatness/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Fitness is the first step to greatness.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -58,10 +58,10 @@ What is wrong with that? My motivation kept lowering week after week. I went to 
     
     <item>
       <title>Hi, I&#39;m Eric :)</title>
-      <link>http://erickhun.com/post/hi/</link>
+      <link>https://erickhun.com/post/hi/</link>
       <pubDate>Sat, 01 Oct 2016 02:00:06 +0200</pubDate>
       
-      <guid>http://erickhun.com/post/hi/</guid>
+      <guid>https://erickhun.com/post/hi/</guid>
       <description>&lt;p&gt;Hi there, thanks for passing by! I&amp;rsquo;m Eric, engineer at &lt;a href=&#34;https://buffer.com&#34;&gt;Buffer&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I remember writting a blog in French few years ago in high school. I&amp;rsquo;m not really sure what it was about, certainly about technology and me being intrigued about internet. For some reasons, I stopped writting, but always wanted to get back at it&lt;/p&gt;

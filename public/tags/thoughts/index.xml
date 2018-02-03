@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thoughts on Eric Khun</title>
-    <link>http://erickhun.com/tags/thoughts/</link>
+    <link>https://erickhun.com/tags/thoughts/</link>
     <description>Recent content in Thoughts on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 01 Oct 2016 02:00:06 +0200</lastBuildDate>
     
-	<atom:link href="http://erickhun.com/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://erickhun.com/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hi, I&#39;m Eric :)</title>
-      <link>http://erickhun.com/post/hi/</link>
+      <link>https://erickhun.com/post/hi/</link>
       <pubDate>Sat, 01 Oct 2016 02:00:06 +0200</pubDate>
       
-      <guid>http://erickhun.com/post/hi/</guid>
+      <guid>https://erickhun.com/post/hi/</guid>
       <description>&lt;p&gt;Hi there, thanks for passing by! I&amp;rsquo;m Eric, engineer at &lt;a href=&#34;https://buffer.com&#34;&gt;Buffer&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I remember writting a blog in French few years ago in high school. I&amp;rsquo;m not really sure what it was about, certainly about technology and me being intrigued about internet. For some reasons, I stopped writting, but always wanted to get back at it&lt;/p&gt;

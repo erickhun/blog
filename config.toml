@@ -1,4 +1,4 @@
-BaseURL = "http://erickhun.com/"
+BaseURL = "https://erickhun.com/"
 theme = "hugo-geo"
 relativeURLs = false
 languageCode = "en-us"

@@ -10,7 +10,7 @@
     <meta property="article:published_time" content="2018-02-03">
     
     <meta property="og:description" content="">
-    <meta property="og:url" content="http://erickhun.com/post/setup-your-own-ethereum-node-for-ropsten/">
+    <meta property="og:url" content="https://erickhun.com/post/setup-your-own-ethereum-node-for-ropsten/">
     <meta property="og:site_name" content="Eric Khun">
     
     <meta property="og:tags" content="ethereum">
@@ -32,7 +32,7 @@
     
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
     
-    <link rel="stylesheet" href="http://erickhun.com/css/style.css">
+    <link rel="stylesheet" href="https://erickhun.com/css/style.css">
     <link href="" rel="alternate" type="application/rss+xml" title="Eric Khun" />
 
     
@@ -50,16 +50,16 @@
 				<span class="icon-bar"></span>
 			</button>
 			
-				<a class="navbar-brand" href="http://erickhun.com/">Eric Khun</a>
+				<a class="navbar-brand" href="https://erickhun.com/">Eric Khun</a>
 			
 		</div>
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
 				
 				
-					<li><a href="http://erickhun.com/post/hi/">Me</a></li>
+					<li><a href="https://erickhun.com/post/hi/">Me</a></li>
 				
-					<li><a href="http://erickhun.com/post/">Posts</a></li>
+					<li><a href="https://erickhun.com/post/">Posts</a></li>
 				
 			</ul>
 		</div>
@@ -70,7 +70,7 @@
 		<div id="menu" class="hidden-xs col-sm-4 col-md-3">
 	<div id="menu-content" class="vertical-align">
 		
-			<h1 class="text-center"><a href="http://erickhun.com/">Eric Khun</a></h1>
+			<h1 class="text-center"><a href="https://erickhun.com/">Eric Khun</a></h1>
 		
 		
 		
@@ -78,7 +78,7 @@
 		
 		
 		
-			<img id="profile-pic" src="http://erickhun.com//img/eric.jpg" alt="My Picture" class="img-circle center-block">
+			<img id="profile-pic" src="https://erickhun.com//img/eric.jpg" alt="My Picture" class="img-circle center-block">
 		
 		<div id="social" class="text-center">
 			<a href="https://twitter.com/eric_khun"><i class="fa fa-twitter fa-2x"></i></a>
@@ -89,9 +89,9 @@
 		<div id="links" class="text-center">
 			
 			
-				<a href="http://erickhun.com/post/hi/">Me</a>
+				<a href="https://erickhun.com/post/hi/">Me</a>
 			
-				<a href="http://erickhun.com/post/">Posts</a>
+				<a href="https://erickhun.com/post/">Posts</a>
 			
 		</div>
 	</div>
@@ -121,14 +121,13 @@
 <ul>
 <li>Once your dAPP and Smart Contract are working locally, you&rsquo;ll want to test it on a real network with (almost) real condition.</li>
 <li>There is a service called <a href="https://infura.io">Infura</a>, allowing you to communicate easily with Ropsten via json-rpc without having your own node. However, Infura doesn&rsquo;t allow you to <a href="http://solidity.readthedocs.io/en/develop/contracts.html#events">listen to events</a> that  your smart contract fired. Events are useful when you want start to do some fancy thing like real time data replication on a second database or simply notify your users in your <a href="https://ethereum.stackexchange.com/tags/dapp-development/info">dApp</a>. If you do not need events, you should definitely use Infura :)</li>
-<li></li>
 </ul>
 
-<h3 id="prerequis">Prerequis :</h3>
+<h3 id="prerequisite">Prerequisite :</h3>
 
 <ul>
-<li>Your own instance. I have a <a href="https://m.do.co/c/8cd97ac64536">Digital Ocean</a> one with Ubuntu. If you&rsquo;re a student, you can have a nice <a href="https://education.github.com/pack">$50 free credits for testing purpose</a>.</li>
-<li>5GB availlable of space disk. The Ropsten chain takes about 6GB on my server disk (3rd  February 2018) . The &ldquo;real&rdquo; ethereum blockchain requires about <a href="https://etherscan.io/chart2/chaindatasizefast">50GB of diskspace</a>.</li>
+<li>Your own server. I have a <a href="https://m.do.co/c/8cd97ac64536">Digital Ocean</a> one with Ubuntu ubuntu 16.04. If you&rsquo;re a student, you can have a nice <a href="https://education.github.com/pack">$50 free credits for testing purpose</a>.</li>
+<li>9GB availlable of space disk. The Ropsten chain takes about 8.0GB on my server disk (3rd  February 2018) . The &ldquo;real&rdquo; ethereum blockchain requires about <a href="https://etherscan.io/chart2/chaindatasizefast">50GB of diskspace</a>.</li>
 </ul>
 
 <h3 id="step1-setup-geth-go-ethereum">Step1: Setup geth (go ethereum)</h3>
@@ -147,21 +146,21 @@ sudo apt-get install ethereum -y
 
 <p>Some people might prefer <code>parity</code>. This guide will focus on <code>geth</code></p>
 
-<h3 id="step2-sync-your-node-with-the-ropsten-network-only-once">Step2: Sync your node with the Ropsten network (only once)</h3>
+<h3 id="step2-sync-your-node-with-the-ropsten-network">Step2: Sync your node with the Ropsten network</h3>
 
-<p>The sync took about 4 hours totaly. I&rsquo;m running the command in a <code>screen</code> console, just in case I lose the ssh connection or want to do something else in the server. You can also use <code>tmux</code> if you prefer.</p>
+<p>The sync will take about 4 hours. I&rsquo;m running the command in a <code>screen</code> console, just in case I lose the ssh connection or want to do something else in the server. You can also use <code>tmux</code> if you prefer.</p>
 
-<p>Optional : Before syncing it , make sure to not have any obsolete chain :</p>
+<p>Optional : Before syncing it , make sure to remove any previous data you might have locally. (don&rsquo;t run that if you&rsquo;re in a middle of a sync, or you&rsquo;ll need to start again) :</p>
 
 <pre><code>geth --testnet removedb
 </code></pre>
 
-<p>And sync the full ropsten blockchain network (only onces)</p>
+<p>Then sync the full ropsten blockchain network:</p>
 
 <pre><code>geth --testnet --fast --bootnodes &quot;enode://20c9ad97c081d63397d7b685a412227a40e23c8bdc6688c6f37e97cfbc22d2b4d1db1510d8f61e6a8866ad7f0e17c02b14182d37ea7c3c8b9c2683aeb6b733a1@52.169.14.227:30303,enode://6ce05930c72abc632c58e2e4324f7c7ea478cec0ed4fa2528982cf34483094e9cbc9216e7aa349691242576d552a2a56aaeae426c5303ded677ce455ba1acd9d@13.84.180.240:30303&quot; console
 </code></pre>
 
-<p>Those flags are useful for:</p>
+<p>Those flags are really important for the first run. They are useful for:</p>
 
 <ul>
 <li><code>--testnet</code> : you&rsquo;ll sync with the Ropsten network. Alternatively you can use other flags</li>
@@ -172,9 +171,30 @@ sudo apt-get install ethereum -y
 
 <p>The Ethereum blockchain will store the data in the default directory (<code>/YOUR_HOME/.ethereum/testnet/geth/chaindata</code>). You can also check the size of the blockchain with <code>du -hs /YOUR_HOME/.ethereum/testnet/geth/chaindata</code></p>
 
-<h3 id="optional-step2-1-check-the-progress-of-the-sync">(optional) Step2.1: Check the progress of the sync :</h3>
+<p>Note: <code>geth</code> will run indefinitely until you exit with ctrl-c. It needs to keep your node in sync with the network with all new data. So once you run the command, <code>geth</code> kept the <code>--fast</code> and <code>--bootnodes xxxx</code>  in memory. So you can safely run geth (with always keeping the network you want to use , <code>--testnet</code> in that case)</p>
 
-<p>Because you attached the console to the geth command, you&rsquo;ll be able to know the progress of the sync by running  that command inside the console :
+<h3 id="optional-step2-1-restart-the-sync-when-geth-error-out">(optional) Step2.1: restart the sync when <code>geth</code> error-out :</h3>
+
+<p>It happened to me (several times) that <code>geth</code> errored-out during the sync. I didn&rsquo;t find out why, but simply run the following command, and the sync will continue from where it exited :</p>
+
+<pre><code>geth --testnet console
+</code></pre>
+
+<p>Note: I didn&rsquo;t specify the  <code>--bootnodes</code> and <code>--fast</code> flags</p>
+
+<p>If like me, <code>geth</code> kept erroring out, and you do not have time to monitor the sync, here a command you can run to run that command indefinitely if it errors-out:</p>
+
+<pre><code>until geth --testnet  console; do
+  echo geth sync failed, retrying in 10 seconds...
+  sleep 10
+done
+</code></pre>
+
+<p>You can then come back few hours later without worrying if the sync went well :)</p>
+
+<h3 id="optional-step2-2-check-the-progress-of-the-sync">(optional) Step2.2: Check the progress of the sync :</h3>
+
+<p>Because you attached the console to the geth command with the <code>console</code> flag, you&rsquo;ll be able to know the progress of the sync by typing that following command inside the <code>geth</code> console :
 <code>&gt; eth.syncing</code>
 It will return :</p>
 
@@ -188,25 +208,6 @@ It will return :</p>
 </code></pre>
 
 <p>Note: <code>highestBlock: 2579729</code> should match the last block in <a href="https://ropsten.etherscan.io/">Ropsten Etherscan website</a></p>
-
-<h3 id="optional-step2-2-restart-the-sync-when-geth-error-out">(optional) Step2.2: restart the sync when <code>geth</code> error-out :</h3>
-
-<p>It happened to me (several times) that <code>geth</code> errored-out during the sync. I didn&rsquo;t find out why, but simply run the following command, and the sync will continue from where it exited :</p>
-
-<pre><code>geth --testnet console
-</code></pre>
-
-<p>Note: I didn&rsquo;t specify the  <code>--bootnodes</code> and <code>--fast</code> flags since <code>geth</code> kept it in memory. <code>--testnet</code> is needed or <code>geth</code> will try to read in the main ethereum database that you don&rsquo;t have (yet).</p>
-
-<p>If like me, <code>geth</code> kept erroring out, and you do not have time to monitor the sync, here a command you can run to run that command indefinitely if it errors-out:</p>
-
-<pre><code>until geth --testnet  console; do
-  echo geth sync failed, retrying in 10 seconds...
-  sleep 10
-done
-</code></pre>
-
-<p>You can then come back few hours later without worrying if the sync went well :)</p>
 
 <h3 id="step3-activate-the-json-rpc-api-and-keep-your-node-in-sync">Step3: Activate the JSON-RPC API (and keep your node in sync):</h3>
 
@@ -232,7 +233,10 @@ done
 <pre><code>curl -X POST --data '{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;net_version&quot;,&quot;params&quot;:[],&quot;id&quot;:67}' http://0.0.0.0:8080
 </code></pre>
 
-<p>If all is fine, you should get a response that looks like : <code>{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;id&quot;:67,&quot;result&quot;:&quot;3&quot;}</code></p>
+<p>If all is fine, you should get a response that looks like :</p>
+
+<pre><code>{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;id&quot;:67,&quot;result&quot;:&quot;3&quot;}
+</code></pre>
 
 <h3 id="optional-open-the-firewall">(optional) Open the firewall:</h3>
 
@@ -260,7 +264,7 @@ done
 </main>
 
 <div id="bottom-nav" class="text-center center-block">
-	<a href=" http://erickhun.com/" class="btn btn-default"><i class="fa fa-home"></i> Home</a>
+	<a href=" https://erickhun.com/" class="btn btn-default"><i class="fa fa-home"></i> Home</a>
 </div>
 
 
@@ -301,7 +305,7 @@ done
 
     ga('create', 'UA-106516-7', 'auto');
     ga('send', 'pageview');
-    window.baseURL = "http:\/\/erickhun.com\/";
+    window.baseURL = "https:\/\/erickhun.com\/";
   </script>
   
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -311,7 +315,7 @@ done
   <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
   
   
-  <script src="http://erickhun.com//js/App.js"></script>
+  <script src="https://erickhun.com//js/App.js"></script>
   
 </body>
 </html>
