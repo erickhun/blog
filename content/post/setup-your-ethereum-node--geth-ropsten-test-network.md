@@ -18,7 +18,7 @@ This is a step by step guide to setup your own Ethereum node on the Ropsten netw
 - Be able to communicate via the JSON-RPC API of your own node
 - Using the same method to run your node on the main network
 
-### Why ?
+### Why do you want run your own node?
 
 - Once your dAPP and Smart Contract are working locally, you'll want to test it on a real network with (almost) real condition. 
 - There is a service called [Infura](https://infura.io), allowing you to communicate easily with Ropsten via json-rpc without having to setup your own node. However, Infura doesn't allow you to [listen to events](http://solidity.readthedocs.io/en/develop/contracts.html#events) that  your smart contract could trigger. Events are useful when you want start to do some fancy thing like real time data replication on a second database or simply notify your users in your [dApp](https://ethereum.stackexchange.com/tags/dapp-development/info). If you do not need events, you should definitely use Infura :)
