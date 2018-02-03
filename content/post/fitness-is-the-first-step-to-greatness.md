@@ -21,7 +21,7 @@ It's a quote I just start understand. I start working out 1 year ago. I can defi
 When I started, I tried to exercice every 2-3 days without any goals. Picking a workout machine randonly, and adding weight randomly. I also didn't keep track of how heavy I could lift on each machine. I think at this time I just didn't know what I was doing. My motivation decreased a lot and I noticed that I went less often in the gym.
 What is wrong with that? My motivation kept lowering week after week. I went to the gym less often, and started to find many excuse to not go. I start forgetting the benefits of it.
 
-![No idea what I'm doing](http://i2.kym-cdn.com/photos/images/facebook/000/234/765/b7e.jpg)
+![No idea what I'm doing](https://i2.kym-cdn.com/photos/images/facebook/000/234/765/b7e.jpg)
 
 At [Buffer](https://buffer.com), we're lucky to have a slack channel called #improvements-fitness where bufferoos talk about their improvements and everything fitness related. I started to dig into the channel history and found a program that was quoted many times: [Stronglift 5x5](http://stronglifts.com) . After a quick look <!--more-->, it looked quite simple, and it allows you to progress quickly without having much knowledge!
 
