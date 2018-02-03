@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ethreum on Eric Khun</title>
-    <link>http://erickhun.com/tags/ethreum/</link>
-    <description>Recent content in Ethreum on Eric Khun</description>
+    <title>Ethereum on Eric Khun</title>
+    <link>http://erickhun.com/tags/ethereum/</link>
+    <description>Recent content in Ethereum on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 Feb 2018 11:16:22 +0100</lastBuildDate>
     
-	<atom:link href="http://erickhun.com/tags/ethreum/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://erickhun.com/tags/ethereum/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

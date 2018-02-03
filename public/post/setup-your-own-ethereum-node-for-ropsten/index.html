@@ -13,7 +13,7 @@
     <meta property="og:url" content="http://erickhun.com/post/setup-your-own-ethereum-node-for-ropsten/">
     <meta property="og:site_name" content="Eric Khun">
     
-    <meta property="og:tags" content="ethreum">
+    <meta property="og:tags" content="ethereum">
     
     <meta property="og:tags" content="blockchain">
     
@@ -24,6 +24,8 @@
     <meta property="og:tags" content="digitalocean">
     
     <meta property="og:tags" content="geth">
+    
+    <meta property="og:tags" content="dev">
     
     <meta name="generator" content="Hugo 0.35" />
     <title>Setup you own Etheureum node with geth on the Ropsten test network &middot; Eric Khun</title>
@@ -118,14 +120,15 @@
 
 <ul>
 <li>Once your dAPP and Smart Contract are working locally, you&rsquo;ll want to test it on a real network with (almost) real condition.</li>
-<li>There is a service called <a href="https://infura.io">Infura</a>, allowing you to communicate easily with Ropsten via json-rpc without having your own node. However, Infura doesn&rsquo;t allow you to <a href="http://solidity.readthedocs.io/en/develop/contracts.html#events">listen to events</a> that  your smart contract fired. Events are useful when you want start to do some fancy thing like real time data replication on a second database or simply notify your users in your <a href="https://ethereum.stackexchange.com/tags/dapp-development/info">dApp</a>.</li>
+<li>There is a service called <a href="https://infura.io">Infura</a>, allowing you to communicate easily with Ropsten via json-rpc without having your own node. However, Infura doesn&rsquo;t allow you to <a href="http://solidity.readthedocs.io/en/develop/contracts.html#events">listen to events</a> that  your smart contract fired. Events are useful when you want start to do some fancy thing like real time data replication on a second database or simply notify your users in your <a href="https://ethereum.stackexchange.com/tags/dapp-development/info">dApp</a>. If you do not need events, you should definitely use Infura :)</li>
+<li></li>
 </ul>
 
 <h3 id="prerequis">Prerequis :</h3>
 
 <ul>
 <li>Your own instance. I have a <a href="https://m.do.co/c/8cd97ac64536">Digital Ocean</a> one with Ubuntu. If you&rsquo;re a student, you can have a nice <a href="https://education.github.com/pack">$50 free credits for testing purpose</a>.</li>
-<li>5GB availlable of space disk. The Ropsten chain takes about 1.8GB on my server disk (3rd  February 2018) . The &ldquo;real&rdquo; ethereum blockchain requires <a href="https://etherscan.io/chart2/chaindatasizefast">50GB of diskspace</a>.</li>
+<li>5GB availlable of space disk. The Ropsten chain takes about 6GB on my server disk (3rd  February 2018) . The &ldquo;real&rdquo; ethereum blockchain requires about <a href="https://etherscan.io/chart2/chaindatasizefast">50GB of diskspace</a>.</li>
 </ul>
 
 <h3 id="step1-setup-geth-go-ethereum">Step1: Setup geth (go ethereum)</h3>
@@ -144,9 +147,9 @@ sudo apt-get install ethereum -y
 
 <h3 id="step2-sync-your-node-with-the-ropsten-network-only-once">Step2: Sync your node with the Ropsten network (only once)</h3>
 
-<p>I&rsquo;m running the sync command in a <code>screen</code> console, in case I lose the ssh connection or want to do something else in the server. You can also use <code>tmux</code> if you prefer:</p>
+<p>The sync took about 3 hours totaly. I&rsquo;m running the command in a <code>screen</code> console, just in case I lose the ssh connection or want to do something else in the server. You can also use <code>tmux</code> if you prefer.</p>
 
-<p>Optional : before syncing it , make sure to not have any obsolete chain :</p>
+<p>Optional : Before syncing it , make sure to not have any obsolete chain :</p>
 
 <pre><code>geth --testnet removedb
 </code></pre>
@@ -156,18 +159,16 @@ sudo apt-get install ethereum -y
 <pre><code>geth --testnet --fast --bootnodes &quot;enode://20c9ad97c081d63397d7b685a412227a40e23c8bdc6688c6f37e97cfbc22d2b4d1db1510d8f61e6a8866ad7f0e17c02b14182d37ea7c3c8b9c2683aeb6b733a1@52.169.14.227:30303,enode://6ce05930c72abc632c58e2e4324f7c7ea478cec0ed4fa2528982cf34483094e9cbc9216e7aa349691242576d552a2a56aaeae426c5303ded677ce455ba1acd9d@13.84.180.240:30303&quot; console
 </code></pre>
 
-<p>Those flags means are useful for:</p>
+<p>Those flags are useful for:</p>
 
 <ul>
-<li><code>--testnet</code> : you&rsquo;ll sync with the Ropsten network</li>
+<li><code>--testnet</code> : you&rsquo;ll sync with the Ropsten network. Alternatively you can use other flags</li>
 <li><code>--fast</code> : you&rsquo;re enabling <a href="https://ethereum.stackexchange.com/a/11300">fast syncing</a></li>
 <li><code>--bootnodes</code> : Through these bootnodes a node can join the network and find other nodes. The one I&rsquo;ve given are valid for the 3rd Feb 2018, and might change in the future. Check the <a href="https://github.com/ethereum/ropsten">ropsten official repo</a> to get the updated bootnodes.</li>
 <li><code>console</code>: I attached the console to know the current state of the sync . Without that, you&rsquo;ll be a bit blind on the progress of the sync</li>
 </ul>
 
 <p>The Ethereum blockchain will store the data in the default directory (<code>/YOUR_HOME/.ethereum/testnet/geth/chaindata</code>). You can also check the size of the blockchain with <code>du -hs /YOUR_HOME/.ethereum/testnet/geth/chaindata</code></p>
-
-<p>I&rsquo;ve waited about 60 minutes before the sync finished</p>
 
 <h3 id="optional-step2-1-check-the-progress-of-the-sync">(optional) Step2.1: Check the progress of the sync :</h3>
 
@@ -193,7 +194,7 @@ It will return :</p>
 <pre><code>geth --testnet console
 </code></pre>
 
-<p>Note: I didn&rsquo;t specify the  <code>--bootnodes</code> and <code>--fast</code> flags since <code>geth</code> kept it in memory.</p>
+<p>Note: I didn&rsquo;t specify the  <code>--bootnodes</code> and <code>--fast</code> flags since <code>geth</code> kept it in memory. <code>--testnet</code> is needed or <code>geth</code> will try to read in the main ethereum database that you don&rsquo;t have (yet).</p>
 
 <h3 id="step3-activate-the-json-rpc-api-and-keep-your-node-in-sync">Step3: Activate the JSON-RPC API (and keep your node in sync):</h3>
 
@@ -236,11 +237,11 @@ It will return :</p>
 
 <h3 id="next-blog-post">Next blog post?:</h3>
 
-<p>I hope this guide was helpful. Please let me know if you have any  article request. I could write about:</p>
+<p>I hope this guide was helpful for anyone starting. Please let me know if there is any mistakes. I&rsquo;m also thinking writing about:</p>
 
 <ul>
 <li>How to run easily your own ETH blockchain with <code>truffle</code> and <code>ganache</code> on a remote server. That one is useful if you do not want to sync the full chain, and have the same blockchain available quickly for your teamate.</li>
-<li>How to have a realtime data replication on your smart contract using events</li>
+<li>How to have a realtime data replication of your smart contract using events to an other DB. That one could be useful because querying the Ethereum blockchain might not be as fast and easy as we wish :)</li>
 </ul>
 
 	</article>

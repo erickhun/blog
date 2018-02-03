@@ -41,6 +41,12 @@
   </url>
   
   <url>
+    <loc>http://erickhun.com/tags/dev/</loc>
+    <lastmod>2018-02-03T11:16:22+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://erickhun.com/tags/digitalocean/</loc>
     <lastmod>2018-02-03T11:16:22+01:00</lastmod>
     <priority>0</priority>
@@ -53,7 +59,7 @@
   </url>
   
   <url>
-    <loc>http://erickhun.com/tags/ethreum/</loc>
+    <loc>http://erickhun.com/tags/ethereum/</loc>
     <lastmod>2018-02-03T11:16:22+01:00</lastmod>
     <priority>0</priority>
   </url>

@@ -4,7 +4,7 @@ date = "2018-02-03T11:16:22+01:00"
 description = ""
 draft = false
 image = "/img/ethereum-logo.png"
-tags = ["ethreum", "blockchain", "dapp", "infrastructure", "digitalocean", "geth"]
+tags = ["ethereum", "blockchain", "dapp", "infrastructure", "digitalocean", "geth", "dev"]
 title = "Setup you own Etheureum node with geth on the Ropsten test network"
 +++
 
@@ -17,11 +17,12 @@ You're on the right place for a step by step guide to setup your own Ethereum no
 ### Why ?
 
 - Once your dAPP and Smart Contract are working locally, you'll want to test it on a real network with (almost) real condition. 
-- There is a service called [Infura](https://infura.io), allowing you to communicate easily with Ropsten via json-rpc without having your own node. However, Infura doesn't allow you to [listen to events](http://solidity.readthedocs.io/en/develop/contracts.html#events) that  your smart contract fired. Events are useful when you want start to do some fancy thing like real time data replication on a second database or simply notify your users in your [dApp](https://ethereum.stackexchange.com/tags/dapp-development/info).
+- There is a service called [Infura](https://infura.io), allowing you to communicate easily with Ropsten via json-rpc without having your own node. However, Infura doesn't allow you to [listen to events](http://solidity.readthedocs.io/en/develop/contracts.html#events) that  your smart contract fired. Events are useful when you want start to do some fancy thing like real time data replication on a second database or simply notify your users in your [dApp](https://ethereum.stackexchange.com/tags/dapp-development/info). If you do not need events, you should definitely use Infura :)
+- 
 
 ### Prerequis : 
 - Your own instance. I have a [Digital Ocean](https://m.do.co/c/8cd97ac64536) one with Ubuntu. If you're a student, you can have a nice [$50 free credits for testing purpose](https://education.github.com/pack).
-- 5GB availlable of space disk. The Ropsten chain takes about 1.8GB on my server disk (3rd  February 2018) . The "real" ethereum blockchain requires [50GB of diskspace](https://etherscan.io/chart2/chaindatasizefast).
+- 5GB availlable of space disk. The Ropsten chain takes about 6GB on my server disk (3rd  February 2018) . The "real" ethereum blockchain requires about [50GB of diskspace](https://etherscan.io/chart2/chaindatasizefast).
 
 ### Step1: Setup geth (go ethereum)
 `geth` will allow you to sync the Ethereum blockchain, but also and run a rpc client
@@ -38,9 +39,9 @@ Some people might prefer `parity`. This guide will focus on `geth`
 
 ### Step2: Sync your node with the Ropsten network (only once)
 
-I'm running the sync command in a `screen` console, in case I lose the ssh connection or want to do something else in the server. You can also use `tmux` if you prefer: 
+The sync took about 3 hours totaly. I'm running the command in a `screen` console, just in case I lose the ssh connection or want to do something else in the server. You can also use `tmux` if you prefer. 
 
-Optional : before syncing it , make sure to not have any obsolete chain : 
+Optional : Before syncing it , make sure to not have any obsolete chain : 
 ```
 geth --testnet removedb
 ```
@@ -50,16 +51,14 @@ And sync the full ropsten blockchain network (only onces)
 geth --testnet --fast --bootnodes "enode://20c9ad97c081d63397d7b685a412227a40e23c8bdc6688c6f37e97cfbc22d2b4d1db1510d8f61e6a8866ad7f0e17c02b14182d37ea7c3c8b9c2683aeb6b733a1@52.169.14.227:30303,enode://6ce05930c72abc632c58e2e4324f7c7ea478cec0ed4fa2528982cf34483094e9cbc9216e7aa349691242576d552a2a56aaeae426c5303ded677ce455ba1acd9d@13.84.180.240:30303" console
 ```
 
-Those flags means are useful for: 
+Those flags are useful for: 
 
-- `--testnet` : you'll sync with the Ropsten network 
+- `--testnet` : you'll sync with the Ropsten network. Alternatively you can use other flags
 - `--fast` : you're enabling [fast syncing](https://ethereum.stackexchange.com/a/11300) 
 - `--bootnodes` : Through these bootnodes a node can join the network and find other nodes. The one I've given are valid for the 3rd Feb 2018, and might change in the future. Check the [ropsten official repo](https://github.com/ethereum/ropsten) to get the updated bootnodes.
 - `console`: I attached the console to know the current state of the sync . Without that, you'll be a bit blind on the progress of the sync
 
 The Ethereum blockchain will store the data in the default directory (`/YOUR_HOME/.ethereum/testnet/geth/chaindata`). You can also check the size of the blockchain with `du -hs /YOUR_HOME/.ethereum/testnet/geth/chaindata` 
-
-I've waited about 60 minutes before the sync finished
 
 
 ### (optional) Step2.1: Check the progress of the sync : 
@@ -85,7 +84,7 @@ It happened to me (several times) that `geth` errored-out during the sync. I did
 ```
 geth --testnet console
 ```
-Note: I didn't specify the  `--bootnodes` and `--fast` flags since `geth` kept it in memory.
+Note: I didn't specify the  `--bootnodes` and `--fast` flags since `geth` kept it in memory. `--testnet` is needed or `geth` will try to read in the main ethereum database that you don't have (yet).
 
 
 ### Step3: Activate the JSON-RPC API (and keep your node in sync):
@@ -128,8 +127,8 @@ Also, please understand the security implications of opening up an HTTP/WS based
 
 
 ### Next blog post?:
-I hope this guide was helpful. Please let me know if you have any  article request. I could write about:
+I hope this guide was helpful for anyone starting. Please let me know if there is any mistakes. I'm also thinking writing about:
 
  - How to run easily your own ETH blockchain with `truffle` and `ganache` on a remote server. That one is useful if you do not want to sync the full chain, and have the same blockchain available quickly for your teamate.
- - How to have a realtime data replication on your smart contract using events
+ - How to have a realtime data replication of your smart contract using events to an other DB. That one could be useful because querying the Ethereum blockchain might not be as fast and easy as we wish :)
  
