@@ -212,13 +212,13 @@ It will return :</p>
 }
 </code></pre>
 
-<p>Note: <code>highestBlock: 2579729</code> should match the last block in <a href="https://ropsten.etherscan.io/">Ropsten Etherscan website</a></p>
+<p>Note: <code>highestBlock: 2579729</code> should match (even be  greater) than the last block in <a href="https://ropsten.etherscan.io/">Ropsten Etherscan website</a></p>
 
 <h3 id="step3-activate-the-json-rpc-api-and-keep-your-node-in-sync">Step3: Activate the JSON-RPC API (and keep your node in sync)</h3>
 
 <p>As a developer, sooner or later you&rsquo;ll want to start interacting with Geth and the Ethereum network via your own programs and not manually through the console. <code>geth</code> has built in support for a JSON-RPC based APIs (standard APIs and Geth specific APIs). These can be exposed via HTTP, WebSockets and IPC (unix sockets on unix based platforms).</p>
 
-<pre><code>geth --testnet --cache=1048 --rpc --rpcapi &quot;eth,net,web3&quot; --rpccorsdomain '*' --rpcaddr 0.0.0.0 --rpcport 8080
+<pre><code>geth --testnet --rpc --rpcapi &quot;eth,net,web3&quot; --rpccorsdomain '*' --rpcaddr 0.0.0.0 --rpcport 8080
 </code></pre>
 
 <ul>
