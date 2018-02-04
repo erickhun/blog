@@ -130,8 +130,8 @@
 <h3 id="prerequisite">Prerequisite :</h3>
 
 <ul>
-<li>Your own server. I have a <a href="https://m.do.co/c/8cd97ac64536">Digital Ocean</a> one with Ubuntu ubuntu 16.04. If you&rsquo;re a student, you can have a nice <a href="https://education.github.com/pack">$50 free credits for testing purpose</a>.</li>
-<li>9GB availlable of space disk. The Ropsten chain takes about 8.0GB on my server disk (3rd  February 2018) . The &ldquo;real&rdquo; ethereum blockchain requires about <a href="https://etherscan.io/chart2/chaindatasizefast">50GB of diskspace</a>.</li>
+<li>Your own server. I have a <a href="https://m.do.co/c/8cd97ac64536">Digital Ocean</a> one. A good droplet to use is the one with 2GB memory and 50GB of diskspace. I also pick Ubuntu 16.04 for the OS. If you&rsquo;re a student, you can have a nice <a href="https://education.github.com/pack">$50 free credits for testing purpose</a>.</li>
+<li>At least 10GB availlable of space disk.  The Ropsten chain takes about 9.0GB on my server disk (4rd  February 2018) . The &ldquo;real&rdquo; ethereum blockchain requires about <a href="https://etherscan.io/chart2/chaindatasizefast">50GB of diskspace</a>.</li>
 </ul>
 
 <h3 id="step1-setup-geth-go-ethereum">Step1: Setup geth (go ethereum)</h3>
@@ -194,7 +194,8 @@ sudo apt-get install ethereum -y
 done
 </code></pre>
 
-<p>You can then come back few hours later without worrying if the sync went well :)</p>
+<p>You can then come back few hours later without worrying if the sync went well :)
+Also, having <code>geth</code> that keep exiting might be a sign that oyu do not have enough memory. I recommend at least 2GB.</p>
 
 <h3 id="optional-step2-2-check-the-progress-of-the-sync">(optional) Step2.2: Check the progress of the sync</h3>
 

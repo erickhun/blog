@@ -26,8 +26,8 @@ This is a step by step guide to setup your own Ethereum node on the Ropsten netw
 
 
 ### Prerequisite : 
-- Your own server. I have a [Digital Ocean](https://m.do.co/c/8cd97ac64536) one with Ubuntu ubuntu 16.04. If you're a student, you can have a nice [$50 free credits for testing purpose](https://education.github.com/pack).
-- 9GB availlable of space disk. The Ropsten chain takes about 8.0GB on my server disk (3rd  February 2018) . The "real" ethereum blockchain requires about [50GB of diskspace](https://etherscan.io/chart2/chaindatasizefast).
+- Your own server. I have a [Digital Ocean](https://m.do.co/c/8cd97ac64536) one. A good droplet to use is the one with 2GB memory and 50GB of diskspace. I also pick Ubuntu 16.04 for the OS. If you're a student, you can have a nice [$50 free credits for testing purpose](https://education.github.com/pack).
+- At least 10GB availlable of space disk.  The Ropsten chain takes about 9.0GB on my server disk (4rd  February 2018) . The "real" ethereum blockchain requires about [50GB of diskspace](https://etherscan.io/chart2/chaindatasizefast).
 
 ### Step1: Setup geth (go ethereum)
 `geth` will allow you to sync the Ethereum blockchain, but also and run a rpc client
@@ -84,7 +84,10 @@ until geth --testnet  console; do
   sleep 10
 done
 ```
+
 You can then come back few hours later without worrying if the sync went well :)
+Also, having `geth` that keep exiting might be a sign that oyu do not have enough memory. I recommend at least 2GB.
+
 
 ### (optional) Step2.2: Check the progress of the sync
 
