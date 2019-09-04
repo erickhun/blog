@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Feb 2018 11:16:22 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 21 Aug 2019 11:16:22 +0100</lastBuildDate>
     
 	<atom:link href="https://erickhun.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Why You Should Build Side Projects</title>
+      <link>https://erickhun.com/post/why-you-should-build-side-projects/</link>
+      <pubDate>Wed, 21 Aug 2019 11:16:22 +0100</pubDate>
+      
+      <guid>https://erickhun.com/post/why-you-should-build-side-projects/</guid>
+      <description>Hi again</description>
+    </item>
     
     <item>
       <title>Setup your Ethereum node with geth on the Ropsten test network</title>

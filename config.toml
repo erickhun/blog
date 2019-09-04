@@ -1,44 +1,69 @@
 BaseURL = "https://erickhun.com/"
-theme = "hugo-geo"
-relativeURLs = false
-languageCode = "en-us"
-title = "Eric Khun"
+title = "eric khun"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
 disqusShortname = "erickhun"
-paginate = 5
+
+[params]
+    author = "Eric Khun"
+    info = "Engineering"
+    description = "Eric Khun's personal website"
+    keywords = "blog,developer,personal, data"
+    avatarurl = "img/eric.jpg"
+
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+    footercontent = "Feel free to contact me <a href=\"https://twitter.com/eric_khun\">@eric_khun</a>"
+
+    hidecredits = true
+    hidecopyright = true
+
+    rtl = false
+
+    math = true
+    # custom_css = ["css/custom.css"]
+
+    # Google Analytics
+    analytics = "UA-106516-7"
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/erickhun"
+[[params.social]]
+    name = "Linkedin"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 2
+    url = "https://www.linkedin.com/in/erickhun"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 3
+    url = "https://twitter.com/eric_khun"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/post/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about"
 
 [taxonomies]
     tag = "tags"
     tutorial = "tutorials"
 
-[params]
-    # Render the rotating globe in the sidebar
-    showglobe = true
-
-    # Google Analytics
-    analytics = "UA-106516-7"
-
-    # Social buttons for sidebar
-    github = "https://github.com/erickhun"
-    twitter = "https://twitter.com/eric_khun"
-    linkedin = "https://www.linkedin.com/in/erickhun"
-    #email = ""
-
-    # Sidebar profile picture
-    profilepic = "img/eric.jpg"
-
-    # Title/subtitle for the sidebar
-    title = "Eric Khun"
-    subtitle = "Software Engineer"
-
-    # Nav links below the profile picture
-    [[params.navlinks]]
-    name = "Me"
-    url = "post/hi/"
-
-    [[params.navlinks]]
-    name = "Posts"
-    url = "post/"
-
-    #[[params.navlinks]]
-    #name = "Tutorials"
-    #url = "tutorial/"
