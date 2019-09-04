@@ -1,0 +1,1 @@
+rm -rf  public/ ; hugo -t hugo-coder ; echo "erickhun.com" > public/CNAME ; git add -A ;  git commit -am "update" ; git push origin master ; git push origin `git subtree split --prefix public master`:gh-pages --force
