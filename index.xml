@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eric khun</title>
+    <link>https://erickhun.com/</link>
+    <description>Recent content on eric khun</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 03 Feb 2018 11:16:22 +0100</lastBuildDate>
+    
+	<atom:link href="https://erickhun.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setup your Ethereum node with geth on the Ropsten test network</title>
+      <link>https://erickhun.com/posts/setup-your-ethereum-node-geth-ropsten-test-network/</link>
+      <pubDate>Sat, 03 Feb 2018 11:16:22 +0100</pubDate>
+      
+      <guid>https://erickhun.com/posts/setup-your-ethereum-node-geth-ropsten-test-network/</guid>
+      <description>This is a step by step guide to setup your own Ethereum node on the Ropsten network. At the end of this guide you&amp;rsquo;ll be able to:
+ Run your own ethereum node synced with the Ropsten testnet network Making sure to keep the node in sync with the blockchain on the network Be able to communicate via the JSON-RPC API of your own node Using the same method to run your node on the main network  Why do you want run your own node?</description>
+    </item>
+    
+    <item>
+      <title>I did a Plum.io test</title>
+      <link>https://erickhun.com/posts/plum-io-test/</link>
+      <pubDate>Sun, 02 Oct 2016 17:35:00 +0200</pubDate>
+      
+      <guid>https://erickhun.com/posts/plum-io-test/</guid>
+      <description>An ex-classmate asked me today to do a Plum.io. I was expecting a coding/algo/logic test. But it was mostly some soft skills questions with a small part of logic.
+My results are available here. I&amp;rsquo;m a the top 5% to Conflict Resolution, Teamwork, and Communication. I&amp;rsquo;m not totally sure what means the top 5%, and really curious about my score on the other categories.
+What&amp;rsquo;s also interesting, is that I did the test a second time, and got a lower score.</description>
+    </item>
+    
+    <item>
+      <title>fitness is the first step to greatness</title>
+      <link>https://erickhun.com/posts/fitness-is-the-first-step-to-greatness/</link>
+      <pubDate>Sat, 01 Oct 2016 11:51:22 +0200</pubDate>
+      
+      <guid>https://erickhun.com/posts/fitness-is-the-first-step-to-greatness/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Fitness is the first step to greatness.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It is my favorite quote that &lt;a href=&#34;https://twitter.com/justinkan&#34;&gt;Justin Kan&lt;/a&gt; keep saying in Snapchat.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s a quote I just start understand. I start working out 1 year ago. I can definitely relate this to work. and I find I can achieve more at work.&lt;/p&gt;
+
+&lt;h2 id=&#34;have-clear-goals-to-challenge-yourself&#34;&gt;Have clear goals to challenge yourself&lt;/h2&gt;
+
+&lt;p&gt;When I started, I tried to exercice every 2-3 days without any goals. Picking a workout machine randonly, and adding weight randomly. I also didn&amp;rsquo;t keep track of how heavy I could lift on each machine. I think at this time I just didn&amp;rsquo;t know what I was doing. My motivation decreased a lot and I noticed that I went less often in the gym.
+What is wrong with that? My motivation kept lowering week after week. I went to the gym less often, and started to find many excuse to not go. I start forgetting the benefits of it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i2.kym-cdn.com/photos/images/facebook/000/234/765/b7e.jpg&#34; alt=&#34;No idea what I&#39;m doing&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;At &lt;a href=&#34;https://buffer.com&#34;&gt;Buffer&lt;/a&gt;, we&amp;rsquo;re lucky to have a slack channel called #improvements-fitness where bufferoos talk about their improvements and everything fitness related. I started to dig into the channel history and found a program that was quoted many times: &lt;a href=&#34;http://stronglifts.com&#34;&gt;Stronglift 5x5&lt;/a&gt; . After a quick look&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hi, I&#39;m Eric :)</title>
+      <link>https://erickhun.com/posts/hi/</link>
+      <pubDate>Sat, 01 Oct 2016 02:00:06 +0200</pubDate>
+      
+      <guid>https://erickhun.com/posts/hi/</guid>
+      <description>&lt;p&gt;Hi there, thanks for passing by! I&amp;rsquo;m Eric, engineer at &lt;a href=&#34;https://buffer.com&#34;&gt;Buffer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I remember writting a blog in French few years ago in high school. I&amp;rsquo;m not really sure what it was about, certainly about technology and me being intrigued about internet. For some reasons, I stopped writting, but always wanted to get back at it&lt;/p&gt;
+
+&lt;p&gt;So Why?&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
