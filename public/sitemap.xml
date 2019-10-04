@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://erickhun.com/</loc>
+    <lastmod>2019-08-01T11:16:22+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://erickhun.com/posts/</loc>
+    <lastmod>2019-08-01T11:16:22+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://erickhun.com/posts/turning-30/</loc>
+    <lastmod>2019-08-01T11:16:22+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://erickhun.com/posts/why-you-should-have-a-side-project/</loc>
+    <lastmod>2019-08-01T11:16:22+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://erickhun.com/tags/blockchain/</loc>
     <lastmod>2018-02-03T11:16:22+01:00</lastmod>
   </url>
@@ -23,11 +43,6 @@
   </url>
   
   <url>
-    <loc>https://erickhun.com/</loc>
-    <lastmod>2018-02-03T11:16:22+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://erickhun.com/tags/ethereum/</loc>
     <lastmod>2018-02-03T11:16:22+01:00</lastmod>
   </url>
@@ -39,11 +54,6 @@
   
   <url>
     <loc>https://erickhun.com/tags/infrastructure/</loc>
-    <lastmod>2018-02-03T11:16:22+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://erickhun.com/posts/</loc>
     <lastmod>2018-02-03T11:16:22+01:00</lastmod>
   </url>
   

@@ -6,10 +6,29 @@
     <description>Recent content in Posts on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Feb 2018 11:16:22 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 01 Aug 2019 11:16:22 +0800</lastBuildDate>
     
 	<atom:link href="https://erickhun.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Turning 30</title>
+      <link>https://erickhun.com/posts/turning-30/</link>
+      <pubDate>Thu, 01 Aug 2019 11:16:22 +0800</pubDate>
+      
+      <guid>https://erickhun.com/posts/turning-30/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Why You Should Have A Side Project</title>
+      <link>https://erickhun.com/posts/why-you-should-have-a-side-project/</link>
+      <pubDate>Thu, 01 Aug 2019 11:16:22 +0800</pubDate>
+      
+      <guid>https://erickhun.com/posts/why-you-should-have-a-side-project/</guid>
+      <description>I often advocate people surrounding me to build their own side projects. I believe they can fulfill you in so many ways: for your career, your relationships, or your independance. Buffer, the company I currently work for, was itself a side project.
+I&amp;rsquo;ve built myself multiple side projects. The major ones being PartyInBeijing (sunsetted), Nodablock (sunsetted), Citymayor, and now TravelHustlers. I believe each of them contributed and lead me to my current situation, and being satisfied profesionnaly, financially, and socially.</description>
+    </item>
     
     <item>
       <title>Setup your Ethereum node with geth on the Ropsten test network</title>
