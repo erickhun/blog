@@ -1,6 +1,6 @@
 +++
 categories = ["career", "self-improvement", "side-project"]
-date = "2019-08-01T11:16:22+08:00"
+date = "2019-10-01T11:16:22+08:00"
 description = ""
 draft = false
 image = "/img/about-bg.jpg"
@@ -9,14 +9,14 @@ title = "Why You Should Have A Side Project"
 
 I often advocate people surrounding me to build their own side projects. I believe they can fulfill you in so many ways: for your career, your relationships, or your independance. [Buffer](https://buffer.com), the company I currently work for, was itself a [side project](https://news.ycombinator.com/item?id=1956119).
 
-I've built myself multiple side projects. The major ones being PartyInBeijing (sunsetted), [Nodablock](https://nodablock.com) (sunsetted), [Citymayor](https://citymayor.co), and now [TravelHustlers](https://travelhustlers.co). I believe each of them contributed and lead me to my current situation, and being satisfied profesionnaly, financially, and socially.
+I've built myself multiple side projects. The major ones being PartyInBeijing (sunsetted), [Nodablock](https://nodablock.com) (sunsetted), [Citymayor](https://citymayor.co), and now [TravelHustlers](https://travelhustlers.co). I believe each of them contributed and lead me to my current situation: being satisfied profesionnaly, financially, and socially.
 
-I'll go though this post on the many reasons why side projects are great and the reasons on why I think you should start one. So let's dive into it now:
+I'll go though this post on the many reasons why side projects are great and the reasons on why I think you should start one. So let's dive into it!
 
-## ❤️ Working on something you are passionate about or care
-The main reason I start a side project is to create something I am **passionate**, **care** about, or even better,  could probably **help others**. Making your or someone else life easier by creating from scratch is somewhat satisfying. I'm always glad to talk to a total stranger telling me a project I've created contributed in making their life easier! To give few examples:
+## ❤️ Working on something you are passionate about or care about
+The main reason I start a side project is to create something I am **passionate**, **care about**, or even better,  could probably **help others**. Making your or someone else life easier by building something from scratch is really satisfying. I'm always glad to stumble upon total strangers that tells they've used one of my project! 
 
-My first side project, PartyInBeijing, was an application to help non-speaking chinese perso in China to go to bars or night club. Chinese addresses are not the easiest to prunounce or remember and it takes quite a bit of time to master the [tones](https://en.wikipedia.org/wiki/Standard_Chinese_phonology#Tones). I can't recall how many times the taxi drivers bring us to the wrong venue because our prununciations were not great. So I've decided to create with my friends an Application that prununciate the address of a venue (then added later on events and tickets sales).
+My first side project, PartyInBeijing, was a mobile app to help non-speaking chinese persons in China to go to bars or night club. Chinese addresses are not the easiest to prunounce or remember and it takes quite a bit of time to master the [tones](https://en.wikipedia.org/wiki/Standard_Chinese_phonology#Tones). I can't recall how many times the taxi drivers bring us to the incorrect venue because our prununciations were not great. So I've decided to create with my friends an app that dictate the address of a venue. This app got few thousands users in Beijing, and we added later  events and tickets sales!
 
 My last one, [Travel Hustlers](https://travelhustlers.co), started because I travel frequently, and often happened to be in [long layovers](https://travelhustlers.co/layover-in/). I've often struggled to figure out what to do out
 I can do during a long layovers.
