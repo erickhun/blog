@@ -44,7 +44,7 @@ A really nice side effect will be to make money. At this point, you could simply
 - [Paul McMahon](https://www.tokyodev.com) started [Doorkeeper](https://www.doorkeeper.jp) as a side while working in a Japanse company, and now fully focus on it
 - [The Techlead](https://www.youtube.com/channel/UC4xKdmAXFh4ACyhpiQ_3qBw) has a successful youtube channel. He generates a decent amount of money from it. He however [got fired](https://youtu.be/2pIJoPkh9IU) while working at Facebook because of it. Even though, he still seem to do quite well since his channel still generates income, and he also other projects on the side.
 
-Having a side project can help you "control your destiny" and stop depending of your employer. Just make sure the contract you signed agree with you doing so. 
+Having a side project can help you **"control your destiny"** and stop depending of your employer. Just make sure the contract you signed agree with you doing so. 
 It can also be a great way to reach [Financial Independance and Retire Early (FIRE)](https://en.wikipedia.org/wiki/FIRE_movement).
 
 ## 📚 Improving or building new skills
