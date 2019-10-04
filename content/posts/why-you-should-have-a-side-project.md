@@ -42,10 +42,10 @@ Cameron (ceo @ [Strong](https://strongapp.com)) started his side project to keep
 A really nice side effect will be to make money. At this point, you could simply quit your day to day job and focus on making more money with it. I wouldn't advise you to quit your job to start a side project, this is called a [startup](https://startupclass.samaltman.com) and involve greater risks.
 
 - [Paul McMahon](https://www.tokyodev.com) started [Doorkeeper](https://www.doorkeeper.jp) as a side while working in a Japanse company, and now fully focus on it
-- [The Techlead](https://www.youtube.com/channel/UC4xKdmAXFh4ACyhpiQ_3qBw) has a pretty successful youtube channel and generate a decent amount of money, He however [got fired](https://youtu.be/2pIJoPkh9IU) while working at Facebook because of it. He seems doing fine since his channel still generates some money, and he also has other projects on the sides.
+- [The Techlead](https://www.youtube.com/channel/UC4xKdmAXFh4ACyhpiQ_3qBw) has a successful youtube channel. He generates a decent amount of money from it. He however [got fired](https://youtu.be/2pIJoPkh9IU) while working at Facebook because of it. Even though, he still seem to do quite well since his channel still generates income, and he also other projects on the side.
 
 Having a side project can help you "control your destiny" and stop depending of your employer. Just make sure the contract you signed agree with you doing so. 
-It can also be a great way to reach Financial Independance and retire early.
+It can also be a great way to reach [Financial Independance and Retire Early (FIRE)](https://en.wikipedia.org/wiki/FIRE_movement).
 
 ## 📚 Improving or building new skills
 At your day to day job, you will rarely have opportunities to do what you really want. You'll certainly be in a team that have specific goals and you were hired because you're good at it and help in achieving those goals. But what if you wanted more and wanted to explore new area?
