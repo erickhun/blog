@@ -5,7 +5,7 @@ description = ""
 draft = false
 image = "/img/about-bg.jpg"
 tags = ["fitness", "workout", "sport", "stronglift"]
-title = "fitness is the first step to greatness"
+title = "Fitness is the first step to greatness"
 
 +++
 
