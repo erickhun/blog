@@ -24,13 +24,14 @@ I can do during a long layovers.
 [Joe Birsh](https://joebirch.co/), Android developer at Buffer, built an amazing project called [ChordAssist](https://chordassist.com/) to help mute, deaf and blind to learn how to play guitar.
 
 ## 💸 Making money
-One of the most motivating and concrete output of a side project is the money it can generate. For me it was...
+One of the most motivating and concrete output of a side project is the money it can generate. I've made...
 
-- Nodablock: USD 2000 (4 sales at $500)
+- Nodablock: USD2000 (4 sales at $500)
 - Party in Beijing: $2350 in ticket sales
-- Citymayor: ~ USD 3000
+- Citymayor: ~ USD3000
 
-Those projects were discountinued, but I'm sometimes wondering if I had keep working on it, how much I would have made today? Some people will think that a new project worth invest time if that makes money, but I don't think it should be the way to think about it. It could ideally become one. If your main goal is to make money and you take more risk than doing this in your free time, it should be call a [startup](https://startupclass.samaltman.com).
+Only Citymayor is running now, but I'm sometimes wondering if I have kept working on it, how much I would have made today? 
+Some persons will think a new project worth invest time if that makes money, but I don't think it should be the way to think about it. It could ideally generate income but I think that's the wrong motivation to have. If your main goal is to make money and you'll have to take more risk, it should be called a [startup](https://startupclass.samaltman.com).
 
 My current project ([Travel Hustlers](https://travelhustlers.co)) does not make any money. Nodablock and Citymayor were money driven, Travel Hustlers and PartyInBeijing passion driven. The PartyInBeijing being the one I've enjoyed to work on the most, and I think fullfilled me the most. 
 
