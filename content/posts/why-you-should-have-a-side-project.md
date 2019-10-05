@@ -35,9 +35,6 @@ Some persons will think a new project worth invest time if that makes money, but
 
 My current project ([Travel Hustlers](https://travelhustlers.co)) does not make any money. Nodablock and Citymayor were money driven, Travel Hustlers and PartyInBeijing passion driven. The PartyInBeijing being the one I've enjoyed to work on the most, and I think fullfilled me the most. 
 
-Cameron (ceo @ [Strong](https://strongapp.com)) started his side project to keep track of his workout. He is now is #1 in the App store and lead 20 employees.
-
-
 ## ✨ A Security net, a way to have your own business?
 A really nice side effect will be to make money. At this point, you could simply quit your day to day job and focus on making more money with it. I wouldn't advise you to quit your job to start a side project, this is called a [startup](https://startupclass.samaltman.com) and involve greater risks.
 
