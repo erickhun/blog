@@ -12,7 +12,6 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 disqusShortname = "erickhun"
-
 analytics = "UA-106516-7"
 
 [params]
