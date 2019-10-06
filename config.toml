@@ -13,6 +13,8 @@ pygmentscodefencesguesssyntax = true
 
 disqusShortname = "erickhun"
 
+analytics = "UA-106516-7"
+
 [params]
     author = "Eric Khun"
     info = "Engineering"
@@ -33,8 +35,6 @@ disqusShortname = "erickhun"
     math = true
     # custom_css = ["css/custom.css"]
 
-    # Google Analytics
-    analytics = "UA-106516-7"
 
 # Social links
 [[params.social]]

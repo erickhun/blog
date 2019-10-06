@@ -1,6 +1,6 @@
 +++
 categories = ["career", "self-improvement", "side-project"]
-date = "2019-10-01T11:16:22+08:00"
+date = "2019-10-06T11:16:22+08:00"
 description = ""
 draft = false
 image = "/img/about-bg.jpg"
@@ -60,6 +60,8 @@ I've asked [David Wong](https://www.cryptologie.net/), working in the cryptocurr
 I believe there is no better way to show you're able to code, do marketing or sales by doing building your own side project. This also show the passion you have about a domain, and you had the skills to achieve it. Doing this by your own  also demonstrate an **entrepreneurship spirit** that will help you to score point against an other "lambda" profiles.
 
 Blogging about your side project can also a great things to increase the visibility of what you are creating. Even if you don't go "viral", you'll have at least have something out there accessible with a link. Someone reading about your blog might simply reach you and ask you if you'd like to work for them if they're interested in what or how you've done it.
+
+Few months ago, I've met [Tom](https://thomasandrewhansen.com) in a coffee shop, and he told me he was working on a side project about [comparing ski resorts worldwide](https://shredindex.com). He told me he started it because it would be useful for himself and he also wanted to sharp his coding skills to find better jobs. 6 days ago he posted [on reddit](https://www.reddit.com/r/skiing/comments/dbafm7/so_i_have_been_building_this_what_do_you_guys/). He just got 2 jobs offers **in the industry he wanted to be** in from total strangers he never met.
 
 I've told my friend, that quit his job in marketing because he wanted to get back into engineering (Machine Learning specifficaly), to create his side project to make his job hunting easier. He came up with [BrandImage.io](https://brandimage.io), a tool using AI & Natural Language Processing to understand what people like/dislike about a brand/product. He already got some interviews thanks to it. I'm now wondering how long it will take him to find the company that fits him (don't hesitate to [contact him](https://www.linkedin.com/in/jonathan-boigne/) 😉)
 
