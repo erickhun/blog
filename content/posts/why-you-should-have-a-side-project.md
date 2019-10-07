@@ -4,12 +4,12 @@ date = "2019-10-06T11:16:22+08:00"
 description = ""
 draft = false
 image = "/img/about-bg.jpg"
-title = "Why You Should Have A Side Project"
+title = "Why you should have a Side Project"
 +++
 
 I often advocate people surrounding me to build their own side projects. I believe they can fulfill you in so many ways: for your career, your relationships, or your independance. [Buffer](https://buffer.com), the company I currently work for, was itself a [side project](https://news.ycombinator.com/item?id=1956119).
 
-I've built myself multiple side projects. The major ones being PartyInBeijing (sunsetted), [Nodablock](https://nodablock.com) (sunsetted), [Citymayor](https://citymayor.co), and now [TravelHustlers](https://travelhustlers.co). I believe each of them contributed and lead me to my current situation: being satisfied profesionnaly, financially, and socially.
+I've built myself multiple side projects. The major ones being [PartyInBeijing](https://www.instagram.com/partyinbeijing) (inactive), [Nodablock](https://nodablock.com) (inactive), [Citymayor](https://citymayor.co)(need to fix), and now [TravelHustlers](https://travelhustlers.co). I believe each of them contributed and lead me to my current situation: being satisfied profesionnaly, financially, and socially.
 
 I'll go though this post on the many reasons why side projects are great and the reasons on why I think you should start one. So let's dive into it!
 
@@ -79,12 +79,11 @@ Even though, I do most of them with my friends. I pick them with knowing they ha
 The  disadvantage of working with friends will be misalignment/disagreement. You'll discuss about a lot about what to ship next or what to perfect. Those happend with all my projects and I try to solve them quickly to not "stuck" the project. A tip would be to clarify exactly what you want to build before starting anything. Those discussions are healthy and help make the project move forward. Something I insist is that **side projects shouldn't be the cost of any friendship**. If misalignment are too strong, it's just better to sit (or have a call) and talk.
 
 ## 👭👫 Making new friends, meeting new people 
-It's been 5 years I've been working remotely. The feeling of isolation come quite often and I've found that talking about side projects will make you meet new people, that can become friends. I've kept in touch with some customers that bought some concert ticket. Met some really interesting persons at some meetups or events when trying to sell Nodablock.
+An other advantages with side project is meeting new people you wouldn't usually meet. It's been 5 years I've been working remotely. The feeling of isolation come quite often and I've found that talking about side projects will make you meet new people, that can become friends. I've kept in touch with some customers that bought some concert tickets. Met some really interesting persons at some meetups or events when trying to sell Nodablock, and now meeting amazing people with [TravelHustlers](https://travelhustlers.co)!
 
 
 ## 👷‍？ But I don't know how to code?
-This is the biggest missconceptions about side projects, you don't neccessarly need to code to start one. There is so many plateform that can help you. Creating a podcast, writting a blog, writting a book, making a youtube channel, and so on...s
+This is the biggest missconceptions about side projects, you don't neccessarly need to code to start one. There is so many plateforms that can help you to create your side projects. Creating a podcast, writting a blog, writting a book, making a youtube channel, and so on...
 
 
-
-To conclude, follow your passions and build side projects around it. It will only bring you positive things 
+To conclude, follow your passions and build side projects around it. It will only bring you positive things and you'll have fun doing it!
