@@ -4,7 +4,7 @@ date = "2019-10-06T11:16:22+08:00"
 description = ""
 draft = false
 image = "/img/about-bg.jpg"
-title = "Why you should have a Side Project"
+title = "Why you should have a side project"
 +++
 
 I often advocate people surrounding me to build their own side projects. I believe they can fulfill you in so many ways: for your career, your relationships, or your independence. [Buffer](https://buffer.com), the company I currently work for, was itself a [side project](https://news.ycombinator.com/item?id=1956119).
