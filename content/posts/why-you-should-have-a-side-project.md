@@ -20,7 +20,7 @@ My first side project, PartyInBeijing, was a mobile app to help non-speaking chi
 
 My last one, [Travel Hustlers](https://travelhustlers.co), built with [Thibault](https://www.linkedin.com/in/thibaultbronchain/), started because we travel frequently, and we always faced the same issues when arriving in a new cities. We've started to build "[Layover in](https://travelhustlers.co/layover-in/)", a small tool to figure out what to do during long layovers and discover new or unexpected places. More tools are coming ;)
 
-[Joe Birsh](https://joebirch.co/), Android developer at Buffer, built an amazing project called [ChordAssist](https://chordassist.com/) to help mute, deaf and blind to learn how to play guitar.
+[Joe Birch](https://joebirch.co/), Android developer at Buffer, built an amazing project called [ChordAssist](https://chordassist.com/) to help mute, deaf and blind to learn how to play guitar.
 
 ## 💸 Making money
 One of the most motivating and concrete outputs of a side project is obviouly the money it could generate. In my case, I've made...
