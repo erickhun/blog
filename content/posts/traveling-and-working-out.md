@@ -1,5 +1,5 @@
 ---
-title: "How I kept working out while traveling for 4 years? 🏋️‍♀️ 🏐 🌍"
+title: "How I keep working out while traveling - 4 years in 🏋️‍♀️ 🏐 🌍"
 date: 2019-09-15T20:18:56Z
 draft: false
 ---
