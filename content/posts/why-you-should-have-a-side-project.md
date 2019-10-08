@@ -87,3 +87,5 @@ This is the biggest misconception about side projects, you don’t necessarily n
 
 To conclude, follow your passions and build side projects around it. It will only bring you positive things and you'll have fun doing it!
 And you, what were the benefits of you having a side project? Please comment :) 
+
+*ps: there is also great reasons [shared on Hacker News](https://erickhun.com/posts/why-you-should-have-a-side-project/) on why you shouldn't have side projects. I invite you to check them out, but I won't talk about it here since believe this is a part of an other discussion 😉*
