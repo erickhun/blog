@@ -37,7 +37,7 @@ My current project ([Travel Hustlers](https://travelhustlers.co)) does not make 
 ## ✨ A Security net, a way to have your own business?
 A really nice side effect will be to make money. At this point, you could simply quit your day to day job and focus on making more money with it. I wouldn't advise you to quit your job to start a side project, this is called a [startup](https://startupclass.samaltman.com) and involve greater risks.
 
-- Mark got the idea for [alchemist.camp, an Elixir-learning screencast and tutorial website](https://alchemist.camp),  while working on a failed video chat startup. He wanted to share technical skills he learned from that startup. When it failed, he started making tutorials on YouTube and now making $1500 per month.
+- Mark got the idea for [alchemist.camp, an Elixir-learning screencast and tutorial website](https://alchemist.camp),  while working on a video chat startup. He wanted to share technical skills he learned from that startup. When it failed, he started making tutorials on YouTube and now making $1500 per month.
 - [Paul McMahon](https://www.tokyodev.com) started [Doorkeeper](https://www.doorkeeper.jp) as a side while working in a Japanse company, and now fully focus on it
 - [The Techlead](https://www.youtube.com/channel/UC4xKdmAXFh4ACyhpiQ_3qBw) has a successful youtube channel. He generates a decent amount of money from it. He however [got fired](https://youtu.be/2pIJoPkh9IU) while working at Facebook because of it. Even though, he still seem to do quite well since his channel still generates income, and he also other projects on the side.
 
