@@ -15,7 +15,7 @@ While arriving in a new place, the biggest challenge when you are weightlifting 
 - Taiwan has [many public gyms](https://www.google.com/maps/search/Taipei+Sports+Center/@25.0474364,121.5280767,13.47z), where you pay by the hour: usd 1,50/hour !
 - Tokyo has some public gyms you can access for about usd4/day, there are the [Shibuya](https://goo.gl/maps/E8nfcuSNizjCuoB7A), [Shinjuku](https://goo.gl/maps/b1QKRc3KC3EwGxAA6) or [Minato](https://goo.gl/maps/1XUz1EbPADeJ8mGz5) ones
 - Warsaw, Prague and Budapest have many gyms with monthly pass with no contract for about usd25/month
-- Hotels sometimes has a gym, but I was always disappointed with the equipment there. [Some exceptions exists](hoteladeline.com) though
+- Hotels sometimes has a gym, but I was always disappointed with the equipment there. [Some exceptions exists](https://hoteladeline.com) though
 - If you're staying at least a month in a city, you can also ask. My strategy here is using the "free trial" of the nearest gym. At the end of the session, I ask if that's possible to arrange something for your case. Sometimes a flight ticket is enough to "stop" a yearly membership
 - If you've opted out for a body weight exercises, park or your home are great and free 🌳🌳
 
