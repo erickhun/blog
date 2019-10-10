@@ -2,16 +2,20 @@
 categories = ["career", "self-improvement"]
 date = "2016-10-02T17:35:00+02:00"
 description = ""
-draft = true
+draft = false
 image = "/img/plum-io.jpg"
 tags = ["career", "self-improvement"]
 title = "I did a Plum.io test"
-
 +++
 
-An ex-classmate asked me today to do a [Plum.io](http://plum.io/). I was expecting a coding/algo/logic test. But it was mostly some soft skills questions with a small part of logic.
+An ex-classmate shared with me today the [Plum.io](http://plum.io/) test. My results are available [here](https://app.plum.io/profile/669371484c2877f475072a3dcab9a96dac2e244b).
 
-My results are available [here](https://app.plum.io/profile/669371484c2877f475072a3dcab9a96dac2e244b). I'm a the top 5% to Conflict Resolution, Teamwork, and Communication. I'm not totally sure what means the top 5%, and really curious about my score on the other categories.
+The 3 "talents" that stands out were: 
 
-What's also interesting, is that I did the test a second time, and [got a lower score](https://app.plum.io/profile/6f0c9c37320cc2acf03187871ab5dd856fe9b826). I think I did different choices for the logic part, or maybe I wasn't as focus as the first time.
-I think the different score also reflects how decision are made at different time of the day, and the context you're surronded at a given time.
+- Conflict: Resolution: stay calm , empathie, being polite when you disagree
+- Teamwork: be tactful, courteous of others,  be sensitive to others needs, support others, encourage positive interactions
+- Communication:  "good long term relationships, even with difficult people", "built on tactful and considerate interactions", "Good at knowing the right thing to say to people and at understanding how people will accept what you are going to say to them", "soliciting and accepting feedback and criticism from others"
+
+Sounds about right? :) 
+
+Which personality test do you recommend me to do?
