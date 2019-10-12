@@ -100,4 +100,4 @@ And you, what were the benefits of you having a side project? Please comment :)
 
 
 
-### My previous post: [How I keep working out while traveling - 4 years in 🏋️‍🏐 🌍](https://erickhun.com/posts/traveling-and-working-out/)
+### My previous post: [How I keep working out while traveling - 4 years in 🏋️‍🏐 🌍](/posts/traveling-and-working-out)

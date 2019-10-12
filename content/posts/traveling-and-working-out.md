@@ -71,3 +71,6 @@ I **would not recommend you to workout if you're feeling off**. You’ll be less
 Obviously I sometimes skip a few weeks of exercise because of [insert here any excuses]. It’s normal because I sometimes need some time to “relax” or take a rest, or simply disconnect with my routine.
 
 I hope this post was any useful for anyone trying to keep up with their workout while travelling or not. What's your tips to keep working out when traveling? Any gyms you'd recommend for travelers? Feel free to comment below, I'll be happy to read it!
+
+
+### My most popular post: [Why you should have a Side Project](/posts/traveling-and-working-out)
