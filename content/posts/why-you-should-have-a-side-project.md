@@ -7,6 +7,9 @@ image = "/img/about-bg.jpg"
 title = "Why you should have a side project"
 +++
 
+
+<center>![workout motivation](/img/side-projects.jpg)</center>
+
 I often advocate people surrounding me to build their own side projects. I believe they can fulfill you in so many ways: for your career, your relationships, or your independence. [Buffer](https://buffer.com), the company I currently work for, was itself a [side project](https://news.ycombinator.com/item?id=1956119).
 
 I've built myself multiple side projects. The major ones being [PartyInBeijing](https://www.instagram.com/partyinbeijing) (inactive), [Nodablock](https://nodablock.com) (inactive), [Citymayor](https://citymayor.co)(need to fix), and now [TravelHustlers](https://travelhustlers.co). I believe each of them contributed and lead me to my current situation: being satisfied in my career, financially, and socially.
