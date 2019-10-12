@@ -73,4 +73,4 @@ Obviously I sometimes skip a few weeks of exercise because of [insert here any e
 I hope this post was any useful for anyone trying to keep up with their workout while travelling or not. What's your tips to keep working out when traveling? Any gyms you'd recommend for travelers? Feel free to comment below, I'll be happy to read it!
 
 
-### My most popular post: [Why you should have a Side Project](/posts/traveling-and-working-out)
+### Also checkout out my most popular post: [Why you should have a Side Project](/posts/traveling-and-working-out)
