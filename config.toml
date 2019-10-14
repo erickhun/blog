@@ -37,20 +37,26 @@ googleAnalytics = "UA-106516-7"
 
 # Social links
 [[params.social]]
-    name = "Github"
-    icon = "fab fa-github fa-2x"
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
     weight = 1
-    url = "https://github.com/erickhun"
+    url = "https://twitter.com/eric_khun"
+[[params.social]]
+    name = "Instagram"
+    icon = "fab fa-instagram fa-2x"
+    weight = 2
+    url = "https://www.instagram.com/juiced69"
 [[params.social]]
     name = "Linkedin"
     icon = "fab fa-linkedin fa-2x"
     weight = 2
     url = "https://www.linkedin.com/in/erickhun"
 [[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter fa-2x"
-    weight = 3
-    url = "https://twitter.com/eric_khun"
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/erickhun"
+
 
 # Menu links
 [[menu.main]]
