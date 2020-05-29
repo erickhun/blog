@@ -55,7 +55,7 @@
     <link rel="icon" type="image/png" href="https://erickhun.com/img/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://erickhun.com/img/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.57.2" />
+    <meta name="generator" content="Hugo 0.70.0" />
   </head>
 
   <body class=" ">
@@ -136,140 +136,101 @@
       </header>
 
       <div>
-        
-
-<p><img src="https://erickhun.com/img/ethereum-logo2.png" alt="Ethereum logo" /></p>
-
+        <p><img src="https://erickhun.com/img/ethereum-logo2.png" alt="Ethereum logo"></p>
 <p>This is a step by step guide to setup your own Ethereum node on the Ropsten network. At the end of this guide you&rsquo;ll be able to:</p>
-
 <ul>
 <li>Run your own ethereum node synced with the Ropsten testnet network</li>
 <li>Making sure to keep the node in sync with the blockchain on the network</li>
 <li>Be able to communicate via the JSON-RPC API of your own node</li>
 <li>Using the same method to run your node on the main network</li>
 </ul>
-
 <h3 id="why-do-you-want-run-your-own-node">Why do you want run your own node?</h3>
-
 <ul>
 <li>Once your dAPP and Smart Contract are working locally, you&rsquo;ll want to test it on a real network with (almost) real condition.</li>
 <li>There is a service called <a href="https://infura.io">Infura</a>, allowing you to communicate easily with Ropsten via json-rpc without having to setup your own node. However, Infura doesn&rsquo;t allow you to <a href="http://solidity.readthedocs.io/en/develop/contracts.html#events">listen to events</a> that  your smart contract could trigger. Events are useful when you want start to do some fancy thing like real time data replication on a second database or simply notify your users in your <a href="https://ethereum.stackexchange.com/tags/dapp-development/info">dApp</a>. If you do not need events, you should definitely use Infura :)</li>
 <li>An other reason would be to mine some new block and earn some money. But I won&rsquo;t cover that topic here</li>
 </ul>
-
-<h3 id="prerequisite">Prerequisite :</h3>
-
+<h3 id="prerequisite-">Prerequisite :</h3>
 <ul>
 <li>Your own server. I have a <a href="https://m.do.co/c/8cd97ac64536">Digital Ocean</a> one. A good droplet to use is the one with 2GB memory and 50GB of diskspace. I also pick Ubuntu 16.04 for the OS. If you&rsquo;re a student, you can have a nice <a href="https://education.github.com/pack">$50 free credits for testing purpose</a>.</li>
 <li>At least 10GB availlable of space disk.  The Ropsten chain takes about 9.0GB on my server disk (4rd  February 2018) . The &ldquo;real&rdquo; ethereum blockchain requires about <a href="https://etherscan.io/chart2/chaindatasizefast">50GB of diskspace</a>.</li>
 </ul>
-
 <h3 id="step1-setup-geth-go-ethereum">Step1: Setup geth (go ethereum)</h3>
-
 <p><code>geth</code> will allow you to sync the Ethereum blockchain, but also and run a rpc client</p>
-
 <p>To set that up :</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">sudo apt-get install software-properties-common
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo apt-get install software-properties-common
 sudo add-apt-repository -y ppa:ethereum/ethereum
 sudo apt-get update
-sudo apt-get install ethereum -y</pre></div>
-<p>I&rsquo;m using <code>geth version: 1.7.3-stable</code> for this guide</p>
-
+sudo apt-get install ethereum -y
+</code></pre></div><p>I&rsquo;m using <code>geth version: 1.7.3-stable</code> for this guide</p>
 <p>Some people might prefer <code>parity</code>. This guide will focus on <code>geth</code></p>
-
 <h3 id="step2-sync-your-node-with-the-ropsten-network">Step2: Sync your node with the Ropsten network</h3>
-
 <p>The sync will take about 4 hours. I&rsquo;m running the command in a <code>screen</code> console, just in case I lose the ssh connection or want to do something else in the server. You can also use <code>tmux</code> if you prefer.</p>
-
 <p>Optional : Before syncing it , make sure to remove any previous data you might have locally. (don&rsquo;t run that if you&rsquo;re in a middle of a sync, or you&rsquo;ll need to start again) :</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">geth --testnet removedb</pre></div>
-<p>Then sync the full ropsten blockchain network:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">geth --testnet --fast --bootnodes &#34;enode://20c9ad97c081d63397d7b685a412227a40e23c8bdc6688c6f37e97cfbc22d2b4d1db1510d8f61e6a8866ad7f0e17c02b14182d37ea7c3c8b9c2683aeb6b733a1@52.169.14.227:30303,enode://6ce05930c72abc632c58e2e4324f7c7ea478cec0ed4fa2528982cf34483094e9cbc9216e7aa349691242576d552a2a56aaeae426c5303ded677ce455ba1acd9d@13.84.180.240:30303&#34; console</pre></div>
-<p>Those flags are really important for the first run. They are useful for:</p>
-
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">geth --testnet removedb
+</code></pre></div><p>Then sync the full ropsten blockchain network:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">geth --testnet --fast --bootnodes &#34;enode://20c9ad97c081d63397d7b685a412227a40e23c8bdc6688c6f37e97cfbc22d2b4d1db1510d8f61e6a8866ad7f0e17c02b14182d37ea7c3c8b9c2683aeb6b733a1@52.169.14.227:30303,enode://6ce05930c72abc632c58e2e4324f7c7ea478cec0ed4fa2528982cf34483094e9cbc9216e7aa349691242576d552a2a56aaeae426c5303ded677ce455ba1acd9d@13.84.180.240:30303&#34; console
+</code></pre></div><p>Those flags are really important for the first run. They are useful for:</p>
 <ul>
 <li><code>--testnet</code> : you&rsquo;ll sync with the Ropsten network. Alternatively you can use other flags</li>
 <li><code>--fast</code> : you&rsquo;re enabling <a href="https://ethereum.stackexchange.com/a/11300">fast syncing</a></li>
 <li><code>--bootnodes</code> : Through these bootnodes a node can join the network and find other nodes. The one I&rsquo;ve given are valid for the 3rd Feb 2018, and might change in the future. Check the <a href="https://github.com/ethereum/ropsten">ropsten official repo</a> to get the updated bootnodes.</li>
 <li><code>console</code>: I attached the console to know the current state of the sync . Without that, you&rsquo;ll be a bit blind on the progress of the sync</li>
 </ul>
-
 <p>The Ethereum blockchain will store the data in the default directory (<code>/YOUR_HOME/.ethereum/testnet/geth/chaindata</code>). You can also check the size of the blockchain with <code>du -hs /YOUR_HOME/.ethereum/testnet/geth/chaindata</code></p>
-
 <p>Note: <code>geth</code> will run indefinitely until you exit with ctrl-c. It needs to keep your node in sync with the network with all new data. So once you run the command, <code>geth</code> kept the <code>--fast</code> and <code>--bootnodes xxxx</code>  in memory. So you can safely run geth (with always keeping the network you want to use , <code>--testnet</code> in that case)</p>
-
-<h3 id="optional-step2-1-restart-the-sync-when-geth-error-out">(optional) Step2.1: restart the sync when <code>geth</code> error-out</h3>
-
+<h3 id="optional-step21-restart-the-sync-when-geth-error-out">(optional) Step2.1: restart the sync when <code>geth</code> error-out</h3>
 <p>It happened to me (several times) that <code>geth</code> errored-out during the sync. I didn&rsquo;t find out why, but simply run the following command, and the sync will continue from where it exited :</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">geth --testnet console</pre></div>
-<p>Note: I didn&rsquo;t specify the  <code>--bootnodes</code> and <code>--fast</code> flags</p>
-
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">geth --testnet console
+</code></pre></div><p>Note: I didn&rsquo;t specify the  <code>--bootnodes</code> and <code>--fast</code> flags</p>
 <p>If like me, <code>geth</code> kept erroring out, and you do not have time to monitor the sync, here a command you can run to run that command indefinitely if it errors-out:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">until geth --testnet  console; do
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">until geth --testnet  console; do
   echo geth sync failed, retrying in 10 seconds...
   sleep 10
-done</pre></div>
-<p>You can then come back few hours later without worrying if the sync went well :)
+done
+</code></pre></div><p>You can then come back few hours later without worrying if the sync went well :)
 Also, having <code>geth</code> that keep exiting might be a sign that oyu do not have enough memory. I recommend at least 2GB.</p>
-
-<h3 id="optional-step2-2-check-the-progress-of-the-sync">(optional) Step2.2: Check the progress of the sync</h3>
-
+<h3 id="optional-step22-check-the-progress-of-the-sync">(optional) Step2.2: Check the progress of the sync</h3>
 <p>Because you attached the console to the geth command with the <code>console</code> flag, you&rsquo;ll be able to know the progress of the sync by typing that following command inside the <code>geth</code> console :
 <code>&gt; eth.syncing</code>
 It will return :</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">{
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">{
   currentBlock: 914011,
   highestBlock: 2579729,
   knownStates: 7383,
   pulledStates: 480,
   startingBlock: 914001
-}</pre></div>
-<p>Note: <code>highestBlock: 2579729</code> should match (even be  greater) than the last block in <a href="https://ropsten.etherscan.io/">Ropsten Etherscan website</a></p>
-
+}
+</code></pre></div><p>Note: <code>highestBlock: 2579729</code> should match (even be  greater) than the last block in <a href="https://ropsten.etherscan.io/">Ropsten Etherscan website</a></p>
 <h3 id="step3-activate-the-json-rpc-api-and-keep-your-node-in-sync">Step3: Activate the JSON-RPC API (and keep your node in sync)</h3>
-
 <p>As a developer, sooner or later you&rsquo;ll want to start interacting with Geth and the Ethereum network via your own programs and not manually through the console. <code>geth</code> has built in support for a JSON-RPC based APIs (standard APIs and Geth specific APIs). These can be exposed via HTTP, WebSockets and IPC (unix sockets on unix based platforms).</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">geth --testnet --rpc --rpcapi &#34;eth,net,web3&#34; --rpccorsdomain &#39;*&#39; --rpcaddr 0.0.0.0 --rpcport 8080</pre></div>
-<ul>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">geth --testnet --rpc --rpcapi &#34;eth,net,web3&#34; --rpccorsdomain &#39;*&#39; --rpcaddr 0.0.0.0 --rpcport 8080
+</code></pre></div><ul>
 <li><code>--rpc</code> Enable the HTTP-RPC server</li>
 <li><code>--rpcaddr</code> HTTP-RPC server listening interface</li>
 <li><code>--rpcport</code> HTTP-RPC server listening port</li>
 <li><code>--rpcapi</code> API&rsquo;s offered over the HTTP-RPC interface</li>
 <li><code>--rpccorsdomain</code> <code>*</code> for allowing everything access to it</li>
 </ul>
-
 <p>When running that command, <code>geth</code> will keep your node in sync with the network. You can let that one run in a <code>screen</code> or <code>tmux</code> terminal to keep it alive. The best thing would be to let the process managed by <code>supervisord</code> or <code>systemd</code></p>
-
 <h3 id="step4-query-the-json-rpc-api">Step4: Query the JSON-RPC API</h3>
-
 <p>You can test if the api is working with <code>curl</code>:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">curl -X POST --data &#39;{&#34;jsonrpc&#34;:&#34;2.0&#34;,&#34;method&#34;:&#34;net_version&#34;,&#34;params&#34;:[],&#34;id&#34;:67}&#39; http://0.0.0.0:8080</pre></div>
-<p>If all is fine, you should get a response that looks like :</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">{&#34;jsonrpc&#34;:&#34;2.0&#34;,&#34;id&#34;:67,&#34;result&#34;:&#34;3&#34;}</pre></div>
-<h3 id="optional-open-the-firewall">(optional) Open the firewall</h3>
-
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">curl -X POST --data &#39;{&#34;jsonrpc&#34;:&#34;2.0&#34;,&#34;method&#34;:&#34;net_version&#34;,&#34;params&#34;:[],&#34;id&#34;:67}&#39; http://0.0.0.0:8080
+</code></pre></div><p>If all is fine, you should get a response that looks like :</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">{&#34;jsonrpc&#34;:&#34;2.0&#34;,&#34;id&#34;:67,&#34;result&#34;:&#34;3&#34;}
+</code></pre></div><h3 id="optional-open-the-firewall">(optional) Open the firewall</h3>
 <p>If you want your dApp or Metamask to communicate with your node, you&rsquo;ll need to open the port of your server. On Digital Ocean, it&rsquo;s quite easy via <a href="https://www.digitalocean.com/community/tutorials/how-to-troubleshoot-digitalocean-firewalls">their console</a>. With my example, I&rsquo;ve opened the port <code>8080</code> in the Inbound settings.</p>
-
 <p>Then you can query the api via :</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">curl -X POST --data &#39;{&#34;jsonrpc&#34;:&#34;2.0&#34;,&#34;method&#34;:&#34;net_version&#34;,&#34;params&#34;:[],&#34;id&#34;:67}&#39; http://X.X.X.X:8080</pre></div>
-<p>with replacing <code>X.X.X.X</code> the ip of your instance.</p>
-
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">curl -X POST --data &#39;{&#34;jsonrpc&#34;:&#34;2.0&#34;,&#34;method&#34;:&#34;net_version&#34;,&#34;params&#34;:[],&#34;id&#34;:67}&#39; http://X.X.X.X:8080
+</code></pre></div><p>with replacing <code>X.X.X.X</code> the ip of your instance.</p>
 <p>Also, please understand the security implications of opening up an HTTP/WS based transport before doing so! Hackers on the internet are actively trying to subvert Ethereum nodes with exposed APIs!</p>
-
 <h3 id="run-on-the-main-ethereum-network">Run on the main Ethereum network</h3>
-
 <p>As many may have guess, you&rsquo;ll just need to remove the <code>--testet</code> flag to all commands I&rsquo;ve shown you to be able to sync to the main Ethereum network! That&rsquo;s all!</p>
-
 <p>Also, you can change the <code>--testnet</code> flag to <code>--rinkeby</code> to use the Rinkeby network. The main differences with Ropsten are <a href="https://ethereum.stackexchange.com/a/30072">detailed here</a>.</p>
-
-<h3 id="curious-about-what-i-m-building">Curious about what I&rsquo;m building?</h3>
-
+<h3 id="curious-about-what-im-building">Curious about what I&rsquo;m building?</h3>
 <p>I&rsquo;m building a side project based on the ethereum network. Wondering what is it?  <a href="https://twitter.com/eric_khun">Follow me on Twitter</a> :)</p>
-
 <h3 id="next-blog-post">Next blog post?</h3>
-
 <p>I hope this guide was helpful for anyone starting. Please let me know if there is any mistakes. I&rsquo;m also thinking writing about:</p>
-
 <ul>
 <li>How to run easily your own ETH blockchain with <code>truffle</code> and <code>ganache</code> on a remote server. That one is useful if you do not want to sync the full chain, and have the same blockchain available quickly for your teamate.</li>
 <li>How to have a realtime data replication of your smart contract using events to an other DB. That one could be useful because querying the Ethereum blockchain might not be as fast and easy as we wish :)</li>
