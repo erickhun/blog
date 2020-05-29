@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eric Khun</title>
@@ -6,10 +6,33 @@
     <description>Recent content on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 06 Oct 2019 11:16:22 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2020 11:16:22 +0800</lastBuildDate>
     
 	<atom:link href="https://erickhun.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Taiwan, The most underrated country in Asia</title>
+      <link>https://erickhun.com/posts/taiwan/</link>
+      <pubDate>Mon, 25 May 2020 11:16:22 +0800</pubDate>
+      
+      <guid>https://erickhun.com/posts/taiwan/</guid>
+      <description>Taiwan is Chill and relax
+  Awesome people, polite and clean
+  Best place in the world to work from cafes. Many cafes shops welcome people who works for long hours. They also care about cafe ;) I actually prefer to work from cafes than co-working here
+  Surrounded by nature, mountain, sea, river are within 45minutes reach. Hundred of trails around Taipei.
+  Metro / Bus system is top notch, no car needed, it&amp;rsquo;s flat so you can bike everywhere easily.</description>
+    </item>
+    
+    <item>
+      <title>Making friends while travelling and working remotely</title>
+      <link>https://erickhun.com/posts/making-friends-remote-work/</link>
+      <pubDate>Sat, 07 Dec 2019 03:46:40 +0000</pubDate>
+      
+      <guid>https://erickhun.com/posts/making-friends-remote-work/</guid>
+      <description>Don&amp;rsquo;t you feel alone when working alone? This might be questions that come the most.
+I&amp;rsquo;ve been working remotely at Buffer for 5 years now. I think I&amp;rsquo;d qualify myself as an &amp;ldquo;introvert&amp;rdquo;. I like spending time by myself. I&amp;rsquo;m actually doing it every time I&amp;rsquo;m going back to my parent&amp;rsquo;s place where not much happen , and without stepping much outside or seeing anyone else except my parent. However, there is sometimes that feeling of loneliness strikes all of sudden and when you&amp;rsquo;ll maybe want to meet.</description>
+    </item>
     
     <item>
       <title>Why you should have a side project</title>
@@ -61,18 +84,12 @@ The 3 &amp;ldquo;talents&amp;rdquo; that stands out were:
       <description>&lt;blockquote&gt;
 &lt;p&gt;Fitness is the first step to greatness.&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;p&gt;It is my favorite quote that &lt;a href=&#34;https://twitter.com/justinkan&#34;&gt;Justin Kan&lt;/a&gt; keep saying in Snapchat.&lt;/p&gt;
-
 &lt;p&gt;It&amp;rsquo;s a quote I just start understand. I start working out 1 year ago. I can definitely relate this to work. and I find I can achieve more at work.&lt;/p&gt;
-
 &lt;h2 id=&#34;have-clear-goals-to-challenge-yourself&#34;&gt;Have clear goals to challenge yourself&lt;/h2&gt;
-
 &lt;p&gt;When I started, I tried to exercice every 2-3 days without any goals. Picking a workout machine randonly, and adding weight randomly. I also didn&amp;rsquo;t keep track of how heavy I could lift on each machine. I think at this time I just didn&amp;rsquo;t know what I was doing. My motivation decreased a lot and I noticed that I went less often in the gym.
 What is wrong with that? My motivation kept lowering week after week. I went to the gym less often, and started to find many excuse to not go. I start forgetting the benefits of it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://i2.kym-cdn.com/photos/images/facebook/000/234/765/b7e.jpg&#34; alt=&#34;No idea what I&#39;m doing&#34; /&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://i2.kym-cdn.com/photos/images/facebook/000/234/765/b7e.jpg&#34; alt=&#34;No idea what I&amp;rsquo;m doing&#34;&gt;&lt;/p&gt;
 &lt;p&gt;At &lt;a href=&#34;https://buffer.com&#34;&gt;Buffer&lt;/a&gt;, we&amp;rsquo;re lucky to have a slack channel called #improvements-fitness where bufferoos talk about their improvements and everything fitness related. I started to dig into the channel history and found a program that was quoted many times: &lt;a href=&#34;http://stronglifts.com&#34;&gt;Stronglift 5x5&lt;/a&gt; . After a quick look&lt;/p&gt;</description>
     </item>
     
@@ -82,8 +99,8 @@ What is wrong with that? My motivation kept lowering week after week. I went to 
       <pubDate>Sat, 01 Oct 2016 02:00:06 +0200</pubDate>
       
       <guid>https://erickhun.com/posts/hi/</guid>
-      <description>Hi there, thanks for cheking the blog! I&amp;rsquo;m Eric, engineer at Buffer. I&amp;rsquo;ve been working remotely since 2013 now, from different places in the world. I happen to be mostly in Asia, my favorite part of the world!
-I&amp;rsquo;m travelling quite a bit, I&amp;rsquo;d like share a little bit of the places I visit, my experiences, or challenges about remote work. I love food, some of my destinations are chosen mainly because of food 😅.</description>
+      <description>Hi there, thanks for cheking the blog! I&amp;rsquo;m Eric, engineer at Buffer. I&amp;rsquo;ve been working remotely since 2013, from different places in the world. I happen to be mostly in Asia, my favorite part of the world! I now live in Taiwan, and can stay here with the Employment Gold Card
+I&amp;rsquo;m travelling quite a bit, I&amp;rsquo;d like share a little bit of the places I visit, my experiences, or challenges about remote work.</description>
     </item>
     
   </channel>

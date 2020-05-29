@@ -9,7 +9,7 @@ title = "Hi, I'm Eric :)"
 
 +++
 
-Hi there, thanks for cheking the blog! I'm Eric, engineer at [Buffer](https://buffer.com). I've been working remotely since 2013 now, from different places in the world. I happen to be mostly in Asia, my favorite part of the world!
+Hi there, thanks for cheking the blog! I'm Eric, engineer at [Buffer](https://buffer.com). I've been working remotely since 2013, from different places in the world. I happen to be mostly in Asia, my favorite part of the world! I now live in Taiwan, and can stay here with the [Employment Gold Card](https://taiwangoldcard.com)
 
 I'm travelling quite a bit, I'd like share a little bit of the places I visit, my experiences, or challenges about remote work. I love food, some of my destinations are chosen mainly because of food 😅.
 
