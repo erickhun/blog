@@ -8,7 +8,7 @@ title = "Why you should have a side project"
 +++
 
 
-<center>![workout motivation](/img/side-projects.jpg)</center>
+![workout motivation](/img/side-projects.jpg)
 
 I often advocate people surrounding me to build their own side projects. I believe they can fulfill you in so many ways: for your career, your relationships, or your independence. [Buffer](https://buffer.com), the company I currently work for, was itself a [side project](https://news.ycombinator.com/item?id=1956119).
 
