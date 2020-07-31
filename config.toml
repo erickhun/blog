@@ -72,3 +72,5 @@ googleAnalytics = "UA-106516-7"
     tag = "tags"
     tutorial = "tutorials"
 
+[markup.goldmark.renderer]
+    unsafe = true

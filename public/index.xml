@@ -6,10 +6,20 @@
     <description>Recent content on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 25 May 2020 11:16:22 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2020 23:44:22 +0800</lastBuildDate>
     
 	<atom:link href="https://erickhun.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sharing Knowledge in a Remote team, across Timezones</title>
+      <link>https://erickhun.com/posts/sharing-knowledge-in-a-remote-team/</link>
+      <pubDate>Thu, 30 Jul 2020 23:44:22 +0800</pubDate>
+      
+      <guid>https://erickhun.com/posts/sharing-knowledge-in-a-remote-team/</guid>
+      <description>&amp;ldquo;True innovation comes an intersection of a cross-pollination of roles and ideas&amp;rdquo; - Sunil, ex-CTO@Buffer
+ I&amp;rsquo;ve been working remotely at Buffer for 6 years now. As a software engineer, one of the critical skill I believe we should must have is being able to learn continuously. However, working in a fully distributed team, splitted accross 10+ timezones, where we only meet each other once a year, affects how you learn from your team, compared to if you were in a physical office.</description>
+    </item>
     
     <item>
       <title>Taipei, Taiwan - The most underrated city/country in Asia</title>
@@ -39,7 +49,7 @@ I&amp;rsquo;ve been working remotely at Buffer for 5 years now. I think I&amp;rs
       <pubDate>Sun, 06 Oct 2019 11:16:22 +0800</pubDate>
       
       <guid>https://erickhun.com/posts/why-you-should-have-a-side-project/</guid>
-      <description>I often advocate people surrounding me to build their own side projects. I believe they can fulfill you in so many ways: for your career, your relationships, or your independence. Buffer, the company I currently work for, was itself a side project.
+      <description>![workout motivation](/img/side-projects.jpg) I often advocate people surrounding me to build their own side projects. I believe they can fulfill you in so many ways: for your career, your relationships, or your independence. Buffer, the company I currently work for, was itself a side project.
 I&amp;rsquo;ve built myself multiple side projects. The major ones being PartyInBeijing (inactive), Nodablock (inactive), Citymayor(need to fix), and now TravelHustlers. I believe each of them contributed and lead me to my current situation: being satisfied in my career, financially, and socially.</description>
     </item>
     
