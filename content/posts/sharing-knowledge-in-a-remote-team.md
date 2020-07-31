@@ -1,5 +1,5 @@
 +++
-categories = ["remote", "sharing", "tech"]
+categories = ["remote", "sharing", "tech", "education"]
 date = "2020-07-30T23:44:22+08:00"
 description = ""
 draft = false
@@ -66,13 +66,12 @@ I especially enjoy that format for few reasons:
 Here an example where I wanted to show (not the first time) the benefits of using one of our internal librarie to make debuguing faster and easier: 
 <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/4a8605bdc5674ad3a551a37bfac09f3a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-
-## Use GIF to answer to questions
+## Use GIF
 1 picture is worth a thousand words, but 1 GIF worth a video call. It can save you a lot of time, save you some context switching, and save your productivity. When someone has a question, a simple GIF of the solution will be more than enough than trying to jump on a call and explain. Calling someone, will require both of you some energy. The other party might also not be ready for that call. 
 
 I enjoy using [cloudapp](https://www.getcloudapp.com/). For example here what I'll share when I wanted to share the results after migrating a service from PHP to Golang:
 
-![PHP vs Golang CPU usage](/img/go-vs-php-cpu.gif)
+![PHP vs Golang CPU usage](/img/go-vs-php-cpu.gif) 
 
 ## ❤️ Share without limits
 Sharing links via Slack or email are great, but those content get easily lost. You shouldn't make assumptions your teamates saw the video you've shared once. I recommend to maintain a directory (in Notion/Paper/Wiki etc...). When you see a question that was answered in one of your video, share it again. Keep sharing. 
