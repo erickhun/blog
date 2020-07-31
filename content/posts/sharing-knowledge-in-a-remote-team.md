@@ -25,18 +25,18 @@ This is where the concept of regular snackchats at Buffer was born 3 years ago b
 
 ## 🍴💬 Snackchats
 
-Snackchats are small talks that everyone can propose in the company. It can be any topics, from code, architecture, management, tips for a tool to side projects.  Anything really. If you see there is enough interest, you commit to it and prepare it. 
+Snackchats are small talks that everyone can propose in the company. It can be any topics, from code, architecture, management, tips for a tool to side projects.  Anything really. We usually ask on slack, and if you  there is enough interest, you commit to it and prepare it. 
 Here an example of [Tigran](https://tik.dev) asking interest on using Datadog Logs with APM together: 
 
 ![Snackchat Tigran asks interest](/img/snackchat-tigran-asks.png)
 
-A great example of snackchat is from [Hamish](https://hami.sh) making an "Introduction to GitHub Actions":
+Here a great example of snackchat by [Hamish](https://hami.sh) on an "Intro to GitHub Actions":
 
 {{< youtube M9sdqTc5_qg >}}
 
-You can see other great ones: 
+Also here some other great ones: 
 - [Federico](https://twitter.com/federicoweber) on [git workflow](https://overflow.buffer.com/2018/06/08/snackchat-may-31-product-oriented-git-workflow/) 
-- Joe on "[Get started with Go](https://www.youtube.com/watch?v=j7OCVQD97WE)"
+- [Joe](https://joebirch.co) on "[Get started with Go](https://www.youtube.com/watch?v=j7OCVQD97WE)"
 
 #### Tips for doing a snackchat
 - Keep them short: 10 to 20 minutes, keep interest of your audience
@@ -45,22 +45,19 @@ You can see other great ones:
 - Have a directory (notion/wiki) for future reference
 - Like video call, putting a face, it's great to have a human touch to something "technical" to see someones smilling, worrying. 
 
-#### The downsides of a snackchats
-This is
-The downside of snackchat is that takes quite a bit of energy to prepare, depending of your experience on doing online presentation.  I also feel the pressure of attracting other people so it would "worth" the effort to . 
-Everyone is busy, try to make the best of their working time. The time you set might not be the best fit for everyone (take me for example who live at UTC+8)
+#### The downsides of a Snackchat
+The downside of snackchat is that takes quite a bit of energy to prepare. There can also be intimidating to ask if a topic you might want to present won't get enough interest from your workmates.
+In a remote setting, people will try to make the best use of their time, and we might most of the time be busy on prioritties. The time you will set might not be the best fit for everyone. I wasn't able to participate to most of the snackchats because I live in a total different timezone than most of the people in the company. The tip here is to **make sure to record your snackchat** and repost it for people who couldn't attend them.
 
-Interestingly I wasn't able to participate to most of them because being in the other part of the world. The tip is to **make sure to record your snackchat** and repost it for people who couldn't attend them.
-
-## ⚡️ Impromptu Knowledge Sharing
-An other format I personally enjoy doing  is the "spontaneous" ones . I'm in the Infrastructure, where product engineers might not necessarly have the need to understand what happens "behind the scene" but where the knowledge can be useful.
+## ⚡️ Impromptu Knowledge Sharing Videos
+An other format I personally enjoy doing is the "spontaneous" knowlege sharing . I'm in the Infrastructure, where product engineers might not necessarly have the need to understand what happens "behind the scene", but where the knowledge could be useful or pick their curiosity.
 
 I especially enjoy that format for few reasons: 
-- Snackchats requires preparations, and I know i'll not be great at "live" presentations
-- I'm more in the introvert side , I'll just share the knowledge, no matter what 
-- My willpower to create educative isn't consistent. There is some days where, we are more encline. with that format is 
+- Snackchats requires preparations, and I know I will not be great at "live" presentations
+- I'm more in the introvert side.  It require quite a bit of energy to ask interests, worrying if people. Sharing when I feel like it is a way that fits me and I'm satisfied with.
+- My envy to create educative content isn't always consistent. There is some days where I will be more encline to share it and some where I'll not feel like it.
 
-#### Tips on making "Impromptu Knowledge Sharing"
+#### Tips on making "Impromptu Knowledge Sharing" videos
 - I like using [Loom](https://www.loom.com). They make recording your screen and voice really easy. It also allows you to pause the recording, and aslso has an impressive online editor to trim your blanks.
 - Try to keep the video dynamic, go to the point, and avoid the fluff, but keep the jokes
 - Keep it short, ideally under 10 minutes
@@ -71,19 +68,13 @@ Here an example where I wanted to show (not the first time) the benefits of usin
 
 
 ## Use GIF to answer to questions
-1 picture is worth a thousand words, but 1 GIF worth a video call and can save you a lot of time and save your productivity. When someone has a question, a simple GIF of your screen will be more than enough than trying to and explain. 
+1 picture is worth a thousand words, but 1 GIF worth a video call. It can save you a lot of time, save you some context switching, and save your productivity. When someone has a question, a simple GIF of the solution will be more than enough than trying to jump on a call and explain. Calling someone, will require both of you some energy. The other party might also not be ready for that call. 
 
-Calling someone, will require both of you some energy. The other party might also not be ready for that call. 
-
-We really like using [cloudapp](https://www.getcloudapp.com/). For example here showing the results after migrating a service from PHP to Golang:
+I enjoy using [cloudapp](https://www.getcloudapp.com/). For example here what I'll share when I wanted to share the results after migrating a service from PHP to Golang:
 
 ![PHP vs Golang CPU usage](/img/go-vs-php-cpu.gif)
 
-
 ## ❤️ Share without limits
-Sharing links via Slack or email are great, but get easily lost . Maintain a directory (in Notion/Paper/Wiki etc...). When you see a question that was answered in one of your video, share it again. 
+Sharing links via Slack or email are great, but those content get easily lost. You shouldn't make assumptions your teamates saw the video you've shared once. I recommend to maintain a directory (in Notion/Paper/Wiki etc...). When you see a question that was answered in one of your video, share it again. Keep sharing. 
 
-Also, don't make assumptions your teamates saw the video you've shared once. Keep sharing them
-
-
-Over to you, what's your secrets on keeping your team innovate?
+Over to you, what's your secrets on keeping your team in a remote setup? 
