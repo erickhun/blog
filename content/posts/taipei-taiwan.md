@@ -4,7 +4,7 @@ date = "2020-05-25T11:16:22+08:00"
 description = ""
 draft = false
 image = "/img/about-bg.jpg"
-title = "Taipei, Taiwan - The most underrated city/country in Asia"
+title = "Taipei, Taiwan - The hidden gem of Asia"
 +++
 
 - Taiwan is chill and relax
@@ -32,11 +32,5 @@ title = "Taipei, Taiwan - The most underrated city/country in Asia"
 - Awesome international food scene , you can find any western food , and local food is amazing. Japanese food is amazing, as good as in Japan, but cheaper (it's an old japanese colony, and the favorite destination of japanese people)
 
 - It's a better China (I lived in China for 4 years)
-
-Cons:
-
-- It is so relax / chill that it somehow bugs me. I sometimes worry to become "soft", staying here bc it's too convenenient
-
-- Wish the startup / tech scene was better
 
 ps: if you live in Taipei hit me up :)
