@@ -88,4 +88,4 @@ Keep sharing ❤️
 
 
 
-Over to you, what's your secrets on keeping your team in a remote setup? 
+Over to you, what's your secrets on keeping your team in a remote setup? [Comment on Hacker News](https://news.ycombinator.com/item?id=24021103)
