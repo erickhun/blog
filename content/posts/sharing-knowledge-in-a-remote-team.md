@@ -86,7 +86,9 @@ In a remote team, informations get easily lost. Other team members might not hav
 
 Extra communication is key, don't make assumption, the more you say, the better teamates will get more knowledge. I've even more for trivial questions, where some fundamental might be missing and where your informations will be be really valuable 
 
-One of the favorite people I've been working at Buffer is certainly [Colin](https://twitter.com/colinscape). Since day 1 I've joined the company, he's been relentlessy explaining and giving context if any issues or questions arises. He's been certainly the go to person when engineers has doubts or need confirmation. It also shows a great mark of leadership It helps creating a great culture in your company where there no stupid question exists, and where your team will feel safe. 
+One of the favorite people I've been working at Buffer is certainly [Colin](https://twitter.com/colinscape). Since day 1 I've joined the company, he's been relentlessy explaining and giving context if any issues or questions arises. He's been certainly the go to person when engineers has doubts or need advices. Indirectly, it help to make you look "approachable" for new members, especially in a remote settings where you won't have much chance to interract.  Sharing knowledge is definitely a great mark of leadership.
+
+Additioanlly, It will help creating a great culture in your company where there no stupid question exists, and where your team will feel safe.
 
 ## ❤️ Share and re-share without limits
 Sharing links via Slack or email are great, but those content get easily lost. You shouldn't make assumptions your teammates saw the video or message you've shared the other week. I recommend to maintain a directory (in Notion/Paper/Wiki etc...). When you see a question that was answered in one of your video, share it again. A natural snowball effect will happen when your teammates will see more and more people sharing their knowledge. 
