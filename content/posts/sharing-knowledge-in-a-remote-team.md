@@ -88,13 +88,10 @@ Extra communication is key, don't make assumption, the more you say, the better 
 
 One of the favorite people I've been working at Buffer is certainly [Colin](https://twitter.com/colinscape). Since day 1 I've joined the company, he's been relentlessy explaining and giving context if any issues or questions arises. He's been certainly the go to person when engineers has doubts or need confirmation. It also shows a great mark of leadership It helps creating a great culture in your company where there no stupid question exists, and where your team will feel safe. 
 
-## ❤️ Share without limits
-Sharing links via Slack or email are great, but those content get easily lost. You shouldn't make assumptions your teammates saw the video or message you've shared the other week. I recommend to maintain a directory (in Notion/Paper/Wiki etc...). When you see a question that was answered in one of your video, share it again.  A natural snowball effect will happen when your teammates will see more and more people sharing their knowledge. 
+## ❤️ Share and re-share without limits
+Sharing links via Slack or email are great, but those content get easily lost. You shouldn't make assumptions your teammates saw the video or message you've shared the other week. I recommend to maintain a directory (in Notion/Paper/Wiki etc...). When you see a question that was answered in one of your video, share it again. A natural snowball effect will happen when your teammates will see more and more people sharing their knowledge. 
 
 Keep sharing ❤️
-
-
-
 
 
 Over to you, what's your secrets on keeping your team in a remote setup? [Comment on Hacker News](https://news.ycombinator.com/item?id=24021103)
