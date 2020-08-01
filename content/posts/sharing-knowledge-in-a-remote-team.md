@@ -75,7 +75,7 @@ I enjoy using [cloudapp](https://www.getcloudapp.com/). For example here what I'
 ## 🥇 Make sharing knowledge explicitely valuable
 At Buffer, we have an [engineerig framework](https://docs.google.com/spreadsheets/d/1k_QkZISJ2cIk_Py_pdzsAt5fUwWOYZVkkXg4KZM8IXA/htmlview) that encourage kowledge sharing. To reach a "Senior Engineer 2", One of the criteria would be... "educates across domain" or "Reach out to other teams within and beyond Buffer to share knowledge". I don't mean that money should be the incentive, but , I've personally because it was one of the condition to reach the next step, but then started to enjoy it more and more. I'm now doing it because I see value in it now whe other teamate tells me how valuable are my videos.
 
-An other great way to encourange to continue sharing is to reach people who share that their knowledge were helpful: 
+An other great way to encourange to continue sharing is to reach people who share that their knowledge were helpful. Here for example [Jose](https://josemdev.com) telling me he is using my video for a future mongoDB upgrade: 
 
 ![MongDB upgrade Jose watch](/img/jose-watch-eric-loom.jpg) 
 
