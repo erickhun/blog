@@ -11,7 +11,7 @@ title = "Sharing knowledge in a remote team, across timezones"
 > "True innovation comes an intersection of a cross-pollination of roles and ideas" - [Sunil](https://twitter.com/sunils34/), ex-CTO@Buffer
 
 
-I've been working remotely at [Buffer](https://buffer.com) for 6 years now. As a software engineer, one of the critical skill I believe we ~~should~~ **must** have is being able to learn continuously. However, working in a fully distributed team, [splitted accross 10+ timezones](https://timezone.io/team/buffer). I live in Asia (UTC +8) while most of my teamates live in US or Europe. That's up to 15 hours difference. We only meet each other [once a year](https://joel.is/the-power-of-company-retreats/). This remote setip affects how we learn from my team, compared to if I were in a physical office. 
+I've been working remotely at [Buffer](https://buffer.com) for 6 years now. As a software engineer, one of the critical skill I believe we ~~should~~ **must** have is being able to learn continuously. However, working in a fully distributed team, [split accross 10+ timezones](https://timezone.io/team/buffer). I live in Asia (UTC +8) while most of my teammates live in the US or Europe. That's up to 15 hours difference. We only meet each other [once a year](https://joel.is/the-power-of-company-retreats/). This remote setup affects how we learn from my team, compared to if I were in a physical office. 
 
 With the current COVID-19 crisis, when company suddenly switched to a work from home setup, understanding how the dynamic of knowledge sharig in your team is important. You don't want the knowledge shared being stopped. I'll lay down some of our successful experiments, their pros and cons, what I think works for me and our company.
 
@@ -39,7 +39,7 @@ Also here some other great ones:
 #### Tips for doing a snackchat
 - Keep them short: 10 to 20 minutes, keep interest of your audience
 - Record them, people will be able to see them later if they can't attend
-- Your busy teamates will be able to see them at x2 speed
+- Your busy teammates will be able to see them at x2 speed
 - Have a directory (notion/wiki) for future reference
 - Like video call, putting a face, it's great to have a human touch to something "technical" to see someones smilling, worrying. 
 
@@ -66,7 +66,7 @@ Here an example where I wanted to show (not the first time) the benefits of usin
 <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/4a8605bdc5674ad3a551a37bfac09f3a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ## 📼 Use GIF to share knowledge
-1 picture is worth a thousand words, but 1 GIF worth a lot more. It can save you or your teamates a lot of time, save you some context switching, and save your productivity. When someone has a question, or you want to explain something complicated, a simple GIF of the solution will be more than enough than trying to make on a call and explain it.
+1 picture is worth a thousand words, but 1 GIF worth a lot more. It can save you or your teammates a lot of time, save you some context switching, and save your productivity. When someone has a question, or you want to explain something complicated, a simple GIF of the solution will be more than enough than trying to make on a call and explain it.
 
 I enjoy using [cloudapp](https://www.getcloudapp.com/). For example here what I'll share when I wanted to share the results after migrating a service from PHP to Golang:
 
@@ -81,7 +81,7 @@ An other great way to encourange to continue sharing is to reach people who shar
 
 
 ## ❤️ Share without limits
-Sharing links via Slack or email are great, but those content get easily lost. You shouldn't make assumptions your teamates saw the video you've shared once. I recommend to maintain a directory (in Notion/Paper/Wiki etc...). When you see a question that was answered in one of your video, share it again.  A natural snowball effect will happen when your teamates will see more and more people sharing their knowledge. 
+Sharing links via Slack or email are great, but those content get easily lost. You shouldn't make assumptions your teammates saw the video you've shared once. I recommend to maintain a directory (in Notion/Paper/Wiki etc...). When you see a question that was answered in one of your video, share it again.  A natural snowball effect will happen when your teammates will see more and more people sharing their knowledge. 
 
 Keep sharing ❤️
 
