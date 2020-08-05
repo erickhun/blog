@@ -8,7 +8,11 @@ title = "Sharing knowledge in a remote team, across timezones"
 +++
 
 
-> "True innovation comes an intersection of a cross-pollination of roles and ideas" - [Sunil](https://twitter.com/sunils34/), ex-CTO@Buffer
+
+![Share knowledge](/img/share-knowledge.jpg)
+
+
+> "True innovation comes an intersection of a cross-pollination of roles and ideas" - [Sunil](https://twitter.com/sunils34/), former-CTO@Buffer
 
 
 I've been working remotely at [Buffer](https://buffer.com) for 6 years now. As a software engineer, one of the critical skill I believe we ~~should~~ **must** have is being able to learn continuously. However, working in a fully distributed team, [split accross 10+ timezones](https://timezone.io/team/buffer). I live in Asia (UTC +8) while most of my teammates live in the US or Europe. That's up to 15 hours difference. We only meet each other [once a year](https://joel.is/the-power-of-company-retreats/). This remote setup affects how we learn from my team, compared to if I were in a physical office. 
