@@ -48,12 +48,13 @@ The downside of snackchat is that takes quite a bit of energy to prepare. There 
 In a remote setting, people will try to make the best use of their time, and we might most of the time be busy on prioritties. The time you will set might not be the best fit for everyone. I wasn't able to participate to most of the snackchats because I live in a total different timezone than most of the people in the company. The tip here is to **make sure to record your snackchat** and repost it for people who couldn't attend them.
 
 ## ⚡️ Impromptu Knowledge Screencasts
-An other format I personally enjoy doing is the "spontaneous" knowlege sharing with a screencast . I'm in the Infrastructure, where product engineers might not necessarly have the need to understand what happens "behind the scene", but where the knowledge could be useful or pick their curiosity.
+An other format I personally enjoy doing is the "spontaneous" knowlege sharing with a screencast . I'm in the infrastructure team, where product engineers might not necessarly need to understand what happens "behind the scene", but where the knowledge could be useful to understand more how service bahave, or simply can pick their curiosity for learning purpose. 
 
 I especially enjoy the screencast format for few reasons: 
 
 - Snackchats requires preparations, and I know I will not be great at "live" presentations
-- I'm more in the introvert side.  It require quite a bit of energy to ask interests, worrying if people. Sharing when I feel like it is a way that fits me and I'm satisfied with.
+- Being in a timezone where you wake up when others start going to sleep isn't great for coordinating any live presentation.
+- I'm more in the introvert side.  It require quite a bit of energy to ask interests, worrying if people shows up. Sharing when I feel like it is easier mentally.
 - My envy to create educative content isn't always consistent. There is some days where I will be more encline to share it and some where I'll not feel like it.
 
 #### Tips on making "Impromptu Knowledge Screencasts" 
