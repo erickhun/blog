@@ -9,7 +9,7 @@ title = "Sharing knowledge in a remote team, across timezones"
 
 
 
-![Share knowledge](/img/share-knowledge.jpg)
+![Share knowledge](/img/share-knowledge2.jpg)
 
 
 > "True innovation comes an intersection of a cross-pollination of roles and ideas" - [Sunil](https://twitter.com/sunils34/), former-CTO@Buffer
