@@ -49,23 +49,25 @@ This wasn't an easy decisions since we value the stability of our cluster. We've
 Because in the past we've seen some node going down because some services were using too much 
 I've also analyzed past month usage of all those services to make sure the CPU requests are properly set. Even if  the "slack" combined of all services in a given node should compensate the burst 
 
-**Assigning the correct CPU request**
+**Assigning the correct CPU and memory request**
 The main worry we had was service using to much resources and lead to nodes becoming unresponsive. 
-Because we now had solid observability of our services running in our cluster (with Datadog), I've analyzed few months of usage of each services we wanted to "unbound". I've simply assigned the maximum CPU usage as CPU request. 
+Because we now had solid observability of all services running in our cluster (with Datadog), I've analyzed few months of usage of each services we wanted to "unbound". I've simply assigned the maximum CPU usage as the CPU request. This will make sure to have allocated space in a node. If k8s won't try to schedule any other service in that node.
 
 ![Chose CPU request based on max](/img/kubernetes-cpu-limits/choose-cpu-request-based-on-max.png)
 
-You can see in the graph that the peak CPU usage was `242m` CPU core (0.242 CPU core). I've simply took this number and made it a bit higher.  Notice that since the services are user facing, the peak CPU usage corresponds to peak traffic time.
+You can see in the graph that the peak CPU usage was `242m` CPU core (0.242 CPU core). Simply take this number and make it a bit higher to become the CPU request. You can notice that since the service is user facing, the peak CPU usage match to peak traffic time. 
+
+Do the same with your memory usage and requests, and you will be all set!
 
 The downside is that we lose in containers density, and have could end up with lot of "slack" during low traffic time . But this is an other story I'll deal with in a next post.
 
 ## Results
-I'm happy to publish really great results after 2 weeks of experimentation, we've already seen really great latency improvements accross all the services we've modified:  
+I'm happy to publish really great results after few weeks of experimentation, we've already seen really great latency improvements accross all the services we've modified:  
 
 ![faster-kubernetes-containers](/img/kubernetes-cpu-limits/speedup-no-cpu-limits.png)
 
 
-The best result was on our main landing page ([buffer.com](https://buffer.com)) where we speed the service up to **22x** faster! 🚀
+The best result happened on our main landing page ([buffer.com](https://buffer.com)) where we speed the service up to **22x** faster! 🚀
 
 ![buffer.com speedup without cpu limits](/img/kubernetes-cpu-limits/no-cpu-limit-speedup-buffer-com.jpg)
 
