@@ -7,20 +7,18 @@ image = "/img/about-bg.jpg"
 title = "Kubernetes: Make your services faster by removing CPU limits"
 +++
 
-At Buffer, we've been using [Kubernetes since 2016](https://kubernetes.io/case-studies/buffer/). Our k8s (Kubernetes). We've been managing our cluster with kops, it has about 60 nodes (on AWS EC2), and run about 1500 containers. Our transition to a micro-service architecture has been full of trial and errors. We are still learning its secrets everyday. This post will talk about how something we thought was right, but ended up to be bad: **CPU limits**.
+At Buffer, we've been using [Kubernetes since 2016](https://kubernetes.io/case-studies/buffer/). Our k8s (Kubernetes). We've been managing our cluster with [kops](https://kops.sigs.k8s.io), it has about 60 nodes (on AWS), and runs about 1500 containers. Our transition to a micro-service architecture has been full of trial and errors. Even after few years running k8s, we are still learning its secrets. This post will talk about how something we thought was right, but ended up to be bad: **CPU limits**.
 
-## CPU limits and throttling
-[Google recommends](https://cloud.google.com/blog/products/gcp/kubernetes-best-practices-resource-requests-and-limits) to set CPU limits. The danger of not setting a CPU limit is that containers running in the node will exhaust all CPU available. This  can  trigger a cascade of unwanted events.
+## CPU limits and Throttling
+[Google recommends](https://cloud.google.com/blog/products/gcp/kubernetes-best-practices-resource-requests-and-limits) to set CPU limits. The danger of not setting a CPU limit is that containers running in the node will exhaust all CPU available. This can trigger a cascade of unwanted events. It is in theory a great thing to set CPU limit in order to protect your nodes.
 
-CPU limits tell the maximum CPU a container can use. The CPU usage will never go above that limit set. Kubernetes use a mechanism called [CFS Quota](https://en.wikipedia.org/wiki/Completely_Fair_Scheduler) to **throttle** the container to avoid it to go above the limit. That means CPU will be artificially restricted making your container slower when this happens.  
+CPU limits is the maximum CPU time a container can use at a given period (100ms by default). The CPU usage for a container will never go above that limit you specified. Kubernetes use a mechanism called [CFS Quota](https://en.wikipedia.org/wiki/Completely_Fair_Scheduler) to **throttle** the container to prevent the CPU usage to go above the limit. That means CPU will be artificially restricted, making the performance of your containers lower (and slower when it come to latency).
 
-So it is in theory a great thing to set CPU limit in order to protect your nodes.
 
 ## What can happen if we don't set CPU limits?
 We unfortunately experienced the issue. The `kubelet` , a process running on every nodes, and in charge of managing the containners (pods)  in the nodes became unresponsive. The node will turn into a `NotReady` state, and containers (pods) that were present will be reschedule somehwere else, and create the issue in the new nodes. Definitely not ideal isn't it? 
 
 ## Discovering the throttling and latency issue
-
 We were suspecting. A key metric to check would be the `throttling` , the number of time your container has been throttled. Interestingly, we've discovered a lot of containers having throttling no matter if the CPU usage was near the limits or not. 
 Here the example of one of our main API:
 
