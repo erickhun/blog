@@ -6,10 +6,21 @@
     <description>Recent content on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Jul 2020 23:44:22 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2020 23:56:00 +0800</lastBuildDate>
     
 	<atom:link href="https://erickhun.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Kubernetes: Make your containers faster by removing CPU limits</title>
+      <link>https://erickhun.com/posts/kubernetes-faster-services-no-cpu-limits/</link>
+      <pubDate>Mon, 31 Aug 2020 23:56:00 +0800</pubDate>
+      
+      <guid>https://erickhun.com/posts/kubernetes-faster-services-no-cpu-limits/</guid>
+      <description>At Buffer, we&amp;rsquo;ve been using Kubernetes since 2016. Our single k8s cluster has about 60 nodes (server), and run about 1500 containers. Our transition to a micro-services architecture has been full of trial and errors, and we&amp;rsquo;re still learning everyday how Kubernetes work under the hood.
+I&amp;rsquo;ll here talk about how something we thought right to have ended up to be bad: CPU limits.
+CPU limits and throttling Google recommends to set CPU limits.</description>
+    </item>
     
     <item>
       <title>Sharing knowledge in a remote team, across timezones</title>
