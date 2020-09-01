@@ -136,12 +136,12 @@ I won&rsquo;t get into details, the tldr is basically  a bug in the Linux kernel
 <p>This wasn&rsquo;t an easy decisions since we value the stability of our cluster. We&rsquo;ve experimented in the past some instability in our cluster with services using too much resources and disrupting all other services present in the same node.  That time was a bit different, we understood more how our services needs and had a good strategy to roll this out.</p>
 <p><img src="https://erickhun.com/img/kubernetes-cpu-limits/unleash-k8s.jpg" alt="Buffer-remove-cpu-limits-announcement"></p>
 <h2 id="how-to-keep-your-nodes-safe-when-removing-limits-">How to keep your nodes safe when removing limits ?</h2>
-<p><strong>Isolating &ldquo;No CPU Limits&rdquo; services</strong></p>
+<p><strong>Isolating &ldquo;No CPU Limits&rdquo; services:</strong></p>
 <p>In the past we&rsquo;ve seen some nodes going to a <code>notReady</code> state, mainly because some services were using too much resources in a node.</p>
 <p>We&rsquo;ve decided to put those services on some specific nodes (tainted nodes), so those services will not dirupst all the &ldquo;bounded&rdquo; ones.  We have better control and could identify easier if any issue occurs with a node. We did this by using by tainting some nodes and adding toleration to services that were &ldquo;unbounded&rdquo;. Check <a href="https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/">the documentation</a> on how to do that.</p>
 <p><img src="https://erickhun.com/img/kubernetes-cpu-limits/buffer-k8s-infrastructure-nodes.jpg" alt="Buffer k8s nodes infrastructure"></p>
-<p><strong>Assigning the correct CPU and memory request</strong>
-The main worry we had was service using to much resources and lead to nodes becoming unresponsive.
+<p><strong>Assigning the correct CPU and memory request:</strong></p>
+<p>The main worry we had was service using to much resources and lead to nodes becoming unresponsive.
 Because we now had solid observability of all services running in our cluster (with Datadog), I&rsquo;ve analyzed few months of usage of each services we wanted to &ldquo;unbound&rdquo;. I&rsquo;ve simply assigned the maximum CPU usage as the CPU request. This will make sure to have allocated space in a node. If k8s won&rsquo;t try to schedule any other service in that node.</p>
 <p><img src="https://erickhun.com/img/kubernetes-cpu-limits/choose-cpu-request-based-on-max.png" alt="Chose CPU request based on max"></p>
 <p>You can see in the graph that the peak CPU usage was <code>242m</code> CPU core (0.242 CPU core). Simply take this number and make it a bit higher to become the CPU request. You can notice that since the service is user facing, the peak CPU usage match to peak traffic time.</p>
