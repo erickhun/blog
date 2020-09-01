@@ -71,6 +71,7 @@ googleAnalytics = "UA-106516-7"
 [taxonomies]
     tag = "tags"
     tutorial = "tutorials"
+    category = "categories"
 
 [markup.goldmark.renderer]
     unsafe = true
