@@ -45,7 +45,7 @@ This wasn't an easy decisions since we value the stability of our cluster. We've
 
 ## How to keep your nodes safe when removing limits ?
 
-**Isolating "No CPU Limits" services**
+**Isolating "No CPU Limits" services:**
 
 In the past we've seen some nodes going to a `notReady` state, mainly because some services were using too much resources in a node. 
 
@@ -55,7 +55,8 @@ We've decided to put those services on some specific nodes (tainted nodes), so t
 ![Buffer k8s nodes infrastructure](/img/kubernetes-cpu-limits/buffer-k8s-infrastructure-nodes.jpg)
 
 
-**Assigning the correct CPU and memory request**
+**Assigning the correct CPU and memory request:**
+
 The main worry we had was service using to much resources and lead to nodes becoming unresponsive. 
 Because we now had solid observability of all services running in our cluster (with Datadog), I've analyzed few months of usage of each services we wanted to "unbound". I've simply assigned the maximum CPU usage as the CPU request. This will make sure to have allocated space in a node. If k8s won't try to schedule any other service in that node.
 
