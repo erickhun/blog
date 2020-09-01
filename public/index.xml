@@ -17,7 +17,7 @@
       <pubDate>Mon, 31 Aug 2020 23:56:00 +0800</pubDate>
       
       <guid>https://erickhun.com/posts/kubernetes-faster-services-no-cpu-limits/</guid>
-      <description>At Buffer, we&amp;rsquo;ve been using Kubernetes since 2016. We&amp;rsquo;ve been managing our k8s (kubernetes) cluster with kops, it has about 60 nodes (on AWS), and runs about 1500 containers. Our transition to a micro-service architecture has been full of trial and errors. Even after few years running k8s, we are still learning its secrets. This post will talk about how something we thought was a good thing, but ended up to be not as great as we thoughts: CPU limits.</description>
+      <description>At Buffer, we&amp;rsquo;ve been using Kubernetes since 2016. We&amp;rsquo;ve been managing our k8s (kubernetes) cluster with kops, it has about 60 nodes (on AWS), and runs about 1500 containers. Our transition to a micro-service architecture has been full of trial and errors. Even after a few years running k8s, we are still learning its secrets. This post will talk about how something we thought was a good thing, but ended up to be not as great as we thought: CPU limits.</description>
     </item>
     
     <item>
