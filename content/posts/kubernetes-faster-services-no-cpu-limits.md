@@ -7,7 +7,7 @@ image = "/img/about-bg.jpg"
 title = "Kubernetes: Make your services faster by removing CPU limits"
 +++
 
-At Buffer, we've been using [Kubernetes since 2016](https://kubernetes.io/case-studies/buffer/). Our k8s (Kubernetes). We've been managing our cluster with [kops](https://kops.sigs.k8s.io), it has about 60 nodes (on AWS), and runs about 1500 containers. Our transition to a micro-service architecture has been full of trial and errors. Even after few years running k8s, we are still learning its secrets. This post will talk about how something we thought was right, but ended up to be bad: **CPU limits**.
+At Buffer, we've been using [Kubernetes since 2016](https://kubernetes.io/case-studies/buffer/).  We've been managing our k8s (kubernetes) cluster with [kops](https://kops.sigs.k8s.io), it has about 60 nodes (on AWS), and runs about 1500 containers. Our transition to a micro-service architecture has been full of trial and errors. Even after few years running k8s, we are still learning its secrets. This post will talk about how something we thought was a good thing, but ended up to be not as great as we thoughts: **CPU limits**.
 
 ## CPU limits and Throttling
 It is s general recommendation to set CPU limit. [Google, among others, highly recommends it](https://cloud.google.com/blog/products/gcp/kubernetes-best-practices-resource-requests-and-limits). The danger of not setting a CPU limit is that containers running in the node could exhaust all CPU available. This can trigger a cascade of unwanted events such having key Kubernetes process (such as `kubelet`) to become unresponsive. So it is in theory a great thing to set CPU limit in order to protect your nodes.
