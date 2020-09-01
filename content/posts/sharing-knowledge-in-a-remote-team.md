@@ -1,5 +1,5 @@
 +++
-categories = ["remote", "sharing", "tech", "education"]
+categories = ["remote", "tech", "education"]
 date = "2020-07-30T23:44:22+08:00"
 description = ""
 draft = false

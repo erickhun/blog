@@ -43,11 +43,6 @@
   </url>
   
   <url>
-    <loc>https://erickhun.com/categories/sharing/</loc>
-    <lastmod>2020-07-30T23:44:22+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://erickhun.com/posts/sharing-knowledge-in-a-remote-team/</loc>
     <lastmod>2020-07-30T23:44:22+08:00</lastmod>
   </url>
@@ -88,22 +83,12 @@
   </url>
   
   <url>
-    <loc>https://erickhun.com/categories/blockchain/</loc>
-    <lastmod>2018-02-03T11:16:22+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://erickhun.com/tags/blockchain/</loc>
     <lastmod>2018-02-03T11:16:22+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://erickhun.com/tags/dapp/</loc>
-    <lastmod>2018-02-03T11:16:22+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://erickhun.com/categories/dev/</loc>
     <lastmod>2018-02-03T11:16:22+01:00</lastmod>
   </url>
   
@@ -118,12 +103,12 @@
   </url>
   
   <url>
-    <loc>https://erickhun.com/categories/ethereum/</loc>
+    <loc>https://erickhun.com/tags/ethereum/</loc>
     <lastmod>2018-02-03T11:16:22+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://erickhun.com/tags/ethereum/</loc>
+    <loc>https://erickhun.com/categories/ethereum/</loc>
     <lastmod>2018-02-03T11:16:22+01:00</lastmod>
   </url>
   
@@ -134,11 +119,6 @@
   
   <url>
     <loc>https://erickhun.com/tags/infrastructure/</loc>
-    <lastmod>2018-02-03T11:16:22+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://erickhun.com/categories/ropsten/</loc>
     <lastmod>2018-02-03T11:16:22+01:00</lastmod>
   </url>
   

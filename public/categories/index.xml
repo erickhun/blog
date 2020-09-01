@@ -48,15 +48,6 @@
     </item>
     
     <item>
-      <title>sharing</title>
-      <link>https://erickhun.com/categories/sharing/</link>
-      <pubDate>Thu, 30 Jul 2020 23:44:22 +0800</pubDate>
-      
-      <guid>https://erickhun.com/categories/sharing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>tech</title>
       <link>https://erickhun.com/categories/tech/</link>
       <pubDate>Thu, 30 Jul 2020 23:44:22 +0800</pubDate>
@@ -93,38 +84,11 @@
     </item>
     
     <item>
-      <title>Blockchain</title>
-      <link>https://erickhun.com/categories/blockchain/</link>
-      <pubDate>Sat, 03 Feb 2018 11:16:22 +0100</pubDate>
-      
-      <guid>https://erickhun.com/categories/blockchain/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dev</title>
-      <link>https://erickhun.com/categories/dev/</link>
-      <pubDate>Sat, 03 Feb 2018 11:16:22 +0100</pubDate>
-      
-      <guid>https://erickhun.com/categories/dev/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ethereum</title>
+      <title>ethereum</title>
       <link>https://erickhun.com/categories/ethereum/</link>
       <pubDate>Sat, 03 Feb 2018 11:16:22 +0100</pubDate>
       
       <guid>https://erickhun.com/categories/ethereum/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ropsten</title>
-      <link>https://erickhun.com/categories/ropsten/</link>
-      <pubDate>Sat, 03 Feb 2018 11:16:22 +0100</pubDate>
-      
-      <guid>https://erickhun.com/categories/ropsten/</guid>
       <description></description>
     </item>
     

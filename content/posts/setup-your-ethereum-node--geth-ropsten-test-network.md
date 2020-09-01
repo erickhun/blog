@@ -1,5 +1,5 @@
 +++
-categories = ["Ethereum", "Blockchain", "Ropsten", "Dev"]
+categories = ["ethereum", "infrastructure"]
 date = "2018-02-03T11:16:22+01:00"
 description = ""
 draft = false
