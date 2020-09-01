@@ -12,7 +12,7 @@ At Buffer, we've been using [Kubernetes since 2016](https://kubernetes.io/case-s
 ## CPU limits and Throttling
 It is s general recommendation to set CPU limit. [Google, among others, highly recommends it](https://cloud.google.com/blog/products/gcp/kubernetes-best-practices-resource-requests-and-limits). The danger of not setting a CPU limit is that containers running in the node could exhaust all CPU available. This can trigger a cascade of unwanted events such having key Kubernetes process (such as `kubelet`) to become unresponsive. So it is in theory a great thing to set CPU limit in order to protect your nodes.
 
-CPU limits is the maximum CPU time a container can use at a given period (100ms by default). The CPU usage for a container will never go above that limit you specified. Kubernetes use a mechanism called [CFS Quota](https://en.wikipedia.org/wiki/Completely_Fair_Scheduler) to **throttle** the container to prevent the CPU usage to go above the limit. That means CPU will be artificially restricted, making the performance of your containers lower (and slower when it come to latency).
+CPU limits is the maximum CPU time a container can use at a given period (100ms by default). The CPU usage for a container will never go above that limit you specified. Kubernetes use a mechanism called [CFS Quota](https://en.wikipedia.org/wiki/Completely_Fair_Scheduler) to **throttle** the container to prevent the CPU usage to go above the limit. That means CPU will be artificially restricted, making the performance of your containers lower (and slower when it comes to latency).
 
 
 ## What can happen if we don't set CPU limits?
@@ -46,8 +46,14 @@ This wasn't an easy decisions since we value the stability of our cluster. We've
 ## How to keep your nodes safe when removing limits ?
 
 **Isolating "No CPU Limits" services**
-Because in the past we've seen some node going down because some services were using too much 
-I've also analyzed past month usage of all those services to make sure the CPU requests are properly set. Even if  the "slack" combined of all services in a given node should compensate the burst 
+
+In the past we've seen some nodes going to a `notReady` state, mainly because some services were using too much resources in a node. 
+
+We've decided to put those services on some specific nodes (tainted nodes), so those services will not dirupst all the "bounded" ones.  We have better control and could identify easier if any issue occurs with a node. We did this by using by tainting some nodes and adding toleration to services that were "unbounded". Check [the documentation](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/) on how to do that.
+
+
+![Buffer k8s nodes infrastructure](/img/kubernetes-cpu-limits/buffer-k8s-infrastructure-nodes.jpg)
+
 
 **Assigning the correct CPU and memory request**
 The main worry we had was service using to much resources and lead to nodes becoming unresponsive. 
@@ -58,6 +64,8 @@ Because we now had solid observability of all services running in our cluster (w
 You can see in the graph that the peak CPU usage was `242m` CPU core (0.242 CPU core). Simply take this number and make it a bit higher to become the CPU request. You can notice that since the service is user facing, the peak CPU usage match to peak traffic time. 
 
 Do the same with your memory usage and requests, and you will be all set!
+
+Even if you service will consume more CPU usage than the request, the "slack" combined of all services in a given node should compensate the burst. 
 
 The downside is that we lose in [containers density](https://wiki.openvz.org/WP/Containers_density), the number of containers that can run in a single node. We could also end up with lot of "slack" during a low traffic time. But this is an other problem I will solve will horizontal pod auto-scaling I will share in an other post.
 
