@@ -59,7 +59,7 @@ You can see in the graph that the peak CPU usage was `242m` CPU core (0.242 CPU 
 
 Do the same with your memory usage and requests, and you will be all set!
 
-The downside is that we lose in containers density, and have could end up with lot of "slack" during low traffic time . But this is an other story I'll deal with in a next post.
+The downside is that we lose in [containers density](https://wiki.openvz.org/WP/Containers_density), the number of containers that can run in a single node. We could also end up with lot of "slack" during a low traffic time. But this is an other problem I will solve will horizontal pod auto-scaling I will share in an other post.
 
 ## Results
 I'm happy to publish really great results after few weeks of experimentation, we've already seen really great latency improvements accross all the services we've modified:  

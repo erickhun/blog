@@ -145,7 +145,7 @@ Because we now had solid observability of all services running in our cluster (w
 <p><img src="https://erickhun.com/img/kubernetes-cpu-limits/choose-cpu-request-based-on-max.png" alt="Chose CPU request based on max"></p>
 <p>You can see in the graph that the peak CPU usage was <code>242m</code> CPU core (0.242 CPU core). Simply take this number and make it a bit higher to become the CPU request. You can notice that since the service is user facing, the peak CPU usage match to peak traffic time.</p>
 <p>Do the same with your memory usage and requests, and you will be all set!</p>
-<p>The downside is that we lose in containers density, and have could end up with lot of &ldquo;slack&rdquo; during low traffic time . But this is an other story I&rsquo;ll deal with in a next post.</p>
+<p>The downside is that we lose in <a href="https://wiki.openvz.org/WP/Containers_density">containers density</a>, the number of containers that can run in a single node. We could also end up with lot of &ldquo;slack&rdquo; during a low traffic time. But this is an other problem I will solve will horizontal pod auto-scaling I will share in an other post.</p>
 <h2 id="results">Results</h2>
 <p>I&rsquo;m happy to publish really great results after few weeks of experimentation, we&rsquo;ve already seen really great latency improvements accross all the services we&rsquo;ve modified:</p>
 <p><img src="https://erickhun.com/img/kubernetes-cpu-limits/speedup-no-cpu-limits.png" alt="faster-kubernetes-containers"></p>
