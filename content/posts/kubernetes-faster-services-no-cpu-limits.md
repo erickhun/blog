@@ -107,3 +107,6 @@ I'm unsure if totally solved the issue. I will give it a try once we hit a kerne
 I hope this post helps you get performance gains on the containers you are running. If so, don't hesitate to share, [comment](https://news.ycombinator.com/item?id=24351566), or [say hi](https://twitter.com/eric_khun)
 
 Special thanks to [Dmitry](https://www.linkedin.com/in/dilyevsky/), [Noah](https://coderanger.net/) and [Andre](https://mydev.org/) that adviced me on this. 
+
+
+📚 Next read: [How we share technical knowledge in a remote team, across timezones](https://erickhun.com/posts/sharing-knowledge-in-a-remote-team/)
