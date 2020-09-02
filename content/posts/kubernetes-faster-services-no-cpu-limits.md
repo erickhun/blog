@@ -74,7 +74,7 @@ You could also hit some high CPU usage, but nodes autoscaling should help you wi
 ## Results
 I'm happy to publish really great results after few weeks of experimentation, we've already seen really great latency improvements across all the services we've modified:  
 
-![faster-kubernetes-containers](/img/kubernetes-cpu-limits/speedup-no-cpu-limits.png)
+![faster-kubernetes-containers](/img/kubernetes-cpu-limits/speedup-no-cpu-limits2.png)
 
 
 The best result happened on our main landing page ([buffer.com](https://buffer.com)) where we speed the service up to **22x** faster! 
