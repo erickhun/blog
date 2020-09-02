@@ -4,7 +4,7 @@ date = "2020-08-31T23:56:00+08:00"
 description = ""
 draft = false
 image = "/img/about-bg.jpg"
-title = "Kubernetes: Make your services faster by removing CPU limits, and why you shouldn't"
+title = "Kubernetes: Make your services faster by removing CPU limits"
 +++
 
 
