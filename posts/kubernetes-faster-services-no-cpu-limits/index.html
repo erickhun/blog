@@ -145,7 +145,7 @@ The tldr is basically a bug in the Linux kernel throttling unecessarly container
 <p>You can see in the graph that the peak CPU usage was <code>242m</code> CPU core (0.242 CPU core). Simply take this number and make it a bit higher to become the CPU request. You can notice that since the service is user facing, the peak CPU usage matches peak traffic time.</p>
 <p>Do the same with your memory usage and requests, and you will be all set!</p>
 <p>Even if your service will consume more CPU usage than the request, the “slack” combined of all services in a given node should compensate for the burst.</p>
-<p>The downside is that we lose in &ldquo;<a href="https://wiki.openvz.org/WP/Containers_density">container density</a>&rdquo;, the number of containers that can run in a single node. We could also end up with a lot of “slack” during a low traffic time. But this is another problem I will solve: horizontal pod auto-scaling I will share in another post.</p>
+<p>The downside is that we lose in &ldquo;<a href="https://wiki.openvz.org/WP/Containers_density">container density</a>&rdquo;, the number of containers that can run in a single node. We could also end up with a lot of “slack” during a low traffic time. But this is another problem I will solve: horizontal pod and nodes auto-scaling I will share in another post.</p>
 <h2 id="results">Results</h2>
 <p>I&rsquo;m happy to publish really great results after few weeks of experimentation, we&rsquo;ve already seen really great latency improvements across all the services we&rsquo;ve modified:</p>
 <p><img src="https://erickhun.com/img/kubernetes-cpu-limits/speedup-no-cpu-limits.png" alt="faster-kubernetes-containers"></p>
