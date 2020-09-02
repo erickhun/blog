@@ -130,7 +130,7 @@
 <p>We&rsquo;ve then found a few resources(<a href="https://github.com/kubernetes/kubernetes/issues/67577">github issue</a>, <a href="https://www.youtube.com/watch?v=LpFApeaGv7A&amp;feature=youtu.be&amp;t=1204">zanado talk</a>,  <a href="https://medium.com/omio-engineering/cpu-limits-and-aggressive-throttling-in-kubernetes-c5b20bd8a718">omio post</a>) talking about how throttling lead to poorer performances and latency for your services.</p>
 <p><strong>Why do we see CPU throttling while CPU usage is low?</strong>
 The tldr is basically a bug in the Linux kernel throttling unecessarly containers with CPU limit. If you&rsquo;re curious about the nature of it, I invite you to check Dave Chiluk&rsquo;s <a href="(https://www.youtube.com/watch?v=UE7QX98-kO0)">great talk</a>, a <a href="https://engineering.indeedblog.com/blog/2019/12/unthrottled-fixing-cpu-limits-in-the-cloud/">written version</a> also exists.</p>
-<h2 id="removing-cpu-limit">Removing CPU limit</h2>
+<h2 id="removing-cpu-limit-with-extra-care">Removing CPU limit (with extra care)</h2>
 <p>After many long discussions, we&rsquo;ve decided to remove the CPU limits for all services that were directly or indirectly on the critical path of our users.</p>
 <p>This wasn&rsquo;t an easy decision since we value the stability of our cluster. We&rsquo;ve experimented in the past some instability in our cluster with services using too much resources and disrupting all other services present in the same node.  That time was a bit different, we understood more about how our services needed to be and had a good strategy to roll this out.</p>
 <p><img src="https://erickhun.com/img/kubernetes-cpu-limits/unleash-k8s.jpg" alt="Buffer-remove-cpu-limits-announcement"></p>
@@ -175,7 +175,7 @@ You could also hit some high CPU usage, but nodes autoscaling should help you wi
 <li>A safe way to is to use the Horizontal pod autoscaler to create new pods if the resource usage is high, so kubernetes will schedule it in nodes that have space.</li>
 </ul>
 <ul>
-<li>👉 Hacker news update: lot of insighful <a href="https://news.ycombinator.com/item?id=24351566">comments</a>. I&rsquo;ve updated the post to have better recommendations.*</li>
+<li>👉 Hacker news update: lot of insighful <a href="https://news.ycombinator.com/item?id=24351566">comments</a>. I&rsquo;ve updated the post to have better recommendations. You should prefer upgrading your kernel version over removing the CPU limits. Be really mindful, and add the necessary monitoring when you do this*</li>
 </ul>
 <p>I hope this post helps you get performance gains on the containers you are running. If so, don&rsquo;t hesitate to share or <a href="https://news.ycombinator.com/item?id=24351566">comment</a> with always some insighful comments</p>
 <p>Special thanks to <a href="https://www.linkedin.com/in/dilyevsky/">Dmitry</a>, <a href="https://coderanger.net/">Noah</a> and <a href="https://mydev.org/">Andre</a> that adviced me on this.</p>
