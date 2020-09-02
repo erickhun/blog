@@ -16,7 +16,7 @@ googleAnalytics = "UA-106516-7"
 
 [params]
     author = "Eric Khun"
-    info = "Engineering @ Buffer - Work remotely for 5 years - Travel around the world"
+    info = "engineering @ <a href=\"buffer.com\">buffer</a> <br/> 🚨 <a href=\"https://monitory.io\">monitory.io</a>  🇹🇼  <a href=\"https://taiwangoldcard.com\">taiwangoldcard.com</a> ✈️  <a href=\"https://travellhustlers.co\">travellhustlers.co</a> "
     description = "Eric Khun's personal website"
     keywords = "blog,developer,personal, data"
     avatarurl = "img/eric.jpg"
