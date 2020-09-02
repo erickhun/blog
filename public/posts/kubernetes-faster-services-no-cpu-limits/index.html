@@ -159,7 +159,7 @@ The tldr is basically a bug in the Linux kernel throttling unecessarly container
 <li>Debian: The latest version <a href="%5Bhttps://www.debian.org/releases/buster/">buster</a> has the fix,  it looks <a href="https://tracker.debian.org/news/1167353/accepted-linux-latest-419-105deb10u5deb9u1-source-amd64-into-oldstable-oldstable/">quite recent (august 2020)</a>. Some previous version might have get patched</li>
 <li>Ubuntu: The latest version <a href="%5Bhttps://releases.ubuntu.com/20.04/">Ubuntu Focal Fosa 20.04</a> has the fix.</li>
 <li>EKS has the fix since <a href="https://github.com/aws/containers-roadmap/issues/175">December 2019</a>. Upgrade your AMI if you have a version below than that</li>
-<li>kops: Since <a href="https://github.com/kubernetes/kops/pull/9283">June 2020</a>,  <code>kops 1.18+</code> will start using <code>Ubuntu 20.04</code> as the default host image. If you&rsquo;re using a lower version of kops, you&rsquo;ll have to probably to wait the fix.</li>
+<li>kops: Since <a href="https://github.com/kubernetes/kops/pull/9283">June 2020</a>,  <code>kops 1.18+</code> will start using <code>Ubuntu 20.04</code> as the default host image. If you&rsquo;re using a lower version of kops, you&rsquo;ll have to probably to wait the fix. We are currently in this situation.</li>
 <li>GKE (Goggle Cloud) : I&rsquo;m not too sure what&rsquo;s the state of it, but I believe it might have been fixed</li>
 </ul>
 <p>ps: I&rsquo;m not entirely sure about the exact date, feel free to <a href="https://news.ycombinator.com/item?id=24351566">comment</a> if you have more precise information</p>
