@@ -100,7 +100,7 @@ I'm unsure if totally solved the issue. I will give it a try once we hit a kerne
 - If you run Docker containers under Linux (no matter Kubernetes/Mesos/Swarm) you might have your containers underperforming because of throttling
 - Upgrade to the latest version of your distribution hoping the bug fixed
 - Check if your containers perform better without CPU limits 
-- Always have an eye on the CPU throttling metrics of your containers
+- Always have an eye on the CPU throttling metrics of your containers if they need to run fast
 
 I hope this post helps you get performance gains on the containers you are running. If so, don't hesitate to share, comments, or [say hi](https://twitter.com/eric_khun)
 
