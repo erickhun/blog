@@ -66,7 +66,7 @@ Do the same with your memory usage and requests, and you will be all set!
 
 Even if your service will consume more CPU usage than the request, the “slack” combined of all services in a given node should compensate for the burst.
 
-The downside is that we lose in "[container density](https://wiki.openvz.org/WP/Containers_density)", the number of containers that can run in a single node. We could also end up with a lot of “slack” during a low traffic time. But this is another problem I will solve: horizontal pod auto-scaling I will share in another post.
+The downside is that we lose in "[container density](https://wiki.openvz.org/WP/Containers_density)", the number of containers that can run in a single node. We could also end up with a lot of “slack” during a low traffic time. But this is another problem I will solve: horizontal pod and nodes auto-scaling I will share in another post.
 
 ## Results
 I'm happy to publish really great results after few weeks of experimentation, we've already seen really great latency improvements across all the services we've modified:  
