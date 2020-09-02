@@ -66,7 +66,9 @@ Do the same with your memory usage and requests, and you will be all set!
 
 Even if your service will consume more CPU usage than the request, the “slack” combined of all services in a given node should compensate for the burst.
 
-The downside is that we lose in "[container density](https://wiki.openvz.org/WP/Containers_density)", the number of containers that can run in a single node. We could also end up with a lot of “slack” during a low traffic time. But this is another problem I will solve: horizontal pod and nodes auto-scaling I will share in another post.
+The downsides are that we lose in "[container density](https://wiki.openvz.org/WP/Containers_density)", the number of containers that can run in a single node. We could also end up with a lot of “slack” during a low traffic time. 
+You could also hit some high CPU usage, but nodes autoscaling should help you with it.
+
 
 ## Results
 I'm happy to publish really great results after few weeks of experimentation, we've already seen really great latency improvements across all the services we've modified:  
@@ -74,7 +76,7 @@ I'm happy to publish really great results after few weeks of experimentation, we
 ![faster-kubernetes-containers](/img/kubernetes-cpu-limits/speedup-no-cpu-limits.png)
 
 
-The best result happened on our main landing page ([buffer.com](https://buffer.com)) where we speed the service up to **22x** faster! 🚀
+The best result happened on our main landing page ([buffer.com](https://buffer.com)) where we speed the service up to **22x** faster! 
 
 ![buffer.com speedup without cpu limits](/img/kubernetes-cpu-limits/no-cpu-limit-speedup-buffer-com.jpg)
 
@@ -104,7 +106,7 @@ I'm unsure if totally solved the issue. I will give it a try once we hit a kerne
 - Check if your containers perform better without CPU limits 
 - Always have an eye on the CPU throttling metrics of your containers if they need to run fast
 
-I hope this post helps you get performance gains on the containers you are running. If so, don't hesitate to share, [comment](https://news.ycombinator.com/item?id=24351566), or [say hi](https://twitter.com/eric_khun)
+I hope this post helps you get performance gains on the containers you are running. If so, don't hesitate to share or [comment](https://news.ycombinator.com/item?id=24351566) with always some insighful comments
 
 Special thanks to [Dmitry](https://www.linkedin.com/in/dilyevsky/), [Noah](https://coderanger.net/) and [Andre](https://mydev.org/) that adviced me on this. 
 
