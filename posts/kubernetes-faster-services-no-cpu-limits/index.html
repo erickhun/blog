@@ -145,11 +145,12 @@ The tldr is basically a bug in the Linux kernel throttling unecessarly container
 <p>You can see in the graph that the peak CPU usage was <code>242m</code> CPU core (0.242 CPU core). Simply take this number and make it a bit higher to become the CPU request. You can notice that since the service is user facing, the peak CPU usage matches peak traffic time.</p>
 <p>Do the same with your memory usage and requests, and you will be all set!</p>
 <p>Even if your service will consume more CPU usage than the request, the “slack” combined of all services in a given node should compensate for the burst.</p>
-<p>The downside is that we lose in &ldquo;<a href="https://wiki.openvz.org/WP/Containers_density">container density</a>&rdquo;, the number of containers that can run in a single node. We could also end up with a lot of “slack” during a low traffic time. But this is another problem I will solve: horizontal pod and nodes auto-scaling I will share in another post.</p>
+<p>The downsides are that we lose in &ldquo;<a href="https://wiki.openvz.org/WP/Containers_density">container density</a>&rdquo;, the number of containers that can run in a single node. We could also end up with a lot of “slack” during a low traffic time.
+You could also hit some high CPU usage, but nodes autoscaling should help you with it.</p>
 <h2 id="results">Results</h2>
 <p>I&rsquo;m happy to publish really great results after few weeks of experimentation, we&rsquo;ve already seen really great latency improvements across all the services we&rsquo;ve modified:</p>
 <p><img src="https://erickhun.com/img/kubernetes-cpu-limits/speedup-no-cpu-limits.png" alt="faster-kubernetes-containers"></p>
-<p>The best result happened on our main landing page (<a href="https://buffer.com">buffer.com</a>) where we speed the service up to <strong>22x</strong> faster! 🚀</p>
+<p>The best result happened on our main landing page (<a href="https://buffer.com">buffer.com</a>) where we speed the service up to <strong>22x</strong> faster!</p>
 <p><img src="https://erickhun.com/img/kubernetes-cpu-limits/no-cpu-limit-speedup-buffer-com.jpg" alt="buffer.com speedup without cpu limits"></p>
 <h2 id="is-the-linux-kernel-bug-fixed">Is the Linux kernel bug fixed?</h2>
 <p>The bug <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=763a9ec06c4">has been fixed and merged into the kernel</a> for Linux distribution running 4.19 or higher (kudo again to <a href="https://twitter.com/dchiluk">Dave Chiluk</a> for finding and fixing that).</p>
@@ -172,7 +173,7 @@ The tldr is basically a bug in the Linux kernel throttling unecessarly container
 <li>Check if your containers perform better without CPU limits</li>
 <li>Always have an eye on the CPU throttling metrics of your containers if they need to run fast</li>
 </ul>
-<p>I hope this post helps you get performance gains on the containers you are running. If so, don&rsquo;t hesitate to share, <a href="https://news.ycombinator.com/item?id=24351566">comment</a>, or <a href="https://twitter.com/eric_khun">say hi</a></p>
+<p>I hope this post helps you get performance gains on the containers you are running. If so, don&rsquo;t hesitate to share or <a href="https://news.ycombinator.com/item?id=24351566">comment</a> with always some insighful comments</p>
 <p>Special thanks to <a href="https://www.linkedin.com/in/dilyevsky/">Dmitry</a>, <a href="https://coderanger.net/">Noah</a> and <a href="https://mydev.org/">Andre</a> that adviced me on this.</p>
 <p>📚 Next read: <a href="https://erickhun.com/posts/sharing-knowledge-in-a-remote-team/">How we share technical knowledge in a remote team, across timezones</a></p>
 
