@@ -79,51 +79,24 @@ The best result happened on our main landing page ([buffer.com](https://buffer.c
 
 ![buffer.com speedup without cpu limits](/img/kubernetes-cpu-limits/no-cpu-limit-speedup-buffer-com.jpg)
 
+ ## Is the kernel bug fixed? 
+The bug [has been fixed and merged into the kernel](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=763a9ec06c4) for Linux distribution running 4.19 or higher (kudo again to [Dave Chiluk](https://twitter.com/dchiluk) for finding and fixing that). As for *September 2nd 2020*, when reading [the kubernetes issue](https://github.com/kubernetes/kubernetes/issues/67577), we can see various Linux projects that keep referencing the issue, so I guess some Linux distribution still have the bug. 
 
-<!-- ## Is the kernel bug fixed? 
-Yes, it should be. We're still seing 
+If you are below a Linux distribution that has a kernel version below 4.19, I'd recommend you to upgrade to the latest Linux distribution for your nodes, but in any case, you should try removing the CPU limits and see if you have any throttling.  Here a non exhausting list of various managed Kubernetes services:
 
+- EKS has the fix since [December 2019](https://github.com/aws/containers-roadmap/issues/175). Upgrade your AMI if you have a version below than that
+- kops: Since [June 2020](https://github.com/kubernetes/kops/pull/9283),  `kops 1.18+` will start using `Ubuntu 20.04` as the default host image. If you're using a lower version of kops, you'll have to probably wait the fix. 
+- GKE (Goggle Cloud) : I'm not too sure what's the state of it, but I believe it might have been fixed
 
-## What are the alternative solutions?
-- Upgrade to the that include the patch
-- Remove CPU limits
-- Use a whole CPU core for each of your container (might not be great if you're looking into getting a high density of container running on a physical server )
+**If the fix solved the throttling issue?**
 
-
-
-
-EKS : Amazon  fixed the issue on [Dec 2019]( https://github.com/aws/containers-roadmap/issues/175#issuecomment-566785192),  you will need to use an AMI of at least `v20191213` version. 
-GKE (Goggle Cloud) : I'm not too sure what's the state of it, but I believe it might have been fixed
-kops : If you're using kops <. Recommnend to use 1.16
-
-At Buffer, we're still under, then we could probably reinclude CPU limits. 
-
-Who are affected ? 
-https://github.com/kubernetes/kops/issues/8954
-
-
-
-
-o "throttling" they are referring to cfs bandwidth control, nr_throttled in cpu.stat for the cgroup increasing. That is only enabled when cpu limits are enabled.
-
- the bug fix patches are still in the process of being incorporated into the myriad Linux distributions that someone might be using Kubernetes on.
-
- This was never an issue for people not using Linux distributions
-
-Buffer: 
-Now we use 
-https://github.com/kubernetes/kops/blob/c5870ddf17bcc970ea7ba0793173063593ec02bb/channels/stable#L41 
+I'm unsure if totally solved the issue. I will give it a try once we hit a kernel version where the fix has been implemented and will update this post accordingly. If anyone have upgrade I'm keen to hear their results. 
 
 
 ## Takeaways
-As for today, the bug has been fixed in the kernel. However 
+- If you run Docker containers under Linux (no matter Kubernetes/Mesos/Swarm) you might have your containers underperforming because of throttling
+- Upgrade to the latest version of your distribution hoping the bug fixed
+- Check if your containers perform better without CPU limits 
+- Always have an eye on the CPU throttling metrics of your containers
 
-- Upgrade your distribution if you can. 
-- Understand the needs of your services
-- Monitor your throttling
-- 
-
-
-
--->
-
+I hope this post helps you get performance gains on the containers you are running. If so don't hesitate to share, comments, or just say [hi](https://twitter.com/eric_khun)

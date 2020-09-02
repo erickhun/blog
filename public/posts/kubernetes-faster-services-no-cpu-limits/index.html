@@ -101,7 +101,7 @@
             </span>
             <span class="reading-time">
               <i class="fas fa-clock"></i>
-              5 minutes read
+              7 minutes read
             </span>
           </div>
           <div class="categories">
@@ -152,52 +152,24 @@ The tldr is basically a bug in the Linux kernel throttling unecessarly container
 <p><img src="https://erickhun.com/img/kubernetes-cpu-limits/speedup-no-cpu-limits.png" alt="faster-kubernetes-containers"></p>
 <p>The best result happened on our main landing page (<a href="https://buffer.com">buffer.com</a>) where we speed the service up to <strong>22x</strong> faster! 🚀</p>
 <p><img src="https://erickhun.com/img/kubernetes-cpu-limits/no-cpu-limit-speedup-buffer-com.jpg" alt="buffer.com speedup without cpu limits"></p>
-<!-- ## Is the kernel bug fixed? 
-Yes, it should be. We're still seing 
-
-
-## What are the alternative solutions?
-- Upgrade to the that include the patch
-- Remove CPU limits
-- Use a whole CPU core for each of your container (might not be great if you're looking into getting a high density of container running on a physical server )
-
-
-
-
-EKS : Amazon  fixed the issue on [Dec 2019]( https://github.com/aws/containers-roadmap/issues/175#issuecomment-566785192),  you will need to use an AMI of at least `v20191213` version. 
-GKE (Goggle Cloud) : I'm not too sure what's the state of it, but I believe it might have been fixed
-kops : If you're using kops <. Recommnend to use 1.16
-
-At Buffer, we're still under, then we could probably reinclude CPU limits. 
-
-Who are affected ? 
-https://github.com/kubernetes/kops/issues/8954
-
-
-
-
-o "throttling" they are referring to cfs bandwidth control, nr_throttled in cpu.stat for the cgroup increasing. That is only enabled when cpu limits are enabled.
-
- the bug fix patches are still in the process of being incorporated into the myriad Linux distributions that someone might be using Kubernetes on.
-
- This was never an issue for people not using Linux distributions
-
-Buffer: 
-Now we use 
-https://github.com/kubernetes/kops/blob/c5870ddf17bcc970ea7ba0793173063593ec02bb/channels/stable#L41 
-
-
-## Takeaways
-As for today, the bug has been fixed in the kernel. However 
-
-- Upgrade your distribution if you can. 
-- Understand the needs of your services
-- Monitor your throttling
-- 
-
-
-
--->
+<h2 id="is-the-kernel-bug-fixed">Is the kernel bug fixed?</h2>
+<p>The bug <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=763a9ec06c4">has been fixed and merged into the kernel</a> for Linux distribution running 4.19 or higher (kudo again to <a href="https://twitter.com/dchiluk">Dave Chiluk</a> for finding and fixing that). As for <em>September 2nd 2020</em>, when reading <a href="https://github.com/kubernetes/kubernetes/issues/67577">the kubernetes issue</a>, we can see various Linux projects that keep referencing the issue, so I guess some Linux distribution still have the bug.</p>
+<p>If you are below a Linux distribution that has a kernel version below 4.19, I&rsquo;d recommend you to upgrade to the latest Linux distribution for your nodes, but in any case, you should try removing the CPU limits and see if you have any throttling.  Here a non exhausting list of various managed Kubernetes services:</p>
+<ul>
+<li>EKS has the fix since <a href="https://github.com/aws/containers-roadmap/issues/175">December 2019</a>. Upgrade your AMI if you have a version below than that</li>
+<li>kops: Since <a href="https://github.com/kubernetes/kops/pull/9283">June 2020</a>,  <code>kops 1.18+</code> will start using <code>Ubuntu 20.04</code> as the default host image. If you&rsquo;re using a lower version of kops, you&rsquo;ll have to probably wait the fix.</li>
+<li>GKE (Goggle Cloud) : I&rsquo;m not too sure what&rsquo;s the state of it, but I believe it might have been fixed</li>
+</ul>
+<p><strong>If the fix solved the throttling issue?</strong></p>
+<p>I&rsquo;m unsure if totally solved the issue. I will give it a try once we hit a kernel version where the fix has been implemented and will update this post accordingly. If anyone have upgrade I&rsquo;m keen to hear their results.</p>
+<h2 id="takeaways">Takeaways</h2>
+<ul>
+<li>If you run Docker containers under Linux (no matter Kubernetes/Mesos/Swarm) you might have your containers underperforming because of throttling</li>
+<li>Upgrade to the latest version of your distribution hoping the bug fixed</li>
+<li>Check if your containers perform better without CPU limits</li>
+<li>Always have an eye on the CPU throttling metrics of your containers</li>
+</ul>
+<p>I hope this post helps you get performance gains on the containers you are running. If so don&rsquo;t hesitate to share, comments, or just say <a href="https://twitter.com/eric_khun">hi</a></p>
 
 
 
