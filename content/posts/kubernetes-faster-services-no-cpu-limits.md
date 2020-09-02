@@ -86,8 +86,8 @@ However, as for *September 2nd 2020*, when reading [the kubernetes issue](https:
 
 If you are below a Linux distribution that has a kernel version below 4.19, I'd recommend you to upgrade to the latest Linux distribution for your nodes, but in any case, you should try removing the CPU limits and see if you have any throttling.  Here a non exhausting list of various managed Kubernetes services or Linux distribution:
 
-- Debian: The latest version [buster]([https://www.debian.org/releases/buster/) has the fix. Some previous version might have get patched 
-- Ubuntu: The latest version [Ubuntu Focal Fosa 20.04]([https://releases.ubuntu.com/20.04/) has the fix since. 
+- Debian: The latest version [buster]([https://www.debian.org/releases/buster/) has the fix, I'm not entirely sure about the exact date, but it looks [recent (august 2020)](https://tracker.debian.org/news/1167353/accepted-linux-latest-419-105deb10u5deb9u1-source-amd64-into-oldstable-oldstable/). Some previous version might have get patched 
+- Ubuntu: The latest version [Ubuntu Focal Fosa 20.04]([https://releases.ubuntu.com/20.04/) has the fix. 
 - EKS has the fix since [December 2019](https://github.com/aws/containers-roadmap/issues/175). Upgrade your AMI if you have a version below than that
 - kops: Since [June 2020](https://github.com/kubernetes/kops/pull/9283),  `kops 1.18+` will start using `Ubuntu 20.04` as the default host image. If you're using a lower version of kops, you'll have to probably to wait the fix. 
 - GKE (Goggle Cloud) : I'm not too sure what's the state of it, but I believe it might have been fixed
