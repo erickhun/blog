@@ -152,12 +152,15 @@ The tldr is basically a bug in the Linux kernel throttling unecessarly container
 <p><img src="https://erickhun.com/img/kubernetes-cpu-limits/speedup-no-cpu-limits.png" alt="faster-kubernetes-containers"></p>
 <p>The best result happened on our main landing page (<a href="https://buffer.com">buffer.com</a>) where we speed the service up to <strong>22x</strong> faster! 🚀</p>
 <p><img src="https://erickhun.com/img/kubernetes-cpu-limits/no-cpu-limit-speedup-buffer-com.jpg" alt="buffer.com speedup without cpu limits"></p>
-<h2 id="is-the-kernel-bug-fixed">Is the kernel bug fixed?</h2>
-<p>The bug <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=763a9ec06c4">has been fixed and merged into the kernel</a> for Linux distribution running 4.19 or higher (kudo again to <a href="https://twitter.com/dchiluk">Dave Chiluk</a> for finding and fixing that). As for <em>September 2nd 2020</em>, when reading <a href="https://github.com/kubernetes/kubernetes/issues/67577">the kubernetes issue</a>, we can see various Linux projects that keep referencing the issue, so I guess some Linux distribution still have the bug.</p>
-<p>If you are below a Linux distribution that has a kernel version below 4.19, I&rsquo;d recommend you to upgrade to the latest Linux distribution for your nodes, but in any case, you should try removing the CPU limits and see if you have any throttling.  Here a non exhausting list of various managed Kubernetes services:</p>
+<h2 id="is-the-linux-kernel-bug-fixed">Is the Linux kernel bug fixed?</h2>
+<p>The bug <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=763a9ec06c4">has been fixed and merged into the kernel</a> for Linux distribution running 4.19 or higher (kudo again to <a href="https://twitter.com/dchiluk">Dave Chiluk</a> for finding and fixing that).</p>
+<p>However, as for <em>September 2nd 2020</em>, when reading <a href="https://github.com/kubernetes/kubernetes/issues/67577">the kubernetes issue</a>, we can see various Linux projects that keep referencing the issue, so I guess some Linux distribution still have the bug and working into integrating the fix.</p>
+<p>If you are below a Linux distribution that has a kernel version below 4.19, I&rsquo;d recommend you to upgrade to the latest Linux distribution for your nodes, but in any case, you should try removing the CPU limits and see if you have any throttling.  Here a non exhausting list of various managed Kubernetes services or Linux distribution:</p>
 <ul>
+<li>Debian: The latest version <a href="%5Bhttps://www.debian.org/releases/buster/">buster</a> has the fix. Some previous version might have get patched</li>
+<li>Ubuntu: The latest version <a href="%5Bhttps://releases.ubuntu.com/20.04/">Ubuntu Focal Fosa 20.04</a> has the fix since.</li>
 <li>EKS has the fix since <a href="https://github.com/aws/containers-roadmap/issues/175">December 2019</a>. Upgrade your AMI if you have a version below than that</li>
-<li>kops: Since <a href="https://github.com/kubernetes/kops/pull/9283">June 2020</a>,  <code>kops 1.18+</code> will start using <code>Ubuntu 20.04</code> as the default host image. If you&rsquo;re using a lower version of kops, you&rsquo;ll have to probably wait the fix.</li>
+<li>kops: Since <a href="https://github.com/kubernetes/kops/pull/9283">June 2020</a>,  <code>kops 1.18+</code> will start using <code>Ubuntu 20.04</code> as the default host image. If you&rsquo;re using a lower version of kops, you&rsquo;ll have to probably to wait the fix.</li>
 <li>GKE (Goggle Cloud) : I&rsquo;m not too sure what&rsquo;s the state of it, but I believe it might have been fixed</li>
 </ul>
 <p><strong>If the fix solved the throttling issue?</strong></p>

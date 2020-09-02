@@ -79,13 +79,17 @@ The best result happened on our main landing page ([buffer.com](https://buffer.c
 
 ![buffer.com speedup without cpu limits](/img/kubernetes-cpu-limits/no-cpu-limit-speedup-buffer-com.jpg)
 
- ## Is the kernel bug fixed? 
-The bug [has been fixed and merged into the kernel](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=763a9ec06c4) for Linux distribution running 4.19 or higher (kudo again to [Dave Chiluk](https://twitter.com/dchiluk) for finding and fixing that). As for *September 2nd 2020*, when reading [the kubernetes issue](https://github.com/kubernetes/kubernetes/issues/67577), we can see various Linux projects that keep referencing the issue, so I guess some Linux distribution still have the bug. 
+ ## Is the Linux kernel bug fixed? 
+The bug [has been fixed and merged into the kernel](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=763a9ec06c4) for Linux distribution running 4.19 or higher (kudo again to [Dave Chiluk](https://twitter.com/dchiluk) for finding and fixing that). 
 
-If you are below a Linux distribution that has a kernel version below 4.19, I'd recommend you to upgrade to the latest Linux distribution for your nodes, but in any case, you should try removing the CPU limits and see if you have any throttling.  Here a non exhausting list of various managed Kubernetes services:
+However, as for *September 2nd 2020*, when reading [the kubernetes issue](https://github.com/kubernetes/kubernetes/issues/67577), we can see various Linux projects that keep referencing the issue, so I guess some Linux distribution still have the bug and working into integrating the fix. 
 
+If you are below a Linux distribution that has a kernel version below 4.19, I'd recommend you to upgrade to the latest Linux distribution for your nodes, but in any case, you should try removing the CPU limits and see if you have any throttling.  Here a non exhausting list of various managed Kubernetes services or Linux distribution:
+
+- Debian: The latest version [buster]([https://www.debian.org/releases/buster/) has the fix. Some previous version might have get patched 
+- Ubuntu: The latest version [Ubuntu Focal Fosa 20.04]([https://releases.ubuntu.com/20.04/) has the fix since. 
 - EKS has the fix since [December 2019](https://github.com/aws/containers-roadmap/issues/175). Upgrade your AMI if you have a version below than that
-- kops: Since [June 2020](https://github.com/kubernetes/kops/pull/9283),  `kops 1.18+` will start using `Ubuntu 20.04` as the default host image. If you're using a lower version of kops, you'll have to probably wait the fix. 
+- kops: Since [June 2020](https://github.com/kubernetes/kops/pull/9283),  `kops 1.18+` will start using `Ubuntu 20.04` as the default host image. If you're using a lower version of kops, you'll have to probably to wait the fix. 
 - GKE (Goggle Cloud) : I'm not too sure what's the state of it, but I believe it might have been fixed
 
 **If the fix solved the throttling issue?**
