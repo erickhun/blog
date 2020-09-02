@@ -162,7 +162,7 @@ The tldr is basically a bug in the Linux kernel throttling unecessarly container
 <li>kops: Since <a href="https://github.com/kubernetes/kops/pull/9283">June 2020</a>,  <code>kops 1.18+</code> will start using <code>Ubuntu 20.04</code> as the default host image. If you&rsquo;re using a lower version of kops, you&rsquo;ll have to probably to wait the fix.</li>
 <li>GKE (Goggle Cloud) : I&rsquo;m not too sure what&rsquo;s the state of it, but I believe it might have been fixed</li>
 </ul>
-<p>ps: I&rsquo;m not entirely sure about the exact date, feel free to comment if you have more precise information</p>
+<p>ps: I&rsquo;m not entirely sure about the exact date, feel free to <a href="https://news.ycombinator.com/item?id=24351566">comment</a> if you have more precise information</p>
 <p><strong>If the fix solved the throttling issue?</strong></p>
 <p>I&rsquo;m unsure if totally solved the issue. I will give it a try once we hit a kernel version where the fix has been implemented and will update this post accordingly. If anyone have upgrade I&rsquo;m keen to hear their results.</p>
 <h2 id="takeaways">Takeaways</h2>
@@ -172,7 +172,7 @@ The tldr is basically a bug in the Linux kernel throttling unecessarly container
 <li>Check if your containers perform better without CPU limits</li>
 <li>Always have an eye on the CPU throttling metrics of your containers if they need to run fast</li>
 </ul>
-<p>I hope this post helps you get performance gains on the containers you are running. If so, don&rsquo;t hesitate to share, <a href="https://news.ycombinator.com/item?id=24351399">comment</a>, or <a href="https://twitter.com/eric_khun">say hi</a></p>
+<p>I hope this post helps you get performance gains on the containers you are running. If so, don&rsquo;t hesitate to share, <a href="https://news.ycombinator.com/item?id=24351566">comment</a>, or <a href="https://twitter.com/eric_khun">say hi</a></p>
 <p>Special thanks to <a href="https://www.linkedin.com/in/dilyevsky/">Dmitry</a>, <a href="https://coderanger.net/">Noah</a> and <a href="https://mydev.org/">Andre</a> that adviced me on this.</p>
 
 

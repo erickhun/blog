@@ -91,7 +91,7 @@ If you are below a Linux distribution that has a kernel version below 4.19, I'd 
 - kops: Since [June 2020](https://github.com/kubernetes/kops/pull/9283),  `kops 1.18+` will start using `Ubuntu 20.04` as the default host image. If you're using a lower version of kops, you'll have to probably to wait the fix. 
 - GKE (Goggle Cloud) : I'm not too sure what's the state of it, but I believe it might have been fixed
 
-ps: I'm not entirely sure about the exact date, feel free to comment if you have more precise information
+ps: I'm not entirely sure about the exact date, feel free to [comment](https://news.ycombinator.com/item?id=24351566) if you have more precise information
 
 **If the fix solved the throttling issue?**
 
@@ -104,6 +104,6 @@ I'm unsure if totally solved the issue. I will give it a try once we hit a kerne
 - Check if your containers perform better without CPU limits 
 - Always have an eye on the CPU throttling metrics of your containers if they need to run fast
 
-I hope this post helps you get performance gains on the containers you are running. If so, don't hesitate to share, [comment](https://news.ycombinator.com/item?id=24351399), or [say hi](https://twitter.com/eric_khun)
+I hope this post helps you get performance gains on the containers you are running. If so, don't hesitate to share, [comment](https://news.ycombinator.com/item?id=24351566), or [say hi](https://twitter.com/eric_khun)
 
 Special thanks to [Dmitry](https://www.linkedin.com/in/dilyevsky/), [Noah](https://coderanger.net/) and [Andre](https://mydev.org/) that adviced me on this. 
