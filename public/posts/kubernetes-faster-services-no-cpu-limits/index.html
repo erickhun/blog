@@ -122,8 +122,7 @@
 <h2 id="what-can-happen-if-we-dont-set-cpu-limits">What can happen if we don&rsquo;t set CPU limits?</h2>
 <p>We unfortunately experienced the issue. The <code>kubelet</code> , a process running on every node, and in charge of managing the containers (pods)  in the nodes became unresponsive. The node will turn into a <code>NotReady</code> state, and containers (pods) that were present will be rescheduled somewhere else, and create the issue in the new nodes. Definitely not ideal isn&rsquo;t it?</p>
 <h2 id="discovering-the-throttling-and-latency-issue">Discovering the throttling and latency issue</h2>
-<p>We were suspecting. A key metric to check would be the <code>throttling</code> , the number of time your container has been throttled. Interestingly, we&rsquo;ve discovered a lot of containers having throttling no matter if the CPU usage was near the limits or not.
-Here the example of one of our main API:</p>
+<p>A key metric to check when you are running container is the <code>throttling</code> . This indicate the number of time your container has been throttled. Interestingly, we&rsquo;ve discovered a lot of containers having throttling no matter if the CPU usage was near the limits or not. Here the example of one of our main API:</p>
 <p><img src="https://erickhun.com/img/kubernetes-cpu-limits/cpu-usage-limits.png" alt="Kubernetes pods CPU usage and limits"></p>
 <p>You can see in the animation that the CPU limits is set at <code>800m</code> (0.8 core, 80% of a core), and the peak usage is at most <code>200m</code> (20% of a core). After seeing, we might think we have plenty of CPU to let the service running before it throttle right? . Now check this one out:</p>
 <p><img src="https://erickhun.com/img/kubernetes-cpu-limits/cpu-throttling-low-usage.gif" alt="Kubernetes pods Low CPU usage, High limit, lot of throttling"></p>
@@ -172,7 +171,8 @@ The tldr is basically a bug in the Linux kernel throttling unecessarly container
 <li>Check if your containers perform better without CPU limits</li>
 <li>Always have an eye on the CPU throttling metrics of your containers</li>
 </ul>
-<p>I hope this post helps you get performance gains on the containers you are running. If so don&rsquo;t hesitate to share, comments, or just say <a href="https://twitter.com/eric_khun">hi</a></p>
+<p>I hope this post helps you get performance gains on the containers you are running. If so, don&rsquo;t hesitate to share, comments, or <a href="https://twitter.com/eric_khun">say hi</a></p>
+<p>Special thanks to <a href="https://www.linkedin.com/in/dilyevsky/">Dmitry</a>, <a href="https://coderanger.net/">Noah</a> and <a href="https://mydev.org/">Andre</a> that adviced me on this.</p>
 
 
 

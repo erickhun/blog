@@ -19,8 +19,7 @@ CPU limits is the maximum CPU time a container can uses at a given period (100ms
 We unfortunately experienced the issue. The `kubelet` , a process running on every node, and in charge of managing the containers (pods)  in the nodes became unresponsive. The node will turn into a `NotReady` state, and containers (pods) that were present will be rescheduled somewhere else, and create the issue in the new nodes. Definitely not ideal isn't it? 
 
 ## Discovering the throttling and latency issue
-We were suspecting. A key metric to check would be the `throttling` , the number of time your container has been throttled. Interestingly, we've discovered a lot of containers having throttling no matter if the CPU usage was near the limits or not. 
-Here the example of one of our main API:
+A key metric to check when you are running container is the `throttling` . This indicate the number of time your container has been throttled. Interestingly, we've discovered a lot of containers having throttling no matter if the CPU usage was near the limits or not. Here the example of one of our main API:
 
 ![Kubernetes pods CPU usage and limits](/img/kubernetes-cpu-limits/cpu-usage-limits.png)
 
@@ -103,4 +102,6 @@ I'm unsure if totally solved the issue. I will give it a try once we hit a kerne
 - Check if your containers perform better without CPU limits 
 - Always have an eye on the CPU throttling metrics of your containers
 
-I hope this post helps you get performance gains on the containers you are running. If so don't hesitate to share, comments, or just say [hi](https://twitter.com/eric_khun)
+I hope this post helps you get performance gains on the containers you are running. If so, don't hesitate to share, comments, or [say hi](https://twitter.com/eric_khun)
+
+Special thanks to [Dmitry](https://www.linkedin.com/in/dilyevsky/), [Noah](https://coderanger.net/) and [Andre](https://mydev.org/) that adviced me on this. 
