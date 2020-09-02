@@ -4,8 +4,10 @@ date = "2020-08-31T23:56:00+08:00"
 description = ""
 draft = false
 image = "/img/about-bg.jpg"
-title = "Kubernetes: Make your services faster by removing CPU limits"
+title = "Kubernetes: Make your services faster by removing CPU limits, and why you shouldn't"
 +++
+
+
 
 At Buffer, we've been using [Kubernetes since 2016](https://kubernetes.io/case-studies/buffer/).  We've been managing our k8s (kubernetes) cluster with [kops](https://kops.sigs.k8s.io), it has about 60 nodes (on AWS), and runs about 1500 containers. Our transition to a micro-service architecture has been full of trial and errors. Even after a few years running k8s, we are still learning its secrets. This post will talk about how something we thought was a good thing, but ended up to be not as great as we thought: **CPU limits**.
 
@@ -56,15 +58,14 @@ We've decided to put those services on some specific nodes (tainted nodes), so t
 
 **Assigning the correct CPU and memory request:**
 
-The main worry we had was service using too much resources and leading to nodes becoming unresponsive. Because we now had solid observability of all services running in our cluster (with Datadog), I’ve analyzed a few months of usage of each service we wanted to "unbound". I’ve simply assigned the maximum CPU usage as the CPU request. This will make sure to have allocated space in a node. If k8s won’t try to schedule any other service in that node.
+The main worry we had was service using too much resources and leading to nodes becoming unresponsive. Because we now had great observability of all services running in our cluster (with Datadog), I’ve analyzed a few months of usage of each service we wanted to "unbound". I’ve assigned the maximum CPU usage as the CPU request with a > 20% margin. This will make sure to have allocated space in a node. If k8s won’t try to schedule any other service in that node.
 
 ![Chose CPU request based on max](/img/kubernetes-cpu-limits/choose-cpu-request-based-on-max.png)
 
 You can see in the graph that the peak CPU usage was `242m` CPU core (0.242 CPU core). Simply take this number and make it a bit higher to become the CPU request. You can notice that since the service is user facing, the peak CPU usage matches peak traffic time.
 
 Do the same with your memory usage and requests, and you will be all set!
-
-Even if your service will consume more CPU usage than the request, the “slack” combined of all services in a given node should compensate for the burst.
+To add more safety, you can use the horizontal pod autoscaler to create new pods if the resource usage is high, so kubernetes will schedule it in nodes that have room for it. Set an alert if your cluster do not have any room, or use the node austoscaler to add it automatically.
 
 The downsides are that we lose in "[container density](https://wiki.openvz.org/WP/Containers_density)", the number of containers that can run in a single node. We could also end up with a lot of “slack” during a low traffic time. 
 You could also hit some high CPU usage, but nodes autoscaling should help you with it.
@@ -102,9 +103,15 @@ I'm unsure if totally solved the issue. I will give it a try once we hit a kerne
 
 ## Takeaways
 - If you run Docker containers under Linux (no matter Kubernetes/Mesos/Swarm) you might have your containers underperforming because of throttling
-- Upgrade to the latest version of your distribution hoping the bug fixed
-- Check if your containers perform better without CPU limits 
-- Always have an eye on the CPU throttling metrics of your containers if they need to run fast
+- Upgrade to the latest version of your distribution hoping the bug is fixed
+- Removing CPU limit is a solution to solve this issue, but this is dangerous and should be made with extra-care (prefer upgrading your kernel first and monitor throttling first)
+- If you remove CPU limits, carefully monitor CPU and  memory usage in your nodes, and make sure your CPU requests are 
+- A safe way to is to use the Horizontal pod autoscaler to create new pods if the resource usage is high, so kubernetes will schedule it in nodes that have space.
+
+
+* 👉 Hacker news update: lot of insighful [comments](https://news.ycombinator.com/item?id=24351566). I've updated the post to have better recommendations.*
+
+
 
 I hope this post helps you get performance gains on the containers you are running. If so, don't hesitate to share or [comment](https://news.ycombinator.com/item?id=24351566) with always some insighful comments
 
