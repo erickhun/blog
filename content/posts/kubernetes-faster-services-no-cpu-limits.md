@@ -104,6 +104,6 @@ I'm unsure if totally solved the issue. I will give it a try once we hit a kerne
 - Check if your containers perform better without CPU limits 
 - Always have an eye on the CPU throttling metrics of your containers if they need to run fast
 
-I hope this post helps you get performance gains on the containers you are running. If so, don't hesitate to share, comments, or [say hi](https://twitter.com/eric_khun)
+I hope this post helps you get performance gains on the containers you are running. If so, don't hesitate to share, [comment](https://news.ycombinator.com/item?id=24351399), or [say hi](https://twitter.com/eric_khun)
 
 Special thanks to [Dmitry](https://www.linkedin.com/in/dilyevsky/), [Noah](https://coderanger.net/) and [Andre](https://mydev.org/) that adviced me on this. 
