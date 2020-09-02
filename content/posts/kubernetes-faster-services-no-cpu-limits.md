@@ -109,7 +109,7 @@ I'm unsure if totally solved the issue. I will give it a try once we hit a kerne
 - A safe way to is to use the Horizontal pod autoscaler to create new pods if the resource usage is high, so kubernetes will schedule it in nodes that have space.
 
 
-* 👉 Hacker news update: lot of insighful [comments](https://news.ycombinator.com/item?id=24351566). I've updated the post to have better recommendations. You should prefer upgrading your kernel version over removing the CPU limits. Be really mindful, and add the necessary monitoring when you do this*
+👉**Hacker news update: lot of insighful [comments](https://news.ycombinator.com/item?id=24351566). I've updated the post to have better recommendations. You should prefer upgrading your kernel version over removing the CPU limits. Be really mindful, set the proper CPU requests, add the necessary monitoring when you do this**
 
 
 I hope this post helps you get performance gains on the containers you are running. If so, don't hesitate to share or [comment](https://news.ycombinator.com/item?id=24351566) with always some insighful comments
