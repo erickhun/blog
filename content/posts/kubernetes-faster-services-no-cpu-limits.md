@@ -37,7 +37,7 @@ We've then found a few resources([github issue](https://github.com/kubernetes/ku
 The tldr is basically a bug in the Linux kernel throttling unecessarly containers with CPU limit. If you're curious about the nature of it, I invite you to check Dave Chiluk's [great talk]((https://www.youtube.com/watch?v=UE7QX98-kO0)), a [written version](https://engineering.indeedblog.com/blog/2019/12/unthrottled-fixing-cpu-limits-in-the-cloud/) also exists.
  
 
-## Removing CPU limit
+## Removing CPU limit (with extra care)
 After many long discussions, we've decided to remove the CPU limits for all services that were directly or indirectly on the critical path of our users.
 
 This wasn't an easy decision since we value the stability of our cluster. We've experimented in the past some instability in our cluster with services using too much resources and disrupting all other services present in the same node.  That time was a bit different, we understood more about how our services needed to be and had a good strategy to roll this out.
@@ -109,8 +109,7 @@ I'm unsure if totally solved the issue. I will give it a try once we hit a kerne
 - A safe way to is to use the Horizontal pod autoscaler to create new pods if the resource usage is high, so kubernetes will schedule it in nodes that have space.
 
 
-* 👉 Hacker news update: lot of insighful [comments](https://news.ycombinator.com/item?id=24351566). I've updated the post to have better recommendations.*
-
+* 👉 Hacker news update: lot of insighful [comments](https://news.ycombinator.com/item?id=24351566). I've updated the post to have better recommendations. You should prefer upgrading your kernel version over removing the CPU limits. Be really mindful, and add the necessary monitoring when you do this*
 
 
 I hope this post helps you get performance gains on the containers you are running. If so, don't hesitate to share or [comment](https://news.ycombinator.com/item?id=24351566) with always some insighful comments
