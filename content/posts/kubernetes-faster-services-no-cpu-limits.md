@@ -34,7 +34,7 @@ You can notice the CPU throttling occurs, even though the CPU usage is below the
 We've then found a few resources([github issue](https://github.com/kubernetes/kubernetes/issues/67577), [zanado talk](https://www.youtube.com/watch?v=LpFApeaGv7A&feature=youtu.be&t=1204),  [omio post](https://medium.com/omio-engineering/cpu-limits-and-aggressive-throttling-in-kubernetes-c5b20bd8a718)) talking about how throttling lead to poorer performances and latency for your services. 
 
 **Why do we see CPU throttling while CPU usage is low?**
-The tldr is basically a bug in the Linux kernel throttling unecessarly containers with CPU limit. If you're curious about the nature of it, I invite you to check Dave Chiluk's [great talk](https://www.youtube.com/watch?v=UE7QX98-kO0)), a [written version](https://engineering.indeedblog.com/blog/2019/12/unthrottled-fixing-cpu-limits-in-the-cloud/) also exists.
+The tldr is basically a bug in the Linux kernel throttling unecessarly containers with CPU limit. If you're curious about the nature of it, I invite you to check Dave Chiluk's [great talk](https://www.youtube.com/watch?v=UE7QX98-kO0), a [written version](https://engineering.indeedblog.com/blog/2019/12/unthrottled-fixing-cpu-limits-in-the-cloud/) also exists with more details.
  
 
 ## Removing CPU limit (with extra care)
