@@ -117,4 +117,7 @@ I hope this post helps you get performance gains on the containers you are runni
 Special thanks to [Dmitry](https://www.linkedin.com/in/dilyevsky/), [Noah](https://coderanger.net/) and [Andre](https://mydev.org/) that adviced me on this. 
 
 
-📚 Next read: [How we share technical knowledge in a remote team, across timezones](https://erickhun.com/posts/sharing-knowledge-in-a-remote-team/)
+#### Next reads:
+👉 [Why you should have a side project](https://erickhun.com/posts/why-you-should-have-a-side-project/)
+
+👉 [How we share technical knowledge in a remote team, across timezones](https://erickhun.com/posts/sharing-knowledge-in-a-remote-team/)
