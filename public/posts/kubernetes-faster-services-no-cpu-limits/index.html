@@ -161,9 +161,9 @@ You could also hit some high CPU usage, but nodes autoscaling should help you wi
 <li>Ubuntu: The latest version <a href="https://releases.ubuntu.com/20.04/">Ubuntu Focal Fosa 20.04</a> has the fix.</li>
 <li>EKS has the fix since <a href="https://github.com/aws/containers-roadmap/issues/175">December 2019</a>. Upgrade your AMI if you have a version below than that</li>
 <li>kops: Since <a href="https://github.com/kubernetes/kops/pull/9283">June 2020</a>,  <code>kops 1.18+</code> will start using <code>Ubuntu 20.04</code> as the default host image. If you&rsquo;re using a lower version of kops, you&rsquo;ll have to probably to wait the fix. We are currently in this situation.</li>
-<li>GKE (Goggle Cloud) : I&rsquo;m not too sure what&rsquo;s the state of it, but I believe it might have been fixed</li>
+<li>GKE (Goggle Cloud) : The kernel fix was merged in <a href="https://cloud.google.com/container-optimized-os/docs/release-notes#cos-stable-77-12371-141-0">January 2020</a>. But it does looks like throttling are <a href="https://news.ycombinator.com/item?id=24356903">still hapenning</a></li>
 </ul>
-<p>ps: I&rsquo;m not entirely sure about the exact date, feel free to <a href="https://news.ycombinator.com/item?id=24351566">comment</a> if you have more precise information</p>
+<p>ps: Feel free to <a href="https://news.ycombinator.com/item?id=24351566">comment</a> if you have more precise information, I&rsquo;ll update the post accordingly</p>
 <p><strong>If the fix solved the throttling issue?</strong></p>
 <p>I&rsquo;m unsure if totally solved the issue. I will give it a try once we hit a kernel version where the fix has been implemented and will update this post accordingly. If anyone have upgrade I&rsquo;m keen to hear their results.</p>
 <h2 id="takeaways">Takeaways</h2>

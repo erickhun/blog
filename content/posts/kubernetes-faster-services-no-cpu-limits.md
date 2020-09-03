@@ -92,9 +92,9 @@ If you are below a Linux distribution that has a kernel version below 4.19, I'd 
 - Ubuntu: The latest version [Ubuntu Focal Fosa 20.04](https://releases.ubuntu.com/20.04/) has the fix. 
 - EKS has the fix since [December 2019](https://github.com/aws/containers-roadmap/issues/175). Upgrade your AMI if you have a version below than that
 - kops: Since [June 2020](https://github.com/kubernetes/kops/pull/9283),  `kops 1.18+` will start using `Ubuntu 20.04` as the default host image. If you're using a lower version of kops, you'll have to probably to wait the fix. We are currently in this situation. 
-- GKE (Goggle Cloud) : I'm not too sure what's the state of it, but I believe it might have been fixed
+- GKE (Goggle Cloud) : The kernel fix was merged in [January 2020](https://cloud.google.com/container-optimized-os/docs/release-notes#cos-stable-77-12371-141-0). But it does looks like throttling are [still hapenning](https://news.ycombinator.com/item?id=24356903)  
 
-ps: I'm not entirely sure about the exact date, feel free to [comment](https://news.ycombinator.com/item?id=24351566) if you have more precise information
+ps: Feel free to [comment](https://news.ycombinator.com/item?id=24351566) if you have more precise information, I'll update the post accordingly
 
 **If the fix solved the throttling issue?**
 
