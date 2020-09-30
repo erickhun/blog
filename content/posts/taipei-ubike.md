@@ -92,7 +92,9 @@ An other great thing is that  all the biggest cities in Taiwan (Taichung, New Ta
 Taipei has made an amazing job at encouraging. The number or rides talks by itself. They're doign a great by listening citizen and making the . They're now transitionning to the Youbike 2.0
 
 
-Over to you,  what is you favorite city to bike? 
+#### Next reads:
+🇹🇼 Living in Taiwan? I've recently built [a chat bot](https://www.facebook.com/thetaiwanbot) to help you with all sorts of questions in Taiwan!
+📚 [Why you should have a side project](https://erickhun.com/posts/why-you-should-have-a-side-project/)
 
 <!-- ### TODO
 
