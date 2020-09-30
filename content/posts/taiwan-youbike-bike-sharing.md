@@ -90,7 +90,7 @@ An other great thing is that all the biggest cities in Taiwan (Taichung, New Tap
 
 ## Conclusion
 
-Taipei has made an amazing job at implementing an amazing infrastructure bike sharing infrastructure. With ppen data, incentive to use bikes, maintaining a low price and keeping bike in a great shape. The number or rides in Taipei talks by itself, while [other countries see their usage decreasing](https://www.icmrindia.org/casestudies/catalogue/Operations/V%C3%A9lib_%202.0-Case.htm) over years. They're now transitionning to a second generation of [Youbike 2.0](https://english.gov.taipei/News_Content.aspx?n=A11F01CFC9F58C83&s=5888478293ADD1A8), lighter with stations taking less space.
+Taipei has made an amazing job at implementing an amazing infrastructure bike sharing infrastructure. With ppen data, incentive to use bikes, maintaining a low price and keeping bike in a great shape. The steady increases of number or rides in Taipei talks by itself, while [other countries see their usage decreasing](https://www.icmrindia.org/casestudies/catalogue/Operations/V%C3%A9lib_%202.0-Case.htm) over years. They're today transitionning to a second generation of [Youbike 2.0](https://english.gov.taipei/News_Content.aspx?n=A11F01CFC9F58C83&s=5888478293ADD1A8), better, lighter, and with docks taking less space.
 
 
 <!-- Taiwan also recently stopped the ["dockless bikes" company Ofo to operate](https://www.gvm.com.tw/article/66450) -->
