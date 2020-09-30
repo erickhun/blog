@@ -95,6 +95,7 @@ Taipei has made an amazing job at encouraging. The number or rides talks by itse
 
 #### Next reads:
 🇹🇼 Living in Taiwan? I've recently built [a chat bot](https://www.facebook.com/thetaiwanbot) to help you with all sorts of questions in Taiwan! [Here the details on how we did it](https://jonathanbgn.com/nlp/2020/09/29/chatbot-universal-sentence-encoder.html)
+
 📚 [Why you should have a side project](https://erickhun.com/posts/why-you-should-have-a-side-project/)
 
 <!-- ### TODO
