@@ -4,8 +4,9 @@ date = "2020-09-27T22:50:00+08:00"
 description = ""
 draft = false
 image = "/img/about-bg.jpg"
-title = "Taiwan amazing bike-sharing system"
+title = "Taiwan YouBike - Amazing bike-sharing system"
 +++
+
 [YouBike](https://taipei.youbike.com.tw/home) (or Ubike) is my first choice of transportation when it comes to move around the city of Taipei. I largely prefer it over taking the subway, bus or taxi. It is affordable, well maintained, comfortable, at waking distance reach from anywhere, and the cities has built great biking paths in the major cities. 
 
 ## A high quality infrastructure 
@@ -93,7 +94,7 @@ Taipei has made an amazing job at encouraging. The number or rides talks by itse
 
 
 #### Next reads:
-🇹🇼 Living in Taiwan? I've recently built [a chat bot](https://www.facebook.com/thetaiwanbot) to help you with all sorts of questions in Taiwan!
+🇹🇼 Living in Taiwan? I've recently built [a chat bot](https://www.facebook.com/thetaiwanbot) to help you with all sorts of questions in Taiwan! [Here the details on how we did it](https://jonathanbgn.com/nlp/2020/09/29/chatbot-universal-sentence-encoder.html)
 📚 [Why you should have a side project](https://erickhun.com/posts/why-you-should-have-a-side-project/)
 
 <!-- ### TODO
