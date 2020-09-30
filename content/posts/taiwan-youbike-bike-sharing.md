@@ -89,7 +89,13 @@ The number of YouBike rides keeps increasing steadily:
 ## Major cities have YouBike
 An other great thing is that all the biggest cities in Taiwan (Taichung, New Tapei City, Kaoshuing) have YouBike. No matter [great or bad](https://www.economicshelp.org/blog/265/economics/are-monopolies-always-bad/), it makes the discovery of a new city frictioneless. You don't have to subscribe for an other services and worrying about getting back a deposit.
 
-<!-- Taipei has made an amazing job at encouraging. The number or rides talks by itself. They're doign a great by listening citizen and making the . They're now transitionning to the Youbike 2.0 -->
+
+## Conclusion
+
+Taipei has made an amazing job at implementing an amazing infrastructure bike sharing infrastructure. Open data, incentive to use bikes, maintaining a low price and keeping bike in a great shape. The number or rides in Taipei talks by itself, while [other countries see their usage decreasing](https://www.icmrindia.org/casestudies/catalogue/Operations/V%C3%A9lib_%202.0-Case.htm) over years.  . They're doing a great by listening citizen and making the . They're now transitionning to a second generation of [Youbike 2.0](https://english.gov.taipei/News_Content.aspx?n=A11F01CFC9F58C83&s=5888478293ADD1A8), lighter with stations taking less space.
+
+
+
 
 
 #### Next reads:
@@ -98,14 +104,5 @@ An other great thing is that all the biggest cities in Taiwan (Taichung, New Tap
 📚 [Why you should have a side project](https://erickhun.com/posts/why-you-should-have-a-side-project/)
 
 <!-- ### TODO
-
-- [ ] New youbike 2.0 : https://english.gov.taipei/News_Content.aspx?n=A11F01CFC9F58C83&s=5888478293ADD1A8
-Gradually changing from 1.0 to 2.0 bikes : https://www.ettoday.net/news/20200421/1696594.htm
-- [ ] Kaoshuing, and other city in Taiwan, has Youbike 2.0 : https://www.twreporter.org/a/opinion-youbike-2-0-plot , can mention a single system https://www.taiwannews.com.tw/en/news/3938326
-- [ ] Paris sharing bike [Velib' usage is decreasing](https://www.icmrindia.org/casestudies/catalogue/Operations/V%C3%A9lib_%202.0-Case.htm
-) 
-- [ ] Cool Timeline of station https://bikesharemap.com/taipei/timeline/#/13/121.5317/25.0358/
-
-
 
 Taiwan also recently stopped the ["dockless bikes" company Ofo to operate](https://www.gvm.com.tw/article/66450). What I think is a great thing, when we [hear stories on crazy it can become](https://www.scmp.com/abacus/tech/article/3028722/hundreds-rental-bikes-dumped-dallas-ofo-opts-out), and avoid situations like [this](https://twitter.com/BradfordPearson/status/973630266584510464).  -->
