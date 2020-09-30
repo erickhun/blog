@@ -37,7 +37,7 @@ Taipei city (and [Taiwan in general](https://data.gov.tw)) makes an amazing job 
 
 [Jakub told me](https://twitter.com/jakubsvehla/status/1311345837952434176) he used this open data to help him stop being late at class. He depended of the YouBike to go to NTUST but ended up always late because his nearest station was empty. He started recording the the patterns/waves of bikes coming and leaving the stations to know the time to go to the station. 
 
- [Brandon](http://bdon.org/about/) also created this really [interesting visual map](http://bdon.org/youbike-forecast/) showing detailed usage of each station with cool animations: 
+[Brandon](http://bdon.org/about/) created this really [interesting visual map](http://bdon.org/youbike-forecast/) showing detailed usage of each station with cool animations: 
 
 ![](/img/ubike/youbike-realtime.gif)
 
