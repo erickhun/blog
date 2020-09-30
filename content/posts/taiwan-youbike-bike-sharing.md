@@ -87,10 +87,9 @@ The number of YouBike rides keeps increasing steadily:
 
 
 ## Major cities have YouBike
-An other great thing is that  all the biggest cities in Taiwan (Taichung, New Tapei City, Kaoshuing) have YouBike. No matter [great or bad](https://www.economicshelp.org/blog/265/economics/are-monopolies-always-bad/), it makes the discovery of a new city frictioneless. You don't have to subscribe for an other services and worrying about 
+An other great thing is that all the biggest cities in Taiwan (Taichung, New Tapei City, Kaoshuing) have YouBike. No matter [great or bad](https://www.economicshelp.org/blog/265/economics/are-monopolies-always-bad/), it makes the discovery of a new city frictioneless. You don't have to subscribe for an other services and worrying about getting back a deposit.
 
-
-Taipei has made an amazing job at encouraging. The number or rides talks by itself. They're doign a great by listening citizen and making the . They're now transitionning to the Youbike 2.0
+<!-- Taipei has made an amazing job at encouraging. The number or rides talks by itself. They're doign a great by listening citizen and making the . They're now transitionning to the Youbike 2.0 -->
 
 
 #### Next reads:
