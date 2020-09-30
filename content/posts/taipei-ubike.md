@@ -32,14 +32,12 @@ Tim explained to decide where to add new stations, they use [GIS spatial analysi
 
 
 ### Open data
-Taipei city (and [Taiwan in general](https://data.gov.tw)) makes an amazing job at [opening data](https://data.taipei/). It provides [real time data](https://tcgbusfs.blob.core.windows.net/blobyoubike/YouBikeTP.json) showing each Youbike station status. Any developer can offer their own application to help users to find bikes avaibility. This is how [I've calculated the number](https://gist.github.com/erickhun/f0d3e8f3c3c4f70dc521c2abb43bb8a0) of YouBikes in Taipei.
-
-[Brandon](http://bdon.org/about/) created this really [interesting visual map](http://bdon.org/youbike-forecast/) showing detailed usage of each station with cool animations: 
+Taipei city (and [Taiwan in general](https://data.gov.tw)) makes an amazing job at [opening data](https://data.taipei/). It provides [real time data](https://tcgbusfs.blob.core.windows.net/blobyoubike/YouBikeTP.json) showing each Youbike station status. Any developer can offer their own application to help users to find bikes avaibility. This is how [I've calculated the number](https://gist.github.com/erickhun/f0d3e8f3c3c4f70dc521c2abb43bb8a0) of YouBikes in Taipei. [Brandon](http://bdon.org/about/) also created this really [interesting visual map](http://bdon.org/youbike-forecast/) showing detailed usage of each station with cool animations: 
 
 ![](/img/ubike/youbike-realtime.gif)
 
 
-Google recently took advantage of it, and made a really nice implemention when users are looking for directions in Google Maps. The app will [show you nearest departure/arrival Youbike station] (https://twitter.com/eric_khun/status/1291567323510317057) and its avaibility: 
+Google recently took advantage of it, and made a really nice implemention when users are looking for directions in Google Maps. The app will [show you nearest departure/arrival Youbike station](https://twitter.com/eric_khun/status/1291567323510317057) and its avaibility: 
 
 ![](/img/ubike/GoogleMaps-Youbike.jpg)
 
@@ -94,7 +92,7 @@ An other great thing is that  all the biggest cities in Taiwan (Taichung, New Ta
 Taipei has made an amazing job at encouraging. The number or rides talks by itself. They're doign a great by listening citizen and making the . They're now transitionning to the Youbike 2.0
 
 
-### TODO
+<!-- ### TODO
 
 - [ ] New youbike 2.0 : https://english.gov.taipei/News_Content.aspx?n=A11F01CFC9F58C83&s=5888478293ADD1A8
 Gradually changing from 1.0 to 2.0 bikes : https://www.ettoday.net/news/20200421/1696594.htm
@@ -105,4 +103,4 @@ Gradually changing from 1.0 to 2.0 bikes : https://www.ettoday.net/news/20200421
 
 
 
-Taiwan also recently stopped the ["dockless bikes" company Ofo to operate](https://www.gvm.com.tw/article/66450). What I think is a great thing, when we [hear stories on crazy it can become](https://www.scmp.com/abacus/tech/article/3028722/hundreds-rental-bikes-dumped-dallas-ofo-opts-out), and avoid situations like [this](https://twitter.com/BradfordPearson/status/973630266584510464). 
+Taiwan also recently stopped the ["dockless bikes" company Ofo to operate](https://www.gvm.com.tw/article/66450). What I think is a great thing, when we [hear stories on crazy it can become](https://www.scmp.com/abacus/tech/article/3028722/hundreds-rental-bikes-dumped-dallas-ofo-opts-out), and avoid situations like [this](https://twitter.com/BradfordPearson/status/973630266584510464).  -->
