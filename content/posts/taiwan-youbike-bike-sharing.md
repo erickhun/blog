@@ -15,7 +15,7 @@ YouBikes are [everywhere](https://taipei.youbike.com.tw/station/map) in Taipei a
 
 Since the first time I arrive in Taipei (2016), I am pleasantely  suprised that I rarely got a broken bike. [Giant](https://en.wikipedia.org/wiki/Giant_Bicycles) is actually the (local) company that provides them. The bikes feels durable, lightweight, and really well maintained. Each bike is bought by the city for around [9200 TWD (~USD 300)](https://disp.cc/b/163-6PkZ), and comes with a 7 years maintenance. 
 
-To make it really convenient, the city has organized each station   [from 200 to 600 meters](https://english.gov.taipei/News_Content.aspx?n=A11F01CFC9F58C83&s=5888478293ADD1A8) from each others. What make you within 5 to 10 minutes walk from wherever you are in the city.
+To make it really convenient, the city has organized each station  [from 200 to 600 meters](https://english.gov.taipei/News_Content.aspx?n=A11F01CFC9F58C83&s=5888478293ADD1A8) from each others. What make you within 5 to 10 minutes walk from wherever you are in the city.
 
 
 ![](https://i.imgur.com/F5HWa3v.jpg)
@@ -23,13 +23,13 @@ To make it really convenient, the city has organized each station   [from 200 to
 
 ## Data driven decisions
 
-I've noticed that station are also rarely empty. From time to time, I've noticed some employees "reloading" or "deloading" stations that are full or empty. Who are they? Where do they take those bikes?  I've discussed with [Alex Garcia](https://twitter.com/TaipeiUrbanism) and [Tim Cho](https://www.linkedin.com/in/timcho-giser), two urbanisms specialist of the city of Taipei. 
+I've noticed that station are also rarely empty. From time to time, I've spotted some employees "reloading" or "deloading" stations that are full or empty. Who are they? Where do they take those bikes? I've discussed with [Alex Garcia](https://twitter.com/TaipeiUrbanism) and [Tim Cho](https://www.linkedin.com/in/timcho-giser), two urbanism specialists of the city of Taipei. 
 
-1 or 2 employees are reponsible for a given area to "unload" or "refill" the stations. But how do they decide if some station should be "refilled" or not? Is a single empty station enough to make the employee move to the station? Not necessarly. To make an employee to go to "refill" a station, an area of few stations being almost empty will trigger that. This is called "[cluster analysis](https://en.wikipedia.org/wiki/Cluster_analysis)". Alex mentioned me they probably have "re-balancing" trucks equiped with an application with a smart algorithm telling them where to unload full station and reload empty ones. 
+1 or 2 employees are reponsible for a given area to "unload" or "refill" the stations. But how do they decide if some station should be "refilled" or not? Is a single empty station enough to make an employee move to the station? Not necessarly. Most of the time, an area of few stations being almost empty will make it worthwile to move. This is a "[cluster analysis](https://en.wikipedia.org/wiki/Cluster_analysis)". Alex mentioned me they also have "re-balancing" trucks equiped with an application with a smart algorithm telling them where to unload thes stations that are full, and reload empty ones. 
 
-To make their work easier, historical is  used to predict the flow-in & flow out for each station. They've noticed some patterns on which area will be empty and will need the refill. Those stations often have a "buffer" of bikes nearby locked with together in bulk. When the station is about to get empty (and they've predicted it, the employee responsible for this area will drive their and simply refill the empty station the the buffer of bikes. 
+To make their work easier, historical data are used to predict the flow-in & flow out for each station. They know the patterns on which stations will be empty and which one will need a refill. Those stations often have a "buffer" of bikes nearby locked with together in bulk. When the station is about to get empty, the employee responsible for this area will drive thre and refill the empty station with the buffer of bikes alread present. 
 
-Tim explained to decide where to add new stations, they use [GIS spatial analysis](https://en.wikipedia.org/wiki/Geographic_information_system),  to realize uncovered area (population density, schools, presence of metro station, POIs, etc...) to make the decision to add or not a new YouBike station. 
+To make the decisions to add new stations, [Tim](https://www.linkedin.com/in/timcho-giser) explained they use [GIS spatial analysis](https://en.wikipedia.org/wiki/Geographic_information_system),  to realize uncovered area (population density, schools, presence of metro station, POIs, etc...) to make the decision to add or not a new YouBike station. 
 
 
 ### Open data
@@ -90,7 +90,7 @@ An other great thing is that all the biggest cities in Taiwan (Taichung, New Tap
 
 ## Conclusion
 
-Taipei has made an amazing job at implementing an amazing infrastructure bike sharing infrastructure. With ppen data, incentive to use bikes, maintaining a low price and keeping bike in a great shape. The steady increases of number or rides in Taipei talks by itself, while [other countries see their usage decreasing](https://www.icmrindia.org/casestudies/catalogue/Operations/V%C3%A9lib_%202.0-Case.htm) over years. They're today transitionning to a second generation of [Youbike 2.0](https://english.gov.taipei/News_Content.aspx?n=A11F01CFC9F58C83&s=5888478293ADD1A8), better, lighter, and with docks taking less space.
+Taipei has made a great job at implementing an amazing infrastructure bike sharing infrastructure. With popen data, incentive to use bikes, maintaining a low price and keeping bikes in a great shape. The steady increases of number of rides in Taipei talks by itself, while [other countries see their usage decreasing](https://www.icmrindia.org/casestudies/catalogue/Operations/V%C3%A9lib_%202.0-Case.htm) over years. They're today transitionning to a second generation of [Youbike 2.0](https://english.gov.taipei/News_Content.aspx?n=A11F01CFC9F58C83&s=5888478293ADD1A8), better, lighter, and with docks taking less space.
 
 
 <!-- Taiwan also recently stopped the ["dockless bikes" company Ofo to operate](https://www.gvm.com.tw/article/66450) -->
