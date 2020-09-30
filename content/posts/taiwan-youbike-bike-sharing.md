@@ -73,8 +73,6 @@ The inner city has spent lot of effort building large and safe bike path. It is 
 The riverside bike-path is [more than 100 kilometers](https://www.travel.taipei/en/must-visit/riverside-bikeway) long! And they [are planning to extends those biking paths](https://english.gov.taipei/News_Content.aspx?n=A11F01CFC9F58C83&sms=DFFA119D1FD5602C&s=C8487022F5E63064)  to expand bicycle trails in the city in the near future. 
 
 
-
-
 ## Bike usage: 
 
 The number of YouBike rides keeps increasing steadily:
@@ -92,17 +90,13 @@ An other great thing is that all the biggest cities in Taiwan (Taichung, New Tap
 
 ## Conclusion
 
-Taipei has made an amazing job at implementing an amazing infrastructure bike sharing infrastructure. Open data, incentive to use bikes, maintaining a low price and keeping bike in a great shape. The number or rides in Taipei talks by itself, while [other countries see their usage decreasing](https://www.icmrindia.org/casestudies/catalogue/Operations/V%C3%A9lib_%202.0-Case.htm) over years.  . They're doing a great by listening citizen and making the . They're now transitionning to a second generation of [Youbike 2.0](https://english.gov.taipei/News_Content.aspx?n=A11F01CFC9F58C83&s=5888478293ADD1A8), lighter with stations taking less space.
+Taipei has made an amazing job at implementing an amazing infrastructure bike sharing infrastructure. With ppen data, incentive to use bikes, maintaining a low price and keeping bike in a great shape. The number or rides in Taipei talks by itself, while [other countries see their usage decreasing](https://www.icmrindia.org/casestudies/catalogue/Operations/V%C3%A9lib_%202.0-Case.htm) over years. They're now transitionning to a second generation of [Youbike 2.0](https://english.gov.taipei/News_Content.aspx?n=A11F01CFC9F58C83&s=5888478293ADD1A8), lighter with stations taking less space.
 
 
-
+<!-- Taiwan also recently stopped the ["dockless bikes" company Ofo to operate](https://www.gvm.com.tw/article/66450) -->
 
 
 #### Next reads:
 🇹🇼 Living in Taiwan? I've recently built [a chat bot](https://www.facebook.com/thetaiwanbot) to help you with all sorts of questions in Taiwan! [Here the details on how we did it](https://jonathanbgn.com/nlp/2020/09/29/chatbot-universal-sentence-encoder.html)
 
 📚 [Why you should have a side project](https://erickhun.com/posts/why-you-should-have-a-side-project/)
-
-<!-- ### TODO
-
-Taiwan also recently stopped the ["dockless bikes" company Ofo to operate](https://www.gvm.com.tw/article/66450). What I think is a great thing, when we [hear stories on crazy it can become](https://www.scmp.com/abacus/tech/article/3028722/hundreds-rental-bikes-dumped-dallas-ofo-opts-out), and avoid situations like [this](https://twitter.com/BradfordPearson/status/973630266584510464).  -->
