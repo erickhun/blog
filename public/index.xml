@@ -6,10 +6,20 @@
     <description>Recent content on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 31 Aug 2020 23:56:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2020 22:50:00 +0800</lastBuildDate>
     
 	<atom:link href="https://erickhun.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Taiwan Bike Sharing system</title>
+      <link>https://erickhun.com/posts/taipei-ubike/</link>
+      <pubDate>Sun, 27 Sep 2020 22:50:00 +0800</pubDate>
+      
+      <guid>https://erickhun.com/posts/taipei-ubike/</guid>
+      <description>YouBike (or Ubike) is my first choice of transportation when it comes to move around the city of Taipei. I largely prefer it over taking the subway, bus or taxi. It is affordable, well maintained, comfortable, at waking distance reach from anywhere, and the cities has built great biking paths in the major cities.
+A high quality infrastructure YouBikes are everywhere in Taipei and New Taipei City . As for October 2020, over 42000 YouBikes are deployed, with over 1000 stations.</description>
+    </item>
     
     <item>
       <title>Kubernetes: Make your services faster by removing CPU limits</title>

@@ -6,10 +6,28 @@
     <description>Recent content in Categories on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 31 Aug 2020 23:56:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2020 22:50:00 +0800</lastBuildDate>
     
 	<atom:link href="https://erickhun.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>taipei</title>
+      <link>https://erickhun.com/categories/taipei/</link>
+      <pubDate>Sun, 27 Sep 2020 22:50:00 +0800</pubDate>
+      
+      <guid>https://erickhun.com/categories/taipei/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>taiwan</title>
+      <link>https://erickhun.com/categories/taiwan/</link>
+      <pubDate>Sun, 27 Sep 2020 22:50:00 +0800</pubDate>
+      
+      <guid>https://erickhun.com/categories/taiwan/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>infrastructure</title>
