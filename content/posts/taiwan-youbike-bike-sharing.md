@@ -56,7 +56,7 @@ A single chip to rule them all.
 
 ## The right pricing
 
-The Youbike rental system is a pay as you go model. It [costs](https://taipei.youbike.com.tw/use/rates?5cc2971d083e7b55e32b8172)  **5 NTD (usd0,17) the first 30 minutes**, then 10NTD (usd0.35) per 30 minute. The city also encourage the usage youbike with taking 5NTD on the first 30 minutes on them. To compare the rate with other city in the world: 
+The Youbike rental system is a pay as you go model. It [costs](https://taipei.youbike.com.tw/use/rates?5cc2971d083e7b55e32b8172)  **5 NTD (usd0,17) the first 30 minutes**, then 10NTD (usd0.35) per 30 minute. The city also encourages the usage youbike with taking 5NTD on the first 30 minutes on them. To compare the rate with other city in the world: 
 
 - Lyon ([1usd/ 45 minute](https://velov.grandlyon.com/en/offers/groups/list#190) per rental)
 - Paris is 1EUR / 30 minute (~ usd1,20)
