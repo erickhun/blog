@@ -4,11 +4,9 @@ date = "2020-09-27T22:50:00+08:00"
 description = ""
 draft = false
 image = "/img/about-bg.jpg"
-title = "Taiwan Bike Sharing system"
+title = "Taiwan amazing bike-sharing system"
 +++
 [YouBike](https://taipei.youbike.com.tw/home) (or Ubike) is my first choice of transportation when it comes to move around the city of Taipei. I largely prefer it over taking the subway, bus or taxi. It is affordable, well maintained, comfortable, at waking distance reach from anywhere, and the cities has built great biking paths in the major cities. 
-
-
 
 ## A high quality infrastructure 
 
@@ -37,14 +35,13 @@ Tim explained to decide where to add new stations, they use [GIS spatial analysi
 Taipei city (and [Taiwan in general](https://data.gov.tw)) makes an amazing job at [opening data](https://data.taipei/). It provides [real time data](https://tcgbusfs.blob.core.windows.net/blobyoubike/YouBikeTP.json) showing each Youbike station status. Any developer can offer their own application to help users to find bikes avaibility. This is how [I've calculated the number](https://gist.github.com/erickhun/f0d3e8f3c3c4f70dc521c2abb43bb8a0) of YouBikes in Taipei.
 
 [Brandon](http://bdon.org/about/) created this really [interesting visual map](http://bdon.org/youbike-forecast/) showing detailed usage of each station with cool animations: 
-![](https://i.imgur.com/430EnQJ.gif)
 
-[ ] Add Jakub use-case https://twitter.com/eric_khun/status/1311281340382404608
+![](/img/ubike/youbike-realtime.gif)
 
 
 Google recently took advantage of it, and made a really nice implemention when users are looking for directions in Google Maps. The app will [show you nearest departure/arrival Youbike station] (https://twitter.com/eric_khun/status/1291567323510317057) and its avaibility: 
 
-![](https://i.imgur.com/rH5h0gx.jpg)
+![](/img/ubike/GoogleMaps-Youbike.jpg)
 
 ## An universal and simple payment system
 
@@ -52,10 +49,9 @@ One of my favorite this about Taiwan is probably the EasyCard payment system. Wi
 
 Banks with their debit/credit cards, and phones (via NFC?) have the Easycard payment system integrated. All those following card/debit card integrate the EasyCard payment chip. 
 
-![](https://i.imgur.com/Gex3K4c.jpg)
 
-<!-- ![Easy Card solution integrated in every card payment](/img/ubike/easy_cards-back-front.jpg)
- -->
+![Easy Card solution integrated in every card payment](/img/ubike/easy_cards-back-front.jpg)
+
 
 A single chip to rule them all. 
 
