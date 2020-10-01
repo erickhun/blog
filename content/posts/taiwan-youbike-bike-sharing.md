@@ -82,7 +82,8 @@ Taipei City has spent a lot of effort into building a large and safe bike path. 
 The riverside bike-path is [more than 100 kilometers](https://www.travel.taipei/en/must-visit/riverside-bikeway) long! And they [are planning to extends those biking paths](https://english.gov.taipei/News_Content.aspx?n=A11F01CFC9F58C83&sms=DFFA119D1FD5602C&s=C8487022F5E63064)  to expand bicycle trails in the city soon. 
 
 
-## Major cities have YouBike
+## An unified bike-sharing system in all cities
+
 Another great thing is that all the biggest cities in Taiwan (Taichung, New Tapei City, Kaoshuing) have YouBike. No matter [great or bad](https://www.economicshelp.org/blog/265/economics/are-monopolies-always-bad/), it makes the discovery of a new city frictionless. You don't have to subscribe to other services and worry about getting back a deposit.
 
 
