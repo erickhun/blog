@@ -9,6 +9,10 @@ title = "Taiwan YouBike - An amazing bike-sharing system"
 
 [YouBike](https://taipei.youbike.com.tw/home) (or Ubike) is my first choice of transportation when it comes to move around the city of Taipei. I largely prefer it over taking the subway, bus or taxi. It is affordable, well maintained, comfortable, at waking distance reach from anywhere, and the cities has built great biking paths in the major cities. 
 
+The number of YouBike rides keeps increasing steadily since it was launched in 2012. There was 170 millions rides since it was introduced in 2012, and [last month it reached  ~3 millions rides]((https://taipei.youbike.com.tw/news/content?5ee1e4b61b994541c0690826)) in Taipei: 
+
+![Youbike usage statistics](/img/ubike/youbike-monthly-rental.jpg)
+
 ## A high quality infrastructure 
 
 YouBikes are [everywhere](https://taipei.youbike.com.tw/station/map) in Taipei and New Taipei City . As for October 2020, over [42000 YouBikes are deployed](https://gist.github.com/erickhun/f0d3e8f3c3c4f70dc521c2abb43bb8a0), with over 1000 stations. Stations [get added every few weeks](https://taipei.youbike.com.tw/news/list?5cb582c1060db454916c643c).
@@ -67,25 +71,15 @@ The Youbike rental system is a pay as you go model. It [costs](https://taipei.yo
 - Germany has a [3euros per 30 minutes](https://www.callabike.de/en) rate (~ usd3,50)
 
 
+
 ## Great Bike paths
 
-The inner city has spent lot of effort building large and safe bike path. It is really pleasant to go from A to B. 
+Taipei city has spent lot of effort building large and safe bike path. It is really pleasant to move around the city. 
 
 ![](https://i.imgur.com/5sv48SJ.jpg)
 
 
 The riverside bike-path is [more than 100 kilometers](https://www.travel.taipei/en/must-visit/riverside-bikeway) long! And they [are planning to extends those biking paths](https://english.gov.taipei/News_Content.aspx?n=A11F01CFC9F58C83&sms=DFFA119D1FD5602C&s=C8487022F5E63064)  to expand bicycle trails in the city in the near future. 
-
-
-## Bike usage: 
-
-The number of YouBike rides keeps increasing steadily:
-
-- There was 170 millions rides since it was introduced in 2012
-- In August 2020, there was ~3 millions rides in Taipei . 
-- You can check the number of rides since 2012 in this graph ([source](https://taipei.youbike.com.tw/news/content?5ee1e4b61b994541c0690826)): 
-
-![Youbike usage statistics](/img/ubike/youbike-monthly-rental.jpg)
 
 
 ## Major cities have YouBike
