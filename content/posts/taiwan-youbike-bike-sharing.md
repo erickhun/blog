@@ -72,14 +72,13 @@ The Youbike rental system is a pay as you go model. It [costs](https://taipei.yo
 
 
 
-## Great Bike paths
+## Impressive dedicated bike paths infrastructure
 
-Taipei City has spent a lot of effort into building a large and safe bike path. It is really pleasant to move around the city. 
+Taiwan is famously known for being a paradise for Bike lovers, from the urban city bikers the [most courageous professional bikers](https://youtu.be/Sxfd2xzlM6k). Did you know that Taiwan had more than 4500km of dedicated bike path? The longest one measuring [968km long](http://edition.cnn.com/travel/article/taiwan-cycle-tour/index.html). Taipei alone has 500+ km of dedicated biking path. The city has spent a lot of effort into building a large and safe bike path. It is really pleasant to move around the city: 
 
 ![](https://i.imgur.com/5sv48SJ.jpg)
 
-
-The riverside bike-path is [more than 100 kilometers](https://www.travel.taipei/en/must-visit/riverside-bikeway) long! And they [are planning to extends those biking paths](https://english.gov.taipei/News_Content.aspx?n=A11F01CFC9F58C83&sms=DFFA119D1FD5602C&s=C8487022F5E63064)  to expand bicycle trails in the city soon. 
+The riverside bike-path is [more than 100 kilometers](https://www.travel.taipei/en/must-visit/riverside-bikeway) long! And they [are planning to extends those biking paths](https://english.gov.taipei/News_Content.aspx?n=A11F01CFC9F58C83&sms=DFFA119D1FD5602C&s=C8487022F5E63064) to expand bicycle trails in the city soon. 
 
 
 ## An unified bike-sharing system in all cities
