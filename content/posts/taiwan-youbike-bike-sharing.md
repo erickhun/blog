@@ -37,7 +37,7 @@ To make the decisions to add new stations, [Tim](https://www.linkedin.com/in/tim
 
 
 ### Open data
-Taipei City (and [Taiwan in general](https://data.gov.tw)) makes an amazing job at [opening data](https://data.taipei/). It provides [real time data](https://tcgbusfs.blob.core.windows.net/blobyoubike/YouBikeTP.json) showing each Youbike station status. Any developer can offer their own application to help users to find bikes availability. This is how [I've calculated the number](https://gist.github.com/erickhun/f0d3e8f3c3c4f70dc521c2abb43bb8a0) of YouBikes in Taipei.
+Taipei City (and [Taiwan in general](https://data.gov.tw)) makes an amazing job at [opening their data](https://data.taipei/). It provides [real time data](https://tcgbusfs.blob.core.windows.net/blobyoubike/YouBikeTP.json) showing each Youbike station status. Any developer can offer their own application to help users to find bikes availability or making the service more useful. This open data is how [I've calculated the number](https://gist.github.com/erickhun/f0d3e8f3c3c4f70dc521c2abb43bb8a0) of YouBikes in Taipei.
 
 [Jakub told me](https://twitter.com/jakubsvehla/status/1311345837952434176) he used this open data to help him stop being late at class. He depended on the YouBike to go to NTUST but ended up always late because his nearest station was empty. He started recording the patterns/waves of bikes coming and leaving the stations to know the time to go to the station. 
 
