@@ -54,7 +54,7 @@ Google recently took advantage of it and made a really nice implementation when 
 
 One of my favorite this about Taiwan is probably the EasyCard payment system. With a single card, you can use it in the metro, convenient store, supermarkets, and YouBike. Probably the best thing is that you can use that card everywhere in Taiwan.
 
-Banks with their debit/credit cards and phones (via NFC?) have the Easycard payment system integrated. All those following card/debit cards integrate the EasyCard payment chip. 
+Banks with their debit/credit cards and phones (via NFC?) have the Easycard payment system integrated. All those following card/debit cards integrate the EasyCard payment chip. Any convenient store will sell you one of those cards, without any requirements.
 
 
 ![Easy Card solution integrated into every card payment](/img/ubike/easy_cards-back-front.jpg)
