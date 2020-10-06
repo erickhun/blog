@@ -4,7 +4,7 @@ date = "2020-09-30T22:50:00+08:00"
 description = ""
 draft = false
 image = "/img/about-bg.jpg"
-title = "YouBike - An amazing bike-sharing system in Taiwan"
+title = "Taiwan's amazing bike-sharing system"
 +++
 
 [YouBike](https://taipei.youbike.com.tw/home) (or Ubike) is my first choice of transportation when it comes to moving around the city of Taipei. I largely prefer it over taking the subway, bus, or taxi. It is affordable, well maintained, comfortable, at waking distance reach from anywhere, and the cities have built great biking paths in the major cities. 
