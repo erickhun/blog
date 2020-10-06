@@ -98,3 +98,6 @@ Taipei has made a great job of implementing an amazing infrastructure bike-shari
 🇹🇼 Living in Taiwan? I've recently built [a chat bot](https://www.facebook.com/thetaiwanbot) giving you currated recommendations in Taiwan! Where to find the best value cheese? Where is the best pizza? etc...  [Here the details on how it works](https://jonathanbgn.com/nlp/2020/09/29/chatbot-universal-sentence-encoder.html)
 
 📚 [Why you should have a side project](https://erickhun.com/posts/why-you-should-have-a-side-project/)
+
+🤸🏻‍♂️ [How to keep working out while travelling](https://erickhun.com/posts/traveling-and-working-out/)
+
