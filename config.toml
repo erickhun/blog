@@ -56,6 +56,11 @@ googleAnalytics = "UA-106516-7"
     icon = "fab fa-github fa-2x"
     weight = 1
     url = "https://github.com/erickhun"
+[[params.social]]
+    name = "Talks"
+    icon = "fab fa-slideshare fa-2x"
+    weight = 1
+    url = "https://speakerdeck.com/erickhun"
 
 
 # Menu links
