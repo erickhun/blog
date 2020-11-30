@@ -86,12 +86,12 @@ The signup process is straight forward. Simply fill your informations in the sig
 
 ## Tax in Taiwan
 
-### Tax on capital gain
+#### Tax on capital gain
 The great benefit of Taiwan when investing that there is no capital gain. It means if you buy a stock that cost USD10 and sell it when it worth 100USD you won't pay tax on the USD 90 profit.
 
 However, be careful, your brokers could  some fees when you sell. I've heard some brokers that could take up to 5% on the gains. It's why it's important to pick a broker. 
 
-### Tax on dividends
+#### Tax on dividends
 What is important to understand when calculating tax on dividends, is that it exists multiple levels of taxation: 
 
 - **L1TW**: Percentage of tax withholding by a security's home country on dividends distributed by that security to the fund (Level 1).
