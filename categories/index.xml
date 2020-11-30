@@ -6,15 +6,42 @@
     <description>Recent content in Categories on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Sep 2020 22:50:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 29 Nov 2020 17:37:00 +0100</lastBuildDate>
     
 	<atom:link href="https://erickhun.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>etf</title>
+      <link>https://erickhun.com/categories/etf/</link>
+      <pubDate>Sun, 29 Nov 2020 17:37:00 +0100</pubDate>
+      
+      <guid>https://erickhun.com/categories/etf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>interactive brokers</title>
+      <link>https://erickhun.com/categories/interactive-brokers/</link>
+      <pubDate>Sun, 29 Nov 2020 17:37:00 +0100</pubDate>
+      
+      <guid>https://erickhun.com/categories/interactive-brokers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>investment</title>
+      <link>https://erickhun.com/categories/investment/</link>
+      <pubDate>Sun, 29 Nov 2020 17:37:00 +0100</pubDate>
+      
+      <guid>https://erickhun.com/categories/investment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>taipei</title>
       <link>https://erickhun.com/categories/taipei/</link>
-      <pubDate>Wed, 30 Sep 2020 22:50:00 +0800</pubDate>
+      <pubDate>Sun, 29 Nov 2020 17:37:00 +0100</pubDate>
       
       <guid>https://erickhun.com/categories/taipei/</guid>
       <description></description>
@@ -23,7 +50,7 @@
     <item>
       <title>taiwan</title>
       <link>https://erickhun.com/categories/taiwan/</link>
-      <pubDate>Wed, 30 Sep 2020 22:50:00 +0800</pubDate>
+      <pubDate>Sun, 29 Nov 2020 17:37:00 +0100</pubDate>
       
       <guid>https://erickhun.com/categories/taiwan/</guid>
       <description></description>
