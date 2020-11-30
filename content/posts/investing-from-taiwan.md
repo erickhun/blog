@@ -55,14 +55,14 @@ https://indexfundinvestor.eu/2019/01/02/what-is-the-difference-between-iwda-and-
 Even though , I still own some single stocks. They represent a really small part of my portfolio and I've mostly said "bye" to that money when I clicked "buy", enven though I hope they'll grow more than the ETFs. For them, I'm aware of them  -->
 
 #### Low fees
-Most of the people that started investing don't realize, or realize too late the importance of chosing low management fees funds. Even if that looks insignificant, every fund charge fees. It can be anywhere from [0.015%](https://www.investopedia.com/articles/markets/102715/3-index-funds-lowest-expense-ratios.asp) to more than 2%. Even if 2% sounds not that much, it will negatively impact your final return. By starting with a $10,000, and adding $2,000 every month over 20 years and with 7% interest: 
+Too often, new investors don't realize, or realize too late the importance of chosing low management fees funds. Even if that looks insignificant, every fund charge fees. It can be anywhere from [0.015%](https://www.investopedia.com/articles/markets/102715/3-index-funds-lowest-expense-ratios.asp) to more than 2%. Even if 2% sounds not that much, it will negatively impact your final return. By starting with a $10,000, and adding $2,000 every month over 20 years and with 7% interest: 
 - In a 0,2% management fee , you'll end up with $1,028,000, and paid **$25,000 fees**
 - With a 1% management fee, you'll end up with $932,000, and paid **$121,000 fees**
 - With a 2% management fee, you'll end up with $827,000, and paid **$225,000 fees**
 
 Some other scenarios are demonstrated on how fees impact the returns in [Vanguard](https://investor.vanguard.com/investing/how-to-invest/impact-of-costs) or the [SEC](https://www.sec.gov/investor/alerts/ib_fees_expenses.pdf)
 
-IWDA has a fee of [0.20%](https://www.ishares.com/uk/individual/en/literature/fact-sheet/swda-ishares-core-msci-world-ucits-etf-fund-fact-sheet-en-gb.pdf) and EIMI [0.18%](https://www.ishares.com/uk/individual/en/literature/fact-sheet/eimi-ishares-core-msci-em-imi-ucits-etf-fund-fact-sheet-en-gb.pdf)
+IWDA has management fee of [0.20%](https://www.ishares.com/uk/individual/en/literature/fact-sheet/swda-ishares-core-msci-world-ucits-etf-fund-fact-sheet-en-gb.pdf) and EIMI [0.18%](https://www.ishares.com/uk/individual/en/literature/fact-sheet/eimi-ishares-core-msci-em-imi-ucits-etf-fund-fact-sheet-en-gb.pdf), and are one of the lowest fee for an ETF.
 
 <!-- #### Reinvesting the dividends
 IWDA also ticks the box. The difference of reinvesting and not reinvesting the dividends can determine if your investment will be exponential or not. 
@@ -78,7 +78,7 @@ IWDA also ticks the box. The difference of reinvesting and not reinvesting the d
 
 [**Interactive Brokers**](http://interactivebrokers.com/) (I'll call it IB) is the one I **highly recommend**. You'll access to all types of securities: ETFs, stocks and even currencies. It has the lowest fees to purchase them. It will also  allow you to access to the ETFs I've recommended earlier: IWDA and EIMI.
 
-The signup process is straight forward. Simply fill your information in the signup page, and wait few days before validation. Make sure to fill your tax residence since it will could impact how tax could be taken directly by the broker. Also, [*be aware of the monthly fee if your orders don't generate at least USD 10 of fees per month*](https://www1.interactivebrokers.com/en/index.php?f=4969).
+The signup process is straight forward. Simply fill your information in the signup page, and wait few days before validation. Make sure to fill your tax residence (Taiwan) since it will could impact how tax could be taken directly by the broker (cf. below). Also, [*be aware of the monthly fee if your orders don't generate at least USD 10 of fees per month*](https://www1.interactivebrokers.com/en/index.php?f=4969).
 
 **How about local banks?**  Local banks will charge you crazy fees to access to foreign securities, but could probably be a good pick if you want to invest in Taiwanese securities. I won't expand on this since I didn't dig into this yet. 
 
@@ -98,9 +98,7 @@ The signup process is straight forward. Simply fill your information in the sign
 #### Tax on capital gain
 The great benefit of Taiwan when investing that there is no capital gain. It means if you buy a stock that cost USD10 and sell it when it worth 100USD you won't pay tax on the USD 90 profit.
 
-However, be careful, your brokers could  some fees when you sell. I've heard some brokers that could take up to 5% on the gains. It's why it's important to pick a broker. 
-
-#### Tax on dividends
+#### Tax on dividends, and the importance of fund domicile
 What is important to understand when calculating tax on dividends, is that it exists multiple levels of taxation: 
 
 - **L1TW**: Percentage of tax withholding by a security's home country on dividends distributed by that security to the fund (Level 1).
@@ -113,15 +111,7 @@ When you friends say there is no tax on foreign income in Taiwan, they're talkin
 
 If you purchased directly stocks domiciled in the US, dividends will be taxed 30% flat. This is because there is no tax treaty between Taiwan and the US. 
 
-Calculating the tax on the dividends for a given ETF is a bit tricky. Since an ETF contains share of many companies from different countries, you'll need to understand the composition of your ETF.  Since there is a treaty between the US and Ireland, and most companies being in the ETF are located in the US, the tax on the dividends are in average ~12%. So how much tax for each IWDA I have? I've made [the research]((https://www.reddit.com/r/Bogleheads/comments/ewl5e8/is_it_possible_to_know_how_much_dividends_an/fg3aei4/?utm_source=reddit&utm_medium=web2x&context=3)) and math for you: 
-- At the end of 2019, each IWDA share yield USD1.0685. 
-- The price of IWDA was 63 at that time => it represents about 1.7% dividend yield. 
-- As for today the IWDA price is ~USD 70. 
-- Since each share yield 1.7%, and price is USD 70, now it should yield around USD 1,19 of dividends
-- Since the tax on IWDA is ~12%, USD 0,14 will taxable at the L1TW level
-
-
-https://www.bogleheads.org/wiki/Nonresident_alien_investors_and_Ireland_domiciled_ETFs#Estimating_Level_1_dividend_tax_withholding_paid_by_Ireland_domiciled_funds
+Calculating the tax on the dividends for a given ETF is a bit tricky. Since an ETF contains share of many companies from different countries, you'll need to understand the composition of your ETF.  Since there is a treaty between the US and Ireland, and most companies being in the ETF are located in the US, the tax on the dividends are in average [~12.1%](https://www.bogleheads.org/wiki/Nonresident_alien_investors_and_Ireland_domiciled_ETFs#Estimating_Level_1_dividend_tax_withholding_paid_by_Ireland_domiciled_funds). I say in average because the exposure to different countries change from year to year.
 
 
 ### Tax on crypto-currencies
