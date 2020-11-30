@@ -4,7 +4,7 @@ date = "2020-11-29T17:37:00+01:00"
 description = ""
 draft = false
 image = "/img/about-bg.jpg"
-title = "How to invest from Taiwan (for a non-US citizen)"
+title = "How to invest in ETFs and stocks from Taiwan"
 +++
 
  I've spent a trendemous amount of time investigating on how to invest effectively from Taiwan. Many expats asked me the questions, so I've decided to write down how do I do it. I'll also write different options you could explore. This article **will likely apply to non-US citizen**.  I'm also not a financial advisor, and invite you to make more research. My recommendation could also not fit you. Please seek profesional advices.
@@ -21,7 +21,7 @@ I personally have my emergency fund in Revolut and Taipei Fubon Bank:
 The downside of both is that you won't get much interest on them. Revolut doesn't have any interest, and Taiwan Fubon Bank rate are quite low (0.05%/week). Those aren't really profitable, but the goal is to have access to cash at time you won't expect, and it will help you and won't hurt your investment. Some western countries might also give you some better interest rates accounts, but check below if that suits you.
 
 ## Which financial security to buy?
- I'll only focus here on a long term vision investment for the next 15 to 20 years. So if you're looking for short term returns, you're not in the correct place. 
+ I'll only focus here on a long term vision investment for the next 15 to 20 years. If you're looking for short term returns, this isn't post won't be for you.
 
 When buying a [security](https://en.wikipedia.org/wiki/Security_(finance)) for the long term, you'll need to consider:
 
@@ -29,14 +29,16 @@ When buying a [security](https://en.wikipedia.org/wiki/Security_(finance)) for t
  - Have **really low fees**
  - understand the **tax consequences** of owning them in Taiwan
  
+I personally recommend [**IWDA**](https://www.ishares.com/uk/individual/en/products/251882/ishares-msci-world-ucits-etf-acc-fund) and  [**EIMI**](https://www.ishares.com/uk/individual/en/products/264659/ishares-msci-emerging-markets-imi-ucits-etf) ETFs. Let me explain
+
 #### Diversification
-I recommend an unsexy investment strategy of investing of globally diversified, split between equity and bonds based on your risk tolerance. The reason of it is to not put all your eggs in the same basket. Imagine putting all your saving in a single company and this company never grows, or worst goes bankrupt. This is called put all your egg in the same basket. There is some financial securities that help you to be diversified, they're called [ETFs](https://www.thisismoney.co.uk/money/indexinvesting/article-4596628/Does-matter-global-ETF-invest-in.html) and buy purchasing a single share of it, it's like you own a part of up to thousands companies, in many countries.
+On the long term, putting all your saving in a single company is risky. What if this company never grows, or worst goes bankrupt? This is called *"put all your eggs in the same basket"*. There is some financial securities that help you to diversify. They're called [ETFs](https://www.thisismoney.co.uk/money/indexinvesting/article-4596628/Does-matter-global-ETF-invest-in.html). It's like a group of share of multiple companies grouped in a single share. By purchasing a single share of an ETF, it's like if you own a part of few to up to thousands companies, potentially in many countries.
 
-I personally recommend [IWDA](https://www.ishares.com/uk/individual/en/products/251882/ishares-msci-world-ucits-etf-acc-fund). It has exposure to all developped countries (US, France, Japan, UK, Canada, etc...) and more than 1600 companies, including Apple, Microsoft, Amazon, in every sector, and the most developped countries. However, IWDA doesn't have exposure to those emergince market, I am biaisied having having lived in China and Taiwan. To be exposed to the best companies in those emerging countries, I recommend EIMI 
+[**IWDA**](https://www.ishares.com/uk/individual/en/products/251882/ishares-msci-world-ucits-etf-acc-fund) is one of them. It has exposure to all developped countries (US, France, Japan, UK, Canada, etc...) and more than 1600 companies, including Apple, Microsoft, Amazon, in every sectors (tech, healthcare, finance, consumers...), and in the most developped countries. We call this called a [market exposure](https://www.investopedia.com/terms/m/marketexposure.asp).  
 
-Why so many countries and companies? The reason is simple... how do you know which country or company will perform better than others? 
-By investing in those 2 ETFs, you'll tap into the world's ability to grow. You can simply invest into the world's biggest companies by purchasing a single share of it.
+However, IWDA doesn't have exposure to countries like Taiwan, South Korea, China. They are called emergent markets. Having lived few years in China, and how vital are the high-end Taiwanese companies, I wanted to have exposure to those contries. [**EIMI**](https://www.ishares.com/uk/individual/en/products/264659/ishares-msci-emerging-markets-imi-ucits-etf) is the perfect one for that.
 
+**Why so many countries and companies?** The reason is simple... how do you know which country or company will perform better than the other? By investing in those 2 ETFs, you'll basically tap into the world's ability to grow. You will invest into the world's biggest companies by purchasing a single share of it. 
 
 <!-- Even during , the ecoomy in the next years might be slower than the previous year. So you shouldn't expect high returns each year, and be prepared to also see some years with negative returns. 
 
@@ -63,22 +65,24 @@ IWDA also ticks the box. The difference of reinvesting and not reinvesting the d
 ### How about Crypto-currencies, Bitcoin, Ethereum?
  -->
 
-## Choice of a broker
-Interaractive Broker will allow you to access to those ETFs from Taiwan. The process is straight forward. Simply fill your information and wait few days before validation
+## Which broker should I chose?
 
-They're also the cheapest way to invest in foreign ETFs from Taiwan. Local banks will charge you crazy fees to access to those foreign securities.
+[**Interactive Brokers**](http://interactivebrokers.com/) (I'll call it IB) is the one I **highly recommend**. You'll access to all type of securities: ETFs, stocks and even currencies. It has the lowest fees to purchase them. It will also  allow you to access to the ETFs I've recommended earlier: IWDA and EIMI.
 
-### Make sure to change to tier pricing instead of fix
-By default, the fixed pricing is set in Interactive brokers.
-It only makes sense if your orders are over USD 8,000 (~228k TWD). If below, I recommend you to switch to the tier pricing. I've saved hundred of USD by doing this simple change.
+The signup process is straight forward. Simply fill your informations in the signup page, and wait few days before validation. Make sure to fill your tax residence since it will could impact how tax could be taken directly by the broker. Also, [*be aware of the monthly fee if your orders don't generate at least USD 10 of fees per month*](https://www1.interactivebrokers.com/en/index.php?f=4969).
 
-### Send money to Interactive Brokers from Taiwan
-To be able to purchase ETFs on interactive brokers, you'll need to fund you account. Interactive Brokers will provide you a Citibank account to send you fund. Follow carefully the instructions Don't forget to indicate your reference number
+**How about local banks?**  Local banks will charge you crazy fees to access to foreign securities, but could probably be a good pick if you want to invest in taiwanese securities. I won't expand on this since I didn't dig into this yet. 
 
-If you receive salary in an US bank account, it's free and easy to send your USD to the Interactive Broker account.
+**Make sure to change to tier pricing instead of fix**. By default, the fixed pricing is set in your IB acocunt. It only makes sense if your orders are over USD 8,000 (~228k TWD). If below that amount, you to switch to the tier pricing. I've saved hundred of USD by doing this one click change.
 
-If you receive money on a Taiwanese bank account, you'll need to do this . Taiwan Fubon Bank is the bank having the reputation to have the with the lowest fees to send money abroad. Simply shows up to the bank, and ask an employee to help you fill the document. Protip: Ask help to also link the Interactive Brokers account, so won't need to come again, and could make the wire transfer online. 
+**How to send money to Interactive Brokers from Taiwan?** To be able to purchase financial products, you'll need to fund your IB account with real money. IB will provide you information of a bank account located in the US (Citibank) to send your money. Follow carefully the instructions. From a local Taiwanese bank account, Taiwan Fubon Bank is the bank having the reputation to have the lowest fees to send money abroad. If you want to stick with your own bank, it is totally ok. Simply shows up to your bank, and ask an employee to help you fill the document with the correct information. Protip: With Fubon, Ask to also link the Interactive Brokers account, so you could do  the wire transfer online without coming to the bank again. 
 
+**Can I send NTD/TWD to Interactive Brokers?** No, you'll need to convert first your NTD to [USD, EUR, HKD, etc...](https://www.interactivebrokers.com/en/index.php?f=3185#:~:text=For%20each%20IB%20account%2C%20you,%2C%20SEK%2C%20SGD%20or%20USD.), and then do the transfer. It should be doable from any taiwanese banks. I personally keep all my money in USD or EURO, so I can avoid any currency  exchange fees. 
+
+**Is there a way to send money from Taiwan to Interactive Broker for free?** There is no straightforward way to send money from Taiwan to Interactive Brokers, but here some tips: 
+- Taipei Fubon Bank was the cheapest way I've found to fund the IB account located in the US that is accesible to the most people in Taiwan.
+- However, since IB use Citibank, you could take advantage of the ["Global Transfer"](https://www.citibank.com.tw/sim/en/globalbanking/citizen.htm). On the website: "Foreigners and the people with Citi company account can't apply for Citibank Global transfer service." I wasn't sucessful at getting the Citibank free transfer option, even with a 3 years ARC. I however heard foreigners friends that already has a Citibank abroad could get that feature. 
+- If you're from Europe,  a hacky way would be to get your money in [N26](https://n26.com/), and "withdraw" your money in Interactive brokers for free. 
 
 ## Tax in Taiwan
 
