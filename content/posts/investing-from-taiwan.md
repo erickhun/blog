@@ -7,7 +7,7 @@ image = "/img/about-bg.jpg"
 title = "How to invest in ETFs and stocks from Taiwan"
 +++
 
- I've spent a trendemous amount of time investigating on how to invest effectively from Taiwan. Many expats asked me the questions, so I've decided to write down how do I do it. I'll also write different options you could explore. This article **will likely apply to non-US citizen**.  I'm also not a financial advisor, and invite you to make more research. My recommendation could also not fit you. Please seek profesional advices.
+ I've spent a tremendous amount of time investigating on how to invest effectively from Taiwan. Many expats asked me the questions, so I've decided to write down how do I do it. I'll also write different options you could explore. This article **will likely apply to non-US citizens**.  I'm also not a financial advisor, and invite you to make more research. My recommendation could also not fit you. Please seek professional advice.
 
 ## Make sure to have an emergency fund before starting
 
@@ -15,19 +15,19 @@ Do you have enough in your bank account for the next 6 months? This is one of th
 
 I personally have my emergency fund in Revolut and Taipei Fubon Bank:
 
-- **Revolut**: I'm often abroad and the flexibilty that give you Revolut in any country is great. 
+- **Revolut**: I'm often abroad and the flexibility that give you Revolut in any country is great. 
 - **Taipei Fubon Bank**: I want keep a single bank, Taipei Fubon Bank is known for being the cheapest to send money abroad (I'll touch on this why this is important below )
 
-The downside of both is that you won't get much interest on them. Revolut doesn't have any interest, and Taiwan Fubon Bank rate are quite low (0.05%/week). Those aren't really profitable, but the goal is to have access to cash at time you won't expect, and it will help you and won't hurt your investment. Some western countries might also give you some better interest rates accounts, but check below if that suits you.
+The downside of both is that you won't get much interest on them. Revolut doesn't have any interest, and Taiwan Fubon Bank rates are quite low (0.05%/week). Those aren't really profitable, but the goal is to have access to cash at time you won't expect, and it will help you and won't hurt your investment. Some western countries might also give you some better interest rate accounts, but check below if that suits you.
 
 ## Which financial security to buy?
- I'll only focus here on a long term vision investment for the next 15 to 20 years. If you're looking for short term returns, this isn't post won't be for you.
+ I'll only focus here on a long term vision investment for the next 15 to 20 years. If you're looking for short-term returns, this post won't be for you.
 
 When buying a [security](https://en.wikipedia.org/wiki/Security_(finance)) for the long term, you'll need to consider:
 
- - Being diversified
- - Have **really low fees**
- - understand the **tax consequences** of owning them in Taiwan
+ - **Diversification**
+ - **Low fees**
+ - Understand the **tax consequences** of owning them in Taiwan
  
 I personally recommend [**IWDA**](https://www.ishares.com/uk/individual/en/products/251882/ishares-msci-world-ucits-etf-acc-fund) and  [**EIMI**](https://www.ishares.com/uk/individual/en/products/264659/ishares-msci-emerging-markets-imi-ucits-etf) ETFs. Let me explain
 
@@ -40,7 +40,7 @@ However, IWDA doesn't have exposure to countries like Taiwan, South Korea, China
 
 **Why so many countries and companies?** The reason is simple... how do you know which country or company will perform better than the other? By investing in those 2 ETFs, you'll basically tap into the world's ability to grow. You will invest into the world's biggest companies by purchasing a single share of it. 
 
-<!-- Even during , the ecoomy in the next years might be slower than the previous year. So you shouldn't expect high returns each year, and be prepared to also see some years with negative returns. 
+<!-- Even during , the economy in the next years might be slower than the previous year. So you shouldn't expect high returns each year, and be prepared to also see some years with negative returns. 
 
 https://www.ishares.com/uk/individual/en/literature/fact-sheet/swda-ishares-core-msci-world-ucits-etf-fund-fact-sheet-en-gb.pdf
 
@@ -54,6 +54,15 @@ https://indexfundinvestor.eu/2019/01/02/what-is-the-difference-between-iwda-and-
 
 Even though , I still own some single stocks. They represent a really small part of my portfolio and I've mostly said "bye" to that money when I clicked "buy", enven though I hope they'll grow more than the ETFs. For them, I'm aware of them  -->
 
+#### Low fees
+Most of the people that started investing don't realize, or realize too late the importance of chosing low management fees funds. Even if that looks insignificant, every fund charge fees. It can be anywhere from [0.015%](https://www.investopedia.com/articles/markets/102715/3-index-funds-lowest-expense-ratios.asp) to more than 2%. Even if 2% sounds not that much, it will negatively impact your final return. By starting with a $10,000, and adding $2,000 every month over 20 years and with 7% interest: 
+- In a 0,2% management fee , you'll end up with $1,028,000, and paid **$25,000 fees**
+- With a 1% management fee, you'll end up with $932,000, and paid **$121,000 fees**
+- With a 2% management fee, you'll end up with $827,000, and paid **$225,000 fees**
+
+Some other scenarios are demonstrated on how fees impact the returns in [Vanguard](https://investor.vanguard.com/investing/how-to-invest/impact-of-costs) or the [SEC](https://www.sec.gov/investor/alerts/ib_fees_expenses.pdf)
+
+IWDA has a fee of [0.20%](https://www.ishares.com/uk/individual/en/literature/fact-sheet/swda-ishares-core-msci-world-ucits-etf-fund-fact-sheet-en-gb.pdf) and EIMI [0.18%](https://www.ishares.com/uk/individual/en/literature/fact-sheet/eimi-ishares-core-msci-em-imi-ucits-etf-fund-fact-sheet-en-gb.pdf)
 
 <!-- #### Reinvesting the dividends
 IWDA also ticks the box. The difference of reinvesting and not reinvesting the dividends can determine if your investment will be exponential or not. 
@@ -67,21 +76,21 @@ IWDA also ticks the box. The difference of reinvesting and not reinvesting the d
 
 ## Which broker should I chose?
 
-[**Interactive Brokers**](http://interactivebrokers.com/) (I'll call it IB) is the one I **highly recommend**. You'll access to all type of securities: ETFs, stocks and even currencies. It has the lowest fees to purchase them. It will also  allow you to access to the ETFs I've recommended earlier: IWDA and EIMI.
+[**Interactive Brokers**](http://interactivebrokers.com/) (I'll call it IB) is the one I **highly recommend**. You'll access to all types of securities: ETFs, stocks and even currencies. It has the lowest fees to purchase them. It will also  allow you to access to the ETFs I've recommended earlier: IWDA and EIMI.
 
-The signup process is straight forward. Simply fill your informations in the signup page, and wait few days before validation. Make sure to fill your tax residence since it will could impact how tax could be taken directly by the broker. Also, [*be aware of the monthly fee if your orders don't generate at least USD 10 of fees per month*](https://www1.interactivebrokers.com/en/index.php?f=4969).
+The signup process is straight forward. Simply fill your information in the signup page, and wait few days before validation. Make sure to fill your tax residence since it will could impact how tax could be taken directly by the broker. Also, [*be aware of the monthly fee if your orders don't generate at least USD 10 of fees per month*](https://www1.interactivebrokers.com/en/index.php?f=4969).
 
-**How about local banks?**  Local banks will charge you crazy fees to access to foreign securities, but could probably be a good pick if you want to invest in taiwanese securities. I won't expand on this since I didn't dig into this yet. 
+**How about local banks?**  Local banks will charge you crazy fees to access to foreign securities, but could probably be a good pick if you want to invest in Taiwanese securities. I won't expand on this since I didn't dig into this yet. 
 
-**Make sure to change to tier pricing instead of fix**. By default, the fixed pricing is set in your IB acocunt. It only makes sense if your orders are over USD 8,000 (~228k TWD). If below that amount, you to switch to the tier pricing. I've saved hundred of USD by doing this one click change.
+**Make sure to change to tier pricing instead of fix**. By default, the fixed pricing is set in your IB account. It only makes sense if your orders are over USD 8,000 (~228k TWD). If below that amount, you to switch to the tier pricing. I've saved hundred of USD by doing this one-click change.
 
 **How to send money to Interactive Brokers from Taiwan?** To be able to purchase financial products, you'll need to fund your IB account with real money. IB will provide you information of a bank account located in the US (Citibank) to send your money. Follow carefully the instructions. From a local Taiwanese bank account, Taiwan Fubon Bank is the bank having the reputation to have the lowest fees to send money abroad. If you want to stick with your own bank, it is totally ok. Simply shows up to your bank, and ask an employee to help you fill the document with the correct information. Protip: With Fubon, Ask to also link the Interactive Brokers account, so you could do  the wire transfer online without coming to the bank again. 
 
-**Can I send NTD/TWD to Interactive Brokers?** No, you'll need to convert first your NTD to [USD, EUR, HKD, etc...](https://www.interactivebrokers.com/en/index.php?f=3185#:~:text=For%20each%20IB%20account%2C%20you,%2C%20SEK%2C%20SGD%20or%20USD.), and then do the transfer. It should be doable from any taiwanese banks. I personally keep all my money in USD or EURO, so I can avoid any currency  exchange fees. 
+**Can I send NTD/TWD to Interactive Brokers?** No, you'll need to convert first your NTD to [USD, EUR, HKD, etc...](https://www.interactivebrokers.com/en/index.php?f=3185#:~:text=For%20each%20IB%20account%2C%20you,%2C%20SEK%2C%20SGD%20or%20USD.), and then do the transfer. It should be doable from any Taiwanese banks. I personally keep all my money in USD or EURO, so I can avoid any currency  exchange fees. 
 
 **Is there a way to send money from Taiwan to Interactive Broker for free?** There is no straightforward way to send money from Taiwan to Interactive Brokers, but here some tips: 
 - Taipei Fubon Bank was the cheapest way I've found to fund the IB account located in the US that is accesible to the most people in Taiwan.
-- However, since IB use Citibank, you could take advantage of the ["Global Transfer"](https://www.citibank.com.tw/sim/en/globalbanking/citizen.htm). On the website: "Foreigners and the people with Citi company account can't apply for Citibank Global transfer service." I wasn't sucessful at getting the Citibank free transfer option, even with a 3 years ARC. I however heard foreigners friends that already has a Citibank abroad could get that feature. 
+- However, since IB use Citibank, you could take advantage of the ["Global Transfer"](https://www.citibank.com.tw/sim/en/globalbanking/citizen.htm). On the website: "Foreigners and the people with Citi company account can't apply for Citibank Global transfer service." I wasn't successful at getting the Citibank free transfer option, even with a 3 years ARC. I however heard foreigners friends that already has a Citibank abroad could get that feature. 
 - If you're from Europe,  a hacky way would be to get your money in [N26](https://n26.com/), and "withdraw" your money in Interactive brokers for free. 
 
 ## Tax in Taiwan
@@ -102,16 +111,18 @@ When investing in an world ETF composed mainly of US stocks, the fund domicile i
 
 When you friends say there is no tax on foreign income in Taiwan, they're talking on the **L3T** level. And this is applicable only if you're resident (living more than 183 days in Taiwan), otherwise you'll get a 21% flat on [those oversea dividends](https://www2.deloitte.com/content/dam/Deloitte/global/Documents/Tax/dttl-tax-taiwanhighlights-2020.pdf). So be aware to stay at least 183 days in Taiwan to enjoy this benefit :)
 
+If you purchased directly stocks domiciled in the US, dividends will be taxed 30% flat. This is because there is no tax treaty between Taiwan and the US. 
 
+Calculating the tax on the dividends for a given ETF is a bit tricky. Since an ETF contains share of many companies from different countries, you'll need to understand the composition of your ETF.  Since there is a treaty between the US and Ireland, and most companies being in the ETF are located in the US, the tax on the dividends are in average ~12%. So how much tax for each IWDA I have? I've made [the research]((https://www.reddit.com/r/Bogleheads/comments/ewl5e8/is_it_possible_to_know_how_much_dividends_an/fg3aei4/?utm_source=reddit&utm_medium=web2x&context=3)) and math for you: 
+- At the end of 2019, each IWDA share yield USD1.0685. 
+- The price of IWDA was 63 at that time => it represents about 1.7% dividend yield. 
+- As for today the IWDA price is ~USD 70. 
+- Since each share yield 1.7%, and price is USD 70, now it should yield around USD 1,19 of dividends
+- Since the tax on IWDA is ~12%, USD 0,14 will taxable at the L1TW level
 
-If we purchased directly stocks from the US, dividends will be taxed 30% flat. This is because there is no tax treaty between Taiwan and the US. 
-
-Calculating the tax on the dividends for a given ETF is a bit tricky. Since an ETF contains share of many companies from different countried, you'll need to understand the composition of your ETF.  Since there is a treaty between the US and Ireland, and most companies being in the ETF are located in the US, the tax on the dividends are in average ~12%.
-
-
-I had [to dig a bit](https://www.reddit.com/r/Bogleheads/comments/ewl5e8/is_it_possible_to_know_how_much_dividends_an/fg3aei4/?utm_source=reddit&utm_medium=web2x&context=3) into how much yield the IWDA has, at the end of 2019, it is 1.0685/63.03 1.7% dividend yield. 
 
 https://www.bogleheads.org/wiki/Nonresident_alien_investors_and_Ireland_domiciled_ETFs#Estimating_Level_1_dividend_tax_withholding_paid_by_Ireland_domiciled_funds
+
 
 ### Tax on crypto-currencies
 This is something that is still in discussion and I didn't have time to investigate in. If you have more information, feel free to reach me.
