@@ -77,12 +77,13 @@ They're also the cheapest way to invest in foreign ETFs from Taiwan. Local banks
 
 ### Make sure to change to tier pricing instead of fix
 By default, the fixed pricing is set in Interactive brokers.
-It make sense if your order are over USD 8,000 (~228k TWD) . By switching to a tiered pricing, I've saved hundred of USD by doing this simple change.
+It only makes sense if your orders are over USD 8,000 (~228k TWD). If below, I recommend you to switch to the tier pricing. I've saved hundred of USD by doing this simple change.
 
 ### Send money to Interactive Brokers from Taiwan
-To be able to purchase ETFs on interactive brokers, you'll need to fund you account. Interactive Brokers will provide you a Citibank account to . Don't forget to indicate your .The  
+To be able to purchase ETFs on interactive brokers, you'll need to fund you account. Interactive Brokers will provide you a Citibank account to send you fund. Follow carefully the instructions Don't forget to indicate your reference number
 
-If you receive salary in an US bank account, it's free and easy. 
+If you receive salary in an US bank account, it's free and easy to send your USD to the account.
+
 If you receive money on a Taiwanese bank account, you'll need  with the lowest fees to 
 
 
@@ -96,14 +97,15 @@ However, be careful, your brokers could  some fees when you sell. I've heard som
 ### Tax on dividends
 What is important to understand when calculating tax on dividends, is that it exists multiple levels of taxation: 
 
-**L1TW**: Percentage of tax withholding by a security's home country on dividends distributed by that security to the fund (Level 1).
-**L2TW**: Percentage of tax withholding by the country where the fund is domiciled on the dividends distributed to the investor by the fund (Level 2).
-**L3T**: Percentage of taxation that the individual investor needs to pay in their home country (Level 3).
+- **L1TW**: Percentage of tax withholding by a security's home country on dividends distributed by that security to the fund (Level 1).
+- **L2TW**: Percentage of tax withholding by the country where the fund is domiciled on the dividends distributed to the investor by the fund (Level 2).
+- **L3T**: Percentage of taxation that the individual investor needs to pay in their home country (Level 3).
+
+When investing in an world ETF composed mainly of US stocks, the fund domicile is important, especially if there is no treaty between your tax residence and the fund domicile. The US tax 30% flat on them. The trick here is to go through an Irish Fund. Luckily, IWDA is located in Ireland, so you can benefit from this tax treaty. Since IWDA is composed of 60% of US companies , there is a bit of math to do to exactly know how much tax will be taken . 
+
+When you friends say there is no tax on foreign income in Taiwan, they're talking on the **L3T** level. And this is applicable only if you're resident (living more than 183 days in Taiwan), otherwise you'll get a 21% flat on [those oversea dividends](https://www2.deloitte.com/content/dam/Deloitte/global/Documents/Tax/dttl-tax-taiwanhighlights-2020.pdf). So be aware to stay at least 183 days in Taiwan to enjoy this benefit :)
 
 
-When you friends saying there is no tax on foreign income in Taiwan, they're talking on the L3T level. And this is applicable only if you're resident (living more than 183 days in Taiwan), otherwise you'll get a 21% flat on [those oversea dividends](https://www2.deloitte.com/content/dam/Deloitte/global/Documents/Tax/dttl-tax-taiwanhighlights-2020.pdf). So be aware to stay at least 183 days in Taiwan to enjoy this benefit :)
-
-When investing in an world ETF composed mainly of US stocks, the fund domicile is important, especially if there is no treaty between your tax residence and the fund domicile. The US tax 30% flat on them. The trick here is to go through an Irish Fund. Luckily, IWDA is located in Ireland, so you can benefit from this tax treaty.
 
 If we purchased directly stocks from the US, dividends will be taxed 30% flat. This is because there is no tax treaty between Taiwan and the US. 
 
