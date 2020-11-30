@@ -114,9 +114,6 @@ If you purchased directly stocks domiciled in the US, dividends will be taxed 30
 Calculating the tax on the dividends for a given ETF is a bit tricky. Since an ETF contains share of many companies from different countries, you'll need to understand the composition of your ETF.  Since there is a treaty between the US and Ireland, and most companies being in the ETF are located in the US, the tax on the dividends are in average [~12.1%](https://www.bogleheads.org/wiki/Nonresident_alien_investors_and_Ireland_domiciled_ETFs#Estimating_Level_1_dividend_tax_withholding_paid_by_Ireland_domiciled_funds). I say in average because the exposure to different countries change from year to year.
 
 
-### Tax on crypto-currencies
-This is something that is still in discussion and I didn't have time to investigate in. If you have more information, feel free to reach me.
-
 ### How to fill your tax?
 Simply shows up to the [tax office](https://goo.gl/maps/xReNBAMxigRMamSE6) during the tax season and declare your gain. You can easily generate a statement in Interactive brokers as a proof.
 
