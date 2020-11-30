@@ -82,9 +82,9 @@ It only makes sense if your orders are over USD 8,000 (~228k TWD). If below, I r
 ### Send money to Interactive Brokers from Taiwan
 To be able to purchase ETFs on interactive brokers, you'll need to fund you account. Interactive Brokers will provide you a Citibank account to send you fund. Follow carefully the instructions Don't forget to indicate your reference number
 
-If you receive salary in an US bank account, it's free and easy to send your USD to the account.
+If you receive salary in an US bank account, it's free and easy to send your USD to the Interactive Broker account.
 
-If you receive money on a Taiwanese bank account, you'll need  with the lowest fees to 
+If you receive money on a Taiwanese bank account, you'll need to do this . Taiwan Fubon Bank is the bank having the reputation to have the with the lowest fees to send money abroad. Simply shows up to the bank, and ask an employee to help you fill the document. Protip: Ask help to also link the Interactive Brokers account, so won't need to come again, and could make the wire transfer online. 
 
 
 ## Tax in Taiwan
