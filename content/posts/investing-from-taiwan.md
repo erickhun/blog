@@ -7,25 +7,18 @@ image = "/img/about-bg.jpg"
 title = "How to invest from Taiwan (for a non-US citizen)"
 +++
 
-I've been living in Taiwan for more than 3 years already. I've spent a lot of time investigating on how to invest for my retirement from Taiwan. Fees and taxes has a huge impact on the Return of Investment if you invest on the long term.
-Many expats  asked me the questions, so I've decided to write down how do I do it , and also the different options you could consider
-
-I won't spend time on explaining why low fees, there is a lot of great resources   about it, but will mainly focus on specificity of Taiwan. 
-
-This article **will likely apply to non-US citizen**. 
-
-I'm also not a financial advisor, and invite you to make more research. My recommendation could also not fit you. Please seek profesional advices.
+ I've spent a trendemous amount of time investigating on how to invest effectively from Taiwan. Many expats asked me the questions, so I've decided to write down how do I do it. I'll also write different options you could explore. This article **will likely apply to non-US citizen**.  I'm also not a financial advisor, and invite you to make more research. My recommendation could also not fit you. Please seek profesional advices.
 
 ## Make sure to have an emergency fund before starting
 
-Do you have enough in your bank account for the next 6 months? This is the general recommendation. The is to never touch your investment until the next 15 to 20 years. The emergency fund will help you to give you enough buffer in you can lose your job, an accident  can happen without touching your long term investment.
+Do you have enough in your bank account for the next 6 months? This is one of the best recommendations. The goal of it is to never touch your investment until the next 15 or 20 years. The emergency fund will help you to give you enough buffer, in case you lose your job, have a bad accident. Withdrawing funds can take time, and also **will hurt the performance of your investment**.
 
 I personally have my emergency fund in Revolut and Taipei Fubon Bank:
 
-- Revolut: I'm often abroad and the flexibilty that give you Revolut in any country is great. 
-- Taipei Fubon Bank: I want keep a single bank, Taipei Fubon Bank is known for being the cheapest to send money abroad (I'll touch on this why this is important below )
+- **Revolut**: I'm often abroad and the flexibilty that give you Revolut in any country is great. 
+- **Taipei Fubon Bank**: I want keep a single bank, Taipei Fubon Bank is known for being the cheapest to send money abroad (I'll touch on this why this is important below )
 
-The downside of both is that you won't get much interest on them. Revolut doesn't have any interest, and Taiwan Fubon Bank rate are quite low (0.05%/week). Those aren't really profitable, but the goal is to have access to cash at time you won't expect, and it will help you and won't hurt your investment. Some europeans countries might also give you some better interest rates accounts, but check below if that suits you.
+The downside of both is that you won't get much interest on them. Revolut doesn't have any interest, and Taiwan Fubon Bank rate are quite low (0.05%/week). Those aren't really profitable, but the goal is to have access to cash at time you won't expect, and it will help you and won't hurt your investment. Some western countries might also give you some better interest rates accounts, but check below if that suits you.
 
 ## Which financial security to buy?
  I'll only focus here on a long term vision investment for the next 15 to 20 years. So if you're looking for short term returns, you're not in the correct place. 
