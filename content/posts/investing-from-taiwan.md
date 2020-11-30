@@ -101,7 +101,7 @@ It is why it's important to consider the domicile of a given stock and if there 
 
 If we purchased directly stocks from the US, dividends will be taxed 30% flat. This is because there is no tax treaty between Taiwan and the US. 
 
-For the IWDA ETF,
+For the IWDA ETF, the . Since there is a treaty between the US and Ireland, and most companie being in the ETF are located in the US, the tax on the dividends are roughly ~12%.
 
 When calculating tax : There are 3 levels of dividend taxation to apply.
 
@@ -111,19 +111,12 @@ L3T: Percentage of taxation that the individual investor needs to pay in their h
 
 I had [to dig a bit](https://www.reddit.com/r/Bogleheads/comments/ewl5e8/is_it_possible_to_know_how_much_dividends_an/fg3aei4/?utm_source=reddit&utm_medium=web2x&context=3) into how much yield the IWDA has, at the end of 2019, it is 1.0685/63.03 1.7% dividend yield. 
 
-With that we can know 
-
-However, I purchased mainly 
-As a non-US citizen
-
 ### Tax on crypto-currencies
 This is something that is still in discussion and I didn't have time to investigate in. If you have more information, feel free to reach me.
 
 ### How to fill tax returns in Taiwan?
-If abroad, you broker likely won't communicate . But dividends and capital gain aren't tax. There is no reason since it's free :) 
-If the dividends doens't exceed NTD 1 Million NTD, you don't need to declare them. 
-
-Check 
+If abroad, you broker  won't likely communicate. But dividends and capital gain aren't tax. There is no reason since it's free :) 
+If the oversea gains don't exceed NTD 1 Million NTD, you don't need to declare them. Otherwise, I'd recommend to do so.
 
 
 <!-- ### Insurance of the broker
