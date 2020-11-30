@@ -94,18 +94,16 @@ The great benefit of Taiwan when investing that there is no capital gain. It mea
 However, be careful, your brokers could  some fees when you sell. I've heard some brokers that could take up to 5% on the gains. It's why it's important to pick a broker. 
 
 ### Tax on dividends
-What is important to understand when calculating tax on dividends, is that it exists multiple level of tax: 
+What is important to understand when calculating tax on dividends, is that it exists multiple levels of taxation: 
 
-L1TW: Percentage of tax withholding by a security's home country on dividends distributed by that security to the fund (Level 1).
-L2TW: Percentage of tax withholding by the country where the fund is domiciled on the dividends distributed to the investor by the fund (Level 2).
-L3T: Percentage of taxation that the individual investor needs to pay in their home country (Level 3).
+**L1TW**: Percentage of tax withholding by a security's home country on dividends distributed by that security to the fund (Level 1).
+**L2TW**: Percentage of tax withholding by the country where the fund is domiciled on the dividends distributed to the investor by the fund (Level 2).
+**L3T**: Percentage of taxation that the individual investor needs to pay in their home country (Level 3).
 
 
-When you friends saying there is no tax on foreign income in Taiwan, they're talking on the L3T level. And this is applicable only if you're resident (living more than 183 days in Taiwan), otherwise you'll get a 21% flat on [those oversea dividends](https://www2.deloitte.com/content/dam/Deloitte/global/Documents/Tax/dttl-tax-taiwanhighlights-2020.pdf). 
+When you friends saying there is no tax on foreign income in Taiwan, they're talking on the L3T level. And this is applicable only if you're resident (living more than 183 days in Taiwan), otherwise you'll get a 21% flat on [those oversea dividends](https://www2.deloitte.com/content/dam/Deloitte/global/Documents/Tax/dttl-tax-taiwanhighlights-2020.pdf). So be aware to stay at least 183 days in Taiwan to enjoy this benefit :)
 
-However, when you invest in a foreign security .
-
-It is why it's important to consider the domicile of a given stock and if there is a [tax treaty](https://investtaiwan.nat.gov.tw/showPage?lang=eng&search=58) between the domicile of the fund and Taiwan. 
+When investing in an world ETF composed mainly of US stocks, the fund domicile is important, especially if there is no treaty between your tax residence and the fund domicile. The US tax 30% flat on them. The trick here is to go through an Irish Fund. Luckily, IWDA is located in Ireland, so you can benefit from this tax treaty.
 
 If we purchased directly stocks from the US, dividends will be taxed 30% flat. This is because there is no tax treaty between Taiwan and the US. 
 
