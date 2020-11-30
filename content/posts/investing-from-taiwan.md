@@ -117,9 +117,8 @@ https://www.bogleheads.org/wiki/Nonresident_alien_investors_and_Ireland_domicile
 ### Tax on crypto-currencies
 This is something that is still in discussion and I didn't have time to investigate in. If you have more information, feel free to reach me.
 
-### How to fill tax returns in Taiwan?
-If abroad, you broker  won't likely communicate. But dividends and capital gain aren't tax. There is no reason since it's free :) 
-If the oversea gains don't exceed NTD 1 Million NTD, you don't need to declare them. Otherwise, I'd recommend to do so.
+### How to fill your tax?
+Simply shows up to the [tax office](https://goo.gl/maps/xReNBAMxigRMamSE6) during the tax season and declare your gain. You can easily generate a statement in Interactive brokers as a proof.
 
 
 <!-- ### Insurance of the broker
