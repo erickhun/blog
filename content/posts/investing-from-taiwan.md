@@ -94,22 +94,27 @@ The great benefit of Taiwan when investing that there is no capital gain. It mea
 However, be careful, your brokers could  some fees when you sell. I've heard some brokers that could take up to 5% on the gains. It's why it's important to pick a broker. 
 
 ### Tax on dividends
-If you're tax resident (living in Taiwan more than 183 days a year), there is [no tax on dividends](https://www2.deloitte.com/content/dam/Deloitte/global/Documents/Tax/dttl-tax-taiwanhighlights-2020.pdf). 
+What is important to understand when calculating tax on dividends, is that it exists multiple level of tax: 
+
+L1TW: Percentage of tax withholding by a security's home country on dividends distributed by that security to the fund (Level 1).
+L2TW: Percentage of tax withholding by the country where the fund is domiciled on the dividends distributed to the investor by the fund (Level 2).
+L3T: Percentage of taxation that the individual investor needs to pay in their home country (Level 3).
+
+
+When you friends saying there is no tax on foreign income in Taiwan, they're talking on the L3T level. And this is applicable only if you're resident (living more than 183 days in Taiwan), otherwise you'll get a 21% flat on [those oversea dividends](https://www2.deloitte.com/content/dam/Deloitte/global/Documents/Tax/dttl-tax-taiwanhighlights-2020.pdf). 
+
 However, when you invest in a foreign security .
 
 It is why it's important to consider the domicile of a given stock and if there is a [tax treaty](https://investtaiwan.nat.gov.tw/showPage?lang=eng&search=58) between the domicile of the fund and Taiwan. 
 
 If we purchased directly stocks from the US, dividends will be taxed 30% flat. This is because there is no tax treaty between Taiwan and the US. 
 
-For the IWDA ETF, the . Since there is a treaty between the US and Ireland, and most companie being in the ETF are located in the US, the tax on the dividends are roughly ~12%.
+Calculating the tax on the dividends for a given ETF is a bit tricky. Since an ETF contains share of many companies from different countried, you'll need to understand the composition of your ETF.  Since there is a treaty between the US and Ireland, and most companies being in the ETF are located in the US, the tax on the dividends are in average ~12%.
 
-When calculating tax : There are 3 levels of dividend taxation to apply.
-
-L1TW: Percentage of tax withholding by a security's home country on dividends distributed by that security to the fund (Level 1).
-L2TW: Percentage of tax withholding by the country where the fund is domiciled on the dividends distributed to the investor by the fund (Level 2).
-L3T: Percentage of taxation that the individual investor needs to pay in their home country (Level 3).
 
 I had [to dig a bit](https://www.reddit.com/r/Bogleheads/comments/ewl5e8/is_it_possible_to_know_how_much_dividends_an/fg3aei4/?utm_source=reddit&utm_medium=web2x&context=3) into how much yield the IWDA has, at the end of 2019, it is 1.0685/63.03 1.7% dividend yield. 
+
+https://www.bogleheads.org/wiki/Nonresident_alien_investors_and_Ireland_domiciled_ETFs#Estimating_Level_1_dividend_tax_withholding_paid_by_Ireland_domiciled_funds
 
 ### Tax on crypto-currencies
 This is something that is still in discussion and I didn't have time to investigate in. If you have more information, feel free to reach me.
