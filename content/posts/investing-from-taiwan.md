@@ -7,7 +7,7 @@ image = "/img/about-bg.jpg"
 title = "How to invest in ETFs and stocks from Taiwan"
 +++
 
- I've spent a tremendous amount of time investigating on how to invest effectively from Taiwan. Many expats asked me the questions, so I've decided to write down how do I do it. I'll also write different options you could explore. This article **will likely apply to non-US citizens**.  I'm also not a financial advisor, and invite you to make more research. My recommendation could also not fit you. Please seek professional advice.
+ I've spent a tremendous amount of time investigating on how to invest effectively from Taiwan. Many expats asked me the questions, so I've decided to write down how do I do it. I'll also write different options you could explore. This article **will likely apply to Tax resident in Taiwan, non-US citizens**.  I'm also not a financial advisor, and invite you to make more researches, please seek professional advice.
 
 ## Make sure to have an emergency fund before starting
 
