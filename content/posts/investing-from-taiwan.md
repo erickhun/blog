@@ -1,5 +1,5 @@
 +++
-categories = ["taiwan", "taipei", "investment", "interactive brokers", "etf"]
+categories = ["taiwan"", "investment", "interactive brokers", "etf"]
 date = "2020-11-29T17:37:00+01:00"
 description = ""
 draft = false
