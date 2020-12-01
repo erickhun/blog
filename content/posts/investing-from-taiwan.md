@@ -109,8 +109,7 @@ What is important to understand when calculating tax on dividends, is that it ex
 
 This is why I've picked IWDA that is located in [Ireland](https://www.ishares.com/uk/individual/en/literature/fact-sheet/swda-ishares-core-msci-world-ucits-etf-fund-fact-sheet-en-gb.pdf). Since IWDA is composed of 60% of US companies , there is a bit of math to do to exactly know how much tax will be taken. This also means that all the dividends issued via a US shares you buy  directly with be taxed 30% the L1TW level (Level 1).   
 
-Calculating the tax on the dividends for a given ETF is a bit tricky. Since an ETF contains share of many companies from different countries, you'll need to understand the composition of your ETF.  Since there is a treaty between the US and Ireland, and most companies being in the ETF are located in the US, the tax on the dividends are in average [~12.1%](https://www.bogleheads.org/wiki/Nonresident_alien_investors_and_Ireland_domiciled_ETFs#Estimating_Level_1_dividend_tax_withholding_paid_by_Ireland_domiciled_funds). I say in average because the exposure to different countries change from year to year.
-
+Calculating the tax on the dividends for a given ETF is a bit tricky. Since an ETF contains share of many companies from different countries, you'll need to understand the composition of your ETF.  Since there is a treaty between the US and Ireland, and most companies being in the ETF are located in the US, the tax on the dividends are in average [~12.1%](https://www.bogleheads.org/wiki/Nonresident_alien_investors_and_Ireland_domiciled_ETFs#Estimating_Level_1_dividend_tax_withholding_paid_by_Ireland_domiciled_funds). In average because the exposure to different countries varies from year to year.
 
 <!-- ### Tax on crypto-currencies
 This is something that is still in discussion and I didn't have time to investigate in. If you have more information, feel free to reach me. -->
