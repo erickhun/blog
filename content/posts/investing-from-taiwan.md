@@ -4,7 +4,7 @@ date = "2020-11-29T17:37:00+01:00"
 description = ""
 draft = false
 image = "/img/about-bg.jpg"
-title = "How to invest in ETFs and stocks from Taiwan"
+title = "How to invest in ETFs and Stocks from Taiwan"
 +++
 
  I've spent a tremendous amount of time investigating on how to invest effectively from Taiwan. Many expats asked me the questions, so I've decided to write down how do I do it. I'll also write different options you could explore. This article **will likely apply to Tax resident in Taiwan, non-US citizens**.  I'm also not a financial advisor, and invite you to make more researches, please seek professional advice.
@@ -31,10 +31,10 @@ When buying a [security](https://en.wikipedia.org/wiki/Security_(finance)) for t
  
 I personally recommend [**IWDA**](https://www.ishares.com/uk/individual/en/products/251882/ishares-msci-world-ucits-etf-acc-fund) and  [**EIMI**](https://www.ishares.com/uk/individual/en/products/264659/ishares-msci-emerging-markets-imi-ucits-etf) ETFs. Let me explain
 
-#### Diversification
-On the long term, putting all your saving in a single company is risky. What if this company never grows, or worst goes bankrupt? This is called *"put all your eggs in the same basket"*. There is some financial securities that help you to diversify. They're called [ETFs](https://www.thisismoney.co.uk/money/indexinvesting/article-4596628/Does-matter-global-ETF-invest-in.html). It's like a group of share of multiple companies grouped in a single share. By purchasing a single share of an ETF, it's like if you own a part of few to up to thousands companies, potentially in many countries.
+#### Diversification with ETF
+On the long term, putting all your savings in a single company is risky. What if this company never grows, or worst goes bankrupt? This is called *"put all your eggs in the same basket"*. There is some financial securities that help you to diversify. They're called [ETFs](https://www.thisismoney.co.uk/money/indexinvesting/article-4596628/Does-matter-global-ETF-invest-in.html). It's like a group of share of multiple companies grouped in a single share. By purchasing a single share of an ETF, it's like if you own a part of few to up to thousands companies, potentially in many countries.
 
-[**IWDA**](https://www.ishares.com/uk/individual/en/products/251882/ishares-msci-world-ucits-etf-acc-fund) is one of them. It has exposure to all developped countries (US, France, Japan, UK, Canada, etc...) and more than 1600 companies, including Apple, Microsoft, Amazon, in every sectors (tech, healthcare, finance, consumers...), and in the most developped countries. We call this called a [market exposure](https://www.investopedia.com/terms/m/marketexposure.asp).  
+[**IWDA**](https://www.ishares.com/uk/individual/en/products/251882/ishares-msci-world-ucits-etf-acc-fund) is one of them. It has exposure to all developed countries (US, France, Japan, UK, Canada, etc...) and more than 1600 companies, including Apple, Microsoft, Amazon, in every sectors (tech, healthcare, finance, consumers...), and in the most developped countries. We call this called a [market exposure](https://www.investopedia.com/terms/m/marketexposure.asp).  
 
 However, IWDA doesn't have exposure to countries like Taiwan, South Korea, China. They are called emergent markets. Having lived few years in China, and how vital are the high-end Taiwanese companies, I wanted to have exposure to those contries. [**EIMI**](https://www.ishares.com/uk/individual/en/products/264659/ishares-msci-emerging-markets-imi-ucits-etf) is the perfect one for that.
 
@@ -54,7 +54,7 @@ https://indexfundinvestor.eu/2019/01/02/what-is-the-difference-between-iwda-and-
 
 Even though , I still own some single stocks. They represent a really small part of my portfolio and I've mostly said "bye" to that money when I clicked "buy", even though I hope they'll grow more than the ETFs. For them, I'm aware of them  -->
 
-#### Low fees
+#### Low management fees
 Too often, new investors don't realize, or realize too late the importance of choosing low management fees funds. Even if that looks insignificant, every funds charge fees. It can be anywhere from [0.015%](https://www.investopedia.com/articles/markets/102715/3-index-funds-lowest-expense-ratios.asp) to more than 2%. Even if 2% sounds not that much, it will negatively impact your final return. By starting with $10,000, and adding $2,000 every month over 20 years and with 7% interest: 
 - In a 0,2% management fee , you'll end up with $1,028,000, and paid **$25,000 fees**
 - With a 1% management fee, you'll end up with $932,000, and paid **$121,000 fees**
@@ -96,7 +96,7 @@ The signup process is straight forward. Simply fill your information in the sign
 ## Tax in Taiwan
 
 #### Tax on capital gain
-The great benefit of Taiwan when investing that there is no capital gain. It means if you buy a stock that cost USD10 and sell it when it worth 100USD you won't pay tax on the USD 90 profit.
+The great benefit of Taiwan when investing that there is no capital gain. It means if you buy a share for USD10 and sell it when it worth 100USD you won't pay tax on the USD 90 profit.
 
 #### Tax on dividends, and the importance of fund domicile
 Taiwanese residents investing directly in the American market are taxed 30% on dividends. However, you can lower it to 15% by buying shares with a fund domiciled in Ireland.
