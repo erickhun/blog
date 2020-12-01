@@ -52,17 +52,17 @@ https://investmentmoats.com/passive-investing-2/iwda-versus-vwra-significant-per
 https://indexfundinvestor.eu/2019/01/02/what-is-the-difference-between-iwda-and-swda/
 
 
-Even though , I still own some single stocks. They represent a really small part of my portfolio and I've mostly said "bye" to that money when I clicked "buy", enven though I hope they'll grow more than the ETFs. For them, I'm aware of them  -->
+Even though , I still own some single stocks. They represent a really small part of my portfolio and I've mostly said "bye" to that money when I clicked "buy", even though I hope they'll grow more than the ETFs. For them, I'm aware of them  -->
 
 #### Low fees
-Too often, new investors don't realize, or realize too late the importance of chosing low management fees funds. Even if that looks insignificant, every fund charge fees. It can be anywhere from [0.015%](https://www.investopedia.com/articles/markets/102715/3-index-funds-lowest-expense-ratios.asp) to more than 2%. Even if 2% sounds not that much, it will negatively impact your final return. By starting with a $10,000, and adding $2,000 every month over 20 years and with 7% interest: 
+Too often, new investors don't realize, or realize too late the importance of chosing low management fees funds. Even if that looks insignificant, every funds charge fees. It can be anywhere from [0.015%](https://www.investopedia.com/articles/markets/102715/3-index-funds-lowest-expense-ratios.asp) to more than 2%. Even if 2% sounds not that much, it will negatively impact your final return. By starting with $10,000, and adding $2,000 every month over 20 years and with 7% interest: 
 - In a 0,2% management fee , you'll end up with $1,028,000, and paid **$25,000 fees**
 - With a 1% management fee, you'll end up with $932,000, and paid **$121,000 fees**
 - With a 2% management fee, you'll end up with $827,000, and paid **$225,000 fees**
 
 Some other scenarios are demonstrated on how fees impact the returns in [Vanguard](https://investor.vanguard.com/investing/how-to-invest/impact-of-costs) or the [SEC](https://www.sec.gov/investor/alerts/ib_fees_expenses.pdf)
 
-IWDA has management fee of [0.20%](https://www.ishares.com/uk/individual/en/literature/fact-sheet/swda-ishares-core-msci-world-ucits-etf-fund-fact-sheet-en-gb.pdf) and EIMI [0.18%](https://www.ishares.com/uk/individual/en/literature/fact-sheet/eimi-ishares-core-msci-em-imi-ucits-etf-fund-fact-sheet-en-gb.pdf), and are one of the lowest fee for an ETF.
+IWDA has a management fee of [0.20%](https://www.ishares.com/uk/individual/en/literature/fact-sheet/swda-ishares-core-msci-world-ucits-etf-fund-fact-sheet-en-gb.pdf) and EIMI [0.18%](https://www.ishares.com/uk/individual/en/literature/fact-sheet/eimi-ishares-core-msci-em-imi-ucits-etf-fund-fact-sheet-en-gb.pdf), and are one of the lowest fee for an ETF.
 
 <!-- #### Reinvesting the dividends
 IWDA also ticks the box. The difference of reinvesting and not reinvesting the dividends can determine if your investment will be exponential or not. 
