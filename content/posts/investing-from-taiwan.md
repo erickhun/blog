@@ -1,5 +1,5 @@
 +++
-categories = ["taiwan"", "investment", "interactive brokers", "etf"]
+categories = ["taiwan", "investment", "interactive brokers", "etf"]
 date = "2020-11-29T17:37:00+01:00"
 description = ""
 draft = false
@@ -55,14 +55,14 @@ https://indexfundinvestor.eu/2019/01/02/what-is-the-difference-between-iwda-and-
 Even though , I still own some single stocks. They represent a really small part of my portfolio and I've mostly said "bye" to that money when I clicked "buy", even though I hope they'll grow more than the ETFs. For them, I'm aware of them  -->
 
 #### Low fees
-Too often, new investors don't realize, or realize too late the importance of chosing low management fees funds. Even if that looks insignificant, every funds charge fees. It can be anywhere from [0.015%](https://www.investopedia.com/articles/markets/102715/3-index-funds-lowest-expense-ratios.asp) to more than 2%. Even if 2% sounds not that much, it will negatively impact your final return. By starting with $10,000, and adding $2,000 every month over 20 years and with 7% interest: 
+Too often, new investors don't realize, or realize too late the importance of choosing low management fees funds. Even if that looks insignificant, every funds charge fees. It can be anywhere from [0.015%](https://www.investopedia.com/articles/markets/102715/3-index-funds-lowest-expense-ratios.asp) to more than 2%. Even if 2% sounds not that much, it will negatively impact your final return. By starting with $10,000, and adding $2,000 every month over 20 years and with 7% interest: 
 - In a 0,2% management fee , you'll end up with $1,028,000, and paid **$25,000 fees**
 - With a 1% management fee, you'll end up with $932,000, and paid **$121,000 fees**
 - With a 2% management fee, you'll end up with $827,000, and paid **$225,000 fees**
 
 Some other scenarios are demonstrated on how fees impact the returns in [Vanguard](https://investor.vanguard.com/investing/how-to-invest/impact-of-costs) or the [SEC](https://www.sec.gov/investor/alerts/ib_fees_expenses.pdf)
 
-IWDA has a management fee of [0.20%](https://www.ishares.com/uk/individual/en/literature/fact-sheet/swda-ishares-core-msci-world-ucits-etf-fund-fact-sheet-en-gb.pdf) and EIMI [0.18%](https://www.ishares.com/uk/individual/en/literature/fact-sheet/eimi-ishares-core-msci-em-imi-ucits-etf-fund-fact-sheet-en-gb.pdf), and are one of the lowest fee for an ETF.
+IWDA has a management fee of [0.20%](https://www.ishares.com/uk/individual/en/literature/fact-sheet/swda-ishares-core-msci-world-ucits-etf-fund-fact-sheet-en-gb.pdf) and EIMI [0.18%](https://www.ishares.com/uk/individual/en/literature/fact-sheet/eimi-ishares-core-msci-em-imi-ucits-etf-fund-fact-sheet-en-gb.pdf), and are one of the lowest fees for an ETF.
 
 <!-- #### Reinvesting the dividends
 IWDA also ticks the box. The difference of reinvesting and not reinvesting the dividends can determine if your investment will be exponential or not. 
@@ -78,7 +78,7 @@ IWDA also ticks the box. The difference of reinvesting and not reinvesting the d
 
 [**Interactive Brokers**](http://interactivebrokers.com/) (I'll call it IB) is the one I **highly recommend**. You'll access to all types of securities: ETFs, stocks and even currencies. It has the lowest fees to purchase them. It will also  allow you to access to the ETFs I've recommended earlier: IWDA and EIMI.
 
-The signup process is straight forward. Simply fill your information in the signup page, and wait few days before validation. Make sure to fill your tax residence (Taiwan) since it will could impact how tax could be taken directly by the broker (cf. below). Also, [*be aware of the monthly fee if your orders don't generate at least USD 10 of fees per month*](https://www1.interactivebrokers.com/en/index.php?f=4969).
+The signup process is straight forward. Simply fill your information in the signup page, and wait a few days before validation. Make sure to fill your tax residence (Taiwan) since it will could impact how the tax could be taken directly by the broker (cf. below). Also, [*be aware of the monthly fee if your orders don't generate at least USD 10 of fees per month*](https://www1.interactivebrokers.com/en/index.php?f=4969).
 
 **How about local banks?**  Local banks will charge you crazy fees to access to foreign securities, but could probably be a good pick if you want to invest in Taiwanese securities. I won't expand on this since I didn't dig into this yet. 
 
