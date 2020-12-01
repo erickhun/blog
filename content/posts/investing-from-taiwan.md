@@ -99,24 +99,24 @@ The signup process is straight forward. Simply fill your information in the sign
 The great benefit of Taiwan when investing that there is no capital gain. It means if you buy a stock that cost USD10 and sell it when it worth 100USD you won't pay tax on the USD 90 profit.
 
 #### Tax on dividends, and the importance of fund domicile
-What is important to understand when calculating tax on dividends, is that it exists multiple levels of taxation: 
+Taiwanese residents investing directly in the American market are taxed 30% on dividends. However, you can lower it to 15% by buying shares with a fund domiciled in Ireland.
 
-- **L1TW**: Percentage of tax withholding by a security's home country on dividends distributed by that security to the fund (Level 1).
-- **L2TW**: Percentage of tax withholding by the country where the fund is domiciled on the dividends distributed to the investor by the fund (Level 2).
-- **L3T**: Percentage of taxation that the individual investor needs to pay in their home country (Level 3).
+What is important to understand when calculating tax on dividends, is that it exists multiple levels of taxation. I'll give more detail on how they applied on each level as a Taiwan tax resident: 
 
-When investing in an world ETF composed mainly of US stocks, the fund domicile is important, especially if there is no treaty between your tax residence and the fund domicile. The US tax 30% flat on them. The trick here is to go through an Irish Fund. Luckily, IWDA is located in Ireland, so you can benefit from this tax treaty. Since IWDA is composed of 60% of US companies , there is a bit of math to do to exactly know how much tax will be taken . 
+- **L1TW** (Level 1): Percentage of tax withholding by a security's home country on dividends distributed by that security to the fund . This will be applied at the broker level, and you won't have anything to do. By default it is 30%, but if you buy shares via a country with a tax treaty, it can be lower. Ireland has a tax treaty with the US, so it can be lower to 15% if you use and Irish fund to get US shares. 
+- **L2TW** (Level 2): Percentage of tax withholding by the country where the fund is domiciled on the dividends distributed to the investor by the fund.  Ireland doesn't tax their non-resident. Since you reside in Taiwan, it will be 0%. 
+- **L3T** (Level 3): Percentage of taxation that the individual investor needs to pay in their home country. Since there is no tax on oversea income. 
 
-When you friends say there is no tax on foreign income in Taiwan, they're talking on the **L3T** level. And this is applicable only if you're resident (living more than 183 days in Taiwan), otherwise you'll get a 21% flat on [those oversea dividends](https://www2.deloitte.com/content/dam/Deloitte/global/Documents/Tax/dttl-tax-taiwanhighlights-2020.pdf). So be aware to stay at least 183 days in Taiwan to enjoy this benefit :)
-
-If you purchased directly stocks domiciled in the US, dividends will be taxed 30% flat. This is because there is no tax treaty between Taiwan and the US. 
+This is why I've picked IWDA that is located in [Ireland](https://www.ishares.com/uk/individual/en/literature/fact-sheet/swda-ishares-core-msci-world-ucits-etf-fund-fact-sheet-en-gb.pdf). Since IWDA is composed of 60% of US companies , there is a bit of math to do to exactly know how much tax will be taken. This also means that all the dividends issued via a US shares you buy  directly with be taxed 30% the L1TW level (Level 1).   
 
 Calculating the tax on the dividends for a given ETF is a bit tricky. Since an ETF contains share of many companies from different countries, you'll need to understand the composition of your ETF.  Since there is a treaty between the US and Ireland, and most companies being in the ETF are located in the US, the tax on the dividends are in average [~12.1%](https://www.bogleheads.org/wiki/Nonresident_alien_investors_and_Ireland_domiciled_ETFs#Estimating_Level_1_dividend_tax_withholding_paid_by_Ireland_domiciled_funds). I say in average because the exposure to different countries change from year to year.
 
 
+<!-- ### Tax on crypto-currencies
+This is something that is still in discussion and I didn't have time to investigate in. If you have more information, feel free to reach me. -->
+
 ### How to fill your tax?
 Simply shows up to the [tax office](https://goo.gl/maps/xReNBAMxigRMamSE6) during the tax season and declare your gain. You can easily generate a statement in Interactive brokers as a proof.
-
 
 <!-- ### Insurance of the broker
 
