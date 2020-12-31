@@ -1,5 +1,5 @@
 +++
-categories = ["taiwan", "semiconductors"]
+categories = ["taiwan"]
 date = "2020-12-31T12:39:00+01:00"
 description = ""
 draft = false
