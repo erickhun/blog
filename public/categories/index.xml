@@ -6,10 +6,28 @@
     <description>Recent content in Categories on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Nov 2020 17:37:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 12 Dec 2020 22:39:00 +0100</lastBuildDate>
     
 	<atom:link href="https://erickhun.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>semiconductors</title>
+      <link>https://erickhun.com/categories/semiconductors/</link>
+      <pubDate>Sat, 12 Dec 2020 22:39:00 +0100</pubDate>
+      
+      <guid>https://erickhun.com/categories/semiconductors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>taiwan</title>
+      <link>https://erickhun.com/categories/taiwan/</link>
+      <pubDate>Sat, 12 Dec 2020 22:39:00 +0100</pubDate>
+      
+      <guid>https://erickhun.com/categories/taiwan/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>etf</title>
@@ -35,15 +53,6 @@
       <pubDate>Sun, 29 Nov 2020 17:37:00 +0100</pubDate>
       
       <guid>https://erickhun.com/categories/investment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>taiwan</title>
-      <link>https://erickhun.com/categories/taiwan/</link>
-      <pubDate>Sun, 29 Nov 2020 17:37:00 +0100</pubDate>
-      
-      <guid>https://erickhun.com/categories/taiwan/</guid>
       <description></description>
     </item>
     
