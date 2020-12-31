@@ -1,6 +1,6 @@
 +++
 categories = ["taiwan", "semiconductors"]
-date = "2020-12-12T22:39:00+01:00"
+date = "2020-12-31T12:39:00+01:00"
 description = ""
 draft = false
 image = "/img/about-bg.jpg"
@@ -68,15 +68,14 @@ Getting the fewer "defects" as possible the challenge for manufacturer. This is 
 
 If you manufacture chips, but more than 60% of the chips are faulty, this wouldn't be great when you'll need to scale. Those failure can be caused for multiple reasons. Some because of tiny imperfections in the silicon substrate, and others caused of alignment and patterning issues.
 
-The yield this is why so much money are poured by the manufacturers into Research and Development. You want to get the highest yield as possible, to be able to scale to billons of chips to satisfy your customers. Each year, their customers ask TMSC for smaller, and better chips (especially Apple). The process to make them needs to be refined, and new equipments to support those new process are constantly needed. [TSMC invested in 2019 3 billons dollar](https://www.taiwannews.com.tw/en/news/3954592) into R&D, and plan to invest more in 2020.  Would any other other company would have the budget to do that? 
+The yield this is why so much money are poured by the manufacturers into Research and Development. You want to get the highest yield as possible, to be able to scale to [billons of chips](https://www.tsmc.com/english/news-events/blog-article-20200801) to satisfy your customers. Each year,  TMSC's customers ask for smaller, and better chips (especially Apple). The process to make them needs to be refined, and new equipments to support those new process are constantly needed. [TSMC invested in 2019 3 billons dollar](https://www.taiwannews.com.tw/en/news/3954592) into R&D, and plan to invest more in 2020.  Would any other other company would have the budget to do that? 
 
-Today's TSMC's monopoly is is probably the results of a 40 years relationships with partners working wit each other,  creating tight relationship and trust. This  might be the reason on why it is so hard to compete.
+Today's TSMC's monopoly is is probably the results of a 40 years relationships with partners working wit each other, creating tight relationship and trust between each other. 
 
 {{< youtube SP7PMmetpyw >}}
 
-
-### Why to prefer TSMC over others? TSMC's "inner circle" and trust
-TSMC and its founder Maurice Cheng is well respected for [its integrity](https://www.tsmc.com/english/aboutTSMC/values) and being impecable about it. Companies trust them , and they have a clause of non-competitivity with everyone of their partner. When hearing about customers, you'll likely to hear love story with peolpe having the chance to work with them and how awesome is TSMC. 
+### Why prefer TSMC over others? TSMC's "inner circle"
+**It's all about trust**. TSMC and its founder Morris Chang is well respected for [its integrity](https://www.tsmc.com/english/aboutTSMC/values) and being impecable about it. Companies trust them , and they have a clause of non-competitivity with everyone of their partner. When hearing about customers, you'll likely to hear love story with peolpe having the chance to work with them and how awesome is TSMC. 
 
 Trust that the foundry will not compete unfairly with you. Trust that the foundry will deliver the PPA (power/performance/area). TSMC was impeccable on those 2 points since it was created. [Apple had legal issues with Samsung](https://en.wikipedia.org/wiki/Apple_Inc._v._Samsung_Electronics_Co ) when Apple asked them to manufacture their chips. They won't likely get back to them for this reason.
 
@@ -84,6 +83,15 @@ Trust that the foundry will not compete unfairly with you. Trust that the foundr
 The other strength of TSMC are probably their inner circle of partners. They a massive ecosystem of partners and customers who together spend trillions of dollars on research and development for the greater good of the fabless semiconductor ecosystem. There is also an inner circle of partners and customers that TSMC intimately collaborates with on new process development and deployment. Including Apple, AMD, ARM or ASML. Sourcing the right partners that will helps into the correct equipment for making. They work closely  to improve everyone's process and together partners together spend trillions of dollars on R&D.
 
 Trust to TSMC is what seem to drive TSMC business, but also want to work to chose them over other manufacturer
+
+<!-- ## Why not just do an other TSMC? 
+The most serious competitor today is probably Samsung. As explained, some trust or IP issue might surface since Samsung do not only do chips, but also end products for their users. 
+
+Intel today is losing the race. Competition and research become so hard that some of the leader struggle, and Intel struggling since few years have internal discussion to   outsource chip to TSMC, that have years 
+
+Trillions had already been poured into R&D. The network and partners might would take years (decades) to 
+
+China is trying hard to help its . But this one -->
 
 
 ## Conclusion
@@ -93,22 +101,11 @@ The cutting edge semiconductor chip manufacturing is (and was) done in Taiwan. T
 <!-- ### Cost of creating an other TSMC
 
 
-## Why not just do an other TSMC? 
-Historically, those semi-condutors were made in each company that needed have any type of semiconductors. 
-
-Less is more. TSMC is focusing only on making 
-
-Fabless - 
-Texas Instruments, Sony, Toshiba,  all had their own fab. 
-However. 
 Morris Chang had the idea to create a new model, where all those companie would , and they'll only focus . Pretty simple isn't it? Wrong. 
 It might have been simple, but the more you want, the more research you'll need to invest. In human ressource.
+
 Here a Mckinsey report 
 
-Competition and research become so hard that some of the leader struggle, and Intel struggling since few years have internal discussion to   outsource chip to TSMC, that have years 
-
-Their key provider to enable the current is ASML. However, 
-TSMC has more than 6000 partners, most of them being local ones. 
 
 Apple knows how hard it is to create. It is simpler for them to let, and focusing on products people want. iPhones, macbook, and cars ;) . They gave to build a new plant in the south only to build the. Who else could do that? 
 
@@ -127,8 +124,7 @@ They work closely with all their partner to make sure progress are made.
 All those parameter compound over time, and result in better performance, better technlogy 
 
 
-Important: success rate of creating .
-Trying to create one cost money and time, TSMC has probably the highest yeild and defects. For its 7nm processor, they've announced 1b chips made https://www.tsmc.com/english/news-events/blog-article-20200801
+For its 7nm processor, they've announced 1b chips made https://www.tsmc.com/english/news-events/blog-article-20200801
 
 Apple also want that innovation, and ready to pay more to TSMC for them to innovate and do more reasearch. They don't mind pouring 
 from R&D to 2 years to chip 1B chips is amazing. and no one can compete today. 
