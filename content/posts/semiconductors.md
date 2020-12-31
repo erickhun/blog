@@ -61,9 +61,9 @@ To create smaller and smaller chips, TSMC uses today a proces called [Extreme ul
 So wouldn't just getting the ASML machine enough to take over TSMC? Not that easy.  It's also not only ASML lithography machines, but other equipments that they need to learn how to operate which have their own quirks, faults and tolerances. Having to chain all these together into a high volume manufacturing process is a problem in of itself and you can start to see the complexity from there. ASML's lithography is only 10% of the manufacturing process (but 20% of the total costs). 
 Put simply is ASML sells the pots and TSMC sells the cooking. Cooking is very hard. Each takes a lifetime of specialty to get to the top of the field, it's hard to be good at both. And everything is done with an army of people. You would find that people who make chef knives are probably not michellin star chefs. Think of the machines that ASML builds as simply a tool to which they are the only ones who have been able to solve a specific set of problems. A nice hammer still needs a skilled craftsman to use it.
 
+One of the focus is probably getting the less faults as possible. If you try, and more than 50%, of them are faulty. This is where the challenge come. And putting all the hardware that your partner  together to manufacture 
 
-
-<!-- Incremental steps. You can only go to a better smaller only . You'll not likely. Or you might bet it, Thise is where Intel is at now. They're, and could be in a better to catchup how late they are. But it's all or nothing strategy -->
+Incremental steps. You can only go to a better smaller only . You'll not likely. Or you might bet it, Thise is where Intel is at now. They're, and could be in a better to catchup how late they are. But it's all or nothing strategy -->
 
 <!-- ### Cost of creating an other TSMC
 
