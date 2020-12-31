@@ -1,0 +1,147 @@
++++
+categories = ["taiwan", "semiconductors"]
+date = "2020-12-12T22:39:00+01:00"
+description = ""
+draft = false
+image = "/img/about-bg.jpg"
+title = "The world's innovation depends on a single country: Taiwan"
++++
+
+The world's next innovations depends on a single country: Taiwan. It's probably one country you might never heard about, or perhaps confuse with it neighbor, Thailand, or even think it's a part of [China](https://en.wikipedia.org/wiki/Political_status_of_Taiwan). 
+
+I've been living in Taiwan for  3+ years, and baffled that I never pay attention to semiconductors. I'm a software engineer, but didn't think much more about the importance of them. As far as my laptop can change code to real things and doesn't lag when I have constantly [hundred tabs open](/img/tsmc/tabs.jpg), I was satisfied.
+At a recent [Taiwan Gold Card](https://taiwangoldcard.com) dinner, one of the speakers introduced himself as someone with 30+ years experience at IBM, who moved to Taiwan for [TSMC](https://en.wikipedia.org/wiki/TSMC). It picked my curiosity, and started to investigate, to realize how **the world depends on a TSMC for the past decades of innovation, and still be for the next ones**.
+
+
+## The world needs (and want) better semiconductors
+
+Semiconductors has and had a significant impact on our society. They're everywhere, and essential to any electrical object, from a simple [led](https://en.wikipedia.org/wiki/Light-emitting_diode) to a [shuttle that can send the humanity to Mars](https://www.analog.com/en/technical-articles/challenges-for-electronic-circuits-in-space-applications.html#).  Without them, you couldn't read this article, we couldn't drive cars , and wouldn't be able to call your family. They are needed to build any electronic devices. TV's, computers, medical equipment. 
+
+We can illustrate with the COVID19 vaccine that was created in less than 6 months, from research to mass production. This would have been impossible a decade ago. Zoom calls over internet were made to connect researchers. Any new reasearch papers were instantly available to researchers to make progress. Machine Learning was used to sequence the virus DNA. Cutting edges machines were used to prototype any new potential vaccines. Thousansands of volunteers were reached instantly to test the vaccines. Then [millions of vaccines were be manufactured at scale](https://www.labiotech.eu/medical/covid-19-vaccine-manufacture/). And this happened in less than 6 months what would have probably take years a decade ago.
+
+Making those tiny things might sound like an easy, but making them better, more efficient, and smaller is the real challenge. Without the progress the semiconductor industry has made, we wouldn't have been where the world is today.  Even if [software](https://a16z.com/2011/08/20/why-software-is-eating-the-world/) or bigger hardware are the final mean, semicondutors do the real works to enable them to run. 
+
+And our future needs needs semeconductors to be better. We want electronic devices consuming less electricity to save the planet. We want [clean energy](https://repositories.lib.utexas.edu/handle/2152/47379#:~:text=Semiconductors%20play%20a%20key%20role,for%20solar%20electric%20energy%20systems.) (solar panels & co) and replace fossil energy. We want [unlimited battery life for our phone of computer](https://medium.com/pcmag-access/apple-our-new-arm-based-macs-offer-epic-cpu-performance-and-battery-life-3ccda5e1da11). We want tinier camera with higher resolution to [spy](https://en.wikipedia.org/wiki/Mass_surveillance_in_China) citizens of [every country](https://californiaglobe.com/section-2/city-of-san-diego-awarded-ge-mass-surveillance-contract-without-oversight/).  We want better computers to run IA and run your [next domestic helper (or terminator?)](https://youtube.com/watch?v=fn3KWM1kuAw). We want to space travel. We want [...]
+
+_**The one company that changed the game, enabled those technology to progress, and will help everyone's dream is called TSMC.**_
+
+
+{{< youtube fn3KWM1kuAw >}}
+
+
+## Isn't it just "chips"? It's everywhere it must be simple to do
+Not that simple. To understand why TSMC is so essential we should understand first the supply-chain for any end user electronic devices. 
+
+### The supply chain
+Historically, all electronic selling electronic hardware had a small business unit manufacturing the chips. It costed money and time to create those chips. However those companies didn't want to waste time to do those chips, so they ask to other big names such as Texas Instrument, or Samsung to help them do those chips. 
+But those doesn't necessarly have capacity or willingness to do chips for those competitors. They either  were asking big bucks to do them. 
+
+This is wheen we start seeing semi conductors only on manufacturing and designing those chips. Some of those companies only design chips for the end product company. They're called Fabless Company. They helped you design and manufacture those chips, you'll just need to tell them what you want. TSMC is a bit diffferent. They only manufacture those chips, and you'll need to give them the design of the chip you want. TSMC is  called a "Pure Play Foundry". 
+
+To vizualize better and understand who is who, let's put some names into players of the supply chain: 
+- End product company: Canon (Camera), Sony (Console), Apple, Tesla (cars) Samsung*
+- IDMs (design and manufacture the ICs): Samsung*, Intel
+- Fabless (only design chips the ICs and give to pure play foundry for manufacturing): Nvidia, AMD, Qualcomm, Broadcom
+- Pure Play (only manufacture the ICs): TSMC, GlobalFoundry, 
+
+_*You can notice here that Samsung has the End product, ICs design , and manufacturing abilities_
+
+But TSMC only manufactures chips, it must be easy. This is what I was also thinking, until I dig deeper into the subject.  The hardest part for any end user electronic devices is to manufacture the Integrated Circuit (ICs, or chips). Today only 2 companies doing it at the state of the art: TSMC, and Samsung. 
+
+<!-- ## A quick story of TSMC
+
+The one company enabling this progress of the semiconductor companies on focusing on making them better are the key to improve today's life, and TSMC is certainly the one that helps the world to move forward.  -->
+
+### Why is it so hard?
+
+To create smaller and smaller chips, TSMC uses today a proces called [Extreme ultraviolet lithography](https://en.wikipedia.org/wiki/Extreme_ultraviolet_lithography) (or EUV). The machine enabling this litography process is provided by a company called [ASML](https://www.asml.com/). The machine has to basically create a new way to make light. Extreme difficult process called [Immersion Litography](https://en.wikipedia.org/wiki/Immersion_lithography). The process is to drip molten tin into a chamber, and hit it with a laser to create a bright light / plasma that can make it through the series of mirrors and masks to the wafers (chips). And it happens 50,000 times a minute. Some agrees that this machine might probably be the most complicated machine human kind has ever engineered - more difficult than putting a man on the moon. This kind of machine costs itself $120 million US dollar. 1 machine weight 180 tonnes, with the size of a double-decker bus. A  mindblowing part is that [ASML sources from 5000 vendors to make its EUV machines](https://www.economist.com/business/2020/02/29/how-asml-became-chipmakings-biggest-monopoly).
+
+{{< youtube Gqu0L5oVatk >}}
+
+Wouldn't just getting the ASML machine enough to take over TSMC? 
+
+Not that easy. Put simply is ASML sells the pots - TSMC sells the cooking. Cooking is very hard. Each takes a lifetime of specialty to get to the top of the field, it's hard to be good at both. Everything is done with an army of people. You would find that people who make chef knives are probably not michellin star chefs. Think of the machines that ASML builds as simply a tool to which they are the only ones who have been able to solve a specific set of problems. A nice hammer still needs a skilled craftsman to use it.
+
+It's also not only ASML lithography machines, but other equipments that they need to learn how to operate which have their own quirks, faults and tolerances. Having to chain all these together into a high volume manufacturing process is a problem in of itself and you can start to see the complexity from there. ASML's lithography is only 10% of the manufacturing process (but 20% of the total costs) 
+
+<!-- Incremental steps. You can only go to a better smaller only . You'll not likely. Or you might bet it, Thise is where Intel is at now. They're, and could be in a better to catchup how late they are. But it's all or nothing strategy -->
+
+<!-- ### Cost of creating an other TSMC
+
+
+### Why do prefer TSMC over others?
+TSMC and its founder Maurice Cheng is well respected for its integrity. Companies trust them , and they have a clause of non-competitivity with everyone of their partnerr.
+
+Apple had some issue with samsung. Trust to TSMC is what seem to drive TSMC business, but also want to work to chose them over other manufacturer
+
+One of the recent is a lawsuit  companies such as Apple design the end product (iPhone), and want to keep control of the design. They understand how hard and costly it is to manufacture those ICs chips, so partner with Pure Play foundry to manufacture what they. 
+
+
+
+## Why not just do an other TSMC? 
+Historically, those semi-condutors were made in each company that needed have any type of semiconductors. 
+
+Less is more. TSMC is focusing only on making 
+
+Fabless - 
+Texas Instruments, Sony, Toshiba,  all had their own fab. 
+However. 
+Morris Chang had the idea to create a new model, where all those companie would , and they'll only focus . Pretty simple isn't it? Wrong. 
+It might have been simple, but the more you want, the more research you'll need to invest. In human ressource.
+Here a Mckinsey report 
+
+Competition and research become so hard that some of the leader struggle, and Intel struggling since few years have internal discussion to   outsource chip to TSMC, that have years 
+
+Their key provider to enable the current is ASML. However, 
+TSMC has more than 6000 partners, most of them being local ones. 
+
+Apple knows how hard it is to create. It is simpler for them to let, and focusing on products people want. iPhones, macbook, and cars ;) . They gave to build a new plant in the south only to build the. Who else could do that? 
+
+Trust between vendors and TSMC: https://www.youtube.com/watch?v=wEh3ZgbvBrE
+
+TSMC : never compete with our customers
+Because trust ans integrity. they don't do product, they enable other companies tondo products
+
+Apple sue samsung for pattern violation: https://en.wikipedia.org/wiki/Apple_Inc._v._Samsung_Electronics_Co 
+
+Make their partner better and better
+
+To compare, Apple invested 9B to build a fab for APple produt, while the biggest raised . 
+
+TSMC make better progress with less risks. progress are .
+They work closely with all their partner to make sure progress are made. 
+All those parameter compound over time, and result in better performance, better technlogy 
+
+
+Important: success rate of creating .
+Trying to create one cost money and time, TSMC has probably the highest yeild and defects. For its 7nm processor, they've announced 1b chips made https://www.tsmc.com/english/news-events/blog-article-20200801
+
+Apple also want that innovation, and ready to pay more to TSMC for them to innovate and do more reasearch. They don't mind pouring 
+from R&D to 2 years to chip 1B chips is amazing. and no one can compete today. 
+
+
+mckinsey reasearch , barriere to entry: 
+ 
+Apple already booked https://wccftech.com/apple-secured-80-tsmc-5nm-production-capacity-2021/
+
+
+China's most advanced semiconductor is 4 year behind TSMC https://www.eetimes.com/smic-advanced-process-technologies-and-govt-funding/
+
+
+It is not because you have a recipe that your food will be great.
+You'll need a good recipe, some great ustensile, and someone who can put it together to make it work.
+
+
+## Geopolicatcal status quo
+Cold war between China 
+China is now . but don't have access to the best chips to create new products
+It settled with an other company, but 
+
+https://thediplomat.com/2020/12/taiwan-chips-and-geopolitics-part-1/
+
+
+## So why don't we derisk it?
+Europe is edging with this new
+USA tried to edge in the past but failed
+Barrier to entry:
+McKinsey report -->
