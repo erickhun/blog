@@ -58,23 +58,39 @@ To create smaller and smaller chips, TSMC uses today a proces called [Extreme ul
 
 {{< youtube Gqu0L5oVatk >}}
 
-So wouldn't just getting the ASML machine enough to take over TSMC? Not that easy.  It's also not only ASML lithography machines, but other equipments that they need to learn how to operate which have their own quirks, faults and tolerances. Having to chain all these together into a high volume manufacturing process is a problem in of itself and you can start to see the complexity from there. ASML's lithography is only 10% of the manufacturing process (but 20% of the total costs). 
+So wouldn't just getting the ASML machine enough to take over TSMC? Not that easy. It's not only ASML lithography machines, but other equipments that come into play. ASML's lithography is only 10% of the manufacturing process (but 20% of the total costs). TSMC needs to learn how to operate each equipment together, and every single equipment has their own quirks, faults and tolerances. Having to chain all the equipment together, into a high volume manufacturing process, is an other problem of itself.
+
 Put simply is ASML sells the pots and TSMC sells the cooking. Cooking is very hard. Each takes a lifetime of specialty to get to the top of the field, it's hard to be good at both. And everything is done with an army of people. You would find that people who make chef knives are probably not michellin star chefs. Think of the machines that ASML builds as simply a tool to which they are the only ones who have been able to solve a specific set of problems. A nice hammer still needs a skilled craftsman to use it.
 
-One of the focus is probably getting the less faults as possible. If you try, and more than 50%, of them are faulty. This is where the challenge come. And putting all the hardware that your partner  together to manufacture 
+### The importance of minimizing faults, and Research & Development
 
-Incremental steps. You can only go to a better smaller only . You'll not likely. Or you might bet it, Thise is where Intel is at now. They're, and could be in a better to catchup how late they are. But it's all or nothing strategy -->
+Getting the fewer "defects" as possible the challenge for manufacturer. This is probably the main focus for the chips manufacturers, and where TSMC excels. The percent of devices on the wafer found to perform properly is referred to as the yield.
+
+If you manufacture chips, but more than 60% of the chips are faulty, this wouldn't be great when you'll need to scale. Those failure can be caused for multiple reasons. Some because of tiny imperfections in the silicon substrate, and others caused of alignment and patterning issues.
+
+The yield this is why so much money are poured by the manufacturers into Research and Development. You want to get the highest yield as possible, to be able to scale to billons of chips to satisfy your customers. Each year, their customers ask TMSC for smaller, and better chips (especially Apple). The process to make them needs to be refined, and new equipments to support those new process are constantly needed. [TSMC invested in 2019 3 billons dollar](https://www.taiwannews.com.tw/en/news/3954592) into R&D, and plan to invest more in 2020.  Would any other other company would have the budget to do that? 
+
+Today's TSMC's monopoly is is probably the results of a 40 years relationships with partners working wit each other,  creating tight relationship and trust. This  might be the reason on why it is so hard to compete.
+
+{{< youtube SP7PMmetpyw >}}
+
+
+### Why to prefer TSMC over others? TSMC's "inner circle" and trust
+TSMC and its founder Maurice Cheng is well respected for [its integrity](https://www.tsmc.com/english/aboutTSMC/values) and being impecable about it. Companies trust them , and they have a clause of non-competitivity with everyone of their partner. When hearing about customers, you'll likely to hear love story with peolpe having the chance to work with them and how awesome is TSMC. 
+
+Trust that the foundry will not compete unfairly with you. Trust that the foundry will deliver the PPA (power/performance/area). TSMC was impeccable on those 2 points since it was created. [Apple had legal issues with Samsung](https://en.wikipedia.org/wiki/Apple_Inc._v._Samsung_Electronics_Co ) when Apple asked them to manufacture their chips. They won't likely get back to them for this reason.
+
+
+The other strength of TSMC are probably their inner circle of partners. They a massive ecosystem of partners and customers who together spend trillions of dollars on research and development for the greater good of the fabless semiconductor ecosystem. There is also an inner circle of partners and customers that TSMC intimately collaborates with on new process development and deployment. Including Apple, AMD, ARM or ASML. Sourcing the right partners that will helps into the correct equipment for making. They work closely  to improve everyone's process and together partners together spend trillions of dollars on R&D.
+
+Trust to TSMC is what seem to drive TSMC business, but also want to work to chose them over other manufacturer
+
+
+## Conclusion
+
+The cutting edge semiconductor chip manufacturing is (and was) done in Taiwan. The island has acquired strategic significance, with partners all over the world.  Those chips helps every new products to progress: (flying) electrical cars, space ships, Phones, 5G , new drugs to progress. It became a key technology , but also in any world military forces.  
 
 <!-- ### Cost of creating an other TSMC
-
-
-### Why do prefer TSMC over others?
-TSMC and its founder Maurice Cheng is well respected for its integrity. Companies trust them , and they have a clause of non-competitivity with everyone of their partnerr.
-
-Apple had some issue with samsung. Trust to TSMC is what seem to drive TSMC business, but also want to work to chose them over other manufacturer
-
-One of the recent is a lawsuit  companies such as Apple design the end product (iPhone), and want to keep control of the design. They understand how hard and costly it is to manufacture those ICs chips, so partner with Pure Play foundry to manufacture what they. 
-
 
 
 ## Why not just do an other TSMC? 
@@ -101,7 +117,6 @@ Trust between vendors and TSMC: https://www.youtube.com/watch?v=wEh3ZgbvBrE
 TSMC : never compete with our customers
 Because trust ans integrity. they don't do product, they enable other companies tondo products
 
-Apple sue samsung for pattern violation: https://en.wikipedia.org/wiki/Apple_Inc._v._Samsung_Electronics_Co 
 
 Make their partner better and better
 
