@@ -79,10 +79,7 @@ Today's TSMC's monopoly is is probably the results of a 40 years relationships w
 
 Trust that the foundry will not compete unfairly with you. Trust that the foundry will deliver the PPA (power/performance/area). TSMC was impeccable on those 2 points since it was created. [Apple had legal issues with Samsung](https://en.wikipedia.org/wiki/Apple_Inc._v._Samsung_Electronics_Co ) when Apple asked them to manufacture their chips. They won't likely get back to them for this reason.
 
-
 The other strength of TSMC are probably their inner circle of partners. They a massive ecosystem of partners and customers who together spend trillions of dollars on research and development for the greater good of the fabless semiconductor ecosystem. There is also an inner circle of partners and customers that TSMC intimately collaborates with on new process development and deployment. Including Apple, AMD, ARM or ASML. Sourcing the right partners that will helps into the correct equipment for making. They work closely  to improve everyone's process and together partners together spend trillions of dollars on R&D.
-
-Trust to TSMC is what seem to drive TSMC business, but also want to work to chose them over other manufacturer
 
 <!-- ## Why not just do an other TSMC? 
 The most serious competitor today is probably Samsung. As explained, some trust or IP issue might surface since Samsung do not only do chips, but also end products for their users. 
