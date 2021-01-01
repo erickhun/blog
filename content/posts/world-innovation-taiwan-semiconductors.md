@@ -81,6 +81,8 @@ Trust that the foundry will not compete unfairly with you. Trust that the foundr
 
 The other strength of TSMC are probably their inner circle of partners. They a massive ecosystem of partners and customers who together spend trillions of dollars on research and development for the greater good of the fabless semiconductor ecosystem. There is also an inner circle of partners and customers that TSMC intimately collaborates with on new process development and deployment. Including Apple, AMD, ARM or ASML. Sourcing the right partners that will helps into the correct equipment for making. They work closely  to improve everyone's process and together partners together spend trillions of dollars on R&D.
 
+Trust toward TSMC is proably the main reason why companies that needs chips will prefer TSMC over others. 
+
 <!-- ## Why not just do an other TSMC? 
 The most serious competitor today is probably Samsung. As explained, some trust or IP issue might surface since Samsung do not only do chips, but also end products for their users. 
 
