@@ -12,6 +12,8 @@
     {{ template "_internal/twitter_cards.html" . }}
     {{ template "_internal/opengraph.html" . }}
 
+    {{ if .Params.og_image }} <meta property="og:image" content="{{ .Params.og_image }}" />{{ end }}
+
     {{ if .Permalink }}
       <base href="{{ .Permalink }}">
     {{ end }}

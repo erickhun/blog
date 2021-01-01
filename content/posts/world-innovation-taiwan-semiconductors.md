@@ -3,7 +3,8 @@ categories = ["taiwan"]
 date = "2020-12-31T12:39:00+01:00"
 description = ""
 draft = false
-image = "/img/about-bg.jpg"
+image = "/img/tsmc/boston-dynamics.jpg"
+og_image = "/img/tsmc/boston-dynamics.jpg"
 title = "The world next innovations depend on a single country, Taiwan"
 +++
 
