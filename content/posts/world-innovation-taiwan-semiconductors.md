@@ -33,10 +33,10 @@ _**The one company that changed the game, enabled those technology to progress, 
 Not that simple. To understand why TSMC is so essential we should understand first the supply-chain for any end user electronic devices. 
 
 ### The supply chain
-Historically, all electronic selling electronic hardware had a small business unit manufacturing the chips. It costed money and time to create those chips. However those companies didn't want to waste time to do those chips, so they ask to other big names such as Texas Instrument, or Samsung to help them do those chips. 
-But those doesn't necessarly have capacity or willingness to do chips for those competitors. They either  were asking big bucks to do them. 
+Historically, all electronic selling electronic hardware had a small business unit manufacturing the Integrated Circuit (ICs, or chips). It cost money and time to create them. However those companies didn't want to waste time to do those chips, so they ask to other big names such as Texas Instrument, or Samsung to help them do them. 
+But those doesn't necessarly have capacity or willingness to do chips for those competitors. If so, they were often  asking big bucks to design/manufacture them. 
 
-This is wheen we start seeing semi conductors only on manufacturing and designing those chips. Some of those companies only design chips for the end product company. They're called Fabless Company. They helped you design and manufacture those chips, you'll just need to tell them what you want. TSMC is a bit diffferent. They only manufacture those chips, and you'll need to give them the design of the chip you want. TSMC is  called a "Pure Play Foundry". 
+This is wheen we start seeing the born of semiconductors that we only designing/manufacturing those the chips. Some of those companies only designed them for the end product company. They're called Fabless Company. You'll just need to tell them what you want. TSMC is a bit diffferent. They only manufacture those chips, and you'll need to give them the design of the chip you want. It is called a "Pure Play Foundry". 
 
 To vizualize better and understand who is who, let's put some names into players of the supply chain: 
 - End product company: Canon (Camera), Sony (Console), Apple, Tesla (cars) Samsung*, etc...
@@ -44,13 +44,13 @@ To vizualize better and understand who is who, let's put some names into players
 - Fabless (only design chips the ICs and give to pure play foundry for manufacturing): Nvidia, AMD, Qualcomm, Broadcom
 - Pure Play (only manufacture the ICs): TSMC, GlobalFoundry, 
 
-_*You can notice here that Samsung has the End product, ICs design , and manufacturing abilities_
+_*You can notice here that Samsung has the End product, ICs design, and manufacturing abilities_
 
-But TSMC only manufactures chips, it must be easy. This is what I was also thinking, until I dig deeper into the subject.  The hardest part for any end user electronic devices is to manufacture the Integrated Circuit (ICs, or chips). Today only 2 companies doing it at the state of the art: TSMC, and Samsung. 
+Designing a chip has its own quirks, and burden. You can see it it could cost [up to $1.5 billons dollars](https://semiengineering.com/big-trouble-at-3nm/
+) to design one: 
+![ semiconductor fab breakeven](/img/tsmc/design-chips-nano3-ibs.png)
 
-<!-- ## A quick story of TSMC
-
-The one company enabling this progress of the semiconductor companies on focusing on making them better are the key to improve today's life, and TSMC is certainly the one that helps the world to move forward.  -->
+Again, TSMC only manufactures chips and avoid the design cost. So just manufacturing  must be easy isn't it? This is what I was also thinking, until I dig deeper into the subject.  *The hardest part is actually to manufacture the Integrated Circuit (ICs, or chips)*. Today only 2 companies doing it at the state of the art: TSMC and Samsung. 
 
 ### Why is it so hard?
 
@@ -83,14 +83,21 @@ The other strength of TSMC are probably their inner circle of partners. They a m
 
 Trust toward TSMC is proably the main reason why companies that needs chips will prefer TSMC over others. 
 
-<!-- ## Why not just do an other TSMC? 
-The most serious competitor today is probably Samsung. As explained, some trust or IP issue might surface since Samsung do not only do chips, but also end products for their users. 
+## Why not just do an other TSMC? 
+It is not as simple. Every year, billons of US dollars are poured into R&D. Then production facilities costs billons to build: 
+- TSMC last production facility (Fab18) to manufacture [the newest technology 5nm chips cost 17billion USD](https://www.eteknix.com/tsmc-building-fab-18-5nm-production/) (excluding R&D) 
+- The next TSMC's fab for [3nm (more advanced) chips with cost 19.6 billion USD](https://www.taiwannews.com.tw/en/news/3805032)
 
-Intel today is losing the race. Competition and research become so hard that some of the leader struggle, and Intel struggling since few years have internal discussion to   outsource chip to TSMC, that have years 
+And those production facilities would take up to 5 years to make profit in a best case scenario. Companies must thoroughly investigate product demand, including possible long-term shifts, before beginning fab construction. What seems [not be a problem for TSMC](https://www.extremetech.com/computing/315186-apple-books-tsmcs-entire-5nm-production-capability) that have more demand than supply . 
 
-Trillions had already been poured into R&D. The network and partners might would take years (decades) to 
+![ semiconductor fab breakeven](/img/tsmc/rANDd-breaakeven.jpg)
 
-China is trying hard to help its . But this one -->
+The most serious competitor to TSMC today is probably Samsung. As explained, some trust or Intellectual Propery issue issue might surface since Samsung not only do chips, but also end products for their users. 
+
+- The US has [tried decades ago with Sematech](https://www.technologyreview.com/2011/07/25/192832/lessons-from-sematech/) but failed. 
+- Europe [will try to join force](https://www.reuters.com/article/eu-tech-semiconductor-idUSKBN28H1HV)
+- China is trying to catchup with their with [multibillion-dollar government plan](https://www.ft.com/content/46edd2b2-1734-47da-8e77-21854ca5b212) companies who are willing to. But they're still years behind TSMC 
+- Intel (US) today is losing the race. Even with production facilities, and decades of experience, Intel fell years behind Samsung and TSMC. [Their stackholders are also asking to consider outsourcing the manufacturing to their competitors (TSMC or Samsung?)](https://in.reuters.com/article/us-intel-thirdpoint-exclusive/exclusive-hedge-fund-third-point-urges-intel-to-explore-deal-options-idINKBN2931PS). 
 
 
 ## Conclusion
@@ -102,8 +109,6 @@ The cutting edge semiconductor chip manufacturing is (and was) done in Taiwan. T
 
 Morris Chang had the idea to create a new model, where all those companie would , and they'll only focus . Pretty simple isn't it? Wrong. 
 It might have been simple, but the more you want, the more research you'll need to invest. In human ressource.
-
-Here a Mckinsey report 
 
 
 Apple knows how hard it is to create. It is simpler for them to let, and focusing on products people want. iPhones, macbook, and cars ;) . They gave to build a new plant in the south only to build the. Who else could do that? 
