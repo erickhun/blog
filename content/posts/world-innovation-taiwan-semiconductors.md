@@ -82,7 +82,7 @@ The other strength of TSMC are probably their inner circle of partners. They a m
 Trust toward TSMC is proably the main reason why companies that needs chips will prefer TSMC over others. 
 
 ## Why not just do an other TSMC? 
-It is not as simple. Every year, billons of US dollars are poured into R&D. Then production facilities costs billons to build: 
+It is not as simple. Every year, billons of US dollars are poured into R&D to keep their advantages. Then production facilities costs billons to build: 
 - TSMC last production facility (Fab18) to manufacture [the newest technology 5nm chips cost 17billion USD](https://www.eteknix.com/tsmc-building-fab-18-5nm-production/) (excluding R&D) 
 - The next TSMC's fab for [3nm (more advanced) chips with cost 19.6 billion USD](https://www.taiwannews.com.tw/en/news/3805032)
 
@@ -90,17 +90,17 @@ And those production facilities would take up to 5 years to make profit in a bes
 
 ![ semiconductor fab breakeven](/img/tsmc/rANDd-breaakeven.jpg)
 
-The most serious competitor to TSMC today is probably Samsung. As explained, some trust or Intellectual Propery issues might surfaced since Samsung is not only doing chips, but also end products for their users. 
+The most serious competitor to TSMC today is probably Samsung. As explained, some trust or Intellectual Propery issues might surfaced since Samsung is not only doing chips, but also end products for their users. Many countries are trying hard, but it failed multiple time
 
 - The US has [tried decades ago with Sematech](https://www.technologyreview.com/2011/07/25/192832/lessons-from-sematech/) but failed. 
-- Europe [will try to join force](https://www.reuters.com/article/eu-tech-semiconductor-idUSKBN28H1HV)
-- China is trying to catchup with their with [multibillion-dollar government plan](https://www.ft.com/content/46edd2b2-1734-47da-8e77-21854ca5b212) companies who are willing to. But they're still years behind TSMC 
 - Intel (US) today is losing the race. Even with production facilities, and decades of experience, Intel fell years behind Samsung and TSMC. [Their stackholders are also asking to consider outsourcing the manufacturing to their competitors (TSMC or Samsung?)](https://in.reuters.com/article/us-intel-thirdpoint-exclusive/exclusive-hedge-fund-third-point-urges-intel-to-explore-deal-options-idINKBN2931PS). 
-
+- China is trying to catchup with their with [multibillion-dollar government plan](https://www.ft.com/content/46edd2b2-1734-47da-8e77-21854ca5b212) SMIC with [multiple tactics](https://www.eetimes.com/smic-to-pay-175-million-to-tsmc-in-suit-settlement/). But they're still [years (decades?) behind TSMC](https://www.eetimes.com/smic-advanced-process-technologies-and-govt-funding/). 
+- Europe [will try to join force](https://www.reuters.com/article/eu-tech-semiconductor-idUSKBN28H1HV) with 10+ countries to try to compete with TSMC. 
 
 ## Conclusion
 
 The cutting edge semiconductor chip manufacturing is (and was) done in Taiwan. The island has acquired strategic significance, with partners all over the world.  Those chips helps every new products to progress: (flying) electrical cars, space ships, Phones, 5G , new drugs to progress. It became a key technology , but also in any world military forces.  
+Creating an other is not that simple as pouring money . 
 
 <!-- ### Cost of creating an other TSMC
 
@@ -131,13 +131,11 @@ For its 7nm processor, they've announced 1b chips made https://www.tsmc.com/engl
 Apple also want that innovation, and ready to pay more to TSMC for them to innovate and do more reasearch. They don't mind pouring 
 from R&D to 2 years to chip 1B chips is amazing. and no one can compete today. 
 
-
-mckinsey reasearch , barriere to entry: 
  
 Apple already booked https://wccftech.com/apple-secured-80-tsmc-5nm-production-capacity-2021/
 
 
-China's most advanced semiconductor is 4 year behind TSMC https://www.eetimes.com/smic-advanced-process-technologies-and-govt-funding/
+
 
 
 It is not because you have a recipe that your food will be great.
