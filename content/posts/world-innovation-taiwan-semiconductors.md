@@ -67,34 +67,34 @@ Getting the fewest "defects" as possible is the biggest challenge for the manufa
 
 The yield is why so much money is poured by the manufacturers into Research and Development. You want to get the highest yield possible, to be able to scale to [billons of chips](https://www.tsmc.com/english/news-events/blog-article-20200801) to satisfy your customers. Each year,  TMSC's customers ask for smaller, and better chips (especially Apple). The process to make them needs to be refined, and new equipments to support those new process are constantly needed. [TSMC invested in 2019 3 billons dollar](https://www.taiwannews.com.tw/en/news/3954592) into R&D, and plan to invest more in 2020.  Would any other company would have the budget to do that? 
 
-Today's TSMC's monopoly is probably the results of a 40 years relationships with partners working wit each other, creating tight relationship and trust between each other. 
+Today's TSMC's monopoly is probably the result of a 40 years relationships with partners, with tight relationship and trust between each others. 
 
 {{< youtube SP7PMmetpyw >}}
 
 ### Why companies prefer to use TSMC over others?
-**It's all about trust**. TSMC and its founder [Morris Chang](https://www.youtube.com/watch?v=wEh3ZgbvBrE) is well respected for [its integrity](https://www.tsmc.com/english/aboutTSMC/values) and being impecable about it. Companies trust them, and they have a well known clause of non-competitivity with anyone chosing them. When hearing about customers, you'll likely to hear love story with peolpe having the chance to work with them and how awesome is TSMC. 
+**It's all about trust**. TSMC and its founder [Morris Chang](https://www.youtube.com/watch?v=wEh3ZgbvBrE) is well respected for [its integrity](https://www.tsmc.com/english/aboutTSMC/values) and being impeccable about it. Companies trust them, and they have a well known clause of non-competitivity with anyone choosing them. When hearing about customers, you’ll likely to hear love stories about people having the chance to work with them and how awesome is TSMC.
 
 Trust that the foundry will not compete unfairly with you. Trust that the foundry will deliver the PPA (power/performance/area). TSMC was impeccable on those 2 points since it was created. [Apple had legal issues with Samsung](https://en.wikipedia.org/wiki/Apple_Inc._v._Samsung_Electronics_Co ) when Apple asked them to manufacture their chips. They won't likely get back to them for this reason.
 
-The other strength of TSMC are probably their inner circle of partners. They a massive ecosystem of partners and customers who together spend trillions of dollars on research and development for the greater good of the fabless semiconductor ecosystem. There is also an inner circle of partners and customers that TSMC intimately collaborates with on new process development and deployment. Including Apple, AMD, ARM or ASML. Sourcing the right partners that will helps into the correct equipment for making. They work closely  to improve everyone's process and together partners together spend trillions of dollars on R&D.
+The other strength of TSMC is probably their inner circle of partners. They a massive ecosystem of partners and customers who together spend trillions of dollars on research and development for the greater good of the fabless semiconductor ecosystem. There is also an inner circle of partners and customers that TSMC intimately collaborates with on new process development and deployment. Including Apple, AMD, ARM or ASML. Sourcing the right partners that will help with the correct equipment for making. They work closely  to improve everyone's process and together partners together spend trillions of dollars on R&D.
 
 Trust toward TSMC is proably the main reason why companies that needs chips will prefer TSMC over others. 
 
 ## Why not just do an other TSMC? 
-It is not as simple. Every year, billons of US dollars are poured into R&D to keep their advantages. Then production facilities costs billons to build: 
+It is not as simple. Every year, billions of US dollars are poured into R&D to keep their advantages. Then production facilities costs billons to build: 
 - TSMC last production facility (Fab18) to manufacture [the newest technology 5nm chips cost 17billion USD](https://www.eteknix.com/tsmc-building-fab-18-5nm-production/) (excluding R&D) 
 - The next TSMC's fab for [3nm (more advanced) chips with cost 19.6 billion USD](https://www.taiwannews.com.tw/en/news/3805032)
 
-And those production facilities would take up to 5 years to make profit in a best case scenario. Companies must thoroughly investigate product demand, including possible long-term shifts, before beginning fab construction. What seems [not be a problem for TSMC](https://www.extremetech.com/computing/315186-apple-books-tsmcs-entire-5nm-production-capability) that have more demand than supply . 
+And those production facilities would take up to 5 years to make profit in a best case scenario. Companies must thoroughly investigate product demand, including possible long-term shifts, before beginning fab construction. What seems [not to be a problem for TSMC](https://www.extremetech.com/computing/315186-apple-books-tsmcs-entire-5nm-production-capability) that have more demand than supply. 
 
 ![ semiconductor fab breakeven](/img/tsmc/rANDd-breaakeven.jpg)
 
-The most serious competitor to TSMC today is probably Samsung. As explained, some trust or Intellectual Propery issues might surfaced since Samsung is not only doing chips, but also end products for their users. Many countries are trying hard, but they're not quite there: 
+The most serious competitor to TSMC today is probably Samsung. As explained, some trust or Intellectual Property issues might surface since Samsung is not only doing chips, but also end products for their users. Many countries are trying hard, but they’re not quite there:
 
 - The US has [tried decades ago with Sematech](https://www.technologyreview.com/2011/07/25/192832/lessons-from-sematech/) but failed. 
 - Intel (US) today is losing the race. Even with production facilities, and decades of experience, Intel fell years behind Samsung and TSMC. [Their stackholders are also asking to consider outsourcing the manufacturing to their competitors (TSMC or Samsung?)](https://in.reuters.com/article/us-intel-thirdpoint-exclusive/exclusive-hedge-fund-third-point-urges-intel-to-explore-deal-options-idINKBN2931PS). 
-- China is trying to catchup with their with [multibillion-dollar government plan](https://www.ft.com/content/46edd2b2-1734-47da-8e77-21854ca5b212). SMIC is leading with a [few questionable](https://asia.nikkei.com/Business/China-tech/China-hires-over-100-TSMC-engineers-in-push-for-chip-leadership) - [tactics](https://www.eetimes.com/smic-to-pay-175-million-to-tsmc-in-suit-settlement/), but is still [years (decades?) behind TSMC](https://www.eetimes.com/smic-advanced-process-technologies-and-govt-funding/). 
-- Europe [will try to join force](https://www.reuters.com/article/eu-tech-semiconductor-idUSKBN28H1HV) with 10+ countries to try to compete with TSMC. 
+- China is trying to catch up with its [multibillion-dollar government plan](https://www.ft.com/content/46edd2b2-1734-47da-8e77-21854ca5b212). SMIC is leading with a [few questionable](https://asia.nikkei.com/Business/China-tech/China-hires-over-100-TSMC-engineers-in-push-for-chip-leadership) - [tactics](https://www.eetimes.com/smic-to-pay-175-million-to-tsmc-in-suit-settlement/), but is still [years (decades?) behind TSMC](https://www.eetimes.com/smic-advanced-process-technologies-and-govt-funding/). 
+- Europe [will try to join forces](https://www.reuters.com/article/eu-tech-semiconductor-idUSKBN28H1HV) with 10+ countries to try to compete with TSMC. 
 
 ## Conclusion
 
