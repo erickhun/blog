@@ -99,8 +99,9 @@ The most serious competitor to TSMC today is probably Samsung. As explained, som
 
 ## Conclusion
 
-The cutting edge semiconductor chip manufacturing is (and was) done in Taiwan. The island has acquired strategic significance, with partners all over the world.  Those chips helps every new products to progress: (flying) electrical cars, space ships, Phones, 5G , new drugs to progress. It became a key technology , but also in any world military forces.  
-Creating an other is not that simple as pouring money . 
+The cutting edge semiconductor chip manufacturing is (and was) done in Taiwan by TSMC. The island has acquired strategic significance, with partners all over the world depending on them. The chips they make are essentials to any of today's and future hardware: (flying) electrical cars, space ships, phones, 5G, machine to discover new drugs or vaccines, and any military equipments.
+
+Taiwan is now [Arrakis](https://www.epsilontheory.com/taiwan-is-now-arrakis/). If you want to control the empire, you have to control the supply of spice. And if you want to control the supply of spice, you have to control Arrakis. It’s now the most important country on earth. And we will fight over it...
 
 <!-- ### Cost of creating an other TSMC
 
