@@ -108,6 +108,17 @@ Taiwan is now [Arrakis](https://www.epsilontheory.com/taiwan-is-now-arrakis/). I
 [Comment on Hacker News](https://news.ycombinator.com/item?id=25603340)
 
 
+
+#### Next reads:
+
+🚲 [Taiwan's amazing bike sharing system](https://erickhun.com/posts/taiwan-youbike-bike-sharing/)
+
+📚 [Why you should have a side project](https://erickhun.com/posts/why-you-should-have-a-side-project/)
+
+🤸🏻‍♂️ [How to keep working out while travelling](https://erickhun.com/posts/traveling-and-working-out/)
+
+
+
 <!-- ### Cost of creating an other TSMC
 
 
