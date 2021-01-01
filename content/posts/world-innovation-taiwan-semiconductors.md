@@ -64,9 +64,7 @@ Put simply is ASML sells the pots and TSMC sells the cooking. Cooking is very ha
 
 ### The importance of minimizing faults, and Research & Development
 
-Getting the fewer "defects" as possible the challenge for manufacturer. This is probably the main focus for the chips manufacturers, and where TSMC excels. The percent of devices on the wafer found to perform properly is referred to as the yield.
-
-If you manufacture chips, but more than 60% of the chips are faulty, this wouldn't be great when you'll need to scale. Those failure can be caused for multiple reasons. Some because of tiny imperfections in the silicon substrate, and others caused of alignment and patterning issues.
+Getting the fewer "defects" as possible is the biggest challenge for manufacturer. This is probably the main focus for the chips manufacturers, and where TSMC excels. The percent of chips found to perform properly is referred to as the yield. If you manufacture chips, but more than 60% of the chips are faulty, this wouldn't be great when you'll need to scale. Those failure can be caused for multiple reasons. Some because of tiny imperfections, others caused of alignment and patterning issues.
 
 The yield this is why so much money are poured by the manufacturers into Research and Development. You want to get the highest yield as possible, to be able to scale to [billons of chips](https://www.tsmc.com/english/news-events/blog-article-20200801) to satisfy your customers. Each year,  TMSC's customers ask for smaller, and better chips (especially Apple). The process to make them needs to be refined, and new equipments to support those new process are constantly needed. [TSMC invested in 2019 3 billons dollar](https://www.taiwannews.com.tw/en/news/3954592) into R&D, and plan to invest more in 2020.  Would any other other company would have the budget to do that? 
 
@@ -74,7 +72,7 @@ Today's TSMC's monopoly is is probably the results of a 40 years relationships w
 
 {{< youtube SP7PMmetpyw >}}
 
-### Why prefer TSMC over others? TSMC's "inner circle"
+### Why companies prefer to use TSMC over others?
 **It's all about trust**. TSMC and its founder Morris Chang is well respected for [its integrity](https://www.tsmc.com/english/aboutTSMC/values) and being impecable about it. Companies trust them , and they have a clause of non-competitivity with everyone of their partner. When hearing about customers, you'll likely to hear love story with peolpe having the chance to work with them and how awesome is TSMC. 
 
 Trust that the foundry will not compete unfairly with you. Trust that the foundry will deliver the PPA (power/performance/area). TSMC was impeccable on those 2 points since it was created. [Apple had legal issues with Samsung](https://en.wikipedia.org/wiki/Apple_Inc._v._Samsung_Electronics_Co ) when Apple asked them to manufacture their chips. They won't likely get back to them for this reason.
@@ -92,7 +90,7 @@ And those production facilities would take up to 5 years to make profit in a bes
 
 ![ semiconductor fab breakeven](/img/tsmc/rANDd-breaakeven.jpg)
 
-The most serious competitor to TSMC today is probably Samsung. As explained, some trust or Intellectual Propery issue issue might surface since Samsung not only do chips, but also end products for their users. 
+The most serious competitor to TSMC today is probably Samsung. As explained, some trust or Intellectual Propery issues might surfaced since Samsung is not only doing chips, but also end products for their users. 
 
 - The US has [tried decades ago with Sematech](https://www.technologyreview.com/2011/07/25/192832/lessons-from-sematech/) but failed. 
 - Europe [will try to join force](https://www.reuters.com/article/eu-tech-semiconductor-idUSKBN28H1HV)
