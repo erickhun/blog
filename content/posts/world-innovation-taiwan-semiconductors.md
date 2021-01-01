@@ -46,7 +46,7 @@ To visualize better and understand who is who, let's put some names into players
 
 _*You can notice here that Samsung has the End product, ICs design, and manufacturing abilities_
 
-Designing a chip has its own quirks, and burden. You can see it could cost [up to $1.5 billons dollars](https://semiengineering.com/big-trouble-at-3nm/
+Designing a chip has its own quirks, and burden. You can see it could cost [up to $1.5 billions dollars](https://semiengineering.com/big-trouble-at-3nm/
 ) to design one: 
 ![ semiconductor fab breakeven](/img/tsmc/design-chips-nano3-ibs.png)
 
@@ -66,7 +66,7 @@ Put simply is ASML sells the pots and TSMC sells the cooking. Cooking is very ha
 
 Getting the fewest "defects" as possible is the biggest challenge for the manufacturer. This is probably the main focus for the chips manufacturers, and where TSMC excels. The percent of chips found to perform properly is referred to as the yield. If you manufacture chips, but more than 60% of the chips are faulty, this wouldn't be great when you'll need to scale. Those failures can be caused for multiple reasons. Some because of tiny imperfections, others caused of alignment and patterning issues.
 
-The yield is why so much money is poured by the manufacturers into Research and Development. You want to get the highest yield possible, to be able to scale to [billons of chips](https://www.tsmc.com/english/news-events/blog-article-20200801) to satisfy your customers. Each year,  TMSC's customers ask for smaller, and better chips (especially Apple). The process to make them needs to be refined, and new equipments to support those new process are constantly needed. [TSMC invested in 2019 3 billons dollar](https://www.taiwannews.com.tw/en/news/3954592) into R&D, and plan to invest more in 2020.  Would any other company would have the budget to do that? 
+The yield is why so much money is poured by the manufacturers into Research and Development. You want to get the highest yield possible, to be able to scale to [billions of chips](https://www.tsmc.com/english/news-events/blog-article-20200801) to satisfy your customers. Each year,  TMSC's customers ask for smaller, and better chips (especially Apple). The process to make them needs to be refined, and new equipments to support those new process are constantly needed. [TSMC invested in 2019 3 billions dollar](https://www.taiwannews.com.tw/en/news/3954592) into R&D, and plan to invest more in 2020.  Would any other company would have the budget to do that? 
 
 Today's TSMC's monopoly is probably the result of a 40 years relationships with partners, with tight relationship and trust between each others. 
 
@@ -82,7 +82,7 @@ The other strength of TSMC is probably their inner circle of partners. They a ma
 Trust toward TSMC is proably the main reason why companies that needs chips will prefer TSMC over others. 
 
 ## Why not just do an other TSMC? 
-It is not as simple. Every year, billions of US dollars are poured into R&D to keep their advantages. Then production facilities costs billons to build: 
+It is not as simple. Every year, billions of US dollars are poured into R&D to keep their advantages. Then production facilities costs billions to build: 
 - TSMC last production facility (Fab18) to manufacture [the newest technology 5nm chips cost 17billion USD](https://www.eteknix.com/tsmc-building-fab-18-5nm-production/) (excluding R&D) 
 - The next TSMC's fab for [3nm (more advanced) chips with cost 19.6 billion USD](https://www.taiwannews.com.tw/en/news/3805032)
 
@@ -95,7 +95,10 @@ The most serious competitor to TSMC today is probably Samsung. As explained, som
 - The US has [tried decades ago with Sematech](https://www.technologyreview.com/2011/07/25/192832/lessons-from-sematech/) but failed. 
 - Intel (US) today is losing the race. Even with production facilities, and decades of experience, Intel fell years behind Samsung and TSMC. [Their stackholders are also asking to consider outsourcing the manufacturing to their competitors (TSMC or Samsung?)](https://in.reuters.com/article/us-intel-thirdpoint-exclusive/exclusive-hedge-fund-third-point-urges-intel-to-explore-deal-options-idINKBN2931PS). 
 - China is trying to catch up, [ has invested more than $200 billion in chip manufacturing](https://thediplomat.com/2020/09/can-china-become-the-world-leader-in-semiconductors/). They've added a recent  [multibillion-dollar government plan](https://www.ft.com/content/46edd2b2-1734-47da-8e77-21854ca5b212). SMIC is leading the way with a [few questionable](https://asia.nikkei.com/Business/China-tech/China-hires-over-100-TSMC-engineers-in-push-for-chip-leadership) - [tactics](https://www.eetimes.com/smic-to-pay-175-million-to-tsmc-in-suit-settlement/), but China is still [years (decades?) behind TSMC](https://www.eetimes.com/smic-advanced-process-technologies-and-govt-funding/), even with such a large amount of money invested.
-- Europe [will try to join forces](https://www.reuters.com/article/eu-tech-semiconductor-idUSKBN28H1HV) with 10+ countries to try to compete with TSMC by [investing 145 billons Euros](https://www.eetimes.eu/eu-signs-e145bn-declaration-to-develop-next-gen-processors-and-2nm-technology/)
+- Europe [will try to join forces](https://www.reuters.com/article/eu-tech-semiconductor-idUSKBN28H1HV) with 10+ countries to try to compete with TSMC by [investing 145 billions Euros](https://www.eetimes.eu/eu-signs-e145bn-declaration-to-develop-next-gen-processors-and-2nm-technology/)
+
+
+Barriers to entry are extremely high for chip manufacturing. One would argue that there are few, if any, other industries that requires as much investment and expertise as semiconductor manufacturing. Apple, is well aware of that and [might have think about it](https://mule.substack.com/p/the-tech-monopolies-go-vertical). It certainly has the cash in bank ($200 billions!), but don't have any guarantee that such an investment will succeed to create the same quality of chips that TSMC can give them.  
 
 ## Conclusion
 
