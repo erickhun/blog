@@ -4,7 +4,7 @@ date = "2020-12-31T12:39:00+01:00"
 description = ""
 draft = false
 image = "/img/about-bg.jpg"
-title = "The world next innovations depends on a single country: Taiwan"
+title = "The world next innovations depends on a single country, Taiwan"
 +++
 
 The world's next innovations depends on a single country: Taiwan. It's probably one country you might never heard about, or perhaps confuse with it neighbor, Thailand, or even think it's a part of [China](https://en.wikipedia.org/wiki/Political_status_of_Taiwan). 
