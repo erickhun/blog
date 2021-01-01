@@ -9,9 +9,8 @@ title = "The world's innovation depends on a single country: Taiwan"
 
 The world's next innovations depends on a single country: Taiwan. It's probably one country you might never heard about, or perhaps confuse with it neighbor, Thailand, or even think it's a part of [China](https://en.wikipedia.org/wiki/Political_status_of_Taiwan). 
 
-I've been living in Taiwan for  3+ years, and baffled that I never pay attention to semiconductors. I'm a software engineer, but didn't think much more about the importance of them. As far as my laptop can change code to real things and doesn't lag when I have constantly [hundred tabs open](/img/tsmc/tabs.jpg), I was satisfied.
-At a recent [Taiwan Gold Card](https://taiwangoldcard.com) dinner, one of the speakers introduced himself as someone with 30+ years experience at IBM, who moved to Taiwan for [TSMC](https://en.wikipedia.org/wiki/TSMC). It picked my curiosity, and started to investigate, to realize how **the world depends on a TSMC for the past decades of innovation, and still be for the next ones**.
-
+I've been living in Taiwan for 3+ years, and baffled that I never pay attention to semiconductors. I'm a software engineer, but didn't think much more about the importance of them. As far as my laptop can change code to real things and doesn't lag when I have constantly [hundred tabs open](/img/tsmc/tabs.jpg), I was satisfied.
+At a recent [Taiwan Gold Card](https://taiwangoldcard.com) dinner, one of the speakers introduced himself as someone with 30+ years experience at IBM, who moved to Taiwan for [TSMC](https://en.wikipedia.org/wiki/TSMC). It picked my curiosity, and started to investigate, to realize how **the world depends on a TSMC for the past decades of innovation, and still be dependant for the next decade**.
 
 ## The world needs (and want) better semiconductors
 
@@ -23,7 +22,7 @@ Making those tiny things might sound like an easy, but making them better, more 
 
 And our future needs needs semiconductors to be better. We want electronic devices consuming less electricity to save the planet. We want [clean energy](https://repositories.lib.utexas.edu/handle/2152/47379#:~:text=Semiconductors%20play%20a%20key%20role,for%20solar%20electric%20energy%20systems.) (solar panels & co) and replace fossil energy. We want [unlimited battery life for our phone of computer](https://medium.com/pcmag-access/apple-our-new-arm-based-macs-offer-epic-cpu-performance-and-battery-life-3ccda5e1da11). We want tinier camera with higher resolution to [spy](https://en.wikipedia.org/wiki/Mass_surveillance_in_China) citizens of [every country](https://californiaglobe.com/section-2/city-of-san-diego-awarded-ge-mass-surveillance-contract-without-oversight/).  We want better computers to run IA and run your [next domestic helper (or terminator?)](https://youtube.com/watch?v=fn3KWM1kuAw). We want to space travel. We want [...]
 
-_**The one company that changed the game, enabled those technology to progress, and will help everyone's dream is called TSMC.**_
+_**The one company that changed the game, enabled those technology to progress, and will help everyone's dream is called TSMC, and they are based in Taiwan**_
 
 
 {{< youtube fn3KWM1kuAw >}}
