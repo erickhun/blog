@@ -102,6 +102,12 @@ The cutting edge semiconductor chip manufacturing is (and was) done in Taiwan by
 
 Taiwan is now [Arrakis](https://www.epsilontheory.com/taiwan-is-now-arrakis/). If you want to control the empire, you have to control the supply of spice. And if you want to control the supply of spice, you have to control Arrakis. It’s now the most important country on earth. And [we will fight over it...](https://steveblank.com/2020/06/18/the-coming-chip-wars-of-the-21st-century/)
 
+
+
+
+[Comment on Hacker News](https://news.ycombinator.com/item?id=25603340)
+
+
 <!-- ### Cost of creating an other TSMC
 
 
