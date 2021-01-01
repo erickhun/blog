@@ -20,16 +20,16 @@ We can illustrate with the COVID19 vaccine that was created in less than 6 month
 
 Making those tiny things might sound easy, but making them better, more efficient, and smaller is the real challenge. Without the progress the semiconductor industry has made, we wouldn't have been where the world is today.  Even if [software](https://a16z.com/2011/08/20/why-software-is-eating-the-world/) or bigger hardware are the final mean, semiconductors do the real works to enable them to run. 
 
-And the future needs semiconductors to be better. We want electronic devices consuming less electricity to save the planet. We want [clean energy](https://repositories.lib.utexas.edu/handle/2152/47379#:~:text=Semiconductors%20play%20a%20key%20role,for%20solar%20electric%20energy%20systems.) (solar panels & co) and replace fossil energy. We want [unlimited battery life for our phone or computer](https://medium.com/pcmag-access/apple-our-new-arm-based-macs-offer-epic-cpu-performance-and-battery-life-3ccda5e1da11). We want tinier camera with higher resolution to [spy](https://en.wikipedia.org/wiki/Mass_surveillance_in_China) citizens of [every country](https://californiaglobe.com/section-2/city-of-san-diego-awarded-ge-mass-surveillance-contract-without-oversight/).  We want better computers to run IA and run your [next domestic helper (or terminator?)](https://youtube.com/watch?v=fn3KWM1kuAw). We want to space travel. We want [...]
+And the future needs semiconductors to be better. We want electronic devices consuming less electricity to save the planet. We want [clean energy](https://repositories.lib.utexas.edu/handle/2152/47379#:~:text=Semiconductors%20play%20a%20key%20role,for%20solar%20electric%20energy%20systems.) (solar panels & co) and replace fossil energy. We want [unlimited battery life for our phone or computer](https://medium.com/pcmag-access/apple-our-new-arm-based-macs-offer-epic-cpu-performance-and-battery-life-3ccda5e1da11). We want a tinier camera with a higher resolution to [spy](https://en.wikipedia.org/wiki/Mass_surveillance_in_China) on citizens of [every country](https://californiaglobe.com/section-2/city-of-san-diego-awarded-ge-mass-surveillance-contract-without-oversight/).  We want better computers to run IA and run your [next domestic helper (or terminator?)](https://youtube.com/watch?v=fn3KWM1kuAw). We want to space travel. We want [...]
 
-_**The one company that changed the game, enabled those technology to progress, and will help everyone's dream is called TSMC, and they are based in Taiwan**_
+_**The one company that changed the game and enabled that technology to progress, and will help everyone's dream is called TSMC, and they are based in Taiwan**_
 
 
 {{< youtube fn3KWM1kuAw >}}
 
 
 ## Isn't it just "chips"? It's everywhere it must be simple to do
-Not that simple. To understand why TSMC is so essential we should understand first the supply-chain for any end user electronic devices. 
+Not that simple. To understand why TSMC is so essential we should understand first the supply-chain for any end-user electronic devices. 
 
 ### The supply chain
 Historically, all electronic selling electronic hardware had a small business unit manufacturing the Integrated Circuit (ICs, or chips). It cost money and time to create them. However those companies didn't want to waste time to do those chips, so they ask to other big names such as Texas Instrument, or Samsung to help them do them. 
