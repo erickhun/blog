@@ -39,8 +39,8 @@ But those doesn't necessarly have capacity or willingness to do chips for those 
 This is wheen we start seeing semi conductors only on manufacturing and designing those chips. Some of those companies only design chips for the end product company. They're called Fabless Company. They helped you design and manufacture those chips, you'll just need to tell them what you want. TSMC is a bit diffferent. They only manufacture those chips, and you'll need to give them the design of the chip you want. TSMC is  called a "Pure Play Foundry". 
 
 To vizualize better and understand who is who, let's put some names into players of the supply chain: 
-- End product company: Canon (Camera), Sony (Console), Apple, Tesla (cars) Samsung*
-- IDMs (design and manufacture the ICs): Samsung*, Intel
+- End product company: Canon (Camera), Sony (Console), Apple, Tesla (cars) Samsung*, etc...
+- [IDMs](https://en.wikipedia.org/wiki/Integrated_device_manufacturer) (design and manufacture the ICs): Samsung*, Intel
 - Fabless (only design chips the ICs and give to pure play foundry for manufacturing): Nvidia, AMD, Qualcomm, Broadcom
 - Pure Play (only manufacture the ICs): TSMC, GlobalFoundry, 
 
