@@ -93,7 +93,7 @@ The most serious competitor to TSMC today is probably Samsung. As explained, som
 
 - The US has [tried decades ago with Sematech](https://www.technologyreview.com/2011/07/25/192832/lessons-from-sematech/) but failed. 
 - Intel (US) today is losing the race. Even with production facilities, and decades of experience, Intel fell years behind Samsung and TSMC. [Their stackholders are also asking to consider outsourcing the manufacturing to their competitors (TSMC or Samsung?)](https://in.reuters.com/article/us-intel-thirdpoint-exclusive/exclusive-hedge-fund-third-point-urges-intel-to-explore-deal-options-idINKBN2931PS). 
-- China is trying to catchup with their with [multibillion-dollar government plan](https://www.ft.com/content/46edd2b2-1734-47da-8e77-21854ca5b212). SMIC is leading with few questionable [tactics](https://www.eetimes.com/smic-to-pay-175-million-to-tsmc-in-suit-settlement/), but is still [years (decades?) behind TSMC](https://www.eetimes.com/smic-advanced-process-technologies-and-govt-funding/). 
+- China is trying to catchup with their with [multibillion-dollar government plan](https://www.ft.com/content/46edd2b2-1734-47da-8e77-21854ca5b212). SMIC is leading with a [few questionable](https://asia.nikkei.com/Business/China-tech/China-hires-over-100-TSMC-engineers-in-push-for-chip-leadership) - [tactics](https://www.eetimes.com/smic-to-pay-175-million-to-tsmc-in-suit-settlement/), but is still [years (decades?) behind TSMC](https://www.eetimes.com/smic-advanced-process-technologies-and-govt-funding/). 
 - Europe [will try to join force](https://www.reuters.com/article/eu-tech-semiconductor-idUSKBN28H1HV) with 10+ countries to try to compete with TSMC. 
 
 ## Conclusion
