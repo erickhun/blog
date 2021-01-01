@@ -33,27 +33,27 @@ Not that simple. To understand why TSMC is so essential we should understand fir
 
 ### The supply chain
 Historically, all electronic selling electronic hardware had a small business unit manufacturing the Integrated Circuit (ICs, or chips). It cost money and time to create them. However those companies didn't want to waste time to do those chips, so they ask to other big names such as Texas Instrument, or Samsung to help them do them. 
-But those doesn't necessarly have capacity or willingness to do chips for those competitors. If so, they were often  asking big bucks to design/manufacture them. 
+But those don't necessarily have the capacity or willingness to do chips for those competitors. If so, they were often  asking big bucks to design/manufacture them. 
 
-This is wheen we start seeing the born of semiconductors that we only designing/manufacturing those the chips. Some of those companies only designed them for the end product company. They're called Fabless Company. You'll just need to tell them what you want. TSMC is a bit diffferent. They only manufacture those chips, and you'll need to give them the design of the chip you want. It is called a "Pure Play Foundry". 
+This is when we started to see the born of semiconductors focused company, only designing/manufacturing those chips. Some of those companies only designed them for the end product company. They're called Fabless Company. You'll just need to tell them what you want. TSMC is a bit diffferent. They only manufacture those chips, and you'll need to give them the design of the chip you want. It is called a "Pure Play Foundry". 
 
-To vizualize better and understand who is who, let's put some names into players of the supply chain: 
+To visualize better and understand who is who, let's put some names into players of the supply chain: 
 - End product company: Canon (Camera), Sony (Console), Apple, Tesla (cars) Samsung*, etc...
 - [IDMs](https://en.wikipedia.org/wiki/Integrated_device_manufacturer) (design and manufacture the ICs): Samsung*, Intel
-- Fabless (only design chips the ICs and give to pure play foundry for manufacturing): Nvidia, AMD, Qualcomm, Broadcom
+- Fabless (only design chips the ICs and gives to the pure-play foundry for manufacturing): Nvidia, AMD, Qualcomm, Broadcom
 - Pure Play (only manufacture the ICs): TSMC, GlobalFoundry, 
 
 _*You can notice here that Samsung has the End product, ICs design, and manufacturing abilities_
 
-Designing a chip has its own quirks, and burden. You can see it it could cost [up to $1.5 billons dollars](https://semiengineering.com/big-trouble-at-3nm/
+Designing a chip has its own quirks, and burden. You can see it could cost [up to $1.5 billons dollars](https://semiengineering.com/big-trouble-at-3nm/
 ) to design one: 
 ![ semiconductor fab breakeven](/img/tsmc/design-chips-nano3-ibs.png)
 
-Again, TSMC only manufactures chips and avoid the design cost. So just manufacturing  must be easy isn't it? This is what I was also thinking, until I dig deeper into the subject.  *The hardest part is actually to manufacture the Integrated Circuit (ICs, or chips)*. Today only 2 companies doing it at the state of the art: TSMC and Samsung. 
+Again, TSMC only manufactures chips and avoid the design cost. So just manufacturing  must be easy, isn’t it?  This is what I was also thinking, until I dig deeper into the subject.  *The hardest part is actually to manufacture the Integrated Circuit (ICs, or chips)*. Today only 2 companies doing it at the state of the art: TSMC and Samsung. 
 
 ### Why is it so hard?
 
-To create smaller and smaller chips, TSMC uses today a proces called [Extreme ultraviolet lithography](https://en.wikipedia.org/wiki/Extreme_ultraviolet_lithography) (or EUV). The machine enabling this litography process is provided by a company called [ASML](https://www.asml.com/). The machine has to basically create a new way to make light. Extreme difficult process called [Immersion Litography](https://en.wikipedia.org/wiki/Immersion_lithography). The process is to drip molten tin into a chamber, and hit it with a laser to create a bright light / plasma that can make it through the series of mirrors and masks to the wafers (chips). And it happens 50,000 times a minute. Some agrees that this machine might probably be the most complicated machine human kind has ever engineered - more difficult than putting a man on the moon. This kind of machine costs itself $120 million US dollar. 1 machine weight 180 tonnes, with the size of a double-decker bus. A  mindblowing part is that [ASML sources from 5000 vendors to make its EUV machines](https://www.economist.com/business/2020/02/29/how-asml-became-chipmakings-biggest-monopoly).
+To create smaller and smaller chips, TSMC uses today a process called [Extreme ultraviolet lithography](https://en.wikipedia.org/wiki/Extreme_ultraviolet_lithography) (or EUV). The machine enabling this litography process is provided by a company called [ASML](https://www.asml.com/). The machine has to basically create a new way to make light. An extreme difficult process called [Immersion Litography](https://en.wikipedia.org/wiki/Immersion_lithography). The process is to drip molten tin into a chamber, and hit it with a laser to create a bright light/plasma that can make it through the series of mirrors and masks to the wafers (chips). And it happens 50,000 times a minute. Some agree that this machine might probably be the most complicated machine human kind has ever engineered - more difficult than putting a man on the moon. This kind of machine costs itself $120 million US dollar. 1 machine weight 180 tonnes, with the size of a double-decker bus. A  mindblowing part is that [ASML sources from 5000 vendors to make its EUV machines](https://www.economist.com/business/2020/02/29/how-asml-became-chipmakings-biggest-monopoly).
 
 {{< youtube Gqu0L5oVatk >}}
 
