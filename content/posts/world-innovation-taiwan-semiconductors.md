@@ -73,7 +73,7 @@ Today's TSMC's monopoly is is probably the results of a 40 years relationships w
 {{< youtube SP7PMmetpyw >}}
 
 ### Why companies prefer to use TSMC over others?
-**It's all about trust**. TSMC and its founder Morris Chang is well respected for [its integrity](https://www.tsmc.com/english/aboutTSMC/values) and being impecable about it. Companies trust them , and they have a clause of non-competitivity with everyone of their partner. When hearing about customers, you'll likely to hear love story with peolpe having the chance to work with them and how awesome is TSMC. 
+**It's all about trust**. TSMC and its founder [Morris Chang](https://www.youtube.com/watch?v=wEh3ZgbvBrE) is well respected for [its integrity](https://www.tsmc.com/english/aboutTSMC/values) and being impecable about it. Companies trust them, and they have a well known clause of non-competitivity with anyone chosing them. When hearing about customers, you'll likely to hear love story with peolpe having the chance to work with them and how awesome is TSMC. 
 
 Trust that the foundry will not compete unfairly with you. Trust that the foundry will deliver the PPA (power/performance/area). TSMC was impeccable on those 2 points since it was created. [Apple had legal issues with Samsung](https://en.wikipedia.org/wiki/Apple_Inc._v._Samsung_Electronics_Co ) when Apple asked them to manufacture their chips. They won't likely get back to them for this reason.
 
@@ -90,7 +90,7 @@ And those production facilities would take up to 5 years to make profit in a bes
 
 ![ semiconductor fab breakeven](/img/tsmc/rANDd-breaakeven.jpg)
 
-The most serious competitor to TSMC today is probably Samsung. As explained, some trust or Intellectual Propery issues might surfaced since Samsung is not only doing chips, but also end products for their users. Many countries are trying hard, but it failed multiple time
+The most serious competitor to TSMC today is probably Samsung. As explained, some trust or Intellectual Propery issues might surfaced since Samsung is not only doing chips, but also end products for their users. Many countries are trying hard, but they're not quite there: 
 
 - The US has [tried decades ago with Sematech](https://www.technologyreview.com/2011/07/25/192832/lessons-from-sematech/) but failed. 
 - Intel (US) today is losing the race. Even with production facilities, and decades of experience, Intel fell years behind Samsung and TSMC. [Their stackholders are also asking to consider outsourcing the manufacturing to their competitors (TSMC or Samsung?)](https://in.reuters.com/article/us-intel-thirdpoint-exclusive/exclusive-hedge-fund-third-point-urges-intel-to-explore-deal-options-idINKBN2931PS). 
