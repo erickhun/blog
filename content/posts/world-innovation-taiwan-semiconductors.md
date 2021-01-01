@@ -98,7 +98,7 @@ The most serious competitor to TSMC today is probably Samsung. As explained, som
 - Europe [will try to join forces](https://www.reuters.com/article/eu-tech-semiconductor-idUSKBN28H1HV) with 10+ countries to try to compete with TSMC by [investing 145 billions Euros](https://www.eetimes.eu/eu-signs-e145bn-declaration-to-develop-next-gen-processors-and-2nm-technology/)
 
 
-Barriers to entry are extremely high for chip manufacturing. One would argue that there are few, if any, other industries that requires as much investment and expertise as semiconductor manufacturing. Apple, is well aware of that and [might have think about it](https://mule.substack.com/p/the-tech-monopolies-go-vertical). It certainly has the cash in bank ($200 billions!), but don't have any guarantee that such an investment will help them to create the same quality of chips that TSMC can give them.  
+Barriers to entry are extremely high for chip manufacturing. One would argue that there are few, if any, other industries that requires as much investment and expertise as semiconductor manufacturing. Apple, is well aware of that and certainly [thought about having their own manufacturing facilities](https://mule.substack.com/p/the-tech-monopolies-go-vertical). It has the cash in bank ($200 billions!), but doesn't have any guarantee that such an investment will results into creating the same quality of chips that TSMC can give them.  
 
 ## Conclusion
 
