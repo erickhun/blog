@@ -39,10 +39,10 @@ But those don't necessarily have the capacity or willingness to do chips for tho
 This when we started to see the born of semiconductors focused company, only designing/manufacturing those chips. Some of those companies only designed them for the end product company. They're called Fabless Company. You'll just need to tell them what you want. TSMC is a bit diffferent. They only manufacture those chips, and you'll need to give them the design of the chip you want. It is called a "Pure Play Foundry". 
 
 To visualize better and understand who is who, let's put some names into players of the supply chain: 
-- End product company: Canon (Camera), Sony (Console), Apple, Tesla (cars) Samsung*, etc...
+- End product company: Amazon (Cloud servers), Sony (Console), Apple (Phones), Tesla (cars), Samsung*, etc...
 - [IDMs](https://en.wikipedia.org/wiki/Integrated_device_manufacturer) (design and manufacture the ICs): Samsung*, Intel
 - Fabless (only design chips the ICs and gives to the pure-play foundry for manufacturing): Nvidia, AMD, Qualcomm, Broadcom
-- Pure Play (only manufacture the ICs): TSMC, GlobalFoundry, 
+- Pure Play (only manufacture the ICs): TSMC, GlobalFoundry
 
 _*You can notice here that Samsung has the End product, ICs design, and manufacturing abilities_
 
