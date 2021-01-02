@@ -11,7 +11,7 @@ title = "The world next innovations depend on a single country, Taiwan"
 The world's current and next innovations depend on a single country: Taiwan. It's probably one country you might never hear about, or perhaps confuse with its neighbor, Thailand, or even think it's a part of [China](https://en.wikipedia.org/wiki/Political_status_of_Taiwan). 
 
 I've been living in Taiwan for 3+ years, and am baffled that I never pay attention to semiconductors. I'm a software engineer but didn't think much more about the importance of them. As far as my laptop can change code to real things and doesn't lag when I have constantly [hundred tabs open](/img/tsmc/tabs.jpg), I was satisfied.
-At a recent [Taiwan Gold Card](https://taiwangoldcard.com) dinner, one of the speakers introduced himself as someone with 30+ years of experience at IBM, who moved to Taiwan for [TSMC](https://en.wikipedia.org/wiki/TSMC). It picked my curiosity and I started to investigate, to realize how **the world depends on a TSMC for the past decades of innovation, and still be dependant for the next decade**.
+At a recent [Taiwan Gold Card](https://taiwangoldcard.com) dinner, one of the speakers introduced himself as someone with 30+ years of experience at IBM, who moved to Taiwan for [TSMC](https://en.wikipedia.org/wiki/TSMC). It piqued my curiosity and I started to investigate, to realize how **the world depends on a TSMC for the past decades of innovation, and still be dependant for the next decade**.
 
 ## The world needs (and want) better semiconductors
 
