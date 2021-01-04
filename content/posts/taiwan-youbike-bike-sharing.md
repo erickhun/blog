@@ -96,7 +96,9 @@ Taipei has made a great job of implementing an amazing infrastructure bike-shari
 
 #### Next reads:
 
-🤖 [How to build a chat bot with Google's Sentence Encoder Model and Google Spreadsheet as a database](https://jonathanbgn.com/nlp/2020/09/29/chatbot-universal-sentence-encoder.html)
+🤔 [The world next innovations depend on a single country, Taiwan](https://erickhun.com/posts/world-innovation-taiwan-semiconductors/) 
+
+<!-- 🤖 [How to build a chat bot with Google's Sentence Encoder Model and Google Spreadsheet as a database](https://jonathanbgn.com/nlp/2020/09/29/chatbot-universal-sentence-encoder.html) -->
 
 <!-- 🇹🇼 Living in Taiwan? I've recently built [a chat bot](https://m.me/thetaiwanbot) giving you currated recommendations in Taiwan! Where to find the best value cheese? Where is the best pizza? etc...  [Here the details on how it works](https://jonathanbgn.com/nlp/2020/09/29/chatbot-universal-sentence-encoder.html) -->
 
