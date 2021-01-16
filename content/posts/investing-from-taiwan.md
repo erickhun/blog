@@ -76,7 +76,7 @@ IWDA also ticks the box. The difference of reinvesting and not reinvesting the d
 
 ## Which broker should I chose?
 
-[**Interactive Brokers**](https://ibkr.com/referral/eric990) (I'll call it IB) is the one I **highly recommend**. You'll access to all types of securities: ETFs, stocks and even currencies. It has the lowest fees to purchase them. It will also  allow you to access to the ETFs I've recommended earlier: IWDA and EIMI.
+[**Interactive Brokers**](https://www.interactivebrokers.com/referral/eric990) (I'll call it IB) is the one I **highly recommend**. You'll access to all types of securities: ETFs, stocks and even currencies. It has the lowest fees to purchase them. It will also  allow you to access to the ETFs I've recommended earlier: IWDA and EIMI.
 
 The signup process is straight forward. Simply fill your information in the signup page, and wait a few days before validation. Make sure to fill your tax residence (Taiwan) since it will could impact how the tax could be taken directly by the broker (cf. below). Also, [*be aware of the monthly fee if your orders don't generate at least USD 10 of fees per month*](https://www1.interactivebrokers.com/en/index.php?f=4969).
 
