@@ -60,7 +60,7 @@ To create smaller and smaller chips, TSMC uses today an extremely difficult proc
 
 So wouldn't just getting the ASML machine enough to take over TSMC? Not that easy. It's not only ASML lithography machines, but other types of equipment that come into play that come into play. ASML's lithography is only 10% of the manufacturing process (but 20% of the total costs). TSMC needs to learn how to operate each equipment together, and every single equipment has their own quirks, faults, and tolerances. Having to chain all the equipment together, into a high volume manufacturing process, is a problem of itself.
 
-Put simply is ASML sells the pots and TSMC sells the cooking. Cooking is very hard. Each takes a lifetime of specialty to get to the top of the field, it's hard to be good at both. And everything is done with an army of people. People who make chef knives are probably not Michelin star chefs [_*ref_](https://www.reddit.com/r/SecurityAnalysis/comments/kkxp2w/how_apple_changed_tsmc/gh8c86z/). The machines that ASML builds as simply a tool to which they are the only ones who have been able to solve a specific set of problems. A nice hammer still needs a skilled craftsman to use it.
+Put simply is ASML sells the pots and TSMC sells the cooking. Cooking is very hard. Each takes a lifetime of specialty to get to the top of the field, it's hard to be good at both. And everything is done with an army of people. People who make chef knives are probably not Michelin star chefs. The machines that ASML builds as simply a tool to which they are the only ones who have been able to solve a specific set of problems. A nice hammer still needs a skilled craftsman to use it.
 
 ### The importance of minimizing faults, and Research & Development
 
