@@ -7,7 +7,7 @@ image = "/img/about-bg.jpg"
 title = "2021 Goals"
 +++
 
-- [ ] Ship long-term side project out that makes money
+- [ ] Ship 1 side project that makes money
 - [ ] [Buffer](https://buffer.com)'s product teams adopting [SRE](https://sre.google/)
 - [ ] Figure out a system that helps to work a strict 4 days per week
 - [ ] Write 12 blog posts
