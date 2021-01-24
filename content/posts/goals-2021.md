@@ -1,6 +1,6 @@
 +++
 categories = ["goals"]
-date = "2021-01-24T22:02:00+01:00"
+date = "2021-01-20T22:02:00+01:00"
 description = ""
 draft = false
 image = "/img/about-bg.jpg"
