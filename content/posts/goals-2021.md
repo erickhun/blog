@@ -8,10 +8,10 @@ title = "2021 Goals"
 +++
 
 - [ ] Ship 1 side project that makes money
-- [ ] [Buffer](https://buffer.com)'s product teams adopting [SRE](https://sre.google/)
-- [ ] Figure out a system that helps to work a strict 4 days per week
 - [ ] Write 12 blog posts
 - [ ] Gives at least 2 public talks
+- [ ] [Buffer](https://buffer.com)'s product teams adopting [SRE](https://sre.google/)
+- [ ] Figure out a system that helps to work a strict 4 days per week
 - [ ] Clean [High Pull Ups](https://www.instagram.com/p/CE4t5pkgKHx/)
 - [ ] 5 [Handstand Push Ups](https://www.instagram.com/p/CKa7gB5DRHC/) (I can't handstand)
 - [ ] Achieve the [Full Planche](https://cdn.gmb.io/wp-content/uploads/2015/03/Junior-Planche.jpg) (I can barely [Tucked Planche](https://www.youtube.com/watch?v=xw31tXau_4Q) now)
