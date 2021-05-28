@@ -7,18 +7,18 @@ image = "/img/about-bg.jpg"
 title = "How to invest in ETFs and Stocks from Taiwan"
 +++
 
- I've spent a tremendous amount of time investigating on how to invest effectively from Taiwan. Many expats asked me the questions, so I've decided to write down how do I do it. I'll also write different options you could explore. This article **will likely apply to Tax resident in Taiwan, non-US citizens**.  I'm also not a financial advisor, and invite you to make more researches, please seek professional advice.
+I've spent a tremendous amount of time investigating on how to invest effectively from Taiwan. Many expats asked me the questions, so I've decided to write down how do I do it. I'll also write different alternative options you could explore. This article **will likely apply to Tax resident in Taiwan, non-US citizens**.  I'm also not a financial advisor, and invite you to make more researches, please seek professional advice.
 
 ## Make sure to have an emergency fund before starting
 
-Do you have enough in your bank account for the next 6 months? This is one of the best recommendations. The goal of it is to never touch your investment until the next 15 or 20 years. The emergency fund will help you to give you enough buffer, in case you lose your job, have a bad accident. Withdrawing funds can take time, and also **will hurt the performance of your investment**.
+Do you have enough in your bank account for the next 6 months? This is one of the best recommendations. The main purpose of it is to act as a safety net if an emergency happens. This emergency fund will help you to give you enough buffer to cover any immediate needs, without touching to you investment. No one is guaranteed to keep its job forever, accidents, a major repair of your home. Withdrawing your investment **will hurt the returns on your investment**, so this fund is key to preserve the performance of it.
 
-I personally have my emergency fund in Revolut and Taipei Fubon Bank:
+I split my emergency fund in Revolut and Taipei Fubon Bank:
 
-- **Revolut**: I'm often abroad and the flexibility that give you Revolut in any country is great. 
-- **Taipei Fubon Bank**: I want keep a single bank, Taipei Fubon Bank is known for being the cheapest to send money abroad (I'll touch on this why this is important below )
+- **Taipei Fubon Bank**: Taipei Fubon Bank has a decent English UI. It is known for being the cheapest to send money abroad (I'll touch on this why this is important below )
+- **Revolut**: I am often abroad and the flexibility that give you [Revolut](https://revolut.com/referral/ericb1ef!MAMO) in any country is great. 
 
-The downside of both is that you won't get much interest on them. Revolut doesn't have any interest, and Taiwan Fubon Bank rates are quite low (0.05%/week). Those aren't really profitable, but the goal is to have access to cash at time you won't expect, and it will help you and won't hurt your investment. Some western countries might also give you some better interest rate accounts, but check below if that suits you.
+The downside of both is that you won't get much interest on them. Revolut doesn't have make you any interest. Taiwan Fubon Bank rates are quite low. Those aren't really profitable, but the goal is to have access to cash at time you will expect the least, and it will help you and won't hurt your investment. Your home country might give you some better interest rate accounts.
 
 ## Which financial security to buy?
  I'll only focus here on a long term vision investment for the next 15 to 20 years. If you're looking for short-term returns, this post won't be for you.
@@ -29,16 +29,22 @@ When buying a [security](https://en.wikipedia.org/wiki/Security_(finance)) for t
  - **Low fees**
  - Understand the **tax consequences** of owning them in Taiwan
  
-I personally recommend [**IWDA**](https://www.ishares.com/uk/individual/en/products/251882/ishares-msci-world-ucits-etf-acc-fund) and  [**EIMI**](https://www.ishares.com/uk/individual/en/products/264659/ishares-msci-emerging-markets-imi-ucits-etf) ETFs. Let me explain
 
-#### Diversification with ETF
+
+I personally recommend [**IWDA**](https://www.ishares.com/uk/individual/en/products/251882/ishares-msci-world-ucits-etf-acc-fund) and  [**EIMI**](https://www.ishares.com/uk/individual/en/products/264659/ishares-msci-emerging-markets-imi-ucits-etf) ETFs. Let me explain.
+
+#### Diversification with ETFs
 On the long term, putting all your savings in a single company is risky. What if this company never grows, or worst goes bankrupt? This is called *"put all your eggs in the same basket"*. There is some financial securities that help you to diversify. They're called [ETFs](https://www.thisismoney.co.uk/money/indexinvesting/article-4596628/Does-matter-global-ETF-invest-in.html). It's like a group of share of multiple companies grouped in a single share. By purchasing a single share of an ETF, it's like if you own a part of few to up to thousands companies, potentially in many countries.
 
 [**IWDA**](https://www.ishares.com/uk/individual/en/products/251882/ishares-msci-world-ucits-etf-acc-fund) is one of them. It has exposure to all developed countries (US, France, Japan, UK, Canada, etc...) and more than 1600 companies, including Apple, Microsoft, Amazon, in every sectors (tech, healthcare, finance, consumers...), and in the most developped countries. We call this called a [market exposure](https://www.investopedia.com/terms/m/marketexposure.asp).  
 
 However, IWDA doesn't have exposure to countries like Taiwan, South Korea, China. They are called emergent markets. Having lived few years in China, and how vital are the high-end Taiwanese companies, I wanted to have exposure to those contries. [**EIMI**](https://www.ishares.com/uk/individual/en/products/264659/ishares-msci-emerging-markets-imi-ucits-etf) is the perfect one for that.
 
-**Why so many countries and companies?** The reason is simple... how do you know which country or company will perform better than the other? By investing in those 2 ETFs, you'll basically tap into the world's ability to grow. You will invest into the world's biggest companies by purchasing a single share of it. 
+**Why so many countries and companies?** The reason is simple... how do you know which country or company will perform better than the other in the next decades? By investing in those 2 ETFs, you'll basically tap into the world's ability to grow. You will invest into the world's biggest companies by purchasing a single share of it. 
+
+**Is there an Ireland based ETF covering both IWDA and EIMI?**
+Yes. It's [VWRA](https://global.vanguard.com/portal/site/loadPDF?country=pt&docId=31355). VWRD is the distributing version of it if you want to manually reinvest the dividends. It is also a good choice because you wouldn't need to think about which one of IWDA or EIMI, so it makes the process of buying easier, without the need to think about allocation. The downside of it is that the expense ratio (0.22%) is slightly higher than IWDA(0.20%) or EIMI(0.18%).
+
 
 <!-- Even during , the economy in the next years might be slower than the previous year. So you shouldn't expect high returns each year, and be prepared to also see some years with negative returns. 
 
