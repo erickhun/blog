@@ -1,6 +1,6 @@
 +++
 categories = ["taiwan", "investment"]
-date = "2020-11-29T17:37:00+01:00"
+date = "2020-05-28T17:37:00+01:00"
 description = ""
 draft = false
 image = "/img/about-bg.jpg"
@@ -33,17 +33,49 @@ When buying a [security](https://en.wikipedia.org/wiki/Security_(finance)) for t
 
 I personally recommend [**IWDA**](https://www.ishares.com/uk/individual/en/products/251882/ishares-msci-world-ucits-etf-acc-fund) and  [**EIMI**](https://www.ishares.com/uk/individual/en/products/264659/ishares-msci-emerging-markets-imi-ucits-etf) ETFs. Let me explain.
 
-#### Diversification with ETFs
-On the long term, putting all your savings in a single company is risky. What if this company never grows, or worst goes bankrupt? This is called *"put all your eggs in the same basket"*. There is some financial securities that help you to diversify. They're called [ETFs](https://www.thisismoney.co.uk/money/indexinvesting/article-4596628/Does-matter-global-ETF-invest-in.html). It's like a group of share of multiple companies grouped in a single share. By purchasing a single share of an ETF, it's like if you own a part of few to up to thousands companies, potentially in many countries.
+### Diversification with ETFs
+On the long term, putting all your savings in a single company is risky. What if this company never grows, or worst goes bankrupt? It is also called *"put all your eggs in the same basket"*. It exists some financial products that help you to diversify. They're called [ETFs](https://www.thisismoney.co.uk/money/indexinvesting/article-4596628/Does-matter-global-ETF-invest-in.html). It's like a group of share of multiple companies grouped in a single share. By purchasing a single share of an ETF, it's like if you own a part of few to up to thousands companies, accross multiples countries.
 
-[**IWDA**](https://www.ishares.com/uk/individual/en/products/251882/ishares-msci-world-ucits-etf-acc-fund) is one of them. It has exposure to all developed countries (US, France, Japan, UK, Canada, etc...) and more than 1600 companies, including Apple, Microsoft, Amazon, in every sectors (tech, healthcare, finance, consumers...), and in the most developped countries. We call this called a [market exposure](https://www.investopedia.com/terms/m/marketexposure.asp).  
+#### IWDA to cover developped countries
 
-However, IWDA doesn't have exposure to countries like Taiwan, South Korea, China. They are called emergent markets. Having lived few years in China, and how vital are the high-end Taiwanese companies, I wanted to have exposure to those contries. [**EIMI**](https://www.ishares.com/uk/individual/en/products/264659/ishares-msci-emerging-markets-imi-ucits-etf) is the perfect one for that.
+[**IWDA**](https://www.ishares.com/uk/individual/en/products/251882/ishares-msci-world-ucits-etf-acc-fund) is one of them. It is cheap to buy, is diversified, and the index it follows ([MSCI World](https://en.wikipedia.org/wiki/MSCI_World)) has great performance (averaging 8.5% returns since 1987).  
 
-**Why so many countries and companies?** The reason is simple... how do you know which country or company will perform better than the other in the next decades? By investing in those 2 ETFs, you'll basically tap into the world's ability to grow. You will invest into the world's biggest companies by purchasing a single share of it. 
+IWDA has exposure to all developed countries (US, France, Japan, UK, Canada, etc...) and more than 1500 companies, including Apple, Microsoft, Amazon, in every sectors (tech, healthcare, finance, consumers...).
+
+Here the top countries and companies it covers:
+![description](/img/investing-in-taiwan/msci-world-holdings.png)
+
+
+#### EIMI to cover Emerging Markets
+
+However, IWDA doesn't have exposure to the countries in the "Emerging Markets" such as China, , South Korea, India, or Taiwan. Having lived few years in China and Taiwan, I have seen from my own eye how [how vital are the high-end Taiwanese companies](../world-innovation-taiwan-semiconductors/), or Chinese companies. I wanted to have exposure to those countries. [**EIMI**](https://www.ishares.com/uk/individual/en/products/264659/ishares-msci-emerging-markets-imi-ucits-etf) is the perfect one for that.
+
+EIMI is based on the [MSCI Emerging Market Index](https://www.msci.com/documents/10199/c0db0a48-01f2-4ba9-ad01-226fd5678111). It has. It covers 1300+ companies, withing 27 countries, and has a return of 9.67% since 2010. 
+
+![EIMI Holdings](/img/investing-in-taiwan/eimi-holding-companies.png)
+
+![EIMI Countries](/img/investing-in-taiwan/eimi-holding-countries.png)
+
+
+
+**Why so many countries and companies?** Isn't IWDA enough? The reason is simple... how do you know which country or company will perform better than the other in the next decades? By investing in those 2 ETFs, you'll basically tap into the world's ability to grow. You will invest into the world's biggest companies by purchasing a single share of it. 
+
+
+#### VWRA to cover both developped countries and emerging markets
 
 **Is there an Ireland based ETF covering both IWDA and EIMI?**
-Yes. It's [VWRA](https://global.vanguard.com/portal/site/loadPDF?country=pt&docId=31355). VWRD is the distributing version of it if you want to manually reinvest the dividends. It is also a good choice because you wouldn't need to think about which one of IWDA or EIMI, so it makes the process of buying easier, without the need to think about allocation. The downside of it is that the expense ratio (0.22%) is slightly higher than IWDA(0.20%) or EIMI(0.18%).
+Yes. It's [VWRA](https://global.vanguard.com/portal/site/loadPDF?country=pt&docId=31355). Buying VWRA is like buying IWDA and EIMI all together. It's like buying a small share of 3500+ comapnies. It is also a good choice because you wouldn't need to think about which one of IWDA or EIMI, so it makes the process of buying easier, without the need to calculate your allocation of IWDA/EIMI. The downside is that the expense ratio for VWRA (0.22%) is slightly higher than IWDA(0.20%) or EIMI(0.18%). [VWRD](https://global.vanguard.com/portal/site/loadPDF?country=fr&docId=31781) is the distributing version of it if you want to manually reinvest the dividends.
+
+Here how VWRA cover the entire world: 
+![description](/img/investing-in-taiwan/vwra-vwrd-world-coverage.png)
+
+And how it covers all the industries, and what are the top holdings: 
+![description](/img/investing-in-taiwan/vwra-vwrd-industry-top-companies-holding.png)
+
+
+
+
+
 
 
 <!-- Even during , the economy in the next years might be slower than the previous year. So you shouldn't expect high returns each year, and be prepared to also see some years with negative returns. 
@@ -61,7 +93,8 @@ https://indexfundinvestor.eu/2019/01/02/what-is-the-difference-between-iwda-and-
 Even though , I still own some single stocks. They represent a really small part of my portfolio and I've mostly said "bye" to that money when I clicked "buy", even though I hope they'll grow more than the ETFs. For them, I'm aware of them  -->
 
 #### Low management fees
-Too often, new investors don't realize, or realize too late the importance of choosing low management fees funds. Even if that looks insignificant, every funds charge fees. It can be anywhere from [0.015%](https://www.investopedia.com/articles/markets/102715/3-index-funds-lowest-expense-ratios.asp) to more than 2%. Even if 2% sounds not that much, it will negatively impact your final return. By starting with $10,000, and adding $2,000 every month over 20 years and with 7% interest: 
+Too often, new investors don't realize, or realize too late the importance of choosing low management fee ETF funds. Every funds charge fees. It can be anywhere from [0.015%](https://www.investopedia.com/articles/markets/102715/3-index-funds-lowest-expense-ratios.asp) to more than 2%. Even if 2% sounds not that much, it will negatively impact your final return. By starting with $10,000, and adding $2,000 every month over 20 years and with 7% interest: 
+
 - In a 0,2% management fee , you'll end up with $1,028,000, and paid **$25,000 fees**
 - With a 1% management fee, you'll end up with $932,000, and paid **$121,000 fees**
 - With a 2% management fee, you'll end up with $827,000, and paid **$225,000 fees**
@@ -82,7 +115,7 @@ IWDA also ticks the box. The difference of reinvesting and not reinvesting the d
 
 ## Which broker should I chose?
 
-[**Interactive Brokers**](https://www.interactivebrokers.com/referral/eric990) (I'll call it IB) is the one I **highly recommend**. You'll access to all types of securities: ETFs, stocks and even currencies. It has the lowest fees to purchase them. It will also  allow you to access to the ETFs I've recommended earlier: IWDA and EIMI.
+[**Interactive Brokers**](https://www.interactivebrokers.com/referral/eric990) (I'll call it IB) is the one I **highly recommend**. You'll access to all types of securities: ETFs, stocks and even currencies. It has the lowest fees to purchase them. It will also  allow you to access to the ETFs I've recommended earlier: IWDA and EIMI or VWRA/VWRD.
 
 The signup process is straight forward. Simply fill your information in the signup page, and wait a few days before validation. Make sure to fill your tax residence (Taiwan) since it will could impact how the tax could be taken directly by the broker (cf. below). Also, [*be aware of the monthly fee if your orders don't generate at least USD 10 of fees per month*](https://www1.interactivebrokers.com/en/index.php?f=4969).
 
