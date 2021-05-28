@@ -30,15 +30,6 @@
     </item>
     
     <item>
-      <title>investment</title>
-      <link>https://erickhun.com/categories/investment/</link>
-      <pubDate>Sun, 29 Nov 2020 17:37:00 +0100</pubDate>
-      
-      <guid>https://erickhun.com/categories/investment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>infrastructure</title>
       <link>https://erickhun.com/categories/infrastructure/</link>
       <pubDate>Mon, 31 Aug 2020 23:56:00 +0800</pubDate>
@@ -80,6 +71,15 @@
       <pubDate>Thu, 30 Jul 2020 23:44:22 +0800</pubDate>
       
       <guid>https://erickhun.com/categories/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>investment</title>
+      <link>https://erickhun.com/categories/investment/</link>
+      <pubDate>Thu, 28 May 2020 17:37:00 +0100</pubDate>
+      
+      <guid>https://erickhun.com/categories/investment/</guid>
       <description></description>
     </item>
     
