@@ -15,7 +15,7 @@ Do you have enough in your bank account for the next 6 months? This is one of th
 
 I split my emergency fund between [Revolut](https://revolut.com/referral/ericb1ef!MAMO) and Taipei Fubon Bank:
 
-- **Taipei Fubon Bank**: [Taipei Fubon Bank](https://www.fubon.com/banking/personal/) has a decent English UI. It is known for being the cheapest to send money abroad (I'll touch on this why this is important below )
+-[**Taipei Fubon Bank**](https://www.fubon.com/banking/personal/): It has a decent English interface (not mobile unfortunately). The customer service at the branch is usually good. They're also known for being the cheapest bank to send money abroad.
 - [**Revolut**](https://revolut.com/referral/ericb1ef!MAMO): I am often abroad and the flexibility it gives you when you travel any country is great. 
 
 The downside of both is that you won't get much interest on them. But the goal is to have access to cash at time you will expect the least, and it will help you and won't hurt your investment. Your home country might give you some better interest rate accounts.
