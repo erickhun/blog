@@ -129,7 +129,7 @@ The signup process is straight-forward. Simply fill your information in the sign
 
 **Make sure to change to tier pricing instead of fix**. By default, the fixed pricing is set in your IB account. It only makes sense if your orders are over USD 8,000 (~228k TWD). If below that amount, you to switch to the tier pricing. I've saved hundred of USD by doing this one-click change.
 
-**How to send money to Interactive Brokers from Taiwan?** To be able to purchase financial products, you'll need to fund your IB account with real money. IB will provide you information of a bank account located in the US (Citibank) to send your money. If your money is in Taiwan, simply go to your bank, and ask an employee to help you fill the document with the correct information. Taipei Fubon Bank has the lowest fees to send money abroad. It starts from 400TWD to 1100 TWD, depending of the amount you want to sen. Here the detail of how Taipei Fubon charges on international wire transfer: 
+**How to send money to Interactive Brokers from Taiwan?** To be able to purchase financial products, you'll need to fund your IB account with real money. IB will provide you information of a bank account located in the US (Citibank) to send your money. If your money is in Taiwan, simply go to your bank, and ask an employee to help you fill the document with the correct information. Taipei Fubon Bank has the lowest fees to send money abroad. It starts from 400TWD to 1100 TWD, depending of the amount you want to send. Here the detail of how Taipei Fubon charges on international wire transfer: 
 
 ![Taipei Fubon Bank Wire transfer fee](/img/investing-in-taiwan/fubon-wire-transfer-abroad.png)
 
