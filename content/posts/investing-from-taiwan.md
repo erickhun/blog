@@ -15,7 +15,7 @@ Do you have enough in your bank account for the next 6 months? This is one of th
 
 I split my emergency fund in Revolut and Taipei Fubon Bank:
 
-- **Taipei Fubon Bank**: Taipei Fubon Bank has a decent English UI. It is known for being the cheapest to send money abroad (I'll touch on this why this is important below )
+- **Taipei Fubon Bank**: [Taipei Fubon Bank](https://www.fubon.com/banking/personal/) has a decent English UI. It is known for being the cheapest to send money abroad (I'll touch on this why this is important below )
 - **Revolut**: I am often abroad and the flexibility that give you [Revolut](https://revolut.com/referral/ericb1ef!MAMO) in any country is great. 
 
 The downside of both is that you won't get much interest on them. Revolut doesn't have make you any interest. Taipei Fubon Bank rates are quite low. Those aren't really profitable, but the goal is to have access to cash at time you will expect the least, and it will help you and won't hurt your investment. Your home country might give you some better interest rate accounts.
@@ -127,9 +127,9 @@ The signup process is straight-forward. Simply fill your information in the sign
 
 **How about local banks?**  Local banks will charge you lot of fees to access to foreign securities, but could probably be a good pick if you want to invest in Taiwanese securities. I won't expand on this since I didn't dig into this yet, but they generally charge an excessive amount per order, require a minimum stock per order, or charge an additional annual fee on top of of ETF expense ratio. 
 
-**Make sure to change to tier pricing instead of fix**. By default, the fixed pricing is set in your IB account. It only makes sense if your orders are over USD 8,000 (~228k TWD). If below that amount, you to switch to the tier pricing. I've saved hundred of USD by doing this one-click change.
+**Make sure to change to tier pricing instead of fix**. By default, the fixed pricing is set in your [**Interactive Brokers**](https://www.interactivebrokers.com/referral/eric990) account. It only makes sense if your orders are over USD 8,000 (~228k TWD). If below that amount, you to switch to the tier pricing. I've saved hundred of USD by doing this one-click change.
 
-**How to send money to Interactive Brokers from Taiwan?** To be able to purchase financial products, you'll need to fund your IB account with real money. IB will provide you information of a bank account located in the US (Citibank) to send your money. If your money is in Taiwan, simply go to your bank, and ask an employee to help you fill the document with the correct information. Taipei Fubon Bank has the lowest fees to send money abroad. It starts from 400TWD to 1100 TWD, depending of the amount you want to send. Here the detail of how Taipei Fubon charges on international wire transfer: 
+**How to send money to [**Interactive Brokers**](https://www.interactivebrokers.com/referral/eric990) from Taiwan?** To be able to purchase financial products, you'll need to fund your IB account with real money. IB will provide you information of a bank account located in the US (Citibank) to send your money. If your money is in Taiwan, simply go to your bank, and ask an employee to help you fill the document with the correct information. [Taipei Fubon Bank](https://www.fubon.com/banking/personal/) has the lowest fees to send money abroad. It starts from 400TWD to 1100 TWD, depending of the amount you want to send. Here the detail of how Taipei Fubon charges on international wire transfer: 
 
 ![Taipei Fubon Bank Wire transfer fee](/img/investing-in-taiwan/fubon-wire-transfer-abroad.png)
 
@@ -139,8 +139,8 @@ Protip: With Fubon, you can "link" the Interactive Brokers account to your accou
 **Can I send NTD/TWD to Interactive Brokers?** No, you'll need to convert first your NTD to [USD, EUR, HKD, etc...](https://www.interactivebrokers.com/en/index.php?f=3185#:~:text=For%20each%20IB%20account%2C%20you,%2C%20SEK%2C%20SGD%20or%20USD.), and then do the wire transfer. It should be doable from any Taiwanese banks. I like keeping most of my cash in USD or EURO, so I can avoid any currency exchange fees.
 
 **Is there a way to send money from Taiwan to Interactive Broker for free?** There is no straightforward way to send money from Taiwan to Interactive Brokers, but here some tips: 
-- Taipei Fubon Bank was the cheapest way I've found to fund the IB account located in the US that is accessible to the most people in Taiwan.
-- However, since IB use Citibank, you could take advantage of the ["Global Transfer"](https://www.citibank.com.tw/sim/en/globalbanking/citizen.htm). On the website: "Foreigners and the people with Citi company account can't apply for Citibank Global transfer service." I wasn't successful at getting the Citibank free transfer option, even with a 3 years ARC. I however heard foreigners friends that already has a Citibank abroad could get that feature. 
+- [Taipei Fubon Bank](https://www.fubon.com/banking/personal/) is the cheapest way I've found to fund your Interactive Brokers account located in the US that is accessible to the most people in Taiwan.
+- However, since [**Interactive Brokers**](https://www.interactivebrokers.com/referral/eric990) use Citibank, you could take advantage of the ["Global Transfer"](https://www.citibank.com.tw/sim/en/globalbanking/citizen.htm). On the website: "Foreigners and the people with Citi company account can't apply for Citibank Global transfer service." I wasn't successful at getting the Citibank free transfer option, even with a 3 years ARC. I however heard foreigners friends that already has a Citibank abroad could get that feature. 
 - If you're from Europe,  a hacky way would be to get your money in [N26](https://n26.com/), and "withdraw" your money in Interactive brokers for free. 
 
 ## Tax in Taiwan
@@ -166,10 +166,6 @@ This is something that is still in discussion and I didn't have time to investig
 
 #### How to fill your tax in Taiwan?
 Simply shows up to the [tax office](https://goo.gl/maps/xReNBAMxigRMamSE6) during the tax season and declare your gains.  You can easily generate a statement in Interactive brokers as a proof. The tax office employees are really helpful. They talk english and will help you fill the forms. 
-
-
-## Bottom Line
-Use [**Interactive Brokers**](https://www.interactivebrokers.com/referral/eric990). 
 
 
 This post has been originally published on November 29, 2020
