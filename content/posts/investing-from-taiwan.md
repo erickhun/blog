@@ -1,6 +1,6 @@
 +++
 categories = ["taiwan", "investment"]
-date = "2020-11-29T17:37:00+01:00"
+date = "2021-05-28T17:37:00+01:00"
 description = ""
 draft = false
 image = "/img/about-bg.jpg"
@@ -18,7 +18,7 @@ I split my emergency fund in Revolut and Taipei Fubon Bank:
 - **Taipei Fubon Bank**: Taipei Fubon Bank has a decent English UI. It is known for being the cheapest to send money abroad (I'll touch on this why this is important below )
 - **Revolut**: I am often abroad and the flexibility that give you [Revolut](https://revolut.com/referral/ericb1ef!MAMO) in any country is great. 
 
-The downside of both is that you won't get much interest on them. Revolut doesn't have make you any interest. Taiwan Fubon Bank rates are quite low. Those aren't really profitable, but the goal is to have access to cash at time you will expect the least, and it will help you and won't hurt your investment. Your home country might give you some better interest rate accounts.
+The downside of both is that you won't get much interest on them. Revolut doesn't have make you any interest. Taipei Fubon Bank rates are quite low. Those aren't really profitable, but the goal is to have access to cash at time you will expect the least, and it will help you and won't hurt your investment. Your home country might give you some better interest rate accounts.
 
 ## Which financial security to buy?
  I'll only focus here on a long term vision investment for the next 15 to 20 years. If you're looking for short-term returns, this post won't be for you.
@@ -96,7 +96,7 @@ Even though , I still own some single stocks. They represent a really small part
 Too often, new investors don't realize, or realize too late the importance of choosing low management fee ETF funds. Every funds charge fees. It can be anywhere from [0.015%](https://www.investopedia.com/articles/markets/102715/3-index-funds-lowest-expense-ratios.asp) to more than 2%. Even if 2% sounds not that much, it will negatively impact your final return. 
 IWDA has a management fee of [0.20%](https://www.ishares.com/uk/individual/en/literature/fact-sheet/swda-ishares-core-msci-world-ucits-etf-fund-fact-sheet-en-gb.pdf) and EIMI [0.18%](https://www.ishares.com/uk/individual/en/literature/fact-sheet/eimi-ishares-core-msci-em-imi-ucits-etf-fund-fact-sheet-en-gb.pdf), and are one of the lowest fees for an ETF. Here a visualization of your net worth with 3 different management fees: 
 
-![Funds Management Fees impact](/img/investing-in-taiwan/management-fees-impact-graph.png)
+![Funds Management Fees impact graph](/img/investing-in-taiwan/management-fees-impact-graph.png)
 
 ![Funds Management Fees impact](/img/investing-in-taiwan/management-fees-impact-detail.png)
 
@@ -121,20 +121,25 @@ IWDA also ticks the box. The difference of reinvesting and not reinvesting the d
 
 ## Which broker should I chose?
 
-[**Interactive Brokers**](https://www.interactivebrokers.com/referral/eric990) (I'll call it IB) is the one I **highly recommend**. You'll access to all types of securities: ETFs, stocks and even currencies. It has the lowest fees to purchase them. It will also  allow you to access to the ETFs I've recommended earlier: IWDA and EIMI or VWRA/VWRD.
+[**Interactive Brokers**](https://www.interactivebrokers.com/referral/eric990) (I'll call it IB) is the one I **highly recommend**. You'll access to all types of securities: ETFs, stocks and even currencies. It has the lowest fees to purchase them. It will also allow you to access to the ETFs I've recommended earlier: IWDA and EIMI or VWRA/VWRD, among thousantds of other ETFs and Stocks.
 
-The signup process is straight forward. Simply fill your information in the signup page, and wait a few days before validation. Make sure to fill your tax residence (Taiwan) since it will could impact how the tax could be taken directly by the broker (cf. below). Also, [*be aware of the monthly fee if your orders don't generate at least USD 10 of fees per month*](https://www1.interactivebrokers.com/en/index.php?f=4969).
+The signup process is straight-forward. Simply fill your information in the signup page, and wait a few days before validation. Make sure to fill your tax residence (Taiwan) since it will could impact how the tax could be taken directly by the broker (cf. below). Your Tax ID is the same as your ARC number. Also, [*be aware of the monthly fee if your orders don't generate at least USD 10 of fees per month*](https://www1.interactivebrokers.com/en/index.php?f=4969). The fee is waived if you have USD 100,000 of assets in your account.
 
-**How about local banks?**  Local banks will charge you crazy fees to access to foreign securities, but could probably be a good pick if you want to invest in Taiwanese securities. I won't expand on this since I didn't dig into this yet. 
+**How about local banks?**  Local banks will charge you lot of fees to access to foreign securities, but could probably be a good pick if you want to invest in Taiwanese securities. I won't expand on this since I didn't dig into this yet, but they generally charge an excessive amount per order, require a minimum stock per order, or charge an additional annual fee on top of of ETF expense ratio. 
 
 **Make sure to change to tier pricing instead of fix**. By default, the fixed pricing is set in your IB account. It only makes sense if your orders are over USD 8,000 (~228k TWD). If below that amount, you to switch to the tier pricing. I've saved hundred of USD by doing this one-click change.
 
-**How to send money to Interactive Brokers from Taiwan?** To be able to purchase financial products, you'll need to fund your IB account with real money. IB will provide you information of a bank account located in the US (Citibank) to send your money. Follow carefully the instructions. From a local Taiwanese bank account, Taiwan Fubon Bank is the bank having the reputation to have the lowest fees to send money abroad. If you want to stick with your own bank, it is totally ok. Simply shows up to your bank, and ask an employee to help you fill the document with the correct information. Protip: With Fubon, Ask to also link the Interactive Brokers account, so you could do  the wire transfer online without coming to the bank again. 
+**How to send money to Interactive Brokers from Taiwan?** To be able to purchase financial products, you'll need to fund your IB account with real money. IB will provide you information of a bank account located in the US (Citibank) to send your money. If your money is in Taiwan, simply go to your bank, and ask an employee to help you fill the document with the correct information. Taipei Fubon Bank has the lowest fees to send money abroad. It starts from 400TWD to 1100 TWD, depending of the amount you want to sen. Here the detail of how Taipei Fubon charges on international wire transfer: 
 
-**Can I send NTD/TWD to Interactive Brokers?** No, you'll need to convert first your NTD to [USD, EUR, HKD, etc...](https://www.interactivebrokers.com/en/index.php?f=3185#:~:text=For%20each%20IB%20account%2C%20you,%2C%20SEK%2C%20SGD%20or%20USD.), and then do the transfer. It should be doable from any Taiwanese banks. I personally keep all my money in USD or EURO, so I can avoid any currency  exchange fees. 
+![Taipei Fubon Bank Wire transfer fee](/img/investing-in-taiwan/fubon-wire-transfer-abroad.png)
+
+Protip: With Fubon, you can "link" the Interactive Brokers account to your account, so you could wire transfer online without coming to the bank again. 
+
+
+**Can I send NTD/TWD to Interactive Brokers?** No, you'll need to convert first your NTD to [USD, EUR, HKD, etc...](https://www.interactivebrokers.com/en/index.php?f=3185#:~:text=For%20each%20IB%20account%2C%20you,%2C%20SEK%2C%20SGD%20or%20USD.), and then do the wire transfer. It should be doable from any Taiwanese banks. I like keeping most of my cash in USD or EURO, so I can avoid any currency exchange fees.
 
 **Is there a way to send money from Taiwan to Interactive Broker for free?** There is no straightforward way to send money from Taiwan to Interactive Brokers, but here some tips: 
-- Taipei Fubon Bank was the cheapest way I've found to fund the IB account located in the US that is accesible to the most people in Taiwan.
+- Taipei Fubon Bank was the cheapest way I've found to fund the IB account located in the US that is accessible to the most people in Taiwan.
 - However, since IB use Citibank, you could take advantage of the ["Global Transfer"](https://www.citibank.com.tw/sim/en/globalbanking/citizen.htm). On the website: "Foreigners and the people with Citi company account can't apply for Citibank Global transfer service." I wasn't successful at getting the Citibank free transfer option, even with a 3 years ARC. I however heard foreigners friends that already has a Citibank abroad could get that feature. 
 - If you're from Europe,  a hacky way would be to get your money in [N26](https://n26.com/), and "withdraw" your money in Interactive brokers for free. 
 
@@ -161,6 +166,13 @@ This is something that is still in discussion and I didn't have time to investig
 
 #### How to fill your tax in Taiwan?
 Simply shows up to the [tax office](https://goo.gl/maps/xReNBAMxigRMamSE6) during the tax season and declare your gains.  You can easily generate a statement in Interactive brokers as a proof. The tax office employees are really helpful. They talk english and will help you fill the forms. 
+
+
+## Bottom Line
+Use [**Interactive Brokers**](https://www.interactivebrokers.com/referral/eric990). 
+
+
+This post has been originally published on November 29, 2020
 
 <!-- ### Insurance of the broker
 

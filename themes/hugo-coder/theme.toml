@@ -20,7 +20,7 @@ features = [
   "syntax-highlighting"
 ]
 min_version = "0.54"
-
+enableGitInfo = true
 [author]
   name = "Luiz F. A. de Prá"
   homepage = "https://luizdepra.com"
