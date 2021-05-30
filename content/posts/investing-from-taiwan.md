@@ -1,6 +1,6 @@
 +++
 categories = ["taiwan", "investment"]
-date = "2021-05-28T17:37:00+01:00"
+date = "2021-05-30T14:37:00+01:00"
 description = ""
 draft = false
 image = "/img/about-bg.jpg"
@@ -159,7 +159,7 @@ What is important to understand when calculating tax on dividends, is that it ex
 
 This is why I've picked IWDA / EIMI / VWRA. They are all located in [Ireland](https://www.ishares.com/uk/individual/en/literature/fact-sheet/swda-ishares-core-msci-world-ucits-etf-fund-fact-sheet-en-gb.pdf). Since IWDA is composed of 60% of US companies, there is a bit of math to do to exactly know how much tax will be taken.
 
-Calculating the tax on the dividends for a given ETF is a bit tricky. Since an ETF contains share of many companies from different countries, you'll need to understand the composition of your ETF.  Since there is a treaty between the US and Ireland, and most companies being in the ETF are located in the US, the tax on the dividends are in average [~12.1%](https://www.bogleheads.org/wiki/Nonresident_alien_investors_and_Ireland_domiciled_ETFs#Estimating_Level_1_dividend_tax_withholding_paid_by_Ireland_domiciled_funds). In average because the exposure to different countries varies from year to year.
+Calculating the tax on the dividends for a given ETF is a bit tricky. Since an ETF contains share of many companies from different countries, you'll need to understand the composition of your ETF.  Since there is a treaty between the US and Ireland, and most companies being in the ETF are located in the US, the tax on the dividends are in average [~12.1%](https://www.bogleheads.org/wiki/Nonresident_alien_investors_and_Ireland_domiciled_ETFs#Estimating_Level_1_dividend_tax_withholding_paid_by_Ireland_domiciled_funds).
 
 <!-- ### Tax on crypto-currencies
 This is something that is still in discussion and I didn't have time to investigate in. If you have more information, feel free to reach me. -->
@@ -168,7 +168,14 @@ This is something that is still in discussion and I didn't have time to investig
 Simply shows up to the [tax office](https://goo.gl/maps/xReNBAMxigRMamSE6) during the tax season and declare your gains.  You can easily generate a statement in Interactive brokers as a proof. The tax office employees are really helpful. They talk english and will help you fill the forms. 
 
 
-This post has been originally published on November 29, 2020
+## Bottom Line
+- Use [**Interactive Brokers**](https://www.interactivebrokers.com/referral/eric990) to buy the ETFs (or stocks)
+- If you money is in Taiwan,  Taipei Fubon Bank has the lowest fee to send money to Interactive Brokers. 
+- If you invest in ETF, prefers an ETF based in Ireland to optimize your returns. 
+- For taxes, go to the [Taiwan Tax office](https://goo.gl/maps/1np46KT98ww) with your annual reports, the tax officer will help you to fill your taxes.
+
+
+This post has been originally published on November 29, 2020 and updated the 30th May 2020
 
 <!-- ### Insurance of the broker
 
