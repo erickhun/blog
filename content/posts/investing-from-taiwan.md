@@ -1,6 +1,6 @@
 +++
 categories = ["taiwan", "investment"]
-date = "2021-05-30T14:37:00+01:00"
+date = "2021-05-30T14:37:00+08:00"
 description = ""
 draft = false
 image = "/img/about-bg.jpg"
