@@ -7,43 +7,48 @@ image = "/img/about-bg.jpg"
 title = "How to invest in ETFs and Stocks from Taiwan"
 +++
 
-I've spent a tremendous amount of time investigating on how to invest effectively from Taiwan. Many expats asked me the questions, so I've decided to write down how do I do it. I'll also write different alternative options you could explore. This article **will likely apply to Tax resident in Taiwan, non-US citizens**.  I'm also not a financial advisor, and invite you to make more researches, please seek professional advice.
+I've spent a tremendous amount of time investigating on how to invest from Taiwan. Many expats asked me the questions, so I've decided to write down how I do it. I'll also write different alternative options you could explore. This article **will likely apply to Tax resident in Taiwan, non-US citizens** and talk about **long term investment**. Remember:  I'm not a financial advisor, and invite you to make more researches or seek professional advice.
 
 ## Make sure to have an emergency fund before starting
 
 Do you have enough in your bank account for the next 6 months? This is one of the best recommendations. The main purpose of it is to act as a safety net if an emergency happens. This emergency fund will help you to give you enough buffer to cover any immediate needs, without touching to you investment. No one is guaranteed to keep its job forever, accidents, a major repair of your home. Withdrawing your investment **will hurt the returns on your investment**, so this fund is key to preserve the performance of it.
 
-I split my emergency fund in Revolut and Taipei Fubon Bank:
+I split my emergency fund between [Revolut](https://revolut.com/referral/ericb1ef!MAMO) and Taipei Fubon Bank:
 
 - **Taipei Fubon Bank**: [Taipei Fubon Bank](https://www.fubon.com/banking/personal/) has a decent English UI. It is known for being the cheapest to send money abroad (I'll touch on this why this is important below )
-- **Revolut**: I am often abroad and the flexibility that give you [Revolut](https://revolut.com/referral/ericb1ef!MAMO) in any country is great. 
+- [**Revolut**](https://revolut.com/referral/ericb1ef!MAMO): I am often abroad and the flexibility it gives you when you travel any country is great. 
 
-The downside of both is that you won't get much interest on them. Revolut doesn't have make you any interest. Taipei Fubon Bank rates are quite low. Those aren't really profitable, but the goal is to have access to cash at time you will expect the least, and it will help you and won't hurt your investment. Your home country might give you some better interest rate accounts.
+The downside of both is that you won't get much interest on them. But the goal is to have access to cash at time you will expect the least, and it will help you and won't hurt your investment. Your home country might give you some better interest rate accounts.
 
 ## Which financial security to buy?
- I'll only focus here on a long term vision investment for the next 15 to 20 years. If you're looking for short-term returns, this post won't be for you.
+ I'll only focus here on a long-term investments for the next 15 to 30 years. 
 
-When buying a [security](https://en.wikipedia.org/wiki/Security_(finance)) for the long term, you'll need to consider:
+When buying a [security](https://en.wikipedia.org/wiki/Security_(finance)) for the long term, this is what you should consider:
 
  - **Diversification**
  - **Low fees**
  - Understand the **tax consequences** of owning them in Taiwan
- 
 
 
 I personally recommend [**IWDA**](https://www.ishares.com/uk/individual/en/products/251882/ishares-msci-world-ucits-etf-acc-fund) and  [**EIMI**](https://www.ishares.com/uk/individual/en/products/264659/ishares-msci-emerging-markets-imi-ucits-etf) ETFs. Let me explain.
 
-### Diversification with ETFs
-On the long term, putting all your savings in a single company is risky. What if this company never grows, or worst goes bankrupt? It is also called *"put all your eggs in the same basket"*. It exists some financial products that help you to diversify. They're called [ETFs](https://www.thisismoney.co.uk/money/indexinvesting/article-4596628/Does-matter-global-ETF-invest-in.html). It's like a group of share of multiple companies grouped in a single share. By purchasing a single share of an ETF, it's like if you own a part of few to up to thousands companies, accross multiples countries.
+### Diversification with ETFs (and why I don't recommend picking stocks)
+On the long term, putting all your savings in a single company is risky (aka *"put all your eggs in the same basket"*). What if this company never grows, or worst goes bankrupt? Investing in multiple companies is a way to **manage risks** and minimize it. 
+
+It exists some financial products that help you to diversify. They're called [ETFs](https://www.thisismoney.co.uk/money/indexinvesting/article-4596628/Does-matter-global-ETF-invest-in.html). It's like a group of share of multiple companies grouped in a "single share". By purchasing a single share of an ETF, it is like if you own a part of few to up to thousands companies, accross multiples countries.
+
+\* _However, stock picking could be a good choice for you, if you understand the companies, their balance sheets, the market it is in. It is however time consuming, and most of the time people trying to do it end up losing money, trying to [beat the market](https://www.investopedia.com/ask/answers/12/beating-the-market.asp). This is why I won't recommend it for inexperimented investestors._
 
 #### IWDA to cover developped countries
 
-[**IWDA**](https://www.ishares.com/uk/individual/en/products/251882/ishares-msci-world-ucits-etf-acc-fund) is one of them. It is cheap to buy, is diversified, and the index it follows ([MSCI World](https://en.wikipedia.org/wiki/MSCI_World)) has great performance (averaging 8.5% returns since 1987).  
+[**IWDA**](https://www.ishares.com/uk/individual/en/products/251882/ishares-msci-world-ucits-etf-acc-fund) is one of the well diversified ETF I do recommend if you live in Taiwan. It is cheap to buy, is diversified, and the index it follows ([MSCI World](https://en.wikipedia.org/wiki/MSCI_World)) has great performance (averaging 8.5% returns since 1987).  
 
-IWDA has exposure to all developed countries (US, France, Japan, UK, Canada, etc...) and more than 1500 companies, including Apple, Microsoft, Amazon, in every sectors (tech, healthcare, finance, consumers...).
+IWDA has exposure to all developed countries (US, France, Japan, UK, Canada, etc...) in the major industries (tech, healthcare, finance, consumers...). Buying 1 share of IWDA, is like buying indirectly a part of more than 1500 companies including Apple, Microsoft, Amazon, Tesla or Google.
 
 Here the top countries and companies it covers:
-![description](/img/investing-in-taiwan/msci-world-holdings.png)
+![MSCI World exposure](/img/investing-in-taiwan/msci-world-holdings.png)
+
+![IWDA top holdings](/img/investing-in-taiwan/iwda-holdings.png)
 
 
 #### EIMI to cover Emerging Markets
@@ -58,7 +63,7 @@ EIMI is based on the [MSCI Emerging Market Index](https://www.msci.com/documents
 
 
 
-**Why so many countries and companies?** Isn't IWDA enough? The reason is simple... how do you know which country or company will perform better than the other in the next decades? By investing in those 2 ETFs, you'll basically tap into the world's ability to grow. You will invest into the world's biggest companies by purchasing a single share of it. 
+**Why so many countries and companies?** Isn't IWDA enough? The reason is simple... how do you know which country or company will perform better than the other in the next decades? By investing in those 2 ETFs, you'll basically bet into **the world's ability to grow**. You will invest into the world's biggest companies by purchasing a single share of it. 
 
 
 #### VWRA to cover both developped countries and emerging markets
