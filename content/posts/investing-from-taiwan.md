@@ -176,7 +176,7 @@ Simply shows up to the [tax office](https://goo.gl/maps/xReNBAMxigRMamSE6) durin
 
 
 ## Bottom Line
-- Use [**Interactive Brokers**](https://www.interactivebrokers.com/referral/eric990) to buy the ETFs (or stocks)
+- Use [**Interactive Brokers**](https://www.interactivebrokers.com/referral/eric990) to buy the ETFs (or stocks) at the lowest fees
 - If you money is in Taiwan,  Taipei Fubon Bank has the lowest fee to send money to Interactive Brokers. 
 - If you invest in ETF, prefers an ETF based in Ireland to optimize your returns. 
 - For taxes, go to the [Taiwan Tax office](https://goo.gl/maps/1np46KT98ww) with your annual reports, the tax officer will help you to fill your taxes.
@@ -202,3 +202,8 @@ This post has been originally published on November 29, 2020 and updated the 30t
 https://www.bogleheads.org/wiki/Non-US_investor%27s_guide_to_navigating_US_tax_traps
 
 -->
+
+
+#### You'll probably be interested to read:
+
+🇹🇼 [The world next innovations depend on a single country, Taiwan](../world-innovation-taiwan-semiconductors/)
