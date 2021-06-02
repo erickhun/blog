@@ -63,6 +63,16 @@ EIMI is based on the [MSCI Emerging Market Index](https://www.msci.com/documents
 
 ![EIMI Countries](/img/investing-in-taiwan/eimi-holding-countries.png)
 
+<!-- 
+
+TODO : 
+
+- Small Caps (WSML) https://www.ishares.com/uk/individual/en/products/296576/ishares-msci-world-small-cap-ucits-etf-usd-(acc)-fund?switchLocale=y&siteEntryPassthrough=true
+
+- Bonds (AGGG)  https://www.ishares.com/uk/individual/en/products/291773/
+
+ -->
+
 
 
 **Why so many countries and companies?** Isn't IWDA enough? The reason is simple... how do you know which country or company will perform better than the other in the next decades? By investing in those 2 ETFs, you'll basically bet into **the world's ability to grow**. You will invest into the world's biggest companies by purchasing a single share of it. 
@@ -85,7 +95,11 @@ And how it covers all the industries, and what are the top holdings:
 
 
 
-<!-- Even during , the economy in the next years might be slower than the previous year. So you shouldn't expect high returns each year, and be prepared to also see some years with negative returns. 
+<!-- 
+
+
+Talking about negative returns year: 
+Even during , the economy in the next years might be slower than the previous year. So you shouldn't expect high returns each year, and be prepared to also see some years with negative returns. 
 
 https://www.ishares.com/uk/individual/en/literature/fact-sheet/swda-ishares-core-msci-world-ucits-etf-fund-fact-sheet-en-gb.pdf
 
@@ -96,8 +110,7 @@ https://investmentmoats.com/passive-investing-2/iwda-versus-vwra-significant-per
 
 https://indexfundinvestor.eu/2019/01/02/what-is-the-difference-between-iwda-and-swda/
 
-
-Even though , I still own some single stocks. They represent a really small part of my portfolio and I've mostly said "bye" to that money when I clicked "buy", even though I hope they'll grow more than the ETFs. For them, I'm aware of them  -->
+ -->
 
 #### Low management fees
 Too often, new investors don't realize, or realize too late the importance of choosing low management fee ETF funds. Every funds charge fees. It can be anywhere from [0.015%](https://www.investopedia.com/articles/markets/102715/3-index-funds-lowest-expense-ratios.asp) to more than 2%. Even if 2% sounds not that much, it will negatively impact your final return. 
