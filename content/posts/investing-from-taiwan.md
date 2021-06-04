@@ -165,8 +165,7 @@ The rates difference are almost the same, and ranking can change considerably on
 
 **Is there a way to send money from Taiwan to Interactive Broker for free?** There is no straightforward way to send money from Taiwan to Interactive Brokers, but here some tips: 
 - [Taipei Fubon Bank](https://www.fubon.com/banking/personal/) is the cheapest way I've found to fund your Interactive Brokers account located in the US that is accessible to the most people in Taiwan.
-- However, since [**Interactive Brokers**](https://www.interactivebrokers.com/referral/eric990) use Citibank, you could take advantage of the ["Global Transfer"](https://www.citibank.com.tw/sim/en/globalbanking/citizen.htm). On the website: "Foreigners and the people with Citi company account can't apply for Citibank Global transfer service." I wasn't successful at getting the Citibank free transfer option, even with a 3 years ARC. I however heard foreigners friends that already has a Citibank abroad could get that feature. 
-- If you're from Europe,  a hacky way would be to get your money in [N26](https://n26.com/), and "withdraw" your money in Interactive brokers for free. 
+- If you have an Europeean residence address, a hacky way would be to get your money in [N26](https://n26.com/), and "withdraw" your money in Interactive brokers for free. 
 
 ## Tax in Taiwan
 
