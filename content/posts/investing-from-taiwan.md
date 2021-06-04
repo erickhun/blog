@@ -156,7 +156,12 @@ The signup process is straight-forward. Simply fill your information in the sign
 Protip: With Fubon, you can "link" the Interactive Brokers account to your account, so you could wire transfer online without coming to the bank again. 
 
 
-**Can I send NTD/TWD to Interactive Brokers?** No, you'll need to convert first your NTD to [USD, EUR, HKD, etc...](https://www.interactivebrokers.com/en/index.php?f=3185#:~:text=For%20each%20IB%20account%2C%20you,%2C%20SEK%2C%20SGD%20or%20USD.), and then do the wire transfer. It should be doable from any Taiwanese banks. I like keeping most of my cash in USD or EURO, so I can avoid any currency exchange fees.
+**Can I send NTD/TWD to Interactive Brokers?** No, you'll need to convert first your NTD to [USD, EUR, HKD, etc...](https://www.interactivebrokers.com/en/index.php?f=3185#:~:text=For%20each%20IB%20account%2C%20you,%2C%20SEK%2C%20SGD%20or%20USD.), and then do the wire transfer. It should be doable from any Taiwanese banks. Here is a [website listing the TWD/USD rates for every banks in Taiwan](https://taiwanrate.org/).
+
+![Taiwan Banks with the best exhchange rates](/img/investing-in-taiwan/twd-usd-rates-per-banks.png)
+
+The rates difference are almost the same, and ranking can change considerably on the hourly basiss. . I wouldn't chose a bank based on this information, unless you have a really big amount (more than 1,000,000 TWD) to exchange. 
+
 
 **Is there a way to send money from Taiwan to Interactive Broker for free?** There is no straightforward way to send money from Taiwan to Interactive Brokers, but here some tips: 
 - [Taipei Fubon Bank](https://www.fubon.com/banking/personal/) is the cheapest way I've found to fund your Interactive Brokers account located in the US that is accessible to the most people in Taiwan.
