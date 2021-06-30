@@ -98,9 +98,10 @@ Cryptocurrencies use cryptography functions multiple ways, mainly:
 *   **To make blockchain size smaller**:  [Mina Protocol](https://minaprotocol.com/tech) uses zk SNARK to make their blockchain really light (22kb). 
 
 
+
 ### Conclusion
 
-Blockchain are giant databases that store a ledger with all transactions of its users. It  sometimes stores code that can be executed. The decentralization and consensus algorithm built into them make them _almost_ impossible to be compromised by “bad actors”. With today’s blockchains valuation ($1.39Trillion!) It feels like the world is somehow betting that blockchain could be tomorrow's new way to exchange money and share information. 
+Blockchain are giant databases that store a ledger with all transactions of its users. It  sometimes stores code that can be executed. The decentralization and consensus algorithm built into them make them _almost_ impossible to be compromised by “bad actors”. With today’s blockchains valuation ($1.39Trillion!) It feels like the world is somehow betting blockchains could be tomorrow's new way to exchange money and share information. Or is that valuation only [blowing smoke](https://crypto-anonymous-2021.medium.com/the-bit-short-inside-cryptos-doomsday-machine-f8dcf78a64d3) 🤔?
 
 <!-- Want to explore more?
 
