@@ -3,27 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://erickhun.com/categories/blockchain/</loc>
+    <lastmod>2021-06-30T09:23:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://erickhun.com/categories/</loc>
-    <lastmod>2021-05-30T14:37:00+08:00</lastmod>
+    <lastmod>2021-06-30T09:23:00+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://erickhun.com/</loc>
-    <lastmod>2021-05-30T14:37:00+08:00</lastmod>
+    <lastmod>2021-06-30T09:23:00+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://erickhun.com/posts/investing-from-taiwan/</loc>
-    <lastmod>2021-05-30T14:37:00+08:00</lastmod>
+    <loc>https://erickhun.com/posts/explaining-blockchains-to-developer/</loc>
+    <lastmod>2021-06-30T09:23:00+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://erickhun.com/categories/investment/</loc>
-    <lastmod>2021-05-30T14:37:00+08:00</lastmod>
+    <lastmod>2021-06-30T09:23:00+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://erickhun.com/posts/</loc>
+    <lastmod>2021-06-30T09:23:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://erickhun.com/posts/investing-from-taiwan/</loc>
     <lastmod>2021-05-30T14:37:00+08:00</lastmod>
   </url>
   
