@@ -102,11 +102,12 @@ Cryptocurrencies use cryptography functions multiple ways, mainly:
 
 Blockchain are giant databases that store a ledger with all transactions of its users. It  sometimes stores code that can be executed . The decentralization and consensus algorithm built into them make them almost impossible to be compromised by “bad actors”.  It looks like today lot of people believe in the idea that blockchain could be the system that could replace today’s financial system. From simple exchange of money, to loan, or even information sharing.
 
-Want to explore more?
+
+<!-- Want to explore more?
 
 
 
 *   Tesla CTO exploring Bitcoin the “hard way”: [https://karpathy.github.io/2021/06/21/blockchain/](https://karpathy.github.io/2021/06/21/blockchain/)
-*   
+*    -->
 
 
