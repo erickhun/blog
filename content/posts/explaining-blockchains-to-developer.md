@@ -4,7 +4,7 @@ date = "2021-06-30T09:23:00+08:00"
 description = ""
 draft = false
 image = "/img/about-bg.jpg"
-title = "Explaining blockchain to developers"
+title = "Explaining blockchains to developers"
 +++
 
 # Explaining Blockchain to a Developer
