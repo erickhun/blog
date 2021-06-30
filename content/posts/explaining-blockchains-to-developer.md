@@ -67,20 +67,20 @@ The logic in those contracts never changes and will be on-chain forever. The con
 As a developer, you might think it’s a bad thing. What if there is a bug?  Well you better write perfect code 😉. There are [many ways](https://www.dasp.co/) to “hack” smart contracts. Some (really expensive) services , often owned by famous  security companies, exist to review your smart contracts before you publish them.
 
 
+
 ### Transparency (or Privacy?)
 
-Privacy is one of the hottest topics in 2021. We don’t want to be tracked anymore, and try to hide from Internet giants like Facebook or Google. Bitcoin or Ethereum are however fully transparent. The ledger is public and anyone that has your wallet address can see the full history. Cool or uncool? You decide. It’s like a database where you can query any transaction you are doing on it. You can for example see [here how many Ethereum (and other coin) Vitalik](https://etherscan.io/address/0xab5801a7d398351b8be11c439e05c5b3259aec9b) has. But what’s most interesting is that  you can see the full history of his wallet. You can see here that he received $375 millions worth of [“AKITA” token](https://www.akitatoken.net/), and then [forwarded that "unwanted money)](https://etherscan.io/tx/0x2fb8b58f85ab4773da00771f7f1e1a9eacf99af0ef3310b75ebcd017099f7b3c) to an India Covid Relief Fund: 
+Privacy is one of the hottest topics in 2021. We don’t want to be tracked anymore, and try to hide from Internet giants like Facebook or Google. Bitcoin or Ethereum are however fully transparent. The ledger is public and anyone that has your wallet address can see the full history. It’s like a database with read privilege where you can query any balance or operations that happened for any wallet. For example see [here how many Ethereum has Vitalik](https://etherscan.io/address/0xab5801a7d398351b8be11c439e05c5b3259aec9b) (Ethereum's dad), or how he received $375 millions worth of [“AKITA” token](https://www.akitatoken.net/), and then [forwarded that "unwanted money)](https://etherscan.io/tx/0x2fb8b58f85ab4773da00771f7f1e1a9eacf99af0ef3310b75ebcd017099f7b3c) to an India Covid relief fund: 
 
 
 
 ![ Vitalik](/img/explaining-blockchain-developers/vitalik-akita.png)
 
 
-Some blockchains such as zCash or Monero are public but used because in order to hide transactions or information. (Read on to understand how). 
+If you're looking for privacy, some blockchains such as zCash or Monero make those information hidden. (Read on to understand how). But they're still public since anyone can use them.
 
-Some blockchain are private only. 
+Some blockchains are private only. An interesting use case could be sharing some confidential data, between to a group of  specific persons. An idea could be applied for the CRS ([Common Reporting Standard, for preventing tax avoidance](https://www.oecd.org/tax/automatic-exchange/common-reporting-standard/)). Governments could share information of bank accounts into that blockchain. With decentralization, no government will have the "privilege" to delete transactions in it. If a change needs to be made, the full history of changes will be written in the ledger. 
 
-An interesting use case could be when sharing confidential data, between a set of  specific set of persons. For example an interesting use case could be applied for the CRS ([Common Reporting Standard, for preventing tax avoidance](https://www.oecd.org/tax/automatic-exchange/common-reporting-standard/)). Governments  will share information of bank account into that blockchain. No one could alter the data in it, and it will be available only to the one in that Consortium. 
 
 
 ### Why “crypto”?
