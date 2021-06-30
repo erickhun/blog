@@ -7,40 +7,6 @@ image = "/img/about-bg.jpg"
 title = "Explaining blockchain to developers"
 +++
 
-<!-- Output copied to clipboard! -->
-
-<!-----
-NEW: Check the "Suppress top comment" option to remove this info from the output.
-
-Conversion time: 0.853 seconds.
-
-
-Using this Markdown file:
-
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β29
-* Wed Jun 30 2021 08:54:02 GMT-0700 (PDT)
-* Source doc: [Blog] Explaining blockchain to developers
-* This document has images: check for >>>>>  gd2md-html alert:  inline image link in generated source and store images to your server. NOTE: Images in exported zip file from Google Docs may not appear in  the same order as they do in your doc. Please check the images!
-
------>
-
-
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 0; ALERTS: 1.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
-
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
-
-
-
 # Explaining Blockchain to a Developer
 
 _“Hey Eric! Did you know you can make some “internet money” if you let this daemon run on your computer?”_ a workmate told me. I’ve assumed it could be a kind of spyware/adware showing me ads and didn’t consider the idea further. Few months later, in October 2016, An ex-classmate  told me he made a good amount of money with that thing called “Ethereum”. I bought some Bitcoins and Ethereum after that via wechat. I still didn’t get what that Bitcoin or Ethereum thing was, naively thought “it’s magic internet money” and I could probably make money if I got some. The price of Ethereum was dropping a few days later and I forgot about it. Selective memory yes. 
