@@ -29,19 +29,15 @@ For Bitcoin, this database contains a ledger only. A ledger is basically records
 
 Not only. Some blockchains can store and execute some code, such as the Ethereum blockchain. The Ethereum “database” can store code and get the code executed. The code store is called a “smartcontract”. In Ethereum, the programming language is “[Solidity](https://docs.soliditylang.org/)”. For example:  
 
+```
 receiveMoneyEvent(amount) {
-
 	facilitatortFee = amount * 2/100
-
 	splitMoneyAmount = (amount - facilitatortFee) / 2
-
 	sendTo(charityAddressX, splitMoneyAmount)
-
 	sendTo(charityAddressY, splitMoneyAmount)
-
 	sentTo(facilitatortAddress, facilitatortFee)
-
 }
+```
 
 In this example, each time the smart contract receives money, it will forward it to 2 charities. In between, the “facilitator” will take a 2% fee.  Pretty simple isn’t it?
 

@@ -131,19 +131,14 @@
 <p>“Dubious dev 🤔: So&hellip; why not create a huge Postgresql/MySQL/MongoDB database cluster, and make it open to everyone?”</p>
 <h3 id="is-it-only-token-transactions">Is it only “token” transactions?</h3>
 <p>Not only. Some blockchains can store and execute some code, such as the Ethereum blockchain. The Ethereum “database” can store code and get the code executed. The code store is called a “smartcontract”. In Ethereum, the programming language is “<a href="https://docs.soliditylang.org/">Solidity</a>”. For example:</p>
-<p>receiveMoneyEvent(amount) {</p>
-<pre><code>facilitatortFee = amount * 2/100
-
-splitMoneyAmount = (amount - facilitatortFee) / 2
-
-sendTo(charityAddressX, splitMoneyAmount)
-
-sendTo(charityAddressY, splitMoneyAmount)
-
-sentTo(facilitatortAddress, facilitatortFee)
-</code></pre>
-<p>}</p>
-<p>In this example, each time the smart contract receives money, it will forward it to 2 charities. In between, the “facilitator” will take a 2% fee.  Pretty simple isn’t it?</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">receiveMoneyEvent(amount) {
+	facilitatortFee = amount * 2/100
+	splitMoneyAmount = (amount - facilitatortFee) / 2
+	sendTo(charityAddressX, splitMoneyAmount)
+	sendTo(charityAddressY, splitMoneyAmount)
+	sentTo(facilitatortAddress, facilitatortFee)
+}
+</code></pre></div><p>In this example, each time the smart contract receives money, it will forward it to 2 charities. In between, the “facilitator” will take a 2% fee.  Pretty simple isn’t it?</p>
 <p>Once you publish this code to the blockchain ( you’ll have to pay each time you want to do that, it’s like an expensive git push command), anyone who wants to can call this contract. In this smartcontract, addresses that will send Ether (ETH) to this contract, those actions will be executed.</p>
 <p>“Dubious dev 🤔: Well,  s<a href="https://en.wikipedia.org/wiki/Stored_procedure">ome databases such as MySQL/ Oracle</a> can also store and execute code?”</p>
 <h3 id="the-security-of-a-blockchain-decentralization-consensus-and-immutability">The Security of a blockchain: Decentralization, Consensus, and Immutability</h3>
