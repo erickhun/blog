@@ -69,13 +69,15 @@ Since 2017, the difficulty has exponentially increased, requiring more powerful 
 ![Bitcoin difficulty over time graph](/img/explaining-blockchain-developers/bitcoin-difficulty.png)
  
 
-**How long would that take to mine a block with my computer?**
+**How long would that take to mine a block from my computer?**
 
 A difficulty of 1 corresponds to 2^32 = 4,3 trillion hashes. Your computer will have to hash a random number (via bruteforce) 4.3T times in the hope to find the nonce with the lowest difficulty possible. 
 
 If we take today’s difficulty of [about 20 trillions](https://www.blockchain.com/charts/difficulty) we will have to to go through 8.6 × 10^22 (it’s 86000000000000000000000 trillions 🤪) operation to test. 
 
-Now let’s use a standard [processor a core i7 2600](https://en.bitcoin.it/wiki/Non-specialized_hardware_comparison)  with pretty good hashing power of 23.9 MHash per second, or 2.3e7 hashes per second (or 23,000,000 operations per second). It would take the computer 8.6 × 10^22 / 2.3e7 = 3.7e15 seconds, it’s about **118,567,000 years**. To compare, if the difficulty was at 1 - when Bitcoin was created - it would only take 186 seconds to go through all the possibilities and find the nonce. I know, we would all be rich now right?
+Now let’s use a standard [processor a core i7 2600](https://en.bitcoin.it/wiki/Non-specialized_hardware_comparison)  with pretty good hashing power of 23.9 MHash per second, or 2.3e7 hashes/second (or 23,000,000 operation/second). It would take the computer 8.6 × 10^22 / 2.3e7 = 3.7e15 seconds to try all the possibilities, or about **118,567,000 years**.In comparison, if the difficulty was at 1 (when Bitcoin was created) it only took 186 seconds to go through all the possibilities and find the nonce. I know, we would all be rich now right?
+
+This difficulty increase is why miners buy more and more powerful CPUs and those gigantic “[mining warehouse](https://youtu.be/f0HC1Udk6-E?t=103)”, in the hope to find that lucky number. 
 
 
 Some new consensus starts to emerge to solve those issues. Ethereum is currently moving to [a “Proof-of-Stake” consensus](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/). The current Ethereum blockchain [will "merge" (in 2022?) into the proof-of-stake system](https://ethereum.org/en/eth2/merge/). Some (really) interesting variations of the Proof of Stake consensus are adopted in the blockchain space, particularly the [Avalanche](https://docs.avax.network/learn/platform-overview/avalanche-consensus) and [Tendermint Byzantine Fault Tolerance](https://arxiv.org/abs/1807.04938) consensus. Bitcoin however will keep the proof-of-work mechanism. 
