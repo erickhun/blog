@@ -11,10 +11,10 @@
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Explaining blockchains to developers"/>
-<meta name="twitter:description" content="Explaining Blockchain to a Developer “Hey Eric! Did you know you can make some “internet money” if you let this daemon run on your computer?” a workmate told me. I’ve assumed it could be a kind of spyware/adware showing me ads and didn’t consider the idea further. Few months later, in October 2016, An ex-classmate told me he made a good amount of money with that thing called “Ethereum”. I bought some Bitcoins and Ethereum after that via wechat."/>
+<meta name="twitter:description" content="Explaining Blockchains to a Developer “Hey Eric! Did you know you can make some “internet money” if you let this software run on your computer?” a workmate told me. I’ve assumed it could be a kind of spyware/adware showing me ads and didn’t consider the idea further. Few months later, in October 2016, An ex-classmate told me he made a good amount of money with that thing called “Ethereum”. I bought some Bitcoins and Ethereum after that via wechat."/>
 
     <meta property="og:title" content="Explaining blockchains to developers" />
-<meta property="og:description" content="Explaining Blockchain to a Developer “Hey Eric! Did you know you can make some “internet money” if you let this daemon run on your computer?” a workmate told me. I’ve assumed it could be a kind of spyware/adware showing me ads and didn’t consider the idea further. Few months later, in October 2016, An ex-classmate told me he made a good amount of money with that thing called “Ethereum”. I bought some Bitcoins and Ethereum after that via wechat." />
+<meta property="og:description" content="Explaining Blockchains to a Developer “Hey Eric! Did you know you can make some “internet money” if you let this software run on your computer?” a workmate told me. I’ve assumed it could be a kind of spyware/adware showing me ads and didn’t consider the idea further. Few months later, in October 2016, An ex-classmate told me he made a good amount of money with that thing called “Ethereum”. I bought some Bitcoins and Ethereum after that via wechat." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://erickhun.com/posts/explaining-blockchains-to-developer/" />
 <meta property="article:published_time" content="2021-06-30T09:23:00+08:00" />
@@ -107,7 +107,7 @@
             </span>
             <span class="reading-time">
               <i class="fas fa-clock"></i>
-              7 minutes read
+              9 minutes read
             </span>
           </div>
           <div class="categories">
@@ -121,10 +121,10 @@
       </header>
 
       <div>
-        <h1 id="explaining-blockchain-to-a-developer">Explaining Blockchain to a Developer</h1>
-<p><em>“Hey Eric! Did you know you can make some “internet money” if you let this daemon run on your computer?”</em> a workmate told me. I’ve assumed it could be a kind of spyware/adware showing me ads and didn’t consider the idea further. Few months later, in October 2016, An ex-classmate  told me he made a good amount of money with that thing called “Ethereum”. I bought some Bitcoins and Ethereum after that via wechat. I still didn’t get what that Bitcoin or Ethereum thing was, naively thought “it’s magic internet money” and I could probably make money if I got some. The price of Ethereum was dropping a few days later and I forgot about it. Selective memory yes.</p>
+        <h1 id="explaining-blockchains-to-a-developer">Explaining Blockchains to a Developer</h1>
+<p><em>“Hey Eric! Did you know you can make some “internet money” if you let this software run on your computer?”</em> a workmate told me. I’ve assumed it could be a kind of spyware/adware showing me ads and didn’t consider the idea further. Few months later, in October 2016, An ex-classmate  told me he made a good amount of money with that thing called “Ethereum”. I bought some Bitcoins and Ethereum after that via wechat. I still didn’t get what that Bitcoin or Ethereum thing was, naively thought “it’s magic internet money” and I could probably make money if I got some. The price of Ethereum was dropping a few days later and I forgot about it. Selective memory yes.</p>
 <p>A year later, on the train back from a holiday trip in Tainan, I saw the news about a cryptocurrency exchange. It rang a bell. “I think I’ve bought some “internet money” in that exchange”. I’ve logged in. Went to check how many tokens I had. I calculated the equivalent in USD. Calculated again, and again… “Impossible!”. My Bitcoin holding USD value increased 700% and Ethereum value 3500%! 🤯🤯</p>
-<p>What is this daemon ? How can it take so much in value? Even as a developer, it took me a few years to understand what a blockchain really is, how it is working. I’m still sometimes  confused about it, but will try to lay out what I understand about it from a developer point of view.</p>
+<p>What is this software ? How can it take so much in value? Even as a developer, it took me a few years to understand what a blockchain really is, how it is working. I’m still sometimes  confused about it, but will try to lay out what I understand about it from a developer point of view.</p>
 <h3 id="what-is-a-blockchain">What is a blockchain?</h3>
 <p>In simple words, it’s a <strong>fancy database</strong>.</p>
 <p>For Bitcoin, this database contains a ledger only. A ledger is basically records of how much “token” has been transferred between addresses. Everyone can create a “wallet”, and make a transaction on it. Those transactions will be visible by anyone in the world. Each time you want to “write” in the blockchain, it will cost a certain amount of “fees”.</p>
@@ -140,38 +140,46 @@
 }
 </code></pre></div><p>In this example, each time the smart contract receives money, it will forward it to 2 charities. In between, the “facilitator” will take a 2% fee.  Pretty simple isn’t it?</p>
 <p>Once you publish this code to the blockchain ( you’ll have to pay each time you want to do that, it’s like an expensive git push command), anyone who wants to can call this contract. In this smartcontract, addresses that will send Ether (ETH) to this contract, those actions will be executed.</p>
-<p>“Dubious dev 🤔: Well,  s<a href="https://en.wikipedia.org/wiki/Stored_procedure">ome databases such as MySQL/ Oracle</a> can also store and execute code?”</p>
+<p>“Dubious dev 🤔: Well,  <a href="https://en.wikipedia.org/wiki/Stored_procedure">some databases such as MySQL/ Oracle</a> can also store and execute code?”</p>
 <h3 id="the-security-of-a-blockchain-decentralization-consensus-and-immutability">The Security of a blockchain: Decentralization, Consensus, and Immutability</h3>
 <p>A “normal” database will allow anyone who has its credential to add/remove/edit records at their will. Want to delete a transaction you’ve made? Add a higher amount in your own wallet? <strong>How would you know this database will always be managed the way it said it will</strong>? How do you make sure the one managing the system will never attempt to change the transactions or the data in it? This is where decentralization, consensus, and smart contract immutability comes into play.</p>
 <h4 id="protecting-the-blockchain-with-consensus-and-decentralization">Protecting the blockchain with “Consensus” and Decentralization</h4>
-<p>Blockchains “validate” transactions when a consensus is reached. A consensus is an agreement about the state of the ledger. It agrees on things like account balances and the order of transactions. The most famous consensus protocol being the proof-of-work protocol. It requires people running the daemon (also called miners) to go through a **brute force algorithm **to find the answer of a puzzle, also called <em>the nonce</em>. If a miner find the nonce, they’ll be rewarded with the cryptocurrency of the blockchain they are mining for.</p>
+<p>Blockchains “validate” transactions when a consensus is reached. A consensus is an agreement about the state of the ledger. It agrees on things like account balances and the order of transactions. The <a href="https://cbeci.org/cbeci/comparisons">most infamous</a> consensus protocol is “Proof-of-Work”. The bitcoin software goes through a **brute force algorithm **to find the answer of a puzzle, also called <em>the nonce</em>. People who run this software are known as “miners”. If a miner finds the nonce before anyone else, they’ll be rewarded.</p>
+<h4 id="difficulty-and-rewards">Difficulty and rewards</h4>
 <p>“Dubious dev 🤔: What if I solve the puzzle and add a fake transaction?”</p>
-<p>It&rsquo;s <em>almost impossible</em> to create new blocks that erase transactions or create fake ones. There are 1,000,000 miners in Bitcoin, and everyone&rsquo;s competing against each other. Malicious miners will need to always be solving <em>the puzzle</em> faster than everyone else to incorporate new changes, what’s <em>almost</em> impossible. Some new consensus such as Proof of Stake (particularly the <a href="https://docs.avax.network/learn/platform-overview/avalanche-consensus">Avalanche</a> and <a href="https://arxiv.org/abs/1807.04938">Tendermint Byzantine Fault Tolerance</a>  consensus).</p>
+<p>It&rsquo;s <em>almost impossible</em> to create new blocks that erase transactions or create fake ones. There are 1,000,000 miners competing against each other. Malicious miners will need to always be solving <em>the puzzle</em> faster than everyone else to incorporate malicious changes, what’s <em>almost</em> impossible.</p>
+<p>Miners get rewarded when they find the nonce.</p>
+<p>Bitcoin has a built-in algorithm to always have a target of 10 minutes to mine a block. If it takes a lot shorter to mine, the difficulty increases, if it takes longer, difficulty decreases. It means the more “hashpower”, the more difficult is the hash function to find the nonce.</p>
+<p>Since 2017, the difficulty has exponentially increased, requiring more powerful computation resource if you want to be lucky enough to mine a block. This is what lead to <a href="https://www.ft.com/content/1aecb2db-8f61-427c-a413-3b929291c8ac">today’s heated discussion related to climate change and energy consumption</a>:</p>
+<p><img src="https://erickhun.com/img/explaining-blockchain-developers/bitcoin-difficulty.png" alt="Bitcoin difficulty over time graph"></p>
+<p>**How long would that take to mine a block with my computer? **</p>
+<p>A difficulty of 1 corresponds to 2^32 = 4,3 trillion hashes. Your computer will have to hash a random number (via bruteforce) 4.3T times in the hope to find the nonce with the lowest difficulty possible.</p>
+<p>If we take today’s difficulty of <a href="https://www.blockchain.com/charts/difficulty">about 20 trillions</a> we will have to to go through 8.6 × 10^22 (it’s 86000000000000000000000 trillions 🤪) operation to test.</p>
+<p>Now let’s use a standard <a href="https://en.bitcoin.it/wiki/Non-specialized_hardware_comparison">processor a core i7 2600</a>  with pretty good hashing power of 23.9 MHash per second, or 2.3e7 hashes per second (or 23,000,000 operations per second). It would take the computer 8.6 × 10^22 / 2.3e7 = 3.7e15 seconds, it’s about <strong>118,567,000 years</strong>. To compare, if the difficulty was at 1 - when Bitcoin was created - it would only take 186 seconds to go through all the possibilities and find the nonce. I know, we would all be rich now right?</p>
+<p>Some new consensus starts to emerge. Ethereum <a href="https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/">is moving soon</a> (maybe 2022?) to a “Proof-of-Stake” consensus that doesn&rsquo;t require that much computation power. Some (really) interesting variations of the Proof of Stake consensus are adopted in the blockchain space, particularly the <a href="https://docs.avax.network/learn/platform-overview/avalanche-consensus">Avalanche</a> and <a href="https://arxiv.org/abs/1807.04938">Tendermint Byzantine Fault Tolerance</a> consensus. Bitcoin however will keep the proof-of-work mechanism.</p>
 <h4 id="immutability">Immutability</h4>
 <p>The logic in those contracts never changes and will be on-chain forever. The contract you agree to interact will always do what it said it will. No one will ever be able to change the logic. The ones creating this contract won’t be able to change it, even if they published it. So there is no risk of 1 party changing terms, because the contract can’t be changed. It will be on the chain as long as the network is alive.</p>
 <p>As a developer, you might think it’s a bad thing. What if there is a bug?  Well you better write perfect code 😉. There are <a href="https://www.dasp.co/">many ways</a> to “hack” smart contracts. Some (really expensive) services , often owned by famous  security companies, exist to review your smart contracts before you publish them.</p>
 <h3 id="transparency-or-privacy">Transparency (or Privacy?)</h3>
 <p>Privacy is one of the hottest topics in 2021. We don’t want to be tracked anymore, and try to hide from Internet giants like Facebook or Google. Bitcoin or Ethereum are however fully transparent. The ledger is public and anyone that has your wallet address can see the full history. It’s like a database with read privilege where you can query any balance or operations that happened for any wallet. For example see <a href="https://etherscan.io/address/0xab5801a7d398351b8be11c439e05c5b3259aec9b">here how many Ethereum has Vitalik</a> (Ethereum&rsquo;s dad), or how he received $375 millions worth of <a href="https://www.akitatoken.net/">“AKITA” token</a>, and then <a href="https://etherscan.io/tx/0x2fb8b58f85ab4773da00771f7f1e1a9eacf99af0ef3310b75ebcd017099f7b3c">forwarded that &ldquo;unwanted money)</a> to an India Covid relief fund:</p>
-<p><img src="https://erickhun.com/img/explaining-blockchain-developers/vitalik-akita.png" alt=" Vitalik"></p>
+<p><img src="https://erickhun.com/img/explaining-blockchain-developers/vitalik-akita.png" alt="Vitalik Akita covid19"></p>
 <p>If you&rsquo;re looking for privacy, some blockchains such as zCash or Monero make those information hidden. (Read on to understand how). But they&rsquo;re still public since anyone can use them.</p>
-<p>Some blockchains are private only. An interesting use case could be sharing some confidential data, between to a group of  specific persons. An idea could be applied for the CRS (<a href="https://www.oecd.org/tax/automatic-exchange/common-reporting-standard/">Common Reporting Standard, for preventing tax avoidance</a>). Governments could share information of bank accounts into that blockchain. With decentralization, no government will have the &ldquo;privilege&rdquo; to delete transactions in it. If a change needs to be made, the full history of changes will be written in the ledger.</p>
+<p>Some blockchains are private only. An interesting use case could be sharing some confidential data, between a group of  specific persons. An idea could be applied for the CRS (<a href="https://www.oecd.org/tax/automatic-exchange/common-reporting-standard/">Common Reporting Standard, for preventing tax avoidance</a>). Governments could share information of bank accounts into that blockchain. With decentralization, no government will have the &ldquo;privilege&rdquo; to delete transactions in it. If a change needs to be made, the full history of changes will be written in the ledger.</p>
 <h3 id="why-crypto">Why “crypto”?</h3>
 <p><strong>Cryptocurrencies</strong> use <strong>cryptographic</strong> functions to maintain security and fidelity in various parts of the blockchain software/protocol. “Cryptos” is actually a shortcut used for “cryptocurrencies” and used by many, but cryptographers don&rsquo;t like people using it since just a few of them work in the cryptocurrency space, so be aware if one is around you 😉</p>
 <p>Those functions used in cryptos are similar functions such as SHA-256 used in SSL certificates or AES for VPNs.</p>
 <p>Cryptocurrencies use cryptography functions multiple ways, mainly:</p>
 <ul>
 <li><strong>To make sure you’re the real owner of a wallet to perform a transaction</strong>. It is also called signing a transaction. You can do that with a “secret key” (or commonly called private key). You can “sign” transactions with that private key to finalize an action. It’s like a real-world signature. In the cryptographers world, it is called “asymmetric cryptography” or  “public-key cryptography” in the developer&rsquo;s world.</li>
-<li><strong>To anonymize transactions / information</strong> zk SNARK has been a proof cryptography algorithm. ZK (Zero Knowledge) are mathematical functions that allow to confirm something without revealing what that information is. It’s a “cryptographic proof” that allows a system without knowing all the information. So validators wouldn’t need the full blockchain to validate transactions.</li>
+<li><strong>To anonymize transactions / information</strong> zk SNARK has been a proof cryptography algorithm. ZK (Zero Knowledge) are mathematical functions that allow us to confirm something without revealing what that information is. It’s a “cryptographic proof” that allows a system without knowing all the information. So validators wouldn’t need the full blockchain to validate transactions.</li>
 <li><strong>To make blockchain size smaller</strong>:  <a href="https://minaprotocol.com/tech">Mina Protocol</a> uses zk SNARK to make their blockchain really light (22kb).</li>
 </ul>
 <h3 id="conclusion">Conclusion</h3>
 <p>Blockchain are giant databases that store a ledger with all transactions of its users. It  sometimes stores code that can be executed. The decentralization and consensus algorithm built into them make them <em>almost</em> impossible to be compromised by “bad actors”. With today’s blockchains valuation ($1.39Trillion!) It feels like the world is somehow betting blockchains could be tomorrow&rsquo;s new way to exchange money and share information. Or is that valuation only <a href="https://crypto-anonymous-2021.medium.com/the-bit-short-inside-cryptos-doomsday-machine-f8dcf78a64d3">blowing smoke</a> 🤔?</p>
-<!-- Want to explore more?
-
-
-
-*   Tesla CTO exploring Bitcoin the “hard way”: [https://karpathy.github.io/2021/06/21/blockchain/](https://karpathy.github.io/2021/06/21/blockchain/)
-*    -->
+<p>Want to explore more?</p>
+<ul>
+<li>Tesla CTO exploring Bitcoin the “hard way”: <a href="https://karpathy.github.io/2021/06/21/blockchain/">https://karpathy.github.io/2021/06/21/blockchain/</a></li>
+</ul>
 
 
 
