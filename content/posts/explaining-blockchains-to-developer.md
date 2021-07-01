@@ -51,7 +51,7 @@ A “normal” database will allow anyone who has its credential to add/remove/e
 
 #### Protecting the blockchain with “Consensus” and Decentralization
 
-Blockchains “validate” transactions when a consensus is reached. A consensus is an agreement about the state of the ledger. It agrees on things like account balances and the order of transactions. The [most infamous](https://cbeci.org/cbeci/comparisons) consensus protocol is “Proof-of-Work”. The bitcoin software goes through a **brute force algorithm **to find the answer of a puzzle, also called _the nonce_. People who run this software are known as “miners”. If a miner finds the nonce before anyone else, they’ll be rewarded. 
+Blockchains “validate” transactions when a consensus is reached. A consensus is an agreement about the state of the ledger. It agrees on things like account balances and the order of transactions. The [most infamous](https://cbeci.org/cbeci/comparisons) consensus protocol is “Proof-of-Work”. The bitcoin software goes through a **brute force algorithm** to find the answer of a puzzle, also called _the nonce_. People who run this software are known as “miners”. If a miner finds the nonce before anyone else, they’ll be rewarded. 
 
 
 #### Difficulty and rewards 
@@ -69,7 +69,7 @@ Since 2017, the difficulty has exponentially increased, requiring more powerful 
 ![Bitcoin difficulty over time graph](/img/explaining-blockchain-developers/bitcoin-difficulty.png)
  
 
-**How long would that take to mine a block with my computer? **
+**How long would that take to mine a block with my computer?**
 
 A difficulty of 1 corresponds to 2^32 = 4,3 trillion hashes. Your computer will have to hash a random number (via bruteforce) 4.3T times in the hope to find the nonce with the lowest difficulty possible. 
 
