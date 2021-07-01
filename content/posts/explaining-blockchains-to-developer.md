@@ -77,7 +77,8 @@ If we take today’s difficulty of [about 20 trillions](https://www.blockchain.c
 
 Now let’s use a standard [processor a core i7 2600](https://en.bitcoin.it/wiki/Non-specialized_hardware_comparison)  with pretty good hashing power of 23.9 MHash per second, or 2.3e7 hashes per second (or 23,000,000 operations per second). It would take the computer 8.6 × 10^22 / 2.3e7 = 3.7e15 seconds, it’s about **118,567,000 years**. To compare, if the difficulty was at 1 - when Bitcoin was created - it would only take 186 seconds to go through all the possibilities and find the nonce. I know, we would all be rich now right?
 
-Some new consensus starts to emerge. Ethereum [is moving soon](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/) (maybe 2022?) to a “Proof-of-Stake” consensus that doesn't require that much computation power. Some (really) interesting variations of the Proof of Stake consensus are adopted in the blockchain space, particularly the [Avalanche](https://docs.avax.network/learn/platform-overview/avalanche-consensus) and [Tendermint Byzantine Fault Tolerance](https://arxiv.org/abs/1807.04938) consensus. Bitcoin however will keep the proof-of-work mechanism. 
+
+Some new consensus starts to emerge to solve those issues. Ethereum is currently moving to [a “Proof-of-Stake” consensus](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/). The current Ethereum blockchain [will "merge" (in 2022?) into the proof-of-stake system](https://ethereum.org/en/eth2/merge/). Some (really) interesting variations of the Proof of Stake consensus are adopted in the blockchain space, particularly the [Avalanche](https://docs.avax.network/learn/platform-overview/avalanche-consensus) and [Tendermint Byzantine Fault Tolerance](https://arxiv.org/abs/1807.04938) consensus. Bitcoin however will keep the proof-of-work mechanism. 
 
 
 #### Immutability
