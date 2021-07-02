@@ -3,7 +3,7 @@ categories = ["kubernetes", "infrastructure"]
 date = "2020-08-31T23:56:00+08:00"
 description = ""
 draft = false
-image = "/img/about-bg.jpg"
+images = ["/img/kubernetes-cpu-limits/no-cpu-limit-speedup-buffer-com.jpg"]
 title = "Kubernetes: Make your services faster by removing CPU limits"
 +++
 
