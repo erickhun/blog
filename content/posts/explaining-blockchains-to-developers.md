@@ -26,7 +26,7 @@ For Bitcoin, this database contains a ledger only. A ledger is basically records
 
 ## What looks like a “blockchain”?
 
-At a really high level, a blockchain is created of blocks containing some data. They are linked with each other with a reference (a hash) of its previous block:
+At a really high level, a blockchain is made of blocks containing some data. They are linked with each other with a reference (a hash) of its previous block:
 
 
 
