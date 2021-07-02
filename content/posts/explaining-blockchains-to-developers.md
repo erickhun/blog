@@ -45,7 +45,7 @@ When you want to make a new transaction on the blockchain - let’s say someone 
 2. From this mempool, a **miner** will pick the transactions that he likes (the one that give him the most reward). The total size of all transaction transactions must be below 1MB. 
 3. The miner will run a “brute-force” algorithm to solve a puzzle. Once he find it, it will have the possibility to add the transactions he picked to the blockchain , [but not always](https://medium.com/f2pool/into-the-mempool-empty-blocks-b368c6fbaad6) (I’ll come to that one later).
 
-T**he Mempool** is a sort of waiting room with a priority ticket for transactions that are willing to pay more. The ship contains only a few seats (1MB), so it’s up to the **miner** to decide if he let you in or not. But you might end up in a ship going nowhere. 
+**The Mempool** is a sort of waiting room with a priority ticket for transactions that are willing to pay more. The ship contains only a few seats (1MB), so it’s up to the **miner** to decide if he let you in or not. But you might end up in a ship going nowhere. 
 
 ![Bitcoin structure](/img/explaining-blockchain-developers/blockchain-miners-pick-transactions.jpg)
 
