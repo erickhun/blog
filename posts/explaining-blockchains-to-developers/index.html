@@ -137,7 +137,7 @@
 <li>From this mempool, a <strong>miner</strong> will pick the transactions that he likes (the one that give him the most reward). The total size of all transaction transactions must be below 1MB.</li>
 <li>The miner will run a “brute-force” algorithm to solve a puzzle. Once he find it, it will have the possibility to add the transactions he picked to the blockchain , <a href="https://medium.com/f2pool/into-the-mempool-empty-blocks-b368c6fbaad6">but not always</a> (I’ll come to that one later).</li>
 </ol>
-<p>T<strong>he Mempool</strong> is a sort of waiting room with a priority ticket for transactions that are willing to pay more. The ship contains only a few seats (1MB), so it’s up to the <strong>miner</strong> to decide if he let you in or not. But you might end up in a ship going nowhere.</p>
+<p><strong>The Mempool</strong> is a sort of waiting room with a priority ticket for transactions that are willing to pay more. The ship contains only a few seats (1MB), so it’s up to the <strong>miner</strong> to decide if he let you in or not. But you might end up in a ship going nowhere.</p>
 <p><img src="https://erickhun.com/img/explaining-blockchain-developers/blockchain-miners-pick-transactions.jpg" alt="Bitcoin structure"></p>
 <p>You can check all the unconfirmed transactions waiting to be validated in the Bitcoin blockchain <a href="https://www.blockchain.com/btc/unconfirmed-transactions">here</a>. You can also read here a bit about the controversy to have a bigger block size .</p>
 <p>Well, this mempool/miner/puzzle architecture looks quite complicated for a database. Why is it needed?</p>
