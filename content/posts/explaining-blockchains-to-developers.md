@@ -22,7 +22,7 @@ For Bitcoin, this database contains a ledger only. A ledger is basically records
 
 At a really high level, a blockchain is made of blocks containing some data. They are linked with each other with a reference (a hash) of its previous block:
 
-
+![Bitcoin structure](/img/explaining-blockchain-developers/blockchain-high-level.jpg)
 
 It’s really similar to a [linked list](https://en.wikipedia.org/wiki/Linked_list), but there are some fundamental differences between the two, notably the mechanism of how blocks are added and the data it contains. 
 
