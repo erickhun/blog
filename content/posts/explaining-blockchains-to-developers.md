@@ -3,7 +3,7 @@ categories = ["blockchain"]
 date = "2021-06-30T09:23:00+08:00"
 description = ""
 draft = false
-image = "/img/about-bg.jpg"
+image = "/img/explaining-blockchain-developers/blockchain-merging-block.jpg"
 title = "Explaining blockchains to developers"
 +++
 
