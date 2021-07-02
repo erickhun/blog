@@ -7,7 +7,7 @@ image = "/img/about-bg.jpg"
 title = "Explaining blockchains to developers"
 +++
 
-What is a blockchain? How can it take so much in value? Why are some people using it? Even as a developer, it took me a few years to understand what a blockchain really is, how it is working from inside out. I'll share here what I believe is a comprehensive explanation of what is a blockchain from a developer point of view.
+What is a blockchain?  Why are some people using it? Even as a developer, it took me a few years to understand what a blockchain really is,how it is working from inside out. I'll share here what I believe is a comprehensive explanation of what is a blockchain from a developer point of view.
 
 ## What is a blockchain?
 
