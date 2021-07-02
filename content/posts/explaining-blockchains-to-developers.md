@@ -7,13 +7,7 @@ image = "/img/about-bg.jpg"
 title = "Explaining blockchains to developers"
 +++
 
-
-_“Hey Eric! Did you know you can make some “internet money” if you let this software run on your computer?”_ a workmate told me. I’ve assumed it could be a kind of spyware/adware showing me ads and didn’t consider the idea further. Few months later, in October 2016, an ex-classmate  told me he made a good amount of money with that thing called “Ethereum”. I bought some Bitcoins and Ethereum after that. However, I absolutely understand nothing about it. Just thought “it’s magic internet money” and I could probably try my luck if I got some. The price of Ethereum was dropping a few days later and I forgot about it. Selective memory yes.
-
-A year later, on the train back from a holiday trip in Tainan, I saw the news about a cryptocurrency exchange. It rang a bell. “I think I’ve bought some “internet money” in that exchange”. I’ve logged in. Went to check how many tokens I had. I calculated the equivalent in USD. Calculated again, and again… “Impossible!”. My Bitcoin holding USD value increased 700% and Ethereum value 3500%! 🤯🤯
-
-What is this software ? How can it take so much in value? Even as a developer, it took me a few years to understand what a blockchain really is, how it is working. I’m still sometimes  confused about it, but will try to lay out what I understand about it from a developer point of view. 
-
+What is a blockchain? How can it take so much in value? Why are some people using it? Even as a developer, it took me a few years to understand what a blockchain really is, how it is working from inside out. I'll share here what I believe is a comprehensive explanation of what is a blockchain from a developer point of view.
 
 ## What is a blockchain?
 

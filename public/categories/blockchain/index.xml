@@ -17,7 +17,8 @@
       <pubDate>Wed, 30 Jun 2021 09:23:00 +0800</pubDate>
       
       <guid>https://erickhun.com/posts/explaining-blockchains-to-developers/</guid>
-      <description>“Hey Eric! Did you know you can make some “internet money” if you let this software run on your computer?” a workmate told me. I’ve assumed it could be a kind of spyware/adware showing me ads and didn’t consider the idea further. Few months later, in October 2016, an ex-classmate told me he made a good amount of money with that thing called “Ethereum”. I bought some Bitcoins and Ethereum after that.</description>
+      <description>What is a blockchain? How can it take so much in value? Why are some people using it? Even as a developer, it took me a few years to understand what a blockchain really is, how it is working from inside out. I&amp;rsquo;ll share here what I believe is a comprehensive explanation of what is a blockchain from a developer point of view.
+What is a blockchain? In simple words, it’s a fancy database.</description>
     </item>
     
   </channel>
