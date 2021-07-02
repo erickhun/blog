@@ -125,7 +125,7 @@
 <h2 id="what-is-a-blockchain">What is a blockchain?</h2>
 <p>In simple words, it’s a <strong>fancy database</strong>.</p>
 <p>For Bitcoin, this database contains a ledger only. A ledger is basically records of how much “token” has been transferred between addresses. Everyone can create a “wallet”, and make a transaction on it. Those transactions will be visible by anyone in the world. Each time you want to “write” in the blockchain, it will cost a certain amount of “fees”.</p>
-<p>“Dubious dev 🤔: So&hellip; why not create a huge Postgresql/MySQL/MongoDB database cluster, and make it open to everyone?”</p>
+<p>“Dubious dev: So&hellip; why not create a huge Postgresql/MySQL/MongoDB database cluster, and make it open to everyone? 🤔”</p>
 <h2 id="what-looks-like-a-blockchain">What looks like a “blockchain”?</h2>
 <p>At a really high level, a blockchain is created of blocks containing some data. They are linked with each other with a reference (a hash) of its previous block:</p>
 <p>It’s really similar to a <a href="https://en.wikipedia.org/wiki/Linked_list">linked list</a>, but there are some fundamental differences between the two, notably the mechanism of how blocks are added and the data it contains.</p>
@@ -159,7 +159,7 @@
 <p>This difficulty increase is why miners buy more and more GPUs (CPUs aren&rsquo;t fast enough) to put in those gigantic “<a href="https://youtu.be/f0HC1Udk6-E?t=159">mining warehouses</a>”, in the hope to find that <em>lucky number</em>.</p>
 <p>Some new consensus starts to emerge to solve those issues. Ethereum is currently moving to <a href="https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/">a “Proof-of-Stake” consensus</a>. The current Ethereum blockchain <a href="https://ethereum.org/en/eth2/merge/">will &ldquo;merge&rdquo; (in 2022?) into the proof-of-stake system</a>. Some (really) interesting variations of the Proof of Stake consensus are adopted in the blockchain space, particularly the <a href="https://docs.avax.network/learn/platform-overview/avalanche-consensus">Avalanche</a> and <a href="https://arxiv.org/abs/1807.04938">Tendermint Byzantine Fault Tolerance</a> consensus. Bitcoin however will keep the proof-of-work mechanism.</p>
 <h2 id="securing-the-blockchain-with-decentralization-and-cryptography">Securing the blockchain with decentralization and cryptography</h2>
-<p>_“Dubious dev: What if I solve the puzzle and add a fake transaction <em>🤔</em>?” _</p>
+<p><em>“Dubious dev: What if I solve the puzzle and add a fake transaction 🤔?”</em></p>
 <p>It&rsquo;s <em>almost impossible</em> to create new blocks that erase transactions or create fake ones. If you were lucky enough to find the nonce, this doesn’t mean it will be added to the blockchain:</p>
 <ol>
 <li>You will broadcast the information to other other miners</li>

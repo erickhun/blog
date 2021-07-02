@@ -21,7 +21,7 @@ In simple words, it’s a **fancy database**.
 
 For Bitcoin, this database contains a ledger only. A ledger is basically records of how much “token” has been transferred between addresses. Everyone can create a “wallet”, and make a transaction on it. Those transactions will be visible by anyone in the world. Each time you want to “write” in the blockchain, it will cost a certain amount of “fees”. 
 
-“Dubious dev 🤔: So... why not create a huge Postgresql/MySQL/MongoDB database cluster, and make it open to everyone?” 
+“Dubious dev: So... why not create a huge Postgresql/MySQL/MongoDB database cluster, and make it open to everyone? 🤔” 
 
 
 ## What looks like a “blockchain”?
@@ -99,7 +99,7 @@ Some new consensus starts to emerge to solve those issues. Ethereum is currently
 
 ## Securing the blockchain with decentralization and cryptography
 
-_“Dubious dev: What if I solve the puzzle and add a fake transaction _🤔_?” _
+_“Dubious dev: What if I solve the puzzle and add a fake transaction 🤔?”_
 
 It's _almost impossible_ to create new blocks that erase transactions or create fake ones. If you were lucky enough to find the nonce, this doesn’t mean it will be added to the blockchain: 
 
