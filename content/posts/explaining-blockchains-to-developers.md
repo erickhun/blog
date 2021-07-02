@@ -11,7 +11,7 @@ What is a blockchain? How can it take so much in value? Why are some people usin
 
 ## What is a blockchain?
 
-In simple words, it’s a **fancy database**.
+In simple words, it’s a **slow database**.
 
 For Bitcoin, this database contains a ledger only. A ledger is basically records of how much “token” has been transferred between addresses. Everyone can create a “wallet”, and make a transaction on it. Those transactions will be visible by anyone in the world. Each time you want to “write” in the blockchain, it will cost a certain amount of “fees”. 
 
