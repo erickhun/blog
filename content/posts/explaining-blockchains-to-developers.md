@@ -90,7 +90,7 @@ A difficulty of 1 corresponds to 2^32 = 4,3 trillion hashes. Your computer will 
 
 If we take today’s difficulty of [about 20 trillions](https://www.blockchain.com/charts/difficulty) we will have to to go through 8.6 × 10^22 (it’s 86000000000000000000000 trillions 🤪) operation to try.
 
-Now let’s use a standard [processor a core i7 2600](https://en.bitcoin.it/wiki/Non-specialized_hardware_comparison)  with pretty good hashing power of 23.9 MHash per second, or 2.3e7 hashes/second (or 23,000,000 operation/second). It would take the computer 8.6 × 10^22 / 2.3e7 = 3.7e15 seconds to try all the possibilities, or about **118,567,000 years**.In comparison, if the difficulty was at 1 (when Bitcoin was created) it only took 186 seconds to go through all the possibilities and find the nonce. I know, we would all be rich now right?
+Now let’s use a standard [processor a core i7 2600](https://en.bitcoin.it/wiki/Non-specialized_hardware_comparison)  with pretty good hashing power of 23.9 MHash per second, or 2.3e7 hashes/second (or 23,000,000 operation/second). It would take the computer 8.6 × 10^22 / 2.3e7 = 3.7e15 seconds to try all the possibilities, or about **118,567,000 years**. In comparison, if the difficulty was at 1 (when Bitcoin was created) it only took 186 seconds to go through all the possibilities and find the nonce. I know, we would all be rich now right?
 
 This difficulty increase is why miners buy more and more GPUs (CPUs aren't fast enough) to put in those gigantic “[mining warehouses](https://youtu.be/f0HC1Udk6-E?t=159)”, in the hope to find that _lucky number_.
 
