@@ -152,7 +152,8 @@ Some blockchains are private only. An interesting use case could be sharing some
 
 A Blockchains is giant database that stores a ledger with all transactions of its users. It sometimes stores code that can be executed. The decentralization and consensus algorithm built into them make them _almost_ impossible to be compromised by “bad actors”. With today’s [blockchains aggregated valuation ($1.39Trillion!)](https://coinmarketcap.com/charts/), it feels like the world is somehow betting that blockchains could be tomorrow's new way to exchange money and share information. Or is that valuation only [blowing smoke](https://crypto-anonymous-2021.medium.com/the-bit-short-inside-cryptos-doomsday-machine-f8dcf78a64d3) 🤔?
 
-**Want to dig deeper?** Tesla CTO exploring[ Bitcoin the “hard way”](https://karpathy.github.io/2021/06/21/blockchain/) 
+
+**Dig deeper**: Tesla CTO exploring[ Bitcoin the “hard way”](https://karpathy.github.io/2021/06/21/blockchain/) with Python
 
 
 <!-- 

@@ -1,15 +1,12 @@
 +++
-categories = ["ethereum", "infrastructure"]
+categories = ["ethereum", "infrastructure", "blockchain"]
 date = "2018-02-03T11:16:22+01:00"
 description = ""
 draft = false
-image = "/img/ethereum-logo.png"
+images = ['/img/ethereum-logo2.png']
 tags = ["ethereum", "blockchain", "dapp", "infrastructure", "digitalocean", "geth", "dev"]
 title = "Setup your Ethereum node with geth on the Ropsten test network"
 +++
-
-![Ethereum logo](/img/ethereum-logo2.png)
-
 
 This is a step by step guide to setup your own Ethereum node on the Ropsten network. At the end of this guide you'll be able to: 
 
@@ -153,12 +150,6 @@ As many may have guess, you'll just need to remove the `--testet` flag to all co
 
 Also, you can change the `--testnet` flag to `--rinkeby` to use the Rinkeby network. The main differences with Ropsten are [detailed here](https://ethereum.stackexchange.com/a/30072).
  
-### Curious about what I'm building?
 
-I'm building a side project based on the ethereum network. Wondering what is it?  [Follow me on Twitter](https://twitter.com/eric_khun) :)
-
-### Next blog post?
-I hope this guide was helpful for anyone starting. Please let me know if there is any mistakes. I'm also thinking writing about:
-
- - How to run easily your own ETH blockchain with `truffle` and `ganache` on a remote server. That one is useful if you do not want to sync the full chain, and have the same blockchain available quickly for your teamate.
- - How to have a realtime data replication of your smart contract using events to an other DB. That one could be useful because querying the Ethereum blockchain might not be as fast and easy as we wish :)
+#### Next reads:
+👉 [Explaining Blockchains to Developers](./explaining-blockchains-to-developers/)
