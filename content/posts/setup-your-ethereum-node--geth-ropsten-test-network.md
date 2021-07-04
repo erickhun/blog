@@ -4,7 +4,7 @@ date = "2018-02-03T11:16:22+01:00"
 description = ""
 draft = false
 images = ['/img/ethereum-logo2.png']
-tags = ["ethereum", "blockchain", "dapp", "infrastructure", "digitalocean", "geth", "dev"]
+tags = ["ethereum", "blockchain", "dapp", "digitalocean", "geth"]
 title = "Setup your Ethereum node with geth on the Ropsten test network"
 +++
 
