@@ -9,7 +9,9 @@
     <meta name="description" content="Eric Khun&#39;s essays - I write about Taiwan - Scalability - Infrastructure - Engineering">
     <meta name="keywords" content="blog, developer, personal, data">
 
-    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://erickhun.com/img/ethereum-logo2.png"/>
+
 <meta name="twitter:title" content="Setup your Ethereum node with geth on the Ropsten test network"/>
 <meta name="twitter:description" content="This is a step by step guide to setup your own Ethereum node on the Ropsten network. At the end of this guide you&rsquo;ll be able to:
  Run your own ethereum node synced with the Ropsten testnet network Making sure to keep the node in sync with the blockchain on the network Be able to communicate via the JSON-RPC API of your own node Using the same method to run your node on the main network  Why do you want run your own node?"/>
@@ -19,6 +21,7 @@
  Run your own ethereum node synced with the Ropsten testnet network Making sure to keep the node in sync with the blockchain on the network Be able to communicate via the JSON-RPC API of your own node Using the same method to run your node on the main network  Why do you want run your own node?" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://erickhun.com/posts/setup-your-ethereum-node-geth-ropsten-test-network/" />
+<meta property="og:image" content="https://erickhun.com/img/ethereum-logo2.png" />
 <meta property="article:published_time" content="2018-02-03T11:16:22+01:00" />
 <meta property="article:modified_time" content="2018-02-03T11:16:22+01:00" />
 
@@ -109,14 +112,16 @@
             </span>
             <span class="reading-time">
               <i class="fas fa-clock"></i>
-              7 minutes read
+              6 minutes read
             </span>
           </div>
           <div class="categories">
   <i class="fas fa-folder"></i>
     <a href="https://erickhun.com/categories/ethereum/">ethereum</a>
       <span class="separator">•</span>
-    <a href="https://erickhun.com/categories/infrastructure/">infrastructure</a></div>
+    <a href="https://erickhun.com/categories/infrastructure/">infrastructure</a>
+      <span class="separator">•</span>
+    <a href="https://erickhun.com/categories/blockchain/">blockchain</a></div>
 
           <div class="tags">
   <i class="fas fa-tag"></i>
@@ -138,8 +143,7 @@
       </header>
 
       <div>
-        <p><img src="https://erickhun.com/img/ethereum-logo2.png" alt="Ethereum logo"></p>
-<p>This is a step by step guide to setup your own Ethereum node on the Ropsten network. At the end of this guide you&rsquo;ll be able to:</p>
+        <p>This is a step by step guide to setup your own Ethereum node on the Ropsten network. At the end of this guide you&rsquo;ll be able to:</p>
 <ul>
 <li>Run your own ethereum node synced with the Ropsten testnet network</li>
 <li>Making sure to keep the node in sync with the blockchain on the network</li>
@@ -229,14 +233,8 @@ It will return :</p>
 <h3 id="run-on-the-main-ethereum-network">Run on the main Ethereum network</h3>
 <p>As many may have guess, you&rsquo;ll just need to remove the <code>--testet</code> flag to all commands I&rsquo;ve shown you to be able to sync to the main Ethereum network! That&rsquo;s all!</p>
 <p>Also, you can change the <code>--testnet</code> flag to <code>--rinkeby</code> to use the Rinkeby network. The main differences with Ropsten are <a href="https://ethereum.stackexchange.com/a/30072">detailed here</a>.</p>
-<h3 id="curious-about-what-im-building">Curious about what I&rsquo;m building?</h3>
-<p>I&rsquo;m building a side project based on the ethereum network. Wondering what is it?  <a href="https://twitter.com/eric_khun">Follow me on Twitter</a> :)</p>
-<h3 id="next-blog-post">Next blog post?</h3>
-<p>I hope this guide was helpful for anyone starting. Please let me know if there is any mistakes. I&rsquo;m also thinking writing about:</p>
-<ul>
-<li>How to run easily your own ETH blockchain with <code>truffle</code> and <code>ganache</code> on a remote server. That one is useful if you do not want to sync the full chain, and have the same blockchain available quickly for your teamate.</li>
-<li>How to have a realtime data replication of your smart contract using events to an other DB. That one could be useful because querying the Ethereum blockchain might not be as fast and easy as we wish :)</li>
-</ul>
+<h4 id="next-reads">Next reads:</h4>
+<p>👉 <a href="./explaining-blockchains-to-developers/">Explaining Blockchains to Developers</a></p>
 
 
 
