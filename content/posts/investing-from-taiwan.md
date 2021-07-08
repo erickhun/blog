@@ -224,3 +224,5 @@ https://www.bogleheads.org/wiki/Non-US_investor%27s_guide_to_navigating_US_tax_t
 #### You'll probably be interested to read:
 
 🇹🇼 [The world next innovations depend on a single country, Taiwan](../world-innovation-taiwan-semiconductors/)
+
+🚲 [Taiwan's Bike sharing Infrastructure](/posts/taiwan-youbike-bike-sharing/)
