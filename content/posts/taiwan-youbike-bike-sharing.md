@@ -96,7 +96,10 @@ Taipei has made a great job of implementing an amazing infrastructure bike-shari
 
 #### Next reads:
 
-🤔 [The world next innovations depend on a single country, Taiwan](https://erickhun.com/posts/world-innovation-taiwan-semiconductors/) 
+🤔 [The world next innovations depend on a single country, Taiwan](posts/world-innovation-taiwan-semiconductors/) 
+
+🌱 [How to Invest in Stocks and ETFs from Taiwan](/posts/investing-from-taiwan/) 
+
 
 <!-- 🤖 [How to build a chat bot with Google's Sentence Encoder Model and Google Spreadsheet as a database](https://jonathanbgn.com/nlp/2020/09/29/chatbot-universal-sentence-encoder.html) -->
 
@@ -104,7 +107,5 @@ Taipei has made a great job of implementing an amazing infrastructure bike-shari
 
 <!-- 🌏 Interested in living and working in Taiwan? Have you checked the [Gold Card program](https://taiwangoldcard.com/application-faq/)?  -->
 
-📚 [Why you should have a side project](https://erickhun.com/posts/why-you-should-have-a-side-project/)
-
-🤸🏻‍♂️ [How to keep working out while travelling](https://erickhun.com/posts/traveling-and-working-out/)
+📚 [Why you should have a side project](/posts/why-you-should-have-a-side-project/)
 
