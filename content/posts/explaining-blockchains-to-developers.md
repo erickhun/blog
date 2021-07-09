@@ -22,7 +22,7 @@ For Bitcoin, this database contains a ledger only. A ledger is basically records
 
 At a really high level, a blockchain is made of blocks containing some data. They are linked with each other with a reference (a hash) of its previous block:
 
-![Bitcoin structure](/img/explaining-blockchain-developers/blockchain-high-level.jpg)
+![Bitcoin structure](https://erickhun.com/img/explaining-blockchain-developers/blockchain-high-level.jpg)
 
 It’s really similar to a [linked list](https://en.wikipedia.org/wiki/Linked_list), but there are some fundamental differences between the two, notably the mechanism of how blocks are added and the data it contains. 
 
@@ -41,7 +41,7 @@ When you want to make a new transaction on the blockchain - let’s say someone 
 
 **The Mempool** is a sort of waiting room with a priority ticket for transactions that are willing to pay more. The ship contains only a few seats (1MB), so it’s up to the **miner** to decide if he let you in or not. But you might end up in a ship going nowhere. 
 
-![Bitcoin structure](/img/explaining-blockchain-developers/blockchain-miners-pick-transactions.jpg)
+![Bitcoin structure](https://erickhun.com/img/explaining-blockchain-developers/blockchain-miners-pick-transactions.jpg)
 
 
 You can check all the unconfirmed transactions waiting to be validated in the Bitcoin blockchain [here](https://www.blockchain.com/btc/unconfirmed-transactions). You can also read here a bit about the controversy to have a bigger block size .
@@ -63,7 +63,7 @@ A blockchain “validates” and permanently stores the data after a consensus i
 
 “Proof of Work” blockchains have an interesting concept where you have to solve a puzzle to be able to add a block to to chain. This puzzle is run by miners. It is a brute-force algorithm where **the first miner who solved it gets a reward** (and the privilege to add a block to the chain 😉). And this happens every time a new block needs to be added. Today, 1,000,000 miners are competing against each other in the hope to solve the puzzle. 
 
-![Bitcoin Miners Adding blocks](/img/explaining-blockchain-developers/blockchain-miners-adding-block.jpg)
+![Bitcoin Miners Adding blocks](https://erickhun.com/img/explaining-blockchain-developers/blockchain-miners-adding-block.jpg)
 
 
 
@@ -73,7 +73,7 @@ Bitcoin has a built-in algorithm to try to get a target of 10 minutes to mine a 
 
 Since 2017, the difficulty has exponentially increased, requiring more powerful computation resource if you want to be lucky enough to mine a block. This is what lead to [today’s heated discussion related to climate change and energy consumption](https://www.ft.com/content/1aecb2db-8f61-427c-a413-3b929291c8ac): 
 
-![Bitcoin difficulty over time graph](/img/explaining-blockchain-developers/bitcoin-difficulty.png)
+![Bitcoin difficulty over time graph](https://erickhun.com/img/explaining-blockchain-developers/bitcoin-difficulty.png)
 
  
 
@@ -105,7 +105,7 @@ It's _almost impossible_ to create new blocks that erase transactions or create 
 
 The 2nd step is where the “crypto” in “cryptocurrency: plays its main role. Blockchains use cryptography functions in many ways, but the first use case is **to make sure one’s doing a transaction is actually the “owner” of the transaction**. It is also called signing a transaction. You can do that with a “secret key” (or commonly called private key). You can “sign” transactions with that private key to finalize an action. It’s like a real-world signature. In the cryptographers world, it is called “asymmetric cryptography” or  “public-key cryptography” in the developer's world.  With Bitcoin and Ethereum, miners will use the [ECDSA (Elliptic Curve Digital Signature Algorithm)](https://en.wikipedia.org/wiki/Bitcoin#Design) function to make that check. 
 
-![Bitcoin Merging blockchain blocks](/img/explaining-blockchain-developers/blockchain-merging-block.jpg)
+![Bitcoin Merging blockchain blocks](https://erickhun.com/img/explaining-blockchain-developers/blockchain-merging-block.jpg)
 
 
 ## More than value transaction
@@ -139,7 +139,7 @@ As a developer, you might think it’s a bad thing. What if there is a bug?  Wel
 Privacy is one of the hottest topics in 2021. We don’t want to be tracked anymore, and try to hide from Internet giants like Facebook or Google. Bitcoin or Ethereum are however fully transparent. The ledger is public and anyone that has your wallet address can see the full history. It’s like a database with read privilege where you can query any balance or operations that happened for any wallet. For example see [here how many Ethereum has Vitalik](https://etherscan.io/address/0xab5801a7d398351b8be11c439e05c5b3259aec9b) (Ethereum's dad), or how he received $375 millions worth of [“AKITA” token](https://www.akitatoken.net/), and then [forwarded that "unwanted money)](https://etherscan.io/tx/0x2fb8b58f85ab4773da00771f7f1e1a9eacf99af0ef3310b75ebcd017099f7b3c) to an India Covid relief fund: 
 
 
-![ Vitalik Akita covid19](/img/explaining-blockchain-developers/vitalik-akita.png)
+![ Vitalik Akita covid19](https://erickhun.com/img/explaining-blockchain-developers/vitalik-akita.png)
 
 
 
@@ -153,7 +153,9 @@ Some blockchains are private only. An interesting use case could be sharing some
 A Blockchains is giant database that stores a ledger with all transactions of its users. It sometimes stores code that can be executed. The decentralization and consensus algorithm built into them make them _almost_ impossible to be compromised by “bad actors”. With today’s [blockchains aggregated valuation ($1.39Trillion!)](https://coinmarketcap.com/charts/), it feels like the world is somehow betting that blockchains could be tomorrow's new way to exchange money and share information. Or is that valuation only [blowing smoke](https://crypto-anonymous-2021.medium.com/the-bit-short-inside-cryptos-doomsday-machine-f8dcf78a64d3) 🤔?
 
 
-**Dig deeper**: Tesla CTO exploring[ Bitcoin the “hard way”](https://karpathy.github.io/2021/06/21/blockchain/) with Python
+Comments on [Hacker News](https://news.ycombinator.com/item?id=27781349)
+
+**Dig deeper**: Tesla CTO exploring [Bitcoin the “hard way”](https://karpathy.github.io/2021/06/21/blockchain/) with Python
 
 
 <!-- 
