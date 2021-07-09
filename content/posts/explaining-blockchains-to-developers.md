@@ -155,10 +155,15 @@ A Blockchains is giant database that stores a ledger with all transactions of it
 
 Comments on [Hacker News](https://news.ycombinator.com/item?id=27781349)
 
-**Dig deeper**: Tesla CTO exploring [Bitcoin the “hard way”](https://karpathy.github.io/2021/06/21/blockchain/) with Python
 
-**Next read**: [Why you should have a side project](https://erickhun.com/posts/why-you-should-have-a-side-project/)
+**Next reads**: 
+
+- [Why you should have a side project](/posts/why-you-should-have-a-side-project/)
+
+- [Sharing knowledge in a remote team, across timezones](/posts/sharing-knowledge-in-a-remote-team/)
 
 <!-- 
+**Dig deeper**: Tesla CTO exploring [Bitcoin the “hard way”](https://karpathy.github.io/2021/06/21/blockchain/) with Python
+
 *   **To anonymize transactions / information** zk SNARK has been a proof cryptography algorithm. ZK (Zero Knowledge) are mathematical functions that allow us to confirm something without revealing what that information is. It’s a “cryptographic proof” that allows a system without knowing all the information. So validators wouldn’t need the full blockchain to validate transactions. 
 *   **To make blockchain size smaller**:  [Mina Protocol](https://minaprotocol.com/tech) uses zk SNARK to make their blockchain really light (22kb).  -->
