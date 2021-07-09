@@ -157,6 +157,7 @@ Comments on [Hacker News](https://news.ycombinator.com/item?id=27781349)
 
 **Dig deeper**: Tesla CTO exploring [Bitcoin the “hard way”](https://karpathy.github.io/2021/06/21/blockchain/) with Python
 
+**Next read**: [Why you should have a side project](https://erickhun.com/posts/why-you-should-have-a-side-project/)
 
 <!-- 
 *   **To anonymize transactions / information** zk SNARK has been a proof cryptography algorithm. ZK (Zero Knowledge) are mathematical functions that allow us to confirm something without revealing what that information is. It’s a “cryptographic proof” that allows a system without knowing all the information. So validators wouldn’t need the full blockchain to validate transactions. 
