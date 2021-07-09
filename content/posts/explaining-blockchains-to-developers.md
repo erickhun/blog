@@ -54,7 +54,7 @@ Well, this mempool/miner/puzzle architecture looks quite complicated for a datab
 A “classic” database will allow anyone who has its credential to add/remove/edit records at their will. Want to delete a transaction you’ve made? Add a higher amount in your own wallet? **How would you know this database will always be managed the way it said it will**? How do you make sure the one managing the system will never attempt to change the transactions or the data in it? This is where decentralization, consensus, and immutability comes into play. 
 
 
-### The race to add a block to the chain proof and work
+### The race to add a block to the chain with a "Proof of Work"
 
 A blockchain “validates” and permanently stores the data after a consensus is reached. Consensus is an agreement about the state of the ledger. It agrees on things like account balances, the order of transactions, or even if transactions look legitimate. The [most infamous](https://cbeci.org/cbeci/comparisons) consensus protocol is “Proof-of-Work” and used by Bitcoin and Ethereum.
 
