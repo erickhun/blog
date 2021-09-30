@@ -162,9 +162,10 @@ Let’s take an example of NGOs that promis. How do we know this has been done? 
         payable(address(&#34;redcross.eth&#34;)).transfer(); 
 
 		// pay the beneficiary 
-        payable(address(&#34;redcross.eth&#34;)).transfer(value - red_cross_fee); 
+        payable(address(&#34;entity.eth&#34;)).transfer(value - red_cross_fee); 
 
-</code></pre></div><h2 id="mistakes-arent-allowed">Mistakes aren’t allowed</h2>
+</code></pre></div><p>That smart contract, show the red cross takes 3%  but then fulfill the promise of forwarding the entity it want to help</p>
+<h2 id="mistakes-arent-allowed">Mistakes aren’t allowed</h2>
 <p>Humans make mistakes, not computers ( when well programmed ).</p>
 <p>As said previously. you can’t change the code once the smart contract is deployed on the blockchain. If an unintentional (or intentional?) logic exists in the code, and is harmful for users, a malicious individual that might try to use it. This is where we talked about “hack” in a smart contract. Code of the smart contract are visible on the blockchain, so it’s easier for hacker to discover vulnerabilities, so they are subject to attack.
 From a developer or entrepreneur point of view, this isn’t ideal. In the startup world, when done properly, a product (mvp) is usually buggy and not perfect, a good product often starts really buggy, and never really reaches perfection.
