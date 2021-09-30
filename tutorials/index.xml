@@ -5,10 +5,6 @@
     <link>https://erickhun.com/tutorials/</link>
     <description>Recent content in Tutorials on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    
-	<atom:link href="https://erickhun.com/tutorials/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language><atom:link href="https://erickhun.com/tutorials/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

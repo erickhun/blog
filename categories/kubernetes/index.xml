@@ -6,11 +6,7 @@
     <description>Recent content in kubernetes on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 31 Aug 2020 23:56:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://erickhun.com/categories/kubernetes/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 31 Aug 2020 23:56:00 +0800</lastBuildDate><atom:link href="https://erickhun.com/categories/kubernetes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kubernetes: Make your services faster by removing CPU limits</title>
       <link>https://erickhun.com/posts/kubernetes-faster-services-no-cpu-limits/</link>
