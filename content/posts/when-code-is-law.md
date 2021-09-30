@@ -63,10 +63,10 @@ A simple way is to check the interaction than might have happened with the (fict
         payable(address("redcross.eth")).transfer(); 
 
 		// pay the beneficiary 
-        payable(address("redcross.eth")).transfer(value - red_cross_fee); 
+        payable(address("entity.eth")).transfer(value - red_cross_fee); 
 
 ```
-
+That smart contract, show the red cross takes 3%  but then fulfill the promise of forwarding the entity it want to help 
 
 ## Mistakes aren’t allowed
 Humans make mistakes, not computers ( when well programmed ).
