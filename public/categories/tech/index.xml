@@ -6,11 +6,7 @@
     <description>Recent content in tech on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Jul 2020 23:44:22 +0800</lastBuildDate>
-    
-	<atom:link href="https://erickhun.com/categories/tech/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 30 Jul 2020 23:44:22 +0800</lastBuildDate><atom:link href="https://erickhun.com/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sharing knowledge in a remote team, across timezones</title>
       <link>https://erickhun.com/posts/sharing-knowledge-in-a-remote-team/</link>

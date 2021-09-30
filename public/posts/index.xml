@@ -6,10 +6,15 @@
     <description>Recent content in Posts on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Jun 2021 09:23:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://erickhun.com/posts/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Thu, 30 Sep 2021 09:16:00 +0800</lastBuildDate><atom:link href="https://erickhun.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When Code is Law</title>
+      <link>https://erickhun.com/posts/when-code-is-law/</link>
+      <pubDate>Thu, 30 Sep 2021 09:16:00 +0800</pubDate>
+      
+      <guid>https://erickhun.com/posts/when-code-is-law/</guid>
+      <description>How can you trust an individual, company, or government with the money you send to them? What tells you there are no hidden fees, or middleman in the contract you’re signing for? How do you make sure terms won’t be changed? Those are one of the exciting things I’m excited about smart contracts on public blockchains, The “Code is Law” feature (also called “immutability”). They are the promises of what a smart contract can fulfill.</description>
+    </item>
     
     <item>
       <title>Explaining blockchains to developers</title>
