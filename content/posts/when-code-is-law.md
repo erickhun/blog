@@ -4,20 +4,22 @@ date = "2021-09-30T09:16:00+08:00"
 description = ""
 draft = false
 images = [""]
-title = "When Code is Law"
+title = "When code is law"
 +++
 
 How can you trust an individual, company, or government with the money you send to them? What tells you there are no hidden fees, or middleman in the contract you’re signing for? How do you make sure terms won’t be changed?
 Those are one of the exciting things I’m excited about smart contracts on public blockchains, The “Code is Law” feature (also called “immutability”). They are the promises of what a smart contract can fulfill. They can become a powerful tool for companies, governments and individuals to trust each other. 
 
 
-## Code is Law, or the Immutability of a smart contract
+## The _immutability_ of a smart contract
 
-Smart contracts can be seen as any traditional website you use today. However, interacting with (I mean sending money to make an action) a traditional website doesn't mean you know what will happen behind the scenes. Some (often) unreadable lawyer words (with TOS)  will try to make you think they promise x or y. But what will guarantee you it will happen? How do you know they’ll fulfill their promise(s)? 
+Smart contracts can be seen as any traditional website/contract today. However it removes the human component of it.
 
-This is where interacting with smart contracts becomes useful. 
+ With a traditional website, it doesn't mean you know what will happen behind the scenes. Some (often) unreadable lawyer words (with TOS)  will try to make you think they promise _x_ or _y_. But **what will guarantee you _x_ or _y_ will happen? How do you know traditional websites fulfill their promise(s)**? 
 
-Smart contracts can fulfill that promise. Once the code is deployed, they’ll be executed the way it was written, and not in another way, because “code is law”. There is only a single way to run that code and no other way. 
+This is where smart contracts become useful. 
+
+When you interract with it (call an specific action in the smart contract), they’ll be executed the way it was written, and not in another way, because there is only a single and unique way to run the code that is written in the smart contract. 
 
 Let’s take this example where for project-memento, the 3 creators (Simon, David and me) are the ones taking the profit of the project: 
 
@@ -48,6 +50,7 @@ Send money to that contract, and that's all. If we’re not sure, we can use a �
 <!-- Everyone can use the blockchain -->
 
 ## Nothing to hide here
+
 The other beautiful feature is transparency. Ethereum, among other blockchain (bitcoin doesn't have the ability to run smart contracts  - yet ) gives you the transparency of any interactions that happens with that money. You know in real time how much money has been sent to this smart contract, what this money has been then sent to. 
 Let’s take an example of NGOs that promis. How do we know this has been done? Reports? Can you trust those reports? 
 
