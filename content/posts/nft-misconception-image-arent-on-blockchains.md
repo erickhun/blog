@@ -12,7 +12,7 @@ Today's biggest miscconcepions about NFTs is that they're "jpeg" image stored on
 Artists starts creating their on a piece of paper, then their computer. But when they convert it to an NFT, what makes you the owner of it? Isn't the artist still have the original one on his desk or computer? The process to convert it to an NFT? Are they really on the blockchain? But they're not. They're on one server, and that's not on the blockchain. 
 
 
-## The "digital art" isn't even store on the blockchain
+## "Digital art" aren't even store on the blockchain
 
 [ERC-721](https://eips.ethereum.org/EIPS/eip-721#implementations) is the standard that dictates how one should be create an NFT. Each ERC721 NFT must have a `tokenURI` field, that is an external link to a json file stored on an external server (and commonly are not the Ethereum blockchain!). This json file have the the `metadata` information will describe the NFT. It looks like that: 
 
@@ -61,6 +61,8 @@ For the NFT [8,9] (that [just got sold for 0.5ETH - about ~$2000!](https://ether
 ![Memento representation](/img/nft/project-memento-8-9.svg)
 
 The `tokenURI` field, that is in the ER721 standard, is read on platforms like Opensea or Rarible. If you follow the ERC-721 standard, it will make your NFT instantly tradable on those platforms. Having appealing image can help you make your NFT project more visible. So even though Project-Memento isn't an NFT that is "art" related, we could attach an image to it. 
+
+<!-- ## What could go wrong? -->
 
 
 ## Why not storing the image on the blockchain?
