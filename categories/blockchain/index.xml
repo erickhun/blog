@@ -6,14 +6,24 @@
     <description>Recent content in blockchain on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Sep 2021 09:16:00 +0800</lastBuildDate><atom:link href="https://erickhun.com/categories/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Oct 2021 13:08:00 +0800</lastBuildDate><atom:link href="https://erickhun.com/categories/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NFT misconception: JPEG aren&#39;t on the Blockchain</title>
+      <link>https://erickhun.com/posts/nft-misconception-image-arent-on-blockchains/</link>
+      <pubDate>Sun, 31 Oct 2021 13:08:00 +0800</pubDate>
+      
+      <guid>https://erickhun.com/posts/nft-misconception-image-arent-on-blockchains/</guid>
+      <description>Today&amp;rsquo;s biggest miscconcepions about NFTs is that they&amp;rsquo;re &amp;ldquo;jpeg&amp;rdquo; image stored on the Ethereum blockchain, it&amp;rsquo;s not. Probably because those digital art can be easy to vizualize, and famous artists attempt today to sell their digital art as an NFT on platform such as Opensea, it has gained lot of attentions this past months.
+Artists starts creating their on a piece of paper, then their computer. But when you buy an NFT, what makes you the owner of it?</description>
+    </item>
+    
     <item>
       <title>When code is law</title>
       <link>https://erickhun.com/posts/when-code-is-law/</link>
       <pubDate>Thu, 30 Sep 2021 09:16:00 +0800</pubDate>
       
       <guid>https://erickhun.com/posts/when-code-is-law/</guid>
-      <description>How can you trust an individual, company, or government with the money you send to them? What tells you there are no hidden fees, or middleman in the contract you’re signing for? How do you make sure terms won’t be changed? Those are one of the exciting things I’m excited about smart contracts on public blockchains, The “Code is Law” feature (also called “immutability”). They are the promises of what a smart contract can fulfill.</description>
+      <description>How can you trust an individual, company, or government with the money you send to them? What tells you there are no hidden fees, or middleman in the contract you’re signing for? How do you make sure terms won’t be changed? Those are one of the exciting things I’m excited about smart contracts on public blockchains, the “Code is Law” feature (also called “immutability”). They are the promises of what a smart contract can fulfill.</description>
     </item>
     
     <item>
