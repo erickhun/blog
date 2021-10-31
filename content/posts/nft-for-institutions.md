@@ -45,3 +45,4 @@ javais un appareil quand jetais ado. Mais j'avais une tige en metal (permanent r
 Je suis aller voir un dentiste et ma conseiller de refaire un appareil, mais  j'ai opete un invisalign. Par contre le traitement requiere de  creer de "l'espace" avec l'IPR - c'est vraiment pas marrant , c'est vraiment comme aller a massacre a la tronconeuse tous les mois.  Et le traitement coute 6000euros. don't prenez soins de vos dents si vous voulez pas que vos profits AVAX passent dans ce genre de trucs 
 
 
+**Next read**: [Explaining blockchains to developers](/posts/explaining-blockchains-to-developers)
