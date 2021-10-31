@@ -9,9 +9,10 @@ title = "NFT misconception: JPEG aren't on the Blockchain"
 
 Today's biggest miscconcepions about NFTs is that they're "jpeg" image stored on the Ethereum blockchain, it's not. Probably because those digital art can be easy to vizualize, and famous artists attempt today to sell their digital art as an NFT on platform such as Opensea, it has gained lot of attentions this past months. 
 
-Artists starts creating their on a piece of paper, then their computer. But when you buy an NFT, what makes you the owner of it? Isn't the artist still have the original one on his desk or computer? The process to convert it to an NFT? Are they really on the blockchain? But they're not. They're on one server, and if that service, the 
+Artists starts creating their on a piece of paper, then their computer. But when they convert it to an NFT, what makes you the owner of it? Isn't the artist still have the original one on his desk or computer? The process to convert it to an NFT? Are they really on the blockchain? But they're not. They're on one server, and that's not on the blockchain. 
 
-## The "digital art" isn't store on the blockchain
+
+## The "digital art" isn't even store on the blockchain
 
 [ERC-721](https://eips.ethereum.org/EIPS/eip-721#implementations) is the standard that dictates how one should be create an NFT. Each ERC721 NFT must have a `tokenURI` field, that is an external link to a json file stored on an external server (and commonly are not the Ethereum blockchain!). This json file have the the `metadata` information will describe the NFT. It looks like that: 
 
@@ -72,5 +73,11 @@ What? Actually you could store them. However, Etheruem blockchain isn't designed
 
 If we assume a jpg weight about 500kb, that will bring the cost to store an image of $20,000! And what if you want to go fancy and store something with High Resolution? I let you make the math
 
-Because of the high price, most of the NFT use the technique I've describe above. The most famous "Art NFTs" such as cryptokitty or Cryptopunk use all similar techniques. All those images are hosted on external servers, and they're not on the Ethereum blockchain itself. 
+## 
+
+Because of the high price, most of the NFT use the technique I've describe above. There are other technique such as using solution like IPFS, 
+
+
+The most famous "Art NFTs" such as cryptokitty or Cryptopunk use all similar techniques. All those images are hosted on external servers, and they're not on the Ethereum blockchain itself. 
+
 
