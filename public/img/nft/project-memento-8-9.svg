@@ -1,0 +1,15 @@
+<svg version="1.1"
+     baseProfile="full"
+     width="600" height="600"
+     xmlns="http://www.w3.org/2000/svg">
+     <defs>
+        <style type="text/css">
+            @font-face {
+                font-family: "Azeret Mono";
+                src: url(https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100);
+            }
+        </style>
+    </defs>
+    <rect x="0" y="0" width="100%" height="100%" fill="#111" />
+    <text x="255.0px" y="285.0px" style="font-size:30.0px;color:#fff;font-family:'Azeret Mono', monospace" text-anchor="middle" dominant-baseline="middle" fill="white">×</text>
+    </svg>

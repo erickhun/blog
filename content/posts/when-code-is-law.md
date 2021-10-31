@@ -8,7 +8,7 @@ title = "When code is law"
 +++
 
 How can you trust an individual, company, or government with the money you send to them? What tells you there are no hidden fees, or middleman in the contract you’re signing for? How do you make sure terms won’t be changed?
-Those are one of the exciting things I’m excited about smart contracts on public blockchains, The “Code is Law” feature (also called “immutability”). They are the promises of what a smart contract can fulfill. They can become a powerful tool for companies, governments and individuals to trust each other. 
+Those are one of the exciting things I’m excited about smart contracts on public blockchains, the “Code is Law” feature (also called “immutability”). They are the promises of what a smart contract can fulfill. They can become a powerful tool for companies, governments and individuals to **trust each other**, but also **remove middlemen**.
 
 
 ## The _immutability_ of a smart contract
@@ -77,6 +77,9 @@ Humans make mistakes, not computers ( when well programmed ).
 As said previously. you can’t change the code once the smart contract is deployed on the blockchain. If an unintentional (or intentional?) logic exists in the code, and is harmful for users, a malicious individual that might try to use it. This is where we talked about “hack” in a smart contract. Code of the smart contract are visible on the blockchain, so it’s easier for hacker to discover vulnerabilities, so they are subject to attack. 
 From a developer or entrepreneur point of view, this isn’t ideal. In the startup world, when done properly, a product (mvp) is usually buggy and not perfect, a good product often starts really buggy, and never really reaches perfection. 
 Testnets exist so you can test it, and you can also. Also smart contract audits become more and more common, but often too expensive. A good idea could be to use battle tested standards, like the ERC 721 for NFTs,  where new code is minimized and mistakes less prone to happen.
+
+
+For example, when a bug in the [Compound.finance](https://www.coindesk.com/tech/2021/10/01/compound-founder-says-80m-bug-presents-moral-dilemma-for-defi-users/) smartcontract mistakenly sent $80M to its users: 
 
 
 **Next read**: [Explaining blockchains to developers](/posts/explaining-blockchains-to-developers)
