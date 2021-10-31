@@ -148,7 +148,7 @@ Artists starts creating their on a piece of paper, then their computer. But when
     }
 }
 </code></pre></div><p>You can notice the <code>image</code> field, that is a link to an image. If we take example <a href="https://project-memento.com/">Project Memento</a>, an NFT and basically allow the owner of the NFT to change the letters he owns. You can basically trade &ldquo;coordinates&rdquo; on the website, and there is NO NEED of an image for the project itself to work.</p>
-<p>For the NFT [8,9] (that <a href="https://etherscan.io/tx/0x5b9eb844062c9806e4fd5c831d26ad0c76466cc4d62d46610d5f4efbd1035cac">just got sold for 0.5ETH - about ~$2000</a>), the <a href="https://project-memento.com/metadata/8-9.json">metadata file</a> looks like:</p>
+<p>For the NFT [8,9] (that <a href="https://etherscan.io/tx/0x5b9eb844062c9806e4fd5c831d26ad0c76466cc4d62d46610d5f4efbd1035cac">just got sold for 0.5ETH - about ~$2000!</a>), the <a href="https://project-memento.com/metadata/8-9.json">metadata file</a> looks like:</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
     <span style="font-weight:bold">&#34;name&#34;</span>: <span style="font-style:italic">&#34;Project Memento [8,9]&#34;</span>,
     <span style="font-weight:bold">&#34;image&#34;</span>: <span style="font-style:italic">&#34;https://memento.pages.dev/images/8-9.svg&#34;</span>,
@@ -165,7 +165,7 @@ Artists starts creating their on a piece of paper, then their computer. But when
 }
 </code></pre></div><p>You can notice the <code>&quot;image&quot;</code> field that point to <a href="https://memento.pages.dev/images/8-9.svg">https://memento.pages.dev/images/8-9.svg</a>. Our NFT doesn&rsquo;t need an image. However, it could be great to have a representation of it, especially if the project ends up on <a href="https://opensea.io/collection/project-memento">opensea</a>. We had to use a bit of our imagination, and decided to make a marker on a square representing relatively where would be the tile you get on our grid.</p>
 <p><img src="https://erickhun.com/img/nft/project-memento-8-9.svg" alt="Memento representation"></p>
-<p>The <code>tokenURI</code> field is read on platform like Opensea or Rarible. If you follow the ERC-721 standard, it instantly make your NFT tradable on those platforms. Having appealing image can help you make your NFT project more visible. So even though Project-Memento isn&rsquo;t an NFT that is &ldquo;art&rdquo; related, we could attach an image to it.</p>
+<p>The <code>tokenURI</code> field, that is in the ER721 standard, is read on platforms like Opensea or Rarible. If you follow the ERC-721 standard, it will make your NFT instantly tradable on those platforms. Having appealing image can help you make your NFT project more visible. So even though Project-Memento isn&rsquo;t an NFT that is &ldquo;art&rdquo; related, we could attach an image to it.</p>
 <h2 id="why-not-storing-the-image-on-the-blockchain">Why not storing the image on the blockchain?</h2>
 <p>We could actually store them on the blockchain, but that would be excessively expensive. The Etheruem blockchain isn&rsquo;t designed for this. Each action you want to do , and every information you store on the blockchain has a cost. You&rsquo;ve certainly hear about the excessively high price of Ethereum transaction. And the high price are for tiny code program that weigh few 1 or 2 Kilobyte.  If we would store an image on it:</p>
 <ul>

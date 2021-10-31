@@ -38,7 +38,7 @@ Artists starts creating their on a piece of paper, then their computer. But when
 
 You can notice the `image` field, that is a link to an image. If we take example [Project Memento](https://project-memento.com/), an NFT and basically allow the owner of the NFT to change the letters he owns. You can basically trade "coordinates" on the website, and there is NO NEED of an image for the project itself to work. 
 
-For the NFT [8,9] (that [just got sold for 0.5ETH - about ~$2000](https://etherscan.io/tx/0x5b9eb844062c9806e4fd5c831d26ad0c76466cc4d62d46610d5f4efbd1035cac)), the [metadata file](https://project-memento.com/metadata/8-9.json) looks like:  
+For the NFT [8,9] (that [just got sold for 0.5ETH - about ~$2000!](https://etherscan.io/tx/0x5b9eb844062c9806e4fd5c831d26ad0c76466cc4d62d46610d5f4efbd1035cac)), the [metadata file](https://project-memento.com/metadata/8-9.json) looks like:  
 ```json
 {
     "name": "Project Memento [8,9]",
@@ -60,7 +60,7 @@ For the NFT [8,9] (that [just got sold for 0.5ETH - about ~$2000](https://ethers
 
 ![Memento representation](/img/nft/project-memento-8-9.svg)
 
-The `tokenURI` field is read on platform like Opensea or Rarible. If you follow the ERC-721 standard, it instantly make your NFT tradable on those platforms. Having appealing image can help you make your NFT project more visible. So even though Project-Memento isn't an NFT that is "art" related, we could attach an image to it. 
+The `tokenURI` field, that is in the ER721 standard, is read on platforms like Opensea or Rarible. If you follow the ERC-721 standard, it will make your NFT instantly tradable on those platforms. Having appealing image can help you make your NFT project more visible. So even though Project-Memento isn't an NFT that is "art" related, we could attach an image to it. 
 
 
 ## Why not storing the image on the blockchain?
