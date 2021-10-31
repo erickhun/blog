@@ -63,7 +63,7 @@ For the NFT [8,9] (that [just got sold for 0.5ETH - about ~$2000](https://ethers
 The `tokenURI` field is read on platform like Opensea or Rarible. If you follow the ERC-721 standard, it instantly make your NFT tradable on those platforms. Having appealing image can help you make your NFT project more visible. So even though Project-Memento isn't an NFT that is "art" related, we could attach an image to it. 
 
 
-## Why not store the jpg them on the blockchain?
+## Why not storing the image on the blockchain?
 We could actually store them on the blockchain, but that would be excessively expensive. The Etheruem blockchain isn't designed for this. Each action you want to do , and every information you store on the blockchain has a cost. You've certainly hear about the excessively high price of Ethereum transaction. And the high price are for tiny code program that weigh few 1 or 2 Kilobyte.  If we would store an image on it: 
 
 - The cost of data storage is 640k gas per kilobyte of data.
@@ -71,7 +71,7 @@ We could actually store them on the blockchain, but that would be excessively ex
 - At today's price (30th october 2021), 1 ETH is approximately $4000.
 - Each kilobyete for an image would cost $40
 
-If we assume a jpg weight about 500kb, that will bring the cost to store an image of $20,000! And what if you want to go fancy and store something with High Resolution? I let you make the math
+If we assume a jpg weight about 500kb, that will bring **the cost to store an image to $20,000**! And what if you want to go fancy and store something with High Resolution, or even better, raw images? I let you do the maths!
 
 ## Conclusion
 
