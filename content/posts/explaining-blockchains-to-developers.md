@@ -155,6 +155,8 @@ A Blockchains is giant database that stores a ledger with all transactions of it
 
 Comments on [Hacker News](https://news.ycombinator.com/item?id=27781349)
 
+ps: I'm working on a NFT as Ads banner project:  basically, an Adsense on the blockchain, where owner website has control of their ads. [Reach me out](https://twitter.com/eric_khun) if you're interested to test it
+
 
 **Next reads**: 
 
