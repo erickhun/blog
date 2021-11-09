@@ -4,6 +4,8 @@ date = "2021-10-31T13:08:00+08:00"
 description = ""
 draft = false
 images = [""]
+images = ["/img/nft/project-memento-8-9.svg"]
+
 title = "NFT misconception: JPEG aren't on the Blockchain"
 +++
 
