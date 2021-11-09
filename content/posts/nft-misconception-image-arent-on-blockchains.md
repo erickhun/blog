@@ -117,7 +117,7 @@ So before buying any NFT, try to understand what you buy and even better, how it
 <svg width="18" height="10" xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-left"><path d="M13.922 5.636L9.055 9.455l.72.545C12.892 7.788 14.606 6.758 18 5l-1.134-.585C14.177 3.007 12.496 1.952 9.774 0l-.72.545 4.868 3.819H0v1.272h13.922z" fill="#729426" fill-rule="nonzero"></path></svg></span></a></div>
 
 
-ps: I'm working on a NFT as Ads banner project:  basically, an Adsense on the blockchain, where owner website has control of their ads. [Reach me out](https://twitter.com/eric_khun) if you're interested to test it
+ps: I'm working on an **utility** NFT as Ads banner project:  basically, an Adsense on the blockchain, where website's owners have full control of their ads and revenue. [Reach me out](https://twitter.com/eric_khun) if you're interested to test it
 
 **Next reads**: 
 
