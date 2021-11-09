@@ -16,7 +16,7 @@ googleAnalytics = "UA-106516-7"
 
 [params]
     author = "Eric Khun"
-    info = "engineering @ <a href=\"https://buffer.com\">buffer</a> <br/> 🚨 <a href=\"https://monitory.io\">monitory.io</a>  🇹🇼  <a href=\"https://taiwangoldcard.com\">taiwangoldcard.com</a> ✈️  <a href=\"https://travellhustlers.co\">travelhustlers.co</a> "
+    info = "engineering @ <a href=\"https://buffer.com\">buffer</a> <br/> 🎨 <a href=\"https://project-memento.com\">project memento (NFT)</a>  🇹🇼  <a href=\"https://taiwangoldcard.com\">taiwangoldcard.com</a> 🌃  <a href=\"https://citymayo.co\">citymayor.co (NFT)</a> "
     description = "Eric Khun's essays - I write about Taiwan - Scalability - Infrastructure - Engineering"
     keywords = "blog, developer, personal, data"
     avatarurl = "img/eric.jpg"
