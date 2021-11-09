@@ -19,7 +19,7 @@ NFT is a proof of ownernership that one own something. Why is that proof of owne
 But isn't the original in the. he simply put a copy of it . Some might argue that the original is store on the harddrive. Copying it on the blockcchain wouldn't be the original isn't it? 
 
 
-Ig you create an NFT. It's up to the . Today it has not any legal value. But what if tomorrow it has, and government start utilising it as a proof of ownership? In today's society, you can use the receipt for the sale to prove you own something, a computer, car, and even a house. 
+If you create an NFT. It's up to the . Today it has not any legal value. But what if tomorrow it has, and government start utilising it as a proof of ownership? In today's society, you can use the receipt for the sale to prove you own something, a computer, car, and even a house. 
 
 
 

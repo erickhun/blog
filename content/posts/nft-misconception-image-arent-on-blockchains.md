@@ -36,7 +36,7 @@ Artists start creating them on a piece of paper, then their computer. But when t
 }
 ```
 
-You can notice the `image` field, which is a link to an image. If we take example [Project Memento](https://project-memento.com/), an NFT and basically allow the owner of the NFT to change the letters he owns. You can basically trade "coordinates" on the website, and there is NO NEED of an image for the project itself to work. 
+You can notice the `image` field, which is a link to an image. If we take example [Project Memento](https://project-memento.com/), an NFT allowing change tiles you own to the desired letter. You basically trade "coordinates" on the website and there is NO NEED of an image for the project itself to work. 
 
 For the NFT [8,9] (that [just got sold for 0.5ETH - about ~$2000!](https://etherscan.io/tx/0x5b9eb844062c9806e4fd5c831d26ad0c76466cc4d62d46610d5f4efbd1035cac)), the [metadata file](https://project-memento.com/metadata/8-9.json) looks like:  
 ```json
