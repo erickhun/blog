@@ -102,8 +102,8 @@ So before buying any NFT, try to understand what you buy and even better, how it
     max-width: 312px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 14px;
+    padding-top: 14px;
     width: 50%;
     font-weight: bold;
     margin: 20px;
