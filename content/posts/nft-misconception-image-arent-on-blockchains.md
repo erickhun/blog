@@ -61,7 +61,7 @@ For the NFT [8,9] (that [just got sold for 0.5ETH - about ~$2000!](https://ether
 
 ![Memento representation](/img/nft/project-memento-8-9.svg)
 
-The `tokenURI` field, which is in the ER721 standard, is read on platforms like Opensea or Rarible. If you follow the ERC-721 standard, it will make your NFT instantly tradable on those platforms. Having an appealing image can help you make your NFT project more visible. So even though [Project-Memento](https://project-memento.com/) isn't about JPEG, , we've attached an image to it to make it more attractive.
+The `tokenURI` field, which is in the ER721 standard, is read on platforms like Opensea or Rarible. If you follow the ERC-721 standard, it will make your NFT instantly tradable on those platforms. Having an appealing image can help you make your NFT project more visible. So even though [Project-Memento](https://project-memento.com/) isn't about JPEG, , we've attached an image to it, to make it more attractive.
 
 <!-- ## What could go wrong? -->
 
