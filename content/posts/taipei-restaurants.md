@@ -3,7 +3,7 @@ categories = ["taiwan", "taipei"]
 date = "2021-11-30T17:30:17+08:00"
 description = ""
 draft = false
-images = ["/img/"]
+images = ["/img/taipei-map.jpg"]
 title = "Restaurants I recommend after living 5 years in Taipei"
 +++
 
