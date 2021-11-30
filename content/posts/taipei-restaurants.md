@@ -103,5 +103,9 @@ Link: https://goo.gl/maps/ZMRxoP2FJfoj1kvc7
 
 ![](/img/taipei-restaurants/donburi.jpg)
 
+This was a really hard list to do.   I'm sure I might have forgotten some gems, but that will be the opportunity to make another post. You can see here the pins of restaurant I've liked (pink) and the one I want to try (green): 
+
+![](/img/taipei-restaurants/taipei-map.jpg)
+
 
 If you enjoyed that selection, you might be a good fit for the "Foodies in Taipei Line group" where many fooedies contribute about what they eat and new finding in Taipei. Reach me out on [Twitter](https://twitter.com/eric_khun). I filter quite a bit, so try to sell yourself why you worth being added in the group ;) 
