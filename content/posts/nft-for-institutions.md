@@ -13,7 +13,14 @@ Today's biggest miscconcepions about NFTs is that they're simple jpeg image. Som
 ## What NFT isn't
 https://news.ycombinator.com/item?id=28715925
 
-NFT isn't like 
+The contract itself is worthless.
+
+https://www.reddit.com/r/ethdev/comments/qpk3tt/comment/hjv7ip6/
+An NFT is not an image. An NFT is, effectively, a cryptographically signed "serial number." An NFT itself contains no artwork. It contains no rights. It merely confirms provenance of a piece of artwork using cryptography. That's all.
+It really doesn't make sense to use a URL as part of an NFT at all, other than as metadata or for historical purposes. URLs change. Domains change. Protocols change. An NFT should be for the asset itself.
+
+
+
 
 NFT is a proof of ownernership that one own something. Why is that proof of ownership actually ? This is where .
 But isn't the original in the. he simply put a copy of it . Some might argue that the original is store on the harddrive. Copying it on the blockcchain wouldn't be the original isn't it? 
