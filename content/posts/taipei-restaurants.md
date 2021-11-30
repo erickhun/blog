@@ -11,9 +11,9 @@ I've been [reviewing hundreds of restaurants](https://www.google.com/maps/contri
 
 ## "Kung fu" noodle @ 春水堂 (Chun Shui Tang)
 
-This one is an interesting one because it never appears on Google maps when you try to "explore" restaurants.  It only appear when you type the name of it in chinese, so I guess that's why you don't see any "foreigners" there . I've stumble upon it when brwosing the Eslite bookstore and was wondering why there was some people always queuing for it. 
+This one is an interesting one because it never appears on Google maps when you try to "explore" restaurants.  It only appear when you type the name of it in chinese, so I guess that's why you don't see any "foreigners" there . I've stumble upon it when brwosing the Eslite bookstore and was wondering why there was some people always queuing in front of this restaurant.
 
-Recommendation: Take the kung-fu mian that is amazing. Don't miss their signature bubble tea. I recommend to go after peak hours. Weekends might be really crowded. 
+Recommendation: Take the kung-fu mian that is amazing. Don't miss their signature bubble tea. I recommend to go after peak hours. Weekends might be really crowded. Try to ask for a seat next to the window for a nice view.
 
 Link: https://goo.gl/maps/Tzf4AvuRQ7j5xY8p9 
 
