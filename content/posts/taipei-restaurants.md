@@ -5,7 +5,6 @@ description = ""
 draft = false
 images = ["/img/"]
 title = "Restaurants I recommend after living 5 years in Taipei"
-## title = "Restaurants I'd bring my friends visiting me'"
 +++
 
 I've been [reviewing hundreds of restaurants](https://www.google.com/maps/contrib/103590446330914322330) on Google Maps . I surprise myself with not knowing where to go to eat. Having [too many choices isn't always great isn't it](https://en.wikipedia.org/wiki/The_Paradox_of_Choice)? I wanted to write down which restaurants that aren't mainstream are worth going.  Apart from the lonely planet, Michelin stars,  I've made a selection of more personal choices after trying hundreds of restaurant in Taipei. I do recommend them because they all have something unique. They;re where I'd personally bring friends or family that will come to visit me in Taiwan. All of those restaurant are in the low / medium price range, where you'd go without thinking about budget.
@@ -63,7 +62,7 @@ Link: https://goo.gl/maps/Pf6MsWVVniRrM9Lj9
 
 ## Veal ribs and beef tongue @ Black Bottle 
 
-I do recommend the the veal ribs with vinegar, and beef tongues cooked with cream and mustard.
+A really small shop I discover when they were in a "street food" mode. I love returning there. I do recommend the the veal ribs with vinegar, and beef tongues cooked with cream and mustard.
 
 Link: https://goo.gl/maps/QMwLahjaXGJ9e6Az7
 
