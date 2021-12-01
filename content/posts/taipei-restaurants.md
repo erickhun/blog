@@ -11,7 +11,7 @@ I've been [reviewing hundreds of restaurants](https://www.google.com/maps/contri
 
 ## "Kung fu" noodle @ 春水堂 (Chun Shui Tang)
 
-This one is an interesting one because it never appears on Google maps when you try to "explore" restaurants.  It only appear when you type the name of it in chinese, so I guess that's why you don't see any "foreigners" there . I've stumble upon it when brwosing the Eslite bookstore and was wondering why there was some people always queuing in front of this restaurant.
+This one is an interesting one because it never appears on Google maps when you try to "explore" restaurants.  It only appear when you type the name of it in chinese, so I guess that's why you don't see any "foreigners" there . I've stumble upon it when browsing the Eslite bookstore and was wondering why there was some people always queuing in front of this restaurant.
 
 Recommendation: Take the kung-fu mian that is amazing. Don't miss their signature bubble tea. I recommend to go after peak hours. Weekends might be really crowded. Try to ask for a seat next to the window for a nice view.
 
@@ -103,12 +103,11 @@ Link: https://goo.gl/maps/ZMRxoP2FJfoj1kvc7
 
 ![](/img/taipei-restaurants/donburi.jpg)
 
-This was a really hard list to do.   I'm sure I might have forgotten some gems, but that will be the opportunity to make another post. You can see here the pins of restaurant I've liked (pink) and the one I want to try (green): 
+This wasn't an easy list to do. I, for sure, have forgotten some great gems. That will be the opportunity to make another post. Here how looks like all the restaurants I still want to try (in green), and the one I liked (in pink):
 
 ![](/img/taipei-restaurants/taipei-map.jpg)
 
-
-If you enjoyed that selection, you might be a good fit for the "Foodies in Taipei Line group" where many fooedies contribute about what they eat and new finding in Taipei. Reach me out on [Twitter](https://twitter.com/eric_khun). I filter quite a bit, so try to sell yourself why you worth being added in the group ;) 
+If you want follow in real time my restaurant reviews, [follow my Google Maps profile](https://www.google.com/maps/contrib/103590446330914322330) . If you enjoyed that selection, you might be a good fit for the "Foodies in Taipei Line group" where many foodies contribute about what they eat and new finding in Taipei. Reach me out on [Twitter](https://twitter.com/eric_khun). I filter quite a bit, so try to sell yourself why you worth being added in the group ;) 
 
 
 <style>
