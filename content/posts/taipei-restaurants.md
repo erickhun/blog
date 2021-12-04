@@ -107,7 +107,7 @@ This wasn't an easy list to do. I, for sure, have forgotten some great gems. Tha
 
 ![](/img/taipei-restaurants/taipei-map.jpg)
 
-If you want follow in real time my restaurant reviews, [follow my Google Maps profile](https://www.google.com/maps/contrib/103590446330914322330) . If you enjoyed that selection, you might be a good fit for the "Foodies in Taipei Line group" where many foodies contribute about what they eat and new finding in Taipei. Reach me out on [Twitter](https://twitter.com/eric_khun). I filter quite a bit, so try to sell yourself why you worth being added in the group ;) 
+If you want follow in real time my restaurant reviews, [follow me on Instagram](https://www.instagram.com/miamtaiwan/).
 
 
 <style>
@@ -136,7 +136,7 @@ If you want follow in real time my restaurant reviews, [follow my Google Maps pr
     margin: 20px;
 }
     </style>
-<div class="w-full overflow-hidden mb-10 md:mb-0 md:px-10 md:w-1/2"><a title="Discuss on Twitter" href="https://twitter.com/intent/tweet?in_reply_to=1465717421818331137" target="_blank" class="Button Button--hasArrow"><span>Discuss on Twitter
+<div class="w-full overflow-hidden mb-10 md:mb-0 md:px-10 md:w-1/2"><a title="Discuss on Twitter" href="https://www.instagram.com/miamtaiwan/" target="_blank" class="Button Button--hasArrow"><span>Check my other restaurants reviews
 <svg width="18" height="10" xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-left"><path d="M13.922 5.636L9.055 9.455l.72.545C12.892 7.788 14.606 6.758 18 5l-1.134-.585C14.177 3.007 12.496 1.952 9.774 0l-.72.545 4.868 3.819H0v1.272h13.922z" fill="#729426" fill-rule="nonzero"></path></svg></span></a></div>
 
 <!-- <div class=""><a title="View Discussions" href="https://twitter.com/eric_khun/status/1465717421818331137" target="_twitter-20251" class="Button Button--hasArrow"><span>View Discussions
@@ -144,6 +144,7 @@ If you want follow in real time my restaurant reviews, [follow my Google Maps pr
 
 
 **Next read**:
+
 
 - [Taiwan's amazing bike-sharing system](/posts/taiwan-youbike-bike-sharing/)
 
