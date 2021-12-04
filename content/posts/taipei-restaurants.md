@@ -107,7 +107,7 @@ This wasn't an easy list to do. I, for sure, have forgotten some great gems. Tha
 
 ![](/img/taipei-restaurants/taipei-map.jpg)
 
-If you want follow in real time my restaurant reviews, [follow me on Instagram](https://www.instagram.com/miamtaiwan/).
+If you want follow in real time my restaurant reviews, recommendations, and tips [follow me on Instagram](https://www.instagram.com/miamtaiwan/) or [Google Maps](https://www.google.com/maps/contrib/103590446330914322330).
 
 
 <style>
