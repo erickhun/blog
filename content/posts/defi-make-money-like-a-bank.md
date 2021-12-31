@@ -7,9 +7,9 @@ images = [""]
 title = "DeFi: Make money like a bank"
 +++
 
-DeFi, or Decentralized Finance, is probably one of today's biggest opportunities to generate interest out of your own money. It unlocked the possibility to anyone to **become their own bank**, and to make the most of their money. DeFi allows their users to make all kinds of various transactions, like exchanging currencies (via your bank that uses the FOREX in the traditional financial system), lending or borrowing. And with this, comes the possibility to collect fees and interest.
+DeFi, or Decentralized Finance, is probably one of today's biggest opportunities to generate interest out of your own money. It unlocked the possibility for anyone to **become their own bank**. DeFi allows its users to make all kinds of various transactions, like exchanging currencies (via your bank that uses the FOREX in the traditional financial system), lending or borrowing. And with this capabilities, comes the possibility to collect fees and interest from those actions.
 
-As for today 31st December, the value transiting into Decentralized Finance has a value of 245 Billion dollars.
+As for today 31st December 2021, the value transiting into Decentralized Finance has a value of 245 Billion dollars: 
 
 ![Total Value Locked DeFi](/img/defi-make-money-like-a-bank/defi-lama-total-value-locked.jpg)
 
@@ -37,7 +37,7 @@ Here an example of what are the fees distributed to Liquidity Providers, when I 
 
 
 ## Risks
-When lending your cryptocurrencies or becoming a Liquidity Providers, you should be aware of the different layers on the various blockchains that come with their risks. The risks of a traditional banking system exist, but you are usually covered with insurance and local laws in case of insolvency or wrongdoing, so even if they exist, they are limited.  In a blockchain world, those risks are different. You won't be covered if someone steals your money. 
+When lending your cryptocurrencies or becoming a Liquidity Providers, you should be aware of the different layers on the various blockchains that come with their risks. The risks of a traditional banking system exist, but you are usually covered with insurance and local laws in case of insolvency or wrongdoing, so even if they exist, they are limited.  In a blockchain world, those risks are different. You won't be covered if someone steals your money. I'll explain 2 of the major risks to use them: the smart-contract layer risk, and the blockchain risk.
 
 ### SmartContract Risks
 
