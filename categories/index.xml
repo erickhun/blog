@@ -6,7 +6,16 @@
     <description>Recent content in Categories on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Nov 2021 17:30:17 +0800</lastBuildDate><atom:link href="https://erickhun.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Dec 2021 09:08:00 +0800</lastBuildDate><atom:link href="https://erickhun.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blockchain</title>
+      <link>https://erickhun.com/categories/blockchain/</link>
+      <pubDate>Fri, 31 Dec 2021 09:08:00 +0800</pubDate>
+      
+      <guid>https://erickhun.com/categories/blockchain/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>taipei</title>
       <link>https://erickhun.com/categories/taipei/</link>
@@ -22,15 +31,6 @@
       <pubDate>Tue, 30 Nov 2021 17:30:17 +0800</pubDate>
       
       <guid>https://erickhun.com/categories/taiwan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blockchain</title>
-      <link>https://erickhun.com/categories/blockchain/</link>
-      <pubDate>Sun, 31 Oct 2021 13:08:00 +0800</pubDate>
-      
-      <guid>https://erickhun.com/categories/blockchain/</guid>
       <description></description>
     </item>
     
