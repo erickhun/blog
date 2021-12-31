@@ -54,6 +54,16 @@ Indeed, some blockchains aren't as "decentralized" as they seem. If for some rea
 
 I'd be cautious to use blockchains such as [Polygon](https://www.reddit.com/r/CryptoCurrency/comments/nfsger/polygon_matics_network_centralization_issue_top_3/), [Solana](https://cointelegraph.com/news/scalability-or-stability-solana-network-outages-show-work-still-needed) or [Binance Smart Chain](https://twitter.com/WilsonWithiam/status/1381420702918664194) where the nodes validating the transaction are just a few entities having control over them. On contrary, the Ethereum or Avalanche blockchains do not have these decentralization issues. 
 
+## Conclusion
+
+| DeFi                                                 | Traditional Financial system                                                                 |   |   |   |
+|------------------------------------------------------|----------------------------------------------------------------------------------------------|---|---|---|
+| You can earn fees when a currency conversion happen  | Banks or Brokers brokers the fees                                                            |   |   |   |
+| You can earn interest when someone borrow your money | Banks use your the money you deposit and lend it to someone else, and earn most of the fees  |   |   |   |
+|                                                      |                                                                                              |   |   |   |
+| You control the money you've deposit                 | The bank can do what they want with the money you've deposit                                 |   |   |   |
+| If a Hack happen, you've lost the money              | Banks (insurance) can cover if anything happen                                               |   |   |   |
+
 
 ps: This isn't financial advices
 
