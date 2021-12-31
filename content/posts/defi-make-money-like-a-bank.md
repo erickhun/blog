@@ -60,10 +60,10 @@ I'd be cautious to use blockchains such as [Polygon](https://www.reddit.com/r/Cr
 |------------------------------------------------------|----------------------------------------------------------------------------------------------|---|---|---|
 | You can earn fees when a currency conversion happen  | Banks or Brokers brokers the fees                                                            |   |   |   |
 | You can earn interest when someone borrow your money | Banks use your the money you deposit and lend it to someone else, and earn most of the fees  |   |   |   |
-|                                                      |                                                                                              |   |   |   |
-| You control the money you've deposit                 | The bank can do what they want with the money you've deposit                                 |   |   |   |
+| Open 24/7                                            | Business hours                                                                               |   |   |   |
+| Everything is transparent. You know what will happen | Hidden rules and fees                                                                        |   |   |   |
+| You control the money you've deposit                 | The bank can do what they want with the money you've deposit, freeze it, lend it             |   |   |   |
 | If a Hack happen, you've lost the money              | Banks (insurance) can cover if anything happen                                               |   |   |   |
-
 
 ps: This isn't financial advices
 
