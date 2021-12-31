@@ -66,6 +66,8 @@ I'd be cautious to use blockchains such as [Polygon](https://www.reddit.com/r/Cr
 
 ps: This isn't financial advices
 
-**Next read**: 
-- [Explaining blockchains to developers](/posts/explaining-blockchains-to-developers)
-- [NFT misconception: JPEG aren't on the Blockchain](posts/nft-misconception-image-arent-on-blockchains/)
+#### You'll probably be interested to read:
+
+🧑‍💻 [Explaining blockchains to developers](/posts/explaining-blockchains-to-developers)
+
+🌌 [NFT misconception: JPEG aren't on the Blockchain](posts/nft-misconception-image-arent-on-blockchains/)

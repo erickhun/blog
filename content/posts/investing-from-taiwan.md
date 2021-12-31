@@ -222,6 +222,7 @@ https://www.bogleheads.org/wiki/Non-US_investor%27s_guide_to_navigating_US_tax_t
 
 
 #### You'll probably be interested to read:
+🏦 [DeFi: Make money like a Bank](../defi-make-money-like-a-bank/)
 
 🇹🇼 [The world next innovations depend on a single country, Taiwan](../world-innovation-taiwan-semiconductors/)
 
