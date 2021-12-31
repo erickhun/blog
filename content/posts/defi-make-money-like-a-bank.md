@@ -9,7 +9,7 @@ title = "DeFi: Make money like a bank"
 
 DeFi, or Decentralized Finance, is probably one of today's biggest opportunities to generate interest out of your own money. It unlocked the possibility for anyone to **become their own bank**. DeFi allows its users to make all kinds of various transactions, like exchanging currencies (via your bank that uses the FOREX in the traditional financial system), lending or borrowing. And with this capabilities, comes the possibility to collect fees and interest from those actions.
 
-As for today 31st December 2021, the value transiting into Decentralized Finance has a value of 245 Billion dollars: 
+As for today 31st December 2021, the value transiting into Decentralized Finance has a value of 245 Billion dollars. I'll explain here the 2 main principles on how to generate interest with DeFi.
 
 ![Total Value Locked DeFi](/img/defi-make-money-like-a-bank/defi-lama-total-value-locked.jpg)
 
@@ -53,7 +53,6 @@ One of the most of the blockchain is its decentralization property. In a traditi
 Indeed, some blockchains aren't as "decentralized" as they seem. If for some reason, 1 bad actor can take control of the nodes validating the transactions because the network isn't decentralized enough, this bad actor could change/add/remove any transaction as its will. Picking a blockchain where decentralization is respected is important and gives you more peace of mind. 
 
 I'd be cautious to use blockchains such as [Polygon](https://www.reddit.com/r/CryptoCurrency/comments/nfsger/polygon_matics_network_centralization_issue_top_3/), [Solana](https://cointelegraph.com/news/scalability-or-stability-solana-network-outages-show-work-still-needed) or [Binance Smart Chain](https://twitter.com/WilsonWithiam/status/1381420702918664194) where the nodes validating the transaction are just a few entities having control over them. On contrary, the Ethereum or Avalanche blockchains do not have these decentralization issues. 
-
 
 
 **Next read**: 
