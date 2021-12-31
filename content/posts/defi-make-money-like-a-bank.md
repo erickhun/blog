@@ -66,7 +66,7 @@ I'd be cautious to use blockchains such as [Polygon](https://www.reddit.com/r/Cr
 
 ps: This isn't financial advices
 
-#### You'll probably be interested to read:
+#### Next read:
 
 🧑‍💻 [Explaining blockchains to developers](/posts/explaining-blockchains-to-developers)
 
