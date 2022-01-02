@@ -160,7 +160,7 @@ ps: I'm working on a NFT as Ads banner project:  basically, an Adsense on the bl
 
 **Next reads**: 
 
-- [DeFi: Make money like a Bank](../defi-make-money-like-a-bank/)
+- [DeFi: Make money like a Bank](/posts/defi-make-money-like-a-bank/)
 
 - [Why you should have a side project](/posts/why-you-should-have-a-side-project/)
 

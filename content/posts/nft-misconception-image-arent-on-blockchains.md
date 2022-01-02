@@ -121,5 +121,5 @@ ps: I'm working on an **utility NFT**: an Adsense on the blockchain, where websi
 
 **Next reads**: 
 
-- [DeFi: Make money like a Bank](../defi-make-money-like-a-bank/)
+- [DeFi: Make money like a Bank](/posts/defi-make-money-like-a-bank/)
 - [Explaining blockchains to developers](/posts/explaining-blockchains-to-developers/)

@@ -70,4 +70,4 @@ ps: This isn't financial advices
 
 🧑‍💻 [Explaining blockchains to developers](/posts/explaining-blockchains-to-developers)
 
-🌌 [NFT misconception: JPEG aren't on the Blockchain](posts/nft-misconception-image-arent-on-blockchains/)
+🌌 [NFT misconception: JPEG aren't on the Blockchain](/posts/nft-misconception-image-arent-on-blockchains/)
