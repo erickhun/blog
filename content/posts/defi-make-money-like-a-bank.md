@@ -7,7 +7,7 @@ images = ["/img/defi-make-money-like-a-bank/LiquidityProvidersFee.jpg"]
 title = "DeFi: Make money like a bank"
 +++
 
-DeFi, or Decentralized Finance, is probably one of today's biggest opportunities to generate interest out of your own money. It unlocked the possibility for anyone to **become their own bank**. DeFi allows its users to make all kinds of various transactions, like exchanging currencies (via your bank that uses the FOREX in the traditional financial system), lending or borrowing. And with this capabilities, comes the possibility to collect fees and interest from those actions.
+DeFi, or Decentralized Finance, is probably one of today's biggest opportunities to generate high yield interest. It also unlocked the possibility for anyone to **become their own bank**. DeFi allows its users to make all kinds of various transactions, like exchanging currencies (via your bank that uses the FOREX in the traditional financial system), lending or borrowing. And with this capabilities, comes the possibility to collect fees and interest from those actions.
 
 As for today 31st December 2021, the value transiting into Decentralized Finance has a value of 245 Billion dollars. I'll explain here the 2 main principles on how to generate interest with DeFi.
 
