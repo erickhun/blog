@@ -57,8 +57,8 @@ I'd be cautious to use blockchains such as [Polygon](https://www.reddit.com/r/Cr
 ## Conclusion
 | DeFi                                                 | Traditional Financial system                                                                 |
 |------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| You can earn fees when a currency conversion happen  | Banks or Brokers brokers the fees                                                            |
-| You can earn interest when someone borrow your money | Banks use your the money you deposit and lend it to someone else, and earn most of the fees  |
+| You can earn fees when a currency conversion happen  | Banks or Brokers brokers earn the conversion fees                                                            |
+| You can earn interest when someone borrow your money | Banks use your money you deposit and lend it to someone else, and earn most of the fees  |
 | Open 24/7                                            | Business hours                                                                               |
 | Everything is transparent. You know what will happen | Hidden rules and fees                                                                        |
 | You control the money you've deposit                 | The bank can do what they want with the money you've deposit, freeze it, lend it             |
