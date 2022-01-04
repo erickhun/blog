@@ -3,15 +3,17 @@ categories = ["blockchain", "investment"]
 date = "2021-12-31T09:08:00+08:00"
 description = ""
 draft = false
-images = ["/img/defi-make-money-like-a-bank/LiquidityProvidersFee.jpg"]
+images = ["/img/defi-make-money-like-a-bank/defi-vs-Traditional-finance.jpg"]
 title = "DeFi: Make money like a bank"
 +++
 
-DeFi, or Decentralized Finance, is probably one of today's biggest opportunities to generate high yield interest. It also unlocked the possibility for anyone to **become their own bank**. DeFi allows its users to make all kinds of various transactions, like exchanging currencies (via your bank that uses the FOREX in the traditional financial system), lending or borrowing. And with this capabilities, comes the possibility to collect fees and interest from those actions.
 
-As for today 31st December 2021, the value transiting into Decentralized Finance has a value of 245 Billion dollars. I'll explain here the 2 main principles on how to generate interest with DeFi.
 
-![Total Value Locked DeFi](/img/defi-make-money-like-a-bank/defi-lama-total-value-locked.jpg)
+DeFi, or Decentralized Finance, is probably one of today's biggest opportunities to generate high yield interest. It also unlocked the possibility for anyone to **become their own bank**. DeFi allows its users to make all kinds of various transactions, like exchanging currencies (via your bank that uses the FOREX in the traditional financial system), lending or borrowing. And with this capabilities, comes the possibility to collect fees and interest from those financial actions.
+
+I'll explain here the how DeFi allow people like you and me to become their own bank, and how it can generate interest for people who use it
+
+
 
 
 ## Option 1: Lend your cryptocurrencies, and earn interest
@@ -25,11 +27,16 @@ In a DeFi world, you can deposit your cryptocurrencies in lending platforms. The
 
 Lending interest rates on Ethereum are also quite low, compared to some lending services from other blockchains. [Trader Joe](https://traderjoexyz.com/#/lending) on Avalanche have higher interest rates, because they have [incentives](https://medium.com/avalancheavax/trader-joe-enters-avalanche-rush-with-an-incentives-program-up-to-20m-4646c6c20261) to attract users from other blockchains.
 
+
+![Lending Traditional banking vs defi](/img/defi-make-money-like-a-bank/defi-vs-Traditional-finance.jpg)
+
+
 ## Option 2: Become a Liquidity Provider, get the fees when there is a currency conversion
 
 The most known way to buy cryptocurrencies is to go through services like Coinbase or Binance, which use order books to match buyers with sellers. They are called Centralized Exchanges, or CEX. CEX takes fees to help the transactions to happen. In the DeFi world, Decentralized exchanges (DEXs) allow users to swap crypto assets without an intermediary. The ones getting the fees are the ones helping to "provide liquidity", also called Liquidity Providers (or LPs). And what is amazing is that everyone, like me or you, can become a Liquidity Provider and get the fees when someone makes a conversion from X to Y.
 
 Another way to see this is that instead of giving the fees to CEX (like Binance or Coinbase), or more traditionally to your bank, you're giving the fees to the ones helping to make this service work, and this could be you, me, or your neighbor.
+
 
 Here an example of what are the fees distributed to Liquidity Providers, when I want to exchange (or "swap") some cryptocurrencies on a DEX, like [Uniswap](https://uniswap.org) or [Trader Joe](https://www.traderjoexyz.com/) 
 
