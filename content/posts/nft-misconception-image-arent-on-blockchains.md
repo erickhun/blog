@@ -67,7 +67,7 @@ The `tokenURI` field, which is in the ER721 standard, is read on platforms like 
 
 
 ## Why not store the image on the blockchain?
-We could store them on the blockchain, but that would be excessively expensive. The Etheruem blockchain isn't designed for this. Each action you want to do, and every information you store on the blockchain has a cost. You've certainly heard about the excessively high price of Ethereum transactions. And the high price is for a tiny code program that weighs a few 1 or 2 Kilobytes.  If we would store an image on it: 
+We could store them on the blockchain, but that would be excessively expensive. The Ethereum blockchain isn't designed for this. Each action you want to do, and every information you store on the blockchain has a cost. You've certainly heard about the excessively high price of Ethereum transactions. And the high price is for a tiny code program that weighs a few 1 or 2 Kilobytes.  If we would store an image on it: 
 
 - The cost of data storage is 640k gas per kilobyte of data.
 - The current gas price is approximately 50 Gwei (or 0.000000050 ETH).
