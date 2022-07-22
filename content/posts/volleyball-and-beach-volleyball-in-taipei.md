@@ -50,22 +50,22 @@ series = []
   </div>
 </div>
 
-Taiwan is a great place if you like to play indoor and outdoor volleyball. You can usually use any outdoor high school or university court for free, and you'll usually find regular players. However, beach and grass aren't common at all.  I've spent some times playing in Taiwan, and will cover my experiences and how you can also play. 
+Taiwan is a great place if you like to play indoor and outdoor volleyball. You can usually use any outdoor high school or university court for free, and you'll usually find regular players. However, beach and grass aren't common at all.  I've got lucky to spend enough in Taiwan to play on beach, indoor and outdoor courts in Taiwan. I will share my findings,  hopefully this could save you some time!
 
 ## Beach-volley (and grass volleyball)
 
-Funnilly enough, most of beaches in Taiwan does not have any decent beach volleyball. The only decent beach court with good a net tension seems to be at [Bebin Park in Hualien](https://www.google.com/maps?cid=15490952783537478442), but it's too far from Taipei. One beach court exists in New Taipei City in the [Sunshine Sport Park](https://goo.gl/maps/BkCM96u4DDPafrocA), but the sand there isn't great and the net not maintained. 
+Funnily enough, most beaches in Taiwan do not have any decent beach volleyball. The only decent beach court with good net tension seems to be at [Bebin Park in Hualien](https://www.google.com/maps?cid=15490952783537478442), but it's too far from Taipei. One beach court exists in New Taipei City in the [Sunshine Sport Park](https://goo.gl/maps/BkCM96u4DDPafrocA), but the sand there isn’t great and the net is not maintained.
 
-We've created a group and use [great Park & Sun portable net](https://www.parksun.com/Volleyball/Sets/spectrum-classic-volleyball-set.php) that we use every few weeks. We usually play 2x2, 3x3 and 4x4 at a [BB to A level]({{<ref "#skill-level" >}}). Feel free to [reach me out](/about/) if you are interested (2x2 and 3x3 is quite intense we require BB or + level). 
+We've created a group and use a [nice Park & Sun portable volleyball net](https://www.parksun.com/Volleyball/Sets/spectrum-classic-volleyball-set.php) that we use every few weeks. We usually play 2x2, 3x3 and 4x4 at a [BB to A level]({{<ref "#skill-level" >}}). Feel free to [reach me out](/about/) if you are interested (2x2 and 3x3 is quite intense, we require BB or + level). 
 
 {{< youtube hMlnLMPhZdI >}}
 
 
-Because of some regulations, we can't set our net everywhere. I had to make some research where we can set our portable net. I've compiled in this map places where you can play beach volleyball with an existing net (but don't expect much), and also location where you can set a portable net. Some groups (in Kaoshuing and Keelung) also have their net. I've put their informations in [the map](https://www.google.com/maps/d/viewer?mid=1rZCw3SdiIVBASaNPQgN9-O2cCEv9TVQ&hl=en&ll=23.580052342615545%2C121.05340829999996&z=8): 
+Because of some regulations, we can't set our net everywhere. I had to do some research where we can set our portable net. I've compiled in this map places where you can play beach volleyball with an existing net (but don't expect much), and also locations where you can set a portable net. Some groups (in Kaoshuing and Keelung) also have their net. I've put their informations in [the map](https://www.google.com/maps/d/viewer?mid=1rZCw3SdiIVBASaNPQgN9-O2cCEv9TVQ&hl=en&ll=23.580052342615545%2C121.05340829999996&z=8): 
 
 <iframe src="https://www.google.com/maps/d/embed?mid=1rZCw3SdiIVBASaNPQgN9-O2cCEv9TVQ&hl=en&ehbc=2E312F" width="860" height="850"></iframe>
 
-I've tried to ask Taipei City if that was possible to play in Daan Park (that would be awesome isn't it?), but received a negative response from the city, even though they can play [basket ball](https://goo.gl/maps/hSfF91PNTJGXdNcNA) there. If anyone would know how to convince the city to let us play in parks, please let me know 🙏 
+I've tried to ask Taipei City if it was possible to play in Daan Park (that would be awesome isn't it?), but received a negative response, even though they can play [basket ball](https://goo.gl/maps/hSfF91PNTJGXdNcNA) there 🤔. If anyone would know how to convince the city to let us play in parks, please let me know 🙏 
 
 ![Ask Taipei City to use net in Parks](/img/volleyball-taipei/taipei-city-use-net-in-parks.png)
 
@@ -74,15 +74,15 @@ I've tried to ask Taipei City if that was possible to play in Daan Park (that wo
 
 ## Outdoor volleyball 
 
-Universities and High schools allow outsiders to use their outdoor court for free. Many groups exists, but you'll have to speak chinese to be able to communicate with your teammates. There is an english speaking [Meetup group](https://www.meetup.com/taipei-sports-and-social-club/) that gather every weekend. The individual level can be anywhere from [B- to A level]({{<ref "#skill-level" >}}). I usually go to play there since the vibe is great! It can also become quite competitive. 
+Universities and High schools allow outsiders to use their outdoor court for free. Many groups exist, but you'll have to speak Chinese to be able to communicate with your teammates. There is an English speaking [Meetup group](https://www.meetup.com/taipei-sports-and-social-club/) that gathers every weekend. The individual level can be anywhere from [B- to A level]({{<ref "#skill-level" >}}). I usually go to play there since the vibe is great! It can also become quite competitive. 
 
 ![Outdoor meetup volleyball Taipei](/img/volleyball-taipei/outdoor-meetup.jpg)
 
 
 ## Indoor volleyball
-Indoor courts aren't free, and it is expect to share has a fee and it's shared among the players. (usually NTD150 to NTD300 per player, depending of the location). It's usually more competitive. 
+Indoor courts aren’t free, and it is expected to pay a fee and it’s shared among the players. (usually NTD150 to NTD300 per player, depending on the location). It’s usually more competitive.
 
-It exists a private and english friendly speaking group. They are quite competitive and plays on Saturday nights in Luzhou. The level range from [BB to A]({{<ref "#skill-level" >}}). I used to play with them but the schedule didn't work out for. [Reach me out](/about/) and I'll connect you with the organizer. 
+A private and english friendly speaking group exists and they are quite competitive and play on Saturday nights in Luzhou. The level ranges from [BB to A]({{<ref "#skill-level" >}}). I used to play with them but the schedule didn't work out for. [Reach me out](/about/) and I'll connect you with the organizer. 
 
 {{< youtube helUuGkQYkA >}}
 
