@@ -1,8 +1,8 @@
 +++ 
 draft = false
 date = 2022-07-22T14:11:19+08:00
-title = "Beach Volleyball in Taipei (and Taiwan)"
-description = "Where to play Beach and Grass volleyball in Taipei?"
+title = "Beach Volleyball in Taipei (indoor + outdoor volley groups information)"
+description = "Where to play Beach, Grass, Indoor and Outdoor volleyball in Taipei?"
 slug = "" 
 tags = []
 categories = []
