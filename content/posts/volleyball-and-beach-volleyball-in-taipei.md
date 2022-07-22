@@ -115,14 +115,14 @@ Universities and High schools allow outsiders to use their outdoor court for fre
 ![Outdoor meetup volleyball Taipei](/img/volleyball-taipei/outdoor-meetup.jpg)
 
 
-<!-- ## Indoor volleyball
-Indoor courts aren’t free, and it is expected to pay a fee and it’s shared among the players. (usually NTD150 to NTD300 per player, depending on the location). It’s usually more competitive.
+## Indoor volleyball
+In Taiwan, indoor courts usually aren’t free to use. It is expected to pay a fee and it’s shared among the players (usually NTD150 to NTD300 per player, depending on the location). It’s more competitive and I'd say the minimum required level is [BB or +]({{<ref "#skill-level" >}}).  You will need to know some players already playing indoor to access to them and chinese is usually required. 
 
-A private and english friendly speaking group exists and they are quite competitive and play on Saturday nights in Luzhou. The level ranges from [BB to A]({{<ref "#skill-level" >}}). I used to play with them but the schedule didn't work out for. [Reach me out](/about/) and I'll connect you with the organizer. 
+This was one group I used to play with few years ago: 
 
-{{< youtube helUuGkQYkA >}} -->
+{{< youtube helUuGkQYkA >}}
 
-## And if I want to play with Taiwanese or in an other city?
+## And if I want to play with Taiwanese or in any other city?
 
 When I travel and want to play, I usually post on this [Facebook Group - 排球咖](https://www.facebook.com/groups/186877438033868). If your Chinese isn't great, use Google Translate. I usually get lucky, and players usually welcome you! 
 
