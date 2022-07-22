@@ -84,14 +84,13 @@ Taiwan is a great place if you like to play indoor and outdoor volleyball. You c
 
 ## Beach-volley (and grass volleyball)
 
-Funnily enough, most beaches in Taiwan do not have any decent beach volleyball. The only decent beach court with good net tension seems to be at [Bebin Park in Hualien](https://www.google.com/maps?cid=15490952783537478442), but it's too far from Taipei. One beach court exists in New Taipei City in the [Sunshine Sport Park](https://goo.gl/maps/BkCM96u4DDPafrocA), but the sand there isn’t great and the net is not maintained.
+Funnily enough, most beaches in Taiwan do not have any decent beach volleyball courts. The only decent beach court with good net tension seems to be at [Bebin Park in Hualien](https://www.google.com/maps?cid=15490952783537478442), but it's too far from Taipei. One beach court exists in New Taipei City in the [Sunshine Sport Park](https://goo.gl/maps/BkCM96u4DDPafrocA), but the sand there isn’t great and the net is not maintained.
 
-We've created a group and use a [nice Park & Sun portable volleyball net](https://www.parksun.com/Volleyball/Sets/spectrum-classic-volleyball-set.php) that we use every few weeks. We usually play 2x2, 3x3 and 4x4 at a [BB to A level]({{<ref "#skill-level" >}}). Feel free to [reach me out](/about/) if you are interested (2x2 and 3x3 is quite intense, we require BB or + level). 
+That's why we've created a group and use a [nice Park & Sun portable volleyball net](https://www.parksun.com/Volleyball/Sets/spectrum-classic-volleyball-set.php) that we use every few weeks. We usually play 2x2, 3x3 and 4x4 at a [BB to A level]({{<ref "#skill-level" >}}). Feel free to [reach me out](/about/) if you are interested (2x2 and 3x3 is quite intense, we require BB or + level). 
 
 {{< youtube hMlnLMPhZdI >}}
 
-
-Because of some regulations, we can't set our net everywhere. I had to do some research where we can set our portable net. I've compiled in this map places where you can play beach volleyball with an existing net (but don't expect much), and also locations where you can set a portable net. Some groups (in Kaoshuing and Keelung) also have their net. I've put their informations in [the map](https://www.google.com/maps/d/viewer?mid=1rZCw3SdiIVBASaNPQgN9-O2cCEv9TVQ&hl=en&ll=23.580052342615545%2C121.05340829999996&z=8): 
+ The challenge is to find location where we can set the net. Because of some regulations, we can't set our net everywhere. I had to do some research where we can set our portable net. So I've compiled in this map places where we can set our net, but also added location with existing beach court with a net  (but don't expect much from them). Some groups (in Kaoshuing and Keelung) also have their own nets. I've put their informations in [the map](https://www.google.com/maps/d/viewer?mid=1rZCw3SdiIVBASaNPQgN9-O2cCEv9TVQ&hl=en&ll=23.580052342615545%2C121.05340829999996&z=8): 
 
 <div class="map-responsive">
 
