@@ -37,6 +37,33 @@ series = []
     overflow: auto;
 }
 
+ 
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
+
 </style>
 
 <div class="notice question">
@@ -66,7 +93,13 @@ We've created a group and use a [nice Park & Sun portable volleyball net](https:
 
 Because of some regulations, we can't set our net everywhere. I had to do some research where we can set our portable net. I've compiled in this map places where you can play beach volleyball with an existing net (but don't expect much), and also locations where you can set a portable net. Some groups (in Kaoshuing and Keelung) also have their net. I've put their informations in [the map](https://www.google.com/maps/d/viewer?mid=1rZCw3SdiIVBASaNPQgN9-O2cCEv9TVQ&hl=en&ll=23.580052342615545%2C121.05340829999996&z=8): 
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1rZCw3SdiIVBASaNPQgN9-O2cCEv9TVQ&hl=en&ehbc=2E312F" width="860" height="850"></iframe>
+<div class="map-responsive">
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1rZCw3SdiIVBASaNPQgN9-O2cCEv9TVQ&hl=en&ehbc=2E312F" width="860" height="850" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+</div>
+
+<!-- <iframe src="https://www.google.com/maps/d/embed?mid=1rZCw3SdiIVBASaNPQgN9-O2cCEv9TVQ&hl=en&ehbc=2E312F" width="860" height="850"></iframe> -->
 
 I've tried to ask Taipei City if it was possible to play in Daan Park (that would be awesome isn't it?), but received a negative response, even though they can play [basket ball](https://goo.gl/maps/hSfF91PNTJGXdNcNA) there 🤔. If anyone would know how to convince the city to let us play in parks, please let me know 🙏 
 
