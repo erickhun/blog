@@ -90,7 +90,8 @@ A private and english friendly speaking group exists and they are quite competit
 
 When I travel and want to play, I usually post on this [Facebook Group - 排球咖](https://www.facebook.com/groups/186877438033868). If your Chinese isn't great, use Google Translate. I usually get lucky, and players usually welcome you! 
 
-I did that recently when travelling to Kenting: 
+I did that recently when travelling to Kenting, and met really friendly and good great student players willing to come almost everyday: 
+
 {{< youtube GeuVxSJMtGU >}}
 
 
@@ -110,3 +111,11 @@ D|"Recreational" player where goal is to always put the ball over on the other s
 
 
 
+<div class="notice question">
+  <div class="notice-title">
+    💡 tldr
+  </div>
+  <div class="notice-content">
+    Subscribe to [my youtube channel](https://www.youtube.com/channel/UCqVdw5S5EmHhaZRORP-g2YA) where I post videos of volleyball games in Taiwan!
+  </div>
+</div>
