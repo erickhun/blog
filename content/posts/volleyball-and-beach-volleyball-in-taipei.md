@@ -20,6 +20,9 @@ series = []
     padding: 0.2rem 1.5rem;
     border-bottom: 1px solid #fafafa;
 }
+.notice .notice-content {
+    padding: 20px;
+}
 
 .notice.question {
     background-color: #9ccc651a;
@@ -46,7 +49,6 @@ series = []
         <li><a href="#outdoor-volleyball">Group to play outdoor volleyball in Taipei (B- to A- level)</a></li>
         <li><a href="#indoor-volleyball">Group to play indoor volleyball in New Taipei (BB to A level)</a></li>
     </ul>
-
   </div>
 </div>
 
@@ -111,11 +113,14 @@ D|"Recreational" player where goal is to always put the ball over on the other s
 
 
 
+
+
 <div class="notice question">
   <div class="notice-title">
-    💡 tldr
+    🎥 Youtube
   </div>
   <div class="notice-content">
-    Subscribe to [my youtube channel](https://www.youtube.com/channel/UCqVdw5S5EmHhaZRORP-g2YA) where I post videos of volleyball games in Taiwan!
+    Subscribe  <a href="https://www.youtube.com/channel/UCqVdw5S5EmHhaZRORP-g2YA">my youtube channel</a>  where I post videos of volleyball games in Taiwan!
   </div>
 </div>
+
