@@ -157,3 +157,11 @@ D|"Recreational" player where goal is to always put the ball over on the other s
   </div>
 </div>
 
+
+#### Next read:
+
+🏦 [Investing from Taiwan](/posts/investing-from-taiwan/)
+
+🇹🇼 [The world next innovations depend on a single country, Taiwan](/posts/world-innovation-taiwan-semiconductors/)
+
+🚲 [Taiwan's Bike sharing Infrastructure](/posts/taiwan-youbike-bike-sharing/)
