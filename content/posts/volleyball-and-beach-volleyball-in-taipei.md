@@ -90,7 +90,7 @@ That's why we've created a group and use a [nice Park & Sun portable volleyball 
 
 ![Spectrum Classic Beach and Grass volleyball net](/img/volleyball-taipei/spectrum-classic-net-taiwan.jpg)
 
- The challenge is to find location where we can set the net. Because of some regulations, we can't set our net everywhere. I had to do some research where we can set our portable net. So I've compiled in this map places where we can set our net, but also added location with existing beach court with a net  (but don't expect much from them). Some groups (in Kaoshuing and Keelung) also have their own nets. I've put their informations in [the map](https://www.google.com/maps/d/viewer?mid=1rZCw3SdiIVBASaNPQgN9-O2cCEv9TVQ&hl=en&ll=23.580052342615545%2C121.05340829999996&z=8): 
+ The challenge is to find location where we can set the net. Because of some regulations, we can't set the net everywhere. I had to do some research where we can set our portable net. So I've compiled in this map places where we can set our net, but also added location with existing beach court with a net  (but don't expect much from them). Some groups (in Kaoshuing and Keelung) also have their own nets. I've put their informations in [the map](https://www.google.com/maps/d/viewer?mid=1rZCw3SdiIVBASaNPQgN9-O2cCEv9TVQ&hl=en&ll=23.580052342615545%2C121.05340829999996&z=8): 
 
 <div class="map-responsive">
 
