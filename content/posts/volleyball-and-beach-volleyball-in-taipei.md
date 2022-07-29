@@ -111,7 +111,12 @@ I've tried to ask Taipei City if it was possible to play in Daan Park (that woul
 
 ## Outdoor volleyball 
 
-Universities and High schools allow outsiders to use their outdoor court for free. Many groups exist, but you'll have to speak Chinese to be able to communicate with your teammates. There is an English speaking [Meetup group](https://www.meetup.com/taipei-sports-and-social-club/) that gathers every weekend. The individual level can be anywhere from [B- to A level]({{<ref "#skill-level" >}}). I usually go to play there since the vibe is great! It can also become quite competitive. 
+The most surprising thing when I arrived in Taipei was to see all those middle / high shchools and universities having volleyball courts available to the public, and they are usually occupied! They allow outsiders to use their outdoor courts for free. You can join any group playing easily, and you will find any level plating. But you'll have to speak Chinese to be able to communicate with your them to be more "accepted". Here what look like the NTU courts (they have 6 outdoor courts!) around 6pm on a Sunday: 
+
+![NTU volleyball courts Taipei](/img/volleyball-taipei/ntu-vball-courts.jpg)
+
+
+For English speaker, there is a great [Meetup group](https://www.meetup.com/taipei-sports-and-social-club/) that gathers every weekend. The individual level can be anywhere from [B- to A level]({{<ref "#skill-level" >}}). I usually go to play there since the vibe is great! It can also become quite competitive: 
 
 ![Outdoor meetup volleyball Taipei](/img/volleyball-taipei/outdoor-meetup.jpg)
 
