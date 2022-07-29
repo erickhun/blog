@@ -88,7 +88,7 @@ Funnily enough, most beaches in Taiwan do not have any decent beach volleyball c
 
 That's why we've created a group and use a [nice Park & Sun portable volleyball net](https://www.parksun.com/Volleyball/Sets/spectrum-classic-volleyball-set.php) that we use every few weeks. We usually play 2x2, 3x3 and 4x4 at a [BB to A level]({{<ref "#skill-level" >}}). Feel free to [reach me out](/about/) if you are interested (2x2 and 3x3 is quite intense, we require BB or + level). 
 
-{{< youtube hMlnLMPhZdI >}}
+![Spectrum Classic Beach and Grass volleyball net](/img/volleyball-taipei/spectrum-classic-net-taiwan.jpg)
 
  The challenge is to find location where we can set the net. Because of some regulations, we can't set our net everywhere. I had to do some research where we can set our portable net. So I've compiled in this map places where we can set our net, but also added location with existing beach court with a net  (but don't expect much from them). Some groups (in Kaoshuing and Keelung) also have their own nets. I've put their informations in [the map](https://www.google.com/maps/d/viewer?mid=1rZCw3SdiIVBASaNPQgN9-O2cCEv9TVQ&hl=en&ll=23.580052342615545%2C121.05340829999996&z=8): 
 
@@ -98,7 +98,9 @@ That's why we've created a group and use a [nice Park & Sun portable volleyball 
 
 </div>
 
-<!-- <iframe src="https://www.google.com/maps/d/embed?mid=1rZCw3SdiIVBASaNPQgN9-O2cCEv9TVQ&hl=en&ehbc=2E312F" width="860" height="850"></iframe> -->
+
+And here when we played in Wanli beach (with an okay net): 
+{{< youtube hMlnLMPhZdI >}}
 
 I've tried to ask Taipei City if it was possible to play in Daan Park (that would be awesome isn't it?), but received a negative response, even though they can play [basket ball](https://goo.gl/maps/hSfF91PNTJGXdNcNA) there 🤔. If anyone would know how to convince the city to let us play in parks, please let me know 🙏 
 
