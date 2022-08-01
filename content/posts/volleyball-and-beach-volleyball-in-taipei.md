@@ -84,9 +84,11 @@ Taiwan is a great place if you like to play indoor and outdoor volleyball. You c
 
 ## Beach-volley (and grass volleyball)
 
-Funnily enough, most beaches in Taiwan do not have any decent beach volleyball courts. The only decent beach court with good net tension seems to be at [Bebin Park in Hualien](https://www.google.com/maps?cid=15490952783537478442), but it's too far from Taipei. One beach court exists in New Taipei City in the [Sunshine Sport Park](https://goo.gl/maps/BkCM96u4DDPafrocA), but the sand there isn’t great and the net is not maintained.
+Funnily enough, most beaches in Taiwan do not have any decent beach volleyball courts. The only decent beach court with good net tension seems to be at [Bebin Park in Hualien](https://www.google.com/maps?cid=15490952783537478442), but it's too far from Taipei. One beach court exists in New Taipei City in the [Sunshine Sports Park](https://goo.gl/maps/BkCM96u4DDPafrocA), but the sand and net there aren’t great. Here one time where we've played King Of the Court:  
 
-That's why we've created a group and use a [nice Park & Sun portable volleyball net](https://www.parksun.com/Volleyball/Sets/spectrum-classic-volleyball-set.php) that we use every few weeks. We usually play 2x2, 3x3 and 4x4 at a [BB to A level]({{<ref "#skill-level" >}}). Feel free to [reach me out](/about/) if you are interested (2x2 and 3x3 is quite intense, we require BB or + level). 
+{{< youtube QPptJaJlCE4 >}}
+
+We have a group with  [Park & Sun portable volleyball net](https://www.parksun.com/Volleyball/Sets/spectrum-classic-volleyball-set.php) that we (try to) use every few weeks. We usually play 2x2, 3x3 and 4x4 at a [BB to A level]({{<ref "#skill-level" >}}). Feel free to [reach me out](/about/) if you are interested (2x2 and 3x3 is quite intense, we require BB or + level). 
 
 ![Spectrum Classic Beach and Grass volleyball net](/img/volleyball-taipei/spectrum-classic-net-taiwan.jpg)
 
