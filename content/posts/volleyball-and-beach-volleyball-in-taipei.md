@@ -148,8 +148,9 @@ It is easier to directly refer to some specific level that describe abilities to
 In USA or Europe, we have AA to D level.  In Taiwan, most players start playing volleyball when they get into college. 
 That's why their their level is named after which team they've played during that time:
 
-- The best players 校隊 (Xiào duì), meaning "School team". They got intense training (check how the national's team [famous Hung-Min and Hong-Jie twin brothers were trained](https://www.travel.taipei/en/news/details/7254)), and they are the ones that usually plays professionally later on.
-- Then 系隊 (Xì duì), meaning "Department team". It originally refers to the "department" of a given school (such as MBA, Engineering, Economic department). There is various level within it, the best "departments" compete agains other "departments" from other schools. It will depend on different departments whether they have a coach or not.
+- The best players are at the 校隊 (Xiào duì) level, meaning "School team". They got intense training (check how the national's team [famous Hung-Min and Hong-Jie twin brothers were trained](https://www.travel.taipei/en/news/details/7254)), and they are the ones that usually plays professionally later on.
+- Then come the 系隊 (Xì duì) level, meaning "Department team". It originally refers to the "department" of a given school (such as MBA, Engineering, Economic department). There is various level within it, the best "departments" compete agains other "departments" from other schools. It will depend on different departments whether they have a coach or not.
+
    Level USA/Europe | Equivalent&nbsp;level&nbsp;in&nbsp;Taiwan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description
 ---------------------|-------------------|----
 AA|校隊 (Xiào duì) - School Team|Division 1 college team or advanced club level player that can compete on a national tournaments
@@ -162,8 +163,6 @@ C|??|A beginner to volleyball and attempts to pass, set and hit but doesn't alwa
 D|??|"Recreational" player where goal is to always put the ball over on the other side of the net
 
 (Thanks Chi Chih for helping me finding the equivalent on that!)
-
-
 
 
 <div class="notice question">
