@@ -77,7 +77,6 @@ series = []
         <li><a href="#outdoor-volleyball">Play outdoor volleyball in Taipei (B- to A- level)</a></li>
         <li><a href="#indoor-volleyball">Play indoor volleyball(BB or +)</a></li>
         <li><a href="#volleyball-skill-level-in-taiwan">Volleyball Skill level in Taiwan</a></li>
-
     </ul>
   </div>
 </div>
