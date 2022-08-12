@@ -88,7 +88,7 @@ Funnily enough, most beaches in Taiwan do not have any decent beach volleyball c
 
 {{< youtube QPptJaJlCE4 >}}
 
-We have a group with  [Park & Sun portable volleyball net](https://www.parksun.com/Volleyball/Sets/spectrum-classic-volleyball-set.php) that we (try to) use every few weeks. We usually play 2x2, 3x3 and 4x4 at a [BB to A level]({{<ref "#skill-level" >}}). Feel free to [reach me out](/about/) if you are interested (2x2 and 3x3 is quite intense, we require BB or + level). 
+We have a group with  [Park & Sun portable volleyball net](https://www.parksun.com/Volleyball/Sets/spectrum-classic-volleyball-set.php) that we (try to) use every few weeks. We usually play 2x2, 3x3 and 4x4 at a [BB to A level]({{<ref "#volleyball-skill-level-in-taiwan" >}}). Feel free to [reach me out](/about/) if you are interested (2x2 and 3x3 is quite intense, we require BB or + level). 
 
 ![Spectrum Classic Beach and Grass volleyball net](/img/volleyball-taipei/spectrum-classic-net-taiwan.jpg)
 
@@ -100,15 +100,15 @@ We have a group with  [Park & Sun portable volleyball net](https://www.parksun.c
 
 </div>
 
+Here our group playing in Fulong Beach (we've setup the net):
+{{< youtube XCAOxoogV0U >}}
 
-And here when we played in Wanli beach (with an okay net): 
+And here when we played in Wanli beach (with an okay net) - costs 300TWD/head 😅:
 {{< youtube hMlnLMPhZdI >}}
 
 I've tried to ask Taipei City if it was possible to play in Daan Park (that would be awesome isn't it?), but received a negative response, even though they can play [basket ball](https://goo.gl/maps/hSfF91PNTJGXdNcNA) there 🤔. If anyone would know how to convince the city to let us play in parks, please let me know 🙏 
 
 ![Ask Taipei City to use net in Parks](/img/volleyball-taipei/taipei-city-use-net-in-parks.png)
-
-
 
 
 ## Outdoor volleyball 
@@ -118,13 +118,13 @@ The most surprising thing when I arrived in Taipei was to see all those middle /
 ![NTU volleyball courts Taipei](/img/volleyball-taipei/ntu-vball-courts.jpg)
 
 
-For English speaker, there is a great [Meetup group](https://www.meetup.com/taipei-sports-and-social-club/) that gathers every weekend. The individual level can be anywhere from [B- to A level]({{<ref "#skill-level" >}}). I usually go to play there since the vibe is great! It can also become quite competitive: 
+For English speaker, there is a great [Meetup group](https://www.meetup.com/taipei-sports-and-social-club/) that gathers every weekend. The individual level can be anywhere from [B- to A level]({{<ref "#volleyball-skill-level-in-taiwan" >}}). I usually go to play there since the vibe is great! It can also become quite competitive: 
 
 ![Outdoor meetup volleyball Taipei](/img/volleyball-taipei/outdoor-meetup.jpg)
 
 
 ## Indoor volleyball
-In Taiwan, indoor courts usually aren’t free to use. It is expected to pay a fee and it’s shared among the players (usually NTD150 to NTD300 per player, depending on the location). It’s more competitive and I'd say the minimum required level is [BB or +]({{<ref "#skill-level" >}}).  You will need to know some players already playing indoor to access to them and chinese is usually required. 
+In Taiwan, indoor courts usually aren’t free to use. It is expected to pay a fee and it’s shared among the players (usually NTD150 to NTD300 per player, depending on the location). It’s more competitive and I'd say the minimum required level is [BB or +]({{<ref "#volleyball-skill-level-in-taiwan" >}}).  You will need to know some players already playing indoor to access to them and chinese is usually required. 
 
 This was one group I used to play with few years ago: 
 
@@ -139,20 +139,29 @@ I did that recently when travelling to Kenting, and met really friendly and good
 {{< youtube GeuVxSJMtGU >}}
 
 
-## Skill level
+## Volleyball Skill level in Taiwan
 
+The best way to get a sense of someone's level is to see them the playing.
+But how to ask them their level? When somone saying they're are good is not enough, and you often ends up with surprise when in the court. 
 
-   Level | Description ([source](https://rocklandvolleyball.net/skill-level))
----------|------
-AA|Division 1 college team or advanced club level player that can compete on a national tournaments
-A|Elite high school, club, or college level player that can run different offenses (6-2, 5-1), have a great understanding of all positions on the court and can execute all skills with accuracy and power.
-A-| About to reach A level
-BB|May have played in high school varsity and 7 out of 10 passes go to the person they intended. Understands offensive concepts (6-2, 5-1) and defensive positions but may be working to solidify those skills. Skill levels range from intermediate to proficient veteran.
-B|Played in many organized leagues and skills have progressed well beyond beginner level, or have played some school team or club volleyball (BB level) but skills are rusty. Knows how to bump, set (a little), and spike.
-B-| About to reach B level
-C|A beginner to volleyball and attempts to pass, set and hit but doesn't always work out.
-D|"Recreational" player where goal is to always put the ball over on the other side of the net
+It is easier to directly refer to some specific level that describe abilities to do specific moves. 
+In USA or Europe, we have AA to D level.  In Taiwan, most players start playing volleyball when they get into college. 
+That's why their their level is named after which team they've played during that time:
 
+- The best players 校隊 (Xiào duì), meaning "School team". They got intense training (check how the national's team [famous Hung-Min and Hong-Jie twin brothers were trained](https://www.travel.taipei/en/news/details/7254)), and they are the ones that usually plays professionally later on.
+- Then 系隊 (Xì duì), meaning "Department team". It originally refers to the "department" of a given school (such as MBA, Engineering, Economic department). There is various level within it, the best "departments" compete agains other "departments" from other schools. It will depend on different departments whether they have a coach or not.
+   Level USA/Europe | Equivalent&nbsp;level&nbsp;in&nbsp;Taiwan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description
+---------------------|-------------------|----
+AA|校隊 (Xiào duì) - School Team|Division 1 college team or advanced club level player that can compete on a national tournaments
+A|校隊 (Xiào duì) - School Team|Elite high school, club, or college level player that can run different offenses (6-2, 5-1), have a great understanding of all positions on the court and can execute all skills with accuracy and power. 
+A-|系隊 (Xì duì) - Department Team| About to reach A level
+BB|系隊 (Xì duì) - Department Team|May have played in high school varsity and 7 out of 10 passes go to the person they intended. Understands offensive concepts (6-2, 5-1) and defensive positions but may be working to solidify those skills. Skill levels range from intermediate to proficient veteran.
+B|??|Played in many organized leagues and skills have progressed well beyond beginner level, or have played some school team or club volleyball (BB level) but skills are rusty. Knows how to bump, set (a little), and spike.
+B-|??| About to reach B level
+C|??|A beginner to volleyball and attempts to pass, set and hit but doesn't always work out.
+D|??|"Recreational" player where goal is to always put the ball over on the other side of the net
+
+(Thanks Chi Chih for helping me finding the equivalent on that!)
 
 
 
