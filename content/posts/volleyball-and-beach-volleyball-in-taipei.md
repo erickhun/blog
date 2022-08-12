@@ -76,6 +76,8 @@ series = []
         <li><a href="https://www.google.com/maps/d/viewer?mid=1rZCw3SdiIVBASaNPQgN9-O2cCEv9TVQ&hl=en&ll=23.580052342615517%2C121.05340829999996&z=9">Map of where to beach volleyball or install a portable net</a></li>
         <li><a href="#outdoor-volleyball">Play outdoor volleyball in Taipei (B- to A- level)</a></li>
         <li><a href="#indoor-volleyball">Play indoor volleyball(BB or +)</a></li>
+        <li><a href="#volleyball-skill-level-in-taiwan">Volleyball Skill level in Taiwan</a></li>
+
     </ul>
   </div>
 </div>
