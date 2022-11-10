@@ -44,12 +44,11 @@ They have quite big turkey, 13kg (28lbs) at least. It was too big for my oven
 You should pre-order them. They didn't have turkey in 2022. 
 
 ## Costco
-
-Costco usually have Butterballs turkey around the mid-october until december. They weight about 7kg (16lbs) and are imported from the US. 
+I usually get my turkey at Costco. They usually have the [Frozen, pre-brine,  Butterballs Turkeys](https://www.butterball.com/products/whole-turkey/frozen) , and appear around mid-october to December at any Costco location in Taiwan. They weight about 7kg (16lbs) and are imported from the US. 
 
 2022 was a special year and turkeys from the US were not imported because of the flu.
 
-You will need to have a Costco membership. 
+You will need to have a Costco membership (costs [1350TWD/year](https://www.costco.com.tw/membership)). 
 
 
 ## Dimensions of a turkey by weight - Will the turkey fits inside my oven? 
