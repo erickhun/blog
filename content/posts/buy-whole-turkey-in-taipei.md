@@ -16,7 +16,7 @@ Note: In 2022,  it wasn't easy to find a turkey because of a [bird flu outbreak 
 
 ## From a farm (online)
 
-Chiayi is home of the turkey rice (jirou fan). Many local farms can sell you from onlines shops. I've listed a couple ones I've contacted and seem to have them: 
+Chiayi is home of the turkey rice (jirou fan). Many local farms can sell you from thei online shops or Line. I've listed a couple ones I've contacted: 
 
 ### Taiwan Turkey Store Food
 
@@ -28,7 +28,7 @@ Chiayi is home of the turkey rice (jirou fan). Many local farms can sell you fro
 ### Idol turkey
 - Shop: https://shopee.tw/idol0402 
 
-2000 for a ~10kg bird
+2000TWD for a ~10kg bird
 
 ### Turkey Chef (火雞總舖)
 - Shop: https://shopee.tw/turkey_chef
