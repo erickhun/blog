@@ -10,9 +10,9 @@ externalLink = ""
 series = []
 +++
 
-It is Thanksgiving, or christmas, and you are looking to cook a turkey in Taipei. You came at the right place! 
+It is Thanksgiving, or Christmas, and you are looking to cook a turkey in Taipei for your group of friends. You came at the right place! 
 
-Note: In 2022,  it wasn't easy to find a turkey because of a [bird flu outbreak that happen in the US](https://www.washingtonpost.com/us-policy/2022/10/26/avian-flu-turkey-prices-holidays/) and chains like costco import them from there. Your best chance is probably contact one of the farm i've listed below.
+Note: In 2022, turkeys were in short supply because of a [bird flu outbreak that happen in the US](https://www.washingtonpost.com/us-policy/2022/10/26/avian-flu-turkey-prices-holidays/). Your best chance is probably to contact one of the farm in Chiayi I've listed below.
 
 ## From a farm (online)
 
