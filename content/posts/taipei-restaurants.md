@@ -145,9 +145,6 @@ If you want follow in real time my restaurant reviews, recommendations, and tips
 
 **Next read**:
 
+🚲 [Taiwan's amazing bike-sharing system](/posts/taiwan-youbike-bike-sharing/)
 
-- [Taiwan's amazing bike-sharing system](/posts/taiwan-youbike-bike-sharing/)
-
-- [The world next innovations depend on a single country, Taiwan](/posts/world-innovation-taiwan-semiconductors/)
-
-- [How to invest in ETFs and Stocks from Taiwan](/posts/investing-from-taiwan/)
+💰 [How to invest in ETFs and Stocks from Taiwan](/posts/investing-from-taiwan/)

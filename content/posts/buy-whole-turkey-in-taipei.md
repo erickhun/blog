@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2022-11-10T22:40:21+08:00
-title = "Where to Buy a whole turkey in Taipei?"
+title = "Where to Buy a whole Turkey in Taipei?"
 description = ""
 slug = "" 
 tags = []
@@ -70,3 +70,11 @@ Turkeys vary in size and all the same, here some dimensions I found I hope will 
 - 13kg – 33cm (w) x 39cm (L) x 20cm (h)
 
 If you are not lucky to have a big enough oven, it exists some really big portable oven like [this one from yamazaki](https://shop.yamasakitw.com/products/sk-5680m) but might be really expensive (maybe 25,000TWD). An other alternative is to book a cooking class that have those integrated ovens for a few hours and host your party there.
+
+**Next read**:
+
+🍤 [Restaurants I recommend after living 5 years in Taipei](/posts/taipei-restaurants/)
+
+🚲 [Taiwan's amazing bike-sharing system](/posts/taiwan-youbike-bike-sharing/)
+
+💰 [How to invest in ETFs and Stocks from Taiwan](/posts/investing-from-taiwan/)
