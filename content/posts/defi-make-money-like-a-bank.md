@@ -106,7 +106,9 @@ ps: This isn't financial advices
 <div class="w-full overflow-hidden mb-10 md:mb-0 md:px-10 md:w-1/2"><a title="Discuss on Twitter" href="https://twitter.com/intent/tweet?in_reply_to=1478345389921423366" target="_blank" class="Button Button--hasArrow"><span>Discuss on Twitter
 <svg width="18" height="10" xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-left"><path d="M13.922 5.636L9.055 9.455l.72.545C12.892 7.788 14.606 6.758 18 5l-1.134-.585C14.177 3.007 12.496 1.952 9.774 0l-.72.545 4.868 3.819H0v1.272h13.922z" fill="#729426" fill-rule="nonzero"></path></svg></span></a></div>
 
-
+<div style="background-color: antiquewhite; margin: 10px; border-radius: 1px; padding: 20px 40px; margin-top:30px">
+ps: I'm working on a <a href="https://nodablock.com"><strong>Analytics, CRM, Monitoring, Security dashboard for your Web3 project</strong></a>. If you own (or is involved) in a blockchain project, you will probably be interested to use it. <a href="https://twitter.com/eric_khun">Reach me out</a> if you're interested!
+</div>
 
 #### Next read:
 

@@ -152,10 +152,18 @@ Some blockchains are private only. An interesting use case could be sharing some
 
 A Blockchains is giant database that stores a ledger with all transactions of its users. It sometimes stores code that can be executed. The decentralization and consensus algorithm built into them make them _almost_ impossible to be compromised by “bad actors”. With today’s [blockchains aggregated valuation ($1.39Trillion!)](https://coinmarketcap.com/charts/), it feels like the world is somehow betting that blockchains could be tomorrow's new way to exchange money and share information. Or is that valuation only [blowing smoke](https://crypto-anonymous-2021.medium.com/the-bit-short-inside-cryptos-doomsday-machine-f8dcf78a64d3) 🤔?
 
+<!-- <div style="background-color: antiquewhite; margin: 10px; border-radius: 1px; padding: 20px 40px; margin-top:30px">
+ps: I'm working on a [**Analytics, CRM, Monitoring, Security dashboard for your Web3 project**](https://nodablock.com). If you own (or is involved) in a blockchain project, you will probably be interested to use it. [Reach me out](https://twitter.com/eric_khun) if you're interested!
+</div> -->
+
+<div style="background-color: antiquewhite; margin: 10px; border-radius: 1px; padding: 20px 40px; margin-top:30px">
+ps: I'm working on a <a href="https://nodablock.com"><strong>Analytics, CRM, Monitoring, Security dashboard for your Web3 project</strong></a>. If you own (or is involved) in a blockchain project, you will probably be interested to use it. <a href="https://twitter.com/eric_khun">Reach me out</a> if you're interested!
+</div>
+
 
 Comments on [Hacker News](https://news.ycombinator.com/item?id=27781349)
-
-ps: I'm working on a NFT as Ads banner project:  basically, an Adsense on the blockchain, where owner website has control of their ads. [Reach me out](https://twitter.com/eric_khun) if you're interested to test it
+<!-- 
+ps: I'm working on a NFT as Ads banner project:  basically, an Adsense on the blockchain, where owner website has control of their ads. [Reach me out](https://twitter.com/eric_khun) if you're interested to test it -->
 
 
 **Next reads**: 

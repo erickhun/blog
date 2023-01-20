@@ -93,3 +93,7 @@ To conclude, follow your passions and build side projects around it. It will onl
 And you, what were the benefits of you having a side project? Please comment :) 
 
 *ps: there is also more than [200 comments shared on Hacker News](https://news.ycombinator.com/item?id=21191102). Some talk about the reasons why you shouldn't have side projects. I invite you to check them out. I won't talk about it here since believe this is a part of an other discussion* 😉
+
+<div style="background-color: antiquewhite; margin: 10px; border-radius: 1px; padding: 20px 40px; margin-top:30px">
+ps: I'm working on a <a href="https://nodablock.com"><strong>Analytics, CRM, Monitoring, Security dashboard for your Web3 project</strong></a>. If you own (or is involved) in a blockchain project, you will probably be interested to use it. <a href="https://twitter.com/eric_khun">Reach me out</a> if you're interested!
+</div>

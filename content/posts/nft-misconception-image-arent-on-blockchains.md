@@ -80,9 +80,17 @@ If we assume a jpg weight of about 500kb, that will bring **the cost to store an
 
 Because of the high price, most of the NFT use the technique I've described above. There are other techniques such as using a solution like [IPFS](https://ipfs.io/), a type of "decentralized" service.  
 
-The most famous "Art NFTs" such as cryptokitty or Cryptopunk use all similar techniques. All those images are hosted on external servers, and they're not on the Ethereum blockchain itself. Metadata and the NFT are not one. Rather, your NFT — the digital asset itself — includes a link that points to the metadata, which lives elsewhere online. If you're a regular internet user, you know that sometimes, links die (cue the infamous “404 Page Not Found” web page). Hosting platforms don’t exist forever, and if your NFT exists on a regular website, you could potentially lose it along with all the associated value if that site shuts down for any reason.
+The most famous "Art NFTs" such as cryptokitty or [Cryptopunks](https://nodablock.com/nft/cryptopunks) use all similar techniques. All those images are hosted on external servers, and they're not on the Ethereum blockchain itself. Metadata and the NFT are not one. Rather, your NFT — the digital asset itself — includes a link that points to the metadata, which lives elsewhere online. If you're a regular internet user, you know that sometimes, links die (cue the infamous “404 Page Not Found” web page). Hosting platforms don’t exist forever, and if your NFT exists on a regular website, you could potentially lose it along with all the associated value if that site shuts down for any reason.
 
 So before buying any NFT, try to understand what you buy and even better, how it works!
+
+<!-- <div style="background-color: antiquewhite; margin: 10px; border-radius: 1px; padding: 20px 40px; margin-top:30px">
+ps: I'm working on a [**Analytics, CRM, Monitoring, Security dashboard for your Web3 project**](https://nodablock.com). If you own (or is involved) in a blockchain project, you will probably be interested to use it. [Reach me out](https://twitter.com/eric_khun) if you're interested!
+</div> -->
+
+<div style="background-color: antiquewhite; margin: 10px; border-radius: 1px; padding: 20px 40px; margin-top:30px">
+ps: I'm working on a <a href="https://nodablock.com"><strong>Analytics, CRM, Monitoring, Security dashboard for your Web3 project</strong></a>. If you own (or is involved) in a blockchain project, you will probably be interested to use it. <a href="https://twitter.com/eric_khun">Reach me out</a> if you're interested!
+</div>
 
 <style>
     .Button {
@@ -117,7 +125,6 @@ So before buying any NFT, try to understand what you buy and even better, how it
 <svg width="18" height="10" xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-left"><path d="M13.922 5.636L9.055 9.455l.72.545C12.892 7.788 14.606 6.758 18 5l-1.134-.585C14.177 3.007 12.496 1.952 9.774 0l-.72.545 4.868 3.819H0v1.272h13.922z" fill="#729426" fill-rule="nonzero"></path></svg></span></a></div> -->
 
 
-ps: I'm working on an **utility NFT**: an Adsense on the blockchain, where website's owners have full control of their ads and revenue, where each ad banner is an NFT. [Reach me out](https://twitter.com/eric_khun) if you're interested to test it.
 
 **Next reads**: 
 
