@@ -151,5 +151,9 @@ As many may have guess, you'll just need to remove the `--testet` flag to all co
 Also, you can change the `--testnet` flag to `--rinkeby` to use the Rinkeby network. The main differences with Ropsten are [detailed here](https://ethereum.stackexchange.com/a/30072).
  
 
+<div style="background-color: antiquewhite; margin: 10px; border-radius: 1px; padding: 20px 40px; margin-top:30px">
+ps: I'm working on a <a href="https://nodablock.com"><strong>Analytics, CRM, Monitoring, Security dashboard for your Web3 project</strong></a>. If you own (or is involved) in a blockchain project, you will probably be interested to use it. <a href="https://twitter.com/eric_khun">Reach me out</a> if you're interested!
+</div>
+
 #### Next reads:
 👉 [Explaining Blockchains to Developers](./explaining-blockchains-to-developers/)
