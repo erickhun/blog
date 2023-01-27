@@ -126,7 +126,7 @@ With an initial capital of $12,000, and adding $1,000 every month over 25 years,
 - With   1% management fee, you'll end up with $956,000. It's **$132,000 less**
 - With   2% management fee, you'll end up with $816,000, It's **$272,000 less**
 
-Some other scenarios are demonstrated on how fees impact the returns in [Vanguard](https://investor.vanguard.com/investing/how-to-invest/impact-of-costs) or the [SEC](https://www.sec.gov/investor/alerts/ib_fees_expenses.pdf)
+Some other scenarios are demonstrated on how fees impact the returns in [Vanguard](https://investor.vanguard.com/investing/how-to-invest/impact-of-costs) or the [SEC](https://www.sec.gov/investor/alerts/ib_fees_expenses.pdf) websites.
 
 
 <!-- #### Reinvesting the dividends
