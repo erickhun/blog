@@ -11,19 +11,19 @@ I've spent a tremendous amount of time investigating on how to invest from Taiwa
 
 Remember:  I'm not a financial advisor, and invite you to make more researches or seek professional advice. Again, US citizens and green card holders, please [don't follow the recommendations](https://thunfinancial.com/home/american-expat-financial-advice-research-articles/why-americans-should-never-ever-own-shares-in-a-non-us-incorporated-mutual-fund/) in my post, this post is directed to **non-US** persons.
 
-## Before starting: make sure to have an emergency fund before starting
+## Before starting: make sure to have an emergency fund
 
 Do you have enough in your bank account for the next 6 months? This is one of the best recommendations. The main purpose of it is to act as a safety net if an emergency happens. This emergency fund will help you to give you enough buffer to cover any immediate needs, without touching to you investment. No one is guaranteed to keep its job forever, accidents, a major repair of your home. Withdrawing your investment **will hurt the returns on your investment**, so this fund is key to preserve the performance of it.
 
 I split my emergency fund between [Revolut](https://revolut.com/referral/ericb1ef) and Taipei Fubon Bank:
 
-- [**Taipei Fubon Bank**](https://www.fubon.com/banking/personal/): It has a decent English interface (not mobile unfortunately). The customer service at any branches are usually good. They're also known for being the cheapest bank to send money abroad.
+- [**Taipei Fubon Bank**](https://www.fubon.com/banking/personal/): It has a decent English interface (not the mobile app unfortunately). By experience, customer service at any branche in the city is pretty good. They're also known for being the cheapest bank to send money abroad.
 - [**Revolut**](https://revolut.com/referral/ericb1ef): I am often abroad and the flexibility it gives you when you travel any country is great. 
 
-The downside of both is that you won't get much interest on them. But the goal is to have access to cash at time you will expect the least, and it will help you and won't hurt your investment. Your home country might give you some better interest rate accounts.
+The downside of both is that you won't get much interest on them. But the goal is to have access to cash at time you will expect the least, and it will help you and won't hurt your investment. Your home country might give you some better interest rate accounts wit saving accounts, but using your debit/credit card could involve some fees on the long term.
 
 ## Which financial security to buy?
- I'll only focus here on a long-term investments for the next 15 to 30 years. 
+I'll only focus here on a long-term investments for the next 15 to 30 years. 
 
 When buying a [security](https://en.wikipedia.org/wiki/Security_(finance)) for the long term, this is what you should consider:
 
