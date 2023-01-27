@@ -3,7 +3,7 @@ categories = ["taiwan", "investment"]
 date = "2021-05-30T14:37:00+08:00"
 description = ""
 draft = false
-images = ["/img/investing-in-taiwan/twd-usd-rates-per-banks.png"]
+images = ["/img/investing-in-taiwan/management-fees-impact-graph.png"]
 title = "How to invest in ETFs and Stocks from Taiwan"
 +++
 
