@@ -7,18 +7,18 @@ images = ["/img/investing-in-taiwan/twd-usd-rates-per-banks.png"]
 title = "How to invest in ETFs and Stocks from Taiwan"
 +++
 
-I've spent a tremendous amount of time investigating on how to invest from Taiwan. Many expats asked me the questions, so I've decided to write down how I do it. I'll also write different alternative options you could explore. This article **will likely apply to Tax resident in Taiwan, non-US citizens** and talk about **long term investment**. 
+I've spent a tremendous amount of time investigating on how to invest from Taiwan. Many expats asked me the questions, so I've decided to write down how I do it. I'll also write different alternative options you could explore. This article **will likely apply to Tax resident in Taiwan, non-US citizens** and talk about **long term investment** (15+ years horizon). 
 
 Remember:  I'm not a financial advisor, and invite you to make more researches or seek professional advice. Again, US citizens and green card holders, please [don't follow the recommendations](https://thunfinancial.com/home/american-expat-financial-advice-research-articles/why-americans-should-never-ever-own-shares-in-a-non-us-incorporated-mutual-fund/) in my post, this post is directed to **non-US** persons.
 
-## Make sure to have an emergency fund before starting
+## Before starting: make sure to have an emergency fund before starting
 
 Do you have enough in your bank account for the next 6 months? This is one of the best recommendations. The main purpose of it is to act as a safety net if an emergency happens. This emergency fund will help you to give you enough buffer to cover any immediate needs, without touching to you investment. No one is guaranteed to keep its job forever, accidents, a major repair of your home. Withdrawing your investment **will hurt the returns on your investment**, so this fund is key to preserve the performance of it.
 
-I split my emergency fund between [Revolut](https://revolut.com/referral/ericb1ef!MAMO) and Taipei Fubon Bank:
+I split my emergency fund between [Revolut](https://revolut.com/referral/ericb1ef) and Taipei Fubon Bank:
 
--[**Taipei Fubon Bank**](https://www.fubon.com/banking/personal/): It has a decent English interface (not mobile unfortunately). The customer service at the branch is usually good. They're also known for being the cheapest bank to send money abroad.
-- [**Revolut**](https://revolut.com/referral/ericb1ef!MAMO): I am often abroad and the flexibility it gives you when you travel any country is great. 
+- [**Taipei Fubon Bank**](https://www.fubon.com/banking/personal/): It has a decent English interface (not mobile unfortunately). The customer service at any branches are usually good. They're also known for being the cheapest bank to send money abroad.
+- [**Revolut**](https://revolut.com/referral/ericb1ef): I am often abroad and the flexibility it gives you when you travel any country is great. 
 
 The downside of both is that you won't get much interest on them. But the goal is to have access to cash at time you will expect the least, and it will help you and won't hurt your investment. Your home country might give you some better interest rate accounts.
 
@@ -145,7 +145,7 @@ IWDA also ticks the box. The difference of reinvesting and not reinvesting the d
 
 The signup process is straight-forward. Simply fill your information in the signup page, and wait a few days before validation. Make sure to fill your tax residence (Taiwan) since it will could impact how the tax could be taken directly by the broker (cf. below). Your Tax ID is the same as your ARC number. Also, [*be aware of the monthly fee if your orders don't generate at least USD 10 of fees per month*](https://www1.interactivebrokers.com/en/index.php?f=4969). The fee is waived if you have USD 100,000 of assets in your account.
 
-**How about local banks?**  Local banks will charge you lot of fees to access to foreign securities, but could probably be a good pick if you want to invest in Taiwanese securities. I won't expand on this since I didn't dig into this yet, but they generally charge an excessive amount per order, require a minimum stock per order, or charge an additional annual fee on top of of ETF expense ratio (They will charge a custodian fee because when buying securities via a bank in Taiwan, it is structured as a trust).
+**How about local banks?**  Local banks will charge you quite a bit of fees to access to any foreign securities, but could probably be a good pick if you want to invest in Taiwanese securities. I won't expand on this since I didn't dig into this yet, but they generally charge an excessive amount per order, require a minimum stock per order, or charge an additional annual fee on top of of ETF expense ratio (They will charge a custodian fee because when buying securities via a bank in Taiwan, it is structured as a trust). Also, be aware: when your ARC expires, your bank (and investing) accounts will be frozen. You will have to move your assets out of your accounts, what will trigger some unwanted tax events (ask your CPA for the infamous exit tax). For all those reason,  I think it's good to stay away from for the long term if you are not sure to stay in Taiwan for the next 15 years.
 
 **Make sure to change to tier pricing instead of fix**. By default, the fixed pricing is set in your [**Interactive Brokers**](https://www.interactivebrokers.com/referral/eric990) account. It only makes sense if your orders are over USD 8,000 (~228k TWD). If below that amount, you to switch to the tier pricing. I've saved hundred of USD by doing this one-click change.
 
