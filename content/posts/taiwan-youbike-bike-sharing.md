@@ -96,7 +96,7 @@ Taipei has made a great job of implementing an amazing infrastructure bike-shari
 
 #### Next reads:
 
-🤔 [The world next innovations depend on a single country, Taiwan](posts/world-innovation-taiwan-semiconductors/) 
+🤔 [The world next innovations depend on a single country, Taiwan](/posts/world-innovation-taiwan-semiconductors/) 
 
 🌱 [How to Invest in Stocks and ETFs from Taiwan](/posts/investing-from-taiwan/) 
 
