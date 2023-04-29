@@ -31,9 +31,7 @@ However, since 2008, banks have to [follow stricter regulations](https://en.wiki
 - In the US, before 2020, the Federal Reserve asked banks to keep 10% of customers' deposits at all times. However, [since 2020](https://www.federalreserve.gov/monetarypolicy/reservereq.htm), due to the economic impact of the COVID-19 pandemic, the Fed eliminated all reserve requirements for depository institutions. They, however, have to follow the LCR rules, like the US and Asia (cf next paragraph).
 - In Europe and Asia, banks need to follow the LCR (Liquidity Coverage Ratio) rules. It is a regulatory standard asking banks to hold sufficient HQLAs (cash or any assets that can be quickly converted to cash) to cover net cash outflows over a 30-day stress period. The value they have to keep against the deposited money is [clearly defined](https://www.eba.europa.eu/sites/default/documents/files/documents/10180/2751085/c465a8e4-a8a6-407b-9ca7-d9e1572c922e/Annex%20VI%20%28Annex%2025%20%28LCR%29%29.pdf).
 
-The LCR is defined with a score in %, 100% meaning they could endure an "outflow of cash" of 30 days. The more, the better. The LCR score is available in each financial statement of any banks if you are curious about yours.
-
-[The world average score](https://www.bis.org/bcbs/dashboards.htm) is 138%. Europe being first with 150%, the rest of the world (144%), and the US 120%:
+The LCR is defined with a score in %, 100% meaning they could endure an "outflow of cash" of 30 days. The more, the better. [The world average score](https://www.bis.org/bcbs/dashboards.htm) is 138%. Europe being first with 150%, the rest of the world (144%), and the US 120%:
 
 ![LCR world average, US, Europe graph](/img/bank-money-is-not-your-money/LCR-average-europe-us.png)
 
@@ -60,6 +58,6 @@ There can also be several other reasons that a bank can freeze or, worse, seize 
 ## Then... what should I do?
 
 - Don't put all your eggs in the same basket:
-    - Usually banks have insurances that can protect you up to €100,000. In the US, it's up to $250,000. Make sure not to have more than that. Even though you are under, banks can "freeze" assets if they're facing a difficult time.
-    - Some people keep several bank accounts across several countries.
-- Have you heard of [Bitcoin](/posts/explaining-blockchains-to-developers/)? (just don't keep [them on exchanges](https://en.wikipedia.org/wiki/FTX), and use a cold wallet).
+    - Usually banks have insurances that can protect you up to €100,000. In the US, it's up to $250,000. Make sure not to have more than that. Even though you are under this threshold, banks can "freeze" your cash if they're facing a difficult time or any other reasons. It's why it's always a good practices to split your cash accross various banks.
+    - Some friends I know keep several bank accounts across several countries to mitigate those risks.
+- Have you heard of [Bitcoin](/posts/explaining-blockchains-to-developers/)? It allows you to transfer value and is a permisionless, meaning it allows anyone to participate without needing approval or permission from a central authority - such as a bank or governement . Just don't keep [them on exchanges](https://en.wikipedia.org/wiki/FTX), and use a cold wallet).
