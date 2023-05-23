@@ -20,7 +20,7 @@ So what are the situations when banks could potentially make you hard time to ge
 
 A "run on the bank" is a situation where a large number of depositors try to withdraw their money from a bank all at once and the bank don't have enough cash in hands. This is not a hypothetical scenario and it has happened many times in history.  Historically, there were many bank runs:
 
-- [In 2020, the banking system in Cyprus faced a bank run](https://en.wikipedia.org/wiki/2012%E2%80%932013_Cypriot_financial_crisis). All depositors feared for their cash, and tried to withdraw their money. The European Union bailed them out, but only for cash under €100,000 per depositor.  **If you had more than over €100,000,you'd have lost**, and it represented  [€38 billion](https://www.reuters.com/article/us-cyprus-parliament/cyprus-closes-in-on-eu-bailout-u-turn-on-levy-idUSBRE92G03I20130322).
+- [In 2020, the banking system in Cyprus faced a bank run](https://en.wikipedia.org/wiki/2012%E2%80%932013_Cypriot_financial_crisis). All depositors feared for their cash, and tried to withdraw their money. The European Union bailed them out, but only for account with cash under €100,000 per depositor.  **If you had more than over €100,000, you'd have lost anything over 100k**, and it represented  [€38 billion](https://www.reuters.com/article/us-cyprus-parliament/cyprus-closes-in-on-eu-bailout-u-turn-on-levy-idUSBRE92G03I20130322) overall 😳.
 - In 2017 in Spain, customers with deposits over 100,000 euros in Banco Popular, were wiped out as part of the resolution process, and they received shares in the new entity as compensation. 
 - More recently [Silicon Valley Bank (SVB)](https://en.wikipedia.org/wiki/Silicon_Valley_Bank#Collapse) faced a bank run. But this time, depositor were made whole .
 
@@ -37,7 +37,7 @@ The LCR is defined with a score in %, 100% meaning they could endure an "outflow
 
 What is interesting to note is that [Silicon Valley Bank had an LCR score of 70%](https://som.yale.edu/story/2023/lessons-applying-liquidity-coverage-ratio-silicon-valley-bank), which is far from the recommended 100%.
 
-This is when you should probably check the current (and historical) level of LCR of the bank where you hold your money 😜. They are usually available in the financial statement of the bank statement.
+This is when you should probably check the current (and historical) level of LCR of the bank where you hold your money 😜. The LCR  should be publicaly available in their financial statements.
 
 
 ### Banks can freeze or seize your cash, for any reason
