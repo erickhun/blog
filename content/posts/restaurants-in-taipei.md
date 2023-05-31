@@ -8,6 +8,7 @@ tags = []
 categories = []
 externalLink = ""
 series = []
+images = ["/img/taipei-restaurants/maps.jpg"]
 +++
 
 When visiting Taipei the sheer number of restaurants can leave you feeling overwhelmed when trying to choose one.
