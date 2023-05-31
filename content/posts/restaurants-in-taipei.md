@@ -17,6 +17,8 @@ However, it's important to note that this approach may not offer the authentic c
 
 2 friends came to visit me, and I wanted to show them the incredible restaurant scene in Taipei. But, compiling a list of recommendations became even more challenging after living here for seven years. While I have [my go to restaurants](/posts/taipei-restaurants/), they may not necessarily align with what tourists want to eat. The kind of food you desire when exploring a new country differs from what you crave when you've been living there for a while. (I have a  friends admitteing that he even took his family to [Yoshinoya](https://yoshinoya.com.tw/) when they visited him  because he didn't know where to bring them! 😅)
 
+![Food maps](/img/taipei-restaurants/maps.jpg)
+
 If you are a food lover visiting Taipei, I think you are in the right place:
 
 **How did I pick the restaurant?**
