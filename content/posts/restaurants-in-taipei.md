@@ -20,10 +20,9 @@ However, it's important to note that this approach may not offer the authentic c
 If you are a food lover visiting Taipei, I think you are in the right place:
 
 **How did I pick the restaurant?**
-One of the most important factor would be the atmosphere you're seeking, ideally in a lively environment
-The uniqueness of the food 
-Waiting in line for two hours, (This is why Din Tai Fung or Fu Hang Soy Milk didn't make it onto my list)
-I didn't check Google Maps reviews. Many restaurant are asking for positive ratings in exchange of free food.
+- One of the most important factor would be the atmosphere you're seeking, ideally in a lively environment
+- The uniqueness of the food 
+- Waiting in line  usually ruin the experience - This is why Din Tai Fung or Fu Hang Soy Milk didn't make it onto my list
 
 ## "Re Chao Dian" (熱炒店)
 Starting your visit in Taiwan by going to a  stir-fried food restaurants (Re Chao Dian) is a fantastic way to start your Taiwan journey. These restaurants offer a range of dishes from meats, fish, vegetables, and sometimes even sashimi! Among my personal favorites are the *pineapple shrimp*, a truly unique Taiwanese delicacy, and the flavorful eggplant dishes.
