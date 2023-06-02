@@ -160,32 +160,14 @@ I wholeheartedly recommend this place for one specific reason: their Shacha Frie
 ![shacha sauce lamb](/img/taipei-restaurants/lamb.jpg)
 
 
-
-<style>
-    .Button {
-    display: inline-block;
-    padding: 14px 15 px;
-    text-align: center;
-    font-size: 11px;
-    font-family: archivo-black,sans-serif;
-    line-height: 1.1;
-    text-transform: uppercase;
-    -webkit-transition: all .2s;
-    -o-transition: all .2s;
-    transition: all .2s;
-    color: #282828;
-    background-color: #efefef;
-    border: 1px solid #efefef;
-    width: 100%;
-    max-width: 312px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 14px;
-    padding-top: 14px;
-    width: 50%;
-    font-weight: bold;
-    margin: 20px;
-}
-    </style>
-<div class="w-full overflow-hidden mb-10 md:mb-0 md:px-10 md:w-1/2"><a title="Google Maps review" href="https://www.instagram.com/miamtaiwan/" target="_blank" class="Button Button--hasArrow"><span>I've reviewed more than 600 restaurants in Google Maps - Follow me!
-<svg width="18" height="10" xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-left"><path d="M13.922 5.636L9.055 9.455l.72.545C12.892 7.788 14.606 6.758 18 5l-1.134-.585C14.177 3.007 12.496 1.952 9.774 0l-.72.545 4.868 3.819H0v1.272h13.922z" fill="#729426" fill-rule="nonzero"></path></svg></span></a></div>
+<div class="notice question">
+  <div class="notice-title">
+    💡 
+  </div>
+  <div class="notice-content">
+    <ul>
+        <li>I wrote (600+) restaurants reviews on <a href="https://www.google.com/maps/contrib/103590446330914322330">Google Maps - Follow me if you live in Taiwan</a></li>
+        <li>I post food restaurants I like on <a href="https://www.instagram.com/miamtaiwan">Instagram</a></li>
+    </ul>
+  </div>
+</div>
