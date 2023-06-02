@@ -11,6 +11,48 @@ series = []
 images = ["/img/taipei-restaurants/maps.jpg"]
 +++
 
+
+<style>
+.notice.question .notice-title {
+    background-color: #8bc34a1a;
+}
+
+.notice .notice-title {
+    margin: 0 -0.75rem;
+    padding: 0.2rem 1.5rem;
+    border-bottom: 1px solid #fafafa;
+}
+.notice .notice-content {
+    padding: 20px;
+}
+
+.notice.question {
+    background-color: #9ccc651a;
+}
+
+.notice {
+    border-radius: 0.2rem;
+    position: relative;
+    margin: 2rem 0;
+    padding: 0 0.75rem;
+    overflow: auto;
+}
+
+</style>
+
+<div class="notice question">
+  <div class="notice-title">
+    💡 
+  </div>
+  <div class="notice-content">
+    <ul>
+        <li>I write (a lot of) restaurants reviews on <a href="https://www.google.com/maps/contrib/103590446330914322330">Google Maps - Follow me if you live in Taiwan</a></li>
+        <li>I post food restaurants I like on <a href="https://www.instagram.com/miamtaiwan">Instagram</a></li>
+    </ul>
+  </div>
+</div>
+
+
 When visiting Taipei the sheer number of restaurants can leave you feeling overwhelmed when trying to choose one.
 We usually play safe, try the ones with the most Google reviews, or the ones in the various guides.  If you like long lines, want to stay in the "safe" side of food, this is totally fine. 
 However, it's important to note that this approach may not offer the authentic culinary experience that Taiwan has to offer.
@@ -117,9 +159,6 @@ I wholeheartedly recommend this place for one specific reason: their Shacha Frie
 
 ![shacha sauce lamb](/img/taipei-restaurants/lamb.jpg)
 
-
-
-If you want follow in real time my restaurant reviews, recommendations, and tips [follow me on Instagram](https://www.instagram.com/miamtaiwan/) or [Google Maps](https://www.google.com/maps/contrib/103590446330914322330).
 
 
 <style>
