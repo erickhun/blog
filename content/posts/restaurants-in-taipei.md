@@ -46,7 +46,7 @@ images = ["/img/taipei-restaurants/maps.jpg"]
   </div>
   <div class="notice-content">
     <ul>
-        <li>I write (a lot of) restaurants reviews on <a href="https://www.google.com/maps/contrib/103590446330914322330">Google Maps - Follow me if you live in Taiwan</a></li>
+        <li>I wrote (600+) restaurants reviews on <a href="https://www.google.com/maps/contrib/103590446330914322330">Google Maps - Follow me if you live in Taiwan</a></li>
         <li>I post food restaurants I like on <a href="https://www.instagram.com/miamtaiwan">Instagram</a></li>
     </ul>
   </div>
@@ -187,5 +187,5 @@ I wholeheartedly recommend this place for one specific reason: their Shacha Frie
     margin: 20px;
 }
     </style>
-<div class="w-full overflow-hidden mb-10 md:mb-0 md:px-10 md:w-1/2"><a title="Discuss on Twitter" href="https://www.instagram.com/miamtaiwan/" target="_blank" class="Button Button--hasArrow"><span>Check my other restaurants reviews
+<div class="w-full overflow-hidden mb-10 md:mb-0 md:px-10 md:w-1/2"><a title="Google Maps review" href="https://www.instagram.com/miamtaiwan/" target="_blank" class="Button Button--hasArrow"><span>I've reviewed more than 600 restaurants in Google Maps - Follow me!
 <svg width="18" height="10" xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-left"><path d="M13.922 5.636L9.055 9.455l.72.545C12.892 7.788 14.606 6.758 18 5l-1.134-.585C14.177 3.007 12.496 1.952 9.774 0l-.72.545 4.868 3.819H0v1.272h13.922z" fill="#729426" fill-rule="nonzero"></path></svg></span></a></div>
