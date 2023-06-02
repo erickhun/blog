@@ -7,7 +7,48 @@ images = ["/img/taipei-restaurants/taipei-map.jpg"]
 title = "Restaurants I recommend after living 5 years in Taipei"
 +++
 
-**If you visit Taipei, here [my restaurant recommendation list for travelers](/posts/restaurants-in-taipei/)**. If you live in Taipei, this list is perfect for you.
+
+<style>
+.notice.question .notice-title {
+    background-color: #8bc34a1a;
+}
+
+.notice .notice-title {
+    margin: 0 -0.75rem;
+    padding: 0.2rem 1.5rem;
+    border-bottom: 1px solid #fafafa;
+}
+.notice .notice-content {
+    padding: 20px;
+}
+
+.notice.question {
+    background-color: #9ccc651a;
+}
+
+.notice {
+    border-radius: 0.2rem;
+    position: relative;
+    margin: 2rem 0;
+    padding: 0 0.75rem;
+    overflow: auto;
+}
+
+</style>
+
+<div class="notice question">
+  <div class="notice-title">
+    💡 
+  </div>
+  <div class="notice-content">
+    <ul>
+        <li>I wrote (600+) restaurants reviews on <a href="https://www.google.com/maps/contrib/103590446330914322330">Google Maps - Follow me if you live in Taiwan</a></li>
+        <li>I post food restaurants I like on <a href="https://www.instagram.com/miamtaiwan">Instagram</a></li>
+        <li>If you visit Taipei, here my <a href="/posts/restaurants-in-taipei/">restaurants recommendation list for travelers</a></li>
+    </ul>
+  </div>
+</div>
+
 
 I've been [reviewing hundreds of restaurants](https://www.google.com/maps/contrib/103590446330914322330) on Google Maps (and now on [Insagram](https://www.instagram.com/miamtaiwan/)) I surprise myself with not knowing where to go to eat. Having [too many choices isn't always great isn't it](https://en.wikipedia.org/wiki/The_Paradox_of_Choice)? I wanted to write down which restaurants that aren't mainstream are worth going.  Apart from the lonely planet, Michelin stars guides that will make places really busy with infinite lines, I've made a selection of more personal choices after trying hundreds of restaurant in Taipei. I do recommend them because they all have something unique. They're where I'd personally bring friends or family that will come to visit me in Taiwan. All of those restaurant are in the low / medium price range, where you'd go without thinking about budget.
 
@@ -150,3 +191,18 @@ If you want follow in real time my restaurant reviews, recommendations, and tips
 🚲 [Taiwan's amazing bike-sharing system](/posts/taiwan-youbike-bike-sharing/)
 
 💰 [How to invest in ETFs and Stocks from Taiwan](/posts/investing-from-taiwan/)
+
+
+
+<div class="notice question">
+  <div class="notice-title">
+    💡 
+  </div>
+  <div class="notice-content">
+    <ul>
+        <li>I wrote (600+) restaurants reviews on <a href="https://www.google.com/maps/contrib/103590446330914322330">Google Maps - Follow me if you live in Taiwan</a></li>
+        <li>I post food restaurants I like on <a href="https://www.instagram.com/miamtaiwan">Instagram</a></li>
+        <li>If you visit Taipei, here my <a href="/posts/restaurants-in-taipei/">restaurants recommendation list for travelers</a></li>
+    </ul>
+  </div>
+</div>
