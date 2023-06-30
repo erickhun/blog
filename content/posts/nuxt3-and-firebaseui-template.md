@@ -25,6 +25,7 @@ If you're looking for a seamless and efficient way to handle user authentication
 **Firebase and Firebase UI** : 
 
 - Firebase gives you a nice UI to manager your users
+- Implement directly the usual user signup flow such as confirming emails, password hash without you having to do anything
 - Generous [free tiers with the Spark plan](https://firebase.google.com/pricing), up to 50k Monthly Active Users!
 - FirebaseUI gives you [web](https://github.com/firebase/firebaseui-web), [iOS](https://github.com/firebase/firebaseui-ios), and [Android](https://github.com/firebase/firebaseui-android) libraries to eliminate boilerplate code
 
@@ -199,10 +200,11 @@ The last step is to create a view that manage the signin and signup process:
 
 The changes should look like [this](https://github.com/erickhun/nuxt3-firebaseui-template/commit/4cade2c6a1c069c16bbf7a70487e3f1b2c7ed65b)
 
-3. Head to the [Firebase console](https://console.firebase.google.com/), and activate the signup option you want to see:
+3. Head to the [Firebase console](https://console.firebase.google.com/), and activate the signup options you want to see:
 
 ![Login Options Firebase](/img/nuxt3-firebase/auth-options.png)
 
+You'll have multiple options, from emails, to Facebook and Twitter.
 
 The whole project is available in [this repo](https://github.com/erickhun/nuxt3-firebaseui-template). You can simply clone the project and change the firebase credentials in `nuxt.config.ts`, and deploy in any of your serverless provider you like!
 
