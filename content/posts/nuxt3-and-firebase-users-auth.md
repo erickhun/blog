@@ -2,6 +2,9 @@
 draft = false
 date = 2023-06-30T07:04:59+02:00
 title = "Nuxt3 and Firebase: Users authentication"
+
+images = ["/img/nuxt3-firebase/login-example.png"]
+
 description = ""
 slug = "" 
 tags = []
