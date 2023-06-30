@@ -13,20 +13,19 @@ series = []
 > Here the [github repo](https://github.com/erickhun/nuxt3-firebaseui-template) for who want to fork my template and use it directly.
 
 
-If you're looking for a seamless and efficient way to handle user authentication and management in your web applications, Nuxt3 and Firebase make this process incredibly easy:
+If you're looking for a seamless and efficient way to handle user authentication and management in your web applications, Nuxt3 and Firebase make this process incredibly easy. They both have lot of advantages: 
 
 **Nuxt3** : 
 
-- The simplicity to setup a project
-- A project ready to go, easily deployable with 2 command line to execute (no joke!)
-- A huge choices of [modules](https://nuxt.com/modules) available
-- Coming from a a backend world, Nuxt is easy to use and understand and "make sense".
+- Allow you to have a frontend (and backend), easily deployable with 2 command line to execute (no joke!)
+- Has a huge choices of [modules](https://nuxt.com/modules) available
+- Coming from a a backend world, Nuxt is easy to use and understand and simply "make sense"
 
 **Firebase and Firebase UI** : 
 
 - Firebase gives you a nice UI to manager your users
-- Implement directly the usual user signup flow such as confirming emails, password hash without you having to do anything
-- Generous [free tiers with the Spark plan](https://firebase.google.com/pricing), up to 50k Monthly Active Users!
+- Implements directly the usual user signup flow such as confirming emails, password hash without you having to do anything
+- Has a generous [free tier with the Spark plan](https://firebase.google.com/pricing), up to 50k Monthly Active Users!
 - FirebaseUI gives you [web](https://github.com/firebase/firebaseui-web), [iOS](https://github.com/firebase/firebaseui-ios), and [Android](https://github.com/firebase/firebaseui-android) libraries to eliminate boilerplate code
 
 
