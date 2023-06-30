@@ -203,7 +203,13 @@ The changes should look like [this](https://github.com/erickhun/nuxt3-firebaseui
 
 ![Login Options Firebase](/img/nuxt3-firebase/auth-options.png)
 
-You'll have multiple options, from emails, to Facebook and Twitter.
+You'll have multiple options, from emails, to Facebook and Twitter. here what will look like your Nuxt3 app with Email and Google activated: 
+
+
+![Nuxt3 Login example](/img/nuxt3-firebase/login-example.png)
+
+
+
 
 The whole project is available in [this repo](https://github.com/erickhun/nuxt3-firebaseui-template). You can simply clone the project and change the firebase credentials in `nuxt.config.ts`, and deploy in any of your serverless provider you like!
 
