@@ -195,4 +195,12 @@ The last step is to create a view that manage the signin and signup process:
 </template>
 ```
 
-The result should look like [this](https://github.com/erickhun/nuxt3-firebaseui-template/commit/4cade2c6a1c069c16bbf7a70487e3f1b2c7ed65b)
+The changes should look like [this](https://github.com/erickhun/nuxt3-firebaseui-template/commit/4cade2c6a1c069c16bbf7a70487e3f1b2c7ed65b)
+
+3. Head to the [Firebase console](https://console.firebase.google.com/), and activate the signup option you want to see:
+
+![Login Options Firebase](/img/nuxt3-firebase/auth-options.png)
+
+
+The whole project is available in [this repo](https://github.com/erickhun/nuxt3-firebaseui-template). You can simply clone the project and change the firebase credentials in `nuxt.config.ts`, and deploy in any of your serverless provider you like!
+
