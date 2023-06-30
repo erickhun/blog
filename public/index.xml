@@ -9,10 +9,10 @@
     <lastBuildDate>Fri, 30 Jun 2023 07:04:59 +0200</lastBuildDate><atom:link href="https://erickhun.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nuxt3 and Firebase: Users authentication</title>
-      <link>https://erickhun.com/posts/nuxt3-and-firebaseui-template/</link>
+      <link>https://erickhun.com/posts/nuxt3-and-firebase-users-auth/</link>
       <pubDate>Fri, 30 Jun 2023 07:04:59 +0200</pubDate>
       
-      <guid>https://erickhun.com/posts/nuxt3-and-firebaseui-template/</guid>
+      <guid>https://erickhun.com/posts/nuxt3-and-firebase-users-auth/</guid>
       <description>Here the github repo for who want to fork my template and use it directly.
  If you&amp;rsquo;re looking for a seamless and efficient way to handle user authentication and management in your web applications, Nuxt3 and Firebase make this process incredibly easy. They both have lot of advantages:
 Nuxt3 :
