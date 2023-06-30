@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2023-06-30T07:04:59+02:00
-title = "Users with Nuxt3 and Firebase UI template"
+title = "Login and Signup with Nuxt3 and Firebase UI template"
 description = ""
 slug = "" 
 tags = []
