@@ -3,10 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://erickhun.com/</loc>
-    <lastmod>2023-05-26T16:43:25+08:00</lastmod>
+    <lastmod>2023-06-30T07:04:59+02:00</lastmod>
   </url><url>
     <loc>https://erickhun.com/posts/</loc>
-    <lastmod>2023-05-26T16:43:25+08:00</lastmod>
+    <lastmod>2023-06-30T07:04:59+02:00</lastmod>
+  </url><url>
+    <loc>https://erickhun.com/posts/nuxt3-and-firebaseui-template/</loc>
+    <lastmod>2023-06-30T07:04:59+02:00</lastmod>
   </url><url>
     <loc>https://erickhun.com/posts/restaurants-in-taipei/</loc>
     <lastmod>2023-05-26T16:43:25+08:00</lastmod>

@@ -6,7 +6,20 @@
     <description>Recent content on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 May 2023 16:43:25 +0800</lastBuildDate><atom:link href="https://erickhun.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Jun 2023 07:04:59 +0200</lastBuildDate><atom:link href="https://erickhun.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Users with Nuxt3 and Firebase UI template</title>
+      <link>https://erickhun.com/posts/nuxt3-and-firebaseui-template/</link>
+      <pubDate>Fri, 30 Jun 2023 07:04:59 +0200</pubDate>
+      
+      <guid>https://erickhun.com/posts/nuxt3-and-firebaseui-template/</guid>
+      <description>This was not easy to find online
+What I really love about Nuxt3 and Firebase:
+Nuxt3 :
+ The simplicity to setup a project A project ready to go, easily deployable with 2 command line to execute (no joke!) A huge choices of modules available Coming from a a backend world, Nuxt is easy to use and understand and &amp;ldquo;make sense&amp;rdquo;.  Firebase and Firebase UI :
+ Firebase gives you a nice UI to manager your users Generous free tiers with the Spark plan, up to 50k Monthly Active Users!</description>
+    </item>
+    
     <item>
       <title>Restaurants you should visit when visiting Taipei</title>
       <link>https://erickhun.com/posts/restaurants-in-taipei/</link>
