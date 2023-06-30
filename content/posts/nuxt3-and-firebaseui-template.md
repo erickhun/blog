@@ -30,7 +30,7 @@ If you're looking for a seamless and efficient way to handle user authentication
 
 
 At the moment of the post, the [Nuxt Firebase integration](https://firebase.nuxtjs.org/guide/) does not support Nuxt3 yet (only nuxt2). We will have to use [vuefire](https://vuefire.vuejs.org/) instead. 
-
+There is not much documentation online on how to integrate them both together, so here it is 😉 
 
 ## 0. Prepare your project
 
