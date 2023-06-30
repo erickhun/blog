@@ -229,6 +229,55 @@ Nuxt3 :
 })
 </code></pre></div><h2 id="4-add-login-views">4. Add login views</h2>
 <p>The last step is to create a view that manage the signin and signup process:</p>
+<ol>
+<li>Create a <code>components</code> folder, and inside create a <code>Login.vue</code> file with:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">&lt;template&gt;
+    &lt;div&gt;
+      &lt;h2&gt;Login&lt;<span style="">/h2&gt;</span>
+      &lt;span v-<span style="font-weight:bold">if</span>=<span style="font-style:italic">&#34;currentUser&#34;</span>&gt; Welcome {{ currentUser.displayName }}&lt;<span style="">/span&gt;</span>
+      &lt;span v-<span style="font-weight:bold">else</span>&gt; &lt;div id=<span style="font-style:italic">&#34;firebaseui-auth-container&#34;</span>&gt;&lt;<span style="">/div&gt;&lt;/span&gt;</span>
+    &lt;<span style="">/div&gt;</span>
+  &lt;<span style="">/template&gt;</span>
+  
+  &lt;script lang=<span style="font-style:italic">&#34;ts&#34;</span> setup&gt;
+  
+  <span style="font-weight:bold">import</span> { EmailAuthProvider, GoogleAuthProvider } from <span style="font-style:italic">&#39;firebase/auth&#39;</span>;
+  <span style="font-weight:bold">import</span> * as firebaseui from <span style="font-style:italic">&#39;firebaseui&#39;</span>
+  <span style="font-weight:bold">import</span> <span style="font-style:italic">&#39;firebaseui/dist/firebaseui.css&#39;</span>
+  <span style="font-weight:bold">import</span> { useCurrentUser } from <span style="font-style:italic">&#39;vuefire&#39;</span>;
+
+  <span style="font-weight:bold">const</span> currentUser = useCurrentUser()
+  <span style="font-weight:bold">const</span> ui = firebaseui.auth.AuthUI.getInstance() || <span style="font-weight:bold">new</span> firebaseui.auth.AuthUI(useFirebaseAuth());  
+  <span style="font-weight:bold">const</span> config = {
+    signInOptions: [
+      GoogleAuthProvider.PROVIDER_ID,
+      EmailAuthProvider.PROVIDER_ID,
+    ],
+    signInSuccessUrl: <span style="font-style:italic">&#34;/&#34;</span>,
+    callbacks: {
+      signInSuccessWithAuthResult() {
+        console.log(<span style="font-style:italic">&#34;Successfully signed in&#34;</span>);
+        <span style="font-style:italic">// window.location = &#34;/&#34;;
+</span><span style="font-style:italic"></span>      },
+    },
+  }
+  
+  onMounted(() =&gt; {
+    ui.start(<span style="font-style:italic">&#34;#firebaseui-auth-container&#34;</span>, config);
+  })
+  
+&lt;<span style="">/script&gt;</span>
+</code></pre></div><ol start="2">
+<li>Change <code>app.vue</code> to call the <code>components/Login.vue</code> component we&rsquo;ve just created:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">&lt;template&gt;
+  &lt;div&gt;
+    &lt;NuxtWelcome /&gt;
+    &lt;Login /&gt;
+  &lt;<span style="">/div&gt;</span>
+&lt;<span style="">/template&gt;</span>
+</code></pre></div><p>The result should look like <a href="https://github.com/erickhun/nuxt3-firebaseui-template/commit/4cade2c6a1c069c16bbf7a70487e3f1b2c7ed65b">this</a></p>
 
 
 
