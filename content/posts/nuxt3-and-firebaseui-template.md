@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2023-06-30T07:04:59+02:00
-title = "Login and Signup with Nuxt3 and Firebase UI template"
+title = "Nuxt3 and Firebase: Users authentication"
 description = ""
 slug = "" 
 tags = []
@@ -10,10 +10,10 @@ externalLink = ""
 series = []
 +++
 
+> Here the [github repo](https://github.com/erickhun/nuxt3-firebaseui-template) for who want to fork my template and use it directly.
 
-This was not easy to find online
 
-What I really love about Nuxt3 and Firebase: 
+If you're looking for a seamless and efficient way to handle user authentication and management in your web applications, Nuxt3 and Firebase make this process incredibly easy:
 
 **Nuxt3** : 
 
@@ -28,7 +28,9 @@ What I really love about Nuxt3 and Firebase:
 - Generous [free tiers with the Spark plan](https://firebase.google.com/pricing), up to 50k Monthly Active Users!
 - FirebaseUI gives you [web](https://github.com/firebase/firebaseui-web), [iOS](https://github.com/firebase/firebaseui-ios), and [Android](https://github.com/firebase/firebaseui-android) libraries to eliminate boilerplate code
 
-Here the [github repo]() for who want don't need any explanations
+
+At the moment of the post, the [Nuxt Firebase integration](https://firebase.nuxtjs.org/guide/) does not support Nuxt3 yet (only nuxt2). We will have to use [vuefire](https://vuefire.vuejs.org/) instead. 
+
 
 ## 0. Prepare your project
 
