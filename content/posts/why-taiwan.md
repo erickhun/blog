@@ -14,13 +14,13 @@ There is something special about Taiwan I couldn't really explain the first time
 
 Fast forward, I stayed long enough - to get my permanent residence (APRC)[^3] - but especially to put words to this feeling I enjoy so much: **my alertness overhead is nonexistent when I am in Taiwan**. Every day is literally a pleasure to wake up, put on my flip-flops, and head outside:
 
-- I walk to the nearest convenience store or coffee shop located __less than 5 minutes' walk__[^1] from anywhere I live.
+- I can walk to the nearest convenience store or coffee shop located **within a 5-minute walk**[^1] from anywhere I live.
 - I don't even need to change my pajamas or check what I look like in the mirror; people on the street don't care.
-- The convenience store clerk will greet you and __go above and beyond to help you__ with anything you'd need[^2].
-- In the street, I can pick [any shared bike](/posts/taiwan-youbike-bike-sharing/) that will be amazingly maintained and available in less than 5 minutes' walk from anywhere, for a ridiculous fee.
+- The convenience store clerk will greet you and **go above and beyond to help you** with anything you'd need[^2].
+- In the street, I can pick [any shared bike](/posts/taiwan-youbike-bike-sharing/) that will be amazingly maintained and available within a 5-minute walk from anywhere, for a ridiculous fee.
 - I can have a 15-minute (sometimes 1-hour+) break outside a coffee shop with my laptop, without worrying someone will take it, with my wallet next to it!
-- I can go out at 3 am in dark alleys without worrying about strangers heading toward me.
-- I can forget my sunglasses at the outdoor of a school and find them back 2 weeks later:
+- I can go out at 3 am in dark alleys without worrying about strangers approaching me and being threaten
+- I can forget my sunglasses outside a school and find them back 2 weeks later:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I forgot my sunglasses at a vball court in a Taiwan&#39;s high school. Went back to check 2 weeks later, with a really little hope to see them (14 days, they&#39;re kids, of course someone will take them). But you know it&#39;s Taiwan... And dang, they were there! Recorded a video bc🤯🤯 <a href="https://t.co/SVxqdbzlzd">pic.twitter.com/SVxqdbzlzd</a></p>&mdash; Eric Khun (@eric_khun) <a href="https://twitter.com/eric_khun/status/1663515268038131713?ref_src=twsrc%5Etfw">May 30, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
