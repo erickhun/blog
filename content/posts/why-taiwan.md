@@ -36,7 +36,7 @@ This summer, I spent 3 months in Europe this year: France, Switzerland, Portugal
 
 Those small things made me increase my vigilance level. I had to stay "alert," and it just made me feel more comfortable to stay at home than outside. This **continuous level of alertness** is a **mental overhead** that made things a bit more unpleasant.
 
-Why Taiwan ended up might be an interesting topic. If I took a guess, Taiwan having Chinese roots, however, didn't have to endure all the reforms that happened in China after 1950. The Japanese colonization influence might have played its part too.
+Why Taiwan ended up like that could be an interesting topic. If I were to make a quick guess, I'd say that after the ROC (Taiwan) government retreated to Taiwan, Taiwanese didn't have to endure the same reforms that happened in China since 1950. It followed the democracy path. The influence of the Japanese colonization could have played a big role in it culture too.
 
 [^1]: Taiwan has 13,000 convenience stores, with one for every 1,582 people! ([src](https://nspp.mofa.gov.tw/nsppe/news.php?post=234142)).
 
