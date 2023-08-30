@@ -1,6 +1,6 @@
 +++ 
 draft = false
-date = 2023-08-25T21:46:00+02:00
+date = 2023-08-26T21:46:00+02:00
 title = "Why Taiwan?"
 description = ""
 slug = "" 
@@ -33,7 +33,7 @@ This summer, I spent 3 months in Europe this year: France, Switzerland, Portugal
 - Friends reminded me not to put my wallet or phone on the table.
 - People stared down at other people for no reason and made them uneasy.
 
-Those small things made me increase my vigilance level. I had to stay "alert," and it just made me feel more comfortable to stay at home than outside. This **continuous level of alertness** is a **mental overhead** that made things a bit more unpleasant.
+Those small things made me increase my vigilance level. I had to stay "alert," and it just made me feel more comfortable to stay at home than outside. This **continuous level of alertness** adds a **mental overhead** that stays. Maybe are used to used to it, but I guess that's something I'm not used to anymore and make me unfomfortable when thinking about it. 
 
 Why Taiwan ended up like that could be an interesting topic. If I were to make a quick guess, I'd say that after the ROC (Taiwan) government retreated to Taiwan, Taiwanese didn't have to endure the same reforms that happened in China since 1950. It followed the democracy path. The influence of the Japanese colonization could have played a big role in it culture too.
 
