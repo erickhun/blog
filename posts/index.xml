@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Jun 2023 07:04:59 +0200</lastBuildDate><atom:link href="https://erickhun.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Aug 2023 21:46:00 +0200</lastBuildDate><atom:link href="https://erickhun.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Taiwan?</title>
+      <link>https://erickhun.com/posts/why-taiwan/</link>
+      <pubDate>Fri, 25 Aug 2023 21:46:00 +0200</pubDate>
+      
+      <guid>https://erickhun.com/posts/why-taiwan/</guid>
+      <description>There is something special about Taiwan I couldn&amp;rsquo;t really explain the first time I arrive. On my first trip in Taiwan, I couldn&amp;rsquo;t put words this positive feeling I had when roaming around the city. It was a mix of relaxation, freedom, safety, friendliness, and convenience, everything all at once. I didn&amp;rsquo;t do much, walked randomly in the city, worked in coffee shops, ate in random restaurants. I only stayed a week, but I knew I&amp;rsquo;ll come again for a longer stay.</description>
+    </item>
+    
     <item>
       <title>Nuxt3 and Firebase: Users authentication</title>
       <link>https://erickhun.com/posts/nuxt3-and-firebase-users-auth/</link>
@@ -14,9 +23,9 @@
       
       <guid>https://erickhun.com/posts/nuxt3-and-firebase-users-auth/</guid>
       <description>Here the github repo for who want to fork my template and use it directly.
- If you&amp;rsquo;re looking for a seamless and efficient way to handle user authentication and management in your web applications, Nuxt3 and Firebase make this process incredibly easy. They both have lot of advantages:
+If you&amp;rsquo;re looking for a seamless and efficient way to handle user authentication and management in your web applications, Nuxt3 and Firebase make this process incredibly easy. They both have lot of advantages:
 Nuxt3 :
- Allow you to have a frontend (and backend), easily deployable with 2 command line to execute (no joke!</description>
+Allow you to have a frontend (and backend), easily deployable with 2 command line to execute (no joke!) Has a huge choices of modules available Coming from a a backend world, Nuxt is easy to use and understand and simply &amp;ldquo;make sense&amp;rdquo; Firebase and Firebase UI :</description>
     </item>
     
     <item>
@@ -25,7 +34,7 @@ Nuxt3 :
       <pubDate>Fri, 26 May 2023 16:43:25 +0800</pubDate>
       
       <guid>https://erickhun.com/posts/restaurants-in-taipei/</guid>
-      <description>.notice.question .notice-title { background-color: #8bc34a1a; } .notice .notice-title { margin: 0 -0.75rem; padding: 0.2rem 1.5rem; border-bottom: 1px solid #fafafa; } .notice .notice-content { padding: 20px; } .notice.question { background-color: #9ccc651a; } .notice { border-radius: 0.2rem; position: relative; margin: 2rem 0; padding: 0 0.75rem; overflow: auto; }  💡   I wrote (600+) restaurants reviews on Google Maps - Follow me if you live in Taiwan I post food restaurants I like on Instagram    When visiting Taipei the sheer number of restaurants can leave you feeling overwhelmed when trying to choose one.</description>
+      <description>💡 I wrote (600+) restaurants reviews on Google Maps - Follow me if you live in Taiwan I post food restaurants I like on Instagram When visiting Taipei the sheer number of restaurants can leave you feeling overwhelmed when trying to choose one. We usually play safe, try the ones with the most Google reviews, or the ones in the various guides. If you like long lines, want to stay in the &amp;ldquo;safe&amp;rdquo; side of food, this is totally fine.</description>
     </item>
     
     <item>
@@ -55,7 +64,7 @@ From a farm (online) Chiayi is home of the turkey rice (jirou fan).</description
       <pubDate>Fri, 22 Jul 2022 14:11:19 +0800</pubDate>
       
       <guid>https://erickhun.com/posts/volleyball-and-beach-volleyball-in-taipei/</guid>
-      <description>.notice.question .notice-title { background-color: #8bc34a1a; } .notice .notice-title { margin: 0 -0.75rem; padding: 0.2rem 1.5rem; border-bottom: 1px solid #fafafa; } .notice .notice-content { padding: 20px; } .notice.question { background-color: #9ccc651a; } .notice { border-radius: 0.2rem; position: relative; margin: 2rem 0; padding: 0 0.75rem; overflow: auto; } .map-responsive{ overflow:hidden; padding-bottom:56.25%; position:relative; height:0; } .map-responsive iframe{ left:0; top:0; height:100%; width:100%; position:absolute; }  💡 tldr   Looking for an English friendly and Competitive beach/grass volleyball?</description>
+      <description>💡 tldr Looking for an English friendly and Competitive beach/grass volleyball? Reach me out Map of where to beach volleyball or install a portable net Play outdoor volleyball in Taipei (B- to A- level) Play indoor volleyball(BB or +) Volleyball Skill level in Taiwan Taiwan is a great place if you like to play indoor and outdoor volleyball. You can usually use any outdoor high school or university court for free, and you&amp;rsquo;ll usually find regular players.</description>
     </item>
     
     <item>
@@ -73,7 +82,7 @@ From a farm (online) Chiayi is home of the turkey rice (jirou fan).</description
       <pubDate>Tue, 30 Nov 2021 17:30:17 +0800</pubDate>
       
       <guid>https://erickhun.com/posts/taipei-restaurants/</guid>
-      <description>.notice.question .notice-title { background-color: #8bc34a1a; } .notice .notice-title { margin: 0 -0.75rem; padding: 0.2rem 1.5rem; border-bottom: 1px solid #fafafa; } .notice .notice-content { padding: 20px; } .notice.question { background-color: #9ccc651a; } .notice { border-radius: 0.2rem; position: relative; margin: 2rem 0; padding: 0 0.75rem; overflow: auto; }  💡   I wrote (600+) restaurants reviews on Google Maps - Follow me if you live in Taiwan I post food restaurants I like on Instagram If you visit Taipei, here my restaurants recommendation list for travelers    I&amp;rsquo;ve been reviewing hundreds of restaurants on Google Maps (and now on Insagram) I surprise myself with not knowing where to go to eat.</description>
+      <description>💡 I wrote (600+) restaurants reviews on Google Maps - Follow me if you live in Taiwan I post food restaurants I like on Instagram If you visit Taipei, here my restaurants recommendation list for travelers I&amp;rsquo;ve been reviewing hundreds of restaurants on Google Maps (and now on Insagram) I surprise myself with not knowing where to go to eat. Having too many choices isn&amp;rsquo;t always great isn&amp;rsquo;t it? I wanted to write down which restaurants that aren&amp;rsquo;t mainstream are worth going.</description>
     </item>
     
     <item>
@@ -122,7 +131,7 @@ Remember: I&amp;rsquo;m not a financial advisor, and invite you to make more res
       <pubDate>Sat, 02 Jan 2021 22:02:00 +0100</pubDate>
       
       <guid>https://erickhun.com/posts/goals-2021/</guid>
-      <description> Ship 1 side project that makes money Write 12 blog posts Gives at least 2 public talks Buffer&amp;rsquo;s product teams adopting SRE Figure out a system that helps to work a strict 4 days per week Clean High Pull Ups 5 Handstand Push Ups (I can&amp;rsquo;t handstand) Achieve the Full Planche (I can barely Tucked Planche now) 10 seconds Front Lever  </description>
+      <description> Ship 1 side project that makes money Write 12 blog posts Gives at least 2 public talks Buffer&amp;rsquo;s product teams adopting SRE Figure out a system that helps to work a strict 4 days per week Clean High Pull Ups 5 Handstand Push Ups (I can&amp;rsquo;t handstand) Achieve the Full Planche (I can barely Tucked Planche now) 10 seconds Front Lever </description>
     </item>
     
     <item>
@@ -161,7 +170,7 @@ The number of YouBike rides keeps increasing steadily since it was launched in 2
       
       <guid>https://erickhun.com/posts/sharing-knowledge-in-a-remote-team/</guid>
       <description>&amp;ldquo;True innovation comes an intersection of a cross-pollination of roles and ideas&amp;rdquo; - Sunil, former-CTO@Buffer
- I&amp;rsquo;ve been working remotely at Buffer for 6 years now. As a software engineer, one of the critical skill I believe we should must have is being able to learn continuously. However, working in a fully distributed team, split accross 10+ timezones. I live in Asia (UTC +8) while most of my teammates live in the US or Europe.</description>
+I&amp;rsquo;ve been working remotely at Buffer for 6 years now. As a software engineer, one of the critical skill I believe we should must have is being able to learn continuously. However, working in a fully distributed team, split accross 10+ timezones. I live in Asia (UTC +8) while most of my teammates live in the US or Europe.</description>
     </item>
     
     <item>
@@ -196,12 +205,12 @@ For a bit of background, I&amp;rsquo;ve always enjoyed playing volleyball since 
     
     <item>
       <title>Setup your Ethereum node with geth on the Ropsten test network</title>
-      <link>https://erickhun.com/posts/setup-your-ethereum-node-geth-ropsten-test-network/</link>
+      <link>https://erickhun.com/posts/setup-your-ethereum-node--geth-ropsten-test-network/</link>
       <pubDate>Sat, 03 Feb 2018 11:16:22 +0100</pubDate>
       
-      <guid>https://erickhun.com/posts/setup-your-ethereum-node-geth-ropsten-test-network/</guid>
+      <guid>https://erickhun.com/posts/setup-your-ethereum-node--geth-ropsten-test-network/</guid>
       <description>This is a step by step guide to setup your own Ethereum node on the Ropsten network. At the end of this guide you&amp;rsquo;ll be able to:
- Run your own ethereum node synced with the Ropsten testnet network Making sure to keep the node in sync with the blockchain on the network Be able to communicate via the JSON-RPC API of your own node Using the same method to run your node on the main network  Why do you want run your own node?</description>
+Run your own ethereum node synced with the Ropsten testnet network Making sure to keep the node in sync with the blockchain on the network Be able to communicate via the JSON-RPC API of your own node Using the same method to run your node on the main network Why do you want run your own node?</description>
     </item>
     
     <item>
@@ -212,7 +221,7 @@ For a bit of background, I&amp;rsquo;ve always enjoyed playing volleyball since 
       <guid>https://erickhun.com/posts/plum-io-test/</guid>
       <description>An ex-classmate shared with me today the Plum.io test. My results are available here.
 The 3 &amp;ldquo;talents&amp;rdquo; that stands out were:
- Conflict: Resolution: stay calm , empathie, being polite when you disagree Teamwork: be tactful, courteous of others, be sensitive to others needs, support others, encourage positive interactions Communication: &amp;ldquo;good long term relationships, even with difficult people&amp;rdquo;, &amp;ldquo;built on tactful and considerate interactions&amp;rdquo;, &amp;ldquo;Good at knowing the right thing to say to people and at understanding how people will accept what you are going to say to them&amp;rdquo;, &amp;ldquo;soliciting and accepting feedback and criticism from others&amp;rdquo;  Sounds about right?</description>
+Conflict: Resolution: stay calm , empathie, being polite when you disagree Teamwork: be tactful, courteous of others, be sensitive to others needs, support others, encourage positive interactions Communication: &amp;ldquo;good long term relationships, even with difficult people&amp;rdquo;, &amp;ldquo;built on tactful and considerate interactions&amp;rdquo;, &amp;ldquo;Good at knowing the right thing to say to people and at understanding how people will accept what you are going to say to them&amp;rdquo;, &amp;ldquo;soliciting and accepting feedback and criticism from others&amp;rdquo; Sounds about right?</description>
     </item>
     
     <item>

@@ -27,7 +27,6 @@ For Bitcoin, this database contains a ledger only." />
 <meta property="article:modified_time" content="2021-06-30T09:23:00+08:00" />
 
 
-
     
 
     
@@ -62,7 +61,7 @@ For Bitcoin, this database contains a ledger only." />
     <link rel="icon" type="image/png" href="https://erickhun.com/img/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://erickhun.com/img/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.92.2" />
+    <meta name="generator" content="Hugo 0.117.0">
   </head>
 
   <body class=" ">
@@ -176,14 +175,14 @@ For Bitcoin, this database contains a ledger only." />
 <p><img src="https://erickhun.com/img/explaining-blockchain-developers/blockchain-merging-block.jpg" alt="Bitcoin Merging blockchain blocks"></p>
 <h2 id="more-than-value-transaction">More than value transaction</h2>
 <p>Some blockchains can store and execute some code, such as the Ethereum blockchain. The Ethereum “database” can store code and get the code executed. The code store is called a “smartcontract”. In Ethereum, the programming language is “<a href="https://docs.soliditylang.org/">Solidity</a>”. For example:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">receiveMoneyEvent(amount) {
-	facilitatortFee = amount * 2/100
-	splitMoneyAmount = (amount - facilitatortFee) / 2
-	sendTo(charityAddressX, splitMoneyAmount)
-	sendTo(charityAddressY, splitMoneyAmount)
-	sentTo(facilitatortAddress, facilitatortFee)
-}
-</code></pre></div><p>In this example, each time the smart contract receives money, it will forward it to 2 charities. In between, the “facilitator” will take a 2% fee.  Pretty simple isn’t it?</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>receiveMoneyEvent(amount) {
+</span></span><span style="display:flex;"><span>	facilitatortFee = amount * 2/100
+</span></span><span style="display:flex;"><span>	splitMoneyAmount = (amount - facilitatortFee) / 2
+</span></span><span style="display:flex;"><span>	sendTo(charityAddressX, splitMoneyAmount)
+</span></span><span style="display:flex;"><span>	sendTo(charityAddressY, splitMoneyAmount)
+</span></span><span style="display:flex;"><span>	sentTo(facilitatortAddress, facilitatortFee)
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>In this example, each time the smart contract receives money, it will forward it to 2 charities. In between, the “facilitator” will take a 2% fee.  Pretty simple isn’t it?</p>
 <p>Once you publish this code to the blockchain ( you’ll have to pay each time you want to do that, it’s like an expensive git push command), anyone who wants to can call this contract. In this smartcontract, addresses that will send Ether (ETH) to this contract, those actions will be executed.</p>
 <h4 id="smart-contract-immutability">Smart Contract Immutability</h4>
 <p>The logic in those contracts never changes and will be on-chain forever. The contract you agree to interact will always do what it said it will. No one will ever be able to change the logic. The ones creating this contract won’t be able to change it, even if they published it. So there is no risk of 1 party changing terms, because the contract can’t be changed. It will be on the chain as long as the network is alive.</p>
@@ -220,9 +219,7 @@ ps: I'm working on a NFT as Ads banner project:  basically, an Adsense on the bl
 **Dig deeper**: Tesla CTO exploring [Bitcoin the “hard way”](https://karpathy.github.io/2021/06/21/blockchain/) with Python
 
 *   **To anonymize transactions / information** zk SNARK has been a proof cryptography algorithm. ZK (Zero Knowledge) are mathematical functions that allow us to confirm something without revealing what that information is. It’s a “cryptographic proof” that allows a system without knowing all the information. So validators wouldn’t need the full blockchain to validate transactions. 
-*   **To make blockchain size smaller**:  [Mina Protocol](https://minaprotocol.com/tech) uses zk SNARK to make their blockchain really light (22kb).  --><blockquote>
-</blockquote>
-
+*   **To make blockchain size smaller**:  [Mina Protocol](https://minaprotocol.com/tech) uses zk SNARK to make their blockchain really light (22kb).  -->
 
 
 

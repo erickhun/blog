@@ -25,7 +25,6 @@ Artists start creating them on a piece of paper, then their computer. But when t
 <meta property="article:modified_time" content="2021-10-31T13:08:00+08:00" />
 
 
-
     
 
     
@@ -60,7 +59,7 @@ Artists start creating them on a piece of paper, then their computer. But when t
     <link rel="icon" type="image/png" href="https://erickhun.com/img/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://erickhun.com/img/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.92.2" />
+    <meta name="generator" content="Hugo 0.117.0">
   </head>
 
   <body class=" ">
@@ -130,40 +129,40 @@ Artists start creating them on a piece of paper, then their computer. But when t
 <p>Artists start creating them on a piece of paper, then their computer. But when they convert it to an NFT, what makes you the owner of it? Isn&rsquo;t the artist still have the original one on his desk or computer? The process to convert it to an NFT? Are they really on the blockchain? But they&rsquo;re not. They&rsquo;re on one server, and that&rsquo;s not on the blockchain.</p>
 <h2 id="digital-art-isnt-even-stored-on-the-blockchain">&ldquo;Digital art&rdquo; isn&rsquo;t even stored on the blockchain</h2>
 <p><a href="https://eips.ethereum.org/EIPS/eip-721#implementations">ERC-721</a> is the standard that dictates how one should create an NFT. Each ERC721 NFT must have a <code>tokenURI</code> field, that is an external link to a JSON file stored on an external server (and commonly are not the Ethereum blockchain!). This JSON file has the <code>metadata</code> information that will describe the NFT. It looks like that:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
-    <span style="font-weight:bold">&#34;title&#34;</span>: <span style="font-style:italic">&#34;Asset Metadata&#34;</span>,
-    <span style="font-weight:bold">&#34;properties&#34;</span>: {
-        <span style="font-weight:bold">&#34;name&#34;</span>: {
-            <span style="font-weight:bold">&#34;description&#34;</span>: <span style="font-style:italic">&#34;Identifies the asset to which this NFT represents&#34;</span>
-        },
-        <span style="font-weight:bold">&#34;description&#34;</span>: {
-            <span style="font-weight:bold">&#34;description&#34;</span>: <span style="font-style:italic">&#34;Describes the asset to which this NFT represents&#34;</span>
-        },
-        <span style="font-weight:bold">&#34;image&#34;</span>: {
-            <span style="font-weight:bold">&#34;description&#34;</span>: <span style="font-style:italic">&#34;A URI pointing to a resource with mime type image/* 
-</span><span style="font-style:italic">            representing the asset to which this NFT represents. Consider making 
-</span><span style="font-style:italic">            any images at a width between 320 and 1080 pixels and aspect ratio 
-</span><span style="font-style:italic">            between 1.91:1 and 4:5 inclusive.&#34;</span>
-        }
-    }
-}
-</code></pre></div><p>You can notice the <code>image</code> field, which is a link to an image. If we take example <a href="https://project-memento.com/">Project Memento</a>, an NFT allowing change tiles you own to the desired letter. You basically trade &ldquo;coordinates&rdquo; on the website and there is NO NEED of an image for the project itself to work.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">&#34;title&#34;</span>: <span style="font-style:italic">&#34;Asset Metadata&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">&#34;properties&#34;</span>: {
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">&#34;name&#34;</span>: {
+</span></span><span style="display:flex;"><span>            <span style="font-weight:bold">&#34;description&#34;</span>: <span style="font-style:italic">&#34;Identifies the asset to which this NFT represents&#34;</span>
+</span></span><span style="display:flex;"><span>        },
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">&#34;description&#34;</span>: {
+</span></span><span style="display:flex;"><span>            <span style="font-weight:bold">&#34;description&#34;</span>: <span style="font-style:italic">&#34;Describes the asset to which this NFT represents&#34;</span>
+</span></span><span style="display:flex;"><span>        },
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">&#34;image&#34;</span>: {
+</span></span><span style="display:flex;"><span>            <span style="font-weight:bold">&#34;description&#34;</span>: <span style="font-style:italic">&#34;A URI pointing to a resource with mime type image/* 
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">            representing the asset to which this NFT represents. Consider making 
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">            any images at a width between 320 and 1080 pixels and aspect ratio 
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">            between 1.91:1 and 4:5 inclusive.&#34;</span>
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>You can notice the <code>image</code> field, which is a link to an image. If we take example <a href="https://project-memento.com/">Project Memento</a>, an NFT allowing change tiles you own to the desired letter. You basically trade &ldquo;coordinates&rdquo; on the website and there is NO NEED of an image for the project itself to work.</p>
 <p>For the NFT [8,9] (that <a href="https://etherscan.io/tx/0x5b9eb844062c9806e4fd5c831d26ad0c76466cc4d62d46610d5f4efbd1035cac">just got sold for 0.5ETH - about ~$2000!</a>), the <a href="https://project-memento.com/metadata/8-9.json">metadata file</a> looks like:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
-    <span style="font-weight:bold">&#34;name&#34;</span>: <span style="font-style:italic">&#34;Project Memento [8,9]&#34;</span>,
-    <span style="font-weight:bold">&#34;image&#34;</span>: <span style="font-style:italic">&#34;https://memento.pages.dev/images/8-9.svg&#34;</span>,
-    <span style="font-weight:bold">&#34;attributes&#34;</span>: [
-        {
-            <span style="font-weight:bold">&#34;trait_type&#34;</span>: <span style="font-style:italic">&#34;Coordinate X&#34;</span>,
-            <span style="font-weight:bold">&#34;value&#34;</span>: <span style="font-style:italic">&#34;8&#34;</span>
-        },
-        {
-            <span style="font-weight:bold">&#34;trait_type&#34;</span>: <span style="font-style:italic">&#34;Coordinate Y&#34;</span>,
-            <span style="font-weight:bold">&#34;value&#34;</span>: <span style="font-style:italic">&#34;9&#34;</span>
-        }
-    ]
-}
-</code></pre></div><p>You can notice the <code>&quot;image&quot;</code> field that points to <a href="https://memento.pages.dev/images/8-9.svg">https://memento.pages.dev/images/8-9.svg</a>. Our NFT doesn&rsquo;t need an image. However, it could be great to have a representation of it, especially if the project ends up on <a href="https://opensea.io/collection/project-memento">opensea</a>. We had to use a bit of our imagination, and decided to make a marker on a square representing relatively where would be the tile you get on our grid.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">&#34;name&#34;</span>: <span style="font-style:italic">&#34;Project Memento [8,9]&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">&#34;image&#34;</span>: <span style="font-style:italic">&#34;https://memento.pages.dev/images/8-9.svg&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">&#34;attributes&#34;</span>: [
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="font-weight:bold">&#34;trait_type&#34;</span>: <span style="font-style:italic">&#34;Coordinate X&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="font-weight:bold">&#34;value&#34;</span>: <span style="font-style:italic">&#34;8&#34;</span>
+</span></span><span style="display:flex;"><span>        },
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="font-weight:bold">&#34;trait_type&#34;</span>: <span style="font-style:italic">&#34;Coordinate Y&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="font-weight:bold">&#34;value&#34;</span>: <span style="font-style:italic">&#34;9&#34;</span>
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    ]
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>You can notice the <code>&quot;image&quot;</code> field that points to <a href="https://memento.pages.dev/images/8-9.svg">https://memento.pages.dev/images/8-9.svg</a>. Our NFT doesn&rsquo;t need an image. However, it could be great to have a representation of it, especially if the project ends up on <a href="https://opensea.io/collection/project-memento">opensea</a>. We had to use a bit of our imagination, and decided to make a marker on a square representing relatively where would be the tile you get on our grid.</p>
 <p><img src="https://erickhun.com/img/nft/project-memento-8-9.svg" alt="Memento representation"></p>
 <p>The <code>tokenURI</code> field, which is in the ER721 standard, is read on platforms like Opensea or Rarible. If you follow the ERC-721 standard, it will make your NFT instantly tradable on those platforms. Having an appealing image can help you make your NFT project more visible. So even though <a href="https://project-memento.com/">Project-Memento</a> isn&rsquo;t about JPEG, , we&rsquo;ve attached an image to it, to make it more attractive.</p>
 <!-- ## What could go wrong? -->
