@@ -12,7 +12,7 @@ series = []
 
 There is something special about Taiwan I couldn't really explain the first time I arrived. On my first trip to Taiwan, I couldn't put words to this **positive feeling** I had when roaming around the city. It was a mix of relaxation, freedom, safety, friendliness, and convenience, everything all at once. I didn't do much; I walked randomly in the city, worked in coffee shops, ate in random restaurants. I only stayed a week, but I knew I'd come again for a longer stay. That feeling stuck with me for a while, and I decided to leave Beijing for Taipei, to get a sense of whether that was a temporary feeling or if there was something more.
 
-Fast forward, I stayed long enough - to get my permanent residence (APRC)[^3] - but especially to put words to this feeling I enjoy so much: **my alertness overhead is nonexistent when I am in Taiwan**. Every day is literally a pleasure to wake up, put on my flip-flops, and head outside:
+Fast forward, I stayed long enough - to get my permanent residence (APRC)[^3] - to put words to this feeling I enjoy so much: **my alertness overhead is nonexistent when I am in Taiwan**. Every day is literally a pleasure to wake up, put on my flip-flops, and head outside:
 
 - I can walk to the nearest convenience store or coffee shop located **within a 5-minute walk**[^1] from anywhere I live.
 - I don't even need to change my pajamas or check what I look like in the mirror; people on the street don't care.
