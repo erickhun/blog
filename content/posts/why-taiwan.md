@@ -35,7 +35,7 @@ This summer, I spent 3 months in Europe this year: France, Switzerland, Portugal
 
 Those small things made me increase my vigilance level. I had to stay "alert," and it just made me feel more comfortable to stay at home than outside. This **continuous level of alertness** adds a **mental overhead** that stays. Maybe are used to used to it, but I guess that's something I'm not used to anymore and make me unfomfortable when thinking about it. 
 
-How Taiwan ended up like that could be an interesting topic. If I had to make a quick guess, I'd say that after the ROC (Taiwan) government retreated to Taiwan, Taiwanese didn't have to endure the same [reforms that happened in China since 1950](https://en.wikipedia.org/wiki/Chinese_economic_reform) and followed the democracy path. The influence of the [Japanese colonization](https://en.wikipedia.org/wiki/Taiwan_under_Japanese_rule) for 50 years might have played a big role in the current taiwanese culture and education.
+How Taiwan ended up like that could be an interesting topic. If I had to make a quick guess, I'd say that after the ROC (Taiwan) government retreated to Taiwan, Taiwanese didn't have to endure the same [reforms that happened in China since 1950](https://en.wikipedia.org/wiki/Chinese_economic_reform) and followed the democracy path. The influence of the [Japanese colonization](https://en.wikipedia.org/wiki/Taiwan_under_Japanese_rule) for 50 years might have played a big role in the current taiwanese culture and education. How kind, thoughtful, considerate interactions are with taiwanese feels a lot japanese than chinese. 
 
 [^1]: Taiwan has 13,000 convenience stores, with one for every 1,582 people! ([src](https://nspp.mofa.gov.tw/nsppe/news.php?post=234142)).
 
