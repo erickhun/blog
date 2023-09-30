@@ -70,7 +70,7 @@ After the failure of Google Plus.  -->
 - Instagram and Facebook can turn into dating apps. I think the Google Maps team is trying to avoid that, with some details like not allowing users to "zoom in" on profile pictures.
 - Contributions can be turned private.
 
-####  Improvements they could do
+<!-- ####  Improvements they could do -->
 <!-- - Not everyone would want - The possibility ot opt-out for the social network features. 
 
 
