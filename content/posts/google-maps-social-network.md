@@ -21,7 +21,7 @@ Because I like to see how my contributions impacted other people (I know, ego...
 In the past few months, I've noticed a stronger push on their new social network features, with the application undergoing quite a few changes.
 
 
-## Adding Social Graph: 
+## Adding Social Graph
 
 They've added the following features to the home screen:
 
@@ -41,17 +41,17 @@ I've also started to receive more frequent push notifications on people followin
 ![Google Maps Pushy Notifications](/img/google-maps-social-network/push-notifications.png)
 
 
-#### Users profile
+#### Users profiles
 
 They provide users with profiles and have a suggestion tab where you can discover other users you might be interested in following. Your profile is assigned a URL (although you can't choose it yet), and you can share it publicly.
 
 ![Google Maps Profile](/img/google-maps-social-network/profile.png)
 
-#### Lists:
-Some users create curated list. They sometimes has public lists, I follow those list and they appears on my Google map application: 
+#### Lists
+Users can create curated list, for themselve, or for others! I do myself follow some of those lists and they appears on my Google map application at my will: 
 ![Google Maps Lists](/img/google-maps-social-network/lists.jpg)
 
-####  Some smart stuff Google Maps is doing:
+####  Smart things Google Maps is doing
 - Google Maps has a separate website where they allow "local guides" to interact: https://www.localguidesconnect.com/. This is  happening outside of Google Maps (as of today). It will be interesting how they'll change (or keep) how users interact with each others.
 - Social networks feature had a really slow release pace until recently. I believe they're tracking how well each feature is performing and using the Local Guide community / users bahavior to gauge their reactions to changes. It would be quite risky for them to push drastic changes and upset/lose current users that might not be interested in those features.  
 - Instagram and Facebook can turn into dating apps. I think the Google Maps team is trying to avoid that, with some details like not allowing users to "zoom in" on profile pictures.
