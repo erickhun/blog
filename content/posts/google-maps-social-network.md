@@ -10,7 +10,7 @@ externalLink = ""
 series = []
 +++
 
-Google Maps is the application I use most in my daily life. Whether I want to go somewhere else in the city, need to know where the nearest subway station is, or am looking for a restaurant or a bar. One of the most useful features is probably user reviews. 
+Google Maps is the application I use the most in my daily life. Whether I need a direction, looking for a place to eat, fix my phone....  The influence of Google Maps goes beyond mere navigation – it has also became a key platform for local businesses, where reviews can **make or break** their success. Whether it's choosing a dining destination (sometimes right in front of the restaurant itself) or meticulously selecting a hotel, it's evident that reviews on Google Maps play a pivotal role in decision-making. In recent years, Google has quietly introduced social media features, but more recently, these changes have become quite noticeable and might impact the user experience within the app.
 
 My first contributions were made 7 years ago, prompted by a rather innocent push notification from Google Maps: 'How was restaurant/hotel XX?' I would then add some photos with a tap, and my opinion was published. They followed up with some 'magic internet points' via email—lots of views with relatively low effort. I was hooked:
 
@@ -51,39 +51,15 @@ They provide users with profiles and have a suggestion tab where you can discove
 Some users create curated list. They sometimes has public lists, I follow those list and they appears on my Google map application: 
 ![Google Maps Lists](/img/google-maps-social-network/lists.jpg)
 
-
-## Where is Google Maps heading?
-
-<!-- When in Europe, I met local mnetionning multiple time : look what is good in Instagram. 
-
-Google maps is propably a better place to look up for this information.
-
-
-It is in my opinion a really smart way to do it. Experimenting silentely those early adopters who care and contribute instead of trying to forcing all their users. 
-It's also really since the wide usage of Google Maps. I don't know anyone who does not use it today. 
-
-After the failure of Google Plus.  -->
-
-####  Some smart stuff they are doing:
-- They have a separate website where they are trying to build a local community: https://www.localguidesconnect.com/. However, this connection is currently happening outside of Google Maps (as of today). I'm really curious about how they'll handle the community aspect.
-- They have had a really slow release until recently. I believe they're tracking how well each feature is performing and using the Local Guide community to gauge their reactions to changes.
+####  Some smart stuff Google Maps is doing:
+- Google Maps has a separate website where they allow "local guides" to interact: https://www.localguidesconnect.com/. This is  happening outside of Google Maps (as of today). It will be interesting how they'll change (or keep) how users interact with each others.
+- Social networks feature had a really slow release pace until recently. I believe they're tracking how well each feature is performing and using the Local Guide community / users bahavior to gauge their reactions to changes. It would be quite risky for them to push drastic changes and upset/lose current users that might not be interested in those features.  
 - Instagram and Facebook can turn into dating apps. I think the Google Maps team is trying to avoid that, with some details like not allowing users to "zoom in" on profile pictures.
-- Contributions can be turned private.
 
-<!-- ####  Improvements they could do -->
-<!-- - Not everyone would want - The possibility ot opt-out for the social network features. 
-
-
-Businesses fighting against fake reviews. Restaurants asking Good reviews in exchange of something.
-
-Google maps It has huge impact in local businesses. When you see people outside a restaurant undecided to get inside the restaurant looking at their phone, they probably check the reviews on Google Maps. 
-
-Having a low score will impact negatively. I do that only swear by this: any restaurant under 4 stars is a no go. 
-
-What' also interesting is that those social features are only in mobile application, and not on web.
+####  Improvements they could do
+- Not everyone would want to see these social features. The option to opt-out of the social network features would be greatly appreciated by those using it solely for its main use case (navigation and finding locations).
+- Google Maps has a huge impact on local businesses. Combating fake reviews isn't an easy task and can painfully hurt businesses unfairly. They should probably try to use some sort of signal/verification to give more weight or not to reviews.
 
 
-Buying followers , bots, advertising , not allowing links -->
-
-Google is clearly pushing for the social aspect of Google Maps. Is it  becoming the social network that can actually be useful, or [will it be terminated](https://killedbygoogle.com/) like so many other products?
+Google is clearly pushing for the social aspect of Google Maps. Those past few years of cautious, silent feature releases, shows they're quite mindful on user experiences and don't want takes too much risks. Will Google Maps becomes the social network that can actually be useful for its users, or [will the social features be terminated](https://killedbygoogle.com/), like they did for so many other products?
 
