@@ -61,5 +61,5 @@ Some users create curated list. They sometimes has public lists, I follow those 
 - Google Maps has a huge impact on local businesses. Combating fake reviews isn't an easy task and can painfully hurt businesses unfairly. They should probably try to use some sort of signal/verification to give more weight or not to reviews.
 
 
-Google is clearly pushing for the social aspect of Google Maps. Those past few years of cautious, silent feature releases, shows they're quite mindful on user experiences and don't want takes too much risks. Will Google Maps becomes the social network that can actually be useful for its users, or [will the social features be terminated](https://killedbygoogle.com/), like they did for so many other products?
 
+Over the past few years, Google cautious, silent, and 'not in your face' feature releases in Maps demonstrate their mindfulness in not disrupting current users and their desire to retain their daily user base. Will this final push will make  Google Maps become a real social network that is genuinely useful and social? Or will it end up in the [Google graveyard](https://killedbygoogle.com/)?
