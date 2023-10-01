@@ -62,4 +62,4 @@ Some users create curated list. They sometimes has public lists, I follow those 
 
 
 
-Over the past few years, Google cautious, silent, and 'not in your face' feature releases in Maps demonstrate their mindfulness in not disrupting current users and their desire to retain their daily user base. Will this final push will make  Google Maps become a real social network that is genuinely useful and social? Or will it end up in the [Google graveyard](https://killedbygoogle.com/)?
+Over the past few years, Google cautious, silent, and 'not in your face' feature releases of social features in Maps demonstrate their mindfulness in not disrupting current users and their desire to retain their daily user base. Will this final push make Google Maps become a real social network that is genuinely useful and social? Or will it end up in the [Google graveyard](https://killedbygoogle.com/)?
