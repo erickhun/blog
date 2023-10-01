@@ -8,7 +8,8 @@ tags = []
 categories = []
 externalLink = ""
 series = []
-image = "img/google-maps-social-network/push-notifications.png"
+images = ["/img/google-maps-social-network/push-notifications.png"]
+
 +++
 
 Google Maps is the application I use the most in my daily life. Whether I need a direction, looking for a place to eat, fix my phone....  The influence of Google Maps goes beyond mere navigation – it has also became a key platform for local businesses, where reviews can **make or break** their success. Whether it's choosing a dining destination (sometimes right in front of the restaurant itself) or meticulously selecting a hotel, it's evident that reviews on Google Maps play a pivotal role in decision-making. In recent years, Google has quietly introduced social media features, but more recently, these changes have become quite noticeable and might impact the user experience within the app.
