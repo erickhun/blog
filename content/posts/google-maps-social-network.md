@@ -14,7 +14,7 @@ images = ["/img/google-maps-social-network/push-notifications.png"]
 
 Google Maps is the application I use the most in my daily life. Whether I need a direction, looking for a place to eat, fix my phone....  The influence of Google Maps goes beyond mere navigation – it has also became a key platform for local businesses, where reviews can **make or break** their success. Whether it's choosing a dining destination (sometimes right in front of the restaurant itself) or meticulously selecting a hotel, it's evident that reviews on Google Maps play a pivotal role in decision-making. In recent years, Google has quietly introduced social media features, but more recently, these changes have become quite noticeable and might impact the user experience within the app.
 
-My first contributions were made 7 years ago, prompted by a rather innocent push notification from Google Maps: 'How was restaurant/hotel XX?' I would then add some photos with a tap, and my opinion was published. They followed up with some 'magic internet points' via email—lots of views with relatively low effort. I was hooked:
+My [first contributions](https://maps.app.goo.gl/bCQ7JTmRw5t9HLBs5) were made 7 years ago, prompted by a rather innocent push notification from Google Maps: 'How was restaurant/hotel XX?' I would then add some photos with a tap, and my opinion was published. They followed up with some 'magic internet points' via email—lots of views with relatively low effort. I was hooked:
 
 ![Google Maps Magic Internet Point](/img/google-maps-social-network/magic-internet-point.png)
 
@@ -65,3 +65,15 @@ Users can create curated list, for themselve, or for others! I do myself follow 
 
 
 Over the past few years, Google cautious, silent, and 'not in your face' feature releases of social features in Maps demonstrate their mindfulness in not disrupting current users and their desire to retain their daily user base. Will this final push make Google Maps become a real social network that is genuinely useful and social? Or will it end up in the [Google graveyard](https://killedbygoogle.com/)?
+
+
+<div class="notice question">
+  <div class="notice-title">
+    💡 
+  </div>
+  <div class="notice-content">
+    <ul>
+        <li>I wrote 700+ restaurants reviews on <a href="https://www.google.com/maps/contrib/103590446330914322330">Google Maps all around the world - Follow me on Google Maps!</a></li>
+    </ul>
+  </div>
+</div>
