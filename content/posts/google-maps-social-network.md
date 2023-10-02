@@ -69,31 +69,31 @@ Over the past few years, Google cautious, silent, and 'not in your face' feature
 
 
 <style>
-.notice.question .notice-title {
-    background-color: #8bc34a1a;
-}
+    .notice.question .notice-title {
+        background-color: #8bc34a1a;
+    }
 
-.notice .notice-title {
-    margin: 0 -0.75rem;
-    padding: 0.2rem 1.5rem;
-    border-bottom: 1px solid #fafafa;
-}
-.notice .notice-content {
-    padding: 20px;
-}
+    .notice .notice-title {
+        margin: 0 -0.75rem;
+        padding: 0.2rem 1.5rem;
+        border-bottom: 1px solid #fafafa;
+    }
+    .notice .notice-content {
+        padding: 20px;
+    }
 
-.notice.question {
-    background-color: #9ccc651a;
-}
+    .notice.question {
+        background-color: #9ccc651a;
+    }
 
-.notice {
-    border-radius: 0.2rem;
-    position: relative;
-    margin: 2rem 0;
-    padding: 0 0.75rem;
-    overflow: auto;
-}
-
+    .notice {
+        border-radius: 0.2rem;
+        position: relative;
+        margin: 2rem 0;
+        padding: 0 0.75rem;
+        overflow: auto;
+    }
+</style>
 
 <div class="notice question">
   <div class="notice-title">
