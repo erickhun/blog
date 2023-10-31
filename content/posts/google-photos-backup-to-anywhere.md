@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2023-10-30T23:10:07+08:00
-title = "Google Photos Backup (to Anywhere)"
+title = "Google Photos Backup"
 description = ""
 slug = "" 
 tags = []
