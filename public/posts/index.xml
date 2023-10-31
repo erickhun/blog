@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 30 Sep 2023 12:45:07 +0800</lastBuildDate><atom:link href="https://erickhun.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Oct 2023 23:10:07 +0800</lastBuildDate><atom:link href="https://erickhun.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Photos Backup (to Anywhere)</title>
+      <link>https://erickhun.com/posts/google-photos-backup-to-anywhere/</link>
+      <pubDate>Mon, 30 Oct 2023 23:10:07 +0800</pubDate>
+      
+      <guid>https://erickhun.com/posts/google-photos-backup-to-anywhere/</guid>
+      <description>Are you using any Google service (Gmail, Youtube, Google Maps, Google Cloud, Google Voice, etc&amp;hellip;) daily? You might want to know that Google has the really bad habit to kill products and lock you out of your own google account
+for any kind of possible and random reasons If their AI robot determines that any of these services might lead to the closure of your entire Google account, you could lose all your photos and videos tomorrow.</description>
+    </item>
+    
     <item>
       <title>Google Maps Social Network</title>
       <link>https://erickhun.com/posts/google-maps-social-network/</link>

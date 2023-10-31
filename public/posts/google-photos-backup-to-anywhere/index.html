@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="7DBD2PxdMdwwa1Mfq6TWyEYGTry6CK4NE9KIFpCZibE">
+    <meta name="author" content="Eric Khun">
+    <meta name="description" content="Eric Khun&#39;s essays - I write about Taiwan - Scalability - Infrastructure - Engineering">
+    <meta name="keywords" content="blog, developer, personal, data">
+
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://erickhun.com/img/google-photos-backup/export-result.png"/>
+
+<meta name="twitter:title" content="Google Photos Backup (to Anywhere)"/>
+<meta name="twitter:description" content="Are you using any Google service (Gmail, Youtube, Google Maps, Google Cloud, Google Voice, etc&hellip;) daily? You might want to know that Google has the really bad habit to kill products and lock you out of your own google account
+for any kind of possible and random reasons If their AI robot determines that any of these services might lead to the closure of your entire Google account, you could lose all your photos and videos tomorrow."/>
+
+    <meta property="og:title" content="Google Photos Backup (to Anywhere)" />
+<meta property="og:description" content="Are you using any Google service (Gmail, Youtube, Google Maps, Google Cloud, Google Voice, etc&hellip;) daily? You might want to know that Google has the really bad habit to kill products and lock you out of your own google account
+for any kind of possible and random reasons If their AI robot determines that any of these services might lead to the closure of your entire Google account, you could lose all your photos and videos tomorrow." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://erickhun.com/posts/google-photos-backup-to-anywhere/" /><meta property="og:image" content="https://erickhun.com/img/google-photos-backup/export-result.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-10-30T23:10:07+08:00" />
+<meta property="article:modified_time" content="2023-10-30T23:10:07+08:00" />
+
+
+    
+
+    
+      <base href="https://erickhun.com/posts/google-photos-backup-to-anywhere/">
+    
+    <title>
+  Google Photos Backup (to Anywhere)
+</title>
+
+    
+      <link rel="canonical" href="https://erickhun.com/posts/google-photos-backup-to-anywhere/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://erickhun.com/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+    
+    <link rel="icon" type="image/png" href="https://erickhun.com/img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://erickhun.com/img/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.117.0">
+  </head>
+
+  <body class=" ">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://erickhun.com/">
+      Eric Khun
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://erickhun.com/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://speakerdeck.com/erickhun/">Talks</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://erickhun.com/about">About me</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Google Photos Backup (to Anywhere)</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2023-10-30T23:10:07&#43;08:00'>
+                October 30, 2023
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              3 minutes read
+            </span>
+          </div>
+          
+          
+        </div>
+      </header>
+
+      <div>
+        <p>Are you using any Google service (Gmail, Youtube, Google Maps, Google Cloud, Google Voice, <a href="https://en.wikipedia.org/wiki/List_of_Google_products">etc&hellip;</a>) daily? You might want to know that Google has the really bad habit to <a href="https://killedbygoogle.com/">kill products</a> and <a href="https://www.androidpolice.com/2021/03/08/when-google-locks-you-out-of-your-account-begging-the-internet-for-help-is-your-first-and-last-resort/">lock you out of your own google account</a></p>
+<ul>
+<li><a href="https://news.ycombinator.com/item?id=34116361">for</a></li>
+<li><a href="https://news.ycombinator.com/item?id=36335975">any</a></li>
+<li><a href="https://www.androidpolice.com/2019/01/14/the-ludicrous-google-pay-death-sentence-can-lock-your-fi-account-and-phone-number/">kind</a></li>
+<li><a href="https://news.ycombinator.com/item?id=33737577">of</a></li>
+<li><a href="https://www.androidpolice.com/2019/01/14/the-ludicrous-google-pay-death-sentence-can-lock-your-fi-account-and-phone-number/">possible</a></li>
+<li><a href="https://mailchi.mp/shwood/bamboozlers-514882?e=4be3990d97">and</a></li>
+<li><a href="https://old.reddit.com/r/GMail/comments/bcdf6z/locked_out_of_google_account_endless_loop/">random</a></li>
+<li><a href="https://www.reddit.com/r/Android/comments/5dif8j/psa_google_can_lock_your_account_forcing_you_to/">reasons</a></li>
+</ul>
+<p>If their AI robot determines that any of these services might lead to the closure of your entire Google account, you could lose all your photos and videos tomorrow.</p>
+<p>I love Google Photos. It&rsquo;s probably the best app for viewing and searching photos and videos today. You can easily manage photos and videos. Their editing tools are also great and very user-friendly. However, you wouldn&rsquo;t want to find yourself in a situation where you&rsquo;ve lost all your cherished memories. Backing up Google Photos isn&rsquo;t straightforward, which is why I&rsquo;ve created this guide to help :)</p>
+<h2 id="1-export-your-photo-with-google-takeout-to-dropbox">1. Export your photo with Google Takeout to dropbox</h2>
+<p>Go to Google Takeout and export your Google Photos data. For the export option, I recommend selecting the 10 GB size per zip file. The first time I tried to export, I chose the 50 GB size option, but it failed after 24 hours. 😅 I retried with a smaller file size, 10 GB, and it worked. Google Takeout also offers the option to send your data to another backup provider, such as Dropbox or OneDrive.</p>
+<p><img src="https://erickhun.com/img/google-photos-backup/export-google-takeout.png" alt=""></p>
+<p>The export finished after 72 hours. It resulted of  52 files of 10GB. (520GB of files!). After you&rsquo;ve obtained all the backup files, extract them all by using your mouse: select all, right-click, and choose &lsquo;Extract Here&rsquo; . You&rsquo;ll notice that the last folder contains a number that represents the total files, but be aware that this number includes a lot of files that aren&rsquo;t your photos. It can be a bit misleading.</p>
+<p><img src="https://erickhun.com/img/google-photos-backup/export-result.png" alt=""></p>
+<h2 id="2-reorganize-your-file-and-metadata">2. Reorganize your file and metadata</h2>
+<p>You will find out JSON , video, and photo files scattered in different folders, without any discernible order. To make matters worse, the date of the last file edit and GPS location information is stripped away, which can be frustrating. Fortunately, there&rsquo;s a tool called  <a href="https://github.com/mattwilson1024/google-photos-exif"><code>google-photos-exit</code></a></p>
+<p>This tool wil help you organize all in a  nice single folder, with all the metadata in it. Just head to <a href="https://github.com/mattwilson1024/google-photos-exif">this link</a> and follow the instruction.</p>
+<p>It took approximately 17 minutes to complete. After running google-photos-exit, I ended up with precisely 95,662 photos and videos. Initially, there were 191,110 files within the original zip files.</p>
+<p>There is also an alternative solution that allows you to preserve the album structure while offering the option to output the result in a YEAR-MONTH format:  <a href="https://github.com/TheLastGimbus/GooglePhotosTakeoutHelper">https://github.com/TheLastGimbus/GooglePhotosTakeoutHelper</a>. I attempted to use this alternative tool, but it didn&rsquo;t work well with my 50 folders</p>
+<h2 id="3-copy-the-file-to-the-other-backup-location">3. Copy the file to the other backup location</h2>
+<p>Once everything , export it to your other location. I&rsquo;ve picked Dropbox for now., but I am also considering buying my own NAS so I won&rsquo;t depend of a backup provider.</p>
+<p>You have many Backup solutions today:</p>
+<ul>
+<li><a href="https://www.microsoft.com/en-us/microsoft-365/onedrive/compare-onedrive-plans">oneDrive</a></li>
+<li><a href="https://dropbox.com">Dropbox</a></li>
+<li>Amazon Photos</li>
+<li>Your own NAS</li>
+</ul>
+<h2 id="4-continusouly-backup-your-new-photos">4. Continusouly backup your new photos</h2>
+<p>I&rsquo;ve found [Photosync[(https://www.photosync-app.com/home)] is a nice (paying app), that will allow you to backup file on your device to literally anywhere.
+It&rsquo;s unfortunately the only viable option that allow you to send your medias anywhere. I didn&rsquo;t find a better alternative today for iOS, so if you have any suggestion, I&rsquo;m all hear.</p>
+<p>You are now set. If Google, or you decide to move out from Google Photos, or Google decide to lock you out, all you&rsquo;ll still have all your memories ready to go!</p>
+
+
+
+
+        <center>
+
+            
+            <a href="https://twitter.com/eric_khun" class="twitter-follow-button" data-size="large" data-show-count="true">Follow @eric_khun</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <br >
+            <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2ferickhun.com%2fposts%2fgoogle-photos-backup-to-anywhere%2f&s=fb" target="_blank" rel="noopener" aria-label="Facebook">
+              <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--medium"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm3.6 11.5h-2.1v7h-3v-7h-2v-2h2V8.34c0-1.1.35-2.82 2.65-2.82h2.35v2.3h-1.4c-.25 0-.6.13-.6.66V9.5h2.34l-.24 2z"/></svg></div>Facebook</div>
+            </a>
+  
+            
+            <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Google%20Photos%20Backup%20%28to%20Anywhere%29 by @eric_khun &amp;url=https%3a%2f%2ferickhun.com%2fposts%2fgoogle-photos-backup-to-anywhere%2f&s=tw" target="_blank" rel="noopener" aria-label="Twitter">
+              <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--medium"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm5.26 9.38v.34c0 3.48-2.64 7.5-7.48 7.5-1.48 0-2.87-.44-4.03-1.2 1.37.17 2.77-.2 3.9-1.08-1.16-.02-2.13-.78-2.46-1.83.38.1.8.07 1.17-.03-1.2-.24-2.1-1.3-2.1-2.58v-.05c.35.2.75.32 1.18.33-.7-.47-1.17-1.28-1.17-2.2 0-.47.13-.92.36-1.3C7.94 8.85 9.88 9.9 12.06 10c-.04-.2-.06-.4-.06-.6 0-1.46 1.18-2.63 2.63-2.63.76 0 1.44.3 1.92.82.6-.12 1.95-.27 1.95-.27-.35.53-.72 1.66-1.24 2.04z"/></svg></div>Twitter</div>
+            </a>
+  
+            
+            <a class="resp-sharing-button__link" href="mailto:?subject=Google%20Photos%20Backup%20%28to%20Anywhere%29 &amp;body=Google%20Photos%20Backup%20%28to%20Anywhere%29 - https%3a%2f%2ferickhun.com%2fposts%2fgoogle-photos-backup-to-anywhere%2f&s=email" target="_self" rel="noopener" aria-label="E-Mail">
+              <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--medium"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm8 16c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2V8c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2v8z"/><path d="M17.9 8.18c-.2-.2-.5-.24-.72-.07L12 12.38 6.82 8.1c-.22-.16-.53-.13-.7.08s-.15.53.06.7l3.62 2.97-3.57 2.23c-.23.14-.3.45-.15.7.1.14.25.22.42.22.1 0 .18-.02.27-.08l3.85-2.4 1.06.87c.1.04.2.1.32.1s.23-.06.32-.1l1.06-.9 3.86 2.4c.08.06.17.1.26.1.17 0 .33-.1.42-.25.15-.24.08-.55-.15-.7l-3.57-2.22 3.62-2.96c.2-.2.24-.5.07-.72z"/></svg></div>E-Mail</div>
+            </a>
+  
+            
+            <a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=https%3a%2f%2ferickhun.com%2fposts%2fgoogle-photos-backup-to-anywhere%2f&amp;resubmit=true&amp;title=Google%20Photos%20Backup%20%28to%20Anywhere%29&s=red" target="_blank" rel="noopener" aria-label="Reddit">
+              <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--medium"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="9.391" cy="13.392" r=".978"/><path d="M14.057 15.814c-1.14.66-2.987.655-4.122-.004-.238-.138-.545-.058-.684.182-.13.24-.05.545.19.685.72.417 1.63.646 2.568.646.93 0 1.84-.228 2.558-.642.24-.13.32-.44.185-.68-.14-.24-.445-.32-.683-.18zM5 12.086c0 .41.23.78.568.978.27-.662.735-1.264 1.353-1.774-.2-.207-.48-.334-.79-.334-.62 0-1.13.507-1.13 1.13z"/><path d="M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12 12-5.383 12-12S18.617 0 12 0zm6.673 14.055c.01.104.022.208.022.314 0 2.61-3.004 4.73-6.695 4.73s-6.695-2.126-6.695-4.74c0-.105.013-.21.022-.313C4.537 13.73 4 12.97 4 12.08c0-1.173.956-2.13 2.13-2.13.63 0 1.218.29 1.618.757 1.04-.607 2.345-.99 3.77-1.063.057-.803.308-2.33 1.388-2.95.633-.366 1.417-.323 2.322.085.302-.81 1.076-1.397 1.99-1.397 1.174 0 2.13.96 2.13 2.13 0 1.177-.956 2.133-2.13 2.133-1.065 0-1.942-.79-2.098-1.81-.734-.4-1.315-.506-1.716-.276-.6.346-.818 1.395-.88 2.087 1.407.08 2.697.46 3.728 1.065.4-.468.987-.756 1.617-.756 1.17 0 2.13.953 2.13 2.13 0 .89-.54 1.65-1.33 1.97z"/><circle cx="14.609" cy="13.391" r=".978"/><path d="M17.87 10.956c-.302 0-.583.128-.79.334.616.51 1.082 1.112 1.352 1.774.34-.197.568-.566.568-.978 0-.623-.507-1.13-1.13-1.13z"/></svg></div>Reddit</div>
+            </a>
+  
+            
+            <a class="resp-sharing-button__link" href="whatsapp://send?text=Google%20Photos%20Backup%20%28to%20Anywhere%29 - https%3a%2f%2ferickhun.com%2fposts%2fgoogle-photos-backup-to-anywhere%2f&s=whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--medium"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24"><path d="m12 0c-6.6 0-12 5.4-12 12s5.4 12 12 12 12-5.4 12-12-5.4-12-12-12zm0 3.8c2.2 0 4.2 0.9 5.7 2.4 1.6 1.5 2.4 3.6 2.5 5.7 0 4.5-3.6 8.1-8.1 8.1-1.4 0-2.7-0.4-3.9-1l-4.4 1.1 1.2-4.2c-0.8-1.2-1.1-2.6-1.1-4 0-4.5 3.6-8.1 8.1-8.1zm0.1 1.5c-3.7 0-6.7 3-6.7 6.7 0 1.3 0.3 2.5 1 3.6l0.1 0.3-0.7 2.4 2.5-0.7 0.3 0.099c1 0.7 2.2 1 3.4 1 3.7 0 6.8-3 6.9-6.6 0-1.8-0.7-3.5-2-4.8s-3-2-4.8-2zm-3 2.9h0.4c0.2 0 0.4-0.099 0.5 0.3s0.5 1.5 0.6 1.7 0.1 0.2 0 0.3-0.1 0.2-0.2 0.3l-0.3 0.3c-0.1 0.1-0.2 0.2-0.1 0.4 0.2 0.2 0.6 0.9 1.2 1.4 0.7 0.7 1.4 0.9 1.6 1 0.2 0 0.3 0.001 0.4-0.099s0.5-0.6 0.6-0.8c0.2-0.2 0.3-0.2 0.5-0.1l1.4 0.7c0.2 0.1 0.3 0.2 0.5 0.3 0 0.1 0.1 0.5-0.099 1s-1 0.9-1.4 1c-0.3 0-0.8 0.001-1.3-0.099-0.3-0.1-0.7-0.2-1.2-0.4-2.1-0.9-3.4-3-3.5-3.1s-0.8-1.1-0.8-2.1c0-1 0.5-1.5 0.7-1.7s0.4-0.3 0.5-0.3z"/></svg></div>WhatsApp</div>
+            </a>
+    
+          </center>
+      </div>
+
+
+  <style>
+
+.resp-sharing-button__link,
+.resp-sharing-button__icon {
+  display: inline-block
+}
+
+.resp-sharing-button__link {
+  text-decoration: none;
+  color: #fff;
+  margin: 0.5em
+}
+
+.resp-sharing-button {
+  border-radius: 5px;
+  transition: 25ms ease-out;
+  padding: 0.5em 0.75em;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+.resp-sharing-button__icon svg {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.4em;
+  vertical-align: top
+}
+
+.resp-sharing-button--small svg {
+  margin: 0;
+  vertical-align: middle
+}
+
+ 
+.resp-sharing-button__icon {
+  stroke: #fff;
+  fill: none
+}
+
+ 
+.resp-sharing-button__icon--solid,
+.resp-sharing-button__icon--solidcircle {
+  fill: #fff;
+  stroke: none
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee
+}
+
+.resp-sharing-button--twitter:hover {
+  background-color: #2795e9
+}
+
+.resp-sharing-button--pinterest {
+  background-color: #bd081c
+}
+
+.resp-sharing-button--pinterest:hover {
+  background-color: #8c0615
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998
+}
+
+.resp-sharing-button--facebook:hover {
+  background-color: #2d4373
+}
+
+.resp-sharing-button--tumblr {
+  background-color: #35465C
+}
+
+.resp-sharing-button--tumblr:hover {
+  background-color: #222d3c
+}
+
+.resp-sharing-button--reddit {
+  background-color: #5f99cf
+}
+
+.resp-sharing-button--reddit:hover {
+  background-color: #3a80c1
+}
+
+.resp-sharing-button--google {
+  background-color: #dd4b39
+}
+
+.resp-sharing-button--google:hover {
+  background-color: #c23321
+}
+
+.resp-sharing-button--linkedin {
+  background-color: #0077b5
+}
+
+.resp-sharing-button--linkedin:hover {
+  background-color: #046293
+}
+
+.resp-sharing-button--email {
+  background-color: #777
+}
+
+.resp-sharing-button--email:hover {
+  background-color: #5e5e5e
+}
+
+.resp-sharing-button--xing {
+  background-color: #1a7576
+}
+
+.resp-sharing-button--xing:hover {
+  background-color: #114c4c
+}
+
+.resp-sharing-button--whatsapp {
+  background-color: #25D366
+}
+
+.resp-sharing-button--whatsapp:hover {
+  background-color: #1da851
+}
+
+.resp-sharing-button--hackernews {
+background-color: #FF6600
+}
+.resp-sharing-button--hackernews:hover, .resp-sharing-button--hackernews:focus {   background-color: #FB6200 }
+
+.resp-sharing-button--vk {
+  background-color: #507299
+}
+
+.resp-sharing-button--vk:hover {
+  background-color: #43648c
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+
+.resp-sharing-button--facebook:hover,
+.resp-sharing-button--facebook:active {
+  background-color: #2d4373;
+  border-color: #2d4373;
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee;
+  border-color: #55acee;
+}
+
+.resp-sharing-button--twitter:hover,
+.resp-sharing-button--twitter:active {
+  background-color: #2795e9;
+  border-color: #2795e9;
+}
+
+.resp-sharing-button--email {
+  background-color: #777777;
+  border-color: #777777;
+}
+
+.resp-sharing-button--email:hover,
+.resp-sharing-button--email:active {
+  background-color: #5e5e5e;
+  border-color: #5e5e5e;
+}
+
+.resp-sharing-button--reddit {
+  background-color: #5f99cf;
+  border-color: #5f99cf;
+}
+
+.resp-sharing-button--reddit:hover,
+.resp-sharing-button--reddit:active {
+  background-color: #3a80c1;
+  border-color: #3a80c1;
+}
+
+.resp-sharing-button--whatsapp {
+  background-color: #25D366;
+  border-color: #25D366;
+}
+
+.resp-sharing-button--whatsapp:hover,
+.resp-sharing-button--whatsapp:active {
+  background-color: #1DA851;
+  border-color: #1DA851;
+}
+
+.resp-sharing-button--hackernews {
+  background-color: #FF6600;
+  border-color: #FF6600;
+}
+
+.resp-sharing-button--hackernews:hover
+.resp-sharing-button--hackernews:active {
+  background-color: #FB6200;
+  border-color: #FB6200;
+}
+
+
+
+  </style>
+
+
+
+        
+        <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+          #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+           
+
+
+            .icon-love {    margin-left: 0px; margin-right: 4px;-webkit-animation:heartbeat 1.2s ease-in-out infinite;animation:heartbeat 1.2s ease-in-out infinite}@-webkit-keyframes heartbeat{0%{-webkit-transform:scale(1);transform:scale(1)}14%{-webkit-transform:scale(1.3);transform:scale(1.3)}28%{-webkit-transform:scale(1);transform:scale(1)}42%{-webkit-transform:scale(1.3);transform:scale(1.3)}70%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes heartbeat{0%{-webkit-transform:scale(1);transform:scale(1)}14%{-webkit-transform:scale(1.3);transform:scale(1.3)}28%{-webkit-transform:scale(1);transform:scale(1)}42%{-webkit-transform:scale(1.3);transform:scale(1.3)}70%{-webkit-transform:scale(1);transform:scale(1)}}@media screen and (max-width:425px){footer{height:auto;flex-direction:column;align-items:flex-start;padding-top:20px;padding-bottom:20px;font-size:18px}
+
+        </style>
+        <div id="mc_embed_signup" style="background-color: antiquewhite; margin-top: 50px; border-radius: 4px; padding: 20px;">
+        <form action="https://gmail.us20.list-manage.com/subscribe/post?u=af7a3f032dc0d452b55913b39&amp;id=1db1866588&SIGNUP_SRC=Google%20Photos%20Backup%20%28to%20Anywhere%29" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+          <label for="mce-EMAIL"> 
+            
+            I write mostly about - tech and anything I find interesting -  Subscribe to get more of it  ️
+            
+          </label>
+          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="your email address" required>
+            
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_af7a3f032dc0d452b55913b39_1db1866588" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            </div>
+        </form>
+        </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+      <p>Feel free to contact me <a href="https://twitter.com/eric_khun">@eric_khun</a></p>
+    
+    
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-106516-7', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+  </body>
+
+</html>
