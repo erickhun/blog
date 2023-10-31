@@ -59,8 +59,8 @@ After everything has been properly sorted, export it to your other backup locati
 
 - [oneDrive](https://www.microsoft.com/en-us/microsoft-365/onedrive/compare-onedrive-plans)
 - [Dropbox](https://dropbox.com)
-- Amazon Photos
-- Your own NAS
+- [Amazon Photos](https://www.amazon.com/Amazon-Photos)
+- Your own NAS, or server
 
 ## 4. Continusouly backup your new photos 
 
