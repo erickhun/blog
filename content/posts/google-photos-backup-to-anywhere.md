@@ -54,22 +54,17 @@ There is also an alternative solution that allows you to preserve the album stru
 
 
 ## 3. Copy the file to the other backup location
-Once everything , export it to your other location. I've picked Dropbox for now., but I am also considering buying my own NAS so I won't depend of a backup provider. 
 
-You have many Backup solutions today: 
+After everything has been properly sorted, export it to your other backup location. Currently, I've chosen Dropbox, but I'm also considering purchasing my own NAS so that I won't depend on a backup provider. There are many backup solutions available today:
 
 - [oneDrive](https://www.microsoft.com/en-us/microsoft-365/onedrive/compare-onedrive-plans)
 - [Dropbox](https://dropbox.com)
 - Amazon Photos
 - Your own NAS
 
-
 ## 4. Continusouly backup your new photos 
 
-
-I've found [Photosync[(https://www.photosync-app.com/home)] is a nice (paying app), that will allow you to backup file on your device to literally anywhere. 
-It's unfortunately the only viable option that allow you to send your medias anywhere. I didn't find a better alternative today for iOS, so if you have any suggestion, I'm all hear. 
-
+Then you'll wannt to continuously upload your new photos and video continuously to Google Photos and your other backup location.  I've found [Photosync[(https://www.photosync-app.com/home)] is a nice (paying app), that will allow you to backup file on your device to literally anywhere.  It's unfortunately the only viable option that allow you to send your medias anywhere. I didn't find a better alternative today for iOS, so if you have any suggestion, I'm all hear. 
 
 
 You are now set. If Google, or you decide to move out from Google Photos, or Google decide to lock you out, all you'll still have all your memories ready to go! 
