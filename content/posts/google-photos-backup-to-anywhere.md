@@ -25,10 +25,9 @@ Are you using any Google service (Gmail, Youtube, Google Maps, Google Cloud, Goo
 
 If their AI robot determines that any of these services might lead to the closure of your entire Google account, you could lose all your photos and videos tomorrow.
 
-I love Google Photos. It's probably the best app for viewing and searching photos and videos today. You can easily manage photos and videos. Their editing tools are also great and very user-friendly. However, you wouldn't want to find yourself in a situation where you've lost all your cherished memories. Backing up Google Photos isn't straightforward, which is why I've created this guide to help :) 
+I love Google Photos. It's probably the best mobile app for viewing and searching photos and videos today. You can also easily share photos and videos to your friends. Their editing tools are also great and very user-friendly. However, the risk of losing  all your cherished memories because a random bot decided so isn't something I like to think about, and you neither. Backing up Google Photos data isn't quite straightforward, which is why I've created this guide to help :) 
 
-
-## 1. Export your photo with Google Takeout to dropbox
+## 1. Export your photo with Google Takeout
 
 Go to Google Takeout and export your Google Photos data. For the export option, I recommend selecting the 10 GB size per zip file. The first time I tried to export, I chose the 50 GB size option, but it failed after 24 hours. 😅 I retried with a smaller file size, 10 GB, and it worked. Google Takeout also offers the option to send your data to another backup provider, such as Dropbox or OneDrive.
 
