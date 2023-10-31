@@ -66,5 +66,6 @@ After everything has been properly sorted, export it to your other backup locati
 
 Then you'll wannt to continuously upload your new photos and video continuously to Google Photos and your other backup location.  I've found [Photosync[(https://www.photosync-app.com/home)] is a nice (paying app), that will allow you to backup file on your device to literally anywhere.  It's unfortunately the only viable option that allow you to send your medias anywhere. I didn't find a better alternative today for iOS, so if you have any suggestion, I'm all hear. 
 
+![](/img/google-photos-backup/photosync1.png)
 
 You are now all set. If Google decide to lock you out, or you want use an other photo backup service, you'll have all your memories ready to go with you!
