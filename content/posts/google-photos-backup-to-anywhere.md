@@ -32,6 +32,8 @@ If you don't care about photos friend shared with you, you can go to the next st
 
 You might have albums you share with your friends. The tool we will use next (Google Takeout) won't export the photos shared by your friends, even if it's your own album. In Google Photos, go to the shared albums you want keep others photo. You will have to select manually all the photos, and scroll manually. When you start selecting the photo, a "Save photos" button will appear on the top right. You will have to select all the photos. Please note that those photos will start using your storage quota.  
 
+![](/img/google-photos-backup/save-photos.png)
+
 ## 1. Export your photo with Google Takeout
 
 Go to Google Takeout and export your Google Photos data:
