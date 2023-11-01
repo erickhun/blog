@@ -29,9 +29,23 @@ I love Google Photos. It's probably the best mobile app for viewing and searchin
 
 ## 1. Export your photo with Google Takeout
 
-Go to Google Takeout and export your Google Photos data. For the export option, I recommend selecting the 10 GB size per zip file. The first time I tried to export, I chose the 50 GB size option, but it failed after 24 hours. 😅 I retried with a smaller file size, 10 GB, and it worked. Google Takeout also offers the option to send your data to another backup provider, such as Dropbox or OneDrive.
+Go to Google Takeout and export your Google Photos data:
+1. Go to [Google Takeout](https://www.google.com/settings/takeout) and log in using a desktop computer.
+2. Click "Deselect all" to unselect all Google services.
+3. Scroll down to "Google photos" and select it.
+4. Click "All photo albums included" to get the list of albums. All albums are selected by default.
+5. To select specific albums, click "Deselect all" and then select the albums you want to download. Note that there are year albums ("Photos from 2020," etc.) and your own albums (if not shared). Downloading both year albums and your own albums will result in duplicates between your albums and the year albums.
+6. Click "OK" to continue. This will bring you to the next screen
+
+
+1. Select a "Delivery method," which includes options like Email, Drive, OneDrive, Dropbox, Box, etc. 
+2. Choose "One-time" for the "Export type" .
+3. Select the Zip format for "File type" 
+4. Select 10GB for the "Archive size."
 
 ![](/img/google-photos-backup/export-google-takeout.png)
+
+I recommend selecting the 10 GB size per zip file. The first time I tried to export, I chose the 50 GB size option, but it failed after 24 hours. 😅 I retried with a smaller file size, 10 GB, and it worked. Google Takeout also offers the option to send your data to another backup provider, such as Dropbox or OneDrive.
 
 The export finished after 72 hours. It resulted of  52 files of 10GB. (520GB of files!). After you've obtained all the backup files, extract them all by using your mouse: select all, right-click, and choose 'Extract Here' . You'll notice that the last folder contains a number that represents the total files, but be aware that this number includes a lot of files that aren't your photos. It can be a bit misleading.
 
