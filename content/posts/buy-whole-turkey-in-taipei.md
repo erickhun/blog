@@ -1,7 +1,7 @@
 +++ 
 draft = false
-date = 2022-11-10T22:40:21+08:00
-title = "Where to Buy a whole Turkey in Taipei?"
+date = 2023-11-06T10:40:21+08:00
+title = "[2023 update] Where to Buy a whole Turkey in Taipei? "
 description = ""
 slug = "" 
 tags = []
@@ -10,45 +10,68 @@ externalLink = ""
 series = []
 +++
 
-It is Thanksgiving, or Christmas, and you are looking to cook a turkey in Taipei for your group of friends. You came at the right place! 
+It is Thanksgiving / Christmas, and you are looking to cook a turkey in Taipei for your group of friends. You came at the right place! 
 
-Note: In 2022, turkeys were in short supply because of a [bird flu outbreak that happen in the US](https://www.washingtonpost.com/us-policy/2022/10/26/avian-flu-turkey-prices-holidays/). Your best chance is probably to contact one of the farm in Chiayi I've listed below.
+Note: In 2023 (and 2022), turkeys are in short supply. Your best chance is probably to contact one of the farm in Chiayi I've listed below.
 
 ## From a farm (online)
 
 Chiayi is home of the turkey rice (jirou fan). Many local farms can sell you from thei online shops or Line. I've listed a couple ones I've contacted: 
 
+### Idol turkey on shopee
+Believe it or not, we ordered the turkey on shopee in 2022 and 2023. And it turned out really nicely. 
+You'll receive the turkey frozen, so account 3 days for defrosting it in your fridge + 3 days for brining it. 
+
+Here the result: 
+![Turkey Thanksgiving - Farm Shopee](/img/turkey-taipei/farm-chiayi-taipei-thanksgiving.jpg)
+
+
+2000TWD for a ~8kg bird
+2500TWD for a ~10kg bird
+
+- Shop: https://shopee.tw/idol0402 
+
+
 ### Taiwan Turkey Store Food
 
-- Shop: https://twturkey.com/ 
+I didn't try that one yet
+- Shop: https://foodstore.qdm.tw/ 
 - Facebook page: https://www.facebook.com/taiwanturkey
 
 1900TWD + 200TWD delivery for 8kg (17lbs). They will send you the frozen turkey. 
 
-### Idol turkey
-- Shop: https://shopee.tw/idol0402 
-
-2000TWD for a ~10kg bird
 
 ### Turkey Chef (火雞總舖)
 - Shop: https://shopee.tw/turkey_chef
 - Facebook: https://www.facebook.com/TurkeyChef/
 
-They have quite big turkey, 13kg (28lbs) at least. It was too big for my oven
+They have quite big turkey, 13kg (28lbs). But way too big for my oven.
+
+
+### Pasta & Co
+Take home price : $4,880 NTD
+
+Turkey is brined in a special white wine brine for 96 hours then it is air dried in fridge for 72 hours, roasted and then crispied in the fryer.  The last date of pre-order (if quantity is still available) is 11/15 12PM
+
+Order: https://inline.app/booking/-MhqLQsvFmechmdBPbNQ:inline-live-2/-MhqLR2Gtx1Z1POb_4a1
 
 ## Thomas meat (in Taipei)
 
-- Shop: https://www.thomasmeat.com.tw/ 
+They seem to have options from 1200 to 2600 TWD for a 4.5kg cooked bird
+
+- Shop: https://www.thomasmeat.com/index.php?Page=Search&Keyword=%E5%AD%A3%E7%AF%80%E9%99%90%E5%AE%9A&utm_medium=post&utm_source=fbpg&utm_campaign=turkey23_organic
 - Facebook: https://www.facebook.com/thomasmeat
 
-You should pre-order them. They didn't have turkey in 2022. 
 
-## Costco
+## Costco (not available in 2022 and 2023)
+
 I usually get my turkey at Costco. They usually have the [Frozen, pre-brine,  Butterballs Turkeys](https://www.butterball.com/products/whole-turkey/frozen) , and appear around mid-october to December at any Costco location in Taiwan. They weight about 7kg (16lbs) and are imported from the US. 
 
-2022 was a special year and turkeys from the US were not imported because of the flu.
-
 You will need to have a Costco membership (costs [1350TWD/year](https://www.costco.com.tw/membership)). 
+
+Note: 2022 and 2023 won't be in Costco.
+
+![Costco Turkey thanksgiving 2023](/img/turkey-taipei/costco-turkey-thanksgiving.jpg)
 
 
 ## Dimensions of a turkey by weight - Will the turkey fits inside my oven? 
