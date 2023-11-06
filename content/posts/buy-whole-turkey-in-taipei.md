@@ -32,6 +32,17 @@ Here the result:
 - Shop: https://shopee.tw/idol0402 
 
 
+
+### Pasta & Co
+Take home price : $4,880 NTD
+
+Turkey (6/7KG) is brined in a special white wine brine for 96 hours then it is air dried in fridge for 72 hours, roasted and then crispied in the fryer.  The last date of pre-order (if quantity is still available) is 11/15 12PM
+
+It seems to include a cake, mac and cheese and potatoes.
+
+Order: https://www.facebook.com/PASTACOTAIWAN/
+
+
 ### Taiwan Turkey Store Food
 
 I didn't try that one yet
@@ -48,12 +59,6 @@ I didn't try that one yet
 They have quite big turkey, 13kg (28lbs). But way too big for my oven.
 
 
-### Pasta & Co
-Take home price : $4,880 NTD
-
-Turkey is brined in a special white wine brine for 96 hours then it is air dried in fridge for 72 hours, roasted and then crispied in the fryer.  The last date of pre-order (if quantity is still available) is 11/15 12PM
-
-Order: https://inline.app/booking/-MhqLQsvFmechmdBPbNQ:inline-live-2/-MhqLR2Gtx1Z1POb_4a1
 
 ## Thomas meat (in Taipei)
 
