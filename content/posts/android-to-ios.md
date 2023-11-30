@@ -17,8 +17,6 @@ I started using Android Phones since 2011. I recently (2 months ago) made the le
 
 After two-month period, I've gathered more grounded feedback and identified areas where I believe Apple should take notes from Android's more favorable practices.
 
-{{< youtube 3CVtyDyLj3M >}}
-
 
 ## "The 'Back' Gesture"
 
@@ -29,6 +27,10 @@ On iOS:
 - iOS's gesture only works from the left edge of the screen to the right, lacking the flexibility of Android's bidirectional swipe to go back functionality.
 
 The adoption of a more versatile and universally applicable gesture would be highly beneficial, especially considering the trend of phones becoming bigger and bigger.
+
+Available since the Android 12 (2021)
+
+{{< youtube 3CVtyDyLj3M >}}
 
 
 ## New Action button isn't that "actionable"
@@ -48,6 +50,10 @@ But we can also configure the  triple press, that  allows for curated accessibil
 
 In an ideal scenario, users would have the freedom to launch any app of their choice from that triple press, creating a more versatile and personalized user experience.
  
+Available the Pixel 3)
+
+{{< youtube aXyKGb7sW9E >}}
+
 
 ## Icon Sizes on the Home Screen are too large
 Android alloweed five app icons on the screen felt more convenient compared to Apple's restriction to just 4 icons. Having all my apps available on one screen without the need to swipe through multiple pages was preferable.
