@@ -15,7 +15,7 @@ series = []
 
 I started using Android Phones since 2011. I recently (2 months ago) made the leap from the Google Pixel 4a to the iPhone 15 Pro. My decision was influenced by certain changes in the Pixel series: the removal of the unlimited photo backup feature, the elimination of the physical fingerprint sensor, and the shift from selling "pro" services to unlocking "advanced" features, which left me feeling somewhat frustrated.
 
-I've waited 2 months before, so I can put some more "down to earth" feedbacks and what I believe Apple should takes note on how Android is doing better. 
+After two-month period, I've gathered more grounded feedback and identified areas where I believe Apple should take notes from Android's more favorable practices.
 
 
 ## "The 'Back' Gesture"
