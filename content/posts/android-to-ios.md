@@ -17,6 +17,8 @@ I started using Android Phones since 2011. I recently (2 months ago) made the le
 
 After two-month period, I've gathered more grounded feedback and identified areas where I believe Apple should take notes from Android's more favorable practices.
 
+{{< youtube 3CVtyDyLj3M >}}
+
 
 ## "The 'Back' Gesture"
 
