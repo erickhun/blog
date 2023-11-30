@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2023-11-30T23:53:11+08:00
-title = "From Android to iOS: What Android does better"
+title = "From (12 years of) Android to iOS: What does Android do better?"
 description = ""
 slug = "" 
 tags = []
@@ -9,9 +9,6 @@ categories = []
 externalLink = ""
 series = []
 +++
-
-# From Android to iOS: What Android does better
-
 
 I started using Android Phones since 2011. I recently (2 months ago) made the leap from the Google Pixel 4a to the iPhone 15 Pro. My decision was influenced by certain changes in the Pixel series: the removal of the unlimited photo backup feature, the elimination of the physical fingerprint sensor, and the shift from selling "pro" services to unlocking "advanced" features, which left me feeling somewhat frustrated.
 
