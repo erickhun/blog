@@ -1,6 +1,7 @@
 +++ 
 draft = false
 date = 2023-05-26T16:43:25+08:00
+modified_date = "2024-03-26T11:16:22+08:00"
 title = "Restaurants you should visit when visiting Taipei"
 description = ""
 slug = "" 
@@ -69,7 +70,7 @@ If you are a food lover visiting Taipei, I think you are in the right place:
 - The uniqueness of the food 
 - Waiting in line  usually ruin the experience - This is why Din Tai Fung or Fu Hang Soy Milk didn't make it onto my list
 
-## "Re Chao Dian" (熱炒店)
+## "ReChao Dian" (熱炒店)
 Starting your visit in Taiwan by going to a  stir-fried food restaurants (Re Chao Dian) is a fantastic way to start your Taiwan journey. These restaurants offer a range of dishes from meats, fish, vegetables, and sometimes even sashimi! Among my personal favorites are the *pineapple shrimp*, a truly unique Taiwanese delicacy, and the flavorful eggplant dishes.
 
 You will want to go there after 6pm. when is start to get lively and with lot of people. 
@@ -122,16 +123,6 @@ If you come after 6pm, you can then walk in the red light district that are quit
 
 
 ![Dim Sum  紅磡 新飲茶 - Hung Kan](/img/taipei-restaurants/dimsum.jpg)
-
-## Crispy "Dan Ping" - Loco Food
-Taiwan offers an enormous variety of breakfast options, and my personal favorite is the Taiwanese Egg Pancake Roll. It can come in two versions: the soft skin and the crispy one. The version from Loco Food is the crispy one, with a delightful crunchy and flaky texture. It's a perfect breakfast choice that combines the goodness of eggs with a satisfying crunch.
-
-- **What I like**: Their rolls
-- **What to order**: Paul's roll, but try different tastes because they are all good. The  kiwi/banana juice is also great
-- **Budget**: 300TWD
-- **Restaurant**:  樂口福 - Loco Food - https://goo.gl/maps/vkrdKtR8Ssv8tGABA
-
-![Loco Food Taipei Danping](/img/taipei-restaurants/locofood.jpg)
 
 
 ## Black Pepper Bun in Raohe Night Market
