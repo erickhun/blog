@@ -47,7 +47,7 @@ images = ["/img/taipei-restaurants/maps.jpg"]
   </div>
   <div class="notice-content">
     <ul>
-        <li>I wrote 700+ restaurants reviews on <a href="https://www.google.com/maps/contrib/103590446330914322330">Google Maps - Follow me if you live in Taiwan</a></li>
+        <li>I wrote 750+ restaurants reviews on <a href="https://www.google.com/maps/contrib/103590446330914322330">Google Maps - Follow me if you live in Taiwan</a></li>
         <li>I post food restaurants I like on <a href="https://www.instagram.com/miamtaiwan">Instagram</a></li>
     </ul>
   </div>
