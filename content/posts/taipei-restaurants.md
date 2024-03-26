@@ -76,7 +76,6 @@ Go there to get back to the time when japanese occupied Taiwan, you'll be surpri
 
 Link: https://goo.gl/maps/QZjhfFYxCiuTsHct8
 
-
 # Dumplings soup with pork ribs @ 大方牛肋麵 (Dafang niu lei mian) 
 My friends would know I'll never say no to go to this place. They have a really nice (and filling) bowl of dumplings, with nice pieces or pork ribs that will melt in your mouth. I like to call this place "cat's eyes", you'll probably understand why when you go there.
 
@@ -110,16 +109,6 @@ A really small shop I discover when they were in a "street food" mode. I love re
 Link: https://goo.gl/maps/QMwLahjaXGJ9e6Az7
 
 ![Veal-Black-bottle](/img/taipei-restaurants/veal-ribs-black-bottle.jpg)
-
-
-# "Modern" Taiwanese Brunch @ Loco Food 
-
-A "modern" Taiwanese breakfast since they mix western food and traditional local breakfast. It's really good and cheap.
-You can order in the front, and they have a big room behind where you can seat. I do recommend the "Paul's roll" and "Burger for tough guys". Be aware, it might have a long line (but fast) at weekends, and you can't really relax there. Their juice are also really good! 
-
-Link: https://goo.gl/maps/UmgUPKHfATRA7SNq5
-
-![Loco Food](/img/taipei-restaurants/loco-food-burger.jpg)
 
 
 # Izakaya @ 夜酌居酒屋
