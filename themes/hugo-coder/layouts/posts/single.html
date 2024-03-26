@@ -1,6 +1,8 @@
 {{ define "title" }}
   {{ .Title }}
 {{ end }}
+
+
 {{ define "content" }}
   <section class="container post">
     <article>
@@ -10,8 +12,19 @@
         </div>
         <div class="post-meta">
           <div class="date">
+            {{ if .Params.modified_date }}
+              <span class="edited-on">
+                <i class="fas fa-calendar"></i>
+                Updated on: 
+                {{ $mod_date := .Params.modified_date | time }} <!-- Convert string to date object -->
+                <time datetime='{{ $mod_date.Format "2006-01-02T15:04:05-07:00" }}'>
+                  {{ $mod_date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}
+                </time>
+              </span>
+            {{ end }}
             <span class="posted-on">
               <i class="fas fa-calendar"></i>
+              Published on: 
               <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
                 {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}
               </time>

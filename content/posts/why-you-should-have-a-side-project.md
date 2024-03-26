@@ -1,6 +1,7 @@
 +++
 categories = ["career", "self-improvement", "side-project"]
 date = "2019-10-06T11:16:22+08:00"
+modified_date = "2024-03-26T11:16:22+08:00"
 description = ""
 draft = false
 image = "/img/about-bg.jpg"
@@ -12,7 +13,7 @@ title = "Why you should have a side project"
 
 I often advocate people surrounding me to build their own side projects. I believe they can fulfill you in so many ways: for your career, your relationships, or your independence. [Buffer](https://buffer.com), the company I currently work for, was itself a [side project](https://news.ycombinator.com/item?id=1956119).
 
-I've built myself multiple side projects. The major ones being [PartyInBeijing](https://www.instagram.com/partyinbeijing) (inactive), [Nodablock](https://nodablock.com) (inactive), [Citymayor](https://citymayor.co)(need to fix), and now [TravelHustlers](https://travelhustlers.co). I believe each of them contributed and lead me to my current situation: being satisfied in my career, financially, and socially.
+I've built myself multiple side projects. The major ones being [TaipeiDev](https://taipeidev.com), [TaiwanGoldCard](https://taiwangoldcard.com), [Citymayor](https://citymayor.co), [Project Memento](https://project-memento.com), [PartyInBeijing](https://www.instagram.com/partyinbeijing) (inactive), [Nodablock](https://nodablock.com) (inactive). I like believe each of them contributed and lead me to my current situation: being satisfied in my career, financially, and socially.
 
 I'll go through this post on the many reasons why side projects are great and the reasons on why I think you should start one. So let's dive into it!
 
@@ -21,7 +22,7 @@ The main reason I started a side project is to create something I am **passionat
 
 My first side project, PartyInBeijing, was a mobile app to help non-speaking chinese persons in China to go to bars or night club. Chinese addresses are not the easiest to pronounce or remember and it takes quite a bit of time to master the [tones](https://en.wikipedia.org/wiki/Standard_Chinese_phonology#Tones). I can't recall how many times the taxi drivers bring us to the incorrect venue because our pronunciations were not great. So I've decided to create with my friends an app that dictate the address of a venue. This app got few thousands users in Beijing, and we added later  events and tickets sales!
 
-My last one, [Travel Hustlers](https://travelhustlers.co), built with [Thibault](https://www.linkedin.com/in/thibaultbronchain/), started because we travel frequently, and we always faced the same issues when arriving in a new cities. We've started to build "[Layover in](https://travelhustlers.co/layover-in/)", a small tool to figure out what to do during long layovers and discover new or unexpected places. More tools are coming ;)
+My last one, [Travel Hustlers](#), built with [Thibault](https://www.linkedin.com/in/thibaultbronchain/), started because we travel frequently, and we always faced the same issues when arriving in a new cities. We've started to build "[Layover in](#)", a small tool to figure out what to do during long layovers and discover new or unexpected places. 
 
 [Joe Birch](https://joebirch.co/), Android developer at Buffer, built an amazing project called [ChordAssist](https://chordassist.com/) to help mute, deaf and blind to learn how to play guitar.
 
@@ -30,12 +31,13 @@ One of the most motivating and concrete outputs of a side project is obviouly th
 
 - Nodablock: USD2000 (4 sales at $500)
 - Party in Beijing: $2350 in ticket sales
-- Citymayor: ~ USD3000
+- Project Memento: ~ USD5000
+- Citymayor: ~ USD12000
 
-Only Citymayor is running now, but I'm sometimes wondering if I have kept working on it, how much I would have made today? 
-Some people will think a new project is worth investing time if that makes money, but I don't think it should be the way to think about it. It could ideally generate income but I think that's the wrong motivation to have. If your main goal is to make money and you'll have to take more risk, it should be called a [startup](https://startupclass.samaltman.com).
 
-My current project ([Travel Hustlers](https://travelhustlers.co)) does not make any money. Nodablock and Citymayor were money driven, Travel Hustlers and PartyInBeijing passion driven. The PartyInBeijing being the one I've enjoyed to work on the most, and I think fulfilled me the most. 
+Some people will think a new project is worth investing time only if that makes money, but I don't think it should be the way to think about it. It could ideally generate income but I believe it's the wrong motivation to have. If your main goal is to make money and you'll have to take more risks, probably quit your job, and it's  be called a [startup](https://startupclass.samaltman.com).
+
+Many of my side  projects do not make any money. Nodablock and Citymayor were money driven, Travel Hustlers and PartyInBeijing passion driven. The PartyInBeijing being the one I've enjoyed to work on the most, and I think fulfilled me the most. 
 
 ## ✨ A Security net, a way to have your own business?
 A really nice side effect will be to make money. At this point, you could simply quit your day to day job and focus on making more money with it. I wouldn't advise you to quit your job to start a side project, this is called a [startup](https://startupclass.samaltman.com) and involve greater risks.
@@ -52,7 +54,7 @@ At your day to day job, you will rarely have opportunities to do what you really
 
 By building something from the ground and for you, you'll learn new skills that you don't necessarily need for your job. You **will have to do everything**. How to make marketing (without money)? How to setup a blog? How to write some code in a language you don't know? How to make my website rank better in Google? How can I make money? So many new skills you'll have to learn in order to achieve your goals.
 
-Party in Beijing was the project where I had to learn how to acquire new users in China, I've learnt the importance of retention, and how interacting with users is so important for a B2C app. I've remembered reading [Traction](https://www.amazon.com/Traction-Startup-Achieve-Explosive-Customer-ebook/dp/B00TY3ZOMS/) to have some ideas on how to make marketing from nothing. Learned how to negotiate ticket prices to sell it to my users and make some profit out of it. I've learned a lot about blockchains Ethereum, how to create smart contracts buy building [Citymayor](https://citymayor.co) and Nodablock. I've forced myself to write [blog posts](https://blog.citymayor.co/posts/anatomy-of-an-ethereum-dapp/) to increase our SEO ranking. I went to conferences to try to sell an API and talk to people (and realized I wasn't a fit for that industry). Learned how to say no and **when to stop trying**.
+Party in Beijing was the project where I had to learn how to acquire new users in China, I've learnt the importance of retention, and how interacting with users is so important for a B2C app. I've remembered reading [Traction](https://www.amazon.com/Traction-Startup-Achieve-Explosive-Customer-ebook/dp/B00TY3ZOMS/) to have some ideas on how to make marketing from nothing. Learned how to negotiate ticket prices to sell it to my users and make some profit out of it. I've learned a lot about blockchains Ethereum, how to create smart contracts by building [Citymayor](https://citymayor.co) and Nodablock. I've forced myself to write [blog posts](https://blog.citymayor.co/posts/anatomy-of-an-ethereum-dapp/) to increase our SEO ranking. I went to conferences to try to sell an API and talk to people (and realized I wasn't a fit for that industry). Learned how to say no and **when to stop trying**.
 
 There is no better way to learn a new technology by using it, becoming better at sales by selling, or a better marketer by doing marketing. You could also **realize you might be really good (or like) at something you didn't have chance to even touch at your job**.
 
@@ -66,7 +68,7 @@ Blogging about your side project can also a great things to increase the visibil
 
 Few months ago, I've met [Tom](https://thomasandrewhansen.com) in a coffee shop, and he told me he was working on a side project about [comparing ski resorts worldwide](https://shredindex.com). He told me he started it because it would be useful for himself and he also wanted to sharp his coding skills to find better jobs. A week ago, he posted [on reddit](https://www.reddit.com/r/skiing/comments/dbafm7/so_i_have_been_building_this_what_do_you_guys/). He literally got 2 job offers **in the industry he wanted to be in**, and this from total strangers he never met, and would have probably never met.
 
-I've told my friend, that quit his job in marketing because he wanted to get back into engineering (Machine Learning specifically), to create his side project to make his job hunting easier. He came up with [BrandImage.io](https://brandimage.io), a tool using AI & Natural Language Processing to understand what people like/dislike about a brand or a product. And he already got some interviews thanks to it! I'm now wondering how long it will take him to find the company that fits him - 👉**don't hesitate to [contact him](https://www.linkedin.com/in/jonathan-boigne/)** 👈
+I've told my friend, that quit his job in marketing because he wanted to get back into engineering (Machine Learning specifically), to create his side project to make his job hunting easier. He came up with [BrandImage.io](#), a tool using AI & Natural Language Processing to understand what people like/dislike about a brand or a product. And he already got some interviews thanks to it! I'm now wondering how long it will take him to find the company that fits him - 👉**don't hesitate to [contact him](https://www.linkedin.com/in/jonathan-boigne/)** 👈. 2024 note: He's now at Google 😃!
 
 ## 🔎 Knowing more about yourself
 As said previously, you'll have to jump outside your comfort zone, and do the things you don't usually do. This will broaden your horizons, and you might think about you current job differently. Perhaps it will help you realize **you just might be doing the wrong job**.
@@ -82,7 +84,7 @@ Even though, I do most of them with my friends. I pick them with knowing they ha
 The disadvantage of working with friends will be misalignment/disagreement. You'll discuss a lot about what to ship next or what to perfect. Those happened with all my projects and I try to solve them quickly to not "stuck" the project. A tip would be to clarify exactly what you want to build before starting anything. Those discussions are healthy and help make the project move forward. Something I insist is that **side projects shouldn't be the cost of any friendship**. If misalignment are too strong, it's just better to sit (or have a call) and talk.
 
 ## 👭👫 Making new friends, and making new friends
-An other advantages with side project is meeting new people you wouldn't usually meet. It's been 5 years I've been working remotely. The feeling of isolation come quite often and I've found that talking about side projects will make you meet new people, that can become friends. I've kept in touch with some customers that bought some concert tickets. Met some really interesting persons at some meetups or events when trying to sell Nodablock, and now meeting amazing people with [TravelHustlers](https://travelhustlers.co)!
+An other advantages with side project is meeting new people you wouldn't usually meet. It's been 5 years I've been working remotely. The feeling of isolation come quite often and I've found that talking about side projects will make you meet new people, that can become friends. I've kept in touch with some customers that bought some concert tickets. Met some really interesting persons at some meetups or events when trying to sell Nodablock, and now meeting amazing people with [TravelHustlers](#)!
 
 
 ## 👷‍？ But I don't know how to code?
@@ -95,5 +97,5 @@ And you, what were the benefits of you having a side project? Please comment :)
 *ps: there is also more than [200 comments shared on Hacker News](https://news.ycombinator.com/item?id=21191102). Some talk about the reasons why you shouldn't have side projects. I invite you to check them out. I won't talk about it here since believe this is a part of an other discussion* 😉
 
 <div style="background-color: antiquewhite; margin: 10px; border-radius: 1px; padding: 20px 40px; margin-top:30px">
-ps: I'm working on a <a href="https://nodablock.com"><strong>Analytics, CRM, Monitoring, Security dashboard for your Web3 project</strong></a>. If you own (or is involved) in a blockchain project, you will probably be interested to use it. <a href="https://twitter.com/eric_khun">Reach me out</a> if you're interested!
+ps: I'm currently working on a <a href="https://taipeidev.com"> Job Board for software engineers who want to find a job in Taiwan.</a>
 </div>

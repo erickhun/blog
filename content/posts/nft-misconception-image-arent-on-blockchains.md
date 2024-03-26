@@ -84,12 +84,9 @@ The most famous "Art NFTs" such as cryptokitty or [Cryptopunks](https://nodabloc
 
 So before buying any NFT, try to understand what you buy and even better, how it works!
 
-<!-- <div style="background-color: antiquewhite; margin: 10px; border-radius: 1px; padding: 20px 40px; margin-top:30px">
-ps: I'm working on a [**Analytics, CRM, Monitoring, Security dashboard for your Web3 project**](https://nodablock.com). If you own (or is involved) in a blockchain project, you will probably be interested to use it. [Reach me out](https://twitter.com/eric_khun) if you're interested!
-</div> -->
 
 <div style="background-color: antiquewhite; margin: 10px; border-radius: 1px; padding: 20px 40px; margin-top:30px">
-ps: I'm working on a <a href="https://nodablock.com"><strong>Analytics, CRM, Monitoring, Security dashboard for your Web3 project</strong></a>. If you own (or is involved) in a blockchain project, you will probably be interested to use it. <a href="https://twitter.com/eric_khun">Reach me out</a> if you're interested!
+ps: I'm currently working on a <a href="https://taipeidev.com"> Job Board for software engineers who want to find a job in Taiwan.</a>
 </div>
 
 <style>

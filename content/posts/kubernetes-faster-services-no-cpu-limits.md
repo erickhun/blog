@@ -117,7 +117,7 @@ I hope this post helps you get performance gains on the containers you are runni
 Special thanks to [Dmitry](https://www.linkedin.com/in/dilyevsky/), [Noah](https://coderanger.net/) and [Andre](https://mydev.org/) that adviced me on this. 
 
 <div style="background-color: antiquewhite; margin: 10px; border-radius: 1px; padding: 20px 40px; margin-top:30px">
-ps: I'm working on a <a href="https://nodablock.com"><strong>Analytics, CRM, Monitoring, Security dashboard for your Web3 project</strong></a>. If you own (or is involved) in a blockchain project, you will probably be interested to use it. <a href="https://twitter.com/eric_khun">Reach me out</a> if you're interested!
+ps: I'm currently working on a <a href="https://taipeidev.com"> Job Board for software engineers who want to find a job in Taiwan.</a>
 </div>
 
 #### Next reads:
