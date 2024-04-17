@@ -1,6 +1,7 @@
 +++ 
 draft = false
 date = 2023-08-26T21:46:00+02:00
+modified_date = "2024-04-17T11:19:22+08:00"
 title = "Why Taiwan?"
 description = ""
 slug = "" 
@@ -10,15 +11,17 @@ externalLink = ""
 series = []
 +++
 
-There is something special about Taiwan I couldn't really explain the first time I arrived. On my first trip to Taiwan, I couldn't put words to this **positive feeling** I had when roaming around the city. It was a mix of relaxation, freedom, safety, friendliness, and convenience, everything all at once. I didn't do much; I walked randomly in the city, worked in coffee shops, ate in random restaurants. I only stayed a week, but I knew I'd come again for a longer stay. That feeling stuck with me for a while, and I decided to leave Beijing for Taipei, to get a sense of whether that was a temporary feeling or if there was something more.
+There is something special about Taiwan that I couldn't really explain when I first arrived. During my initial trip, I couldn't put words to the **positive feeling** I experienced while roaming around the city. It was a blend of relaxation, freedom, safety, friendliness, and convenience—all at once. I didn’t do much; I wandered through the city, worked in coffee shops, and ate in random restaurants. Although I only stayed for a week, I knew I would return for a longer stay. That feeling stuck with me for a while, and I decided to leave Beijing for Taipei, to get a sense of whether that was a temporary feeling or if there was something more.
 
-Fast forward, I stayed long enough - to get my permanent residence (APRC)[^3] - to put words to this feeling I enjoy so much: **my alertness overhead is nonexistent when I am in Taiwan**. Every day is literally a pleasure to wake up, put on my flip-flops, and head outside:
+Fast forward: I stayed long enough (5+ years) to obtain my permanent residence (APRC)[^3] and finally put words to this feeling I enjoy so much: **my alertness overhead is nonexistent when I am in Taiwan**. Every day, it's a pleasure to wake up, put on my flip-flops, and head outside:
 
 - I can walk to the nearest convenience store or coffee shop located **within a 5-minute walk**[^1] from anywhere I live.
 - I don't even need to change my pajamas or check what I look like in the mirror; people on the street don't care.
 - The convenience store clerk will greet you and **go above and beyond to help you** with anything you'd need[^2].
 - In the street, I can pick [any shared bike](/posts/taiwan-youbike-bike-sharing/) that will be amazingly maintained and available within a 5-minute walk from anywhere, for a ridiculous fee.
-- I can have a 15-minute (sometimes 1-hour+) break outside a coffee shop with my laptop, without worrying someone will take it, with my wallet next to it!
+- I can have a 15-minute (sometimes 1-hour+) break outside a coffee shop with my laptop, without worrying someone will take it
+- I leave  my wallet and phone on the table
+- When I lose my wallet, [I'm confident I'll get it back](https://twitter.com/eric_khun/status/1770036054864855377)
 - I can go out at 3 am in dark alleys without worrying about strangers approaching me and being threaten
 - I can forget my sunglasses outside a school and find them back 2 weeks later:
 
