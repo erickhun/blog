@@ -1,6 +1,7 @@
 +++ 
 draft = false
 date = 2023-10-30T23:10:07+08:00
+modified_date = "2024-04-29T11:09:22+08:00"
 title = "Google Photos Backup"
 description = ""
 slug = "" 
@@ -23,7 +24,10 @@ Are you using any Google service (Gmail, Youtube, Google Maps, Google Cloud, Goo
 - [random](https://old.reddit.com/r/GMail/comments/bcdf6z/locked_out_of_google_account_endless_loop/)
 - [reasons](https://www.reddit.com/r/Android/comments/5dif8j/psa_google_can_lock_your_account_forcing_you_to/)
 
-If their AI robot determines that any of these services might lead to the closure of your entire Google account, you could lose all your photos and videos tomorrow.
+
+If their AI determines that any of your activity is suspicious, it might lead to the closure of your entire Google account, you could lose all your photos and videos tomorrow.
+
+I have also noticed that some of my photos in Google Photos (taken via the Google Pixel) disapeared, and I'm [not the only one who saw it](https://news.ycombinator.com/item?id=38434111). 
 
 I love Google Photos. It's probably the best mobile app for viewing and searching photos and videos today. You can also easily share photos and videos to your friends. Their editing tools are also great and very user-friendly. However, the risk of losing  all your cherished memories because a random bot decided so isn't something I like to think about, and you neither. Backing up Google Photos data isn't quite straightforward, which is why I've created this guide to help :) 
 
