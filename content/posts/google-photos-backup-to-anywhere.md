@@ -29,7 +29,7 @@ If their AI determines that any of your activity is suspicious, it might lead to
 
 I have also noticed that some of my photos in Google Photos (taken via the Google Pixel) disapeared, and I'm [not the only one who saw it](https://news.ycombinator.com/item?id=38434111). 
 
-I love Google Photos. It's probably the best mobile app for viewing and searching photos and videos today. You can also easily share photos and videos to your friends. Their editing tools are also great and very user-friendly. However, the risk of losing  all your cherished memories because a random bot decided so isn't something I like to think about, and you neither. Backing up Google Photos data isn't quite straightforward, which is why I've created this guide to help :) 
+Don't get me wrong, I love Google Photos. It's probably the best mobile app for viewing and searching your photos and videos today. Favorite feature is how easy it is to share photos and videos to your friends. Their editing tools are also great and very user-friendly. However, the risk of losing all your cherished memories because a random bot decided so isn't something I like to think about, and you neither. Backing up Google Photos data isn't quite straightforward, which is why I've created this guide to help :) 
 
 ## 0. Prepare your albums
 If you don't care about photos friend shared with you, you can go to the next steps.
