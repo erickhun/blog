@@ -1,5 +1,5 @@
 +++ 
-draft = false
+draft = true
 date = 2024-08-25T14:46:00+08:00
 title = "Glasses will replace Phones"
 description = ""
@@ -51,3 +51,7 @@ https://news.ycombinator.com/item?id=40148998
 
 
 That's the endgame for Meta, you never leave their eco-system
+
+
+TSMC producing smaller and more energy efficient chips
+https://www.tomshardware.com/tech-industry/tsmc-unveils-16nm-process-technology-with-backside-power-delivery-rivals-intels-competing-design
