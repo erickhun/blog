@@ -1,17 +1,19 @@
 +++
 categories = ["taiwan"]
 date = "2020-09-30T22:50:00+08:00"
+modified_date = "2024-05-05T11:15:30+08:00"
 description = ""
 draft = false
 image = "/img/about-bg.jpg"
-title = "Taiwan's amazing bike-sharing system"
+title = "Taiwan bike sharing infrastructure"
 +++
 
 [YouBike](https://taipei.youbike.com.tw/home) (or Ubike) is my first choice of transportation when it comes to moving around the city of Taipei. I largely prefer it over taking the subway, bus, or taxi. It is affordable, well maintained, comfortable, at waking distance reach from anywhere, and the cities have built great biking paths in the major cities. 
 
-The number of YouBike rides keeps increasing steadily since it was launched in 2012. There were 170 million rides since it was introduced in 2012, and [last month it reached  ~3 million rides](https://taipei.youbike.com.tw/news/content?5ee1e4b61b994541c0690826) in Taipei: 
-
-![Youbike usage statistics](/img/ubike/youbike-monthly-rental.jpg)
+The number of YouBike rides keeps increasing steadily since it was launched in 2012. As for May 2024, there was [306 millions rides](https://www.youbike.com.tw/) on youbike!
+The city with the the most rides is Taipei, with  [46 millions rides for Taipei](https://www.youbike.com.tw/region/taipei/operation/): 
+<!-- ![Youbike usage statistics](/img/ubike/youbike-monthly-rental.jpg) -->
+![Youbike usage statistics](/img/ubike/youbike-yearly-rental.png)
 
 ## A high-quality infrastructure 
 
@@ -83,13 +85,12 @@ The riverside bike-path is [more than 100 kilometers](https://www.travel.taipei/
 
 ## An unified bike-sharing system in all cities
 
-Another great thing is that all the biggest cities in Taiwan (Taichung, New Tapei City, Kaoshuing) have YouBike. No matter [great or bad](https://www.economicshelp.org/blog/265/economics/are-monopolies-always-bad/), it makes the discovery of a new city frictionless. You don't have to subscribe to other services and worry about getting back a deposit.
+Another great thing is that all the biggest cities in Taiwan (Taichung, New Tapei City, Kaoshuing) also have YouBikes. No matter [great or bad](https://www.economicshelp.org/blog/265/economics/are-monopolies-always-bad/), it makes the usage of the service. You don't have to subscribe to other services and worry about getting back a deposit.
 
 
 ## Conclusion
 
 Taipei has made a great job of implementing an amazing infrastructure bike-sharing infrastructure. With open data, the incentive to use bikes, maintaining a low price, and keeping bikes in great shape. The steady increases in the number of rides in Taipei talks by itself, while [other countries see their usage decreasing](https://www.icmrindia.org/casestudies/catalogue/Operations/V%C3%A9lib_%202.0-Case.htm) over years. They're today transitioning to a second generation of [Youbike 2.0](https://english.gov.taipei/News_Content.aspx?n=A11F01CFC9F58C83&s=5888478293ADD1A8), better, lighter, and with docks taking less space.
-
 
 <!-- Taiwan also recently stopped the ["dockless bikes" company Ofo to operate](https://www.gvm.com.tw/article/66450) -->
 
@@ -97,6 +98,8 @@ Taipei has made a great job of implementing an amazing infrastructure bike-shari
 #### Next reads:
 
 🤔 [The world next innovations depend on a single country, Taiwan](/posts/world-innovation-taiwan-semiconductors/) 
+
+🇹🇼 [Why Taiwan?](/posts/why-taiwan/) 
 
 🌱 [How to Invest in Stocks and ETFs from Taiwan](/posts/investing-from-taiwan/) 
 
@@ -107,5 +110,5 @@ Taipei has made a great job of implementing an amazing infrastructure bike-shari
 
 <!-- 🌏 Interested in living and working in Taiwan? Have you checked the [Gold Card program](https://taiwangoldcard.com/application-faq/)?  -->
 
-📚 [Why you should have a side project](/posts/why-you-should-have-a-side-project/)
+<!-- 📚 [Why you should have a side project](/posts/why-you-should-have-a-side-project/) -->
 
