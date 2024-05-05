@@ -4,13 +4,13 @@ date = "2020-09-30T22:50:00+08:00"
 modified_date = "2024-05-05T11:15:30+08:00"
 description = ""
 draft = false
-image = "/img/about-bg.jpg"
+images = ["/img/ubike/youbike-yearly-rental.png"]
 title = "Taiwan bike sharing infrastructure"
 +++
 
-[YouBike](https://taipei.youbike.com.tw/home) (or Ubike) is my first choice of transportation when it comes to moving around the city of Taipei. I largely prefer it over taking the subway, bus, or taxi. It is affordable, well maintained, comfortable, at waking distance reach from anywhere, and the cities have built great biking paths in the major cities. 
+[YouBike](https://taipei.youbike.com.tw/home) is my first choice of transportation when it comes to moving around the city of Taipei. I largely prefer it over taking the subway, bus, or taxi. It is affordable, well maintained, comfortable, lightweight, and especially, at waking distance reach from anywhere.
 
-The number of YouBike rides keeps increasing steadily since it was launched in 2012. As for May 2024, there was [306 millions rides](https://www.youbike.com.tw/) on youbike!
+The number of YouBike rides keeps increasing since it was launched in 2012. As for May 2024, there was [306 millions rides](https://www.youbike.com.tw/) on youbike!
 The city with the the most rides is Taipei, with  [46 millions rides for Taipei](https://www.youbike.com.tw/region/taipei/operation/): 
 <!-- ![Youbike usage statistics](/img/ubike/youbike-monthly-rental.jpg) -->
 ![Youbike usage statistics](/img/ubike/youbike-yearly-rental.png)
