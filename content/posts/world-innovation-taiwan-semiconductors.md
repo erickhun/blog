@@ -1,6 +1,7 @@
 +++
 categories = ["taiwan"]
 date = "2020-12-31T12:39:00+01:00"
+modified_date = "2024-05-05T11:15:00+08:00"
 description = ""
 draft = false
 image = "/img/tsmc/boston-dynamics.jpg"
@@ -13,7 +14,7 @@ The world's current and next innovations depend on a single country: Taiwan. It'
 I've been living in Taiwan for 3+ years, and am baffled that I never pay attention to semiconductors. I'm a software engineer but didn't think much more about the importance of them. As far as my laptop can change code to real things and doesn't lag when I have constantly [hundred tabs open](/img/tsmc/tabs.jpg), I was satisfied.
 At a recent [Taiwan Gold Card](https://taiwangoldcard.com) dinner, one of the speakers introduced himself as someone with 30+ years of experience at IBM, who moved to Taiwan for [TSMC](https://en.wikipedia.org/wiki/TSMC). It piqued my curiosity and I started to investigate, to realize how **the world depends on a TSMC for the past decades of innovation, and still be dependant for the next decade**.
 
-## The world needs (and want) better semiconductors
+## The world needs (and wants) better semiconductors
 
 Semiconductors have and had a significant impact on our society. They're everywhere, and essential to any electrical object, from a simple [led](https://en.wikipedia.org/wiki/Light-emitting_diode) to a [shuttle that can send humanity to Mars](https://www.analog.com/en/technical-articles/challenges-for-electronic-circuits-in-space-applications.html#).  Without them, you couldn't read this article, we couldn't drive cars, and wouldn't be able to call your family. They are needed to build any electronic devices. TV's, computers, medical equipment. 
 
@@ -83,12 +84,19 @@ Trust toward TSMC is proably the main reason why companies that needs chips will
 
 ## Why not just do an other TSMC? 
 It is not as simple. Every year, billions of US dollars are poured into R&D to keep their advantages. Then production facilities costs billions to build: 
-- TSMC last production facility (Fab18) to manufacture [the newest technology 5nm chips cost 17billion USD](https://www.eteknix.com/tsmc-building-fab-18-5nm-production/) (excluding R&D) 
-- The next TSMC's fab for [3nm (more advanced) chips with cost 19.6 billion USD](https://www.taiwannews.com.tw/en/news/3805032)
+
+- TSMC latest production facility in Taiwan (Fab18) will manufacture [3nm and 5nm chips will cost over 20billion USD](https://www.asianometry.com/p/the-economics-of-tsmcs-giga-fabs)
+- Samsung next Fab in Texas will cost [25 billions USD](https://www.reuters.com/technology/samsungs-new-texas-chip-plant-cost-rises-above-25-billion-sources-2023-03-15/) for [2025](https://www.businesskorea.co.kr/news/articleView.html?idxno=208498)
+
+The cost to build those fabs keeps increasing:
+
+![ semiconductor fab cost](/img/tsmc/cost-fabs-contruction.png)
 
 And those production facilities would take up to 5 years to make profit in a best case scenario. Companies must thoroughly investigate product demand, including possible long-term shifts, before beginning fab construction. What seems [not to be a problem for TSMC](https://www.extremetech.com/computing/315186-apple-books-tsmcs-entire-5nm-production-capability) that have more demand than supply. 
 
 ![ semiconductor fab breakeven](/img/tsmc/rANDd-breaakeven.jpg)
+
+(If you are interested on how those fabs are built, check [this excellent article](https://www.construction-physics.com/p/how-to-build-a-20-billion-semiconductor))
 
 The most serious competitor to TSMC today is probably Samsung. As explained, some trust or Intellectual Property issues might surface since Samsung is not only doing chips, but also end products for their users. Many countries are trying hard, but they’re not quite there:
 
