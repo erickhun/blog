@@ -14,15 +14,7 @@ images = ["/img/google-photos-backup/export-result.png"]
 +++
 
 
-Are you using any Google service (Gmail, Youtube, Google Maps, Google Cloud, Google Voice, [etc...](https://en.wikipedia.org/wiki/List_of_Google_products)) daily? You might want to know that Google has the really bad habit to [kill products](https://killedbygoogle.com/) and [lock you out of your own google account](https://www.androidpolice.com/2021/03/08/when-google-locks-you-out-of-your-account-begging-the-internet-for-help-is-your-first-and-last-resort/) 
-- [for](https://news.ycombinator.com/item?id=34116361) 
-- [any](https://news.ycombinator.com/item?id=36335975) 
-- [kind](https://www.androidpolice.com/2019/01/14/the-ludicrous-google-pay-death-sentence-can-lock-your-fi-account-and-phone-number/)
-- [of](https://news.ycombinator.com/item?id=33737577)
-- [possible](https://www.androidpolice.com/2019/01/14/the-ludicrous-google-pay-death-sentence-can-lock-your-fi-account-and-phone-number/)
-- [and](https://mailchi.mp/shwood/bamboozlers-514882?e=4be3990d97)
-- [random](https://old.reddit.com/r/GMail/comments/bcdf6z/locked_out_of_google_account_endless_loop/)
-- [reasons](https://www.reddit.com/r/Android/comments/5dif8j/psa_google_can_lock_your_account_forcing_you_to/)
+Are you using any Google service (Gmail, Youtube, Google Maps, Google Cloud, Google Voice, [etc...](https://en.wikipedia.org/wiki/List_of_Google_products)) daily? You might want to know that Google has the really bad habit to [kill products](https://killedbygoogle.com/) and [lock you out of your own google account](https://www.androidpolice.com/2021/03/08/when-google-locks-you-out-of-your-account-begging-the-internet-for-help-is-your-first-and-last-resort/) | [for](https://news.ycombinator.com/item?id=34116361)  | [all](https://news.ycombinator.com/item?id=36335975) | [sort](https://www.androidpolice.com/2019/01/14/the-ludicrous-google-pay-death-sentence-can-lock-your-fi-account-and-phone-number/) | [of](https://news.ycombinator.com/item?id=33737577) | [possible](https://www.androidpolice.com/2019/01/14/the-ludicrous-google-pay-death-sentence-can-lock-your-fi-account-and-phone-number/) | [and](https://mailchi.mp/shwood/bamboozlers-514882?e=4be3990d97) | [random](https://old.reddit.com/r/GMail/comments/bcdf6z/locked_out_of_google_account_endless_loop/) | [reasons](https://www.reddit.com/r/Android/comments/5dif8j/psa_google_can_lock_your_account_forcing_you_to/)
 
 
 If their AI determines that any of your activity is suspicious, it might lead to the closure of your entire Google account, you could lose all your photos and videos tomorrow.
@@ -92,4 +84,4 @@ Then you'll wannt to continuously upload your new photos and video continuously 
 
 ![](/img/google-photos-backup/photosync1.png)
 
-You are now all set. If Google decide to lock you out, or you want use an other photo backup service, you'll have all your memories ready to go with you!
+You are now all set. If Google decide to lock you out, or you'd want use an other photo backup service,  or even [kill Google Photos](https://killedbygoogle.com/), you'll have all your memories ready to go with you!
