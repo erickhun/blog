@@ -55,3 +55,6 @@ That's the endgame for Meta, you never leave their eco-system
 
 TSMC producing smaller and more energy efficient chips
 https://www.tomshardware.com/tech-industry/tsmc-unveils-16nm-process-technology-with-backside-power-delivery-rivals-intels-competing-design
+
+Vision Pro not before 2026: 
+https://wccftech.com/apple-vision-pro-successor-not-expected-until-end-of-2026/
