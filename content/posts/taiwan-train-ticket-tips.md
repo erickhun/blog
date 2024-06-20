@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2024-06-19T21:46:00+02:00
-title = "Taiwan train pro tips and tricks"
+title = "Taiwan train pro tips"
 description = ""
 slug = "" 
 tags = []
@@ -23,9 +23,9 @@ Instead of Taipei Main Station, where most people will go, head to Nangang Train
 There are HSR trains every 30 minutes. 
 Don't board if you see that the seats are about to get filled, and let the other passengers in line board. Then you'll be the "first" one entering the train for the following train. It's better to wait 30 minutes for the next train than to stand for 3 hours in a packed train : )
 
-If you are unlucky and can't get a seat (you won't know until you're inside the cars), leave the train and go back to the beginning of the line. This tip also works when you are at Taipei Main Station.
+This tip also works when you are at Taipei Main Station.
 
-## Pay for "Booked Tickets" Without the (Lost) Booking Number
+## Pay for "Booked Tickets" Without the Booking Number
 
 This happened to me when I wanted a seat on the (famously hard to book [Taroko Express Train](https://en.wikipedia.org/wiki/Taroko_Express)).
 
