@@ -39,11 +39,12 @@ When you want to buy a TRA train ticket online, here are the steps:
 
 
 
-After Step 5, that seat is now booked (for me 😅) and locked for more than 24 hours. But what if you (mistakenly) close / refresh the page at Step 5? 
+After Step 5, that seat is now bookedand locked for you for more than 24 hours. But what if you (mistakenly) close / refresh the page at Step 5 ? 
 
-![Booking number TRA](/img/train-tips-taiwan/booking-number-page-tra.png)
 
 I tried to redo all the steps, but then no seats were available anymore 🙀.  The way you can pay for that seat (via the mobile app) is if you have the booking number. But that number was lost when you refreshed the page 😅 ...   And there is no way to retrieve the booking number yourself unless...
+
+![Booking number TRA](/img/train-tips-taiwan/booking-number-page-tra.png)
 
 You go to a train station. Show them the train number, the day, and the passport (or ARC) number you used for that booking. The train counter agent will be able to retrieve that ticket for you, and you'll be able to pay at the counter ✨!
 
