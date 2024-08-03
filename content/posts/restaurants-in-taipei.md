@@ -49,6 +49,7 @@ images = ["/img/taipei-restaurants/maps.jpg"]
     <ul>
         <li>I wrote 750+ restaurants reviews on <a href="https://www.google.com/maps/contrib/103590446330914322330">Google Maps - Follow me if you live in Taiwan</a></li>
         <li>I post food restaurants I like on <a href="https://www.instagram.com/miamtaiwan">Instagram</a></li>
+        <li>If you live in Taiwan and love sharing gems you've found, we have a Line group for you! <a href="https://erickhun.com/about/">Hit me up</a> with the food photo and what you think about it, then I'll add you to the group.</li>
     </ul>
   </div>
 </div>
