@@ -38,17 +38,15 @@ Binding it to an app also has its limitations. You can't launch an app if the sc
 Apple could enhance this feature by implementing special permissions allowing certain apps, like the camera, to open directly from the Action button without authentication, streamlining accessibility and user convenience.
 I would prefer it to use Side button (turn off/scree scree), see next section 
 
-## Tripe "press" for opening the Camera app (or any app)
-Android's double-click side button functionality for swiftly opening the camera app without requesting a password is truly remarkable. I used it daily, and it remains ingrained in my muscle memory for capturing quick moments.
+## Better "Shortcut" for opening the Camera app (or any app)
+Android's double-click on the side button to open the camera app is really useful to caputure photo as fast as possible. I used it daily, and it remains ingrained in my muscle memory for capturing quick moments.
 
-The Apple team saw the need with the Action button, albeit  its  quirks I described earlier. The ideal location (for right-handers) would be the "Side Button," used for toggling the screen on/off. 
-The double press feature triggers Apple Pay, a useful functionality in my opinion
-But we can also configure the  triple press, that  allows for curated accessibility features. 
+iOS doesn't allow this. 
 
-In an ideal scenario, users would have the freedom to launch any app of their choice from that triple press, creating a more versatile and personalized user experience.
+A solution would be to configure the Action button without the need to unlock the screen, but as described earlier, not that actionnable since it asks password if locked. 
+The double press on the side button triggers Apple Pay. They could potentially allow users to choose any app of their choice from that triple press. 
  
-Available the Pixel 3)
-
+Here how it works for Android: 
 {{< youtube aXyKGb7sW9E >}}
 
 
