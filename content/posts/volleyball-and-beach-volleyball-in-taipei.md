@@ -1,6 +1,7 @@
 +++ 
 draft = false
 date = 2022-07-22T14:11:19+08:00
+modified_date = 2024-11-02T16:40:21+08:00
 title = "Play Beach Volleyball in Taiwan (indoor + outdoor groups in Taipei)"
 description = "Where to play Beach, Grass, Indoor and Outdoor volleyball in Taipei?"
 images = ["/img/volleyball-taipei/outdoor-meetup.jpg"]
@@ -72,9 +73,11 @@ series = []
   </div>
   <div class="notice-content">
     <ul>
-        <li>Looking for an English friendly and Competitive beach/grass volleyball? <a href="/about">Reach me out</li>
+        <li>Looking for an English friendly and Competitive beach/grass volleyball? <a href="https://line.me/ti/g2/Tf7es9b6SQoe5iPIEENyecU9XnCFEzSrNAxAEw">Drop a message in this Line Group</li>
         <li><a href="https://www.google.com/maps/d/viewer?mid=1rZCw3SdiIVBASaNPQgN9-O2cCEv9TVQ&hl=en&ll=23.580052342615517%2C121.05340829999996&z=9">Map of where to beach volleyball or install a portable net</a></li>
-        <li><a href="#outdoor-volleyball">Play outdoor volleyball in Taipei (B- to A- level)</a></li>
+        <li><a href="#grass-volleyball">Play grass volleyball in Taipei (B- to A- level)</a></li>
+        <li><a href="#beach-volleyball">Play beach volleyball in Taipei (BB to A- level)</a></li>
+        <li><a href="#outdoor-volleyball">Play outdoor volleyball in Taipei (BB to A- level)</a></li>
         <li><a href="#indoor-volleyball">Play indoor volleyball(BB or +)</a></li>
         <li><a href="#volleyball-skill-level-in-taiwan">Volleyball Skill level in Taiwan</a></li>
     </ul>
@@ -83,17 +86,23 @@ series = []
 
 Taiwan is a great place if you like to play indoor and outdoor volleyball. You can usually use any outdoor high school or university court for free, and you'll usually find regular players. However, beach and grass aren't common at all.  I've got lucky to spend enough in Taiwan to play on beach, indoor and outdoor courts in Taiwan. I will share my findings,  hopefully this could save you some time!
 
-## Beach-volley (and grass volleyball)
+## Grass volleyball
 
-Funnily enough, most beaches in Taiwan do not have any decent beach volleyball courts. The only decent beach court with good net tension seems to be at [Bebin Park in Hualien](https://www.google.com/maps?cid=15490952783537478442), but it's too far from Taipei. One beach court exists in New Taipei City in the [Sunshine Sports Park](https://goo.gl/maps/BkCM96u4DDPafrocA), but the sand and net there aren’t great. Here one time where we've played King Of the Court:  
+One group is playing almost every Sunday (when weather allows). It has a nice and chill vibe (if you are quite serious, it might not be for you). Usually play 3x3, 4x4, 5x5 at B- to A- level. Drop a message in this <a href="https://line.me/ti/g2/Tf7es9b6SQoe5iPIEENyecU9XnCFEzSrNAxAEw"> Line Group</a> if you're interested. 
+
+{{< youtube TlUdZ0iW78I >}}
+
+## Beach volleyball
+
+Unfortunately, most beaches in Taiwan do not have any decent beach volleyball courts. The only decent beach court with good net tension seems to be at [Bebin Park in Hualien](https://www.google.com/maps?cid=15490952783537478442), but it's too far from Taipei. One beach court exists in New Taipei City in the [Sunshine Sports Park](https://goo.gl/maps/BkCM96u4DDPafrocA), but the sand and net there aren’t great (careful your knees!). 
 
 {{< youtube QPptJaJlCE4 >}}
 
-We have a group with  [Park & Sun portable volleyball net](https://www.parksun.com/Volleyball/Sets/spectrum-classic-volleyball-set.php) that we (try to) use every few weeks. We usually play 2x2, 3x3 and 4x4 at a [BB to A level]({{<ref "#volleyball-skill-level-in-taiwan" >}}). Feel free to [reach me out](/about/) if you are interested (2x2 and 3x3 is quite intense, we require BB or + level). 
+We have a group with a [Park & Sun net](https://www.parksun.com/Volleyball/Sets/spectrum-classic-volleyball-set.php) that (try ) to play every few weeks during summer time. We usually play 2x2, 3x3 and 4x4 at a [BB to A level]({{<ref "#volleyball-skill-level-in-taiwan" >}}).  Feel free to  <a href="https://line.me/ti/g2/Tf7es9b6SQoe5iPIEENyecU9XnCFEzSrNAxAEw">join this Line Group</a></li> if you are interested (2x2 and 3x3 is quite intense, we require BB or + level). 
 
-![Spectrum Classic Beach and Grass volleyball net](/img/volleyball-taipei/spectrum-classic-net-taiwan.jpg)
+<!-- ![Spectrum Classic Beach and Grass volleyball net](/img/volleyball-taipei/spectrum-classic-net-taiwan.jpg) -->
 
- The challenge is to find location where we can set the net. Because of some regulations, we can't set the net everywhere. I had to do some research where we can set our portable net. So I've compiled in this map places where we can set our net, but also added location with existing beach court with a net  (but don't expect much from them). Some groups (in Kaoshuing and Keelung) also have their own nets. I've put their informations in [the map](https://www.google.com/maps/d/viewer?mid=1rZCw3SdiIVBASaNPQgN9-O2cCEv9TVQ&hl=en&ll=23.580052342615545%2C121.05340829999996&z=8): 
+The challenge is to find location where we can set the net. Because of some regulations, we can't set the net everywhere. I had to do some research where we can set our portable net. So I've compiled in this map places where we can set our net, but also added location with existing beach court with a net  (but don't expect much from them). Some groups (in Kaoshuing and Keelung) also have their own nets. I've put their informations in [the map](https://www.google.com/maps/d/viewer?mid=1rZCw3SdiIVBASaNPQgN9-O2cCEv9TVQ&hl=en&ll=23.580052342615545%2C121.05340829999996&z=8): 
 
 <div class="map-responsive">
 
@@ -104,12 +113,15 @@ We have a group with  [Park & Sun portable volleyball net](https://www.parksun.c
 Here our group playing in Fulong Beach (we've setup the net):
 {{< youtube XCAOxoogV0U >}}
 
-And here when we played in Wanli beach (with an okay net) - costs 300TWD/head 😅:
+And here when we played in Wanli beach (with an okay net). You'll have to pay 300TWD/head when you access to the [resort](https://maps.app.goo.gl/hh55aqFMzDScyWuC6)
 {{< youtube hMlnLMPhZdI >}}
 
+<!-- 
 I've tried to ask Taipei City if it was possible to play in Daan Park (that would be awesome isn't it?), but received a negative response, even though they can play [basket ball](https://goo.gl/maps/hSfF91PNTJGXdNcNA) there 🤔. If anyone would know how to convince the city to let us play in parks, please let me know 🙏 
 
-![Ask Taipei City to use net in Parks](/img/volleyball-taipei/taipei-city-use-net-in-parks.png)
+![Ask Taipei City to use net in Parks](/img/volleyball-taipei/taipei-city-use-net-in-parks.png) 
+-->
+
 
 
 ## Outdoor volleyball 
@@ -119,7 +131,7 @@ The most surprising thing when I arrived in Taipei was to see all those middle /
 ![NTU volleyball courts Taipei](/img/volleyball-taipei/ntu-vball-courts.jpg)
 
 
-For English speaker, there is a great [Meetup group](https://www.meetup.com/taipei-sports-and-social-club/) that gathers every weekend. The individual level can be anywhere from [B- to A level]({{<ref "#volleyball-skill-level-in-taiwan" >}}). I usually go to play there since the vibe is great! It can also become quite competitive: 
+For English speaker, there is a great [Meetup group](https://www.meetup.com/taipei-sports-and-social-club/) that gathers every weekend. The individual level can be anywhere from [B- to A- level]({{<ref "#volleyball-skill-level-in-taiwan" >}}). I usually go to play there since the vibe is great! It can also become quite competitive: 
 
 ![Outdoor meetup volleyball Taipei](/img/volleyball-taipei/outdoor-meetup.jpg)
 
@@ -171,7 +183,7 @@ D|??|"Recreational" player where goal is to always put the ball over on the othe
     🎥 Youtube
   </div>
   <div class="notice-content">
-    Subscribe  <a href="https://www.youtube.com/channel/UCqVdw5S5EmHhaZRORP-g2YA">my youtube channel</a>  where I post videos of volleyball games in Taiwan!
+    Subscribe  <a href="https://www.youtube.com/channel/UCqVdw5S5EmHhaZRORP-g2YA">my youtube channel</a>  where I (sometimes) post videos of volleyball games in Taiwan!
   </div>
 </div>
 
