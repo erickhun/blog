@@ -84,7 +84,7 @@ series = []
   </div>
 </div>
 
-Taiwan is a great place if you like to play indoor and outdoor volleyball. You can usually use any outdoor high school or university court for free, and you'll usually find regular players. However, beach and grass aren't common at all.  I've got lucky to spend enough in Taiwan to play on beach, indoor and outdoor courts in Taiwan. I will share my findings,  hopefully this could save you some time!
+Taiwan is a great place if you like to play volleyball. You can usually use any outdoor high school or university court for free, and you'll usually find regular players. However, beach and grass aren't common at all.  I've got lucky to spend enough in Taiwan to play on beach, indoor and outdoor courts in Taiwan. I will share my findings,  hopefully this could save you some time!
 
 ## Grass volleyball
 
