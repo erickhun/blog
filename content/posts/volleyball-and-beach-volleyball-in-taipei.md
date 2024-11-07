@@ -166,16 +166,20 @@ That's why their their level is named after which team they've played during tha
 
    Level USA/Europe | Equivalent&nbsp;level&nbsp;in&nbsp;Taiwan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description
 ---------------------|-------------------|----
-AA|校隊 (Xiào duì) - School Team|Division 1 college team or advanced club level player that can compete on a national tournaments
-A|校隊 (Xiào duì) - School Team|Elite high school, club, or college level player that can run different offenses (6-2, 5-1), have a great understanding of all positions on the court and can execute all skills with accuracy and power. 
-A-|系隊 (Xì duì) - Department Team| About to reach A level
-BB|系隊 (Xì duì) - Department Team|May have played in high school varsity and 7 out of 10 passes go to the person they intended. Understands offensive concepts (6-2, 5-1) and defensive positions but may be working to solidify those skills. Skill levels range from intermediate to proficient veteran.
-B|??|Played in many organized leagues and skills have progressed well beyond beginner level, or have played some school team or club volleyball (BB level) but skills are rusty. Knows how to bump, set (a little), and spike.
-B-|??| About to reach B level
-C|??|A beginner to volleyball and attempts to pass, set and hit but doesn't always work out.
-D|??|"Recreational" player where goal is to always put the ball over on the other side of the net
+AA (Elite College/Pro) |甲組球隊 (Jiǎ zǔ qiúduì)| Competitive college, semi-pro, or elite club experience. Consistent jump serves, quick attacks, multiple hitting shots. Can effectively run complex offensive systems and defensive adjustments
+A (D2/D3 College) |校隊 (Xiào duì)| Elite high school, club, or college level player that can run different offenses (6-2, 5-1), have a great understanding of all positions on the court and can execute all skills with accuracy and power. Can execute float/jump serves and attack with power and direction
+A- (Strong Club)| 強系隊 (Qiáng xì duì)| Solid competitive background.  jump serve, strong float serve control. Good passing form with 60-70% accuracy on serve receive. Can hit with power but shot selection/timing needs work
+BB (High School Varsity)|系隊 (Xì duì)| Can run basic offensive patterns and defensive formations. May have played in high school varsity and 7 out of 10 passes go to the person they intended. Understands offensive concepts (6-2, 5-1) and defensive positions but may be working to solidify those skills. 
+B| 新系隊 (Xīn xì duì)| Can perform basic skills in practice but struggles in game situations. Understanding of positioning but execution breaks down in fast plays. Played in many organized leagues and skills have progressed well beyond beginner level, or have played some school team or club volleyball (BB level) but skills are rusty. Knows how to bump, set (a little), and spike.
+B-|社團隊 (Shè tuán duì)| Players can maintain rallies
+C|班隊 (Bān duì)|A beginner to volleyball and attempts to pass, set and hit but doesn't always work out.
+D| 休閒玩家 (Xiūxián wánjiā)|"Recreational" player where goal is to always put the ball over on the other side of the net
 
-(Thanks Chi Chih for helping me finding the equivalent on that!)
+- In Taiwan, some terms like 新系隊 or 強系隊 are more descriptive than commonly used
+- 校隊/系隊 are the most commonly used terms in university settings
+- At recreational level, people might simply say 打排球的 (Dǎ páiqiú de) for casual players
+- The term 甲組 specifically refers to top division competitive teams
+- Thanks Chi Chih for helping me finding the equivalent on that!
 
 
 <div class="notice question">
