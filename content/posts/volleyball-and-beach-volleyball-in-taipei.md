@@ -175,11 +175,6 @@ B-|社團隊 (Shè tuán duì)| Players can maintain rallies
 C|班隊 (Bān duì)|A beginner to volleyball and attempts to pass, set and hit but doesn't always work out.
 D| 休閒玩家 (Xiūxián wánjiā)|"Recreational" player where goal is to always put the ball over on the other side of the net
 
-- In Taiwan, some terms like 新系隊 or 強系隊 are more descriptive than commonly used
-- 校隊/系隊 are the most commonly used terms in university settings
-- At recreational level, people might simply say 打排球的 (Dǎ páiqiú de) for casual players
-- The term 甲組 specifically refers to top division competitive teams
-- Thanks Chi Chih for helping me finding the equivalent on that!
 
 
 <div class="notice question">
