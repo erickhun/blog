@@ -164,7 +164,7 @@ That's why their their level is named after which team they've played during tha
 - The best players are at the 校隊 (Xiào duì) level, meaning "School team". They got intense training (check how the national's team [famous Hung-Min and Hong-Jie twin brothers were trained](https://www.travel.taipei/en/news/details/7254)), and they are the ones that usually plays professionally later on.
 - Then come the 系隊 (Xì duì) level, meaning "Department team". It originally refers to the "department" of a given school (such as MBA, Engineering, Economic department). There is various level within it, the best "departments" compete agains other "departments" from other schools. It will depend on different departments whether they have a coach or not.
 
-   Level USA/Europe | Equivalent&nbsp;Taiwan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description
+   Level US/Europe | Equivalent&nbsp;Taiwan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description
 ---------------------|-------------------|----
 AA |甲組球隊 (Jiǎ zǔ qiúduì)| Competitive college, semi-pro, or elite club experience. Consistent jump serves, quick attacks, multiple hitting shots. Can effectively run complex offensive systems and defensive adjustments
 A |校隊 (Xiào duì)| Elite club/college level player that can run different offenses (6-2, 5-1), have a great understanding of all positions on the court and can execute all skills with accuracy and power. Can execute float/jump serves and attack with power and direction
