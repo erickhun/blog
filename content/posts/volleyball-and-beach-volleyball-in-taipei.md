@@ -169,9 +169,8 @@ That's why their their level is named after which team they've played during tha
 AA |甲組球隊 (Jiǎ zǔ qiúduì)| Competitive college, semi-pro, or elite club experience. Consistent jump serves, quick attacks, multiple hitting shots. Can effectively run complex offensive systems and defensive adjustments
 A |校隊 (Xiào duì)| Elite club/college level player that can run different offenses (6-2, 5-1), have a great understanding of all positions on the court and can execute all skills with accuracy and power. Can execute float/jump serves and attack with power and direction
 A- | 強系隊 (Qiáng xì duì)| Strong Club. Solid competitive background.  jump serve, strong float serve control. Good passing form with 60-70% accuracy on serve receive. Can hit with power but shot selection/timing needs work
-BB (High School Varsity)|系隊 (Xì duì)| Competitive High School. Can run basic offensive patterns and defensive formations. May have played in high school varsity and 7 out of 10 passes go to the person they intended. Understands offensive concepts (6-2, 5-1) and defensive positions but may be working to solidify those skills. 
+BB |系隊 (Xì duì)| Competitive High School. Can run basic offensive patterns and defensive formations. May have played in high school varsity and 7 out of 10 passes go to the person they intended. Understands offensive concepts (6-2, 5-1) and defensive positions but may be working to solidify those skills. 
 B| 新系隊 (Xīn xì duì)| Can perform basic skills in practice but struggles in game situations. Understanding of positioning but execution breaks down in fast plays. Played in many organized leagues and skills have progressed well beyond beginner level, or have played some school team or club volleyball (BB level) but skills are rusty. Knows how to bump, set (a little), and spike.
-B-|社團隊 (Shè tuán duì)| Players can maintain rallies
 C|班隊 (Bān duì)|A beginner to volleyball and attempts to pass, set and hit but doesn't always work out.
 D| 休閒玩家 (Xiūxián wánjiā)|"Recreational" player where goal is to always put the ball over on the other side of the net
 
