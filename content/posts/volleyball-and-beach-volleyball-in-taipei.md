@@ -137,7 +137,7 @@ For English speaker, there is a great [Meetup group](https://www.meetup.com/taip
 
 
 ## Indoor volleyball
-In Taiwan, indoor courts usually aren’t free to use. It is expected to pay a fee and it’s shared among the players (usually NTD150 to NTD300 per player, depending on the location). It’s more competitive and I'd say the minimum required level is [BB or +]({{<ref "#volleyball-skill-level-in-taiwan" >}}).  You will need to know some players already playing indoor to access to them and chinese is usually required. 
+In Taiwan, indoor courts aren’t free to use. It is expected to pay a fee and it’s shared among the players (usually NTD150 to NTD300 per player, depending on the location). It’s more competitive and I'd say the minimum required level is [BB or +]({{<ref "#volleyball-skill-level-in-taiwan" >}}). You will need to know some players already playing indoor to access to them and chinese is usually required.  [The 排球咖 Facebook group](https://www.facebook.com/groups/186877438033868), recruits players when they need some, but it will be in chinese. 
 
 This was one group I used to play with few years ago: 
 
@@ -182,7 +182,7 @@ D| 休閒玩家 (Xiūxián wánjiā)|"Recreational" player where goal is to alwa
     🎥 Youtube
   </div>
   <div class="notice-content">
-    Subscribe  <a href="https://www.youtube.com/channel/UCqVdw5S5EmHhaZRORP-g2YA">my youtube channel</a>  where I (sometimes) post videos of volleyball games in Taiwan!
+    Check this <a href="https://www.youtube.com/channel/UCqVdw5S5EmHhaZRORP-g2YA"> youtube channel</a>  where I (sometimes) post videos of volleyball games in Taiwan!
   </div>
 </div>
 
