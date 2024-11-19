@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2021-11-06T10:40:21+08:00
-modified_date = 2023-11-06T10:40:21+08:00
+modified_date = 2024-11-19T10:40:21+08:00
 title = "Where to Buy a whole Turkey in Taipei?"
 description = ""
 slug = "" 
@@ -13,7 +13,21 @@ series = []
 
 It is Thanksgiving / Christmas, and you are looking to cook a turkey in Taipei for your group of friends. You came at the right place! 
 
-Note: In 2023 (and 2022), turkeys are in short supply. Your best chance is probably to contact one of the farm in Chiayi I've listed below.
+## Costco (available in 2024!)
+
+In November 2024, Costco has Taiwanese Turkey! 
+
+![Costco Taiwan Turkey 2024](/img/turkey-taipei/turkey-taiwan-2024-costco.jpg)
+
+
+Previous years, they had the [Frozen, pre-brine,  Butterballs Turkeys](https://www.butterball.com/products/whole-turkey/frozen) , which appeared around mid-October to December at all Costco locations in Taiwan. They weighed about 7kg (16lbs) and were imported from the US.
+
+
+Here is a photo of the US Frozen Butterball Turkeys from the US (not the Taiwan one): 
+![Costco Turkey thanksgiving 2021](/img/turkey-taipei/costco-turkey-thanksgiving.jpg)
+
+Note: Costco did not have turkeys in 2022 and 2023.
+
 
 ## From a farm (online)
 
@@ -67,17 +81,6 @@ They seem to have options from 1200 to 2600 TWD for a 4.5kg cooked bird
 
 - Shop: https://www.thomasmeat.com/index.php?Page=Search&Keyword=%E5%AD%A3%E7%AF%80%E9%99%90%E5%AE%9A&utm_medium=post&utm_source=fbpg&utm_campaign=turkey23_organic
 - Facebook: https://www.facebook.com/thomasmeat
-
-
-## Costco (not available in 2022 and 2023)
-
-I usually get my turkey at Costco. They usually have the [Frozen, pre-brine,  Butterballs Turkeys](https://www.butterball.com/products/whole-turkey/frozen) , and appear around mid-october to December at any Costco location in Taiwan. They weight about 7kg (16lbs) and are imported from the US. 
-
-You will need to have a Costco membership (costs [1350TWD/year](https://www.costco.com.tw/membership)). 
-
-Note: 2022 and 2023 won't be in Costco.
-
-![Costco Turkey thanksgiving 2023](/img/turkey-taipei/costco-turkey-thanksgiving.jpg)
 
 
 ## Dimensions of a turkey by weight - Will the turkey fits inside my oven? 
