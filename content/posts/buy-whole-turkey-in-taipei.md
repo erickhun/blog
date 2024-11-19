@@ -49,13 +49,13 @@ Here the result:
 
 
 ### Pasta & Co
-Take home price : $4,880 NTD
+Take home price : $5,990 NTD
 
 Turkey (6/7KG) is brined in a special white wine brine for 96 hours then it is air dried in fridge for 72 hours, roasted and then crispied in the fryer.  The last date of pre-order (if quantity is still available) is 11/15 12PM
 
 It seems to include a cake, mac and cheese and potatoes.
 
-Order: https://www.facebook.com/PASTACOTAIWAN/
+Order: https://www.facebook.com/share/p/1DkuVpVza7/
 
 
 ### Taiwan Turkey Store Food
