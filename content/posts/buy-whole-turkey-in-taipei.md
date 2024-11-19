@@ -15,7 +15,7 @@ It is Thanksgiving / Christmas, and you are looking to cook a turkey in Taipei f
 
 ## Costco (available in 2024!)
 
-In November 2024, Costco has Taiwanese Turkey! 
+In November 2024, Costco has Taiwanese Turkey! They cost 315TWD/kg, between 1800 to 2400 TWD for a 6 to 8kg one: 
 
 ![Costco Taiwan Turkey 2024](/img/turkey-taipei/turkey-taiwan-2024-costco.jpg)
 
