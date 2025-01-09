@@ -6,6 +6,11 @@
     {{- end -}}
   </h1>
   <ul>
+    <li>
+      <span class="date">January 01, 2025</span>
+      <a class="title" href="https://pixelbrawlgames.com/">PixelBrawlGames: Play Snake and Bomberman Online</a>
+    </li>
+
     {{ range .Paginator.Pages }}
     <li>
       <span class="date">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
