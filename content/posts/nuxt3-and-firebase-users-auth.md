@@ -8,7 +8,7 @@ images = ["/img/nuxt3-firebase/login-example.png"]
 description = ""
 slug = "" 
 tags = []
-categories = []
+categories = ["dev"]
 externalLink = ""
 series = []
 +++

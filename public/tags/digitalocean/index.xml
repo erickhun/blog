@@ -6,16 +6,14 @@
     <description>Recent content in digitalocean on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Feb 2018 11:16:22 +0100</lastBuildDate><atom:link href="https://erickhun.com/tags/digitalocean/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Feb 2018 11:16:22 +0100</lastBuildDate>
+    <atom:link href="https://erickhun.com/tags/digitalocean/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setup your Ethereum node with geth on the Ropsten test network</title>
       <link>https://erickhun.com/posts/setup-your-ethereum-node--geth-ropsten-test-network/</link>
       <pubDate>Sat, 03 Feb 2018 11:16:22 +0100</pubDate>
-      
       <guid>https://erickhun.com/posts/setup-your-ethereum-node--geth-ropsten-test-network/</guid>
-      <description>This is a step by step guide to setup your own Ethereum node on the Ropsten network. At the end of this guide you&amp;rsquo;ll be able to:
-Run your own ethereum node synced with the Ropsten testnet network Making sure to keep the node in sync with the blockchain on the network Be able to communicate via the JSON-RPC API of your own node Using the same method to run your node on the main network Why do you want run your own node?</description>
+      <description>This is a step by step guide to setup your own Ethereum node on the Ropsten network. At the end of this guide you&amp;rsquo;ll be able to:&#xA;Run your own ethereum node synced with the Ropsten testnet network Making sure to keep the node in sync with the blockchain on the network Be able to communicate via the JSON-RPC API of your own node Using the same method to run your node on the main network Why do you want run your own node?</description>
     </item>
-    
   </channel>
 </rss>

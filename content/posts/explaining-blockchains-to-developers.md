@@ -1,5 +1,5 @@
 +++
-categories = ["blockchain"]
+categories = ["blockchain", "dev"]
 date = "2021-06-30T09:23:00+08:00"
 description = ""
 draft = false

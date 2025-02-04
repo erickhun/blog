@@ -1,5 +1,5 @@
 +++
-categories = ["kubernetes", "infrastructure"]
+categories = ["kubernetes", "infrastructure", "dev"]
 date = "2020-08-31T23:56:00+08:00"
 description = ""
 draft = false
