@@ -11,12 +11,12 @@ title = "Previous version of hugo on Mac"
 Unfortunately, there is no way to set up versions older than 5 previous versions with brew. Here's a quick workaround:
 
 0. `brew uninstall hugo`
-1. Head to https://github.com/gohugoio/hugo/tags and pick the version you need
+1. Head to [github.com/gohugoio/hugo/tags](https://github.com/gohugoio/hugo/tags) and navigate the version you need
     - The Mac versions are the `hugo_*_darwin-*.tar.gz` ones
       - darwin = macOS
       - universal = works on both Intel and Apple Silicon Macs
       - extended version includes additional features like SASS/SCSS support
-2. Download the version you need
+2. Download and extract the tar file
 3. Move the binary to `/usr/local/bin`
 4. When starting the Hugo binary for the first time, your Mac will show a security warning
   - Don't delete the binary
