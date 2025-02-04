@@ -6,289 +6,217 @@
     <description>Recent content on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Jun 2024 21:46:00 +0200</lastBuildDate><atom:link href="https://erickhun.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Feb 2025 12:50:00 +0800</lastBuildDate>
+    <atom:link href="https://erickhun.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create /usr/local/bin in macOS</title>
+      <link>https://erickhun.com/posts/create-usr-local-bin-macos-command-line/</link>
+      <pubDate>Tue, 04 Feb 2025 12:50:00 +0800</pubDate>
+      <guid>https://erickhun.com/posts/create-usr-local-bin-macos-command-line/</guid>
+      <description>It&amp;rsquo;s 2025, and /usr/local/bin still not a directory in MacOS (15.1) 🤦‍♂️ . Programs you download (via Homebrew or online) are usually set inside this folder.&#xA;Here the correct way to create it:&#xA;sudo mkdir -p /usr/local/bin sudo chmod 755 /usr/local/bin Why 755?. It follows the principle of least privilege while still allowing the necessary functionality - anyone can use the programs, but only root can modify them:&#xA;Owner as root with rwx permissions is standard because the system (root) needs full control to manage executables Group as wheel with r-x, wheel is traditionally the admin group on Unix systems Others with r-x because: Everyone needs to be able to read (r) and execute (x) programs in this directory They shouldn&amp;rsquo;t be able to write (w) to it, which prevents regular users from modifying system binaries Hope this helps.</description>
+    </item>
+    <item>
+      <title>Previous version of hugo on Mac</title>
+      <link>https://erickhun.com/posts/hugo-previous-version-mac-brew/</link>
+      <pubDate>Tue, 04 Feb 2025 12:50:00 +0800</pubDate>
+      <guid>https://erickhun.com/posts/hugo-previous-version-mac-brew/</guid>
+      <description>Unfortunately, there is no way to set up versions older than 5 previous versions with brew. Here&amp;rsquo;s a quick workaround:&#xA;brew uninstall hugo Head to https://github.com/gohugoio/hugo/tags and pick the version you need The Mac versions are the hugo_*_darwin-*.tar.gz ones darwin = macOS universal = works on both Intel and Apple Silicon Macs extended version includes additional features like SASS/SCSS support Download the version you need Move the binary to /usr/local/bin When starting the Hugo binary for the first time, your Mac will show a security warning Don&amp;rsquo;t delete the binary Go to System Settings (or System Preferences) Privacy &amp;amp; Security Click &amp;ldquo;Install app anyway&amp;rdquo; Voila!</description>
+    </item>
     <item>
       <title>Taiwan train pro tips</title>
       <link>https://erickhun.com/posts/taiwan-train-ticket-tips/</link>
       <pubDate>Wed, 19 Jun 2024 21:46:00 +0200</pubDate>
-      
       <guid>https://erickhun.com/posts/taiwan-train-ticket-tips/</guid>
       <description>Increase Your Chances of Seating in &amp;ldquo;Non-Reserved Seats&amp;rdquo; Cars During peak season, it can be really hard to get a reserved seat for Taiwan High Speed Rail (HSR) tickets. Either you book months in advance, or you can get one of those &amp;ldquo;non-reserved seats&amp;rdquo; tickets. Each HSR train usually has 3 non-reserved seat cars (usually cars 10, 11, and 12). However, the issue with non-reserved seats is that they don&amp;rsquo;t guarantee you a seat, and you might have to stand for hours on the train 😿.</description>
     </item>
-    
     <item>
       <title>From (12 years of) Android to iOS: What does Android do better?</title>
       <link>https://erickhun.com/posts/android-to-ios/</link>
       <pubDate>Thu, 30 Nov 2023 23:53:11 +0800</pubDate>
-      
       <guid>https://erickhun.com/posts/android-to-ios/</guid>
-      <description>I started using Android Phones since 2011. I recently (2 months ago) made the leap from the Google Pixel 4a to the iPhone 15 Pro. My decision was influenced by certain changes in the Pixel series: the removal of the unlimited photo backup feature, the elimination of the physical fingerprint sensor, and the shift from selling &amp;ldquo;pro&amp;rdquo; services to unlocking &amp;ldquo;advanced&amp;rdquo; features, which left me feeling somewhat frustrated.
-After two-month period, I&amp;rsquo;ve gathered more grounded feedback and identified areas where I believe Apple should take notes from Android&amp;rsquo;s more favorable practices.</description>
+      <description>I started using Android Phones since 2011. I recently (2 months ago) made the leap from the Google Pixel 4a to the iPhone 15 Pro. My decision was influenced by certain changes in the Pixel series: the removal of the unlimited photo backup feature, the elimination of the physical fingerprint sensor, and the shift from selling &amp;ldquo;pro&amp;rdquo; services to unlocking &amp;ldquo;advanced&amp;rdquo; features, which left me feeling somewhat frustrated.&#xA;After two-month period, I&amp;rsquo;ve gathered more grounded feedback and identified areas where I believe Apple should take notes from Android&amp;rsquo;s more favorable practices.</description>
     </item>
-    
     <item>
       <title>Google Photos Backup</title>
       <link>https://erickhun.com/posts/google-photos-backup-to-anywhere/</link>
       <pubDate>Mon, 30 Oct 2023 23:10:07 +0800</pubDate>
-      
       <guid>https://erickhun.com/posts/google-photos-backup-to-anywhere/</guid>
-      <description>Are you using any Google service (Gmail, Youtube, Google Maps, Google Cloud, Google Voice, etc&amp;hellip;) daily? You might want to know that Google has the really bad habit to kill products and lock you out of your own google account | for | all | sort | of | possible | and | random | reasons.
-If their AI determines that any of your activity is suspicious, it might lead to the closure of your entire Google account.</description>
+      <description>Are you using any Google service (Gmail, Youtube, Google Maps, Google Cloud, Google Voice, etc&amp;hellip;) daily? You might want to know that Google has the really bad habit to kill products and lock you out of your own google account | for | all | sort | of | possible | and | random | reasons.&#xA;If their AI determines that any of your activity is suspicious, it might lead to the closure of your entire Google account.</description>
     </item>
-    
     <item>
       <title>Google Maps Social Network</title>
       <link>https://erickhun.com/posts/google-maps-social-network/</link>
       <pubDate>Sat, 30 Sep 2023 12:45:07 +0800</pubDate>
-      
       <guid>https://erickhun.com/posts/google-maps-social-network/</guid>
       <description>Google Maps is the application I use the most in my daily life. Whether I need a direction, looking for a place to eat, fix my phone&amp;hellip;. The influence of Google Maps goes beyond mere navigation – it has also became a key platform for local businesses, where reviews can make or break their success. Whether it&amp;rsquo;s choosing a dining destination (sometimes right in front of the restaurant itself) or meticulously selecting a hotel, it&amp;rsquo;s evident that reviews on Google Maps play a pivotal role in decision-making.</description>
     </item>
-    
     <item>
       <title>Why Taiwan?</title>
       <link>https://erickhun.com/posts/why-taiwan/</link>
       <pubDate>Sat, 26 Aug 2023 21:46:00 +0200</pubDate>
-      
       <guid>https://erickhun.com/posts/why-taiwan/</guid>
       <description>There is something special about Taiwan that I couldn&amp;rsquo;t really explain when I first arrived. During my initial trip, I couldn&amp;rsquo;t put words to the positive feeling I experienced while roaming around the city. It was a blend of relaxation, freedom, safety, friendliness, and convenience—all at once. I didn’t do much; I wandered through the city, worked in coffee shops, and ate in random restaurants. Although I only stayed for a week, I knew I would return for a longer stay.</description>
     </item>
-    
     <item>
       <title>Nuxt3 and Firebase: Users authentication</title>
       <link>https://erickhun.com/posts/nuxt3-and-firebase-users-auth/</link>
       <pubDate>Fri, 30 Jun 2023 07:04:59 +0200</pubDate>
-      
       <guid>https://erickhun.com/posts/nuxt3-and-firebase-users-auth/</guid>
-      <description>Here the github repo for who want to fork my template and use it directly.
-If you&amp;rsquo;re looking for a seamless and efficient way to handle user authentication and management in your web applications, Nuxt3 and Firebase make this process incredibly easy. They both have lot of advantages:
-Nuxt3 :
-Allow you to have a frontend (and backend), easily deployable with 2 command line to execute (no joke!) Has a huge choices of modules available Coming from a a backend world, Nuxt is easy to use and understand and simply &amp;ldquo;make sense&amp;rdquo; Firebase and Firebase UI :</description>
+      <description>Here the github repo for who want to fork my template and use it directly.&#xA;If you&amp;rsquo;re looking for a seamless and efficient way to handle user authentication and management in your web applications, Nuxt3 and Firebase make this process incredibly easy. They both have lot of advantages:&#xA;Nuxt3 :&#xA;Allow you to have a frontend (and backend), easily deployable with 2 command line to execute (no joke!) Has a huge choices of modules available Coming from a a backend world, Nuxt is easy to use and understand and simply &amp;ldquo;make sense&amp;rdquo; Firebase and Firebase UI :</description>
     </item>
-    
     <item>
       <title>Restaurants you should visit when visiting Taipei</title>
       <link>https://erickhun.com/posts/restaurants-in-taipei/</link>
       <pubDate>Fri, 26 May 2023 16:43:25 +0800</pubDate>
-      
       <guid>https://erickhun.com/posts/restaurants-in-taipei/</guid>
       <description>💡 I wrote 750+ restaurants reviews on Google Maps - Follow me if you live in Taiwan I post food restaurants I like on Instagram If you live in Taiwan and love sharing gems you&#39;ve found, we have a Line group for you! Hit me up with the food photo and what you think about it, then I&#39;ll add you to the group. When visiting Taipei the sheer number of restaurants can leave you feeling overwhelmed when trying to choose one.</description>
     </item>
-    
     <item>
       <title>Money in your Bank Account is not yours</title>
       <link>https://erickhun.com/posts/your-money-is-not-yours/</link>
       <pubDate>Fri, 28 Apr 2023 15:32:58 +0800</pubDate>
-      
       <guid>https://erickhun.com/posts/your-money-is-not-yours/</guid>
-      <description>When depositing money in a bank, we usually forget that money you deposit in the bank isn&amp;rsquo;t ours anymore. We are essentially giving the bank temporary custody of our money in exchange for a promise that they will give us back the same amount (and sometimes more).
-Over the past decade, I have encountered numerous challenges dealing with banks across various countries, which made me realize that the promise to return your money isn&amp;rsquo;t always as straightforward as it seems.</description>
+      <description>When depositing money in a bank, we usually forget that money you deposit in the bank isn&amp;rsquo;t ours anymore. We are essentially giving the bank temporary custody of our money in exchange for a promise that they will give us back the same amount (and sometimes more).&#xA;Over the past decade, I have encountered numerous challenges dealing with banks across various countries, which made me realize that the promise to return your money isn&amp;rsquo;t always as straightforward as it seems.</description>
     </item>
-    
     <item>
       <title>Play Beach Volleyball in Taiwan (indoor &#43; outdoor groups in Taipei)</title>
       <link>https://erickhun.com/posts/volleyball-and-beach-volleyball-in-taipei/</link>
       <pubDate>Fri, 22 Jul 2022 14:11:19 +0800</pubDate>
-      
       <guid>https://erickhun.com/posts/volleyball-and-beach-volleyball-in-taipei/</guid>
       <description>💡 tldr We&#39;re looking for teamates (aged 30+) for Taiwan World Master Game in May 2025 - if you are 30+ years old, BB to A level, reach me out! Looking for an English friendly and Competitive beach/grass volleyball? Drop a message in this Line Group, with your level Map of where to beach volleyball or install a portable net Play grass volleyball in Taipei (B- to A- level) Play beach volleyball in Taipei (BB to A- level) Play outdoor volleyball in Taipei (BB to A- level) Play indoor volleyball(BB or +) Volleyball Skill level in Taiwan Taiwan is a great place if you like to play volleyball.</description>
     </item>
-    
     <item>
       <title>DeFi: Make money like a bank</title>
       <link>https://erickhun.com/posts/defi-make-money-like-a-bank/</link>
       <pubDate>Fri, 31 Dec 2021 09:08:00 +0800</pubDate>
-      
       <guid>https://erickhun.com/posts/defi-make-money-like-a-bank/</guid>
       <description>DeFi, or Decentralized Finance, is probably one of today&amp;rsquo;s biggest opportunities to generate high yield interest. It also unlocked the possibility for anyone to become their own bank. DeFi allows its users to make all kinds of various transactions, like exchanging currencies (via your bank that uses the FOREX in the traditional financial system), lending or borrowing. And with this capabilities, comes the possibility to collect fees and interest from those financial actions.</description>
     </item>
-    
     <item>
       <title>Restaurants I recommend after living 5 years in Taipei</title>
       <link>https://erickhun.com/posts/taipei-restaurants/</link>
       <pubDate>Tue, 30 Nov 2021 17:30:17 +0800</pubDate>
-      
       <guid>https://erickhun.com/posts/taipei-restaurants/</guid>
       <description>💡 I wrote (750+) restaurants reviews on Google Maps - Follow me if you live in Taiwan I post food restaurants I like on Instagram If you visit Taipei, here my restaurants recommendation list for travelers If you live in Taiwan and love sharing gems you&#39;ve found, we have a Line group for you! Hit me up with the food photo and what you think about it, then I&#39;ll add you to the group.</description>
     </item>
-    
     <item>
       <title>Where to Buy a whole Turkey in Taipei?</title>
       <link>https://erickhun.com/posts/buy-whole-turkey-in-taipei/</link>
       <pubDate>Sat, 06 Nov 2021 10:40:21 +0800</pubDate>
-      
       <guid>https://erickhun.com/posts/buy-whole-turkey-in-taipei/</guid>
-      <description>It is Thanksgiving / Christmas, and you are looking to cook a turkey in Taipei for your group of friends. You came at the right place!
-Costco (available in 2024!) In November 2024, Costco has Taiwanese Turkey! They cost 315TWD/kg, between 1800 to 2400 TWD for a 6 to 8kg one:
-Previous years, they had the Frozen, pre-brine, Butterballs Turkeys , which appeared around mid-October to December at all Costco locations in Taiwan.</description>
+      <description>It is Thanksgiving / Christmas, and you are looking to cook a turkey in Taipei for your group of friends. You came at the right place!&#xA;Costco (available in 2024!) In November 2024, Costco has Taiwanese Turkey! They cost 315TWD/kg, between 1800 to 2400 TWD for a 6 to 8kg one:&#xA;Previous years, they had the Frozen, pre-brine, Butterballs Turkeys , which appeared around mid-October to December at all Costco locations in Taiwan.</description>
     </item>
-    
     <item>
       <title>NFT misconception: JPEG aren&#39;t on the Blockchain</title>
       <link>https://erickhun.com/posts/nft-misconception-image-arent-on-blockchains/</link>
       <pubDate>Sun, 31 Oct 2021 13:08:00 +0800</pubDate>
-      
       <guid>https://erickhun.com/posts/nft-misconception-image-arent-on-blockchains/</guid>
-      <description>Today&amp;rsquo;s biggest misconception about NFTs is that they&amp;rsquo;re &amp;ldquo;jpeg&amp;rdquo; images stored on the Ethereum blockchain, it&amp;rsquo;s not. Probably because that digital art can be easy to visualize, and famous artists attempt today to sell their digital art as an NFT on a platform such as Opensea, it has gained lot of attention these past months.
-Artists start creating them on a piece of paper, then their computer. But when they convert it to an NFT, what makes you the owner of it?</description>
+      <description>Today&amp;rsquo;s biggest misconception about NFTs is that they&amp;rsquo;re &amp;ldquo;jpeg&amp;rdquo; images stored on the Ethereum blockchain, it&amp;rsquo;s not. Probably because that digital art can be easy to visualize, and famous artists attempt today to sell their digital art as an NFT on a platform such as Opensea, it has gained lot of attention these past months.&#xA;Artists start creating them on a piece of paper, then their computer. But when they convert it to an NFT, what makes you the owner of it?</description>
     </item>
-    
     <item>
       <title>When code is law</title>
       <link>https://erickhun.com/posts/when-code-is-law/</link>
       <pubDate>Thu, 30 Sep 2021 09:16:00 +0800</pubDate>
-      
       <guid>https://erickhun.com/posts/when-code-is-law/</guid>
       <description>How can you trust an individual, company, or government with the money you send to them? What tells you there are no hidden fees, or middleman in the contract you’re signing for? How do you make sure terms won’t be changed? Those are one of the exciting things I’m excited about smart contracts on public blockchains, the “Code is Law” feature (also called “immutability”). They are the promises of what a smart contract can fulfill.</description>
     </item>
-    
     <item>
       <title>Explaining blockchains to developers</title>
       <link>https://erickhun.com/posts/explaining-blockchains-to-developers/</link>
       <pubDate>Wed, 30 Jun 2021 09:23:00 +0800</pubDate>
-      
       <guid>https://erickhun.com/posts/explaining-blockchains-to-developers/</guid>
-      <description>What is a blockchain? Why are some people using it? Even as a developer, it took me a few years to understand what a blockchain really is,how it is working from inside out. I&amp;rsquo;ll share here what I believe is a comprehensive explanation of what is a blockchain from a developer point of view.
-What is a blockchain? In simple words, it’s a slow database.
-For Bitcoin, this database contains a ledger only.</description>
+      <description>What is a blockchain? Why are some people using it? Even as a developer, it took me a few years to understand what a blockchain really is,how it is working from inside out. I&amp;rsquo;ll share here what I believe is a comprehensive explanation of what is a blockchain from a developer point of view.&#xA;What is a blockchain? In simple words, it’s a slow database.&#xA;For Bitcoin, this database contains a ledger only.</description>
     </item>
-    
     <item>
       <title>How to invest in ETFs and Stocks from Taiwan</title>
       <link>https://erickhun.com/posts/investing-from-taiwan/</link>
       <pubDate>Sun, 30 May 2021 14:37:00 +0800</pubDate>
-      
       <guid>https://erickhun.com/posts/investing-from-taiwan/</guid>
-      <description>I&amp;rsquo;ve spent a tremendous amount of time investigating on how to invest from Taiwan. Many expats asked me the questions, so I&amp;rsquo;ve decided to write down how I do it. I&amp;rsquo;ll also write different alternative options you could explore. This article will likely apply to Tax resident in Taiwan, non-US citizens and talk about long term investment (15+ years horizon).
-Remember: I&amp;rsquo;m not a financial advisor, and invite you to make more researches or seek professional advice.</description>
+      <description>I&amp;rsquo;ve spent a tremendous amount of time investigating on how to invest from Taiwan. Many expats asked me the questions, so I&amp;rsquo;ve decided to write down how I do it. I&amp;rsquo;ll also write different alternative options you could explore. This article will likely apply to Tax resident in Taiwan, non-US citizens and talk about long term investment (15+ years horizon).&#xA;Remember: I&amp;rsquo;m not a financial advisor, and invite you to make more researches or seek professional advice.</description>
     </item>
-    
     <item>
       <title>2021 Goals</title>
       <link>https://erickhun.com/posts/goals-2021/</link>
       <pubDate>Sat, 02 Jan 2021 22:02:00 +0100</pubDate>
-      
       <guid>https://erickhun.com/posts/goals-2021/</guid>
       <description> Ship 1 side project that makes money Write 12 blog posts Gives at least 2 public talks Buffer&amp;rsquo;s product teams adopting SRE Figure out a system that helps to work a strict 4 days per week Clean High Pull Ups 5 Handstand Push Ups (I can&amp;rsquo;t handstand) Achieve the Full Planche (I can barely Tucked Planche now) 10 seconds Front Lever </description>
     </item>
-    
     <item>
       <title>The world next innovations depend on a single country, Taiwan</title>
       <link>https://erickhun.com/posts/world-innovation-taiwan-semiconductors/</link>
       <pubDate>Thu, 31 Dec 2020 12:39:00 +0100</pubDate>
-      
       <guid>https://erickhun.com/posts/world-innovation-taiwan-semiconductors/</guid>
-      <description>The world&amp;rsquo;s current and next innovations depend on a single country: Taiwan. It&amp;rsquo;s probably one country you might never hear about, or perhaps confuse with its neighbor, Thailand, or even think it&amp;rsquo;s a part of China.
-I&amp;rsquo;ve been living in Taiwan for 3+ years, and am baffled that I never pay attention to semiconductors. I&amp;rsquo;m a software engineer but didn&amp;rsquo;t think much more about the importance of them. As far as my laptop can change code to real things and doesn&amp;rsquo;t lag when I have constantly hundred tabs open, I was satisfied.</description>
+      <description>The world&amp;rsquo;s current and next innovations depend on a single country: Taiwan. It&amp;rsquo;s probably one country you might never hear about, or perhaps confuse with its neighbor, Thailand, or even think it&amp;rsquo;s a part of China.&#xA;I&amp;rsquo;ve been living in Taiwan for 3+ years, and am baffled that I never pay attention to semiconductors. I&amp;rsquo;m a software engineer but didn&amp;rsquo;t think much more about the importance of them. As far as my laptop can change code to real things and doesn&amp;rsquo;t lag when I have constantly hundred tabs open, I was satisfied.</description>
     </item>
-    
     <item>
       <title>Taiwan bike sharing infrastructure</title>
       <link>https://erickhun.com/posts/taiwan-youbike-bike-sharing/</link>
       <pubDate>Wed, 30 Sep 2020 22:50:00 +0800</pubDate>
-      
       <guid>https://erickhun.com/posts/taiwan-youbike-bike-sharing/</guid>
-      <description>YouBike is my first choice of transportation when it comes to moving around the city of Taipei. I largely prefer it over taking the subway, bus, or taxi. It is affordable, well maintained, comfortable, lightweight, and especially, at waking distance reach from anywhere.
-The number of YouBike rides keeps increasing since it was launched in 2012. As for May 2024, there was 818 millions rides on youbike! The city with the the most rides is Taipei, with 46 millions rides in 2023:</description>
+      <description>YouBike is my first choice of transportation when it comes to moving around the city of Taipei. I largely prefer it over taking the subway, bus, or taxi. It is affordable, well maintained, comfortable, lightweight, and especially, at waking distance reach from anywhere.&#xA;The number of YouBike rides keeps increasing since it was launched in 2012. As for May 2024, there was 818 millions rides on youbike! The city with the the most rides is Taipei, with 46 millions rides in 2023:</description>
     </item>
-    
     <item>
       <title>Kubernetes: Make your services faster by removing CPU limits</title>
       <link>https://erickhun.com/posts/kubernetes-faster-services-no-cpu-limits/</link>
       <pubDate>Mon, 31 Aug 2020 23:56:00 +0800</pubDate>
-      
       <guid>https://erickhun.com/posts/kubernetes-faster-services-no-cpu-limits/</guid>
       <description>At Buffer, we&amp;rsquo;ve been using Kubernetes since 2016. We&amp;rsquo;ve been managing our k8s (kubernetes) cluster with kops, it has about 60 nodes (on AWS), and runs about 1500 containers. Our transition to a micro-service architecture has been full of trial and errors. Even after a few years running k8s, we are still learning its secrets. This post will talk about how something we thought was a good thing, but ended up to be not as great as we thought: CPU limits.</description>
     </item>
-    
     <item>
       <title>Sharing knowledge in a remote team, across timezones</title>
       <link>https://erickhun.com/posts/sharing-knowledge-in-a-remote-team/</link>
       <pubDate>Thu, 30 Jul 2020 23:44:22 +0800</pubDate>
-      
       <guid>https://erickhun.com/posts/sharing-knowledge-in-a-remote-team/</guid>
-      <description>&amp;ldquo;True innovation comes an intersection of a cross-pollination of roles and ideas&amp;rdquo; - Sunil, former-CTO@Buffer
-I&amp;rsquo;ve been working remotely at Buffer for 6 years now. As a software engineer, one of the critical skill I believe we should must have is being able to learn continuously. However, working in a fully distributed team, split accross 10+ timezones. I live in Asia (UTC +8) while most of my teammates live in the US or Europe.</description>
+      <description>&amp;ldquo;True innovation comes an intersection of a cross-pollination of roles and ideas&amp;rdquo; - Sunil, former-CTO@Buffer&#xA;I&amp;rsquo;ve been working remotely at Buffer for 6 years now. As a software engineer, one of the critical skill I believe we should must have is being able to learn continuously. However, working in a fully distributed team, split accross 10+ timezones. I live in Asia (UTC +8) while most of my teammates live in the US or Europe.</description>
     </item>
-    
     <item>
       <title>Making friends while travelling and working remotely</title>
       <link>https://erickhun.com/posts/making-friends-remote-work/</link>
       <pubDate>Sat, 07 Dec 2019 03:46:40 +0000</pubDate>
-      
       <guid>https://erickhun.com/posts/making-friends-remote-work/</guid>
-      <description>Don&amp;rsquo;t you feel alone when working alone? This might be questions that come the most.
-I&amp;rsquo;ve been working remotely at Buffer for 5 years now. I think I&amp;rsquo;d qualify myself as an &amp;ldquo;introvert&amp;rdquo;. I like spending time by myself. I&amp;rsquo;m actually doing it every time I&amp;rsquo;m going back to my parent&amp;rsquo;s place where not much happen , and without stepping much outside or seeing anyone else except my parent. However, there is sometimes that feeling of loneliness strikes all of sudden and when you&amp;rsquo;ll maybe want to meet.</description>
+      <description>Don&amp;rsquo;t you feel alone when working alone? This might be questions that come the most.&#xA;I&amp;rsquo;ve been working remotely at Buffer for 5 years now. I think I&amp;rsquo;d qualify myself as an &amp;ldquo;introvert&amp;rdquo;. I like spending time by myself. I&amp;rsquo;m actually doing it every time I&amp;rsquo;m going back to my parent&amp;rsquo;s place where not much happen , and without stepping much outside or seeing anyone else except my parent. However, there is sometimes that feeling of loneliness strikes all of sudden and when you&amp;rsquo;ll maybe want to meet.</description>
     </item>
-    
     <item>
       <title>Why you should have a side project</title>
       <link>https://erickhun.com/posts/why-you-should-have-a-side-project/</link>
       <pubDate>Sun, 06 Oct 2019 11:16:22 +0800</pubDate>
-      
       <guid>https://erickhun.com/posts/why-you-should-have-a-side-project/</guid>
-      <description>I often advocate people surrounding me to build their own side projects. I believe they can fulfill you in so many ways: for your career, your relationships, or your independence. Buffer, the company I currently work for, was itself a side project.
-I&amp;rsquo;ve built myself multiple side projects. The major ones being TaipeiDev, TaiwanGoldCard, Citymayor, Project Memento, PartyInBeijing (inactive), Nodablock (inactive). I like believe each of them contributed and lead me to my current situation: being satisfied in my career, financially, and socially.</description>
+      <description>I often advocate people surrounding me to build their own side projects. I believe they can fulfill you in so many ways: for your career, your relationships, or your independence. Buffer, the company I currently work for, was itself a side project.&#xA;I&amp;rsquo;ve built myself multiple side projects. The major ones being TaipeiDev, TaiwanGoldCard, Citymayor, Project Memento, PartyInBeijing (inactive), Nodablock (inactive). I like believe each of them contributed and lead me to my current situation: being satisfied in my career, financially, and socially.</description>
     </item>
-    
     <item>
       <title>How to keep working out while traveling - 4 years in</title>
       <link>https://erickhun.com/posts/traveling-and-working-out/</link>
       <pubDate>Sun, 15 Sep 2019 20:18:56 +0000</pubDate>
-      
       <guid>https://erickhun.com/posts/traveling-and-working-out/</guid>
-      <description>I&amp;rsquo;ve been flying between a lot between countries this past 4 years. Many people ask me how I keep exercising while moving between countries that often. I&amp;rsquo;ll try to explain here what I think helped me to keep that consistency.
-For a bit of background, I&amp;rsquo;ve always enjoyed playing volleyball since middle school, and try to go at least once a week, in any country I visited. It was already a habit I had since I was younger and I believe it helped me a lot.</description>
+      <description>I&amp;rsquo;ve been flying between a lot between countries this past 4 years. Many people ask me how I keep exercising while moving between countries that often. I&amp;rsquo;ll try to explain here what I think helped me to keep that consistency.&#xA;For a bit of background, I&amp;rsquo;ve always enjoyed playing volleyball since middle school, and try to go at least once a week, in any country I visited. It was already a habit I had since I was younger and I believe it helped me a lot.</description>
     </item>
-    
     <item>
       <title>Setup your Ethereum node with geth on the Ropsten test network</title>
       <link>https://erickhun.com/posts/setup-your-ethereum-node--geth-ropsten-test-network/</link>
       <pubDate>Sat, 03 Feb 2018 11:16:22 +0100</pubDate>
-      
       <guid>https://erickhun.com/posts/setup-your-ethereum-node--geth-ropsten-test-network/</guid>
-      <description>This is a step by step guide to setup your own Ethereum node on the Ropsten network. At the end of this guide you&amp;rsquo;ll be able to:
-Run your own ethereum node synced with the Ropsten testnet network Making sure to keep the node in sync with the blockchain on the network Be able to communicate via the JSON-RPC API of your own node Using the same method to run your node on the main network Why do you want run your own node?</description>
+      <description>This is a step by step guide to setup your own Ethereum node on the Ropsten network. At the end of this guide you&amp;rsquo;ll be able to:&#xA;Run your own ethereum node synced with the Ropsten testnet network Making sure to keep the node in sync with the blockchain on the network Be able to communicate via the JSON-RPC API of your own node Using the same method to run your node on the main network Why do you want run your own node?</description>
     </item>
-    
     <item>
       <title>I did a Plum.io test</title>
       <link>https://erickhun.com/posts/plum-io-test/</link>
       <pubDate>Sun, 02 Oct 2016 17:35:00 +0200</pubDate>
-      
       <guid>https://erickhun.com/posts/plum-io-test/</guid>
-      <description>An ex-classmate shared with me today the Plum.io test. My results are available here.
-The 3 &amp;ldquo;talents&amp;rdquo; that stands out were:
-Conflict: Resolution: stay calm , empathie, being polite when you disagree Teamwork: be tactful, courteous of others, be sensitive to others needs, support others, encourage positive interactions Communication: &amp;ldquo;good long term relationships, even with difficult people&amp;rdquo;, &amp;ldquo;built on tactful and considerate interactions&amp;rdquo;, &amp;ldquo;Good at knowing the right thing to say to people and at understanding how people will accept what you are going to say to them&amp;rdquo;, &amp;ldquo;soliciting and accepting feedback and criticism from others&amp;rdquo; Sounds about right?</description>
+      <description>An ex-classmate shared with me today the Plum.io test. My results are available here.&#xA;The 3 &amp;ldquo;talents&amp;rdquo; that stands out were:&#xA;Conflict: Resolution: stay calm , empathie, being polite when you disagree Teamwork: be tactful, courteous of others, be sensitive to others needs, support others, encourage positive interactions Communication: &amp;ldquo;good long term relationships, even with difficult people&amp;rdquo;, &amp;ldquo;built on tactful and considerate interactions&amp;rdquo;, &amp;ldquo;Good at knowing the right thing to say to people and at understanding how people will accept what you are going to say to them&amp;rdquo;, &amp;ldquo;soliciting and accepting feedback and criticism from others&amp;rdquo; Sounds about right?</description>
     </item>
-    
     <item>
       <title>Fitness is the first step to greatness</title>
       <link>https://erickhun.com/posts/fitness-is-the-first-step-to-greatness/</link>
       <pubDate>Sat, 01 Oct 2016 11:51:22 +0200</pubDate>
-      
       <guid>https://erickhun.com/posts/fitness-is-the-first-step-to-greatness/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;Fitness is the first step to greatness.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It is my favorite quote that &lt;a href=&#34;https://twitter.com/justinkan&#34;&gt;Justin Kan&lt;/a&gt; keep saying in Snapchat.&lt;/p&gt;
-&lt;p&gt;It&amp;rsquo;s a quote I just start understand. I start working out 1 year ago. I can definitely relate this to work. and I find I can achieve more at work.&lt;/p&gt;
-&lt;h2 id=&#34;have-clear-goals-to-challenge-yourself&#34;&gt;Have clear goals to challenge yourself&lt;/h2&gt;
-&lt;p&gt;When I started, I tried to exercice every 2-3 days without any goals. Picking a workout machine randonly, and adding weight randomly. I also didn&amp;rsquo;t keep track of how heavy I could lift on each machine. I think at this time I just didn&amp;rsquo;t know what I was doing. My motivation decreased a lot and I noticed that I went less often in the gym.
-What is wrong with that? My motivation kept lowering week after week. I went to the gym less often, and started to find many excuse to not go. I start forgetting the benefits of it.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i2.kym-cdn.com/photos/images/facebook/000/234/765/b7e.jpg&#34; alt=&#34;No idea what I&amp;rsquo;m doing&#34;&gt;&lt;/p&gt;
-&lt;p&gt;At &lt;a href=&#34;https://buffer.com&#34;&gt;Buffer&lt;/a&gt;, we&amp;rsquo;re lucky to have a slack channel called #improvements-fitness where bufferoos talk about their improvements and everything fitness related. I started to dig into the channel history and found a program that was quoted many times: &lt;a href=&#34;http://stronglifts.com&#34;&gt;Stronglift 5x5&lt;/a&gt; . After a quick look&lt;/p&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Fitness is the first step to greatness.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;It is my favorite quote that &lt;a href=&#34;https://twitter.com/justinkan&#34;&gt;Justin Kan&lt;/a&gt; keep saying in Snapchat.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a quote I just start understand. I start working out 1 year ago. I can definitely relate this to work. and I find I can achieve more at work.&lt;/p&gt;&#xA;&lt;h2 id=&#34;have-clear-goals-to-challenge-yourself&#34;&gt;Have clear goals to challenge yourself&lt;/h2&gt;&#xA;&lt;p&gt;When I started, I tried to exercice every 2-3 days without any goals. Picking a workout machine randonly, and adding weight randomly. I also didn&amp;rsquo;t keep track of how heavy I could lift on each machine. I think at this time I just didn&amp;rsquo;t know what I was doing. My motivation decreased a lot and I noticed that I went less often in the gym.&#xA;What is wrong with that? My motivation kept lowering week after week. I went to the gym less often, and started to find many excuse to not go. I start forgetting the benefits of it.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://i2.kym-cdn.com/photos/images/facebook/000/234/765/b7e.jpg&#34; alt=&#34;No idea what I&amp;rsquo;m doing&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;At &lt;a href=&#34;https://buffer.com&#34;&gt;Buffer&lt;/a&gt;, we&amp;rsquo;re lucky to have a slack channel called #improvements-fitness where bufferoos talk about their improvements and everything fitness related. I started to dig into the channel history and found a program that was quoted many times: &lt;a href=&#34;http://stronglifts.com&#34;&gt;Stronglift 5x5&lt;/a&gt; . After a quick look&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Hi, I&#39;m Eric :)</title>
       <link>https://erickhun.com/posts/hi/</link>
       <pubDate>Sat, 01 Oct 2016 02:00:06 +0200</pubDate>
-      
       <guid>https://erickhun.com/posts/hi/</guid>
-      <description>Hi there, thanks for cheking the blog! I&amp;rsquo;m Eric, engineer at Buffer. I&amp;rsquo;ve been working remotely since 2013, from different places in the world. I happen to be mostly in Asia, my favorite part of the world! I now live in Taiwan, and can stay here with the Employment Gold Card
-I&amp;rsquo;m travelling quite a bit, I&amp;rsquo;d like share a little bit of the places I visit, my experiences, or challenges about remote work.</description>
+      <description>Hi there, thanks for cheking the blog! I&amp;rsquo;m Eric, engineer at Buffer. I&amp;rsquo;ve been working remotely since 2013, from different places in the world. I happen to be mostly in Asia, my favorite part of the world! I now live in Taiwan, and can stay here with the Employment Gold Card&#xA;I&amp;rsquo;m travelling quite a bit, I&amp;rsquo;d like share a little bit of the places I visit, my experiences, or challenges about remote work.</description>
     </item>
-    
   </channel>
 </rss>

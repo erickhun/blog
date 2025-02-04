@@ -5,6 +5,7 @@
     <link>https://erickhun.com/about/</link>
     <description>Recent content on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://erickhun.com/about/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <atom:link href="https://erickhun.com/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

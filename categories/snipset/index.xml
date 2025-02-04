@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>snipset on Eric Khun</title>
+    <link>https://erickhun.com/categories/snipset/</link>
+    <description>Recent content in snipset on Eric Khun</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 04 Feb 2025 12:50:00 +0800</lastBuildDate>
+    <atom:link href="https://erickhun.com/categories/snipset/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create /usr/local/bin in macOS</title>
+      <link>https://erickhun.com/posts/create-usr-local-bin-macos-command-line/</link>
+      <pubDate>Tue, 04 Feb 2025 12:50:00 +0800</pubDate>
+      <guid>https://erickhun.com/posts/create-usr-local-bin-macos-command-line/</guid>
+      <description>It&amp;rsquo;s 2025, and /usr/local/bin still not a directory in MacOS (15.1) 🤦‍♂️ . Programs you download (via Homebrew or online) are usually set inside this folder.&#xA;Here the correct way to create it:&#xA;sudo mkdir -p /usr/local/bin sudo chmod 755 /usr/local/bin Why 755?. It follows the principle of least privilege while still allowing the necessary functionality - anyone can use the programs, but only root can modify them:&#xA;Owner as root with rwx permissions is standard because the system (root) needs full control to manage executables Group as wheel with r-x, wheel is traditionally the admin group on Unix systems Others with r-x because: Everyone needs to be able to read (r) and execute (x) programs in this directory They shouldn&amp;rsquo;t be able to write (w) to it, which prevents regular users from modifying system binaries Hope this helps.</description>
+    </item>
+    <item>
+      <title>Previous version of hugo on Mac</title>
+      <link>https://erickhun.com/posts/hugo-previous-version-mac-brew/</link>
+      <pubDate>Tue, 04 Feb 2025 12:50:00 +0800</pubDate>
+      <guid>https://erickhun.com/posts/hugo-previous-version-mac-brew/</guid>
+      <description>Unfortunately, there is no way to set up versions older than 5 previous versions with brew. Here&amp;rsquo;s a quick workaround:&#xA;brew uninstall hugo Head to https://github.com/gohugoio/hugo/tags and pick the version you need The Mac versions are the hugo_*_darwin-*.tar.gz ones darwin = macOS universal = works on both Intel and Apple Silicon Macs extended version includes additional features like SASS/SCSS support Download the version you need Move the binary to /usr/local/bin When starting the Hugo binary for the first time, your Mac will show a security warning Don&amp;rsquo;t delete the binary Go to System Settings (or System Preferences) Privacy &amp;amp; Security Click &amp;ldquo;Install app anyway&amp;rdquo; Voila!</description>
+    </item>
+  </channel>
+</rss>

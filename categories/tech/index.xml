@@ -6,16 +6,14 @@
     <description>Recent content in tech on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Jul 2020 23:44:22 +0800</lastBuildDate><atom:link href="https://erickhun.com/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Jul 2020 23:44:22 +0800</lastBuildDate>
+    <atom:link href="https://erickhun.com/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sharing knowledge in a remote team, across timezones</title>
       <link>https://erickhun.com/posts/sharing-knowledge-in-a-remote-team/</link>
       <pubDate>Thu, 30 Jul 2020 23:44:22 +0800</pubDate>
-      
       <guid>https://erickhun.com/posts/sharing-knowledge-in-a-remote-team/</guid>
-      <description>&amp;ldquo;True innovation comes an intersection of a cross-pollination of roles and ideas&amp;rdquo; - Sunil, former-CTO@Buffer
-I&amp;rsquo;ve been working remotely at Buffer for 6 years now. As a software engineer, one of the critical skill I believe we should must have is being able to learn continuously. However, working in a fully distributed team, split accross 10+ timezones. I live in Asia (UTC +8) while most of my teammates live in the US or Europe.</description>
+      <description>&amp;ldquo;True innovation comes an intersection of a cross-pollination of roles and ideas&amp;rdquo; - Sunil, former-CTO@Buffer&#xA;I&amp;rsquo;ve been working remotely at Buffer for 6 years now. As a software engineer, one of the critical skill I believe we should must have is being able to learn continuously. However, working in a fully distributed team, split accross 10+ timezones. I live in Asia (UTC +8) while most of my teammates live in the US or Europe.</description>
     </item>
-    
   </channel>
 </rss>
