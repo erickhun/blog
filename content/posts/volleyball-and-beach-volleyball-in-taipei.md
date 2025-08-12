@@ -73,7 +73,6 @@ series = []
   </div>
   <div class="notice-content">
     <ul>
-        <li>We're looking for teamates (aged 30+) for Taiwan <a href="https://wmg2025.tw/en/home"> World Master Game in May 2025</a> - if you are 30+ years old, <a href="#volleyball-skill-level-in-taiwan">BB to A level</a>, <a href="/about">reach me out</a>!</li>
         <li>Looking for an English friendly and Competitive beach/grass volleyball? Drop a message in <a href="https://line.me/ti/g2/Tf7es9b6SQoe5iPIEENyecU9XnCFEzSrNAxAEw">this Line Group</a>, with <a href="#volleyball-skill-level-in-taiwan">your level</a></li>
         <li><a href="https://www.google.com/maps/d/viewer?mid=1rZCw3SdiIVBASaNPQgN9-O2cCEv9TVQ&hl=en&ll=23.580052342615517%2C121.05340829999996&z=9">Map of where to beach volleyball or install a portable net</a></li>
         <li><a href="#grass-volleyball">Play grass volleyball in Taipei (B- to A- level)</a></li>
