@@ -119,8 +119,7 @@ Here's how I configure Claude to work with my system:
 ```
 * Read my recent daily notes (last 7 days in `/daily` folder)
 * Read `000 Quick-Facts.md` for stable context, goals, and current TODO priorities
-* Read `000 PartnerOS.md` for interaction preferences and coaching style
-* Core Analysis: Automatically provide analysis of my current concerns, projects, thinking patterns, and insights
+* Read `000 PartnerOS.md` for interaction preferences and instruction how to help me
 * Knowledge Scan: Review all files in my notes directory. Highlight any that might connect to today's thoughts, organized by relevance
 * Suggest Knowledge Extraction: Identify decisions made, lessons learned, or insights worth preserving for my permanent knowledge base
 ```
