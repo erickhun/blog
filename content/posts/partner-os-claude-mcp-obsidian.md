@@ -156,13 +156,13 @@ ChatGPT mobile voice recognition is incredible - I wish an app could just drop t
 All AI processing happens only on Claude Desktop. No MCP exists today for Claude Mobile :( 
 But my trick is to start on claude, then followup on mobile. 
 
-**Privacy:**
-All your thoughts is you privacy what if Anthropic or openAI decided to suddenly use your informations to commercial purpose/ 
-This could, and will certainly happen. Do this with care. 
 
 ## The Dangers of This Approach
 
 Before you dive headfirst into building your own PartnerOS, there are some serious risks worth considering. Those are thoughts I had after reading [Jose's post on What Are We Losing With AI?](https://josem.co/what-are-we-losing-with-ai/)
+
+**Privacy:**
+All your thoughts is you privacy. What if Anthropic or openAI decide to suddenly use your informations for commercial or legal purpose?  This could, and will certainly happen. Do this with care. 
 
 **Cognitive Atrophy:**
 Instead of accelerating your thinking, this system might replace your thinking entirely. When you let Obsidian categorize everything into static files and AI process your thoughts, are you outsourcing the very mental muscles you should be strengthening?
