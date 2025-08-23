@@ -76,7 +76,7 @@ All raw thoughts go into dated daily notes. No organization pressure, no linking
 ```
 
 **Key Files:**
-- **`000 Quick-Facts.md`**: Current status, long-term goals, finance goals, improvement goals. I put links to important files like `Investment.md`, `Health.md`, `Work.md`.  Three-tier TODO system: 🔥 Critical, 📅 This Week, 🔄 Ongoing
+- **`000 Quick-Facts.md`**: Current status, long-term goals, improvement goals. I also put links to important files like `Health.md` etc ...  I also have a 3 Three-tier TODO system (that claude can update itself): 🔥 Critical, 📅 This Week, 🔄 Ongoing
 
 - **`000 PartnerOS.md`**: How Claude should interact with me, coaching preferences, constraints. The content of this file is probably the most important. This is where you ask Claude how to help you  .
 
