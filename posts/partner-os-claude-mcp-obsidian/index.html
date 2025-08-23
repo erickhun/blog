@@ -111,7 +111,7 @@ After talking to Mike about how much he likes taking voice notes and dropping th
             </span>
             <span class="reading-time">
               <i class="fas fa-clock"></i>
-              6 minutes read
+              7 minutes read
             </span>
           </div>
           
@@ -122,10 +122,11 @@ After talking to Mike about how much he likes taking voice notes and dropping th
       <div>
         <p><img src="https://erickhun.com/img/partner-os-claude-mcp.gif" alt="Claude Obsidian PartnerOS"></p>
 <p>Sometimes I have a lot of thoughts that I&rsquo;ve only talked through with myself internally, then forgotten. I know it helps to write them down or talk them out, but I usually never do this. The best ideas usually come when we&rsquo;re walking, but then we forget them instantly.</p>
-<p>After talking to <a href="https://msanroman.io/">Mike</a> about how much he likes taking voice notes and dropping them to ChatGPT, I had a realization: <strong>why not just drop raw thoughts into an LLM and let it connect things for you?</strong></p>
-<p>I also took hundreds of notes in Obsidian AND I never revisit them. The premise of a &ldquo;second brain&rdquo; sounds great, but you have to put a lot of effort into connecting them with links. I don&rsquo;t know how to do that properly, and honestly don&rsquo;t have time for it.</p>
-<p>But wait, ChatGPT and Claude have memory? The problem with built-in AI memory isn&rsquo;t just that companies control it - it&rsquo;s completely unpredictable. Last week a friend told me ChatGPT suddenly forgot his entire workout history and started mixing all his stuff together. And the good stuff I care about is in Obsidian, so why not link all of them?</p>
-<p>But the thing is that I truly didn&rsquo;t want to maintain anything, and just wanted it to work. I didn&rsquo;t want:</p>
+<p>After talking to <a href="https://msanroman.io/">Mike</a> about how much he likes taking voice notes and dropping them to ChatGPT, I had a realization: <strong>why not just drop raw thoughts into an LLM and let it connect things for you?</strong> , and let an LLM process this automatically?</p>
+<p>I already took hundreds of notes in Obsidian  I also highlight many things on my Kindle (that are synced into obsidian). BUT trust is, I never revisit them. The premise of a &ldquo;second brain&rdquo; sounds great, but you have to put a lot of effort into connecting them with links. I don&rsquo;t know how to do that properly, and honestly don&rsquo;t have time for it.</p>
+<p>But wait, isn&rsquo;t ChatGPT and Claude have memory? The problem with built-in AI memory isn&rsquo;t just that companies control it - it&rsquo;s completely unpredictable. We don&rsquo;t know what they&rsquo;ll store in memory, or why they store it. You don&rsquo;t really have control of it, and we don&rsquo;t know how the LLM use it. Last week a friend told me ChatGPT suddenly forgot his entire workout history and started mixing all his stuff together.</p>
+<p>All the good stuff I care about is in Obsidian, so why not link all of them?</p>
+<p>The thing is that I truly didn&rsquo;t want to maintain anything, and just wanted it to work. I didn&rsquo;t want:</p>
 <ul>
 <li>APIs to maintain</li>
 <li>Complex integrations</li>
@@ -136,15 +137,15 @@ After talking to Mike about how much he likes taking voice notes and dropping th
 <ul>
 <li><strong>SuperWhisper</strong>: Capture voice to text, and send it to Obsidian Daily notes</li>
 <li><strong>Claude Desktop</strong>: Can read Obsidian files natively (through MCP)</li>
-<li><strong>Obsidian</strong>: Stores everything as plain text files (perfect for AI reading)</li>
+<li><strong>Obsidian</strong>: Stores everything as plain text files (Easily read by Claude)</li>
 <li><strong>iCloud Sync</strong>: Syncs seamlessly between Mac and iPhone</li>
 </ul>
 <h2 id="the-whole-workflow-looks-like">The whole workflow looks like:</h2>
 <ol>
 <li>I capture thoughts on my phone</li>
-<li>They&rsquo;re sent to Obsidian</li>
-<li>Synced between phone and Mac (via icloud)</li>
-<li>On desktop, Claude reads daily notes, connects them with all other notes, and processes them</li>
+<li>Share it to Obsidian Mobile</li>
+<li>It&rsquo;s synced between phone and Mac via icloud</li>
+<li>On desktop, Claude reads daily notes, connects them with all other notes, and processes them to give me any type of insights</li>
 </ol>
 <h2 id="the-setup">The Setup</h2>
 <p><a href="https://erickhun.com/img/claude-mcp-obsidian-partneros.png"><img src="https://erickhun.com/img/claude-mcp-obsidian-partneros.png" alt="Claude Obsidian PartnerOS"></a></p>
@@ -155,13 +156,12 @@ After talking to Mike about how much he likes taking voice notes and dropping th
 <li>Hands-free capture while walking, commuting, or when thoughts hit randomly</li>
 <li>No processing needed on mobile - just raw thought capture</li>
 </ul>
-<p><strong>Obsidian Mobile:</strong></p>
+<p><strong>Obsidian Mobile / Desktop:</strong></p>
 <ul>
 <li>Direct typing for precise thoughts</li>
 <li>Quick note creation with automatic daily note routing</li>
 <li>Real-time iCloud sync to desktop vault</li>
 </ul>
-<p>Key insight: mobile is for capture only, desktop is for processing.</p>
 <h3 id="2-setting-up-icloud-sync">2. Setting Up iCloud Sync</h3>
 <p>Find the path of iCloud and drop your Obsidian vault into it. For me it&rsquo;s:</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>/Users/eric/Library/Mobile Documents/iCloud~md~obsidian/Documents/obsidian
@@ -181,18 +181,18 @@ All raw thoughts go into dated daily notes. No organization pressure, no linking
 <p><strong><code>000 PartnerOS.md</code></strong>: How Claude should interact with me, coaching preferences, constraints</p>
 </li>
 <li>
-<p><strong>200+ other notes</strong>: No real structure - just topics I care about</p>
+<p><strong>200+ other notes</strong>: No real structure - just topics or Kindle highlights I care about</p>
 </li>
 </ul>
 <h3 id="4-connecting-claude-to-obsidian-via-mcp">4. Connecting Claude to Obsidian via MCP</h3>
-<p>MCP sounds scarier than it is. It&rsquo;s just an &ldquo;interface&rdquo; that allows Claude to interact with your files.</p>
-<p><strong>Setup:</strong></p>
+<p>&ldquo;MCP&rdquo; sounds scarier than it is. Think of it as a &ldquo;bridge&rdquo; that lets Claude talk to things outside of its normal chat interface. Normally, Claude can only read what you type in the chat.
+With MCP, Claude can read files on your computer, access databases, or connect to other services.
+In your case, you&rsquo;re using the &ldquo;filesystem&rdquo; MCP server, which lets Claude read (and write) files on your Mac.</p>
 <ol>
-<li>Open Claude desktop config file:</li>
-</ol>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>~/Library/Application\ Support/Claude/claude_desktop_config.json
-</span></span></code></pre></div><ol start="2">
-<li>Add this configuration:</li>
+<li>Open Claude Desktop app</li>
+<li>Go to menu: &ldquo;Claude&rdquo; (in the top menu bar)</li>
+<li>Settings → Developer → Local MCP Server → filesystem</li>
+<li>Edit the config file with a text editor. The config file should look like this:</li>
 </ol>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
 </span></span><span style="display:flex;"><span>  <span style="font-weight:bold">&#34;globalShortcut&#34;</span>: <span style="font-style:italic">&#34;&#34;</span>,
