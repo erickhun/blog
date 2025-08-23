@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2025-08-23T17:20:00+08:00
-title = "Connecting Raw Thoughts to Claude: My Obsidian MCP Setup "
+title = "Connecting My Raw Thoughts to Claude with Obsidian"
 description = ""
 slug = "" 
 tags = []
