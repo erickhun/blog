@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Feb 2025 12:50:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 23 Aug 2025 17:20:00 +0800</lastBuildDate>
     <atom:link href="https://erickhun.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Connecting Raw Thoughts to Claude: My Obsidian MCP Setup </title>
+      <link>https://erickhun.com/posts/partner-os-claude-mcp-obsidian/</link>
+      <pubDate>Sat, 23 Aug 2025 17:20:00 +0800</pubDate>
+      <guid>https://erickhun.com/posts/partner-os-claude-mcp-obsidian/</guid>
+      <description>Sometimes I have a lot of thoughts that I&amp;rsquo;ve only talked through with myself internally, then forgotten. I know it helps to write them down or talk them out, but I usually never do this. The best ideas usually come when we&amp;rsquo;re walking, but then we forget them instantly.&#xA;After talking to Mike about how much he likes taking voice notes and dropping them to ChatGPT, I had a realization: why not just drop raw thoughts into an LLM and let it connect things for you?</description>
+    </item>
     <item>
       <title>Create /usr/local/bin in macOS</title>
       <link>https://erickhun.com/posts/create-usr-local-bin-macos-command-line/</link>
