@@ -165,13 +165,17 @@ This could, and will certainly happen. Do this with care.
 
 ## The Dangers of This Approach
 
-Before you dive headfirst into building your own PartnerOS, there are some serious risks worth considering.
+Before you dive headfirst into building your own PartnerOS, there are some serious risks worth considering. Those are thoughts I had after reading [Jose's post on What Are We Losing With AI?](https://josem.co/what-are-we-losing-with-ai/)
+
 **Cognitive Atrophy:**
 Instead of accelerating your thinking, this system might replace your thinking entirely. When you let Obsidian categorize everything into static files and AI process your thoughts, are you outsourcing the very mental muscles you should be strengthening?
+
 **The Purpose of Forgetting:**
 Our minds forget on purpose. Human thinking isn't bidirectional like these systems - we naturally let irrelevant thoughts fade while important ones resurface when needed. With LLMs handling our "active reflection," do we lose this essential cognitive filtering?
+
 **The Echo Chamber Effect:**
 There's a real worry about this becoming your external brain to the point where you stop using your internal one. If you're not exercising these cognitive muscles anymore, what happens to your capacity for independent thought? Things can easily become an echo chamber - if you just rely on AI to process everything, you might end up in a feedback loop of your own biases, amplified and reflected back at you.
+
 **Setting Boundaries:**
 I think using AI to help spot blind spots or explore thoughts you couldn't develop on your own is valuable. But the key is not allowing it to process everything in your life. You need barriers - specific areas where AI helps and others where you maintain full cognitive control.
 
