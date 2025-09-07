@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="7DBD2PxdMdwwa1Mfq6TWyEYGTry6CK4NE9KIFpCZibE">
+    <meta name="author" content="Eric Khun">
+    <meta name="description" content="Eric Khun&#39;s essays - I write about Taiwan - Scalability - Infrastructure - Engineering">
+    <meta name="keywords" content="blog, developer, personal, data">
+
+    <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://erickhun.com/img/defi-make-money-like-a-bank/defi-vs-Traditional-finance.jpg" /><meta name="twitter:title" content="DeFi: Make money like a bank"/>
+<meta name="twitter:description" content="DeFi, or Decentralized Finance, is probably one of today&rsquo;s biggest opportunities to generate high yield interest. It also unlocked the possibility for anyone to become their own bank. DeFi allows its users to make all kinds of various transactions, like exchanging currencies (via your bank that uses the FOREX in the traditional financial system), lending or borrowing. And with this capabilities, comes the possibility to collect fees and interest from those financial actions."/>
+
+    <meta property="og:title" content="DeFi: Make money like a bank" />
+<meta property="og:description" content="DeFi, or Decentralized Finance, is probably one of today&rsquo;s biggest opportunities to generate high yield interest. It also unlocked the possibility for anyone to become their own bank. DeFi allows its users to make all kinds of various transactions, like exchanging currencies (via your bank that uses the FOREX in the traditional financial system), lending or borrowing. And with this capabilities, comes the possibility to collect fees and interest from those financial actions." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://erickhun.com/posts/defi-make-money-like-a-bank/" /><meta property="og:image" content="https://erickhun.com/img/defi-make-money-like-a-bank/defi-vs-Traditional-finance.jpg" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-12-31T09:08:00+08:00" />
+<meta property="article:modified_time" content="2021-12-31T09:08:00+08:00" />
+
+
+
+    
+
+    
+      <base href="https://erickhun.com/posts/defi-make-money-like-a-bank/">
+    
+    <title>
+  DeFi: Make money like a bank
+</title>
+
+    
+      <link rel="canonical" href="https://erickhun.com/posts/defi-make-money-like-a-bank/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://erickhun.com/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+    
+    <link rel="icon" type="image/png" href="https://erickhun.com/img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://erickhun.com/img/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.122.0">
+  </head>
+
+  <body class=" ">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://erickhun.com/">
+      Eric Khun
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://erickhun.com/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://speakerdeck.com/erickhun/">Talks</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://erickhun.com/about">About me</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">DeFi: Make money like a bank</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              Published on: 
+              <time datetime='2021-12-31T09:08:00&#43;08:00'>
+                December 31, 2021
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              5 minutes read
+            </span>
+          </div>
+          <div class="categories">
+  <i class="fas fa-folder"></i>
+    <a href="https://erickhun.com/categories/blockchain/">blockchain</a>
+      <span class="separator">•</span>
+    <a href="https://erickhun.com/categories/investment/">investment</a></div>
+
+          
+        </div>
+      </header>
+
+      <div>
+        <p>DeFi, or Decentralized Finance, is probably one of today&rsquo;s biggest opportunities to generate high yield interest. It also unlocked the possibility for anyone to <strong>become their own bank</strong>. DeFi allows its users to make all kinds of various transactions, like exchanging currencies (via your bank that uses the FOREX in the traditional financial system), lending or borrowing. And with this capabilities, comes the possibility to collect fees and interest from those financial actions.</p>
+<p>I&rsquo;ll explain here the how DeFi allow people like you and me to become their own bank, and how it can generate interest for people who use it</p>
+<h2 id="option-1-lend-your-cryptocurrencies-and-earn-interest">Option 1: Lend your cryptocurrencies, and earn interest</h2>
+<p>Banks make money by taking the money you have deposited in their account and lending your money to other customers that ask for it. Usually, this happens without you knowing it. That&rsquo;s usually how banks make the majority of their profit. If you&rsquo;re not making any interest from your cash account, your bank probably makes (a lot of) money on the cash deposited, without you getting anything.  The profit made from those loans is categorized as&quot;Net Interest Income&quot;, and for the Deutch Bank, represent more than 65% of their revenue in 2011:</p>
+<p><img src="https://erickhun.com/img/defi-make-money-like-a-bank/how-banks-make-money.jpg" alt="How Banks make money diagram"></p>
+<p>In a DeFi world, you can deposit your cryptocurrencies in lending platforms. The most knowns are <a href="https://app.aave.com/markets">Aave</a> or <a href="https://app.compound.finance/">Compound</a>. The interest rate can change a lot and quickly. It&rsquo;s not unusual to see lending interest rates over 20%, and often more. Those rates depend on many parameters, such as demands, or if there are any incentives, etc&hellip; On <a href="https://defipulse.com/defi-lending">DefiPulse</a>, you can see the rates of the various lending services on Ethereum.</p>
+<p><img src="https://erickhun.com/img/defi-make-money-like-a-bank/defi-protocols-lending-rate-accross-time.jpg" alt="DeFi Lending Rates across time USDC"></p>
+<p>Lending interest rates on Ethereum are also quite low, compared to some lending services from other blockchains. <a href="https://traderjoexyz.com/#/lending">Trader Joe</a> on Avalanche have higher interest rates, because they have <a href="https://medium.com/avalancheavax/trader-joe-enters-avalanche-rush-with-an-incentives-program-up-to-20m-4646c6c20261">incentives</a> to attract users from other blockchains.</p>
+<p><img src="https://erickhun.com/img/defi-make-money-like-a-bank/defi-vs-Traditional-finance.jpg" alt="Lending Traditional banking vs defi"></p>
+<h2 id="option-2-become-a-liquidity-provider-get-the-fees-when-there-is-a-currency-conversion">Option 2: Become a Liquidity Provider, get the fees when there is a currency conversion</h2>
+<p>The most known way to buy cryptocurrencies is to go through services like Coinbase or Binance, which use order books to match buyers with sellers. They are called Centralized Exchanges, or CEX. CEX takes fees to help the transactions to happen. In the DeFi world, Decentralized exchanges (DEXs) allow users to swap crypto assets without an intermediary. The ones getting the fees are the ones helping to &ldquo;provide liquidity&rdquo;, also called Liquidity Providers (or LPs). And what is amazing is that everyone, like me or you, can become a Liquidity Provider and get the fees when someone makes a conversion from X to Y.</p>
+<p>Another way to see this is that instead of giving the fees to CEX (like Binance or Coinbase), or more traditionally to your bank, you&rsquo;re giving the fees to the ones helping to make this service work, and this could be you, me, or your neighbor.</p>
+<p>Here an example of what are the fees distributed to Liquidity Providers, when I want to exchange (or &ldquo;swap&rdquo;) some cryptocurrencies on a DEX, like <a href="https://uniswap.org">Uniswap</a> or <a href="https://www.traderjoexyz.com/">Trader Joe</a></p>
+<p><img src="https://erickhun.com/img/defi-make-money-like-a-bank/LiquidityProvidersFee.jpg" alt="Uniswap and TraderJoe LP fees"></p>
+<h2 id="risks">Risks</h2>
+<p>When lending your cryptocurrencies or becoming a Liquidity Providers, you should be aware of the different layers on the various blockchains that come with their risks. The risks of a traditional banking system exist, but you are usually covered with insurance and local laws in case of insolvency or wrongdoing, so even if they exist, they are limited.  In a blockchain world, those risks are different. You won&rsquo;t be covered if someone steals your money. I&rsquo;ll explain 2 of the major risks to use them: the smart-contract layer risk, and the blockchain risk.</p>
+<h3 id="smartcontract-risks">SmartContract Risks</h3>
+<p>When lending your cryptocurrencies, you basically give them to a Smart-contract, where the rules are written. However, if there are flaws in the code, there is nothing we can do about it, and if someone finds out about the flaw, you&rsquo;ll likely lose the asset you&rsquo;ve lent.  Cream Finance, a leading lending platform, <a href="https://medium.com/@AndyPavia/swissblock-post-mortem-cream-finance-hack-7c1caff4335c">has been the victim of one of those hacks</a>.</p>
+<p>To prevent those risks if you can&rsquo;t read the smart-contract code. Ideally:</p>
+<ul>
+<li>The platform you are using has a clean track record.</li>
+<li>They&rsquo;ve asked professionals to perform <a href="https://coinmarketcap.com/alexandria/glossary/smart-contract-audit">audits</a> on their smart-contract code.</li>
+</ul>
+<h3 id="blockchain-risks">Blockchain risks</h3>
+<p>One of the most of the blockchain is its decentralization property. In a traditional system, 1 authority could the authority to falsify transactions as their will. In a decentralized blockchain world, it shouldn&rsquo;t be possible, <strong>in theory</strong>.</p>
+<p>Indeed, some blockchains aren&rsquo;t as &ldquo;decentralized&rdquo; as they seem. If for some reason, 1 bad actor can take control of the nodes validating the transactions because the network isn&rsquo;t decentralized enough, this bad actor could change/add/remove any transaction as its will. Picking a blockchain where decentralization is respected is important and gives you more peace of mind.</p>
+<p>I&rsquo;d be cautious to use blockchains such as <a href="https://www.reddit.com/r/CryptoCurrency/comments/nfsger/polygon_matics_network_centralization_issue_top_3/">Polygon</a>, <a href="https://cointelegraph.com/news/scalability-or-stability-solana-network-outages-show-work-still-needed">Solana</a> or <a href="https://twitter.com/WilsonWithiam/status/1381420702918664194">Binance Smart Chain</a> where the nodes validating the transaction are just a few entities having control over them. On contrary, the Ethereum or Avalanche blockchains do not have these decentralization issues.</p>
+<h2 id="conclusion">Conclusion</h2>
+<table>
+<thead>
+<tr>
+<th>DeFi</th>
+<th>Traditional Financial system</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>You can earn fees when a currency conversion happen</td>
+<td>Banks or Brokers brokers earn the conversion fees</td>
+</tr>
+<tr>
+<td>You can earn interest when someone borrow your money</td>
+<td>Banks use your money you deposit and lend it to someone else, and earn most of the fees</td>
+</tr>
+<tr>
+<td>Open 24/7</td>
+<td>Business hours</td>
+</tr>
+<tr>
+<td>Everything is transparent. You know what will happen</td>
+<td>Hidden rules and fees</td>
+</tr>
+<tr>
+<td>You control the money you&rsquo;ve deposit</td>
+<td>The bank can do what they want with the money you&rsquo;ve deposit, freeze it, lend it</td>
+</tr>
+<tr>
+<td>If a Hack happen, you&rsquo;ve lost the money</td>
+<td>Banks (insurance) can cover if anything happen</td>
+</tr>
+</tbody>
+</table>
+<p>ps: This isn&rsquo;t financial advices</p>
+<style>
+    .Button {
+    display: inline-block;
+    padding: 14px 15 px;
+    text-align: center;
+    font-size: 11px;
+    font-family: archivo-black,sans-serif;
+    line-height: 1.1;
+    text-transform: uppercase;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+    color: #282828;
+    background-color: #efefef;
+    border: 1px solid #efefef;
+    width: 100%;
+    max-width: 312px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    width: 50%;
+    font-weight: bold;
+    margin: 20px;
+}
+    </style>
+<div class="w-full overflow-hidden mb-10 md:mb-0 md:px-10 md:w-1/2"><a title="Discuss on Twitter" href="https://twitter.com/intent/tweet?in_reply_to=1478345389921423366" target="_blank" class="Button Button--hasArrow"><span>Discuss on Twitter
+<svg width="18" height="10" xmlns="http://www.w3.org/2000/svg" class="icon icon-arrow-left"><path d="M13.922 5.636L9.055 9.455l.72.545C12.892 7.788 14.606 6.758 18 5l-1.134-.585C14.177 3.007 12.496 1.952 9.774 0l-.72.545 4.868 3.819H0v1.272h13.922z" fill="#729426" fill-rule="nonzero"></path></svg></span></a></div>
+<div style="background-color: antiquewhite; margin: 10px; border-radius: 1px; padding: 20px 40px; margin-top:30px">
+ps: I'm currently working on a <a href="https://taipeidev.com"> Job Board for software engineers who want to find a job in Taiwan.</a>
+</div>
+<h4 id="next-read">Next read:</h4>
+<p>🧑‍💻 <a href="https://erickhun.com/posts/explaining-blockchains-to-developers">Explaining blockchains to developers</a></p>
+<p>🌌 <a href="https://erickhun.com/posts/nft-misconception-image-arent-on-blockchains/">NFT misconception: JPEG aren&rsquo;t on the Blockchain</a></p>
+
+
+        <h2 id="mistakes-arent-allowed">Liked it?</h2>
+        <p>As always, <a href="https://erickhun.com/about">hit me up</a> and let’s hang out. I'm now focused on PlayCraft: <a href="https://playcraft.fun">turning marketing campaigns into engaging games in seconds</a>  (with AI). <br>  I also gather developers in Taiwan through <a href="https://taipeidev.com">TaipeiDev</a> - come join us if you're in Taipei! </p>
+
+
+        <center>
+
+            
+            <a href="https://twitter.com/eric_khun" class="twitter-follow-button" data-size="large" data-show-count="true">Follow @eric_khun</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <br >
+            <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2ferickhun.com%2fposts%2fdefi-make-money-like-a-bank%2f&s=fb" target="_blank" rel="noopener" aria-label="Facebook">
+              <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--medium"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm3.6 11.5h-2.1v7h-3v-7h-2v-2h2V8.34c0-1.1.35-2.82 2.65-2.82h2.35v2.3h-1.4c-.25 0-.6.13-.6.66V9.5h2.34l-.24 2z"/></svg></div>Facebook</div>
+            </a>
+  
+            
+            <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=DeFi%3a%20Make%20money%20like%20a%20bank by @eric_khun &amp;url=https%3a%2f%2ferickhun.com%2fposts%2fdefi-make-money-like-a-bank%2f&s=tw" target="_blank" rel="noopener" aria-label="Twitter">
+              <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--medium"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm5.26 9.38v.34c0 3.48-2.64 7.5-7.48 7.5-1.48 0-2.87-.44-4.03-1.2 1.37.17 2.77-.2 3.9-1.08-1.16-.02-2.13-.78-2.46-1.83.38.1.8.07 1.17-.03-1.2-.24-2.1-1.3-2.1-2.58v-.05c.35.2.75.32 1.18.33-.7-.47-1.17-1.28-1.17-2.2 0-.47.13-.92.36-1.3C7.94 8.85 9.88 9.9 12.06 10c-.04-.2-.06-.4-.06-.6 0-1.46 1.18-2.63 2.63-2.63.76 0 1.44.3 1.92.82.6-.12 1.95-.27 1.95-.27-.35.53-.72 1.66-1.24 2.04z"/></svg></div>Twitter</div>
+            </a>
+  
+            
+            <a class="resp-sharing-button__link" href="mailto:?subject=DeFi%3a%20Make%20money%20like%20a%20bank &amp;body=DeFi%3a%20Make%20money%20like%20a%20bank - https%3a%2f%2ferickhun.com%2fposts%2fdefi-make-money-like-a-bank%2f&s=email" target="_self" rel="noopener" aria-label="E-Mail">
+              <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--medium"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm8 16c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2V8c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2v8z"/><path d="M17.9 8.18c-.2-.2-.5-.24-.72-.07L12 12.38 6.82 8.1c-.22-.16-.53-.13-.7.08s-.15.53.06.7l3.62 2.97-3.57 2.23c-.23.14-.3.45-.15.7.1.14.25.22.42.22.1 0 .18-.02.27-.08l3.85-2.4 1.06.87c.1.04.2.1.32.1s.23-.06.32-.1l1.06-.9 3.86 2.4c.08.06.17.1.26.1.17 0 .33-.1.42-.25.15-.24.08-.55-.15-.7l-3.57-2.22 3.62-2.96c.2-.2.24-.5.07-.72z"/></svg></div>E-Mail</div>
+            </a>
+  
+            
+            <a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=https%3a%2f%2ferickhun.com%2fposts%2fdefi-make-money-like-a-bank%2f&amp;resubmit=true&amp;title=DeFi%3a%20Make%20money%20like%20a%20bank&s=red" target="_blank" rel="noopener" aria-label="Reddit">
+              <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--medium"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="9.391" cy="13.392" r=".978"/><path d="M14.057 15.814c-1.14.66-2.987.655-4.122-.004-.238-.138-.545-.058-.684.182-.13.24-.05.545.19.685.72.417 1.63.646 2.568.646.93 0 1.84-.228 2.558-.642.24-.13.32-.44.185-.68-.14-.24-.445-.32-.683-.18zM5 12.086c0 .41.23.78.568.978.27-.662.735-1.264 1.353-1.774-.2-.207-.48-.334-.79-.334-.62 0-1.13.507-1.13 1.13z"/><path d="M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12 12-5.383 12-12S18.617 0 12 0zm6.673 14.055c.01.104.022.208.022.314 0 2.61-3.004 4.73-6.695 4.73s-6.695-2.126-6.695-4.74c0-.105.013-.21.022-.313C4.537 13.73 4 12.97 4 12.08c0-1.173.956-2.13 2.13-2.13.63 0 1.218.29 1.618.757 1.04-.607 2.345-.99 3.77-1.063.057-.803.308-2.33 1.388-2.95.633-.366 1.417-.323 2.322.085.302-.81 1.076-1.397 1.99-1.397 1.174 0 2.13.96 2.13 2.13 0 1.177-.956 2.133-2.13 2.133-1.065 0-1.942-.79-2.098-1.81-.734-.4-1.315-.506-1.716-.276-.6.346-.818 1.395-.88 2.087 1.407.08 2.697.46 3.728 1.065.4-.468.987-.756 1.617-.756 1.17 0 2.13.953 2.13 2.13 0 .89-.54 1.65-1.33 1.97z"/><circle cx="14.609" cy="13.391" r=".978"/><path d="M17.87 10.956c-.302 0-.583.128-.79.334.616.51 1.082 1.112 1.352 1.774.34-.197.568-.566.568-.978 0-.623-.507-1.13-1.13-1.13z"/></svg></div>Reddit</div>
+            </a>
+  
+            
+            <a class="resp-sharing-button__link" href="whatsapp://send?text=DeFi%3a%20Make%20money%20like%20a%20bank - https%3a%2f%2ferickhun.com%2fposts%2fdefi-make-money-like-a-bank%2f&s=whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--medium"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24"><path d="m12 0c-6.6 0-12 5.4-12 12s5.4 12 12 12 12-5.4 12-12-5.4-12-12-12zm0 3.8c2.2 0 4.2 0.9 5.7 2.4 1.6 1.5 2.4 3.6 2.5 5.7 0 4.5-3.6 8.1-8.1 8.1-1.4 0-2.7-0.4-3.9-1l-4.4 1.1 1.2-4.2c-0.8-1.2-1.1-2.6-1.1-4 0-4.5 3.6-8.1 8.1-8.1zm0.1 1.5c-3.7 0-6.7 3-6.7 6.7 0 1.3 0.3 2.5 1 3.6l0.1 0.3-0.7 2.4 2.5-0.7 0.3 0.099c1 0.7 2.2 1 3.4 1 3.7 0 6.8-3 6.9-6.6 0-1.8-0.7-3.5-2-4.8s-3-2-4.8-2zm-3 2.9h0.4c0.2 0 0.4-0.099 0.5 0.3s0.5 1.5 0.6 1.7 0.1 0.2 0 0.3-0.1 0.2-0.2 0.3l-0.3 0.3c-0.1 0.1-0.2 0.2-0.1 0.4 0.2 0.2 0.6 0.9 1.2 1.4 0.7 0.7 1.4 0.9 1.6 1 0.2 0 0.3 0.001 0.4-0.099s0.5-0.6 0.6-0.8c0.2-0.2 0.3-0.2 0.5-0.1l1.4 0.7c0.2 0.1 0.3 0.2 0.5 0.3 0 0.1 0.1 0.5-0.099 1s-1 0.9-1.4 1c-0.3 0-0.8 0.001-1.3-0.099-0.3-0.1-0.7-0.2-1.2-0.4-2.1-0.9-3.4-3-3.5-3.1s-0.8-1.1-0.8-2.1c0-1 0.5-1.5 0.7-1.7s0.4-0.3 0.5-0.3z"/></svg></div>WhatsApp</div>
+            </a>
+    
+          </center>
+      </div>
+
+
+  <style>
+
+.resp-sharing-button__link,
+.resp-sharing-button__icon {
+  display: inline-block
+}
+
+.resp-sharing-button__link {
+  text-decoration: none;
+  color: #fff;
+  margin: 0.5em
+}
+
+.resp-sharing-button {
+  border-radius: 5px;
+  transition: 25ms ease-out;
+  padding: 0.5em 0.75em;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+.resp-sharing-button__icon svg {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.4em;
+  vertical-align: top
+}
+
+.resp-sharing-button--small svg {
+  margin: 0;
+  vertical-align: middle
+}
+
+ 
+.resp-sharing-button__icon {
+  stroke: #fff;
+  fill: none
+}
+
+ 
+.resp-sharing-button__icon--solid,
+.resp-sharing-button__icon--solidcircle {
+  fill: #fff;
+  stroke: none
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee
+}
+
+.resp-sharing-button--twitter:hover {
+  background-color: #2795e9
+}
+
+.resp-sharing-button--pinterest {
+  background-color: #bd081c
+}
+
+.resp-sharing-button--pinterest:hover {
+  background-color: #8c0615
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998
+}
+
+.resp-sharing-button--facebook:hover {
+  background-color: #2d4373
+}
+
+.resp-sharing-button--tumblr {
+  background-color: #35465C
+}
+
+.resp-sharing-button--tumblr:hover {
+  background-color: #222d3c
+}
+
+.resp-sharing-button--reddit {
+  background-color: #5f99cf
+}
+
+.resp-sharing-button--reddit:hover {
+  background-color: #3a80c1
+}
+
+.resp-sharing-button--google {
+  background-color: #dd4b39
+}
+
+.resp-sharing-button--google:hover {
+  background-color: #c23321
+}
+
+.resp-sharing-button--linkedin {
+  background-color: #0077b5
+}
+
+.resp-sharing-button--linkedin:hover {
+  background-color: #046293
+}
+
+.resp-sharing-button--email {
+  background-color: #777
+}
+
+.resp-sharing-button--email:hover {
+  background-color: #5e5e5e
+}
+
+.resp-sharing-button--xing {
+  background-color: #1a7576
+}
+
+.resp-sharing-button--xing:hover {
+  background-color: #114c4c
+}
+
+.resp-sharing-button--whatsapp {
+  background-color: #25D366
+}
+
+.resp-sharing-button--whatsapp:hover {
+  background-color: #1da851
+}
+
+.resp-sharing-button--hackernews {
+background-color: #FF6600
+}
+.resp-sharing-button--hackernews:hover, .resp-sharing-button--hackernews:focus {   background-color: #FB6200 }
+
+.resp-sharing-button--vk {
+  background-color: #507299
+}
+
+.resp-sharing-button--vk:hover {
+  background-color: #43648c
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+
+.resp-sharing-button--facebook:hover,
+.resp-sharing-button--facebook:active {
+  background-color: #2d4373;
+  border-color: #2d4373;
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee;
+  border-color: #55acee;
+}
+
+.resp-sharing-button--twitter:hover,
+.resp-sharing-button--twitter:active {
+  background-color: #2795e9;
+  border-color: #2795e9;
+}
+
+.resp-sharing-button--email {
+  background-color: #777777;
+  border-color: #777777;
+}
+
+.resp-sharing-button--email:hover,
+.resp-sharing-button--email:active {
+  background-color: #5e5e5e;
+  border-color: #5e5e5e;
+}
+
+.resp-sharing-button--reddit {
+  background-color: #5f99cf;
+  border-color: #5f99cf;
+}
+
+.resp-sharing-button--reddit:hover,
+.resp-sharing-button--reddit:active {
+  background-color: #3a80c1;
+  border-color: #3a80c1;
+}
+
+.resp-sharing-button--whatsapp {
+  background-color: #25D366;
+  border-color: #25D366;
+}
+
+.resp-sharing-button--whatsapp:hover,
+.resp-sharing-button--whatsapp:active {
+  background-color: #1DA851;
+  border-color: #1DA851;
+}
+
+.resp-sharing-button--hackernews {
+  background-color: #FF6600;
+  border-color: #FF6600;
+}
+
+.resp-sharing-button--hackernews:hover
+.resp-sharing-button--hackernews:active {
+  background-color: #FB6200;
+  border-color: #FB6200;
+}
+
+
+
+  </style>
+
+
+
+        
+        <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+          #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+           
+
+
+            .icon-love {    margin-left: 0px; margin-right: 4px;-webkit-animation:heartbeat 1.2s ease-in-out infinite;animation:heartbeat 1.2s ease-in-out infinite}@-webkit-keyframes heartbeat{0%{-webkit-transform:scale(1);transform:scale(1)}14%{-webkit-transform:scale(1.3);transform:scale(1.3)}28%{-webkit-transform:scale(1);transform:scale(1)}42%{-webkit-transform:scale(1.3);transform:scale(1.3)}70%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes heartbeat{0%{-webkit-transform:scale(1);transform:scale(1)}14%{-webkit-transform:scale(1.3);transform:scale(1.3)}28%{-webkit-transform:scale(1);transform:scale(1)}42%{-webkit-transform:scale(1.3);transform:scale(1.3)}70%{-webkit-transform:scale(1);transform:scale(1)}}@media screen and (max-width:425px){footer{height:auto;flex-direction:column;align-items:flex-start;padding-top:20px;padding-bottom:20px;font-size:18px}
+
+        </style>
+        <div id="mc_embed_signup" style="background-color: antiquewhite; margin-top: 50px; border-radius: 4px; padding: 20px;">
+        <form action="https://gmail.us20.list-manage.com/subscribe/post?u=af7a3f032dc0d452b55913b39&amp;id=1db1866588&SIGNUP_SRC=DeFi%3a%20Make%20money%20like%20a%20bank" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+          <label for="mce-EMAIL"> 
+            
+            I write mostly about - tech and anything I find interesting -  Subscribe to get more of it  ️
+            
+          </label>
+          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="your email address" required>
+            
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_af7a3f032dc0d452b55913b39_1db1866588" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            </div>
+        </form>
+        </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+      <p>Feel free to contact me <a href="https://twitter.com/eric_khun">@eric_khun</a></p>
+    
+    
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-106516-7', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+  </body>
+
+</html>
