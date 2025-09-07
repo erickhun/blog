@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thoughts on Eric Khun</title>
+    <link>https://erickhun.com/categories/thoughts/</link>
+    <description>Recent content in Thoughts on Eric Khun</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 01 Oct 2016 02:00:06 +0200</lastBuildDate>
+    <atom:link href="https://erickhun.com/categories/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hi, I&#39;m Eric :)</title>
+      <link>https://erickhun.com/posts/hi/</link>
+      <pubDate>Sat, 01 Oct 2016 02:00:06 +0200</pubDate>
+      <guid>https://erickhun.com/posts/hi/</guid>
+      <description>Hi there, thanks for cheking the blog! I&amp;rsquo;m Eric, engineer at Buffer. I&amp;rsquo;ve been working remotely since 2013, from different places in the world. I happen to be mostly in Asia, my favorite part of the world! I now live in Taiwan, and can stay here with the Employment Gold Card&#xA;I&amp;rsquo;m travelling quite a bit, I&amp;rsquo;d like share a little bit of the places I visit, my experiences, or challenges about remote work.</description>
+    </item>
+  </channel>
+</rss>
