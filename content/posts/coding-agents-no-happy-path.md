@@ -45,7 +45,7 @@ X is finite. Y is **infinite**.  🤯
 
 ## How I Applied This
 
-I'd been using this pattern for months without realizing it - [Connecting Obsidian with Claude (Desktop)](/posts/partner-os-claude-mcp-obsidian/) but then building a bot at [Buffer](buffer.com) with tools (git) that could grab source code and answer questions autonomously across all source code:
+I'd been using this pattern for months without realizing it - [Connecting Obsidian with Claude (Desktop)](/posts/partner-os-claude-mcp-obsidian/) but then building a bot at [Buffer](https://buffer.com) with tools (git) that could grab source code and answer questions autonomously across all source code:
 
 ![Asking a coding agent about our source code](/img/coding-agents-no-happy-path/early-bot-question.png)
 
