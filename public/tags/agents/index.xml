@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>agents on Eric Khun</title>
+    <link>https://erickhun.com/tags/agents/</link>
+    <description>Recent content in agents on Eric Khun</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 03 Feb 2026 10:00:00 +0800</lastBuildDate>
+    <atom:link href="https://erickhun.com/tags/agents/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your App Shouldn&#39;t Have a Happy Path</title>
+      <link>https://erickhun.com/posts/coding-agents-no-happy-path/</link>
+      <pubDate>Tue, 03 Feb 2026 10:00:00 +0800</pubDate>
+      <guid>https://erickhun.com/posts/coding-agents-no-happy-path/</guid>
+      <description>What if instead of deciding what your app should do, you let it figure that out for each user?&#xA;There&amp;rsquo;s something happening with coding agents right now that makes this possible. I&amp;rsquo;m not talking about ChatGPT or Claude apps you use every day. I&amp;rsquo;m talking about agents that have access to tools - they can browse your files, query databases, read documentation, hit APIs. They have all the context they need.</description>
+    </item>
+  </channel>
+</rss>
