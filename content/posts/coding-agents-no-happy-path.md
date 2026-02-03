@@ -104,6 +104,8 @@ But here's where it gets exciting. The agent can accomplish things you didn't ex
 
 You're not shipping features anymore. You're expanding capabilities.
 
+**I believe this is a new way to think about how we build applications. Coding agents don't just help developers—they enable entirely new kinds of products.**
+
 Agent-native architecture has consequences for how products *feel*, not just how they're built. The product becomes **less predictable but more useful**. You stop designing for the "average user" and start enabling any user's path.
 
 The tricky part is tuning the agent's discretion. In my Slack bot, missed signals meant not enough direction. Wrong tool calls meant I needed more precision. It's a lot about finding the right balance - not too prescriptive in your prompts, not adding too many examples, or the agent leans too hard in one direction. I suspect we'll see prompt engineering become a real discipline (we're already seeing it). People who understand the limits and possibilities of each model and tune them accordingly.
