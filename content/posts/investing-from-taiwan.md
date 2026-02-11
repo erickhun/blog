@@ -1,26 +1,29 @@
 +++
 categories = ["taiwan", "investment"]
 date = "2021-05-30T14:37:00+08:00"
+modified_date = 2026-02-11T22:10:21+08:00
 description = ""
 draft = false
 images = ["/img/investing-in-taiwan/management-fees-impact-graph.png"]
 title = "How to invest in ETFs and Stocks from Taiwan"
 +++
 
-I've spent a tremendous amount of time investigating on how to invest from Taiwan. Many expats asked me the questions, so I've decided to write down how I do it. I'll also write different alternative options you could explore. This article **will likely apply to Tax resident in Taiwan, non-US citizens** and talk about **long term investment** (15+ years horizon). 
+I've spent a tremendous amount of time investigating how to invest from Taiwan. Many expats asked me the questions, so I've decided to write down how I do it. I'll also write different alternative options you could explore. This article **will likely apply to Tax resident in Taiwan, non-US citizens** and talk about **long term investment** (15+ years horizon).
 
-Remember:  I'm not a financial advisor, and invite you to make more researches or seek professional advice. Again, US citizens and green card holders, please [don't follow the recommendations](https://thunfinancial.com/home/american-expat-financial-advice-research-articles/why-americans-should-never-ever-own-shares-in-a-non-us-incorporated-mutual-fund/) in my post, this post is directed to **non-US** persons.
+Remember:  I'm not a financial advisor, and invite you to do more research or seek professional advice. Again, US citizens and green card holders, please [don't follow the recommendations](https://thunfinancial.com/home/american-expat-financial-advice-research-articles/why-americans-should-never-ever-own-shares-in-a-non-us-incorporated-mutual-fund/) in my post, this post is directed to **non-US** persons.
 
 ## Before starting: make sure to have an emergency fund
 
-Do you have enough in your bank account for the next 6 months? This is one of the best recommendations. The main purpose of it is to act as a safety net if an emergency happens. This emergency fund will help you to give you enough buffer to cover any immediate needs, without touching to you investment. No one is guaranteed to keep its job forever, accidents, a major repair of your home. Withdrawing your investment **will hurt the returns on your investment**, so this fund is key to preserve the performance of it.
+Do you have enough in your bank account for the next 6 months? This is one of the best recommendations. The main purpose of it is to act as a safety net if an emergency happens. This emergency fund will help give you enough buffer to cover any immediate needs, without touching your investment. No one is guaranteed to keep their job forever, accidents happen, a major repair of your home may be needed. Withdrawing your investment **will hurt the returns on your investment**, so this fund is key to preserve the performance of it.
 
-I split my emergency fund between [Revolut](https://revolut.com/referral/ericb1ef) and Taipei Fubon Bank:
+I split my emergency fund between a foreign bank account and a taiwanese one: 
 
-- [**Taipei Fubon Bank**](https://www.fubon.com/banking/personal/): It has a decent English interface (not the mobile app unfortunately). By experience, customer service at any branche in the city is pretty good. They're also known for being the cheapest bank to send money abroad.
+- [**Taipei Fubon Bank**](https://www.fubon.com/banking/personal/): It has a decent English interface (and a new English app they've released in 2025). By experience, customer service at any branch in the city is pretty good. They're also known for being the cheapest bank to send money abroad.
 - [**Revolut**](https://revolut.com/referral/ericb1ef): I am often abroad and the flexibility it gives you when you travel any country is great. 
 
-The downside of both is that you won't get much interest on them. But the goal is to have access to cash at time you will expect the least, and it will help you and won't hurt your investment. Your home country might give you some better interest rate accounts wit saving accounts, but using your debit/credit card could involve some fees on the long term.
+The downside of both is that you won't get much interest on them. But the goal is to have access to cash at time you will expect the least, and it will help you and won't hurt your investment. Your home country might give you some better interest rate accounts with saving accounts, but using your debit/credit card could involve some fees in the long term.
+
+And why not only a Taiwanese bank? Because I've heard many stories of foreigners getting their bank locked for some really random reason (like your ARC expiring).
 
 ## Which financial security to buy?
 I'll only focus here on a long-term investments for the next 15 to 30 years. 
@@ -37,17 +40,17 @@ I personally recommend [**IWDA**](https://www.ishares.com/uk/individual/en/produ
 ### Diversification with ETFs (and why I don't recommend picking stocks)
 On the long term, putting all your savings in a single company is risky (aka *"put all your eggs in the same basket"*). What if this company never grows, or worst goes bankrupt? Investing in multiple companies is a way to **manage risks** and minimize it. 
 
-It exists some financial products that help you to diversify. They're called [ETFs](https://www.thisismoney.co.uk/money/indexinvesting/article-4596628/Does-matter-global-ETF-invest-in.html). It's like a group of share of multiple companies grouped in a "single share". By purchasing a single share of an ETF, it is like if you own a part of few to up to thousands companies, accross multiples countries.
+There are financial products that help you diversify. They're called [ETFs](https://www.thisismoney.co.uk/money/indexinvesting/article-4596628/Does-matter-global-ETF-invest-in.html). It's like a group of shares of multiple companies grouped in a "single share". By purchasing a single share of an ETF, it is like owning a part of a few to up to thousands of companies, across multiple countries.
 
-\* _However, stock picking could be a good choice for you, if you understand the companies, their balance sheets, the market it is in. It is however time consuming, and most of the time people trying to do it end up losing money, trying to [beat the market](https://www.investopedia.com/ask/answers/12/beating-the-market.asp). This is why I won't recommend it for inexperimented investestors._
+\* _However, stock picking could be a good choice for you, if you understand the companies, their balance sheets, the market they are in. It is however time consuming, and most of the time people trying to do it end up losing money, trying to [beat the market](https://www.investopedia.com/ask/answers/12/beating-the-market.asp). This is why I won't recommend it for inexperienced investors._
 
-#### IWDA to cover developped countries
+#### IWDA to cover developed countries
 
 [**IWDA**](https://www.ishares.com/uk/individual/en/products/251882/ishares-msci-world-ucits-etf-acc-fund) is one of the well diversified ETF I do recommend if you live in Taiwan. It is cheap to buy, is diversified, and the index it follows ([MSCI World](https://en.wikipedia.org/wiki/MSCI_World)) has great performance (averaging 8.5% returns since 1987).  
 
 IWDA has exposure to all developed countries (US, France, Japan, UK, Canada, etc...) in the major industries (tech, healthcare, finance, consumers...). Buying 1 share of IWDA, is like buying indirectly a part of more than 1500 companies including Apple, Microsoft, Amazon, Tesla or Google.
 
-Here the top countries and companies it covers:
+Here are the top countries and companies it covers:
 ![MSCI World exposure](/img/investing-in-taiwan/msci-world-holdings.png)
 
 ![IWDA top holdings](/img/investing-in-taiwan/iwda-holdings.png)
@@ -55,9 +58,9 @@ Here the top countries and companies it covers:
 
 #### EIMI to cover Emerging Markets
 
-However, IWDA doesn't have exposure to the countries in the "Emerging Markets" such as China, , South Korea, India, or Taiwan. Having lived few years in China and Taiwan, I have seen from my own eye how [how vital are the high-end Taiwanese companies](../world-innovation-taiwan-semiconductors/), or Chinese companies. I wanted to have exposure to those countries. [**EIMI**](https://www.ishares.com/uk/individual/en/products/264659/ishares-msci-emerging-markets-imi-ucits-etf) is the perfect one for that.
+However, IWDA doesn't have exposure to the countries in the "Emerging Markets" such as China, South Korea, India, or Taiwan. Having lived a few years in China and Taiwan, I have seen from my own eyes [how vital the high-end Taiwanese companies are](../world-innovation-taiwan-semiconductors/), or Chinese companies. I wanted to have exposure to those countries. [**EIMI**](https://www.ishares.com/uk/individual/en/products/264659/ishares-msci-emerging-markets-imi-ucits-etf) is the perfect one for that.
 
-EIMI is based on the [MSCI Emerging Market Index](https://www.msci.com/documents/10199/c0db0a48-01f2-4ba9-ad01-226fd5678111). It has. It covers 1300+ companies, withing 27 countries, and has a return of 9.67% since 2010. 
+EIMI is based on the [MSCI Emerging Market Index](https://www.msci.com/documents/10199/c0db0a48-01f2-4ba9-ad01-226fd5678111). It covers 1300+ companies, within 27 countries, and has a return of 9.67% since 2010. 
 
 ![EIMI Holdings](/img/investing-in-taiwan/eimi-holding-companies.png)
 
@@ -78,15 +81,15 @@ TODO :
 **Why so many countries and companies?** Isn't IWDA enough? The reason is simple... how do you know which country or company will perform better than the other in the next decades? By investing in those 2 ETFs, you'll basically bet into **the world's ability to grow**. You will invest into the world's biggest companies by purchasing a single share of it. 
 
 
-#### VWRA to cover both developped countries and emerging markets
+#### VWRA to cover both developed countries and emerging markets
 
 **Is there an Ireland based ETF covering both IWDA and EIMI?**
-Yes. It's [VWRA](https://global.vanguard.com/portal/site/loadPDF?country=pt&docId=31355). Buying VWRA is like buying IWDA and EIMI all together. It's like buying a small share of 3500+ comapnies. It is also a good choice because you wouldn't need to think about which one of IWDA or EIMI, so it makes the process of buying easier, without the need to calculate your allocation of IWDA/EIMI. The downside is that the expense ratio for VWRA (0.22%) is slightly higher than IWDA(0.20%) or EIMI(0.18%). [VWRD](https://global.vanguard.com/portal/site/loadPDF?country=fr&docId=31781) is the distributing version of it if you want to manually reinvest the dividends.
+Yes. It's [VWRA](https://global.vanguard.com/portal/site/loadPDF?country=pt&docId=31355). Buying VWRA is like buying IWDA and EIMI all together. It's like buying a small share of 3500+ companies. It is also a good choice because you wouldn't need to think about which one of IWDA or EIMI, so it makes the process of buying easier, without the need to calculate your allocation of IWDA/EIMI. The downside is that the expense ratio for VWRA (0.22%) is slightly higher than IWDA(0.20%) or EIMI(0.18%). [VWRD](https://global.vanguard.com/portal/site/loadPDF?country=fr&docId=31781) is the distributing version of it if you want to manually reinvest the dividends.
 
-Here how VWRA cover the entire world: 
+Here is how VWRA covers the entire world: 
 ![description](/img/investing-in-taiwan/vwra-vwrd-world-coverage.png)
 
-And how it covers all the industries, and what are the top holdings: 
+And how it covers all the industries, and the top holdings: 
 ![description](/img/investing-in-taiwan/vwra-vwrd-industry-top-companies-holding.png)
 
 
@@ -141,9 +144,9 @@ IWDA also ticks the box. The difference of reinvesting and not reinvesting the d
 
 ## Which broker should I chose?
 
-[**Interactive Brokers**](https://www.interactivebrokers.com/referral/eric990) (I'll call it IB) is the one I **highly recommend**. You'll access to all types of securities: ETFs, stocks and even currencies. It has the lowest fees to purchase them. It will also allow you to access to the ETFs I've recommended earlier: IWDA and EIMI or VWRA/VWRD, among thousantds of other ETFs and Stocks.
+[**Interactive Brokers**](https://www.interactivebrokers.com/referral/eric990) (I'll call it IB) is the one I **highly recommend**. You'll access to all types of securities: ETFs, stocks and even currencies. It has the lowest fees to purchase them. It will also allow you to access the ETFs I've recommended earlier: IWDA and EIMI or VWRA/VWRD, among thousands of other ETFs and Stocks.
 
-The signup process is straight-forward. Simply fill your information in the signup page, and wait a few days before validation. Make sure to fill your tax residence (Taiwan) since it will could impact how the tax could be taken directly by the broker (cf. below). Your Tax ID is the same as your ARC number. Also, [*be aware of the monthly fee if your orders don't generate at least USD 10 of fees per month*](https://www1.interactivebrokers.com/en/index.php?f=4969). The fee is waived if you have USD 100,000 of assets in your account.
+The signup process is straight-forward. Simply fill your information in the signup page, and wait a few days before validation. Make sure to fill your tax residence (Taiwan) since it could impact how the tax is taken directly by the broker (cf. below). Your Tax ID is the same as your ARC number. Also, [*be aware of the monthly fee if your orders don't generate at least USD 10 of fees per month*](https://www1.interactivebrokers.com/en/index.php?f=4969). The fee is waived if you have USD 100,000 of assets in your account.
 
 **How about local banks?**  Local banks will charge you quite a bit of fees to access to any foreign securities, but could probably be a good pick if you want to invest in Taiwanese securities. I won't expand on this since I didn't dig into this yet, but they generally charge an excessive amount per order, require a minimum stock per order, or charge an additional annual fee on top of of ETF expense ratio (They will charge a custodian fee because when buying securities via a bank in Taiwan, it is structured as a trust). Also, be aware: when your ARC expires, your bank (and investing) accounts will be frozen. You will have to move your assets out of your accounts, what will trigger some unwanted tax events (ask your CPA for the infamous exit tax). For all those reason,  I think it's good to stay away from for the long term if you are not sure to stay in Taiwan for the next 15 years.
 
@@ -160,7 +163,7 @@ Protip: With Fubon, you can "link" the Interactive Brokers account to your accou
 
 ![Taiwan Banks with the best exhchange rates](/img/investing-in-taiwan/twd-usd-rates-per-banks.png)
 
-The rates difference are almost the same, and ranking can change considerably on the hourly basiss. . I wouldn't chose a bank based on this information, unless you have a really big amount (more than 1,000,000 TWD) to exchange. 
+The rates difference are almost the same, and ranking can change considerably on an hourly basis. I wouldn't choose a bank based on this information, unless you have a really big amount (more than 1,000,000 TWD) to exchange. 
 
 
 **Is there a way to send money from Taiwan to Interactive Broker for free?** There is no straightforward way to send money from Taiwan to Interactive Brokers, but here some tips: 
@@ -170,12 +173,12 @@ The rates difference are almost the same, and ranking can change considerably on
 ## Tax in Taiwan
 
 #### Tax on capital gain
-The great benefit of Taiwan when investing that there is no capital gain. It means if you buy a share for USD10 and sell it when it worth 100USD you won't pay tax on the USD 90 profit.
+The great benefit of Taiwan when investing is that there is no capital gain tax. It means if you buy a share for USD10 and sell it when it's worth USD100, you won't pay tax on the USD 90 profit.
 
 #### Tax on dividends, and the importance of fund domicile
 Taiwanese residents investing directly in the American market are taxed 30% on dividends. However, you can lower it to 15% by buying shares with a fund domiciled in Ireland.
 
-What is important to understand when calculating tax on dividends, is that it exists multiple levels of taxation. I'll give more detail on how they applied on each level as a Taiwan tax resident: 
+What is important to understand when calculating tax on dividends is that there are multiple levels of taxation. I'll give more details on how they apply at each level as a Taiwan tax resident: 
 
 - **L1TW** (Level 1): Percentage of tax withholding by a security's home country on dividends distributed by that security to the fund . This will be applied at the broker level, and you won't have anything to do. By default it is 30%, but if you buy shares via a country with a tax treaty, it can be lower. Ireland has a tax treaty with the US, so it can be lower to 15% if you use and Irish fund to get US shares. 
 - **L2TW** (Level 2): Percentage of tax withholding by the country where the fund is domiciled on the dividends distributed to the investor by the fund.  Ireland doesn't tax their non-resident. Since you reside in Taiwan, it will be 0%. 
@@ -189,17 +192,17 @@ Calculating the tax on the dividends for a given ETF is a bit tricky. Since an E
 This is something that is still in discussion and I didn't have time to investigate in. If you have more information, feel free to reach me. -->
 
 #### How to fill your tax in Taiwan?
-Simply shows up to the [tax office](https://goo.gl/maps/xReNBAMxigRMamSE6) during the tax season and declare your gains.  You can easily generate a statement in Interactive brokers as a proof. The tax office employees are really helpful. They talk english and will help you fill the forms. 
+Simply show up at the [tax office](https://goo.gl/maps/xReNBAMxigRMamSE6) during the tax season and declare your gains. You can easily generate a statement in Interactive Brokers as proof. The tax office employees are really helpful. They speak English and will help you fill the forms. 
 
 
 ## Bottom Line
 - Use [**Interactive Brokers**](https://www.interactivebrokers.com/referral/eric990) to buy the ETFs (or stocks) at the lowest fees
-- If you money is in Taiwan,  Taipei Fubon Bank has the lowest fee to send money to Interactive Brokers. 
+- If your money is in Taiwan, Taipei Fubon Bank has the lowest fee to send money to Interactive Brokers. 
 - If you invest in ETF, prefers an ETF based in Ireland to optimize your returns. 
-- For taxes, go to the [Taiwan Tax office](https://goo.gl/maps/1np46KT98ww) with your annual reports, the tax officer will help you to fill your taxes.
+- For taxes, go to the [Taiwan Tax office](https://goo.gl/maps/1np46KT98ww) with your annual reports, the tax officer will help you fill your taxes.
 
 
-This post has been originally published on November 29, 2020 and updated the 30th May 2020
+This post was originally published on November 29, 2020 and updated on February 2026
 
 <!-- ### Insurance of the broker
 

@@ -4,7 +4,7 @@ date = 2026-02-11T19:00:00+08:00
 title = "When Your AI Coding Assistant Destroys Your Work"
 description = "Claude Code ran git checkout and wiped my uncommitted changes. It couldn't recover them. Then Codex did - with git commands I'd never seen before."
 slug = ""
-tags = ["ai", "coding-agents", "git"]
+tags = ["ai", "git"]
 externalLink = ""
 series = []
 +++
