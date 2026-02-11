@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="7DBD2PxdMdwwa1Mfq6TWyEYGTry6CK4NE9KIFpCZibE">
+    <meta name="author" content="Eric Khun">
+    <meta name="description" content="Eric Khun&#39;s essays - I write about Taiwan - Scalability - Infrastructure - Engineering">
+    <meta name="keywords" content="blog, developer, personal, data">
+
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="When Your AI Coding Assistant Destroys Your Work"/>
+<meta name="twitter:description" content="Claude Code ran git checkout and wiped my uncommitted changes. It couldn&#39;t recover them. Then Codex did - with git commands I&#39;d never seen before."/>
+
+    <meta property="og:title" content="When Your AI Coding Assistant Destroys Your Work" />
+<meta property="og:description" content="Claude Code ran git checkout and wiped my uncommitted changes. It couldn&#39;t recover them. Then Codex did - with git commands I&#39;d never seen before." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://erickhun.com/posts/when-your-ai-coding-assistant-destroys-your-work/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2026-02-11T19:00:00+08:00" />
+<meta property="article:modified_time" content="2026-02-11T19:00:00+08:00" />
+
+
+
+    
+
+    
+      <base href="https://erickhun.com/posts/when-your-ai-coding-assistant-destroys-your-work/">
+    
+    <title>
+  When Your AI Coding Assistant Destroys Your Work
+</title>
+
+    
+      <link rel="canonical" href="https://erickhun.com/posts/when-your-ai-coding-assistant-destroys-your-work/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://erickhun.com/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+    
+    <link rel="icon" type="image/png" href="https://erickhun.com/img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://erickhun.com/img/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.122.0">
+  </head>
+
+  <body class=" ">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://erickhun.com/">
+      Eric Khun
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://erickhun.com/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://speakerdeck.com/erickhun/">Talks</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://erickhun.com/about">About me</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">When Your AI Coding Assistant Destroys Your Work</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              Published on: 
+              <time datetime='2026-02-11T19:00:00&#43;08:00'>
+                February 11, 2026
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              5 minutes read
+            </span>
+          </div>
+          <div class="categories">
+  <i class="fas fa-folder"></i>
+    <a href="https://erickhun.com/categories/ai/">ai</a>
+      <span class="separator">•</span>
+    <a href="https://erickhun.com/categories/dev/">dev</a></div>
+
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="https://erickhun.com/tags/ai/">ai</a>
+      <span class="separator">•</span>
+    <a href="https://erickhun.com/tags/agents/">agents</a>
+      <span class="separator">•</span>
+    <a href="https://erickhun.com/tags/git/">git</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        <p>I was in the middle of building a feature. Everything was fine, until Claude Code <code>Opus 4.5</code> started to doubt about itself:</p>
+<blockquote>
+<p>&ldquo;I need to check something - when I reverted, I may have lost your working changes.&rdquo;</p>
+</blockquote>
+<p>And then:</p>
+<blockquote>
+<p>&ldquo;I apologize - when I ran git checkout to revert my changes, I accidentally reverted your original working code for the &ldquo;Add Tags&rdquo; modal as well. Your uncommitted changes were lost&rdquo;</p>
+</blockquote>
+<p>🥲</p>
+<h2 id="here-the-raw-quotes">Here the Raw Quotes</h2>
+<h3 id="what-claude-said-happened-verbatim">What Claude said happened (verbatim)</h3>
+<p><a href="https://erickhun.com/img/ai-coding-assistant-destroys-work/claude-session-summary.webp"><img src="https://erickhun.com/img/ai-coding-assistant-destroys-work/claude-session-summary.webp" alt="Claude session showing the destructive checkout and failed recovery"></a></p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>⏺ Session Summary
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  Commands I Ran
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  1. Exploration/Reading:
+</span></span><span style="display:flex;"><span>    - Multiple Glob and Grep searches to find the tag editor code
+</span></span><span style="display:flex;"><span>    - Read on bundle-wizard/index.tsx and bundle-wizard.module.css
+</span></span><span style="display:flex;"><span>    - Chrome DevTools MCP: navigate_page, take_snapshot, wait_for, take_screenshot
+</span></span><span style="display:flex;"><span>  2. Edits I Made:
+</span></span><span style="display:flex;"><span>    - Edit on bundle-wizard.module.css - replaced tag editor CSS with my first redesign
+</span></span><span style="display:flex;"><span>    - Edit on index.tsx - changed &#34;Add Tags&#34; to &#34;Asset Details&#34;, restructured JSX for two-column layout
+</span></span><span style="display:flex;"><span>    - Edit on __tests__/bundle-wizard.test.tsx - replaced all &#39;Add Tags&#39; with &#39;Asset Details&#39;
+</span></span><span style="display:flex;"><span>    - Second Edit on CSS - replaced with retro game UI design (the one you didn&#39;t like)
+</span></span><span style="display:flex;"><span>  3. The Destructive Command:
+</span></span><span style="display:flex;"><span>  git checkout client/components/pages/bundle-wizard/bundle-wizard.module.css client/components/pages/bundle-wizard/index.tsx client/components/pages/bundle-wizard/__tests__/bundle-wizard.test.tsx
+</span></span><span style="display:flex;"><span>  3. This reverted all 3 files to HEAD, losing your original uncommitted tag editor code.
+</span></span><span style="display:flex;"><span>  4. Recovery attempts:
+</span></span><span style="display:flex;"><span>    - git stash list, git stash show, git fsck --lost-found - tried to find your lost changes
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  Context Size
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  I don&#39;t have direct visibility into the exact token count, but this conversation includes:
+</span></span><span style="display:flex;"><span>  - ~2-3 large file reads (the TSX is 31k+ tokens alone, so I read portions)
+</span></span><span style="display:flex;"><span>  - Multiple screenshots you provided
+</span></span><span style="display:flex;"><span>  - Several CSS blocks (200+ lines each)
+</span></span><span style="display:flex;"><span>  - The system automatically compresses older messages as we approach limits
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  What Was Lost
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  Your original tag editor implementation:
+</span></span><span style="display:flex;"><span>  - tagEditorState state and logic in index.tsx
+</span></span><span style="display:flex;"><span>  - All .tagEditor* CSS classes in the module CSS
+</span></span><span style="display:flex;"><span>  - Test assertions referencing &#34;Add Tags&#34;
+</span></span></code></pre></div><p>I&rsquo;ve asked the same claude code conversation if it could  recover the work it just destroyed.</p>
+<p>It couldn&rsquo;t.</p>
+<p>Well, felt pretty bad, not because of what it was working on, but the uncommitted work I didn&rsquo;t commit.</p>
+<p>Then thanksfully, I&rsquo;ve asked Codex 5.3 xhigh to try to recover it:</p>
+<h3 id="whatt-codex-did">Whatt Codex did</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Prompt:
+</span></span><span style="display:flex;"><span>Claude lost all my uncommitted change we&#39;ve made. How can I retrieve them?
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>I’m going to do recovery triage first: check whether Git still has those edits in stash/index/reflog/dangling objects before we fall back to IDE local history. I’ll run only read-only recovery commands.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Ran git status --short
+</span></span><span style="display:flex;"><span>Ran git stash list
+</span></span><span style="display:flex;"><span>Ran git reflog &#39;--date=iso&#39; -n 30
+</span></span><span style="display:flex;"><span>Ran git stash show --name-only &#39;stash@{0}&#39;
+</span></span><span style="display:flex;"><span>Ran git stash show --name-only &#39;stash@{1}&#39;
+</span></span><span style="display:flex;"><span>Ran git diff --cached -- client/components/pages/bundle-wizard/bundle-wizard.module.css client/components/pages/bundle-wizard/index.tsx client/components/pages/bundle-wizard/__tests__/bundle-wizard.test.tsx
+</span></span><span style="display:flex;"><span>Ran git fsck --no-reflogs --lost-found --unreachable --no-progress
+</span></span><span style="display:flex;"><span>Ran git cat-file -p 28993afdac33853aa0e0bad5f47c30b3b6383726
+</span></span><span style="display:flex;"><span>Ran git cat-file -p 201f36ffde9aacc489646b72ebe15b7654102aed
+</span></span><span style="display:flex;"><span>Ran git cat-file -p b2df1a50a9356628daa0583cc4b8a484b4a8c634
+</span></span><span style="display:flex;"><span>Ran git cat-file -p 28993afdac33853aa0e0bad5f47c30b3b6383726 &gt; client/components/pages/bundle-wizard/index.tsx
+</span></span><span style="display:flex;"><span>Ran git cat-file -p 201f36ffde9aacc489646b72ebe15b7654102aed &gt; client/components/pages/bundle-wizard/bundle-wizard.module.css
+</span></span><span style="display:flex;"><span>Ran git cat-file -p b2df1a50a9356628daa0583cc4b8a484b4a8c634 &gt; client/components/pages/bundle-wizard/__tests__/bundle-wizard.test.tsx
+</span></span><span style="display:flex;"><span>Ran npx jest client/components/pages/bundle-wizard/__tests__/bundle-wizard.test.tsx --runInBand
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Recovered. I restored your lost uncommitted changes from Git’s unreachable blob objects.
+</span></span><span style="display:flex;"><span>Restored files:
+</span></span><span style="display:flex;"><span>- index.tsx
+</span></span><span style="display:flex;"><span>- bundle-wizard.module.css
+</span></span><span style="display:flex;"><span>- bundle-wizard.test.tsx
+</span></span><span style="display:flex;"><span>Validation:
+</span></span><span style="display:flex;"><span>- bundle-wizard.test.tsx --runInBand passes (58/58)
+</span></span></code></pre></div><h2 id="my-interpretation">My Interpretation</h2>
+<p>This is what happened:</p>
+<ol>
+<li>I asked Claude Code to iterate on front-end files.</li>
+<li>It ran <code>git checkout &lt;file&gt;...</code> to &ldquo;clean up&rdquo; changes.</li>
+<li>That reset those files to <code>HEAD</code> and wiped uncommitted work.</li>
+<li>It then failed to recover, and said it was lost.</li>
+<li>Codex used a different strategy (<code>fsck</code> + <code>cat-file</code>) and recovered it.</li>
+</ol>
+<p>I thought the context might have been too full , but it was only half:</p>
+<p><a href="https://erickhun.com/img/ai-coding-assistant-destroys-work/context-size.webp"><img src="https://erickhun.com/img/ai-coding-assistant-destroys-work/context-size.webp" alt="Claude Code context usage - only 58%"></a></p>
+<p>I&rsquo;ve asked what Claude Code tried to do:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Prompt: What was your intent when doing the git command?
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>⏺ My intent was to revert only my changes back to the state before I started editing.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  I thought running git checkout on those files would restore them to the version that existed when we started the conversation - which I assumed was your working &#34;Add Tags&#34; modal.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  My mistake: I didn&#39;t realize that your &#34;Add Tags&#34; modal code was itself uncommitted/unstaged work. The git checkout command reverts to the last committed state (HEAD), not to &#34;the state before
+</span></span><span style="display:flex;"><span>  Claude started editing.&#34;
+</span></span></code></pre></div><h2 id="what-i-changed-after-that">What I Changed after that</h2>
+<p>The biggest lesson for me is not &ldquo;LLMs are bad.&rdquo; The lesson is: <strong>do not grant destructive permissions without guardrails.</strong></p>
+<p>Capability and safety are different systems.</p>
+<h3 id="1-no-destructive-git-action-without-a-checkpoint">1. No destructive git action without a checkpoint</h3>
+<p>Before <code>reset --hard</code>, <code>checkout --</code>, <code>restore --source</code>, <code>clean -fd</code>, or rebases, snapshot current work:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir -p .git/safety
+</span></span><span style="display:flex;"><span>ts=<span style="font-weight:bold">$(</span>date +%Y%m%d-%H%M%S<span style="font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic"># tracked + staged changes</span>
+</span></span><span style="display:flex;"><span>git diff &gt; <span style="font-style:italic">&#34;.git/safety/working-</span>$ts<span style="font-style:italic">.patch&#34;</span>
+</span></span><span style="display:flex;"><span>git diff --staged &gt; <span style="font-style:italic">&#34;.git/safety/staged-</span>$ts<span style="font-style:italic">.patch&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic"># untracked files (not included in git diff)</span>
+</span></span><span style="display:flex;"><span>git ls-files --others --exclude-standard &gt; <span style="font-style:italic">&#34;.git/safety/untracked-</span>$ts<span style="font-style:italic">.txt&#34;</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">if</span> [ -s <span style="font-style:italic">&#34;.git/safety/untracked-</span>$ts<span style="font-style:italic">.txt&#34;</span> ]; <span style="font-weight:bold">then</span>
+</span></span><span style="display:flex;"><span>  tar -czf <span style="font-style:italic">&#34;.git/safety/untracked-</span>$ts<span style="font-style:italic">.tgz&#34;</span> -T <span style="font-style:italic">&#34;.git/safety/untracked-</span>$ts<span style="font-style:italic">.txt&#34;</span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">fi</span>
+</span></span></code></pre></div><p>You raeder might have a better one?</p>
+<h3 id="2-git-hooks-are-not-enough">2. git hooks are not enough</h3>
+<p><code>pre-commit</code> hooks runs only on commit.
+Most destructive actions happen outside commit.
+The protection must run before destructive commands.</p>
+<h3 id="3-commit-and-push-more-often">3. Commit and push more often</h3>
+<p>Small, frequent checkpoints are cheaper than memory-based reconstruction.</p>
+<h3 id="4-if-one-model-says-impossible-try-another">4. If one model says &ldquo;impossible,&rdquo; try another</h3>
+<p>Different models explore different recovery paths.
+In this case, that difference saved the work.</p>
+<h2 id="takeaways">Takeaways</h2>
+<p>I will still use LLMs every day. They improve my speed massively, probably by 2x to 5x. It also allows me to do things I could have never done before.</p>
+<p>Also, I&rsquo;m learning a lot watching coding agent do work, I didn&rsquo;t know about <code>fsck</code> + <code>cat-file</code> until today, so even uncommited work are still. recoverable.</p>
+<p>I trust AI for speed, its infinite knowledge, but not for safety. Safety is my job.</p>
+<p>Right after this, I&rsquo;ve asked Claude Code to do again the frontend change I probably would have never done if LLM didn&rsquo;t exist.</p>
+<p>If folk at Antrhopic read that, <code> Feedback ID: c7f9e357-28e4-48d0-99bb-5d0501c0c5ef</code> . Maybe they&rsquo;d have better explanation on what happened.</p>
+<p>ps: I&rsquo;m using <code>Opus 4.5</code> today because I was under the impression (probably wrong?) that <code>Opus 4.6</code> didn&rsquo;t perform as well after it upgraded.</p>
+
+
+        <h2 id="mistakes-arent-allowed">Liked it?</h2>
+        <p>As always, <a href="https://erickhun.com/about">hit me up</a> and let’s hang out. I'm now focused on <a href="https://craftmygame.com">CraftMyGame</a>: build games in seconds, no code needed. <br>  I also gather developers in Taiwan through <a href="https://taipeidev.com">TaipeiDev</a> - come join us if you're in Taipei! </p>
+
+
+        <center>
+
+            
+            <a href="https://twitter.com/eric_khun" class="twitter-follow-button" data-size="large" data-show-count="true">Follow @eric_khun</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <br >
+            <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2ferickhun.com%2fposts%2fwhen-your-ai-coding-assistant-destroys-your-work%2f&s=fb" target="_blank" rel="noopener" aria-label="Facebook">
+              <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--medium"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm3.6 11.5h-2.1v7h-3v-7h-2v-2h2V8.34c0-1.1.35-2.82 2.65-2.82h2.35v2.3h-1.4c-.25 0-.6.13-.6.66V9.5h2.34l-.24 2z"/></svg></div>Facebook</div>
+            </a>
+  
+            
+            <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=When%20Your%20AI%20Coding%20Assistant%20Destroys%20Your%20Work by @eric_khun &amp;url=https%3a%2f%2ferickhun.com%2fposts%2fwhen-your-ai-coding-assistant-destroys-your-work%2f&s=tw" target="_blank" rel="noopener" aria-label="Twitter">
+              <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--medium"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm5.26 9.38v.34c0 3.48-2.64 7.5-7.48 7.5-1.48 0-2.87-.44-4.03-1.2 1.37.17 2.77-.2 3.9-1.08-1.16-.02-2.13-.78-2.46-1.83.38.1.8.07 1.17-.03-1.2-.24-2.1-1.3-2.1-2.58v-.05c.35.2.75.32 1.18.33-.7-.47-1.17-1.28-1.17-2.2 0-.47.13-.92.36-1.3C7.94 8.85 9.88 9.9 12.06 10c-.04-.2-.06-.4-.06-.6 0-1.46 1.18-2.63 2.63-2.63.76 0 1.44.3 1.92.82.6-.12 1.95-.27 1.95-.27-.35.53-.72 1.66-1.24 2.04z"/></svg></div>Twitter</div>
+            </a>
+  
+            
+            <a class="resp-sharing-button__link" href="mailto:?subject=When%20Your%20AI%20Coding%20Assistant%20Destroys%20Your%20Work &amp;body=When%20Your%20AI%20Coding%20Assistant%20Destroys%20Your%20Work - https%3a%2f%2ferickhun.com%2fposts%2fwhen-your-ai-coding-assistant-destroys-your-work%2f&s=email" target="_self" rel="noopener" aria-label="E-Mail">
+              <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--medium"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm8 16c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2V8c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2v8z"/><path d="M17.9 8.18c-.2-.2-.5-.24-.72-.07L12 12.38 6.82 8.1c-.22-.16-.53-.13-.7.08s-.15.53.06.7l3.62 2.97-3.57 2.23c-.23.14-.3.45-.15.7.1.14.25.22.42.22.1 0 .18-.02.27-.08l3.85-2.4 1.06.87c.1.04.2.1.32.1s.23-.06.32-.1l1.06-.9 3.86 2.4c.08.06.17.1.26.1.17 0 .33-.1.42-.25.15-.24.08-.55-.15-.7l-3.57-2.22 3.62-2.96c.2-.2.24-.5.07-.72z"/></svg></div>E-Mail</div>
+            </a>
+  
+            
+            <a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=https%3a%2f%2ferickhun.com%2fposts%2fwhen-your-ai-coding-assistant-destroys-your-work%2f&amp;resubmit=true&amp;title=When%20Your%20AI%20Coding%20Assistant%20Destroys%20Your%20Work&s=red" target="_blank" rel="noopener" aria-label="Reddit">
+              <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--medium"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="9.391" cy="13.392" r=".978"/><path d="M14.057 15.814c-1.14.66-2.987.655-4.122-.004-.238-.138-.545-.058-.684.182-.13.24-.05.545.19.685.72.417 1.63.646 2.568.646.93 0 1.84-.228 2.558-.642.24-.13.32-.44.185-.68-.14-.24-.445-.32-.683-.18zM5 12.086c0 .41.23.78.568.978.27-.662.735-1.264 1.353-1.774-.2-.207-.48-.334-.79-.334-.62 0-1.13.507-1.13 1.13z"/><path d="M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12 12-5.383 12-12S18.617 0 12 0zm6.673 14.055c.01.104.022.208.022.314 0 2.61-3.004 4.73-6.695 4.73s-6.695-2.126-6.695-4.74c0-.105.013-.21.022-.313C4.537 13.73 4 12.97 4 12.08c0-1.173.956-2.13 2.13-2.13.63 0 1.218.29 1.618.757 1.04-.607 2.345-.99 3.77-1.063.057-.803.308-2.33 1.388-2.95.633-.366 1.417-.323 2.322.085.302-.81 1.076-1.397 1.99-1.397 1.174 0 2.13.96 2.13 2.13 0 1.177-.956 2.133-2.13 2.133-1.065 0-1.942-.79-2.098-1.81-.734-.4-1.315-.506-1.716-.276-.6.346-.818 1.395-.88 2.087 1.407.08 2.697.46 3.728 1.065.4-.468.987-.756 1.617-.756 1.17 0 2.13.953 2.13 2.13 0 .89-.54 1.65-1.33 1.97z"/><circle cx="14.609" cy="13.391" r=".978"/><path d="M17.87 10.956c-.302 0-.583.128-.79.334.616.51 1.082 1.112 1.352 1.774.34-.197.568-.566.568-.978 0-.623-.507-1.13-1.13-1.13z"/></svg></div>Reddit</div>
+            </a>
+  
+            
+            <a class="resp-sharing-button__link" href="whatsapp://send?text=When%20Your%20AI%20Coding%20Assistant%20Destroys%20Your%20Work - https%3a%2f%2ferickhun.com%2fposts%2fwhen-your-ai-coding-assistant-destroys-your-work%2f&s=whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--medium"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24"><path d="m12 0c-6.6 0-12 5.4-12 12s5.4 12 12 12 12-5.4 12-12-5.4-12-12-12zm0 3.8c2.2 0 4.2 0.9 5.7 2.4 1.6 1.5 2.4 3.6 2.5 5.7 0 4.5-3.6 8.1-8.1 8.1-1.4 0-2.7-0.4-3.9-1l-4.4 1.1 1.2-4.2c-0.8-1.2-1.1-2.6-1.1-4 0-4.5 3.6-8.1 8.1-8.1zm0.1 1.5c-3.7 0-6.7 3-6.7 6.7 0 1.3 0.3 2.5 1 3.6l0.1 0.3-0.7 2.4 2.5-0.7 0.3 0.099c1 0.7 2.2 1 3.4 1 3.7 0 6.8-3 6.9-6.6 0-1.8-0.7-3.5-2-4.8s-3-2-4.8-2zm-3 2.9h0.4c0.2 0 0.4-0.099 0.5 0.3s0.5 1.5 0.6 1.7 0.1 0.2 0 0.3-0.1 0.2-0.2 0.3l-0.3 0.3c-0.1 0.1-0.2 0.2-0.1 0.4 0.2 0.2 0.6 0.9 1.2 1.4 0.7 0.7 1.4 0.9 1.6 1 0.2 0 0.3 0.001 0.4-0.099s0.5-0.6 0.6-0.8c0.2-0.2 0.3-0.2 0.5-0.1l1.4 0.7c0.2 0.1 0.3 0.2 0.5 0.3 0 0.1 0.1 0.5-0.099 1s-1 0.9-1.4 1c-0.3 0-0.8 0.001-1.3-0.099-0.3-0.1-0.7-0.2-1.2-0.4-2.1-0.9-3.4-3-3.5-3.1s-0.8-1.1-0.8-2.1c0-1 0.5-1.5 0.7-1.7s0.4-0.3 0.5-0.3z"/></svg></div>WhatsApp</div>
+            </a>
+    
+          </center>
+      </div>
+
+
+  <style>
+
+.resp-sharing-button__link,
+.resp-sharing-button__icon {
+  display: inline-block
+}
+
+.resp-sharing-button__link {
+  text-decoration: none;
+  color: #fff;
+  margin: 0.5em
+}
+
+.resp-sharing-button {
+  border-radius: 5px;
+  transition: 25ms ease-out;
+  padding: 0.5em 0.75em;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+.resp-sharing-button__icon svg {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.4em;
+  vertical-align: top
+}
+
+.resp-sharing-button--small svg {
+  margin: 0;
+  vertical-align: middle
+}
+
+ 
+.resp-sharing-button__icon {
+  stroke: #fff;
+  fill: none
+}
+
+ 
+.resp-sharing-button__icon--solid,
+.resp-sharing-button__icon--solidcircle {
+  fill: #fff;
+  stroke: none
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee
+}
+
+.resp-sharing-button--twitter:hover {
+  background-color: #2795e9
+}
+
+.resp-sharing-button--pinterest {
+  background-color: #bd081c
+}
+
+.resp-sharing-button--pinterest:hover {
+  background-color: #8c0615
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998
+}
+
+.resp-sharing-button--facebook:hover {
+  background-color: #2d4373
+}
+
+.resp-sharing-button--tumblr {
+  background-color: #35465C
+}
+
+.resp-sharing-button--tumblr:hover {
+  background-color: #222d3c
+}
+
+.resp-sharing-button--reddit {
+  background-color: #5f99cf
+}
+
+.resp-sharing-button--reddit:hover {
+  background-color: #3a80c1
+}
+
+.resp-sharing-button--google {
+  background-color: #dd4b39
+}
+
+.resp-sharing-button--google:hover {
+  background-color: #c23321
+}
+
+.resp-sharing-button--linkedin {
+  background-color: #0077b5
+}
+
+.resp-sharing-button--linkedin:hover {
+  background-color: #046293
+}
+
+.resp-sharing-button--email {
+  background-color: #777
+}
+
+.resp-sharing-button--email:hover {
+  background-color: #5e5e5e
+}
+
+.resp-sharing-button--xing {
+  background-color: #1a7576
+}
+
+.resp-sharing-button--xing:hover {
+  background-color: #114c4c
+}
+
+.resp-sharing-button--whatsapp {
+  background-color: #25D366
+}
+
+.resp-sharing-button--whatsapp:hover {
+  background-color: #1da851
+}
+
+.resp-sharing-button--hackernews {
+background-color: #FF6600
+}
+.resp-sharing-button--hackernews:hover, .resp-sharing-button--hackernews:focus {   background-color: #FB6200 }
+
+.resp-sharing-button--vk {
+  background-color: #507299
+}
+
+.resp-sharing-button--vk:hover {
+  background-color: #43648c
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+
+.resp-sharing-button--facebook:hover,
+.resp-sharing-button--facebook:active {
+  background-color: #2d4373;
+  border-color: #2d4373;
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee;
+  border-color: #55acee;
+}
+
+.resp-sharing-button--twitter:hover,
+.resp-sharing-button--twitter:active {
+  background-color: #2795e9;
+  border-color: #2795e9;
+}
+
+.resp-sharing-button--email {
+  background-color: #777777;
+  border-color: #777777;
+}
+
+.resp-sharing-button--email:hover,
+.resp-sharing-button--email:active {
+  background-color: #5e5e5e;
+  border-color: #5e5e5e;
+}
+
+.resp-sharing-button--reddit {
+  background-color: #5f99cf;
+  border-color: #5f99cf;
+}
+
+.resp-sharing-button--reddit:hover,
+.resp-sharing-button--reddit:active {
+  background-color: #3a80c1;
+  border-color: #3a80c1;
+}
+
+.resp-sharing-button--whatsapp {
+  background-color: #25D366;
+  border-color: #25D366;
+}
+
+.resp-sharing-button--whatsapp:hover,
+.resp-sharing-button--whatsapp:active {
+  background-color: #1DA851;
+  border-color: #1DA851;
+}
+
+.resp-sharing-button--hackernews {
+  background-color: #FF6600;
+  border-color: #FF6600;
+}
+
+.resp-sharing-button--hackernews:hover
+.resp-sharing-button--hackernews:active {
+  background-color: #FB6200;
+  border-color: #FB6200;
+}
+
+
+
+  </style>
+
+
+
+        
+        <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+          #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+           
+
+
+            .icon-love {    margin-left: 0px; margin-right: 4px;-webkit-animation:heartbeat 1.2s ease-in-out infinite;animation:heartbeat 1.2s ease-in-out infinite}@-webkit-keyframes heartbeat{0%{-webkit-transform:scale(1);transform:scale(1)}14%{-webkit-transform:scale(1.3);transform:scale(1.3)}28%{-webkit-transform:scale(1);transform:scale(1)}42%{-webkit-transform:scale(1.3);transform:scale(1.3)}70%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes heartbeat{0%{-webkit-transform:scale(1);transform:scale(1)}14%{-webkit-transform:scale(1.3);transform:scale(1.3)}28%{-webkit-transform:scale(1);transform:scale(1)}42%{-webkit-transform:scale(1.3);transform:scale(1.3)}70%{-webkit-transform:scale(1);transform:scale(1)}}@media screen and (max-width:425px){footer{height:auto;flex-direction:column;align-items:flex-start;padding-top:20px;padding-bottom:20px;font-size:18px}
+
+        </style>
+        <div id="mc_embed_signup" style="background-color: antiquewhite; margin-top: 50px; border-radius: 4px; padding: 20px;">
+        <form action="https://gmail.us20.list-manage.com/subscribe/post?u=af7a3f032dc0d452b55913b39&amp;id=1db1866588&SIGNUP_SRC=When%20Your%20AI%20Coding%20Assistant%20Destroys%20Your%20Work" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+          <label for="mce-EMAIL"> 
+            
+            I write mostly about - tech and anything I find interesting -  Subscribe to get more of it  ️
+            
+          </label>
+          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="your email address" required>
+            
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_af7a3f032dc0d452b55913b39_1db1866588" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            </div>
+        </form>
+        </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+      <p>Feel free to contact me <a href="https://twitter.com/eric_khun">@eric_khun</a></p>
+    
+    
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-106516-7', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+  </body>
+
+</html>
