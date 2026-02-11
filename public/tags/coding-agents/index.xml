@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ai on Eric Khun</title>
-    <link>https://erickhun.com/categories/ai/</link>
-    <description>Recent content in ai on Eric Khun</description>
+    <title>coding-agents on Eric Khun</title>
+    <link>https://erickhun.com/tags/coding-agents/</link>
+    <description>Recent content in coding-agents on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 11 Feb 2026 19:00:00 +0800</lastBuildDate>
-    <atom:link href="https://erickhun.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://erickhun.com/tags/coding-agents/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>When Your AI Coding Assistant Destroys Your Work</title>
       <link>https://erickhun.com/posts/when-your-ai-coding-assistant-destroys-your-work/</link>
