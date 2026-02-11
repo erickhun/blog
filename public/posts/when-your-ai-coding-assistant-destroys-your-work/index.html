@@ -142,39 +142,37 @@
 <h2 id="here-the-raw-quotes">Here the Raw Quotes</h2>
 <h3 id="what-claude-said-happened-verbatim">What Claude said happened (verbatim)</h3>
 <p><a href="https://erickhun.com/img/ai-coding-assistant-destroys-work/claude-session-summary.webp"><img src="https://erickhun.com/img/ai-coding-assistant-destroys-work/claude-session-summary.webp" alt="Claude session showing the destructive checkout and failed recovery"></a></p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>⏺ Session Summary
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Session Summary. Commands I Ran
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  Commands I Ran
+</span></span><span style="display:flex;"><span>1. Exploration/Reading:
+</span></span><span style="display:flex;"><span>- Multiple Glob and Grep searches to find the tag editor code
+</span></span><span style="display:flex;"><span>- Read on bundle-wizard/index.tsx and bundle-wizard.module.css
+</span></span><span style="display:flex;"><span>- Chrome DevTools MCP: navigate_page, take_snapshot, wait_for, take_screenshot
+</span></span><span style="display:flex;"><span>2. Edits I Made:
+</span></span><span style="display:flex;"><span>- Edit on bundle-wizard.module.css - replaced tag editor CSS with my first redesign
+</span></span><span style="display:flex;"><span>- Edit on index.tsx - changed &#34;Add Tags&#34; to &#34;Asset Details&#34;, restructured JSX for two-column layout
+</span></span><span style="display:flex;"><span>- Edit on __tests__/bundle-wizard.test.tsx - replaced all &#39;Add Tags&#39; with &#39;Asset Details&#39;
+</span></span><span style="display:flex;"><span>- Second Edit on CSS - replaced with retro game UI design (the one you didn&#39;t like)
+</span></span><span style="display:flex;"><span>3. The Destructive Command:
+</span></span><span style="display:flex;"><span>git checkout client/components/pages/bundle-wizard/bundle-wizard.module.css client/components/pages/bundle-wizard/index.tsx client/components/pages/bundle-wizard/__tests__/bundle-wizard.test.tsx
+</span></span><span style="display:flex;"><span>3. This reverted all 3 files to HEAD, losing your original uncommitted tag editor code.
+</span></span><span style="display:flex;"><span>4. Recovery attempts:
+</span></span><span style="display:flex;"><span>- git stash list, git stash show, git fsck --lost-found - tried to find your lost changes
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  1. Exploration/Reading:
-</span></span><span style="display:flex;"><span>    - Multiple Glob and Grep searches to find the tag editor code
-</span></span><span style="display:flex;"><span>    - Read on bundle-wizard/index.tsx and bundle-wizard.module.css
-</span></span><span style="display:flex;"><span>    - Chrome DevTools MCP: navigate_page, take_snapshot, wait_for, take_screenshot
-</span></span><span style="display:flex;"><span>  2. Edits I Made:
-</span></span><span style="display:flex;"><span>    - Edit on bundle-wizard.module.css - replaced tag editor CSS with my first redesign
-</span></span><span style="display:flex;"><span>    - Edit on index.tsx - changed &#34;Add Tags&#34; to &#34;Asset Details&#34;, restructured JSX for two-column layout
-</span></span><span style="display:flex;"><span>    - Edit on __tests__/bundle-wizard.test.tsx - replaced all &#39;Add Tags&#39; with &#39;Asset Details&#39;
-</span></span><span style="display:flex;"><span>    - Second Edit on CSS - replaced with retro game UI design (the one you didn&#39;t like)
-</span></span><span style="display:flex;"><span>  3. The Destructive Command:
-</span></span><span style="display:flex;"><span>  git checkout client/components/pages/bundle-wizard/bundle-wizard.module.css client/components/pages/bundle-wizard/index.tsx client/components/pages/bundle-wizard/__tests__/bundle-wizard.test.tsx
-</span></span><span style="display:flex;"><span>  3. This reverted all 3 files to HEAD, losing your original uncommitted tag editor code.
-</span></span><span style="display:flex;"><span>  4. Recovery attempts:
-</span></span><span style="display:flex;"><span>    - git stash list, git stash show, git fsck --lost-found - tried to find your lost changes
+</span></span><span style="display:flex;"><span>Context Size
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  Context Size
+</span></span><span style="display:flex;"><span>I don&#39;t have direct visibility into the exact token count, but this conversation includes:
+</span></span><span style="display:flex;"><span>- ~2-3 large file reads (the TSX is 31k+ tokens alone, so I read portions)
+</span></span><span style="display:flex;"><span>- Multiple screenshots you provided
+</span></span><span style="display:flex;"><span>- Several CSS blocks (200+ lines each)
+</span></span><span style="display:flex;"><span>- The system automatically compresses older messages as we approach limits
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  I don&#39;t have direct visibility into the exact token count, but this conversation includes:
-</span></span><span style="display:flex;"><span>  - ~2-3 large file reads (the TSX is 31k+ tokens alone, so I read portions)
-</span></span><span style="display:flex;"><span>  - Multiple screenshots you provided
-</span></span><span style="display:flex;"><span>  - Several CSS blocks (200+ lines each)
-</span></span><span style="display:flex;"><span>  - The system automatically compresses older messages as we approach limits
+</span></span><span style="display:flex;"><span>What Was Lost
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  What Was Lost
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  Your original tag editor implementation:
-</span></span><span style="display:flex;"><span>  - tagEditorState state and logic in index.tsx
-</span></span><span style="display:flex;"><span>  - All .tagEditor* CSS classes in the module CSS
-</span></span><span style="display:flex;"><span>  - Test assertions referencing &#34;Add Tags&#34;
+</span></span><span style="display:flex;"><span>Your original tag editor implementation:
+</span></span><span style="display:flex;"><span>- tagEditorState state and logic in index.tsx
+</span></span><span style="display:flex;"><span>- All .tagEditor* CSS classes in the module CSS
+</span></span><span style="display:flex;"><span>- Test assertions referencing &#34;Add Tags&#34;
 </span></span></code></pre></div><p>I&rsquo;ve asked the same claude code conversation if it could  recover the work it just destroyed.</p>
 <p>It couldn&rsquo;t.</p>
 <p>Well, felt pretty bad, not because of what it was working on, but the uncommitted work I didn&rsquo;t commit.</p>
@@ -216,17 +214,19 @@
 <li>It then failed to recover, and said it was lost.</li>
 <li>Codex used a different strategy (<code>fsck</code> + <code>cat-file</code>) and recovered it.</li>
 </ol>
-<p>I thought the context might have been too full , but it was only half:</p>
+<p>I thought the context might have been too full, and it might have went off rails, but it was only half:</p>
 <p><a href="https://erickhun.com/img/ai-coding-assistant-destroys-work/context-size.webp"><img src="https://erickhun.com/img/ai-coding-assistant-destroys-work/context-size.webp" alt="Claude Code context usage - only 58%"></a></p>
 <p>I&rsquo;ve asked what Claude Code tried to do:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Prompt: What was your intent when doing the git command?
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>Prompt: What was your intent when doing the git command?
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>⏺ My intent was to revert only my changes back to the state before I started editing.
+</span></span><span style="display:flex;"><span>My intent was to revert only my changes back to the state before I 
+</span></span><span style="display:flex;"><span>started editing.
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  I thought running git checkout on those files would restore them to the version that existed when we started the conversation - which I assumed was your working &#34;Add Tags&#34; modal.
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  My mistake: I didn&#39;t realize that your &#34;Add Tags&#34; modal code was itself uncommitted/unstaged work. The git checkout command reverts to the last committed state (HEAD), not to &#34;the state before
-</span></span><span style="display:flex;"><span>  Claude started editing.&#34;
+</span></span><span style="display:flex;"><span>I thought running git checkout on those files would restore them to  the version 
+</span></span><span style="display:flex;"><span>that  existed when we started the conversation - which I assumed was your working 
+</span></span><span style="display:flex;"><span><span style="font-style:italic">&#34;Add Tags&#34;</span> modal.  My mistake: I didn<span style="">&#39;</span>t realize that your <span style="font-style:italic">&#34;Add Tags&#34;</span> modal code 
+</span></span><span style="display:flex;"><span>was itself  uncommitted/unstaged work.  The git checkout command reverts to the 
+</span></span><span style="display:flex;"><span>last committed state (HEAD), not to <span style="font-style:italic">&#34;the state before Claude started editing.&#34;</span>
 </span></span></code></pre></div><h2 id="what-i-changed-after-that">What I Changed after that</h2>
 <p>The biggest lesson for me is not &ldquo;LLMs are bad.&rdquo; The lesson is: <strong>do not grant destructive permissions without guardrails.</strong></p>
 <p>Capability and safety are different systems.</p>

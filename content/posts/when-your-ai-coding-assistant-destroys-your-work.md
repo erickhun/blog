@@ -28,39 +28,37 @@ And then:
 [![Claude session showing the destructive checkout and failed recovery](/img/ai-coding-assistant-destroys-work/claude-session-summary.webp)](/img/ai-coding-assistant-destroys-work/claude-session-summary.webp)
 
 ```text
-⏺ Session Summary
+Session Summary. Commands I Ran
 
-  Commands I Ran
+1. Exploration/Reading:
+- Multiple Glob and Grep searches to find the tag editor code
+- Read on bundle-wizard/index.tsx and bundle-wizard.module.css
+- Chrome DevTools MCP: navigate_page, take_snapshot, wait_for, take_screenshot
+2. Edits I Made:
+- Edit on bundle-wizard.module.css - replaced tag editor CSS with my first redesign
+- Edit on index.tsx - changed "Add Tags" to "Asset Details", restructured JSX for two-column layout
+- Edit on __tests__/bundle-wizard.test.tsx - replaced all 'Add Tags' with 'Asset Details'
+- Second Edit on CSS - replaced with retro game UI design (the one you didn't like)
+3. The Destructive Command:
+git checkout client/components/pages/bundle-wizard/bundle-wizard.module.css client/components/pages/bundle-wizard/index.tsx client/components/pages/bundle-wizard/__tests__/bundle-wizard.test.tsx
+3. This reverted all 3 files to HEAD, losing your original uncommitted tag editor code.
+4. Recovery attempts:
+- git stash list, git stash show, git fsck --lost-found - tried to find your lost changes
 
-  1. Exploration/Reading:
-    - Multiple Glob and Grep searches to find the tag editor code
-    - Read on bundle-wizard/index.tsx and bundle-wizard.module.css
-    - Chrome DevTools MCP: navigate_page, take_snapshot, wait_for, take_screenshot
-  2. Edits I Made:
-    - Edit on bundle-wizard.module.css - replaced tag editor CSS with my first redesign
-    - Edit on index.tsx - changed "Add Tags" to "Asset Details", restructured JSX for two-column layout
-    - Edit on __tests__/bundle-wizard.test.tsx - replaced all 'Add Tags' with 'Asset Details'
-    - Second Edit on CSS - replaced with retro game UI design (the one you didn't like)
-  3. The Destructive Command:
-  git checkout client/components/pages/bundle-wizard/bundle-wizard.module.css client/components/pages/bundle-wizard/index.tsx client/components/pages/bundle-wizard/__tests__/bundle-wizard.test.tsx
-  3. This reverted all 3 files to HEAD, losing your original uncommitted tag editor code.
-  4. Recovery attempts:
-    - git stash list, git stash show, git fsck --lost-found - tried to find your lost changes
+Context Size
 
-  Context Size
+I don't have direct visibility into the exact token count, but this conversation includes:
+- ~2-3 large file reads (the TSX is 31k+ tokens alone, so I read portions)
+- Multiple screenshots you provided
+- Several CSS blocks (200+ lines each)
+- The system automatically compresses older messages as we approach limits
 
-  I don't have direct visibility into the exact token count, but this conversation includes:
-  - ~2-3 large file reads (the TSX is 31k+ tokens alone, so I read portions)
-  - Multiple screenshots you provided
-  - Several CSS blocks (200+ lines each)
-  - The system automatically compresses older messages as we approach limits
+What Was Lost
 
-  What Was Lost
-
-  Your original tag editor implementation:
-  - tagEditorState state and logic in index.tsx
-  - All .tagEditor* CSS classes in the module CSS
-  - Test assertions referencing "Add Tags"
+Your original tag editor implementation:
+- tagEditorState state and logic in index.tsx
+- All .tagEditor* CSS classes in the module CSS
+- Test assertions referencing "Add Tags"
 
 ```
 
@@ -115,20 +113,22 @@ This is what happened:
 4. It then failed to recover, and said it was lost.
 5. Codex used a different strategy (`fsck` + `cat-file`) and recovered it.
 
-I thought the context might have been too full , but it was only half:
+I thought the context might have been too full, and it might have went off rails, but it was only half:
 
 [![Claude Code context usage - only 58%](/img/ai-coding-assistant-destroys-work/context-size.webp)](/img/ai-coding-assistant-destroys-work/context-size.webp)
 
 I've asked what Claude Code tried to do: 
-```text
+```bash
 Prompt: What was your intent when doing the git command?
 
-⏺ My intent was to revert only my changes back to the state before I started editing.
+My intent was to revert only my changes back to the state before I 
+started editing.
 
-  I thought running git checkout on those files would restore them to the version that existed when we started the conversation - which I assumed was your working "Add Tags" modal.
-
-  My mistake: I didn't realize that your "Add Tags" modal code was itself uncommitted/unstaged work. The git checkout command reverts to the last committed state (HEAD), not to "the state before
-  Claude started editing."
+I thought running git checkout on those files would restore them to  the version 
+that  existed when we started the conversation - which I assumed was your working 
+"Add Tags" modal.  My mistake: I didn't realize that your "Add Tags" modal code 
+was itself  uncommitted/unstaged work.  The git checkout command reverts to the 
+last committed state (HEAD), not to "the state before Claude started editing."
 
 ```
 
