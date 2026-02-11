@@ -192,3 +192,4 @@ Right after this, I've asked Claude Code to do again the frontend change I proba
 If folk at Antrhopic read that, ` Feedback ID: c7f9e357-28e4-48d0-99bb-5d0501c0c5ef` . Maybe they'd have better explanation on what happened. 
 
 ps: I'm using `Opus 4.5` today because I was under the impression (probably wrong?) that `Opus 4.6` didn't perform as well after it upgraded. 
+
