@@ -6,22 +6,8 @@
     <description>Recent content in Categories on Eric Khun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Feb 2026 19:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 03 Feb 2026 10:00:00 +0800</lastBuildDate>
     <atom:link href="https://erickhun.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>ai</title>
-      <link>https://erickhun.com/categories/ai/</link>
-      <pubDate>Wed, 11 Feb 2026 19:00:00 +0800</pubDate>
-      <guid>https://erickhun.com/categories/ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>dev</title>
-      <link>https://erickhun.com/categories/dev/</link>
-      <pubDate>Wed, 11 Feb 2026 19:00:00 +0800</pubDate>
-      <guid>https://erickhun.com/categories/dev/</guid>
-      <description></description>
-    </item>
     <item>
       <title>product</title>
       <link>https://erickhun.com/categories/product/</link>
@@ -34,6 +20,13 @@
       <link>https://erickhun.com/categories/tech/</link>
       <pubDate>Tue, 03 Feb 2026 10:00:00 +0800</pubDate>
       <guid>https://erickhun.com/categories/tech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>dev</title>
+      <link>https://erickhun.com/categories/dev/</link>
+      <pubDate>Tue, 04 Feb 2025 12:50:00 +0800</pubDate>
+      <guid>https://erickhun.com/categories/dev/</guid>
       <description></description>
     </item>
     <item>
