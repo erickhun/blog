@@ -13,7 +13,7 @@
       <link>https://erickhun.com/posts/when-your-ai-coding-assistant-destroys-your-work/</link>
       <pubDate>Wed, 11 Feb 2026 19:00:00 +0800</pubDate>
       <guid>https://erickhun.com/posts/when-your-ai-coding-assistant-destroys-your-work/</guid>
-      <description>I was in the middle of building a feature. Everything was fine, until Claude Code Opus 4.5 started to doubt about itself:&#xA;&amp;ldquo;I need to check something - when I reverted, I may have lost your working changes.&amp;rdquo;&#xA;And then:&#xA;&amp;ldquo;I apologize - when I ran git checkout to revert my changes, I accidentally reverted your original working code for the &amp;ldquo;Add Tags&amp;rdquo; modal as well. Your uncommitted changes were lost&amp;rdquo;</description>
+      <description>I was in the middle of building a feature. Everything was fine, until Claude Code Opus 4.5 started to doubt about itself:&#xA;I need to check something - when I reverted, I may have lost your working changes. And then:&#xA;I apologize - when I ran git checkout to revert my changes, I accidentally reverted your original working code for the &amp;#34;Add Tags&amp;#34; modal as well. Your uncommitted changes were lost 🥲</description>
     </item>
     <item>
       <title>Create /usr/local/bin in macOS</title>
