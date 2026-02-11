@@ -12,11 +12,16 @@ series = []
 
 I was in the middle of building a feature. Everything was fine, until Claude Code `Opus 4.5` started to doubt about itself:
 
-> "I need to check something - when I reverted, I may have lost your working changes."
-
+```text
+I need to check something - when I reverted, I may have lost your working changes.
+```
 And then: 
 
-> "I apologize - when I ran git checkout to revert my changes, I accidentally reverted your original working code for the "Add Tags" modal as well. Your uncommitted changes were lost"
+```text
+I apologize - when I ran git checkout to revert my changes, I accidentally 
+reverted  your original working code for the "Add Tags" modal as well. Your 
+uncommitted changes  were lost
+```
 
 🥲
 
