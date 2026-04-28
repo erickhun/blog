@@ -187,3 +187,6 @@ Cool thing about this setup is you can literally use it with everything. I'm now
 I drop all status updates in Obsidian - what I'm doing, project status, challenges I'm facing. Claude challenges me on what I'm working on, connects it to past decisions I've made, and spots patterns I miss.
 
 It's like having multiple partners with unlimited knowledge and experience who have all the context it needs.  
+
+If wiring all this up yourself feels like too much, I'm working on [heylife — your personal AI for life goals](https://heylife.ai). Specialized agents handle the boring parts across health, work, relationships, money, and family so you can focus on the moves that actually matter.
+
