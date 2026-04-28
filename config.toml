@@ -16,8 +16,8 @@ googleAnalytics = "UA-106516-7"
 
 [params]
     author = "Eric Khun"
-    info = "engineering @ <a href=\"https://buffer.com\">buffer</a> <br/> 🤖 <a href=\"https://heylife.ai\">heylife: Your Personal AI for Life Goals</a> <br/> 🎮 PlayCraft: <a href=\"https://craftmygame.com\">Turn any Website into Engaging Games</a> <br/>  🎨 <a href=\"https://project-memento.com\">project memento </a>  🇹🇼  <a href=\"https://taiwangoldcard.com\">taiwangoldcard.com</a> 👾  <a href=\"https://taipeidev.com\">taipeidev.com </a> "
-    description = "Eric Khun's essays - I write about Taiwan - Scalability - Infrastructure - Engineering"
+    info = "engineering @ <a href=\"https://buffer.com\">buffer</a> <br/> 🤖 <a href=\"https://heylife.ai\">heylife: Your Personal AI for Life Goals</a> <br/> 🎮 Crafmygame: <a href=\"https://craftmygame.com\">Build games with AI for your brand</a> <br/>  🎨 <a href=\"https://project-memento.com\">project memento </a>  🇹🇼  <a href=\"https://taiwangoldcard.com\">taiwangoldcard.com</a> 👾  <a href=\"https://taipeidev.com\">taipeidev.com </a> "
+    description = "I write about AI - Taiwan - Scalability - Infrastructure - Engineering"
     keywords = "blog, developer, personal, data"
     avatarurl = "img/eric.jpg"
 
