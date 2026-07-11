@@ -16,7 +16,7 @@ googleAnalytics = "UA-106516-7"
 
 [params]
     author = "Eric Khun"
-    info = "engineering @ <a href=\"https://buffer.com\">buffer</a> <br/> 🤖 <a href=\"https://heylife.ai\">heylife: Your Personal AI for Life Goals</a> <br/> 🎮 Crafmygame: <a href=\"https://craftmygame.com\">Build games with AI for your brand</a> <br/>  🎨 <a href=\"https://project-memento.com\">project memento </a>  🇹🇼  <a href=\"https://taiwangoldcard.com\">taiwangoldcard.com</a> 👾  <a href=\"https://taipeidev.com\">taipeidev.com </a> "
+    info = "after 11 years running infrastructure at <a href=\"https://buffer.com\">buffer</a>,<br/> I quit to build my own things with AI"
     description = "I write about AI - Taiwan - Scalability - Infrastructure - Engineering"
     keywords = "blog, developer, personal, data"
     avatarurl = "img/eric.jpg"
@@ -24,7 +24,7 @@ googleAnalytics = "UA-106516-7"
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
 
-    footercontent = "Currently building <a href=\"https://heylife.ai\">heylife.ai using AI agents to achieve your life's goals</a> — feel free to contact me <a href=\"https://twitter.com/eric_khun\">@eric_khun</a>"
+    footercontent = "Currently building <a href=\"https://heylife.ai\">heylife</a>, an iOS app to always be ready for your calendar. Feel free to contact me <a href=\"https://twitter.com/eric_khun\">@eric_khun</a>"
 
     hidecredits = true
     hidecopyright = true
@@ -32,7 +32,7 @@ googleAnalytics = "UA-106516-7"
     rtl = false
 
     math = true
-    # custom_css = ["css/custom.css"]
+    custom_css = ["css/custom.css"]
 
 
 # Social links
