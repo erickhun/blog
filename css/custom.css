@@ -1,0 +1,37 @@
+/* About page story section (rendered by layouts/about/list.html) */
+.centered .about {
+  max-width: 100%;
+}
+
+.about-story {
+  max-width: 68rem;
+  margin: 1.5rem auto 0;
+  text-align: left;
+}
+
+.about-story .fas {
+  color: #a0a0a0;
+  font-size: 1.4rem;
+  margin-right: 0.4rem;
+}
+
+.about-story h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: #909090;
+  margin: 3.2rem 0 0.4rem;
+}
+
+.about-story p {
+  font-size: 1.7rem;
+  line-height: 1.6;
+  margin: 1.1rem 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-story {
+    padding: 0 2rem;
+  }
+}
