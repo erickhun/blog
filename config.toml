@@ -24,7 +24,7 @@ googleAnalytics = "UA-106516-7"
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
 
-    footercontent = "Currently building <a href=\"https://heylife.ai\">heylife</a>, an app to always be ready for all your events in your calendar, among others. <a href=\"/about\">Feel free to contact me</a>"
+    footercontent = "Currently building <a href=\"https://antics.gg\">antics</a>, multiplayer browser games you play with friends in one click - or vibe-code your own, and <a href=\"https://heylife.ai\">heylife</a>, an app to always be ready for all your events in your calendar. <a href=\"/about\">Feel free to contact me</a>"
 
     hidecredits = true
     hidecopyright = true
