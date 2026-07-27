@@ -8,7 +8,7 @@ slug = ""
 
 <i class="fas fa-mobile-alt fa-fw" aria-hidden="true"></i> [heylife](https://heylife.ai): an iOS app so you're always ready for what's on your calendar
 
-<i class="fas fa-gamepad fa-fw" aria-hidden="true"></i> [antics](https://antics.gg): play [multiplayer browser games](https://antics.gg/games) with friends, or [vibe-code your own](https://antics.gg/make-a-game) - no install, no account. Coding agents can ship straight to it via the [antics MCP server](https://antics.gg/mcp)
+<i class="fas fa-gamepad fa-fw" aria-hidden="true"></i> [antics](https://antics.gg): [fun multiplayer games to play with friends](https://antics.gg/games) right in your browser - no install, no account - or [make your multiplayer game with AI](https://antics.gg/make-a-game) in minutes. Coding agents can ship straight to it through the [antics MCP server](https://antics.gg/mcp)
 
 ### running communities in Taiwan
 

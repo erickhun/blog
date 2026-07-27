@@ -121,7 +121,7 @@ Software is getting exciting again. And we're about to see crazy things coming.
 **If you want to build this yourself:**
 - [pi-mono](https://github.com/badlogic/pi-mono) - The framework OpenClaw uses, by [badlogic](https://github.com/badlogic)
 - [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview) - Anthropic's toolkit for building coding agents
--  I'm applying this agent-native architecture to [antics](https://antics.gg) - so anyone can describe a game in plain English and get a real multiplayer version of it, rooms and leaderboards included. It's live now: [play the games](https://antics.gg/games), [make your own](https://antics.gg/make-a-game), or point Claude Code / Codex / Cursor at the [antics MCP server](https://antics.gg/mcp) and ship one from your terminal.
+-  I'm applying this agent-native architecture to [antics](https://antics.gg) - so anyone can describe a game in plain English and get a real multiplayer version of it, rooms and leaderboards included. It's live now: [play fun multiplayer games with friends](https://antics.gg/games), [make your multiplayer game with AI](https://antics.gg/make-a-game), or point Claude Code / Codex / Cursor at the [antics MCP server](https://antics.gg/mcp) and ship one from your terminal.
 
 **People to follow:** [Dan Shipper](https://x.com/danshipper) wrote the Every.to article that consolidated this concept. [Brandon](https://x.com/bkase_) and [David](https://x.com/cryptodavidw) are both building AI-native products right now - all worth following if you're interested in this space.
 
