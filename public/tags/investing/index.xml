@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>investing on Eric Khun</title>
+    <link>https://erickhun.com/tags/investing/</link>
+    <description>Recent content in investing on Eric Khun</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 29 Jul 2026 21:30:00 +0800</lastBuildDate>
+    <atom:link href="https://erickhun.com/tags/investing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>All the Wrong Reasons Why Google Finance Changed Its Design</title>
+      <link>https://erickhun.com/posts/google-finance-new-design/</link>
+      <pubDate>Wed, 29 Jul 2026 21:30:00 +0800</pubDate>
+      <guid>https://erickhun.com/posts/google-finance-new-design/</guid>
+      <description>On July 23, Google Finance left beta and the &amp;ldquo;Switch to classic Google Finance&amp;rdquo; link disappeared. If you&amp;rsquo;ve opened a ticker page since then, you&amp;rsquo;ve seen the result: the AI-powered redesign, tested in the US since August 2025 and global since April, is now the only Google Finance there is.&#xA;Google Finance has been my default quick-check for years — it&amp;rsquo;s a big part of how I invest from Taiwan. So I&amp;rsquo;ve been following this redesign closely (disclosure at the bottom).</description>
+    </item>
+  </channel>
+</rss>
