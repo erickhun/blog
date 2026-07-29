@@ -2,37 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://erickhun.com/posts/google-finance-new-design/</loc>
+    <lastmod>2026-07-29T21:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://erickhun.com/categories/</loc>
+    <lastmod>2026-07-29T21:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://erickhun.com/</loc>
+    <lastmod>2026-07-29T21:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://erickhun.com/tags/google-finance/</loc>
+    <lastmod>2026-07-29T21:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://erickhun.com/tags/investing/</loc>
+    <lastmod>2026-07-29T21:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://erickhun.com/posts/</loc>
+    <lastmod>2026-07-29T21:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://erickhun.com/tags/product/</loc>
+    <lastmod>2026-07-29T21:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://erickhun.com/categories/product/</loc>
+    <lastmod>2026-07-29T21:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://erickhun.com/tags/</loc>
+    <lastmod>2026-07-29T21:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://erickhun.com/categories/tech/</loc>
+    <lastmod>2026-07-29T21:30:00+08:00</lastmod>
+  </url><url>
     <loc>https://erickhun.com/tags/ai/</loc>
     <lastmod>2026-02-11T19:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://erickhun.com/</loc>
-    <lastmod>2026-02-11T19:00:00+08:00</lastmod>
-  </url><url>
     <loc>https://erickhun.com/tags/git/</loc>
-    <lastmod>2026-02-11T19:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://erickhun.com/posts/</loc>
-    <lastmod>2026-02-11T19:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://erickhun.com/tags/</loc>
     <lastmod>2026-02-11T19:00:00+08:00</lastmod>
   </url><url>
     <loc>https://erickhun.com/posts/when-your-ai-coding-assistant-destroys-your-work/</loc>
     <lastmod>2026-02-11T19:00:00+08:00</lastmod>
   </url><url>
     <loc>https://erickhun.com/tags/agents/</loc>
-    <lastmod>2026-02-03T10:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://erickhun.com/categories/</loc>
-    <lastmod>2026-02-03T10:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://erickhun.com/tags/product/</loc>
-    <lastmod>2026-02-03T10:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://erickhun.com/categories/product/</loc>
-    <lastmod>2026-02-03T10:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://erickhun.com/categories/tech/</loc>
     <lastmod>2026-02-03T10:00:00+08:00</lastmod>
   </url><url>
     <loc>https://erickhun.com/posts/coding-agents-no-happy-path/</loc>
