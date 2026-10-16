@@ -47,6 +47,11 @@ googleAnalytics = "UA-106516-7"
     weight = 2
     url = "https://www.instagram.com/juiced69"
 [[params.social]]
+    name = "Threads"
+    icon = "fab fa-threads fa-2x"
+    weight = 2
+    url = "https://www.threads.com/@juiced69"
+[[params.social]]
     name = "Linkedin"
     icon = "fab fa-linkedin fa-2x"
     weight = 2
