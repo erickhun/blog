@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2021-11-06T10:40:21+08:00
-modified_date = 2024-11-19T10:40:21+08:00
+modified_date = 2026-11-25T11:40:00+08:00
 title = "Where to Buy a whole Turkey in Taipei?"
 description = ""
 slug = "" 
@@ -13,9 +13,18 @@ series = []
 
 It is Thanksgiving / Christmas, and you are looking to cook a turkey in Taipei for your group of friends. You came at the right place! 
 
-## Costco (available in 2024!)
+## Costco in Taipei
 
-In November 2024, Costco has Taiwanese Turkey! They cost 315TWD/kg, between 1800 to 2400 TWD for a 6 to 8kg one: 
+November 2026: Costco Taiwan lists  a Taiwan-raised, raw frozen turkey weighing **8–10 kg**. for  **NT$299/kg** on November 11, 2026. A whole bird costs **NT$2,392–2,990**, depending on its weight. [Costco product listing](https://www.costco.com.tw/Warehouse-Only/Food-Beverages/Frozen-Food/Yuan-Jin-Chuang-Frozen-Turkey-8-10-kg-Count/p/407505) ·
+
+**Beitou** is the only Taipei branch where I found a dated sighting. A shopper reported seeing two turkeys there on November 19. As of November 25, I couldn’t confirm stock at Beitou, Neihu, or any New Taipei branch. [Shopper’s Facebook comment](https://www.facebook.com/groups/expatsintaiwan/posts/4348928935324391/?comment_id=4348965818654036)
+
+Before you go, call **02-449-9909**,  [Costco Taiwan customer service](https://www.costco.com.tw/CustomerServiceContactUsPhoneWarehouse)
+
+
+### Costco turkeys in previous years
+
+In November 2024, Costco sold smaller Taiwanese turkeys, weighing 6–8 kg, for NT$315/kg. Here’s the one from that year.
 
 ![Costco Taiwan Turkey 2024](/img/turkey-taipei/turkey-taiwan-2024-costco.jpg)
 
@@ -28,6 +37,10 @@ Here is a photo of the US Frozen Butterball Turkeys from the US (not the Taiwan 
 
 Note: Costco did not have turkeys in 2022 and 2023.
 
+
+## Fresh turkey delivered by a Tainan, Yunli, Chiayi farmers
+
+You can find farmer through the ROC Turkey Association’s directory, which lists phone numbers for suppliers in **Yunlin, Chiayi, and Tainan**. Call one near you to ask about price and delivery dates.Ask a  a Chinese-speaking friend to help with the call if needed. [ROC Turkey Association supplier directory](https://turkey.org.tw/about-store/)
 
 ## From a farm (online)
 
